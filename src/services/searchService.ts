@@ -48,7 +48,7 @@ export class SearchService {
     if (translation) return translation.content;
     
     // Fallback to default or English
-    const defaultTrans = field.find(t => t.isDefault) || field.find(t => t.lang === 'en');
+    const defaultTrans = field.find(t => t.isDefault) || field.find(t => t.lang === 'en');       
     return defaultTrans ? defaultTrans.content : '';
   }
 }
