@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif:wght@400;600;700&family=Noto+Serif+Devanagari:wght@400;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --heading-font: 'Cinzel', serif;
+}
+
+/* Minimal Leaflet CSS for map functionality */
+.leaflet-container {
+  height: 400px;
+  width: 100%;
+  background: #ddd;
+  outline: 0;
+  position: relative;
+}
+
+.leaflet-map-pane {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.leaflet-tile {
+  filter: inherit;
+  visibility: inherit;
+  opacity: 1;
+}
+
+.leaflet-tile-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.leaflet-zoom-box {
+  width: 0;
+  height: 0;
+  border: 2px dotted #38f;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.leaflet-control {
+  position: relative;
+  z-index: 800;
+  pointer-events: visiblePainted;
+  pointer-events: auto;
+}
+
+.leaflet-control-attribution {
+  background: #fff;
+  background: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  padding: 0 5px;
+  font-size: 11px;
+  color: #333;
+}
+
+.leaflet-popup {
+  position: absolute;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.leaflet-popup-content-wrapper {
+  padding: 1px;
+  text-align: left;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+}
+
+.leaflet-popup-content {
+  margin: 13px 19px;
+  line-height: 1.4;
+}
+
+.leaflet-popup-close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 4px 4px 0 0;
+  border: none;
+  text-align: center;
+  width: 18px;
+  height: 14px;
+  font: 16px/14px Tahoma, Verdana, sans-serif;
+  color: #c3c3c3;
+  text-decoration: none;
+  font-weight: bold;
+  background: transparent;
+}
+
+.leaflet-popup-close-button:hover {
+  color: #999;
+}
+
+.leaflet-marker-icon {
+  margin-left: -12px;
+  margin-top: -41px;
+  width: 25px;
+  height: 41px;
+}
+
+.leaflet-marker-shadow {
+  margin-left: -12px;
+  margin-top: -41px;
+  width: 41px;
+  height: 41px;
+}
+
+:root {
+  --rajput-black-brown: #0E0A09;
+  --royal-maroon: #3B0D0D;
+  --imperial-gold: #D4A24C;
+
+  --sandstone: #D4A574;
+  --sandstone-light: #E8C4A0;
+  --sandstone-dark: #B8956A;
+  --saffron: #FF9933;
+  --saffron-light: #FFB366;
+  --saffron-dark: #E6851F;
+  --maroon: var(--royal-maroon);
+  --maroon-light: #A6334D;
+  --maroon-dark: #5C0017;
+  --gold: var(--imperial-gold);
+  --gold-light: #FFED4E;
+  --gold-dark: #E6C200;
+  --royal-blue: #002147;
+  --royal-blue-light: #1A4B73;
+  --ivory: #FFFFF0;
+  --charcoal: var(--rajput-black-brown);
+  --royal-ivory: #FFFFF0;
+  --shehrawat-blood-red: var(--royal-maroon);
+  --imperial-gold: var(--imperial-gold);
+  --ink-black: var(--rajput-black-brown);
+  --royal-silver: #C0C0C0;
+  --sun-parchment: #FDFBF7;
+  --antique-gold: #CFB53B;
+  
+  --background: var(--ivory);
+  --foreground: var(--charcoal);
+  --primary: var(--maroon);
+  --secondary: var(--saffron);
+  --accent: var(--gold);
+  --muted: var(--sandstone-light);
+}
+
+@theme inline {
+  /* Colors */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-muted: var(--muted);
+  
+  --color-sandstone: var(--sandstone);
+  --color-sandstone-light: var(--sandstone-light);
+  --color-sandstone-dark: var(--sandstone-dark);
+  --color-saffron: var(--saffron);
+  --color-saffron-light: var(--saffron-light);
+  --color-saffron-dark: var(--saffron-dark);
+  --color-maroon: var(--maroon);
+  --color-maroon-light: var(--maroon-light);
+  --color-maroon-dark: var(--maroon-dark);
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-gold-dark: var(--gold-dark);
+  --color-royal-blue: var(--royal-blue);
+  --color-royal-blue-light: var(--royal-blue-light);
+  --color-ivory: var(--ivory);
+  --color-charcoal: var(--charcoal);
+  --color-royal-ivory: var(--royal-ivory);
+  --color-shehrawat-blood-red: var(--shehrawat-blood-red);
+  --color-imperial-gold: var(--imperial-gold);
+  --color-ink-black: var(--ink-black);
+  --color-royal-silver: var(--royal-silver);
+  --color-sun-parchment: var(--sun-parchment);
+  --color-antique-gold: var(--antique-gold);
+  
+  /* Typography */
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: var(--font-geist-mono);
+  --font-serif: 'Cinzel', serif;
+  --font-display: 'Playfair Display', serif;
+  --font-body: 'Inter', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: var(--royal-blue);
+    --foreground: var(--ivory);
+    --primary: var(--saffron);
+    --secondary: var(--gold);
+    --accent: var(--sandstone-light);
+    --muted: var(--royal-blue-light);
+  }
+}
+
+/* Custom Textures */
+.texture-paper {
+  background-color: var(--ivory);
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.1'/%3E%3C/svg%3E");
+}
+
+.texture-mandala {
+  background-image: 
+    radial-gradient(circle at 50% 50%, transparent 10%, rgba(212, 165, 116, 0.1) 10%, rgba(212, 165, 116, 0.1) 20%, transparent 20%, transparent 30%, rgba(212, 165, 116, 0.1) 30%, rgba(212, 165, 116, 0.1) 40%, transparent 40%),
+    radial-gradient(circle at 0% 0%, transparent 10%, rgba(212, 165, 116, 0.1) 10%, rgba(212, 165, 116, 0.1) 20%, transparent 20%),
+    radial-gradient(circle at 100% 0%, transparent 10%, rgba(212, 165, 116, 0.1) 10%, rgba(212, 165, 116, 0.1) 20%, transparent 20%),
+    radial-gradient(circle at 0% 100%, transparent 10%, rgba(212, 165, 116, 0.1) 10%, rgba(212, 165, 116, 0.1) 20%, transparent 20%),
+    radial-gradient(circle at 100% 100%, transparent 10%, rgba(212, 165, 116, 0.1) 10%, rgba(212, 165, 116, 0.1) 20%, transparent 20%);
+  background-size: 100px 100px;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+html[lang="hi"] body {
+  font-family: 'Noto Serif Devanagari', 'Noto Serif', serif;
+}
+
+/* Typography utility classes */
+.font-cinzel { font-family: 'Cinzel', serif; }
+.font-playfair { font-family: 'Playfair Display', serif; }
+.font-cormorant { font-family: 'Cormorant Garamond', serif; }
+.font-inter { font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+.font-devanagari { font-family: 'Noto Serif Devanagari', 'Noto Serif', serif; }
+
+/* Shared elements */
+.gold-thin-border { border: 1px solid var(--gold); }
+.emblem-watermark {
+  background-image: radial-gradient(circle at 10% 10%, rgba(212,162,76,0.06) 0, transparent 30%),
+                    radial-gradient(circle at 90% 30%, rgba(212,162,76,0.05) 0, transparent 35%),
+                    radial-gradient(circle at 30% 80%, rgba(212,162,76,0.04) 0, transparent 40%);
+  background-repeat: no-repeat;
+}
+.jharokha-card {
+  border: 1px solid rgba(212,162,76,0.35);
+  border-radius: 20px 20px 6px 6px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.7), rgba(255,255,255,0.5));
+  backdrop-filter: blur(2px);
+  overflow: hidden;
+}
+
+/* Rajasthani Design Elements */
+.palace-arch {
+  border-radius: 50% 50% 0 0;
+  position: relative;
+}
+
+.palace-arch::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 4px;
+  background: linear-gradient(90deg, var(--gold), var(--saffron), var(--gold));
+  border-radius: 2px;
+}
+
+.rajasthani-pattern {
+  background-image: 
+    radial-gradient(circle at 25% 25%, var(--gold) 2px, transparent 2px),
+    radial-gradient(circle at 75% 75%, var(--saffron) 2px, transparent 2px);
+  background-size: 20px 20px;
+}
+
+.fresco-texture {
+  background-image: 
+    linear-gradient(45deg, transparent 25%, rgba(212, 165, 116, 0.1) 25%, rgba(212, 165, 116, 0.1) 50%, transparent 50%, transparent 75%, rgba(212, 165, 116, 0.1) 75%);
+  background-size: 4px 4px;
+}
+
+.royal-gradient {
+  background: linear-gradient(135deg, var(--maroon), var(--maroon-dark), var(--royal-blue));
+}
+
+.saffron-gradient {
+  background: linear-gradient(135deg, var(--saffron), var(--gold), var(--saffron-light));
+}
+
+.sandstone-gradient {
+  background: linear-gradient(135deg, var(--sandstone-light), var(--sandstone), var(--sandstone-dark));
+}
+
+/* Hover Effects */
+.rajput-hover {
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.rajput-hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+.rajput-hover:hover::before {
+  left: 100%;
+}
+
+/* Festival Mode Styles */
+.festival-mode {
+  animation: festivalGlow 2s ease-in-out infinite alternate;
+}
+
+@keyframes festivalGlow {
+  from {
+    box-shadow: 0 0 20px var(--saffron);
+  }
+  to {
+    box-shadow: 0 0 30px var(--gold), 0 0 40px var(--saffron);
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/* Legends of Rajputana - Vintage Warrior Cards (Redesign)                    */
+/* -------------------------------------------------------------------------- */
+
+.antique-frame {
+  position: relative;
+  /* Heavy, ceremonial frame structure */
+  background-color: #1a1510; /* Dark, heavy base */
+  
+  /* Antique Gold / Oxidized Brass Gradient Border */
+  /* Using box-shadow for bevels + border for the metallic rim */
+  border: 8px solid transparent;
+  border-image: linear-gradient(
+    145deg, 
+    #6d5635 0%,   /* Dark oxidized bronze */
+    #bfa365 20%,  /* Muted antique gold */
+    #eec900 45%,  /* High gold glint */
+    #a88e48 60%,  /* Mid-tone brass */
+    #5a4628 100%  /* Deep shadow bronze */
+  ) 1;
+  
+  /* Handcrafted bevels & soft oil-lamp shadow */
+  box-shadow: 
+    /* Inner inset shadow for depth (relic box feel) */
+    inset 0 0 20px rgba(0, 0, 0, 0.8),
+    /* Outer rim highlight */
+    0 0 0 1px rgba(255, 215, 0, 0.15),
+    /* Diffused oil-lamp glow / shadow */
+    0 10px 30px -5px rgba(0, 0, 0, 0.6),
+    0 0 15px rgba(184, 134, 11, 0.1); 
+    
+  transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94), 
+              box-shadow 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Inner Maroon/Ochre Stroke - Double Frame */
+.antique-frame::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  border: 1px solid rgba(139, 69, 19, 0.5); /* SaddleBrown/Ochre fade */
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+  z-index: 10;
+}
+
+/* Corner Ornaments - Rajput Miniature Style */
+.antique-corner {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  z-index: 20;
+  /* Ornate corner graphic simulation using gradients */
+  background: 
+    radial-gradient(circle at center, #800020 25%, transparent 26%),
+    conic-gradient(from 0deg, transparent 0deg, #b8860b 90deg, transparent 180deg);
+  filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.7));
+  opacity: 0.9;
+}
+
+.antique-corner.tl { top: -9px; left: -9px; transform: rotate(0deg); clip-path: polygon(0 0, 100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%); }
+.antique-corner.tr { top: -9px; right: -9px; transform: rotate(90deg); clip-path: polygon(0 0, 100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%); }
+.antique-corner.br { bottom: -9px; right: -9px; transform: rotate(180deg); clip-path: polygon(0 0, 100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%); }
+.antique-corner.bl { bottom: -9px; left: -9px; transform: rotate(270deg); clip-path: polygon(0 0, 100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%); }
+
+/* Portrait Container & Texture */
+.antique-portrait {
+  background-color: #1a1a1a;
+  position: relative;
+}
+
+/* Aged Parchment/Canvas Grain Overlay */
+.antique-portrait::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  /* SVG Noise for grain */
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.3'/%3E%3C/svg%3E");
+  background-size: 150px 150px;
+  /* Warm sepia tint via background-color + blending */
+  background-color: rgba(101, 67, 33, 0.15); 
+  mix-blend-mode: overlay;
+  pointer-events: none;
+  /* Heavy internal vignette */
+  box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.7);
+}
+
+.antique-portrait img {
+  /* Vintage Archival Look: Desaturated, Sepia, Softened */
+  filter: sepia(0.5) contrast(1.1) saturate(0.7) brightness(0.9);
+  transition: filter 0.6s ease, transform 0.8s ease;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Hover States */
+.antique-frame-hover:hover {
+  transform: translateY(-4px);
+  /* Intense gold glow on hover */
+  box-shadow: 
+    inset 0 0 20px rgba(0, 0, 0, 0.6),
+    0 0 0 1px rgba(255, 215, 0, 0.4),
+    0 15px 40px -5px rgba(0, 0, 0, 0.7),
+    0 0 25px rgba(255, 215, 0, 0.15);
+}
+
+.antique-frame-hover:hover .antique-portrait img {
+  /* Reveal slightly more color ("Restoration" effect) */
+  filter: sepia(0.2) contrast(1.15) saturate(0.95) brightness(1.0);
+  transform: scale(1.03);
+}
+
+/* Inscription Typography (Serif, Royal, Centered) */
+.inscription-text {
+  font-family: 'Cormorant Garamond', serif !important;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #3e2723; /* Deep wood/ink color */
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+  
+  /* Decorative separator below text */
+  position: relative;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+.inscription-text::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #b8860b, transparent);
+  opacity: 0.6;
+}
+
+.inscription-subtext {
+  font-family: 'Cinzel', serif;
+  font-size: 0.75rem;
+  color: #6d4c41;
+  letter-spacing: 0.05em;
+  opacity: 0.8;
+}
+
+/* Master Themes */
+.theme-light-heritage {
+  --background: #F4E7D0;       /* Parchment Cream */
+  --foreground: #5A1A18;       /* Ink Maroon */
+  --maroon: #5A1A18;           /* Ink Maroon */
+  --sandstone: #EAD9B8;        /* Sandstone Beige */
+  --sandstone-light: #F2E4C9;
+  --sandstone-dark: #C9B089;
+  --gold: #D7B56C;             /* Soft Gold */
+  --charcoal: #2C1A12;         /* Deep ink for subtle elements */
+  --muted: #EAD9B8;            /* Use sandstone as muted */
+}
+
+.theme-dark-valor {
+  --background: #0F0A08;       /* Black Brown */
+  --foreground: #FFF6E5;       /* Warm ivory for readability */
+  --maroon: #3B0D0D;           /* Deep Maroon */
+  --gold: #D4A24C;             /* Royal Gold */
+  --charcoal: #3A3A3A;         /* Steel Grey */
+  --sandstone: #3A3A3A;        /* Use steel grey tones for surfaces */
+  --sandstone-light: #595959;
+  --sandstone-dark: #1F1F1F;
+  --muted: #2A2622;            /* Very dark warm neutral */
+}
+
+/* Section Realms */
+.realm-home {
+  /* Keep defaults from light heritage; slightly warmer background */
+  --background: #F5E6D3;
+}
+.realm-battles {
+  --maroon: #3B0D0D;
+  --gold: #D4A24C;
+  --charcoal: #3A3A3A;
+}
+
+.realm-forts {
+  --background: #EAD9B8;       /* Sandstone Beige */
+  --sandstone: #EAD9B8;
+  --sandstone-light: #F2E4C9;
+  --sandstone-dark: #C9B089;
+  --gold: #D7B56C;
+}
+
+.realm-dynasties {
+  --maroon: #5A1A18;
+  --background: #F4E7D0;
+  --gold: #D7B56C;
+}
+
+.realm-legends {
+  --maroon: #3B0D0D;
+  --gold: #D4A24C;
+  --charcoal: #3A3A3A;
+}
+
+.realm-festivals {
+  --background: #F8ECD6;       /* Slightly brighter parchment */
+  --gold: #D7B56C;
+  --maroon: #5A1A18;
+}
+
+.realm-folktales {
+  --background: #F6E7CF;       /* Storybook warmth */
+  --sandstone-light: #F2E4C9;
+  --maroon: #5A1A18;
+  --charcoal: #4A2A1F;
+}
+
+.realm-weapons {
+  --maroon: #3B0D0D;
+  --gold: #D4A24C;
+  --charcoal: #3A3A3A;
+}
+
+.realm-blogs {
+  --background: #F4E7D0;       /* Neutral light for reading */
+  --maroon: #5A1A18;
+  --gold: #D7B56C;
+}

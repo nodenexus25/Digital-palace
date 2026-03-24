@@ -1,0 +1,1428 @@
+{
+    id: "nagabhata-ii",
+    name: "Nagabhata II",
+    hindiName: "Nagabhata II",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "805–833 CE",
+    kingdom: "Gurjara-Pratihara",
+    significance: "Pratihara Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Nagabhata II - A legendary warrior of Gurjara-Pratihara who lived during 805–833 CE."
+},
+  {
+    id: "vatsaraja",
+    name: "Vatsaraja",
+    hindiName: "Vatsaraja",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "775–805 CE",
+    kingdom: "Gurjara-Pratihara",
+    significance: "Pratihara Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Vatsaraja - A legendary warrior of Gurjara-Pratihara who lived during 775–805 CE."
+},
+  {
+    id: "bhoja-ii",
+    name: "Bhoja II",
+    hindiName: "Bhoja II",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 910 CE",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Bhoja II - A legendary warrior of Rajputana who lived during c. 910 CE."
+},
+  {
+    id: "mahendrapala-i",
+    name: "Mahendrapala I",
+    hindiName: "Mahendrapala I",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "885–910 CE",
+    kingdom: "Gurjara-Pratihara",
+    significance: "Pratihara Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Mahendrapala I - A legendary warrior of Gurjara-Pratihara who lived during 885–910 CE."
+},
+  {
+    id: "mahipala-i",
+    name: "Mahipala I",
+    hindiName: "Mahipala I",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "913–944 CE",
+    kingdom: "Gurjara-Pratihara",
+    significance: "Pratihara Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Mahipala I - A legendary warrior of Gurjara-Pratihara who lived during 913–944 CE."
+},
+  {
+    id: "devapala-pratihara",
+    name: "Devapala Pratihara",
+    hindiName: "Devapala Pratihara",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 950 CE",
+    kingdom: "Gurjara-Pratihara",
+    significance: "Pratihara Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Devapala Pratihara - A legendary warrior of Gurjara-Pratihara who lived during c. 950 CE."
+},
+  {
+    id: "vijayapala",
+    name: "Vijayapala",
+    hindiName: "Vijayapala",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 960 CE",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Vijayapala - A legendary warrior of Rajputana who lived during c. 960 CE."
+},
+  {
+    id: "munja-parmar",
+    name: "Munja Parmar",
+    hindiName: "Munja Parmar",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "972–990 CE",
+    kingdom: "Malwa (Paramara)",
+    significance: "Paramara Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Munja Parmar - A legendary warrior of Malwa (Paramara) who lived during 972–990 CE."
+},
+  {
+    id: "sindhuraja-parmar",
+    name: "Sindhuraja Parmar",
+    hindiName: "Sindhuraja Parmar",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "995–1010 CE",
+    kingdom: "Malwa (Paramara)",
+    significance: "Paramara Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Sindhuraja Parmar - A legendary warrior of Malwa (Paramara) who lived during 995–1010 CE."
+},
+  {
+    id: "raja-bhoja-parmar",
+    name: "Raja Bhoja Parmar",
+    hindiName: "Raja Bhoja Parmar",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1010–1055 CE",
+    kingdom: "Malwa (Paramara)",
+    significance: "Paramara Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Raja Bhoja Parmar - A legendary warrior of Malwa (Paramara) who lived during 1010–1055 CE."
+},
+  {
+    id: "udayaditya-parmar",
+    name: "Udayaditya Parmar",
+    hindiName: "Udayaditya Parmar",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1070–1086 CE",
+    kingdom: "Malwa (Paramara)",
+    significance: "Paramara Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Udayaditya Parmar - A legendary warrior of Malwa (Paramara) who lived during 1070–1086 CE."
+},
+  {
+    id: "lakshmadeva-parmar",
+    name: "Lakshmadeva Parmar",
+    hindiName: "Lakshmadeva Parmar",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 1090 CE",
+    kingdom: "Malwa (Paramara)",
+    significance: "Paramara Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Lakshmadeva Parmar - A legendary warrior of Malwa (Paramara) who lived during c. 1090 CE."
+},
+  {
+    id: "rana-hammir",
+    name: "Rana Hammir",
+    hindiName: "Rana Hammir",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1302–1364 CE",
+    kingdom: "Mewar",
+    significance: "Mewar Ruler/General",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Rana Hammir - A legendary warrior of Mewar who lived during 1302–1364 CE."
+},
+  {
+    id: "rana-kshetra-singh",
+    name: "Rana Kshetra Singh",
+    hindiName: "Rana Kshetra Singh",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1364–1382 CE",
+    kingdom: "Mewar",
+    significance: "Mewar Ruler/General",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Rana Kshetra Singh - A legendary warrior of Mewar who lived during 1364–1382 CE."
+},
+  {
+    id: "rana-mokal",
+    name: "Rana Mokal",
+    hindiName: "Rana Mokal",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1421–1433 CE",
+    kingdom: "Mewar",
+    significance: "Mewar Ruler/General",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Rana Mokal - A legendary warrior of Mewar who lived during 1421–1433 CE."
+},
+  {
+    id: "rana-udai-singh-i",
+    name: "Rana Udai Singh I",
+    hindiName: "Rana Udai Singh I",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1468–1473 CE",
+    kingdom: "Mewar",
+    significance: "Mewar Ruler/General",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Rana Udai Singh I - A legendary warrior of Mewar who lived during 1468–1473 CE."
+},
+  {
+    id: "rana-ratan-singh-ii",
+    name: "Rana Ratan Singh II",
+    hindiName: "Rana Ratan Singh II",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1528–1531 CE",
+    kingdom: "Mewar",
+    significance: "Mewar Ruler/General",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Rana Ratan Singh II - A legendary warrior of Mewar who lived during 1528–1531 CE."
+},
+  {
+    id: "rana-vikramaditya",
+    name: "Rana Vikramaditya",
+    hindiName: "Rana Vikramaditya",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1531–1536 CE",
+    kingdom: "Mewar",
+    significance: "Mewar Ruler/General",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Rana Vikramaditya - A legendary warrior of Mewar who lived during 1531–1536 CE."
+},
+  {
+    id: "rana-udai-singh-ii",
+    name: "Rana Udai Singh II",
+    hindiName: "Rana Udai Singh II",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1537–1572 CE",
+    kingdom: "Mewar",
+    significance: "Mewar Ruler/General",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Rana Udai Singh II - A legendary warrior of Mewar who lived during 1537–1572 CE."
+},
+  {
+    id: "amar-singh-i",
+    name: "Amar Singh I",
+    hindiName: "Amar Singh I",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1597–1620 CE",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Amar Singh I - A legendary warrior of Rajputana who lived during 1597–1620 CE."
+},
+  {
+    id: "karan-singh-ii",
+    name: "Karan Singh II",
+    hindiName: "Karan Singh II",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1620–1628 CE",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Karan Singh II - A legendary warrior of Rajputana who lived during 1620–1628 CE."
+},
+  {
+    id: "jagat-singh-i",
+    name: "Jagat Singh I",
+    hindiName: "Jagat Singh I",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1628–1652 CE",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Jagat Singh I - A legendary warrior of Rajputana who lived during 1628–1652 CE."
+},
+  {
+    id: "raj-singh-i",
+    name: "Raj Singh I",
+    hindiName: "Raj Singh I",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1652–1680 CE",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Raj Singh I - A legendary warrior of Rajputana who lived during 1652–1680 CE."
+},
+  {
+    id: "jai-singh-of-mewar",
+    name: "Jai Singh of Mewar",
+    hindiName: "Jai Singh of Mewar",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1680–1698 CE",
+    kingdom: "Mewar",
+    significance: "Mewar Ruler/General",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Jai Singh of Mewar - A legendary warrior of Mewar who lived during 1680–1698 CE."
+},
+  {
+    id: "amar-singh-ii",
+    name: "Amar Singh II",
+    hindiName: "Amar Singh II",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1698–1710 CE",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Amar Singh II - A legendary warrior of Rajputana who lived during 1698–1710 CE."
+},
+  {
+    id: "sangram-singh-ii",
+    name: "Sangram Singh II",
+    hindiName: "Sangram Singh II",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1710–1734 CE",
+    kingdom: "Jaipur (Kachwaha)",
+    significance: "Kachwaha Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Sangram Singh II - A legendary warrior of Jaipur (Kachwaha) who lived during 1710–1734 CE."
+},
+  {
+    id: "jagat-singh-ii",
+    name: "Jagat Singh II",
+    hindiName: "Jagat Singh II",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1734–1751 CE",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Jagat Singh II - A legendary warrior of Rajputana who lived during 1734–1751 CE."
+},
+  {
+    id: "rao-satal",
+    name: "Rao Satal",
+    hindiName: "Rao Satal",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 1489 CE",
+    kingdom: "Marwar (Rathore)",
+    significance: "Rathore Ruler/Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Rao Satal - A legendary warrior of Marwar (Rathore) who lived during c. 1489 CE."
+},
+  {
+    id: "rao-suja",
+    name: "Rao Suja",
+    hindiName: "Rao Suja",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1492–1515 CE",
+    kingdom: "Marwar (Rathore)",
+    significance: "Rathore Ruler/Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Rao Suja - A legendary warrior of Marwar (Rathore) who lived during 1492–1515 CE."
+},
+  {
+    id: "rao-ganga",
+    name: "Rao Ganga",
+    hindiName: "Rao Ganga",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1515–1542 CE",
+    kingdom: "Marwar (Rathore)",
+    significance: "Rathore Ruler/Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Rao Ganga - A legendary warrior of Marwar (Rathore) who lived during 1515–1542 CE."
+},
+  {
+    id: "rao-maldev",
+    name: "Rao Maldev",
+    hindiName: "Rao Maldev",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1532–1562 CE",
+    kingdom: "Marwar (Rathore)",
+    significance: "Rathore Ruler/Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Rao Maldev - A legendary warrior of Marwar (Rathore) who lived during 1532–1562 CE."
+},
+  {
+    id: "rao-chandrasen",
+    name: "Rao Chandrasen",
+    hindiName: "Rao Chandrasen",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1562–1581 CE",
+    kingdom: "Marwar (Rathore)",
+    significance: "Rathore Ruler/Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Rao Chandrasen - A legendary warrior of Marwar (Rathore) who lived during 1562–1581 CE."
+},
+  {
+    id: "motaraja-udai-singh",
+    name: "Motaraja Udai Singh",
+    hindiName: "Motaraja Udai Singh",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1583–1595 CE",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Motaraja Udai Singh - A legendary warrior of Rajputana who lived during 1583–1595 CE."
+},
+  {
+    id: "sur-singh",
+    name: "Sur Singh",
+    hindiName: "Sur Singh",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1595–1619 CE",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Sur Singh - A legendary warrior of Rajputana who lived during 1595–1619 CE."
+},
+  {
+    id: "gaj-singh-i",
+    name: "Gaj Singh I",
+    hindiName: "Gaj Singh I",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1619–1638 CE",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Gaj Singh I - A legendary warrior of Rajputana who lived during 1619–1638 CE."
+},
+  {
+    id: "jaswant-singh-i",
+    name: "Jaswant Singh I",
+    hindiName: "Jaswant Singh I",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1638–1678 CE",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Jaswant Singh I - A legendary warrior of Rajputana who lived during 1638–1678 CE."
+},
+  {
+    id: "ajit-singh",
+    name: "Ajit Singh",
+    hindiName: "Ajit Singh",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1679–1724 CE",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Ajit Singh - A legendary warrior of Rajputana who lived during 1679–1724 CE."
+},
+  {
+    id: "abhai-singh",
+    name: "Abhai Singh",
+    hindiName: "Abhai Singh",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1724–1749 CE",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Abhai Singh - A legendary warrior of Rajputana who lived during 1724–1749 CE."
+},
+  {
+    id: "bakht-singh",
+    name: "Bakht Singh",
+    hindiName: "Bakht Singh",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1752–1753 CE",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Bakht Singh - A legendary warrior of Rajputana who lived during 1752–1753 CE."
+},
+  {
+    id: "vijay-singh",
+    name: "Vijay Singh",
+    hindiName: "Vijay Singh",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1752–1793 CE",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Vijay Singh - A legendary warrior of Rajputana who lived during 1752–1793 CE."
+},
+  {
+    id: "bhim-singh",
+    name: "Bhim Singh",
+    hindiName: "Bhim Singh",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1793–1803 CE",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Bhim Singh - A legendary warrior of Rajputana who lived during 1793–1803 CE."
+},
+  {
+    id: "man-singh",
+    name: "Man Singh",
+    hindiName: "Man Singh",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1803–1843 CE",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Man Singh - A legendary warrior of Rajputana who lived during 1803–1843 CE."
+},
+  {
+    id: "takht-singh",
+    name: "Takht Singh",
+    hindiName: "Takht Singh",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1843–1873 CE",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Takht Singh - A legendary warrior of Rajputana who lived during 1843–1873 CE."
+},
+  {
+    id: "jaswant-singh-ii",
+    name: "Jaswant Singh II",
+    hindiName: "Jaswant Singh II",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1873–1895 CE",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Jaswant Singh II - A legendary warrior of Rajputana who lived during 1873–1895 CE."
+},
+  {
+    id: "sardar-singh",
+    name: "Sardar Singh",
+    hindiName: "Sardar Singh",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1895–1911 CE",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Sardar Singh - A legendary warrior of Rajputana who lived during 1895–1911 CE."
+},
+  {
+    id: "someshvara",
+    name: "Someshvara",
+    hindiName: "Someshvara",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 1160 CE",
+    kingdom: "Ajmer/Ranthambore (Chauhan)",
+    significance: "Chauhan Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Someshvara - A legendary warrior of Ajmer/Ranthambore (Chauhan) who lived during c. 1160 CE."
+},
+  {
+    id: "vigraharaja-iv",
+    name: "Vigraharaja IV",
+    hindiName: "Vigraharaja IV",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1150–1164 CE",
+    kingdom: "Ajmer/Ranthambore (Chauhan)",
+    significance: "Chauhan Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Vigraharaja IV - A legendary warrior of Ajmer/Ranthambore (Chauhan) who lived during 1150–1164 CE."
+},
+  {
+    id: "arnoraja",
+    name: "Arnoraja",
+    hindiName: "Arnoraja",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 1135 CE",
+    kingdom: "Ajmer/Ranthambore (Chauhan)",
+    significance: "Chauhan Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Arnoraja - A legendary warrior of Ajmer/Ranthambore (Chauhan) who lived during c. 1135 CE."
+},
+  {
+    id: "ajayaraja-ii",
+    name: "Ajayaraja II",
+    hindiName: "Ajayaraja II",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 1110 CE",
+    kingdom: "Ajmer/Ranthambore (Chauhan)",
+    significance: "Chauhan Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Ajayaraja II - A legendary warrior of Ajmer/Ranthambore (Chauhan) who lived during c. 1110 CE."
+},
+  {
+    id: "hammir-deo-chauhan",
+    name: "Hammir Deo Chauhan",
+    hindiName: "Hammir Deo Chauhan",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "d. 1301 CE",
+    kingdom: "Ajmer/Ranthambore (Chauhan)",
+    significance: "Chauhan Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Hammir Deo Chauhan - A legendary warrior of Ajmer/Ranthambore (Chauhan) who lived during d. 1301 CE."
+},
+  {
+    id: "govindaraja-iv",
+    name: "Govindaraja IV",
+    hindiName: "Govindaraja IV",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 12th century",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Govindaraja IV - A legendary warrior of Rajputana who lived during c. 12th century."
+},
+  {
+    id: "samanta-singh",
+    name: "Samanta Singh",
+    hindiName: "Samanta Singh",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 12th century",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Samanta Singh - A legendary warrior of Rajputana who lived during c. 12th century."
+},
+  {
+    id: "tej-singh-chauhan",
+    name: "Tej Singh Chauhan",
+    hindiName: "Tej Singh Chauhan",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 13th century",
+    kingdom: "Ajmer/Ranthambore (Chauhan)",
+    significance: "Chauhan Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Tej Singh Chauhan - A legendary warrior of Ajmer/Ranthambore (Chauhan) who lived during c. 13th century."
+},
+  {
+    id: "viramdeva",
+    name: "Viramdeva",
+    hindiName: "Viramdeva",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 13th century",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Viramdeva - A legendary warrior of Rajputana who lived during c. 13th century."
+},
+  {
+    id: "anangpal-tomar-i",
+    name: "Anangpal Tomar I",
+    hindiName: "Anangpal Tomar I",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 736 CE",
+    kingdom: "Delhi (Tomar)",
+    significance: "Tomar Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Anangpal Tomar I - A legendary warrior of Delhi (Tomar) who lived during c. 736 CE."
+},
+  {
+    id: "anangpal-tomar-ii",
+    name: "Anangpal Tomar II",
+    hindiName: "Anangpal Tomar II",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1051–1081 CE",
+    kingdom: "Delhi (Tomar)",
+    significance: "Tomar Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Anangpal Tomar II - A legendary warrior of Delhi (Tomar) who lived during 1051–1081 CE."
+},
+  {
+    id: "prithvipala-tomar",
+    name: "Prithvipala Tomar",
+    hindiName: "Prithvipala Tomar",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 11th century",
+    kingdom: "Delhi (Tomar)",
+    significance: "Tomar Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Prithvipala Tomar - A legendary warrior of Delhi (Tomar) who lived during c. 11th century."
+},
+  {
+    id: "tejapala-tomar",
+    name: "Tejapala Tomar",
+    hindiName: "Tejapala Tomar",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 11th century",
+    kingdom: "Delhi (Tomar)",
+    significance: "Tomar Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Tejapala Tomar - A legendary warrior of Delhi (Tomar) who lived during c. 11th century."
+},
+  {
+    id: "madanapala-tomar",
+    name: "Madanapala Tomar",
+    hindiName: "Madanapala Tomar",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 11th century",
+    kingdom: "Delhi (Tomar)",
+    significance: "Tomar Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Madanapala Tomar - A legendary warrior of Delhi (Tomar) who lived during c. 11th century."
+},
+  {
+    id: "chandradeva-gahadavala",
+    name: "Chandradeva Gahadavala",
+    hindiName: "Chandradeva Gahadavala",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 1089 CE",
+    kingdom: "Kannauj (Gahadavala)",
+    significance: "Gahadavala Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Chandradeva Gahadavala - A legendary warrior of Kannauj (Gahadavala) who lived during c. 1089 CE."
+},
+  {
+    id: "jayachandra",
+    name: "Jayachandra",
+    hindiName: "Jayachandra",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1170–1194 CE",
+    kingdom: "Kannauj (Gahadavala)",
+    significance: "Gahadavala Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Jayachandra - A legendary warrior of Kannauj (Gahadavala) who lived during 1170–1194 CE."
+},
+  {
+    id: "harishchandra",
+    name: "Harishchandra",
+    hindiName: "Harishchandra",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 12th century",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Harishchandra - A legendary warrior of Rajputana who lived during c. 12th century."
+},
+  {
+    id: "vijayachandra",
+    name: "Vijayachandra",
+    hindiName: "Vijayachandra",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 12th century",
+    kingdom: "Kannauj (Gahadavala)",
+    significance: "Gahadavala Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Vijayachandra - A legendary warrior of Kannauj (Gahadavala) who lived during c. 12th century."
+},
+  {
+    id: "kanhadadeva-songara",
+    name: "Kanhadadeva Songara",
+    hindiName: "Kanhadadeva Songara",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "d. 1311 CE",
+    kingdom: "Jalore (Songara)",
+    significance: "Songara Chauhan Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Kanhadadeva Songara - A legendary warrior of Jalore (Songara) who lived during d. 1311 CE."
+},
+  {
+    id: "maldeo-songara",
+    name: "Maldeo Songara",
+    hindiName: "Maldeo Songara",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 14th century",
+    kingdom: "Jalore (Songara)",
+    significance: "Songara Chauhan Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Maldeo Songara - A legendary warrior of Jalore (Songara) who lived during c. 14th century."
+},
+  {
+    id: "viramdev-songara",
+    name: "Viramdev Songara",
+    hindiName: "Viramdev Songara",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 14th century",
+    kingdom: "Jalore (Songara)",
+    significance: "Songara Chauhan Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Viramdev Songara - A legendary warrior of Jalore (Songara) who lived during c. 14th century."
+},
+  {
+    id: "samarsimha-songara",
+    name: "Samarsimha Songara",
+    hindiName: "Samarsimha Songara",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 14th century",
+    kingdom: "Jalore (Songara)",
+    significance: "Songara Chauhan Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Samarsimha Songara - A legendary warrior of Jalore (Songara) who lived during c. 14th century."
+},
+  {
+    id: "prithviraj-songara",
+    name: "Prithviraj Songara",
+    hindiName: "Prithviraj Songara",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 14th century",
+    kingdom: "Ajmer/Ranthambore (Chauhan)",
+    significance: "Chauhan Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Prithviraj Songara - A legendary warrior of Ajmer/Ranthambore (Chauhan) who lived during c. 14th century."
+},
+  {
+    id: "rawal-samarasimha",
+    name: "Rawal Samarasimha",
+    hindiName: "Rawal Samarasimha",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 14th century",
+    kingdom: "Mewar (Guhila)",
+    significance: "Guhila Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Rawal Samarasimha - A legendary warrior of Mewar (Guhila) who lived during c. 14th century."
+},
+  {
+    id: "rawal-lakshman-singh",
+    name: "Rawal Lakshman Singh",
+    hindiName: "Rawal Lakshman Singh",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 14th century",
+    kingdom: "Mewar (Guhila)",
+    significance: "Guhila Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Rawal Lakshman Singh - A legendary warrior of Mewar (Guhila) who lived during c. 14th century."
+},
+  {
+    id: "rawal-tej-singh",
+    name: "Rawal Tej Singh",
+    hindiName: "Rawal Tej Singh",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 15th century",
+    kingdom: "Mewar (Guhila)",
+    significance: "Guhila Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Rawal Tej Singh - A legendary warrior of Mewar (Guhila) who lived during c. 15th century."
+},
+  {
+    id: "rawal-udai-singh",
+    name: "Rawal Udai Singh",
+    hindiName: "Rawal Udai Singh",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 15th century",
+    kingdom: "Mewar (Guhila)",
+    significance: "Guhila Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Rawal Udai Singh - A legendary warrior of Mewar (Guhila) who lived during c. 15th century."
+},
+  {
+    id: "kalla-rathore",
+    name: "Kalla Rathore",
+    hindiName: "Kalla Rathore",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "d. 1544 CE",
+    kingdom: "Marwar (Rathore)",
+    significance: "Rathore Ruler/Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Kalla Rathore - A legendary warrior of Marwar (Rathore) who lived during d. 1544 CE."
+},
+  {
+    id: "pabuji-rathore",
+    name: "Pabuji Rathore",
+    hindiName: "Pabuji Rathore",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 13th century",
+    kingdom: "Marwar (Rathore)",
+    significance: "Rathore Ruler/Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Pabuji Rathore - A legendary warrior of Marwar (Rathore) who lived during c. 13th century."
+},
+  {
+    id: "gogaji-chauhan",
+    name: "Gogaji Chauhan",
+    hindiName: "Gogaji Chauhan",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 11th century",
+    kingdom: "Ajmer/Ranthambore (Chauhan)",
+    significance: "Chauhan Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Gogaji Chauhan - A legendary warrior of Ajmer/Ranthambore (Chauhan) who lived during c. 11th century."
+},
+  {
+    id: "tejaji",
+    name: "Tejaji",
+    hindiName: "Tejaji",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 12th century",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Tejaji - A legendary warrior of Rajputana who lived during c. 12th century."
+},
+  {
+    id: "harbuji-sankhla",
+    name: "Harbuji Sankhla",
+    hindiName: "Harbuji Sankhla",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 14th century",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Harbuji Sankhla - A legendary warrior of Rajputana who lived during c. 14th century."
+},
+  {
+    id: "mehaji-mangalia",
+    name: "Mehaji Mangalia",
+    hindiName: "Mehaji Mangalia",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 14th century",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Mehaji Mangalia - A legendary warrior of Rajputana who lived during c. 14th century."
+},
+  {
+    id: "suraj-mal",
+    name: "Suraj Mal",
+    hindiName: "Suraj Mal",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1707–1763 CE",
+    kingdom: "Bharatpur",
+    significance: "Jat Ruler of Bharatpur",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Suraj Mal - A legendary warrior of Bharatpur who lived during 1707–1763 CE."
+},
+  {
+    id: "jawahar-singh",
+    name: "Jawahar Singh",
+    hindiName: "Jawahar Singh",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1763–1768 CE",
+    kingdom: "Bharatpur",
+    significance: "Jat Ruler of Bharatpur",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Jawahar Singh - A legendary warrior of Bharatpur who lived during 1763–1768 CE."
+},
+  {
+    id: "ratan-singh",
+    name: "Ratan Singh",
+    hindiName: "Ratan Singh",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1768–1769 CE",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Ratan Singh - A legendary warrior of Rajputana who lived during 1768–1769 CE."
+},
+  {
+    id: "kehri-singh",
+    name: "Kehri Singh",
+    hindiName: "Kehri Singh",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1769–1775 CE",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Kehri Singh - A legendary warrior of Rajputana who lived during 1769–1775 CE."
+},
+  {
+    id: "ranjit-singh-bharatpur",
+    name: "Ranjit Singh",
+    hindiName: "Ranjit Singh",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1775–1805 CE",
+    kingdom: "Bharatpur",
+    significance: "Jat Ruler of Bharatpur",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Ranjit Singh - A legendary warrior of Bharatpur who lived during 1775–1805 CE."
+},
+  {
+    id: "madho-singh-i",
+    name: "Madho Singh I",
+    hindiName: "Madho Singh I",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1750–1768 CE",
+    kingdom: "Jaipur (Kachwaha)",
+    significance: "Kachwaha Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Madho Singh I - A legendary warrior of Jaipur (Kachwaha) who lived during 1750–1768 CE."
+},
+  {
+    id: "madho-singh-ii",
+    name: "Madho Singh II",
+    hindiName: "Madho Singh II",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1880–1922 CE",
+    kingdom: "Jaipur (Kachwaha)",
+    significance: "Kachwaha Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Madho Singh II - A legendary warrior of Jaipur (Kachwaha) who lived during 1880–1922 CE."
+},
+  {
+    id: "jai-singh-i",
+    name: "Jai Singh I",
+    hindiName: "Jai Singh I",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1621–1667 CE",
+    kingdom: "Jaipur (Kachwaha)",
+    significance: "Kachwaha Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Jai Singh I - A legendary warrior of Jaipur (Kachwaha) who lived during 1621–1667 CE."
+},
+  {
+    id: "jai-singh-ii",
+    name: "Jai Singh II",
+    hindiName: "Jai Singh II",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1699–1743 CE",
+    kingdom: "Jaipur (Kachwaha)",
+    significance: "Kachwaha Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Jai Singh II - A legendary warrior of Jaipur (Kachwaha) who lived during 1699–1743 CE."
+},
+  {
+    id: "pratap-singh-kachhwaha",
+    name: "Pratap Singh Kachhwaha",
+    hindiName: "Pratap Singh Kachhwaha",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1778–1803 CE",
+    kingdom: "Jaipur (Kachwaha)",
+    significance: "Kachwaha Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Pratap Singh Kachhwaha - A legendary warrior of Jaipur (Kachwaha) who lived during 1778–1803 CE."
+},
+  {
+    id: "ram-singh-i",
+    name: "Ram Singh I",
+    hindiName: "Ram Singh I",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1835–1880 CE",
+    kingdom: "Jaipur (Kachwaha)",
+    significance: "Kachwaha Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Ram Singh I - A legendary warrior of Jaipur (Kachwaha) who lived during 1835–1880 CE."
+},
+  {
+    id: "sawai-man-singh-ii",
+    name: "Sawai Man Singh II",
+    hindiName: "Sawai Man Singh II",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1922–1970 CE",
+    kingdom: "Jaipur (Kachwaha)",
+    significance: "Kachwaha Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Sawai Man Singh II - A legendary warrior of Jaipur (Kachwaha) who lived during 1922–1970 CE."
+},
+  {
+    id: "bhim-singh-kachhwaha",
+    name: "Bhim Singh Kachhwaha",
+    hindiName: "Bhim Singh Kachhwaha",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 18th century",
+    kingdom: "Jaipur (Kachwaha)",
+    significance: "Kachwaha Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Bhim Singh Kachhwaha - A legendary warrior of Jaipur (Kachwaha) who lived during c. 18th century."
+},
+  {
+    id: "jagat-singh-kachhwaha",
+    name: "Jagat Singh Kachhwaha",
+    hindiName: "Jagat Singh Kachhwaha",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 18th century",
+    kingdom: "Jaipur (Kachwaha)",
+    significance: "Kachwaha Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Jagat Singh Kachhwaha - A legendary warrior of Jaipur (Kachwaha) who lived during c. 18th century."
+},
+  {
+    id: "prithvi-singh-kachhwaha",
+    name: "Prithvi Singh Kachhwaha",
+    hindiName: "Prithvi Singh Kachhwaha",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 18th century",
+    kingdom: "Jaipur (Kachwaha)",
+    significance: "Kachwaha Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Prithvi Singh Kachhwaha - A legendary warrior of Jaipur (Kachwaha) who lived during c. 18th century."
+},
+  {
+    id: "lakhaji-rathore",
+    name: "Lakhaji Rathore",
+    hindiName: "Lakhaji Rathore",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 18th century",
+    kingdom: "Marwar (Rathore)",
+    significance: "Rathore Ruler/Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Lakhaji Rathore - A legendary warrior of Marwar (Rathore) who lived during c. 18th century."
+},
+  {
+    id: "sardul-singh",
+    name: "Sardul Singh",
+    hindiName: "Sardul Singh",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 17th century",
+    kingdom: "Shekhawati",
+    significance: "Shekhawat Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Sardul Singh - A legendary warrior of Shekhawati who lived during c. 17th century."
+},
+  {
+    id: "kesho-rai",
+    name: "Kesho Rai",
+    hindiName: "Kesho Rai",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 16th century",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Kesho Rai - A legendary warrior of Rajputana who lived during c. 16th century."
+},
+  {
+    id: "himmat-singh",
+    name: "Himmat Singh",
+    hindiName: "Himmat Singh",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 18th century",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Himmat Singh - A legendary warrior of Rajputana who lived during c. 18th century."
+},
+  {
+    id: "devi-singh",
+    name: "Devi Singh",
+    hindiName: "Devi Singh",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 18th century",
+    kingdom: "Rajputana",
+    significance: "Legendary Warrior",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Devi Singh - A legendary warrior of Rajputana who lived during c. 18th century."
+},
+  {
+    id: "kesari-singh-barhath",
+    name: "Kesari Singh Barhath",
+    hindiName: "Kesari Singh Barhath",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1872–1941 CE",
+    kingdom: "Rajputana (Freedom Fighter)",
+    significance: "Freedom Fighter",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Kesari Singh Barhath - A legendary warrior of Rajputana (Freedom Fighter) who lived during 1872–1941 CE."
+},
+  {
+    id: "manikya-lal-verma",
+    name: "Manikya Lal Verma",
+    hindiName: "Manikya Lal Verma",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "1897–1969 CE",
+    kingdom: "Rajputana (Freedom Fighter)",
+    significance: "Freedom Fighter",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Manikya Lal Verma - A legendary warrior of Rajputana (Freedom Fighter) who lived during 1897–1969 CE."
+},
+  {
+    id: "gopal-singh-khichi",
+    name: "Gopal Singh Khichi",
+    hindiName: "Gopal Singh Khichi",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 14th century",
+    kingdom: "Gagron (Khichi)",
+    significance: "Khichi Chauhan Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Gopal Singh Khichi - A legendary warrior of Gagron (Khichi) who lived during c. 14th century."
+},
+  {
+    id: "surajmal-shekhawat",
+    name: "Surajmal Shekhawat",
+    hindiName: "Surajmal Shekhawat",
+    image: "/images/warriors/placeholder-warrior.png",
+    period: "c. 17th century",
+    kingdom: "Shekhawati",
+    significance: "Shekhawat Ruler",
+    legends: [
+        "Valiant warrior",
+        "Defender of dharma"
+    ],
+    fullStory: "Surajmal Shekhawat - A legendary warrior of Shekhawati who lived during c. 17th century."
+}

@@ -1,0 +1,49 @@
+{
+  "name": "rajputana-palace",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "preinstall": "npm config set legacy-peer-deps true",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
+    "@portabletext/react": "^6.0.3",
+    "@sanity/client": "^7.17.0",
+    "@sanity/image-url": "^2.0.3",
+    "@sanity/structure": "^2.36.2",
+    "@sanity/vision": "^5.15.0",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "framer-motion": "^12.23.24",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.563.0",
+    "next": "^16.1.6",
+    "next-sanity": "^12.1.1",
+    "react": "^19.2.2",
+    "react-dom": "^19.2.2",
+    "react-hook-form": "^7.71.1",
+    "react-intersection-observer": "^9.13.1",
+    "react-leaflet": "^4.2.1",
+    "recharts": "^3.7.0",
+    "sanity": "^5.15.0",
+    "schema-dts": "^1.1.2",
+    "styled-components": "^6.3.11",
+    "tailwind-merge": "^3.4.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "^16.1.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Rajputana Palace - Stories",
+  "short_name": "Rajputana Stories",
+  "description": "राजपूताना कहानियाँ - पढ़ें और सुनें",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#8B4513",
+  "theme_color": "#D2691E",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "books", "entertainment"],
+  "lang": "hi-IN"
+}
