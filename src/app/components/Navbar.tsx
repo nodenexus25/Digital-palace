@@ -3,7 +3,8 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
-import { useLanguage, LanguageSelector } from './LanguageProvider';
+import { useLanguage } from './LanguageProvider';
+import LanguageToggle from './LanguageToggle';
 
 interface NavLink {
  href: string;
@@ -51,10 +52,10 @@ export default function Navbar() {
  className="group flex flex-col items-start"
  >
  <span className="text-[#D4AF37] font-cinzel font-bold text-3xl tracking-wider transition-colors duration-500">
- राजपूताना
+ {t('nav.brandTitle')}
  </span>
  <span className="hidden md:block text-[#D4AF37]/80 font-cinzel text-xs uppercase tracking-[0.2em] transition-colors duration-500">
- Digital Palace
+ {t('nav.brandSubtitle')}
  </span>
  </Link>
  </div>
@@ -81,9 +82,9 @@ export default function Navbar() {
  ))}
  </div>
 
- {/* Language Selector (Right aligned) */}
+ {/* Language Toggle (Right aligned) */}
  <div className="hidden lg:flex justify-end items-center">
- <LanguageSelector />
+ <LanguageToggle />
  </div>
 
  {/* Mobile Menu Button */}
@@ -122,12 +123,12 @@ export default function Navbar() {
  </Link>
  ))}
  
- {/* Language Selector for Mobile */}
+ {/* Language Toggle for Mobile */}
  <div className="px-4 py-4 mt-4 border-t border-[#C9A24D]/10">
  <div className="text-[#E6E1DC]/60 text-sm font-cinzel uppercase tracking-widest mb-3">
  {t('common.language')}
  </div>
- <LanguageSelector />
+ <LanguageToggle />
  </div>
  </div>
  </div>

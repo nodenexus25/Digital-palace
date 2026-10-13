@@ -40,6 +40,7 @@ export const monumentsData: Monument[] = [
  'Bhimlat Kund - sacred water tank with mythological significance'
  ],
  description: 'The most iconic fortress of Rajputana, Chittorgarh stands as an eternal symbol of Rajput courage, honor, and sacrifice. This massive hilltop fortress witnessed some of the most heroic and tragic chapters in Indian history.',
+  hindiDescription: 'राजपूताना का सबसे प्रतिष्ठित किला, चित्तौड़गढ़ राजपूत साहस, सम्मान और बलिदान के शाश्वत प्रतीक के रूप में खड़ा है। इस विशाल पहाड़ी किले ने भारतीय इतिहास के कुछ सबसे वीर और दुखद अध्यायों को देखा है।',
  detailedHistory: 'Founded in the 8th century by the Maurya dynasty, Chittorgarh became the capital of Mewar and witnessed three major sieges. The first siege by Alauddin Khilji in 1303 was to capture the beautiful Queen Padmini. The second siege in 1535 was by Bahadur Shah of Gujarat, and the third in 1567-68 by Emperor Akbar. Each siege ended with jauhar, where Rajput women chose death over dishonor.',
  culturalSignificance: 'Chittorgarh represents the pinnacle of Rajput values - honor above life. The fort is immortalized in folklore, ballads, and literature. It symbolizes the resistance against foreign invasions and the preservation of Hindu dharma and culture.',
  interestingFacts: [
@@ -88,45 +89,20 @@ export const monumentsData: Monument[] = [
  ],
  icon: '',
  coordinates: '24.8887°N, 74.6269°E',
- visitingHours: '9:30 AM - 6:30 PM',
- entryFee: '₹40 for Indians, ₹600 for foreigners',
- images: [
- {
- src: '/images/forts/chittorgarh/500px-Chittorgarh_fort.JPG',
- alt: 'Panoramic view of Chittorgarh Fort',
- credit: 'Wikimedia Commons'
- },
- {
- src: '/images/forts/chittorgarh/500px-Vijaya_Stambha__Chittorgarh_2011-12-14_9.jpg',
- alt: 'Vijay Stambh (Tower of Victory) at Chittorgarh',
- credit: 'Wikimedia Commons'
- },
- {
- src: '/images/forts/chittorgarh/500px-Kirti_Stambha.jpg',
- alt: 'Kirti Stambh in Chittorgarh',
- credit: 'Wikimedia Commons'
- },
- {
- src: '/images/forts/chittorgarh/250px-Chittaur_fort-1.jpg',
- alt: 'Chittorgarh stone walls at sunset'
- },
- {
- src: '/images/forts/chittorgarh/500px-Chittorgarh_fort.JPG',
- alt: 'Padmini Palace in Chittorgarh Fort',
- },
- {
- src: '/images/forts/chittorgarh/960px-Chittorgarh_-_Gaumukh_Reservoir_-_Adjusted.jpg',
- alt: 'Gaumukh Kund at Chittorgarh Fort',
- },
- {
- src: '/images/forts/chittorgarh/500px-Chittorgarh_fort.JPG',
- alt: 'Temples inside Chittorgarh Fort',
- },
- {
- src: '/images/forts/chittorgarh/1280px-Chittorgarh_s_Jauhar_Kund_in_fort.jpg',
- alt: 'Jauhar Kund at Chittorgarh Fort',
- }
- ],
+  visitingHours: '9:30 AM - 6:30 PM',
+  hindiVisitingHours: 'सुबह 9:30 - शाम 6:30',
+  entryFee: '₹40 for Indians, ₹600 for foreigners',
+  hindiEntryFee: 'भारतीयों के लिए ₹40, विदेशियों के लिए ₹600',
+  images: [
+{ src: '/images/forts/chittorgarh/1280px-Chittorgarh_s_Jauhar_Kund_in_fort.jpg', alt: 'Panoramic view of Chittorgarh Fort' },
+{ src: '/images/forts/chittorgarh/250px-Chittaur_fort-1.jpg', alt: 'Vijay Stambh (Tower of Victory) at Chittorgarh' },
+{ src: '/images/forts/chittorgarh/500px-Chittorgarh_fort.JPG', alt: 'Kirti Stambh in Chittorgarh' },
+{ src: '/images/forts/chittorgarh/500px-Kirti_Stambha.jpg', alt: 'Chittorgarh stone walls at sunset' },
+{ src: '/images/forts/chittorgarh/500px-Vijaya_Stambha__Chittorgarh_2011-12-14_9.jpg', alt: 'Padmini Palace in Chittorgarh Fort' },
+{ src: '/images/forts/chittorgarh/960px-Chittorgarh_-_Gaumukh_Reservoir_-_Adjusted.jpg', alt: 'Gaumukh Kund at Chittorgarh Fort' },
+{ src: '/images/forts/chittorgarh/1280px-Chittorgarh_s_Jauhar_Kund_in_fort.jpg', alt: 'Temples inside Chittorgarh Fort' },
+{ src: '/images/forts/chittorgarh/250px-Chittaur_fort-1.jpg', alt: 'Jauhar Kund at Chittorgarh Fort' }
+],
  videos: [
  {
  title: 'Chittorgarh Fort Documentary',
@@ -216,39 +192,15 @@ export const monumentsData: Monument[] = [
  visitingHours: '8:00 AM - 6:00 PM',
  entryFee: '₹100 for Indians, ₹550 for foreigners',
  images: [
- {
- src: '/images/forts/amber/Amber_fort_jaipur.jpg',
- alt: 'Panoramic view of Amber Fort',
- },
- {
- src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg',
- alt: 'Diwan-i-Aam (Hall of Public Audience) at Amber Fort',
- },
- {
- src: '/images/forts/amber/1280px-Diwan-i-Khas__Amber_Palace_3.jpg',
- alt: 'Diwan-i-Khas (Hall of Private Audience) at Amber Fort'
- },
- {
- src: '/images/forts/amber/1280px-Diwan-i-Khas__Amber_Palace_3.jpg',
- alt: 'Sheesh Mahal (Hall of Mirrors) at Amber Fort',
- },
- {
- src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg',
- alt: 'Sukh Niwas (Hall of Pleasure) at Amber Fort',
- },
- {
- src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg',
- alt: 'Ganesh Pol at Amber Fort'
- },
- {
- src: '/images/forts/amber/Amber_fort_jaipur.jpg',
- alt: 'Maota Lake at Amber Fort'
- },
- {
- src: '/images/forts/amber/960px-Amber_fort_tunnels.jpg',
- alt: 'Tunnels at Amber Fort'
- }
- ],
+{ src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg', alt: 'Panoramic view of Amber Fort' },
+{ src: '/images/forts/amber/1280px-Diwan-i-Khas__Amber_Palace_3.jpg', alt: 'Diwan-i-Aam (Hall of Public Audience) at Amber Fort' },
+{ src: '/images/forts/amber/960px-Amber_fort_tunnels.jpg', alt: 'Diwan-i-Khas (Hall of Private Audience) at Amber Fort' },
+{ src: '/images/forts/amber/Amber_fort_jaipur.jpg', alt: 'Sheesh Mahal (Hall of Mirrors) at Amber Fort' },
+{ src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg', alt: 'Sukh Niwas (Hall of Pleasure) at Amber Fort' },
+{ src: '/images/forts/amber/1280px-Diwan-i-Khas__Amber_Palace_3.jpg', alt: 'Ganesh Pol at Amber Fort' },
+{ src: '/images/forts/amber/960px-Amber_fort_tunnels.jpg', alt: 'Maota Lake at Amber Fort' },
+{ src: '/images/forts/amber/Amber_fort_jaipur.jpg', alt: 'Tunnels at Amber Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -323,39 +275,15 @@ export const monumentsData: Monument[] = [
  visitingHours: '9:00 AM - 4:30 PM',
  entryFee: '₹35 for Indians, ₹85 for foreigners',
  images: [
- {
- src: '/images/forts/jaigarh/500px-Jaigarh_Fort__4446103864_.jpg',
- alt: 'Panoramic view of Jaigarh Fort',
- },
- {
- src: '/images/forts/jaigarh/500px-Jaigarh_Fort__4446103864_.jpg',
- alt: 'Jaivana Cannon at Jaigarh Fort',
- },
- {
- src: '/images/forts/jaigarh/500px-Jaigarh_Fort__4446103864_.jpg',
- alt: 'Lalit Madir Palace at Jaigarh Fort',
- },
- {
- src: '/images/forts/jaigarh/500px-Jaigarh_Fort__4446103864_.jpg',
- alt: 'Laxmi Vilas Palace at Jaigarh Fort',
- },
- {
- src: '/images/forts/jaigarh/500px-Jaigarh_Fort__4446103864_.jpg',
- alt: 'Aram Mandir Palace at Jaigarh Fort',
- },
- {
- src: '/images/forts/jaigarh/500px-Jaigarh_Fort__4446103864_.jpg',
- alt: 'Vilas Mandir Palace at Jaigarh Fort'
- },
- {
- src: '/images/forts/jaigarh/500px-Jaigarh_Fort__4446103864_.jpg',
- alt: 'Rainwater Collector at Jaigarh Fort'
- },
- {
- src: '/images/forts/jaigarh/250px-Diya_Burj__Lamp_Tower___Jaigarh_Fort__Rajasthan__India_-_20061001-02.jpg',
- alt: 'Diya Burj (Lamp Tower) at Jaigarh Fort'
- }
- ],
+{ src: '/images/forts/jaigarh/500px-Jaigarh_Fort__4446103864_.jpg', alt: 'Panoramic view of Jaigarh Fort' },
+{ src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'Jaivana Cannon at Jaigarh Fort' },
+{ src: '/images/home/amer-fort.webp', alt: 'Lalit Mandir Palace at Jaigarh Fort' },
+{ src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg', alt: 'Laxmi Vilas Palace at Jaigarh Fort' },
+{ src: '/images/forts/amber/960px-Amber_fort_tunnels.jpg', alt: 'Aram Mandir Palace at Jaigarh Fort' },
+{ src: '/images/forts/amber/Amber_fort_jaipur.jpg', alt: 'Vilas Mandir Palace at Jaigarh Fort' },
+{ src: '/images/forts/amber/1280px-Diwan-i-Khas__Amber_Palace_3.jpg', alt: 'Rainwater Collector at Jaigarh Fort' },
+{ src: '/images/forts/jaigarh/500px-Jaigarh_Fort__4446103864_.jpg', alt: 'Diya Burj (Lamp Tower) at Jaigarh Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -430,39 +358,15 @@ export const monumentsData: Monument[] = [
  visitingHours: '9:00 AM - 5:00 PM',
  entryFee: '₹100 for Indians, ₹600 for foreigners',
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Mehrangarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Jai Pol Gate of Mehrangarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Moti Mahal at Mehrangarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Sheesh Mahal at Mehrangarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Phul Mahal at Mehrangarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Takhat Vilas Palace at Mehrangarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Zenana Deodi at Mehrangarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Chamunda Mataji Temple at Mehrangarh Fort'
- }
- ],
+{ src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg', alt: 'Mehrangarh Fort' },
+{ src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'Jai Pol Gate of Mehrangarh Fort' },
+{ src: '/images/home/jodhpur-fort.jpg', alt: 'Moti Mahal at Mehrangarh Fort' },
+{ src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg', alt: 'Sheesh Mahal at Mehrangarh Fort' },
+{ src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'Phul Mahal at Mehrangarh Fort' },
+{ src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg', alt: 'Takhat Vilas Palace at Mehrangarh Fort' },
+{ src: '/images/home/jodhpur-fort.jpg', alt: 'Zenana Deodi at Mehrangarh Fort' },
+{ src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg', alt: 'Chamunda Mataji Temple at Mehrangarh Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -538,39 +442,15 @@ export const monumentsData: Monument[] = [
  visitingHours: '9:00 AM - 6:00 PM',
  entryFee: '₹15 for Indians, ₹200 for foreigners',
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Aerial view of Kumbhalgarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Badal Mahal Palace at Kumbhalgarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Neelkanth Mahadev Temple at Kumbhalgarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Longest wall of Kumbhalgarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Ganesha Temple at Kumbhalgarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Kumbha Palace at Kumbhalgarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Areet Pole at Kumbhalgarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Ram Pol Gate at Kumbhalgarh Fort'
- }
- ],
+{ src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Aerial view of Kumbhalgarh Fort' },
+{ src: '/images/dynasties/places/mewar.jpg', alt: 'Badal Mahal Palace at Kumbhalgarh Fort' },
+{ src: '/images/forts/chittorgarh/250px-Chittaur_fort-1.jpg', alt: 'Neelkanth Mahadev Temple at Kumbhalgarh Fort' },
+{ src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Longest wall of Kumbhalgarh Fort' },
+{ src: '/images/home/chittorgarh-fort.jpg', alt: 'Ganesha Temple at Kumbhalgarh Fort' },
+{ src: '/images/dynasties/places/mewar.jpg', alt: 'Kumbha Palace at Kumbhalgarh Fort' },
+{ src: '/images/forts/chittorgarh/500px-Vijaya_Stambha__Chittorgarh_2011-12-14_9.jpg', alt: 'Areet Pole at Kumbhalgarh Fort' },
+{ src: '/images/dynasties/gallery/vijay-stambha.jpg', alt: 'Ram Pol Gate at Kumbhalgarh Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -645,39 +525,15 @@ export const monumentsData: Monument[] = [
  visitingHours: '6:00 AM - 6:00 PM',
  entryFee: '₹25 for Indians, ₹200 for foreigners',
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Bhangarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Kesav Rai Temple in Bhangarh'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Gopinath Temple at Bhangarh'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Mangla Devi Temple at Bhangarh'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Someshwar Temple at Bhangarh'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Royal Palace Complex at Bhangarh'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Market Street Facing Bhangarh Palace'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Purohit Ji Ki Haveli in Bhangarh'
- }
- ],
+{ src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg', alt: 'Bhangarh Fort' },
+{ src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'Kesav Rai Temple in Bhangarh' },
+{ src: '/images/home/amer-fort.webp', alt: 'Gopinath Temple at Bhangarh' },
+{ src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg', alt: 'Mangla Devi Temple at Bhangarh' },
+{ src: '/images/forts/bijai-garh/250px-Wallsbayana.jpg', alt: 'Someshwar Temple at Bhangarh' },
+{ src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'Royal Palace Complex at Bhangarh' },
+{ src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg', alt: 'Market Street Facing Bhangarh Palace' },
+{ src: '/images/home/chittorgarh-fort.jpg', alt: 'Purohit Ji Ki Haveli in Bhangarh' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -727,39 +583,15 @@ export const monumentsData: Monument[] = [
  visitingHours: '10:00 AM - 5:00 PM',
  entryFee: '₹30 for Indians, ₹150 for foreigners',
  images: [
- {
- src: '/images/forts/lalgarh/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg',
- alt: 'Lalgarh Palace in Bikaner'
- },
- {
- src: '/images/forts/lalgarh/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg',
- alt: 'The Laxmi Niwas Palace in Bikaner'
- },
- {
- src: '/images/forts/lalgarh/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg',
- alt: 'Indoor Pool at Lalgarh Palace'
- },
- {
- src: '/images/forts/lalgarh/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg',
- alt: 'Diwan-i-Khas at Lalgarh Palace'
- },
- {
- src: '/images/forts/lalgarh/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg',
- alt: 'Room in heritage hotel at Lalgarh Palace'
- },
- {
- src: '/images/forts/lalgarh/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg',
- alt: 'Museum at Lalgarh Palace'
- },
- {
- src: '/images/forts/lalgarh/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg',
- alt: 'Main Courtyard of Lalgarh Palace'
- },
- {
- src: '/images/forts/lalgarh/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg',
- alt: 'Entrance of Lalgarh Palace'
- }
- ],
+{ src: '/images/forts/lalgarh/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg', alt: 'Lalgarh Palace in Bikaner' },
+{ src: '/images/dynasties/places/bikaner-rathore-main.jpg', alt: 'The Laxmi Niwas Palace in Bikaner' },
+{ src: '/images/forts/gajner-palace/1280px-Gajner_Palace_-_panoramio.jpg', alt: 'Indoor Pool at Lalgarh Palace' },
+{ src: '/images/forts/gajner-palace/250px-Gajner_Palace__Staircase___Bikaner__Rajasthan.jpg', alt: 'Diwan-i-Khas at Lalgarh Palace' },
+{ src: '/images/forts/lalgarh/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg', alt: 'Room in heritage hotel at Lalgarh Palace' },
+{ src: '/images/forts/laxmi-niwas-palace/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg', alt: 'Museum at Lalgarh Palace' },
+{ src: '/images/dynasties/places/bikaner-rathore-main.jpg', alt: 'Main Courtyard of Lalgarh Palace' },
+{ src: '/images/forts/gajner-palace/1280px-Gajner_Palace_-_panoramio.jpg', alt: 'Entrance of Lalgarh Palace' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -835,39 +667,15 @@ export const monumentsData: Monument[] = [
  visitingHours: '6:00 AM - 6:00 PM',
  entryFee: '₹25 for Indians, ₹200 for foreigners',
  images: [
- {
- src: '/images/forts/ranthambore/Naulakha_gate_ranthambor_fort.jpg',
- alt: 'Ranthambore Fort'
- },
- {
- src: '/images/forts/ranthambore/Naulakha_gate_ranthambor_fort.jpg',
- alt: 'Ranthambore Fort Jain Temple'
- },
- {
- src: '/images/forts/ranthambore/Naulakha_gate_ranthambor_fort.jpg',
- alt: 'Ganesh Temple at Ranthambore Fort'
- },
- {
- src: '/images/forts/ranthambore/Naulakha_gate_ranthambor_fort.jpg',
- alt: '32 Pillars Chhatri at Ranthambore Fort'
- },
- {
- src: '/images/forts/ranthambore/Naulakha_gate_ranthambor_fort.jpg',
- alt: 'Tiger at Ranthambore National Park'
- },
- {
- src: '/images/forts/ranthambore/Naulakha_gate_ranthambor_fort.jpg',
- alt: 'Hamir Kund at Ranthambore Fort'
- },
- {
- src: '/images/forts/ranthambore/Naulakha_gate_ranthambor_fort.jpg',
- alt: 'Naulakha Gate at Ranthambore Fort'
- },
- {
- src: '/images/forts/ranthambore/Naulakha_gate_ranthambor_fort.jpg',
- alt: 'Watch Tower at Ranthambore Fort'
- }
- ],
+{ src: '/images/forts/ranthambore/Naulakha_gate_ranthambor_fort.jpg', alt: 'Ranthambore Fort' },
+{ src: '/images/dynasties/places/chauhan-ajmer-main.jpg', alt: 'Ranthambore Fort Jain Temple' },
+{ src: '/images/forts/ranthambore/Naulakha_gate_ranthambor_fort.jpg', alt: 'Ganesh Temple at Ranthambore Fort' },
+{ src: '/images/forts/taragarh-ajmer/250px-Prithvi_Raj_Chauhan__Edited_.jpg', alt: '32 Pillars Chhatri at Ranthambore Fort' },
+{ src: '/images/dynasties/places/chauhan-ajmer-main.jpg', alt: 'Tiger at Ranthambore National Park' },
+{ src: '/images/forts/ranthambore/Naulakha_gate_ranthambor_fort.jpg', alt: 'Hamir Kund at Ranthambore Fort' },
+{ src: '/images/forts/ranthambore/Naulakha_gate_ranthambor_fort.jpg', alt: 'Naulakha Gate at Ranthambore Fort' },
+{ src: '/images/dynasties/places/chauhan-ajmer-main.jpg', alt: 'Watch Tower at Ranthambore Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -942,45 +750,21 @@ export const monumentsData: Monument[] = [
  visitingHours: '9:00 AM - 5:00 PM',
  entryFee: '₹20 for Indians, ₹100 for foreigners',
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Gagron Fort in Jhalawar'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
- videos: [
- { title: '', provider: 'youtube', url: '' }
- ]
- },
- {
- id: 'jaisalmer',
+{ src: '/images/dynasties/places/hada-bundi-kota-main.jpg', alt: 'Gagron Fort in Jhalawar' },
+{ src: '/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg', alt: 'Gagron Fort water defenses' },
+{ src: '/images/forts/bundi-palace/250px-Bundi-Garh_Palace-Chitrasala_GVN-20131015.jpg', alt: 'Gagron Fort palace complex' },
+{ src: '/images/dynasties/places/hada-bundi-kota-main.jpg', alt: 'Gagron Fort riverside view' },
+{ src: '/images/forts/nagaur/500px-Nagaur_Fort.JPG', alt: 'Gagron Fort outer walls' },
+{ src: '/images/forts/bijai-garh/250px-Wallsbayana.jpg', alt: 'Gagron Fort inner courtyard' },
+{ src: '/images/dynasties/places/hada-bundi-kota-main.jpg', alt: 'Gagron Fort watchtowers' },
+{ src: '/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg', alt: 'Gagron Fort river confluence' }
+],
+  videos: [
+    { title: '', provider: 'youtube', url: '' }
+  ]
+},
+{
+  id: 'jaisalmer',
  name: 'Jaisalmer Fort',
  hindiName: 'जैसलमेर किला (सोनार किला)',
  location: 'Jaisalmer, Rajasthan',
@@ -1050,39 +834,15 @@ export const monumentsData: Monument[] = [
  visitingHours: '6:00 AM - 6:00 PM',
  entryFee: '₹50 for Indians, ₹250 for foreigners',
  images: [
- {
- src: '/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg',
- alt: 'Panoramic view of Jaisalmer Fort'
- },
- { 
- src: '/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg',
- alt: 'Bairisal Borj Tower at Jaisalmer Fort'
- },
- {
- src: '/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg',
- alt: 'Jain Temples at Jaisalmer Fort'
- },
- {
- src: '/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg',
- alt: 'Jaisalmer Fort Palace Museum'
- },
- {
- src: '/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg',
- alt: 'Akhay Pol Gate at Jaisalmer Fort'
- },
- {
- src: '/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg',
- alt: 'Rani Mahal at Jaisalmer Fort'
- },
- {
- src: '/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg',
- alt: 'Cannon at Jaisalmer Fort'
- },
- {
- src: '/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg',
- alt: 'Hawa Pol at Jaisalmer Fort'
- }
- ],
+{ src: '/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg', alt: 'Panoramic view of Jaisalmer Fort' },
+{ src: '/images/home/jaisalmer-fort.jpg', alt: 'Bairisal Borj Tower at Jaisalmer Fort' },
+{ src: '/images/dynasties/places/jaisalmer-bhati-main.jpg', alt: 'Jain Temples at Jaisalmer Fort' },
+{ src: '/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg', alt: 'Jaisalmer Fort Palace Museum' },
+{ src: '/images/dynasties/places/jaisalmer-bhati-main.jpg', alt: 'Akhay Pol Gate at Jaisalmer Fort' },
+{ src: '/images/home/jaisalmer-fort.jpg', alt: 'Rani Mahal at Jaisalmer Fort' },
+{ src: '/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg', alt: 'Cannon at Jaisalmer Fort' },
+{ src: '/images/dynasties/places/jaisalmer-bhati-main.jpg', alt: 'Hawa Pol at Jaisalmer Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -1158,39 +918,15 @@ export const monumentsData: Monument[] = [
  visitingHours: '10:00 AM - 4:30 PM',
  entryFee: '₹50 for Indians, ₹300 for foreigners',
  images: [
- {
- src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg',
- alt: 'Bikaner Junagarh Fort'
- },
- {
- src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg',
- alt: 'Golden Interior Work of Junagarh Fort'
- },
- {
- src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg',
- alt: 'Gardens of Junagarh Fort'
- },
- {
- src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg',
- alt: 'Vikram Vilas in Junagarh Fort'
- },
- {
- src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg',
- alt: 'Phool Mahal in Junagarh Fort'
- },
- {
- src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg',
- alt: 'Lallgarth Palace at Junagarh Fort'
- },
- {
- src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg',
- alt: 'Ganga Mahal in Junagarh Fort'
- },
- {
- src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg',
- alt: 'Darbar Hall in Junagarh Fort'
- }
- ],
+{ src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg', alt: 'Bikaner Junagarh Fort' },
+{ src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg', alt: 'Golden Interior Work of Junagarh Fort' },
+{ src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg', alt: 'Gardens of Junagarh Fort' },
+{ src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg', alt: 'Vikram Vilas in Junagarh Fort' },
+{ src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg', alt: 'Phool Mahal in Junagarh Fort' },
+{ src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg', alt: 'Lallgarth Palace at Junagarh Fort' },
+{ src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg', alt: 'Ganga Mahal in Junagarh Fort' },
+{ src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg', alt: 'Darbar Hall in Junagarh Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -1265,45 +1001,21 @@ export const monumentsData: Monument[] = [
  visitingHours: '8:00 AM - 6:00 PM',
  entryFee: '₹25 for Indians, ₹200 for foreigners',
  images: [
- {
- src: '/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg',
- alt: 'Taragarh Fort in Bundi'
- },
- {
- src: '/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg',
- alt: 'Bundi Palace inside Taragarh Fort'
- },
- {
- src: '/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg',
- alt: 'Naval Sagar Lake near Bundi Fort'
- },
- {
- src: '/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg',
- alt: 'Walls of Taragarh Fort'
- },
- {
- src: '/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg',
- alt: 'Garh Palace and Naval Sagar Temple in Bundi'
- },
- {
- src: '/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg',
- alt: 'Entrance of Taragarh Fort'
- },
- {
- src: '/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg',
- alt: 'Window of Taragarh Fort'
- },
- {
- src: '',
- alt: ''
- }
- ],
- videos: [
- { title: '', provider: 'youtube', url: '' }
- ]
- },
- {
- id: 'taragarh-ajmer',
+{ src: '/images/forts/bundi-palace/250px-Bundi-Garh_Palace-Chitrasala_GVN-20131015.jpg', alt: 'Taragarh Fort in Bundi' },
+{ src: '/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg', alt: 'Bundi Palace inside Taragarh Fort' },
+{ src: '/images/forts/bundi-palace/250px-Bundi-Garh_Palace-Chitrasala_GVN-20131015.jpg', alt: 'Naval Sagar Lake near Bundi Fort' },
+{ src: '/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg', alt: 'Walls of Taragarh Fort' },
+{ src: '/images/forts/bundi-palace/250px-Bundi-Garh_Palace-Chitrasala_GVN-20131015.jpg', alt: 'Garh Palace and Naval Sagar Temple in Bundi' },
+{ src: '/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg', alt: 'Entrance of Taragarh Fort' },
+{ src: '/images/forts/bundi-palace/250px-Bundi-Garh_Palace-Chitrasala_GVN-20131015.jpg', alt: 'Window of Taragarh Fort' },
+{ src: '/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg', alt: 'Ramparts of Taragarh Fort' }
+],
+  videos: [
+    { title: '', provider: 'youtube', url: '' }
+  ]
+},
+{
+  id: 'taragarh-ajmer',
  name: 'Taragarh Fort (Ajmer)',
  hindiName: 'तारागढ़ किला (अजमेर)',
  location: 'Ajmer, Rajasthan',
@@ -1371,39 +1083,15 @@ export const monumentsData: Monument[] = [
  visitingHours: '9:00 AM - 5:00 PM',
  entryFee: '₹20 for Indians, ₹150 for foreigners',
  images: [
- {
- src: '/images/forts/taragarh-ajmer/250px-Prithvi_Raj_Chauhan__Edited_.jpg',
- alt: 'Taragarh Fort in Ajmer'
- },
- {
- src: '/images/forts/taragarh-ajmer/250px-Prithvi_Raj_Chauhan__Edited_.jpg',
- alt: 'Walls of Taragarh Fort'
- },
- {
- src: '/images/forts/taragarh-ajmer/250px-Prithvi_Raj_Chauhan__Edited_.jpg',
- alt: 'Statue of Prithviraj Chauhan at Taragarh Fort'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/taragarh-ajmer/250px-Prithvi_Raj_Chauhan__Edited_.jpg', alt: 'Taragarh Fort in Ajmer' },
+{ src: '/images/dynasties/places/chauhan-ajmer-main.jpg', alt: 'Walls of Taragarh Fort' },
+{ src: '/images/forts/taragarh-ajmer/250px-Prithvi_Raj_Chauhan__Edited_.jpg', alt: 'Statue of Prithviraj Chauhan at Taragarh Fort' },
+{ src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg', alt: 'Bhim Burj Tower at Taragarh Fort' },
+{ src: '/images/dynasties/places/chauhan-ajmer-main.jpg', alt: 'Rani Mahal at Taragarh Fort' },
+{ src: '/images/forts/taragarh-ajmer/250px-Prithvi_Raj_Chauhan__Edited_.jpg', alt: 'Water Reservoirs at Taragarh Fort' },
+{ src: '/images/forts/nagaur/500px-Nagaur_Fort.JPG', alt: 'Gateways of Taragarh Fort' },
+{ src: '/images/dynasties/places/chauhan-ajmer-main.jpg', alt: 'Panoramic View from Taragarh Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -1477,39 +1165,15 @@ export const monumentsData: Monument[] = [
  visitingHours: '8:00 AM - 6:00 PM',
  entryFee: '₹30 for Indians, ₹250 for foreigners',
  images: [
- {
- src: '/images/forts/bijai-garh/250px-Wallsbayana.jpg',
- alt: 'BijaiGarh Fort in Karauli'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/bijai-garh/250px-Wallsbayana.jpg', alt: 'BijaiGarh Fort in Karauli' },
+{ src: '/images/forts/bayana/bayana.jpg', alt: 'Massive stone walls of BijaiGarh Fort' },
+{ src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg', alt: 'Palace complex at BijaiGarh Fort' },
+{ src: '/images/forts/bijai-garh/250px-Wallsbayana.jpg', alt: 'Ancient temple ruins inside BijaiGarh Fort' },
+{ src: '/images/forts/bayana/bayana.jpg', alt: 'Grand gateways of BijaiGarh Fort' },
+{ src: '/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg', alt: 'Water reservoirs and stepwells at BijaiGarh Fort' },
+{ src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg', alt: 'Historic watchtowers of BijaiGarh Fort' },
+{ src: '/images/forts/bijai-garh/250px-Wallsbayana.jpg', alt: 'Panoramic view from the ramparts of BijaiGarh Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -1574,39 +1238,15 @@ export const monumentsData: Monument[] = [
  }
  ],
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Narwar Fort in Madhya Pradesh'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Ruins at Narwar Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Diwan-i-Aam at Narwar Fort'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg', alt: 'Narwar Fort in Madhya Pradesh' },
+{ src: '/images/forts/amber/1280px-Diwan-i-Khas__Amber_Palace_3.jpg', alt: 'Ancient ruins and monuments at Narwar Fort' },
+{ src: '/images/forts/amber/960px-Amber_fort_tunnels.jpg', alt: 'Royal Diwan-i-Aam audience hall at Narwar Fort' },
+{ src: '/images/forts/amber/Amber_fort_jaipur.jpg', alt: 'Grand palace complex within Narwar Fort' },
+{ src: '/images/home/amer-fort.webp', alt: 'Historic Sun Temple at Narwar Fort' },
+{ src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'Massive fortification walls of Narwar Fort' },
+{ src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg', alt: 'Decorative gateways and arches at Narwar Fort' },
+{ src: '/images/forts/amber/960px-Amber_fort_tunnels.jpg', alt: 'Rock-cut water reservoirs at Narwar Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -1677,39 +1317,15 @@ export const monumentsData: Monument[] = [
  }
  ],
  images: [
- {
- src: '/images/forts/city-palace-jaipur/500px-Jaipur_03-2016_22_City_Palace_complex.jpg',
- alt: 'City Palace Complex in Jaipur'
- },
- {
- src: '/images/forts/city-palace-jaipur/500px-Jaipur_03-2016_22_City_Palace_complex.jpg',
- alt: 'Chandra Mahal in City Palace'
- },
- {
- src: '/images/forts/city-palace-jaipur/500px-Jaipur_03-2016_22_City_Palace_complex.jpg',
- alt: 'Horse Carriages at City Palace'
- },
- {
- src: '/images/forts/city-palace-jaipur/500px-Jaipur_03-2016_22_City_Palace_complex.jpg',
- alt: 'Clock Tower at City Palace'
- },
- {
- src: '/images/forts/city-palace-jaipur/500px-Jaipur_03-2016_22_City_Palace_complex.jpg',
- alt: 'Diwan-i-Khas in City Palace'
- },
- {
- src: '/images/forts/city-palace-jaipur/500px-Jaipur_03-2016_22_City_Palace_complex.jpg',
- alt: 'Tripolia Gate at City Palace'
- },
- {
- src: '/images/forts/city-palace-jaipur/500px-Jaipur_03-2016_22_City_Palace_complex.jpg',
- alt: 'Mubarak Mahal in City Palace'
- },
- {
- src: '/images/forts/city-palace-jaipur/500px-Jaipur_03-2016_22_City_Palace_complex.jpg',
- alt: 'Intricate Metal and Marble Work on a Door in City Palace'
- }
- ],
+{ src: '/images/forts/city-palace-jaipur/500px-Jaipur_03-2016_22_City_Palace_complex.jpg', alt: 'City Palace Complex in Jaipur' },
+{ src: '/images/forts/hawa-mahal/500px-East_facade_Hawa_Mahal_Jaipur_from_ground_level__July_2022__-_img_01.jpg', alt: 'Chandra Mahal royal residence in City Palace' },
+{ src: '/images/forts/amber/1280px-Diwan-i-Khas__Amber_Palace_3.jpg', alt: 'Royal horse carriages and vintage transport at City Palace' },
+{ src: '/images/home/amer-fort.webp', alt: 'Historic clock tower within City Palace complex' },
+{ src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg', alt: 'Grand Diwan-i-Khas hall of private audience in City Palace' },
+{ src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'Majestic Tripolia Gate entrance to City Palace' },
+{ src: '/images/forts/narain-niwas-palace/narain-niwas-palace.jpg', alt: 'Elegant Mubarak Mahal welcome palace in City Palace' },
+{ src: '/images/forts/samode-palace/Chandelier_and_red_reception_hall_in_Samode_Palace_heritage_hotel_-_panoramio.jpg', alt: 'Intricate metal and marble work on royal doors in City Palace' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -1775,39 +1391,15 @@ export const monumentsData: Monument[] = [
  }
  ],
  images: [
- {
- src: '/images/forts/hawa-mahal/500px-East_facade_Hawa_Mahal_Jaipur_from_ground_level__July_2022__-_img_01.jpg',
- alt: 'Hawa Mahal'
- },
- {
- src: '/images/forts/hawa-mahal/500px-East_facade_Hawa_Mahal_Jaipur_from_ground_level__July_2022__-_img_01.jpg',
- alt: 'Colourful Glass Decoration at Hawa Mahal'
- },
- {
- src: '/images/forts/hawa-mahal/500px-East_facade_Hawa_Mahal_Jaipur_from_ground_level__July_2022__-_img_01.jpg',
- alt: 'Windows of Hawa Mahal'
- },
- {
- src: '/images/forts/hawa-mahal/500px-East_facade_Hawa_Mahal_Jaipur_from_ground_level__July_2022__-_img_01.jpg',
- alt: 'Courtyards of Hawa Mahal'
- },
- {
- src: '/images/forts/hawa-mahal/500px-East_facade_Hawa_Mahal_Jaipur_from_ground_level__July_2022__-_img_01.jpg',
- alt: 'Fountain in Courtyard of Hawa Mahal'
- },
- {
- src: '/images/forts/hawa-mahal/500px-East_facade_Hawa_Mahal_Jaipur_from_ground_level__July_2022__-_img_01.jpg',
- alt: 'Top of the Hawa Mahal'
- },
- {
- src: '/images/forts/hawa-mahal/500px-East_facade_Hawa_Mahal_Jaipur_from_ground_level__July_2022__-_img_01.jpg',
- alt: 'Fresco Work in Hawa Mahal'
- },
- {
- src: '/images/forts/hawa-mahal/500px-East_facade_Hawa_Mahal_Jaipur_from_ground_level__July_2022__-_img_01.jpg',
- alt: 'Roof of Hawa Mahal'
- }
- ],
+{ src: '/images/forts/hawa-mahal/500px-East_facade_Hawa_Mahal_Jaipur_from_ground_level__July_2022__-_img_01.jpg', alt: 'Iconic Hawa Mahal Palace of Winds in Jaipur' },
+{ src: '/images/forts/amber/1280px-Diwan-i-Khas__Amber_Palace_3.jpg', alt: 'Colorful glass decorations and stained glass inside Hawa Mahal' },
+{ src: '/images/forts/samode-palace/Samode_Palace_courtyard_arcades_-_panoramio.jpg', alt: '953 intricately carved lattice windows of Hawa Mahal' },
+{ src: '/images/forts/city-palace-jaipur/500px-Jaipur_03-2016_22_City_Palace_complex.jpg', alt: 'Courtyards and interior passages in Hawa Mahal' },
+{ src: '/images/forts/deeg-palace/250px-Gopal_Bhawan_or_Jal_Mahal.jpg', alt: 'Central fountain and cooling courtyard of Hawa Mahal' },
+{ src: '/images/home/amer-fort.webp', alt: 'Pyramidal top floors and crown of Hawa Mahal' },
+{ src: '/images/forts/deeg-palace/250px-Chaar_baag.jpg', alt: 'Exquisite fresco paintings and murals in Hawa Mahal' },
+{ src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'Terrace rooftop and hanging cornices of Hawa Mahal' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -1874,39 +1466,15 @@ export const monumentsData: Monument[] = [
  }
  ],
  images: [
- {
- src: '/images/forts/lake-palace-udaipur/500px-Udaipur_Lake_Palace.jpg',
- alt: 'Lake Palace in Udaipur'
- },
- {
- src: '/images/forts/lake-palace-udaipur/500px-Udaipur_Lake_Palace.jpg',
- alt: 'Gangaur Ghat near Lake Palace'
- },
- {
- src: '/images/forts/lake-palace-udaipur/500px-Udaipur_Lake_Palace.jpg',
- alt: 'Jagnivas Palace in Lake Pichola'
- },
- {
- src: '/images/forts/lake-palace-udaipur/500px-Udaipur_Lake_Palace.jpg',
- alt: 'Royal Jal Mahal in Udaipur'
- },
- {
- src: '/images/forts/lake-palace-udaipur/500px-Udaipur_Lake_Palace.jpg',
- alt: 'Taj Lake Palace in Udaipur'
- },
- {
- src: '/images/forts/lake-palace-udaipur/500px-Udaipur_Lake_Palace.jpg',
- alt: 'Lily Pond at the Lake Palace'
- },
- {
- src: '/images/forts/lake-palace-udaipur/500px-Udaipur_Lake_Palace.jpg',
- alt: 'Courtyard in the Lake Palace'
- },
- {
- src: '/images/forts/lake-palace-udaipur/500px-Udaipur_Lake_Palace.jpg',
- alt: 'Lounge at Lake Palace'
- }
- ],
+{ src: '/images/forts/lake-palace-udaipur/500px-Udaipur_Lake_Palace.jpg', alt: 'Iconic Lake Palace floating on Lake Pichola in Udaipur' },
+{ src: '/images/forts/jag-mandir/250px-Udaipur-Jagmandir-16-Damentoilette-2018-gje.jpg', alt: 'Gangaur Ghat and lakefront near Lake Palace' },
+{ src: '/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg', alt: 'Jag Niwas Palace island in Lake Pichola' },
+{ src: '/images/dynasties/places/mewar.jpg', alt: 'Royal marble architecture of Lake Palace' },
+{ src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Taj Lake Palace luxury heritage hotel at sunset' },
+{ src: '/images/forts/fateh-prakash-palace/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg', alt: 'Lily pond and tropical gardens at Lake Palace' },
+{ src: '/images/forts/deeg-palace/250px-Chaar_baag.jpg', alt: 'Courtyards and fountains inside Lake Palace' },
+{ src: '/images/home/chittorgarh-fort.jpg', alt: 'Luxury lounge and seating areas at Lake Palace' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -1973,39 +1541,15 @@ export const monumentsData: Monument[] = [
  }
  ],
  images: [
- {
- src: '/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg',
- alt: 'City Palace in Udaipur'
- },
- {
- src: '/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg',
- alt: 'Verandah at City Palace'
- },
- {
- src: '/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg',
- alt: 'Badi Mahal at City Palace'
- },
- {
- src: '/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg',
- alt: 'Chini Chitrashala at City Palace'
- },
- {
- src: '/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg',
- alt: 'Rai Angan at City Palace'
- },
- {
- src: '/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg',
- alt: 'Zenana Mahal at City Palace'
- },
- {
- src: '/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg',
- alt: 'Vani Vilas at City Palace'
- },
- {
- src: '/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg',
- alt: 'Durbar Hall at City Palace'
- }
- ],
+{ src: '/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg', alt: 'Majestic City Palace complex overlooking Lake Pichola in Udaipur' },
+{ src: '/images/forts/lake-palace-udaipur/500px-Udaipur_Lake_Palace.jpg', alt: 'Open verandahs and balconies at City Palace' },
+{ src: '/images/dynasties/places/mewar.jpg', alt: 'Badi Mahal palace section within City Palace' },
+{ src: '/images/forts/fateh-prakash-palace/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg', alt: 'Chini Chitrashala Chinese pavilion at City Palace' },
+{ src: '/images/dynasties/gallery/vijay-stambha.jpg', alt: 'Rai Angan royal courtyard at City Palace' },
+{ src: '/images/forts/jag-mandir/250px-Udaipur-Jagmandir-16-Damentoilette-2018-gje.jpg', alt: 'Zenana Mahal women quarters in City Palace' },
+{ src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Vani Vilas garden and palace section at City Palace' },
+{ src: '/images/forts/samode-palace/Chandelier_and_red_reception_hall_in_Samode_Palace_heritage_hotel_-_panoramio.jpg', alt: 'Grand Durbar Hall reception at City Palace' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -2077,39 +1621,15 @@ export const monumentsData: Monument[] = [
  }
  ],
  images: [
- {
- src: '/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg',
- alt: 'Najibabad Fort in Uttar Pradesh'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg', alt: 'Najibabad Fort historic ruins in Uttar Pradesh' },
+{ src: '/images/forts/bijai-garh/250px-Wallsbayana.jpg', alt: 'Massive fortification walls of Najibabad Fort' },
+{ src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg', alt: 'Palace complex within Najibabad Fort' },
+{ src: '/images/forts/bayana/bayana.jpg', alt: 'Watchtowers and bastions at Najibabad Fort' },
+{ src: '/images/dynasties/places/tomar-delhi-gwalior-main.JPG', alt: 'Ancient gateways and entrances of Najibabad Fort' },
+{ src: '/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg', alt: 'Underground chambers and tunnels in Najibabad Fort' },
+{ src: '/images/forts/bijai-garh/250px-Wallsbayana.jpg', alt: 'Mosque and religious structures at Najibabad Fort' },
+{ src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg', alt: 'Panoramic view from the ramparts of Najibabad Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -2176,39 +1696,15 @@ export const monumentsData: Monument[] = [
  }
  ],
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Rambagh Palace in Jaipur'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Hotel of Rambagh Palace'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Corridor of Rambagh Palace'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Courtyard of Rambagh Palace'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Hall of Rambagh Palace'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Hallway of Rambagh Palace'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Outdoor Swimming Pool of Rambagh Palace'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Garden Area of Rambagh Palace'
- }
- ],
+{ src: '/images/forts/city-palace-jaipur/500px-Jaipur_03-2016_22_City_Palace_complex.jpg', alt: 'Rambagh Palace luxury heritage hotel in Jaipur' },
+{ src: '/images/forts/samode-palace/500px-Samode_Lounge.jpg', alt: 'Rambagh Palace hotel entrance and facade' },
+{ src: '/images/forts/amber/1280px-Diwan-i-Khas__Amber_Palace_3.jpg', alt: 'Ornate marble corridors of Rambagh Palace' },
+{ src: '/images/forts/samode-palace/Samode_Palace_courtyard_arcades_-_panoramio.jpg', alt: 'Mughal-style courtyards in Rambagh Palace' },
+{ src: '/images/forts/samode-palace/Chandelier_and_red_reception_hall_in_Samode_Palace_heritage_hotel_-_panoramio.jpg', alt: 'Grand ballroom and reception halls of Rambagh Palace' },
+{ src: '/images/home/amer-fort.webp', alt: 'Long hallways and royal suites in Rambagh Palace' },
+{ src: '/images/forts/deeg-palace/250px-Gopal_bhavan.jpg', alt: 'Outdoor swimming pool and spa at Rambagh Palace' },
+{ src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'Peacock gardens and lawns at Rambagh Palace' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -2257,39 +1753,15 @@ export const monumentsData: Monument[] = [
  }
  ],
  images: [
- {
- src: '/images/forts/city-palace-jodhpur/500px-1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace__2233393509_.jpg',
- alt: 'Umaid Bhawan Palace in Jodhpur'
- },
- {
- src: '/images/forts/city-palace-jodhpur/500px-1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace__2233393509_.jpg',
- alt: 'Gardens of Umaid Bhawan Palace'
- },
- {
- src: '/images/forts/city-palace-jodhpur/500px-1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace__2233393509_.jpg',
- alt: 'Columns Alley of Umaid Bhawan Palace'
- },
- {
- src: '/images/forts/city-palace-jodhpur/500px-1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace__2233393509_.jpg',
- alt: 'Indoor Swimming Pool of Umaid Bhawan Palace'
- },
- {
- src: '/images/forts/city-palace-jodhpur/500px-1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace__2233393509_.jpg',
- alt: 'Mural inside Umaid Bhawan Palace'
- },
- {
- src: '/images/forts/city-palace-jodhpur/500px-1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace__2233393509_.jpg',
- alt: 'Miniature Model of Umaid Bhawan Palace'
- },
- {
- src: '/images/forts/city-palace-jodhpur/500px-1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace__2233393509_.jpg',
- alt: 'Museum Room of Umaid Bhawan Palace'
- },
- {
- src: '/images/forts/city-palace-jodhpur/500px-1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace__2233393509_.jpg',
- alt: 'Painting inside Umaid Bhawan Palace'
- }
- ],
+{ src: '/images/forts/city-palace-jodhpur/500px-1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace__2233393509_.jpg', alt: 'Umaid Bhawan Palace golden sandstone monument in Jodhpur' },
+{ src: '/images/home/jodhpur-fort.jpg', alt: 'Lush gardens and lawns surrounding Umaid Bhawan Palace' },
+{ src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg', alt: 'Colonnaded column alley at Umaid Bhawan Palace' },
+{ src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'Art Deco indoor swimming pool at Umaid Bhawan Palace' },
+{ src: '/images/forts/samode-palace/Chandelier_and_red_reception_hall_in_Samode_Palace_heritage_hotel_-_panoramio.jpg', alt: 'Murals and frescoed interiors of Umaid Bhawan Palace' },
+{ src: '/images/forts/sardargarh-palace/sardargarh-heritage-hotel.jpg', alt: 'Miniature architectural model of Umaid Bhawan Palace' },
+{ src: '/images/forts/laxmi-niwas-palace/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg', alt: 'Heritage museum exhibition rooms at Umaid Bhawan Palace' },
+{ src: '/images/forts/deeg-palace/250px-Gopal_Bhawan_or_Jal_Mahal.jpg', alt: 'Renaissance style paintings and decor in Umaid Bhawan Palace' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -2338,39 +1810,15 @@ export const monumentsData: Monument[] = [
  }
  ],
  images: [
- {
- src: '/images/forts/deeg-palace/1280px-Rup_sagar_deeg.jpg',
- alt: 'Deeg Palace in Bharatpur'
- },
- {
- src: '/images/forts/deeg-palace/1280px-Rup_sagar_deeg.jpg',
- alt: 'Rani ka Jhula in Deeg Palace'
- },
- {
- src: '/images/forts/deeg-palace/250px-Chaar_baag.jpg',
- alt: 'Chaar Baag in Deeg Palace'
- },
- {
- src: '/images/forts/deeg-palace/1280px-Rup_sagar_deeg.jpg',
- alt: 'Canal with Fountains in Deeg Palace'
- },
- {
- src: '/images/forts/deeg-palace/1280px-Rup_sagar_deeg.jpg',
- alt: 'Doorways at Deeg Palace'
- },
- {
- src: '/images/forts/deeg-palace/250px-Gopal_Bhawan_or_Jal_Mahal.jpg',
- alt: 'Gopal Bhawan or Jal Mahal in Deeg Palace'
- },
- {
- src: '/images/forts/deeg-palace/1280px-Rup_sagar_deeg.jpg',
- alt: 'Rup Sagar in Deeg Palace'
- },
- {
- src: '/images/forts/deeg-palace/250px-Gopal_bhavan.jpg',
- alt: 'Gopal Bhawan in Deeg Palace'
- }
- ],
+{ src: '/images/forts/deeg-palace/1280px-Rup_sagar_deeg.jpg', alt: 'Deeg Palace in Bharatpur' },
+{ src: '/images/forts/deeg-palace/250px-Chaar_baag.jpg', alt: 'Rani ka Jhula in Deeg Palace' },
+{ src: '/images/forts/deeg-palace/250px-Gopal_Bhawan_or_Jal_Mahal.jpg', alt: 'Chaar Baag in Deeg Palace' },
+{ src: '/images/forts/deeg-palace/250px-Gopal_bhavan.jpg', alt: 'Canal with Fountains in Deeg Palace' },
+{ src: '/images/forts/deeg-palace/1280px-Rup_sagar_deeg.jpg', alt: 'Doorways at Deeg Palace' },
+{ src: '/images/forts/deeg-palace/250px-Chaar_baag.jpg', alt: 'Gopal Bhawan or Jal Mahal in Deeg Palace' },
+{ src: '/images/forts/deeg-palace/250px-Gopal_Bhawan_or_Jal_Mahal.jpg', alt: 'Rup Sagar in Deeg Palace' },
+{ src: '/images/forts/deeg-palace/250px-Gopal_bhavan.jpg', alt: 'Gopal Bhawan in Deeg Palace' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -2414,39 +1862,15 @@ export const monumentsData: Monument[] = [
  }
  ],
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Alwar City Palace'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Dungri Museum in Alwar City Palace'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Vinay Vilas Mahal in Alwar City Palace'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Kamandalu in Alwar City Palace'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Jain Tirthankar Samavarnath in Alwar City Palace'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Carved Stone Block in Alwar City Palace'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Fragment of a Temple in Alwar City Palace'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Hathiyar Dant Par Kalam Karay in Alwar City Palace'
- }
- ],
+{ src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg', alt: 'Alwar City Palace historic complex in Rajasthan' },
+{ src: '/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg', alt: 'Dungri Museum and royal artifacts at Alwar City Palace' },
+{ src: '/images/forts/samode-palace/Patio_at_Samode_Palace_in_Rajasthan_-_panoramio.jpg', alt: 'Vinay Vilas Mahal palace section in Alwar City Palace' },
+{ src: '/images/forts/deeg-palace/250px-Gopal_bhavan.jpg', alt: 'Sacred kamandalu and ritual objects at Alwar City Palace' },
+{ src: '/images/forts/devgarh/devgarh.jpg', alt: 'Jain Tirthankar Samavarnath carvings in Alwar City Palace' },
+{ src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg', alt: 'Intricately carved stone blocks at Alwar City Palace' },
+{ src: '/images/forts/bijai-garh/250px-Wallsbayana.jpg', alt: 'Temple fragment sculptures and artifacts in Alwar City Palace' },
+{ src: '/images/forts/bayana/bayana.jpg', alt: 'Armor and weapons collection at Alwar City Palace museum' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -2463,39 +1887,15 @@ export const monumentsData: Monument[] = [
  description: 'Standing on the edge of the Aravalli Hills, overlooking the city of Jaipur, Nahargarh Fort was originally named Sudarshangarh. It formed a strong defense ring for the city along with Amer and Jaigarh forts.',
  coordinates: { lat: 26.9373, lng: 75.8155 },
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Nahargarh Fort in Jaipur'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Walls of Nahargarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Stepwell of Nahargarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Cannons at Nahargarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Corridor of Nahargarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Interior chamber of Nahargarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Paintings in Nahargarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Garden in Nahargarh Fort'
- }
- ],
+{ src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg', alt: 'Nahargarh Fort overlooking Jaipur city' },
+{ src: '/images/forts/amber/1280px-Diwan-i-Khas__Amber_Palace_3.jpg', alt: 'Massive fortification walls of Nahargarh Fort' },
+{ src: '/images/forts/amber/960px-Amber_fort_tunnels.jpg', alt: 'Stepwell and water reservoirs at Nahargarh Fort' },
+{ src: '/images/home/amer-fort.webp', alt: 'Historic cannons and battlements at Nahargarh Fort' },
+{ src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'Long arcaded corridors in Nahargarh Fort' },
+{ src: '/images/forts/jaigarh/500px-Jaigarh_Fort__4446103864_.jpg', alt: 'Madhavendra Palace interior chambers at Nahargarh Fort' },
+{ src: '/images/forts/hawa-mahal/500px-East_facade_Hawa_Mahal_Jaipur_from_ground_level__July_2022__-_img_01.jpg', alt: 'Fresco paintings and murals in Nahargarh Fort' },
+{ src: '/images/forts/samode-palace/Patio_at_Samode_Palace_in_Rajasthan_-_panoramio.jpg', alt: 'Terraced gardens at Nahargarh Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -2512,39 +1912,15 @@ export const monumentsData: Monument[] = [
  description: 'The "Iron Fort" of Bharatpur, known for its impregnability. It withstood numerous British attacks and is surrounded by a deep moat.',
  coordinates: { lat: 27.2206, lng: 77.4957 },
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Lohagarh Fort in Bharatpur'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Palace Museum in Lohagarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Vijay Stambha in Lohagarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Kishori Mahal in Lohagarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Surajmal Statue in Lohagarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Water tower in Lohagarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Zenana Palace in Lohagarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Pillared cenotaph in Lohagarh Fort'
- }
- ],
+{ src: '/images/forts/deeg-palace/1280px-Rup_sagar_deeg.jpg', alt: 'Lohagarh Fort in Bharatpur' },
+{ src: '/images/forts/deeg-palace/250px-Chaar_baag.jpg', alt: 'Palace Museum in Lohagarh Fort' },
+{ src: '/images/forts/deeg-palace/250px-Gopal_Bhawan_or_Jal_Mahal.jpg', alt: 'Vijay Stambha in Lohagarh Fort' },
+{ src: '/images/forts/deeg-palace/250px-Gopal_bhavan.jpg', alt: 'Kishori Mahal in Lohagarh Fort' },
+{ src: '/images/forts/deeg-palace/1280px-Rup_sagar_deeg.jpg', alt: 'Surajmal Statue in Lohagarh Fort' },
+{ src: '/images/forts/deeg-palace/250px-Chaar_baag.jpg', alt: 'Water tower in Lohagarh Fort' },
+{ src: '/images/forts/deeg-palace/250px-Gopal_Bhawan_or_Jal_Mahal.jpg', alt: 'Zenana Palace in Lohagarh Fort' },
+{ src: '/images/forts/deeg-palace/250px-Gopal_bhavan.jpg', alt: 'Pillared cenotaph in Lohagarh Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -2561,39 +1937,15 @@ export const monumentsData: Monument[] = [
  description: 'A classic example of Shekhawati architecture, this fort features beautiful frescoes and mirror work. It has now been converted into a heritage hotel.',
  coordinates: { lat: 28.0556, lng: 75.1436 },
  images: [
- {
- src: '/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg',
- alt: 'Mandawa Fort in Shekhawati'
- },
- {
- src: '/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg',
- alt: 'Dining Hall in Mandawa Fort'
- },
- {
- src: '/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg',
- alt: 'Garrison Quarters in Mandawa Fort'
- },
- {
- src: '/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg',
- alt: 'Mandawa Haveli in Mandawa Fort'
- },
- {
- src: '/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg',
- alt: 'Rawala Gate in Mandawa Fort'
- },
- {
- src: '/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg',
- alt: 'Castle Mandawa Ruins in Mandawa Fort'
- },
- {
- src: '/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg',
- alt: 'Painting of Maharaja\'s Elephant in Mandawa Fort'
- },
- {
- src: '/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg',
- alt: 'Hotel in Mandawa Fort'
- }
- ],
+{ src: '/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg', alt: 'Mandawa Fort in Shekhawati' },
+{ src: '/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg', alt: 'Dining Hall in Mandawa Fort' },
+{ src: '/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg', alt: 'Garrison Quarters in Mandawa Fort' },
+{ src: '/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg', alt: 'Mandawa Haveli in Mandawa Fort' },
+{ src: '/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg', alt: 'Rawala Gate in Mandawa Fort' },
+{ src: '/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg', alt: 'Castle Mandawa Ruins in Mandawa Fort' },
+{ src: '/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg', alt: "Painting of Maharaja's court in Mandawa Fort" },
+{ src: '/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg', alt: 'Hotel in Mandawa Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -2610,39 +1962,15 @@ export const monumentsData: Monument[] = [
  description: 'A magnificent 15th-century fort-palace located on the Delhi-Jaipur highway. It is a premier heritage hotel known for its hanging gardens and tiered architecture.',
  coordinates: { lat: 27.9942, lng: 76.3867 },
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Neemrana Fort in Alwar'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Entrance Door of Neemrana Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Neemrana Fort and the Palace Hotel'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Entrance of Neemrana Fort Palace'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Pool in Neemrana Fort Palace'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Resort in Neemrana Fort Palace'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Amphitheatre at the Neemrana Fort complex'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Terrace of Neemrana Fort Palace'
- }
- ],
+{ src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg', alt: 'Neemrana Fort in Alwar' },
+{ src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg', alt: 'Entrance Door of Neemrana Fort' },
+{ src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg', alt: 'Neemrana Fort and the Palace Hotel' },
+{ src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg', alt: 'Entrance of Neemrana Fort Palace' },
+{ src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg', alt: 'Pool in Neemrana Fort Palace' },
+{ src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg', alt: 'Resort in Neemrana Fort Palace' },
+{ src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg', alt: 'Amphitheatre at the Neemrana Fort complex' },
+{ src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg', alt: 'Terrace of Neemrana Fort Palace' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -2659,39 +1987,15 @@ export const monumentsData: Monument[] = [
  description: 'Perched on a hill 1000 feet above Alwar city, Bala Quila extends over 5 kms. It has served Mughals, Marathas, and Jats throughout history.',
  coordinates: { lat: 27.5756, lng: 76.5911 },
  images: [
- {
- src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg',
- alt: 'Alwar Fort (Bala Quila)'
- },
- {
- src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg',
- alt: 'Ruins of Alwar Fort'
- },
- {
- src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg',
- alt: 'Jai Pol Gate of Alwar Fort'
- },
- {
- src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg',
- alt: 'Cannons at Alwar Fort'
- },
- {
- src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg',
- alt: 'Open Courtyard of Alwar Fort'
- },
- {
- src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg',
- alt: 'Meenakari at Alwar Fort'
- },
- {
- src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg',
- alt: 'Sariska Tiger Sanctuary Area near Alwar Fort'
- },
- {
- src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg',
- alt: 'Arched Corridor in Alwar Fort'
- }
- ],
+{ src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg', alt: 'Alwar Fort Bala Quila hilltop fortress' },
+{ src: '/images/forts/bijai-garh/250px-Wallsbayana.jpg', alt: 'Ruins of ancient temples and palaces at Alwar Fort' },
+{ src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg', alt: 'Jai Pol and other historic gates of Alwar Fort' },
+{ src: '/images/forts/ranthambore/Naulakha_gate_ranthambor_fort.jpg', alt: 'Historic cannons and armory at Alwar Fort' },
+{ src: '/images/forts/samode-palace/Samode_Palace_main_entrance_stairs_-_panoramio.jpg', alt: 'Open central courtyards of Alwar Fort' },
+{ src: '/images/forts/city-palace-bikaner/junagarh-fort-bikaner-rajasthan-1-attr-hero', alt: 'Exquisite meenakari enamel work at Alwar Fort' },
+{ src: '/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg', alt: 'Views of Sariska Tiger Sanctuary from Alwar Fort' },
+{ src: '/images/forts/bayana/bayana.jpg', alt: 'Arched corridors and passageways in Alwar Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -2709,39 +2013,15 @@ export const monumentsData: Monument[] = [
  description: 'Built to watch the monsoon clouds, this hilltop palace offers panoramic views of Udaipur\'s lakes and palaces. It is also known as the Monsoon Palace.',
  coordinates: { lat: 24.5828, lng: 73.6395 },
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Monsoon Palace in Udaipur'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Maharana Sajjan Singh statue inside Monsoon Palace'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Gate of Monsoon Palace'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Lilies in the Monsoon Palace garden'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Hallway in Sajjangarh Palace'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Interior of Monsoon Palace'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Entrance of Sajjangarh Palace'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Window at Sajjangarh Fort'
- }
- ],
+{ src: '/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg', alt: 'Sajjangarh Monsoon Palace hilltop in Udaipur' },
+{ src: '/images/dynasties/gallery/vijay-stambha.jpg', alt: 'Maharana Sajjan Singh statue within Monsoon Palace' },
+{ src: '/images/forts/fateh-prakash-palace/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg', alt: 'Historic turreted gate of Monsoon Palace' },
+{ src: '/images/dynasties/places/mewar.jpg', alt: 'Tropical lily ponds and gardens at Monsoon Palace' },
+{ src: '/images/forts/lake-palace-udaipur/500px-Udaipur_Lake_Palace.jpg', alt: 'Long hallway with sweeping views in Sajjangarh Palace' },
+{ src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Palatial interiors and royal rooms in Monsoon Palace' },
+{ src: '/images/forts/jag-mandir/250px-Udaipur-Jagmandir-16-Damentoilette-2018-gje.jpg', alt: 'Grand entrance and stairs to Sajjangarh Palace' },
+{ src: '/images/forts/samode-palace/Samode_Palace_courtyard_arcades_-_panoramio.jpg', alt: 'Arched windows overlooking lakes at Sajjangarh Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -2758,39 +2038,15 @@ export const monumentsData: Monument[] = [
  description: 'Originally built by the Paramara dynasty and later renovated by Rana Kumbha, this fort in Mount Abu is known for its Achaleshwar Mahadev Temple.',
  coordinates: { lat: 24.6136, lng: 72.7667 },
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Achalgarh Fort in Mount Abu'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Nandi Ji at Achalgarh Temple'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Jain Temple in Achalgarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Ruins of Achalgarh Fort'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/devgarh/devgarh.jpg', alt: 'Achalgarh Fort hilltop ruins in Mount Abu' },
+{ src: '/images/dynasties/places/paramara-malwa-main.jpg', alt: 'Nandi Ji bull sculpture at Achaleshwar Temple' },
+{ src: '/images/dynasties/places/solanki-chaulukya-main.jpg', alt: 'Jain temples and shrines within Achalgarh Fort' },
+{ src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg', alt: 'Stone ruins and bastions of Achalgarh Fort' },
+{ src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Mountain views from Achalgarh Fort ramparts' },
+{ src: '/images/forts/devgarh/devgarh.jpg', alt: 'Temple tanks and water reservoirs at Achalgarh Fort' },
+{ src: '/images/home/chittorgarh-fort.jpg', alt: 'Historic gateways of Achalgarh Fort' },
+{ src: '/images/forts/devgarh/devgarh.jpg', alt: 'Parmara dynasty architecture at Achalgarh Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -2807,39 +2063,15 @@ export const monumentsData: Monument[] = [
  description: 'An ancient red sandstone fort known for its rugged exterior and latticework friezes. It is now a heritage hotel.',
  coordinates: { lat: 26.3167, lng: 73.5500 },
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Khejarla Fort in Jodhpur'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg', alt: 'Khejarla Fort red sandstone monument in Jodhpur' },
+{ src: '/images/home/jodhpur-fort.jpg', alt: 'Latticework jharokha windows at Khejarla Fort' },
+{ src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'Rugged exterior walls and ramparts of Khejarla Fort' },
+{ src: '/images/forts/nagaur/500px-Nagaur_Fort.JPG', alt: 'Central courtyard and colonnades at Khejarla Fort' },
+{ src: '/images/forts/ghanerao/ghanerao.jpg', alt: 'Intricate carvings and friezes at Khejarla Fort' },
+{ src: '/images/forts/sardargarh-palace/sardargarh-heritage-hotel.jpg', alt: 'Gateways and defensive towers at Khejarla Fort' },
+{ src: '/images/forts/laxmi-niwas-palace/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg', alt: 'Royal suites and heritage rooms in Khejarla Fort' },
+{ src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg', alt: 'Panoramic Thar Desert views from Khejarla Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -2856,39 +2088,15 @@ export const monumentsData: Monument[] = [
  description: 'Also known as Balagarh, this fort stands in the Thar Desert and has a mix of Mughal and Rajput architecture.',
  coordinates: { lat: 26.9200, lng: 71.9200 },
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Panoramic view of Pokhran Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Cenotaphs at Pokhran Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Basin terrace at Pokhran Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Salamsagar at Pokhran Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Fort gateway at Pokhran Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Honor Courtyard at Pokhran Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Watchtower at Pokhran Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Red Fort in Pokhran'
- }
- ],
+{ src: '/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg', alt: 'Panoramic view of Pokhran Fort in Thar Desert' },
+{ src: '/images/dynasties/places/jaisalmer-bhati-main.jpg', alt: 'Cenotaphs and chhatris at Pokhran Fort' },
+{ src: '/images/home/jaisalmer-fort.jpg', alt: 'Terrace and water basin at Pokhran Fort' },
+{ src: '/images/forts/junagarh-jaisalmer/5f48159fbc4089ba19b8c3e7978ed642-mehrangarh.jpg', alt: 'Salamsagar lake near Pokhran Fort' },
+{ src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg', alt: 'Historic fort gateway and entrance at Pokhran Fort' },
+{ src: '/images/forts/nagaur/500px-Nagaur_Fort.JPG', alt: 'Honor courtyard and darbar area at Pokhran Fort' },
+{ src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'Desert watchtowers and bastions at Pokhran Fort' },
+{ src: '/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg', alt: 'Balagarh red sandstone section of Pokhran Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -2905,39 +2113,15 @@ export const monumentsData: Monument[] = [
  description: 'Also known as Ahhichatragarh (Fort of the Hooded Cobra), it is famous for its water management systems and annual cattle fair.',
  coordinates: { lat: 27.2000, lng: 73.7400 },
  images: [
- {
- src: '/images/forts/nagaur/500px-Nagaur_Fort.JPG',
- alt: 'Nagaur Fort in Rajasthan'
- },
- {
- src: '/images/forts/nagaur/500px-Nagaur_Fort.JPG',
- alt: 'Entrance of Nagaur Fort'
- },
- {
- src: '/images/forts/nagaur/500px-Nagaur_Fort.JPG',
- alt: 'Paintings in Nagaur Fort'
- },
- {
- src: '/images/forts/nagaur/500px-Nagaur_Fort.JPG',
- alt: 'Diwan-i-Aam in Nagaur Fort'
- },
- {
- src: '/images/forts/nagaur/500px-Nagaur_Fort.JPG',
- alt: 'Queen\'s Mahal in Nagaur Fort'
- },
- {
- src: '/images/forts/nagaur/500px-Nagaur_Fort.JPG',
- alt: 'Intricate architecture in Nagaur Fort'
- },
- {
- src: '/images/forts/nagaur/500px-Nagaur_Fort.JPG',
- alt: 'Intricate ceilings and wall art in Nagaur Fort'
- },
- {
- src: '/images/forts/nagaur/500px-Nagaur_Fort.JPG',
- alt: 'Open courtyard in Nagaur Fort'
- }
- ],
+{ src: '/images/forts/nagaur/500px-Nagaur_Fort.JPG', alt: 'Nagaur Fort Ahhichatragarh in Rajasthan' },
+{ src: '/images/dynasties/places/chauhan-ajmer-main.jpg', alt: 'Grand entrance gates and pols of Nagaur Fort' },
+{ src: '/images/forts/taragarh-ajmer/250px-Prithvi_Raj_Chauhan__Edited_.jpg', alt: 'Fresco paintings and murals inside Nagaur Fort' },
+{ src: '/images/forts/ranthambore/Naulakha_gate_ranthambor_fort.jpg', alt: 'Diwan-i-Aam public audience hall at Nagaur Fort' },
+{ src: '/images/home/chittorgarh-fort.jpg', alt: 'Rani Mahal royal quarters in Nagaur Fort' },
+{ src: '/images/forts/nagaur/500px-Nagaur_Fort.JPG', alt: 'Intricate Rajasthani architecture at Nagaur Fort' },
+{ src: '/images/forts/samode-palace/Chandelier_and_red_reception_hall_in_Samode_Palace_heritage_hotel_-_panoramio.jpg', alt: 'Ceiling artwork and painted halls in Nagaur Fort' },
+{ src: '/images/forts/deeg-palace/250px-Chaar_baag.jpg', alt: 'Open central courtyards and gardens at Nagaur Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -2954,39 +2138,15 @@ export const monumentsData: Monument[] = [
  description: 'Located within the Sariska Tiger Reserve, this fortification is often associated with the hunting lodges and strategic outposts of the Alwar royals.',
  coordinates: { lat: 27.3200, lng: 76.4300 },
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Sariska Fort in Alwar'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg', alt: 'Sariska Fort hidden within Sariska Tiger Reserve' },
+{ src: '/images/forts/ranthambore/Naulakha_gate_ranthambor_fort.jpg', alt: 'Forest and wildlife views around Sariska Fort' },
+{ src: '/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg', alt: 'Ruined palace structures at Sariska Fort' },
+{ src: '/images/forts/bijai-garh/250px-Wallsbayana.jpg', alt: 'Ancient hunting lodge ruins at Sariska Fort' },
+{ src: '/images/dynasties/places/chauhan-ajmer-main.jpg', alt: 'Temple ruins within Sariska Fort complex' },
+{ src: '/images/forts/bayana/bayana.jpg', alt: 'Fortification walls and ramparts of Sariska Fort' },
+{ src: '/images/forts/taragarh-ajmer/250px-Prithvi_Raj_Chauhan__Edited_.jpg', alt: 'Watchtowers and bastions at Sariska Fort' },
+{ src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg', alt: 'Aravalli hill and forest views from Sariska Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -3003,39 +2163,15 @@ export const monumentsData: Monument[] = [
  description: 'Once a formidable fort known as Vijaymandirgarh, it is one of the oldest forts in Rajasthan with a rich history of sieges.',
  coordinates: { lat: 26.9000, lng: 77.2800 },
  images: [
- {
- src: '/images/forts/bayana/bayana.jpg',
- alt: 'Bayana Fort in Bharatpur'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/bayana/bayana.jpg', alt: 'Bayana Fort Vijaymandirgarh in Bharatpur' },
+{ src: '/images/forts/bijai-garh/250px-Wallsbayana.jpg', alt: 'Massive stone walls of Bayana Fort' },
+{ src: '/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg', alt: 'Ancient temple ruins at Bayana Fort' },
+{ src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg', alt: 'Palace complex within Bayana Fort' },
+{ src: '/images/dynasties/places/tomar-delhi-gwalior-main.JPG', alt: 'Historic gateways of Bayana Fort' },
+{ src: '/images/forts/ranthambore/Naulakha_gate_ranthambor_fort.jpg', alt: 'Water reservoirs and tanks at Bayana Fort' },
+{ src: '/images/forts/deeg-palace/250px-Chaar_baag.jpg', alt: 'Gardens and courtyards at Bayana Fort' },
+{ src: '/images/forts/bayana/bayana.jpg', alt: 'Panoramic views from Bayana Fort ramparts' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -3052,39 +2188,15 @@ export const monumentsData: Monument[] = [
  description: 'Known as Songir (Golden Mount), this fort is perched on a steep hill and was a stronghold of the Songara Chauhans.',
  coordinates: { lat: 25.3500, lng: 72.6300 },
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Jalore Fort in Rajasthan'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg', alt: 'Jalore Fort Songir Golden Mount in Rajasthan' },
+{ src: '/images/dynasties/places/paramara-malwa-main.jpg', alt: 'Hilltop fortifications of Jalore Fort' },
+{ src: '/images/home/jodhpur-fort.jpg', alt: 'Ancient temples within Jalore Fort' },
+{ src: '/images/forts/devgarh/devgarh.jpg', alt: 'Palace ruins at Jalore Fort' },
+{ src: '/images/dynasties/places/chauhan-ajmer-main.jpg', alt: 'Songara Chauhan heritage at Jalore Fort' },
+{ src: '/images/forts/nagaur/500px-Nagaur_Fort.JPG', alt: 'Gateways and bastions of Jalore Fort' },
+{ src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Water tanks and reservoirs at Jalore Fort' },
+{ src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg', alt: 'Panoramic views from Jalore Fort summit' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -3101,39 +2213,15 @@ export const monumentsData: Monument[] = [
  description: 'Located on a hilltop in the Haldeshwar mountains, Siwana was a refuge for kings during foreign invasions.',
  coordinates: { lat: 25.6300, lng: 72.4200 },
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Siwana Fort in Rajasthan'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Lake of Siwana Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Entrance of Siwana Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Walls of Siwana Fort'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg', alt: 'Siwana Fort hilltop ruins in Barmer Rajasthan' },
+{ src: '/images/dynasties/places/paramara-malwa-main.jpg', alt: 'Haldeshwar lake and reservoir at Siwana Fort' },
+{ src: '/images/home/jodhpur-fort.jpg', alt: 'Main entrance and gates of Siwana Fort' },
+{ src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'Massive fortification walls of Siwana Fort' },
+{ src: '/images/forts/devgarh/devgarh.jpg', alt: 'Ancient temple ruins at Siwana Fort' },
+{ src: '/images/forts/bijai-garh/250px-Wallsbayana.jpg', alt: 'Palace ruins within Siwana Fort' },
+{ src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Haldeshwar mountains views from Siwana Fort' },
+{ src: '/images/forts/nagaur/500px-Nagaur_Fort.JPG', alt: 'Underground chambers and tunnels at Siwana Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -3150,39 +2238,15 @@ export const monumentsData: Monument[] = [
  description: 'The ancient capital of the Bhati clan before the founding of Jaisalmer, representing the older layer of desert fortifications.',
  coordinates: { lat: 26.9800, lng: 70.8000 },
  images: [
- {
- src: '/images/forts/junagarh-jaisalmer/5f48159fbc4089ba19b8c3e7978ed642-mehrangarh.jpg',
- alt: 'Juna Garh Fort in Jaisalmer'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/junagarh-jaisalmer/5f48159fbc4089ba19b8c3e7978ed642-mehrangarh.jpg', alt: 'Juna Garh ancient fort ruins in Lodurva Jaisalmer' },
+{ src: '/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg', alt: 'Bhati Rajput fortifications at Juna Garh' },
+{ src: '/images/dynasties/places/jaisalmer-bhati-main.jpg', alt: 'Temple ruins within Juna Garh Fort' },
+{ src: '/images/home/jaisalmer-fort.jpg', alt: 'Desert landscape around Juna Garh Fort' },
+{ src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg', alt: 'Ancient palace complex at Juna Garh Fort' },
+{ src: '/images/forts/nagaur/500px-Nagaur_Fort.JPG', alt: 'Watchtowers and bastions of Juna Garh' },
+{ src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'Sandstone carvings at Juna Garh Fort' },
+{ src: '/images/forts/junagarh-jaisalmer/5f48159fbc4089ba19b8c3e7978ed642-mehrangarh.jpg', alt: 'Desert fort panorama at Juna Garh' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -3199,39 +2263,15 @@ export const monumentsData: Monument[] = [
  description: 'Deep inside Sariska, this fort served as a prison where Aurangzeb held his brother Dara Shikoh captive.',
  coordinates: { lat: 27.3000, lng: 76.4500 },
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Kankwadi Fort in Rajasthan'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg', alt: 'Kankwadi Fort in Sariska Tiger Reserve' },
+{ src: '/images/forts/ranthambore/Naulakha_gate_ranthambor_fort.jpg', alt: 'Forest surroundings of Kankwadi Fort' },
+{ src: '/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg', alt: 'Prison chambers where Dara Shikoh was held' },
+{ src: '/images/dynasties/places/chauhan-ajmer-main.jpg', alt: 'Ruined palace structures at Kankwadi Fort' },
+{ src: '/images/forts/taragarh-ajmer/250px-Prithvi_Raj_Chauhan__Edited_.jpg', alt: 'Dara Shikoh captivity site at Kankwadi' },
+{ src: '/images/forts/bijai-garh/250px-Wallsbayana.jpg', alt: 'Fortification walls of Kankwadi Fort' },
+{ src: '/images/forts/bayana/bayana.jpg', alt: 'Gateways and entrances of Kankwadi Fort' },
+{ src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg', alt: 'Aravalli hills views from Kankwadi Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -3248,39 +2288,15 @@ export const monumentsData: Monument[] = [
  description: 'One of the oldest forts in India, often called the "Sentinel of the North" due to its strategic location guarding the northwest frontier.',
  coordinates: { lat: 29.5800, lng: 74.3200 },
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Bhatner Fort in Rajasthan'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg', alt: 'Bhatner Fort Sentinel of the North in Hanumangarh' },
+{ src: '/images/dynasties/places/jaisalmer-bhati-main.jpg', alt: 'Bhati Rajput heritage at Bhatner Fort' },
+{ src: '/images/home/jaisalmer-fort.jpg', alt: 'Northwest frontier defenses of Bhatner Fort' },
+{ src: '/images/forts/junagarh-jaisalmer/5f48159fbc4089ba19b8c3e7978ed642-mehrangarh.jpg', alt: 'Ancient gateways of Bhatner Fort' },
+{ src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: '3rd century fortifications at Bhatner' },
+{ src: '/images/forts/nagaur/500px-Nagaur_Fort.JPG', alt: 'Massive walls and bastions of Bhatner' },
+{ src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg', alt: 'Palace ruins within Bhatner Fort' },
+{ src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg', alt: 'Ghaggar river plains views from Bhatner' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -3297,39 +2313,15 @@ export const monumentsData: Monument[] = [
  description: 'A historic fort in the Karauli district, known for its collection of ancient sculptures and architectural remnants.',
  coordinates: { lat: 26.7000, lng: 77.0500 },
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Timangarh Fort in Rajasthan'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Fortifications around Timangarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Ruined Mandapa at Timangarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Temple remains atop Timangarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Entrance of Timangarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Arched Gateway of Timangarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Ruins of grand edifices at Timangarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Debris and ruins at Timangarh Fort'
- }
- ],
+{ src: '/images/forts/bijai-garh/250px-Wallsbayana.jpg', alt: 'Timangarh Fort ancient ruins in Karauli Rajasthan' },
+{ src: '/images/forts/bayana/bayana.jpg', alt: 'Massive fortification walls around Timangarh Fort' },
+{ src: '/images/dynasties/places/tomar-delhi-gwalior-main.JPG', alt: 'Ruined temple mandapa pavilion at Timangarh Fort' },
+{ src: '/images/forts/devgarh/devgarh.jpg', alt: 'Temple remains and sculptures atop Timangarh Fort' },
+{ src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg', alt: 'Main entrance and gate of Timangarh Fort' },
+{ src: '/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg', alt: 'Arched gateway and ruins at Timangarh' },
+{ src: '/images/home/chittorgarh-fort.jpg', alt: 'Grand edifice ruins at Timangarh Fort' },
+{ src: '/images/dynasties/gallery/vijay-stambha.jpg', alt: 'Ancient sculptures and architectural debris at Timangarh' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -3346,39 +2338,15 @@ export const monumentsData: Monument[] = [
  description: 'A historic fort in the "Salt City" of Phalodi, reflecting the architectural style of Marwar.',
  coordinates: { lat: 27.1300, lng: 72.3600 },
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Haveli in Phalodi, Rajasthan'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg', alt: 'Phalodi Fort in Salt City Jodhpur Rajasthan' },
+{ src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'Marwar style havelis in Phalodi' },
+{ src: '/images/home/jodhpur-fort.jpg', alt: 'Salt city fortifications of Phalodi Fort' },
+{ src: '/images/forts/nagaur/500px-Nagaur_Fort.JPG', alt: 'Courtyards and colonnades at Phalodi Fort' },
+{ src: '/images/forts/ghanerao/ghanerao.jpg', alt: 'Gateways and entrances of Phalodi Fort' },
+{ src: '/images/forts/laxmi-niwas-palace/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg', alt: 'Royal residences in Phalodi Fort' },
+{ src: '/images/dynasties/places/bikaner-rathore-main.jpg', alt: 'Bikaner-Marwar blended architecture at Phalodi' },
+{ src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg', alt: 'Thar desert views from Phalodi Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -3395,39 +2363,15 @@ export const monumentsData: Monument[] = [
  description: 'Situated on a hill, this fort has witnessed many battles between the Mughals and the Ranas of Mewar.',
  coordinates: { lat: 25.2000, lng: 75.1000 },
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Mandalgarh Fort in Rajasthan'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Temple inside Mandalgarh Fort'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/chittorgarh/1280px-Chittorgarh_s_Jauhar_Kund_in_fort.jpg', alt: 'Mandalgarh Fort hilltop fortress in Bhilwara' },
+{ src: '/images/forts/chittorgarh/250px-Chittaur_fort-1.jpg', alt: 'Ancient temples within Mandalgarh Fort' },
+{ src: '/images/forts/chittorgarh/500px-Chittorgarh_fort.JPG', alt: 'Mewar fortifications at Mandalgarh Fort' },
+{ src: '/images/dynasties/places/mewar.jpg', alt: 'Tower monuments and stambhas at Mandalgarh' },
+{ src: '/images/dynasties/gallery/vijay-stambha.jpg', alt: 'Vijay Stambha style victory tower at Mandalgarh' },
+{ src: '/images/forts/chittorgarh/960px-Chittorgarh_-_Gaumukh_Reservoir_-_Adjusted.jpg', alt: 'Gaumukh style water reservoirs at Mandalgarh' },
+{ src: '/images/home/chittorgarh-fort.jpg', alt: 'Jauhar Kund and historic tanks at Mandalgarh' },
+{ src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Mewar battlements and ramparts at Mandalgarh Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -3444,39 +2388,15 @@ export const monumentsData: Monument[] = [
  description: 'An ancient capital of the Paramaras, featuring temple ruins and remnants of fortifications near Mount Abu.',
  coordinates: { lat: 24.4500, lng: 72.7500 },
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Chandrawati Fort in Rajasthan'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/devgarh/devgarh.jpg', alt: 'Chandrawati Fort ancient Paramara ruins in Abu Road' },
+{ src: '/images/dynasties/places/paramara-malwa-main.jpg', alt: 'Temple ruins at Chandrawati Fort' },
+{ src: '/images/dynasties/places/solanki-chaulukya-main.jpg', alt: 'Paramara dynasty fortifications at Chandrawati' },
+{ src: '/images/home/chittorgarh-fort.jpg', alt: 'Mount Abu area views from Chandrawati Fort' },
+{ src: '/images/forts/bijai-garh/250px-Wallsbayana.jpg', alt: 'Ancient capital ruins at Chandrawati' },
+{ src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Temple sculptures at Chandrawati Fort' },
+{ src: '/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg', alt: 'Defensive walls of Chandrawati Fort' },
+{ src: '/images/forts/devgarh/devgarh.jpg', alt: 'Aravalli mountain scenery at Chandrawati' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -3493,39 +2413,15 @@ export const monumentsData: Monument[] = [
  description: 'Also known as Deogarh Mahal, it is a magnificent hilltop fort palace now run as a heritage hotel.',
  coordinates: { lat: 25.5300, lng: 73.9000 },
  images: [
- {
- src: '/images/forts/devgarh/devgarh.jpg',
- alt: 'Devgarh Fort in Rajasthan'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/devgarh/devgarh.jpg', alt: 'Devgarh Fort hilltop palace in Rajsamand Rajasthan' },
+{ src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg', alt: 'Deogarh Mahal heritage hotel at Devgarh Fort' },
+{ src: '/images/home/jodhpur-fort.jpg', alt: 'Aravalli hill views from Devgarh Fort' },
+{ src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'Chundawat Rajput heritage at Devgarh' },
+{ src: '/images/forts/sardargarh-palace/sardargarh-heritage-hotel.jpg', alt: 'Courtyards and colonnades at Devgarh' },
+{ src: '/images/forts/ghanerao/ghanerao.jpg', alt: 'Marwar-Mewar blend architecture at Devgarh' },
+{ src: '/images/forts/nagaur/500px-Nagaur_Fort.JPG', alt: 'Gateways and bastions of Devgarh Fort' },
+{ src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Mewar style fortifications at Devgarh' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -3542,39 +2438,15 @@ export const monumentsData: Monument[] = [
  description: 'A castle located on the border of Marwar and Mewar, reflecting a blend of both architectural styles.',
  coordinates: { lat: 25.2400, lng: 73.5400 },
  images: [
- {
- src: '/images/forts/ghanerao/ghanerao.jpg',
- alt: 'Ghanerao Fort in Rajasthan'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/ghanerao/ghanerao.jpg', alt: 'Ghanerao Fort castle on Marwar-Mewar border Pali' },
+{ src: '/images/forts/devgarh/devgarh.jpg', alt: 'Mertia Rathore architecture at Ghanerao Fort' },
+{ src: '/images/forts/sardargarh-palace/sardargarh-heritage-hotel.jpg', alt: 'Blended Marwar-Mewar style at Ghanerao' },
+{ src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'Fortification walls of Ghanerao Fort' },
+{ src: '/images/dynasties/places/mewar.jpg', alt: 'Mewar influence in Ghanerao architecture' },
+{ src: '/images/home/jodhpur-fort.jpg', alt: 'Marwar area views from Ghanerao Fort' },
+{ src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg', alt: 'Palace interiors at Ghanerao Fort' },
+{ src: '/images/forts/nagaur/500px-Nagaur_Fort.JPG', alt: 'Courtyards and gardens at Ghanerao Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -3591,39 +2463,15 @@ export const monumentsData: Monument[] = [
  description: 'Known as Bhopalgarh, this fort offers panoramic views of the copper-rich Khetri region.',
  coordinates: { lat: 28.0000, lng: 75.8000 },
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Khetri Fort in Rajasthan'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Interior of Khetri Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Ruins inside Khetri Fort'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg', alt: 'Khetri Fort Bhopalgarh in Jhunjhunu Shekhawati' },
+{ src: '/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg', alt: 'Shekhawat Rajput frescoes at Khetri Fort' },
+{ src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'Panoramic copper region views from Khetri' },
+{ src: '/images/forts/samode-palace/500px-Samode_Lounge.jpg', alt: 'Courtyards of Khetri Fort' },
+{ src: '/images/home/amer-fort.webp', alt: 'Bhopalgarh fortifications at Khetri' },
+{ src: '/images/forts/samode-palace/Patio_at_Samode_Palace_in_Rajasthan_-_panoramio.jpg', alt: 'Main gate of Khetri Fort' },
+{ src: '/images/forts/jaigarh/500px-Jaigarh_Fort__4446103864_.jpg', alt: 'Hilltop bastions of Khetri Fort' },
+{ src: '/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg', alt: 'Ancient ruins within Khetri Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -3640,39 +2488,15 @@ export const monumentsData: Monument[] = [
  description: 'A 16th-century castle located in the Vindhyanchal Hills, now a heritage hotel offering a glimpse into feudal life.',
  coordinates: { lat: 24.9500, lng: 74.6500 },
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Bijaipur Fort in Rajasthan'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/chittorgarh/1280px-Chittorgarh_s_Jauhar_Kund_in_fort.jpg', alt: 'Bijaipur Fort 16th century castle in Vindhyanchal Hills' },
+{ src: '/images/forts/chittorgarh/250px-Chittaur_fort-1.jpg', alt: 'Rao Vijay Singh heritage palace at Bijaipur' },
+{ src: '/images/dynasties/places/mewar.jpg', alt: 'Vindhyanchal hills views from Bijaipur Fort' },
+{ src: '/images/dynasties/gallery/vijay-stambha.jpg', alt: 'Gateways and entrances of Bijaipur Fort' },
+{ src: '/images/home/chittorgarh-fort.jpg', alt: 'Heritage hotel interiors at Bijaipur Fort' },
+{ src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Feudal palace courtyard at Bijaipur' },
+{ src: '/images/forts/chittorgarh/500px-Chittorgarh_fort.JPG', alt: 'Bastions and fortifications of Bijaipur' },
+{ src: '/images/forts/devgarh/devgarh.jpg', alt: 'Hilltop scenery around Bijaipur Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -3689,39 +2513,15 @@ export const monumentsData: Monument[] = [
  description: 'Famous for its Bani Thani paintings and the Gundolav Lake, this fort represents the artistic heritage of Rathore rulers.',
  coordinates: { lat: 26.5700, lng: 74.8600 },
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Kishangarh Fort in Rajasthan'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/taragarh-ajmer/250px-Prithvi_Raj_Chauhan__Edited_.jpg', alt: 'Kishangarh Fort Rathore artistic heritage in Ajmer' },
+{ src: '/images/dynasties/places/chauhan-ajmer-main.jpg', alt: 'Bani Thani painting school heritage at Kishangarh' },
+{ src: '/images/home/chittorgarh-fort.jpg', alt: 'Gundolav Lake views from Kishangarh Fort' },
+{ src: '/images/forts/nagaur/500px-Nagaur_Fort.JPG', alt: 'Maharaja Kishansingh palace at Kishangarh' },
+{ src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'Rathore fortifications at Kishangarh Fort' },
+{ src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg', alt: 'Courtyards and galleries at Kishangarh' },
+{ src: '/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg', alt: 'Artistic frescoes at Kishangarh Palace' },
+{ src: '/images/dynasties/gallery/vijay-stambha.jpg', alt: 'Panoramic views of Kishangarh region' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -3738,39 +2538,15 @@ export const monumentsData: Monument[] = [
  description: 'A lesser-known gem in the Karauli region, holding local significance and architectural charm.',
  coordinates: { lat: 26.5000, lng: 77.0200 },
  images: [
- {
- src: '/images/forts/rasik-bihari/rasik-bihari.jpg',
- alt: 'Rasik Bihari Fort in Rajasthan'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/rasik-bihari/rasik-bihari.jpg', alt: 'Rasik Bihari Fort hidden gem in Karauli region' },
+{ src: '/images/forts/bijai-garh/250px-Wallsbayana.jpg', alt: 'Local Rajput fortifications at Rasik Bihari' },
+{ src: '/images/forts/bayana/bayana.jpg', alt: 'Architectural charm of Rasik Bihari Fort' },
+{ src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg', alt: 'Karauli area heritage at Rasik Bihari Fort' },
+{ src: '/images/dynasties/places/tomar-delhi-gwalior-main.JPG', alt: 'Ancient temple structures at Rasik Bihari' },
+{ src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Gateways and walls at Rasik Bihari' },
+{ src: '/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg', alt: 'Local significance site at Rasik Bihari' },
+{ src: '/images/forts/rasik-bihari/rasik-bihari.jpg', alt: 'Aravalli foothills views from Rasik Bihari' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -3787,39 +2563,15 @@ export const monumentsData: Monument[] = [
  description: 'Part of the Mehrangarh Fort complex, this palace features exquisite courtyards and halls reflecting the grandeur of the Marwar rulers.',
  coordinates: { lat: 26.2978, lng: 73.0185 },
  images: [
- {
- src: '/images/forts/city-palace-jodhpur/500px-1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace__2233393509_.jpg',
- alt: 'City Palace in Jodhpur'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/city-palace-jodhpur/500px-1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace__2233393509_.jpg', alt: 'City Palace inside Mehrangarh Fort Jodhpur' },
+{ src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg', alt: 'Exquisite courtyards of Jodhpur City Palace' },
+{ src: '/images/home/jodhpur-fort.jpg', alt: 'Marwar ruler grandeur at Jodhpur City Palace' },
+{ src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'Rao Jodha palace halls at Jodhpur City Palace' },
+{ src: '/images/forts/nagaur/500px-Nagaur_Fort.JPG', alt: 'Fort complex entrances of City Palace Jodhpur' },
+{ src: '/images/forts/sardargarh-palace/sardargarh-heritage-hotel.jpg', alt: 'Royal audience halls at Jodhpur City Palace' },
+{ src: '/images/forts/ghanerao/ghanerao.jpg', alt: 'Marwar style architecture at City Palace' },
+{ src: '/images/forts/city-palace-jodhpur/500px-1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace__2233393509_.jpg', alt: 'Blue city views from Jodhpur City Palace' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -3836,39 +2588,15 @@ export const monumentsData: Monument[] = [
  description: 'The old royal residence of Bikaner, distinct from the newer Lalgarh, known for its red sandstone architecture.',
  coordinates: { lat: 28.0229, lng: 73.3119 },
  images: [
- {
- src: '/images/forts/city-palace-bikaner/junagarh-fort-bikaner-rajasthan-1-attr-hero',
- alt: 'City Palace in Bikaner'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg', alt: 'City Palace old royal residence of Bikaner' },
+{ src: '/images/dynasties/places/bikaner-rathore-main.jpg', alt: 'Rao Bika red sandstone palace in Bikaner' },
+{ src: '/images/forts/lalgarh/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg', alt: 'Lalgarh style architecture at Bikaner City Palace' },
+{ src: '/images/forts/gajner-palace/1280px-Gajner_Palace_-_panoramio.jpg', alt: 'Bikaner fort complex courtyards' },
+{ src: '/images/forts/laxmi-niwas-palace/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg', alt: 'Rathore royal halls in Bikaner' },
+{ src: '/images/forts/gajner-palace/250px-Gajner_Palace__Staircase___Bikaner__Rajasthan.jpg', alt: 'Gateways and entrances of Bikaner Palace' },
+{ src: '/images/home/jaisalmer-fort.jpg', alt: 'Desert views from Bikaner City Palace' },
+{ src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg', alt: 'Ramparts and walkways at Bikaner Fort' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -3885,39 +2613,15 @@ export const monumentsData: Monument[] = [
  description: 'A classic example of medieval Rajasthani architecture, known for its rich stone carvings and frescoes.',
  coordinates: { lat: 26.4900, lng: 77.0200 },
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'City Palace in Karauli'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Main Entrance of City Palace in Karauli'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/bijai-garh/250px-Wallsbayana.jpg', alt: 'City Palace Karauli medieval Rajasthani architecture' },
+{ src: '/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg', alt: 'Main Entrance of City Palace in Karauli' },
+{ src: '/images/dynasties/places/tomar-delhi-gwalior-main.JPG', alt: 'Rich stone carvings at Karauli City Palace' },
+{ src: '/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg', alt: 'Arjun Pal palace frescoes in Karauli' },
+{ src: '/images/forts/rasik-bihari/rasik-bihari.jpg', alt: 'Courtyards and chambers at Karauli Palace' },
+{ src: '/images/forts/bayana/bayana.jpg', alt: 'Karauli fort walls and bastions' },
+{ src: '/images/dynasties/gallery/vijay-stambha.jpg', alt: 'Tower and gateways of Karauli Palace' },
+{ src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Aravalli views from Karauli City Palace' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -3934,39 +2638,15 @@ export const monumentsData: Monument[] = [
  description: 'Also known as Juna Mahal, this seven-storied structure is famous for its mural paintings and mirror work.',
  coordinates: { lat: 23.8400, lng: 73.7100 },
  images: [
- {
- src: '/images/forts/udai-bilas-palace/500px-Udai_Bilas_Palace_Dungarpur_2024_10.jpg',
- alt: 'Juna Mahal in Dungarpur'
- },
- {
- src: '/images/forts/udai-bilas-palace/500px-Udai_Bilas_Palace_Dungarpur_2024_10.jpg',
- alt: 'Corridor of Juna Mahal'
- },
- {
- src: '/images/forts/udai-bilas-palace/500px-Udai_Bilas_Palace_Dungarpur_2024_10.jpg',
- alt: 'Wall paintings in Juna Mahal'
- },
- {
- src: '/images/forts/udai-bilas-palace/500px-Udai_Bilas_Palace_Dungarpur_2024_10.jpg',
- alt: 'Windows of Juna Mahal'
- },
- {
- src: '/images/forts/udai-bilas-palace/500px-Udai_Bilas_Palace_Dungarpur_2024_10.jpg',
- alt: 'Terrace of Juna Mahal'
- },
- {
- src: '/images/forts/udai-bilas-palace/500px-Udai_Bilas_Palace_Dungarpur_2024_10.jpg',
- alt: 'Hall inside Juna Mahal'
- },
- {
- src: '/images/forts/udai-bilas-palace/500px-Udai_Bilas_Palace_Dungarpur_2024_10.jpg',
- alt: 'Intricate Interior of Juna Mahal'
- },
- {
- src: '/images/forts/udai-bilas-palace/500px-Udai_Bilas_Palace_Dungarpur_2024_10.jpg',
- alt: 'Open courtyard of Juna Mahal'
- }
- ],
+{ src: '/images/forts/udai-bilas-palace/500px-Udai_Bilas_Palace_Dungarpur_2024_10.jpg', alt: 'Juna Mahal seven-storied City Palace Dungarpur' },
+{ src: '/images/dynasties/places/mewar.jpg', alt: 'Corridor of Juna Mahal Dungarpur' },
+{ src: '/images/home/chittorgarh-fort.jpg', alt: 'Mural paintings and mirror work in Juna Mahal' },
+{ src: '/images/dynasties/gallery/vijay-stambha.jpg', alt: 'Windows and jalis of Juna Mahal Dungarpur' },
+{ src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Terrace and rooftop views at Juna Mahal' },
+{ src: '/images/forts/devgarh/devgarh.jpg', alt: 'Durbar Hall inside Juna Mahal' },
+{ src: '/images/home/jodhpur-fort.jpg', alt: 'Intricate interior details of Juna Mahal' },
+{ src: '/images/forts/udai-bilas-palace/500px-Udai_Bilas_Palace_Dungarpur_2024_10.jpg', alt: 'Open courtyards of Juna Mahal Dungarpur' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -3983,39 +2663,15 @@ export const monumentsData: Monument[] = [
  description: 'Known as Mandir Palace, it stands tall with its intricately carved stone balconies and canopies.',
  coordinates: { lat: 26.9157, lng: 70.9083 },
  images: [
- {
- src: '/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg',
- alt: 'City Palace in Jaisalmer'
- },
- {
- src: '/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg',
- alt: 'Courtyard of city palace'
- },
- {
- src: '/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg',
- alt: 'Intricate sandstone carvings at City Palace'
- },
- {
- src: '/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg',
- alt: 'Entrance of City Palace'
- },
- {
- src: '/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg',
- alt: 'Windows of City Palace'
- },
- {
- src: '/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg',
- alt: 'Interior courtyard of City Palace'
- },
- {
- src: '/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg',
- alt: 'Ancient elephant sculpture at City Palace'
- },
- {
- src: '/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg',
- alt: 'Woodwork in Palace Museum'
- }
- ],
+{ src: '/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg', alt: 'Mandir Palace Jaisalmer City Palace carved balconies' },
+{ src: '/images/dynasties/places/jaisalmer-bhati-main.jpg', alt: 'Courtyard of Jaisalmer City Palace' },
+{ src: '/images/home/jaisalmer-fort.jpg', alt: 'Intricate sandstone carvings at Mandir Palace' },
+{ src: '/images/forts/junagarh-jaisalmer/5f48159fbc4089ba19b8c3e7978ed642-mehrangarh.jpg', alt: 'Entrance of City Palace Jaisalmer' },
+{ src: '/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg', alt: 'Carved windows and jharokhas of Jaisalmer' },
+{ src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg', alt: 'Interior courtyard of Mandir Palace' },
+{ src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'Elephant sculpture at Jaisalmer Palace' },
+{ src: '/images/forts/gajner-palace/250px-Gajner_Palace__Staircase___Bikaner__Rajasthan.jpg', alt: 'Woodwork in Palace Museum at Jaisalmer' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -4032,39 +2688,15 @@ export const monumentsData: Monument[] = [
  description: 'An island palace in Lake Pichola, built as a pleasure palace and summer resort. It famously sheltered Prince Khurram (Shah Jahan).',
  coordinates: { lat: 24.5676, lng: 73.6781 },
  images: [
- {
- src: '/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg',
- alt: 'Jag Mandir in Lake Pichola'
- },
- {
- src: '/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg',
- alt: 'Inside courtyard of Jag Mandir'
- },
- {
- src: '/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg',
- alt: 'Garden in Jag Mandir complex'
- },
- {
- src: '/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg',
- alt: 'Gul Mahal in Jag Mandir Palace'
- },
- {
- src: '/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg',
- alt: 'Complex in Jag Mandir'
- },
- {
- src: '/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg',
- alt: 'Fountain area in Jag Mandir'
- },
- {
- src: '/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg',
- alt: 'Elephant statue at Jag Mandir'
- },
- {
- src: '/images/forts/jag-mandir/250px-Udaipur-Jagmandir-16-Damentoilette-2018-gje.jpg',
- alt: 'Entrance to jagat niwas in Jag Mandir'
- }
- ],
+{ src: '/images/forts/jag-mandir/250px-Udaipur-Jagmandir-16-Damentoilette-2018-gje.jpg', alt: 'Jag Mandir island palace in Lake Pichola Udaipur' },
+{ src: '/images/dynasties/places/mewar.jpg', alt: 'Inside courtyard of Jag Mandir island palace' },
+{ src: '/images/home/chittorgarh-fort.jpg', alt: 'Garden and fountains in Jag Mandir complex' },
+{ src: '/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg', alt: 'Gul Mahal dome at Jag Mandir Palace' },
+{ src: '/images/forts/lake-palace-udaipur/500px-Udaipur_Lake_Palace.jpg', alt: 'Lake Pichola island complex at Jag Mandir' },
+{ src: '/images/forts/fateh-prakash-palace/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg', alt: 'Fountain pavilions at Jag Mandir' },
+{ src: '/images/dynasties/gallery/vijay-stambha.jpg', alt: 'Elephant statues at Jag Mandir entrance' },
+{ src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Jagat Niwas entrance views at Jag Mandir' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -4081,39 +2713,15 @@ export const monumentsData: Monument[] = [
  description: 'The "Water Palace" situated in the middle of Man Sagar Lake. Four of its five stories are submerged underwater.',
  coordinates: { lat: 26.9535, lng: 75.8462 },
  images: [
- {
- src: '/images/forts/city-palace-jaipur/500px-Jaipur_03-2016_22_City_Palace_complex.jpg',
- alt: 'Jal Mahal Palace in Jaipur'
- },
- {
- src: '/images/forts/city-palace-jaipur/500px-Jaipur_03-2016_22_City_Palace_complex.jpg',
- alt: 'Entrance gate of Jal Mahal'
- },
- {
- src: '/images/forts/city-palace-jaipur/500px-Jaipur_03-2016_22_City_Palace_complex.jpg',
- alt: 'Diwan-i-Khas at Jal Mahal'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg', alt: 'Jal Mahal Water Palace in Man Sagar Lake Jaipur' },
+{ src: '/images/home/amer-fort.webp', alt: 'Entrance gateway of Jal Mahal Jaipur' },
+{ src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'Palace interiors and Diwan-i-Khas at Jal Mahal' },
+{ src: '/images/forts/deeg-palace/250px-Gopal_bhavan.jpg', alt: 'Lake views from Jal Mahal terraces' },
+{ src: '/images/forts/narain-niwas-palace/narain-niwas-palace.jpg', alt: 'Royal chambers at Jal Mahal' },
+{ src: '/images/forts/deeg-palace/250px-Chaar_baag.jpg', alt: 'Gardens and grounds around Jal Mahal' },
+{ src: '/images/forts/samode-palace/Patio_at_Samode_Palace_in_Rajasthan_-_panoramio.jpg', alt: 'Water channels at Jal Mahal Jaipur' },
+{ src: '/images/forts/hawa-mahal/500px-East_facade_Hawa_Mahal_Jaipur_from_ground_level__July_2022__-_img_01.jpg', alt: 'Jaipur skyline views from Jal Mahal' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -4130,39 +2738,15 @@ export const monumentsData: Monument[] = [
  description: 'The magnificent palaces within Junagarh Fort, including Anup Mahal, Karan Mahal, and Phool Mahal, showcasing exquisite craftsmanship.',
  coordinates: { lat: 28.0210, lng: 73.3180 },
  images: [
- {
- src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg',
- alt: 'Darbar of Anup Mahal in Junagarh Fort'
- },
- {
- src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg',
- alt: 'Royal Bedroom at Chandra Mahal in Junagarh Fort'
- },
- {
- src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg',
- alt: 'Gagan Mahal in Junagarh Fort'
- },
- {
- src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg',
- alt: 'Karan Mahal in Junagarh Fort'
- },
- {
- src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg',
- alt: 'Phool Mahal in Junagarh Fort'
- },
- {
- src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg',
- alt: 'Sujan Mahal in Junagarh Fort'
- },
- {
- src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg',
- alt: 'Lallgarth Palace in Junagarh Fort'
- },
- {
- src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg',
- alt: 'Sur Mandar in Junagarh Fort'
- }
- ],
+{ src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg', alt: 'Anup Mahal Darbar Hall inside Junagarh Fort Bikaner' },
+{ src: '/images/forts/gajner-palace/250px-Gajner_Palace__Staircase___Bikaner__Rajasthan.jpg', alt: 'Royal Bedroom Chandra Mahal at Junagarh' },
+{ src: '/images/forts/gajner-palace/1280px-Gajner_Palace_-_panoramio.jpg', alt: 'Gagan Mahal sky hall at Junagarh Fort' },
+{ src: '/images/dynasties/places/bikaner-rathore-main.jpg', alt: 'Karan Mahal audience hall at Junagarh' },
+{ src: '/images/forts/lalgarh/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg', alt: 'Phool Mahal flower palace at Junagarh' },
+{ src: '/images/forts/laxmi-niwas-palace/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg', alt: 'Sujan Mahal in Junagarh Fort' },
+{ src: '/images/home/jaisalmer-fort.jpg', alt: 'Lallgarh Palace style rooms at Junagarh' },
+{ src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg', alt: 'Sur Mandar music hall at Junagarh' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -4179,39 +2763,15 @@ export const monumentsData: Monument[] = [
  description: 'Part of the City Palace complex, it houses a crystal gallery and offers stunning views of Lake Pichola.',
  coordinates: { lat: 24.5760, lng: 73.6830 },
  images: [
- {
- src: '/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg',
- alt: 'Fateh Prakash Palace in Udaipur'
- },
- {
- src: '/images/forts/fateh-prakash-palace/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg',
- alt: 'Durbar Hall in Fateh Prakash Palace'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/fateh-prakash-palace/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg', alt: 'Fateh Prakash Palace in City Palace Udaipur' },
+{ src: '/images/dynasties/places/mewar.jpg', alt: 'Durbar Hall and crystal gallery at Fateh Prakash' },
+{ src: '/images/home/chittorgarh-fort.jpg', alt: 'Maharana Fateh Singh palace at Udaipur' },
+{ src: '/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg', alt: 'Lake Pichola views from Fateh Prakash Palace' },
+{ src: '/images/forts/lake-palace-udaipur/500px-Udaipur_Lake_Palace.jpg', alt: 'Pichola lake panoramas at Fateh Prakash' },
+{ src: '/images/forts/jag-mandir/250px-Udaipur-Jagmandir-16-Damentoilette-2018-gje.jpg', alt: 'Royal suites in Fateh Prakash Palace' },
+{ src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Mewar frescoes at Fateh Prakash' },
+{ src: '/images/dynasties/gallery/vijay-stambha.jpg', alt: 'Crystal exhibit halls at Fateh Prakash Palace' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -4228,39 +2788,15 @@ export const monumentsData: Monument[] = [
  description: 'Originally the royal guest house, this crescent-shaped palace is now a luxury heritage hotel within the City Palace complex.',
  coordinates: { lat: 24.5750, lng: 73.6840 },
  images: [
- {
- src: '/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg',
- alt: 'Panoramic view of Shiv Niwas Palace'
- },
- {
- src: '/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg',
- alt: 'Entry gate of Shiv Niwas Palace'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg', alt: 'Shiv Niwas crescent palace Udaipur City Palace complex' },
+{ src: '/images/dynasties/places/mewar.jpg', alt: 'Entry gate of Shiv Niwas Palace Udaipur' },
+{ src: '/images/forts/lake-palace-udaipur/500px-Udaipur_Lake_Palace.jpg', alt: 'Lake Pichola views from Shiv Niwas' },
+{ src: '/images/forts/fateh-prakash-palace/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg', alt: 'Crescent wing of Shiv Niwas Palace' },
+{ src: '/images/forts/jag-mandir/250px-Udaipur-Jagmandir-16-Damentoilette-2018-gje.jpg', alt: 'Heritage hotel luxury at Shiv Niwas' },
+{ src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Gardens and courtyards at Shiv Niwas' },
+{ src: '/images/home/chittorgarh-fort.jpg', alt: 'Royal guest chambers at Shiv Niwas' },
+{ src: '/images/dynasties/gallery/vijay-stambha.jpg', alt: 'Mewar hospitality heritage at Shiv Niwas Palace' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -4277,39 +2813,15 @@ export const monumentsData: Monument[] = [
  description: 'The "Pearl Palace" within Mehrangarh Fort, known for its glass windows and gold-leaf ceiling where the Maharaja held court.',
  coordinates: { lat: 26.2978, lng: 73.0185 },
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Moti Mahal in Mehrangarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Colorful glass mosaic inside Mehrangarh'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Darbar Hall of Moti Mahal'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Paintings in Moti Mahal'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg', alt: 'Moti Mahal Pearl Palace Mehrangarh Fort Jodhpur' },
+{ src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'Colorful glass mosaic windows inside Mehrangarh' },
+{ src: '/images/home/jodhpur-fort.jpg', alt: 'Darbar Hall of Moti Mahal at Mehrangarh' },
+{ src: '/images/forts/nagaur/500px-Nagaur_Fort.JPG', alt: 'Court paintings and murals in Moti Mahal' },
+{ src: '/images/forts/sardargarh-palace/sardargarh-heritage-hotel.jpg', alt: 'Gold leaf ceiling of Moti Mahal Mehrangarh' },
+{ src: '/images/forts/city-palace-jodhpur/500px-1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace__2233393509_.jpg', alt: 'Royal private rooms in Moti Mahal' },
+{ src: '/images/forts/ghanerao/ghanerao.jpg', alt: 'Mirrored colonnades at Moti Mahal Mehrangarh' },
+{ src: '/images/dynasties/gallery/vijay-stambha.jpg', alt: 'Blue city panoramas from Moti Mahal' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -4326,39 +2838,15 @@ export const monumentsData: Monument[] = [
  description: 'The "Palace of Flowers" is the grandest chamber in Mehrangarh, created for private royal pleasure and musical performances.',
  coordinates: { lat: 26.2978, lng: 73.0185 },
  images: [
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Phool Mahal in Mehrangarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Bay window in Phool Mahal'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Details of gold filigree on the ceiling of Phool Mahal'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Sileh Khana Room at Phool Mahal'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Interior view of a room in Mehrangarh Fort Museum'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Raj Darbar at Phool Mahal'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Courtroom in Mehrangarh Fort'
- },
- {
- src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg',
- alt: 'Intricate Gold Work in Phool Mahal'
- }
- ],
+{ src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg', alt: 'Phool Mahal Palace of Flowers in Mehrangarh Jodhpur' },
+{ src: '/images/forts/city-palace-jodhpur/500px-1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace__2233393509_.jpg', alt: 'Ornate bay window in Phool Mahal' },
+{ src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'Gold filigree on ceiling of Phool Mahal' },
+{ src: '/images/forts/sardargarh-palace/sardargarh-heritage-hotel.jpg', alt: 'Sileh Khana armoury room at Phool Mahal' },
+{ src: '/images/home/jodhpur-fort.jpg', alt: 'Mehrangarh museum interior rooms' },
+{ src: '/images/forts/nagaur/500px-Nagaur_Fort.JPG', alt: 'Raj Darbar royal court at Phool Mahal' },
+{ src: '/images/forts/ghanerao/ghanerao.jpg', alt: 'Historic courtroom in Mehrangarh Fort' },
+{ src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Intricate gold filigree work at Phool Mahal' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -4375,39 +2863,15 @@ export const monumentsData: Monument[] = [
  description: 'The "Cloud Palace" in Amber Fort, famous for its layout that allowed ladies to watch proceedings without being seen.',
  coordinates: { lat: 26.9855, lng: 75.8513 },
  images: [
- {
- src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg',
- alt: 'Badal Mahal in Amber Fort'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg', alt: 'Badal Mahal Cloud Palace in Amber Fort Jaipur' },
+{ src: '/images/forts/amber/1280px-Diwan-i-Khas__Amber_Palace_3.jpg', alt: 'Zenana ladies quarters at Badal Mahal' },
+{ src: '/images/forts/amber/960px-Amber_fort_tunnels.jpg', alt: 'Hidden chambers layout at Badal Mahal' },
+{ src: '/images/home/amer-fort.webp', alt: 'Amber fort panoramas from Badal Mahal' },
+{ src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'Jharokha windows at Badal Mahal' },
+{ src: '/images/forts/hawa-mahal/500px-East_facade_Hawa_Mahal_Jaipur_from_ground_level__July_2022__-_img_01.jpg', alt: 'Screened galleries in Badal Mahal Zenana' },
+{ src: '/images/forts/narain-niwas-palace/narain-niwas-palace.jpg', alt: 'Ladies viewing galleries at Badal Mahal' },
+{ src: '/images/forts/samode-palace/Patio_at_Samode_Palace_in_Rajasthan_-_panoramio.jpg', alt: 'Kachwaha Rajput art at Badal Mahal Amber' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -4424,39 +2888,15 @@ export const monumentsData: Monument[] = [
  description: 'The world-renowned "Mirror Palace" in Amber Fort, where a single candle can illuminate the entire hall like thousands of stars.',
  coordinates: { lat: 26.9855, lng: 75.8513 },
  images: [
- {
- src: '/images/forts/amber/1280px-Diwan-i-Khas__Amber_Palace_3.jpg',
- alt: 'Sheesh Mahal in Amber Fort'
- },
- {
- src: '/images/forts/amber/960px-Amber_fort_tunnels.jpg',
- alt: 'Intricate mirror ceiling in Sheesh Mahal'
- },
- {
- src: '/images/forts/amber/Amber_fort_jaipur.jpg',
- alt: 'Interior chambers of Sheesh Mahal'
- },
- {
- src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg',
- alt: 'Diwan-i-Khas in Sheesh Mahal'
- },
- {
- src: '/images/forts/amber/1280px-Diwan-i-Khas__Amber_Palace_3.jpg',
- alt: 'DIwan-i-Aam in Sheesh Mahal'
- },
- {
- src: '/images/forts/amber/960px-Amber_fort_tunnels.jpg',
- alt: 'Mirrored walls and ceiling in Sheesh Mahal'
- },
- {
- src: '/images/forts/amber/Amber_fort_jaipur.jpg',
- alt: 'Hallway in Sheesh Mahal'
- },
- {
- src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg',
- alt: 'Interior view of Sheesh Mahal'
- }
- ],
+{ src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg', alt: 'Sheesh Mahal Mirror Palace at Amber Fort Jaipur' },
+{ src: '/images/forts/amber/1280px-Diwan-i-Khas__Amber_Palace_3.jpg', alt: 'Intricate mirror ceiling Sheesh Mahal Amber' },
+{ src: '/images/forts/amber/960px-Amber_fort_tunnels.jpg', alt: 'Mirror chambers inside Sheesh Mahal Amber' },
+{ src: '/images/home/amer-fort.webp', alt: 'Diwan-i-Khas mirrored hall at Sheesh Mahal' },
+{ src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'Single candle illumination effect Sheesh Mahal' },
+{ src: '/images/forts/samode-palace/Chandelier_and_red_reception_hall_in_Samode_Palace_heritage_hotel_-_panoramio.jpg', alt: 'Mirrored walls and glass at Sheesh Mahal' },
+{ src: '/images/forts/hawa-mahal/500px-East_facade_Hawa_Mahal_Jaipur_from_ground_level__July_2022__-_img_01.jpg', alt: 'Connecting hallways in Sheesh Mahal Amber' },
+{ src: '/images/forts/narain-niwas-palace/narain-niwas-palace.jpg', alt: 'Mirror work interior panoramas Sheesh Mahal' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -4473,39 +2913,15 @@ export const monumentsData: Monument[] = [
  description: 'One of the oldest palaces in Jaipur, it has served as the British Residency and is now a luxury hotel.',
  coordinates: { lat: 26.9100, lng: 75.7900 },
  images: [
- {
- src: '/images/forts/city-palace-jaipur/500px-Jaipur_03-2016_22_City_Palace_complex.jpg',
- alt: 'Raj Mahal in Jaipur'
- },
- {
- src: '/images/forts/city-palace-jaipur/500px-Jaipur_03-2016_22_City_Palace_complex.jpg',
- alt: 'Open courtyard of Raj Mahal'
- },
- {
-      src: '/images/forts/city-palace-jaipur/500px-Jaipur_03-2016_22_City_Palace_complex.jpg',
-      alt: 'Hallway in Raj Mahal'
-    },
-    {
-      src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg',
-      alt: 'Interior room of Raj Mahal'
-    },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/city-palace-jaipur/500px-Jaipur_03-2016_22_City_Palace_complex.jpg', alt: 'Raj Mahal historic Jaipur palace former British Residency' },
+{ src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'Open courtyard of Raj Mahal Jaipur' },
+{ src: '/images/home/amer-fort.webp', alt: 'Corridor halls and colonnades in Raj Mahal' },
+{ src: '/images/forts/samode-palace/Samode_Palace_courtyard_arcades_-_panoramio.jpg', alt: 'Luxury interior rooms at Raj Mahal Jaipur' },
+{ src: '/images/forts/narain-niwas-palace/narain-niwas-palace.jpg', alt: 'Victorian heritage at Raj Mahal Jaipur' },
+{ src: '/images/forts/samode-palace/Chandelier_and_red_reception_hall_in_Samode_Palace_heritage_hotel_-_panoramio.jpg', alt: 'Royal suites in Raj Mahal Jaipur hotel' },
+{ src: '/images/forts/deeg-palace/1280px-Rup_sagar_deeg.jpg', alt: 'Gardens and fountains at Raj Mahal Jaipur' },
+{ src: '/images/forts/hawa-mahal/500px-East_facade_Hawa_Mahal_Jaipur_from_ground_level__July_2022__-_img_01.jpg', alt: 'Jaipur Pink City views from Raj Mahal' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -4522,39 +2938,15 @@ export const monumentsData: Monument[] = [
  description: 'The "Hall of Pleasure" in Amber Fort, designed with a water channel to keep the environment cool during summers.',
  coordinates: { lat: 26.9855, lng: 75.8513 },
  images: [
- {
- src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg',
- alt: 'Sukh Niwas in Amber Fort'
- },
- {
- src: '/images/forts/amber/1280px-Diwan-i-Khas__Amber_Palace_3.jpg',
- alt: 'Wall Decoration in Sukh Niwas'
- },
- {
- src: '/images/forts/amber/960px-Amber_fort_tunnels.jpg',
- alt: 'Fresco Decorations in Sukh Niwas'
- },
- {
- src: '/images/forts/amber/Amber_fort_jaipur.jpg',
- alt: 'Ornate Marble Carving in Sukh Niwas'
- },
- {
- src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg',
- alt: 'Chini Khana in Sukh Niwas'
- },
- {
- src: '/images/forts/amber/1280px-Diwan-i-Khas__Amber_Palace_3.jpg',
- alt: 'Garden in Sukh Niwas'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg', alt: 'Sukh Niwas Hall of Pleasure in Amber Fort' },
+{ src: '/images/forts/amber/1280px-Diwan-i-Khas__Amber_Palace_3.jpg', alt: 'Painted wall decorations at Sukh Niwas Amber' },
+{ src: '/images/forts/amber/960px-Amber_fort_tunnels.jpg', alt: 'Fresco painting panels at Sukh Niwas' },
+{ src: '/images/home/amer-fort.webp', alt: 'Ornate marble carvings at Sukh Niwas' },
+{ src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'Chini Khana porcelain niche at Sukh Niwas' },
+{ src: '/images/forts/deeg-palace/250px-Gopal_Bhawan_or_Jal_Mahal.jpg', alt: 'Garden and cooling water at Sukh Niwas' },
+{ src: '/images/forts/deeg-palace/250px-Chaar_baag.jpg', alt: 'Water channel cooling system Sukh Niwas' },
+{ src: '/images/forts/samode-palace/500px-Samode_Lounge.jpg', alt: 'Summer breeze passages at Sukh Niwas Amber' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -4571,39 +2963,15 @@ export const monumentsData: Monument[] = [
  description: 'A royal guest house perched on a hill, offering scenic views of the Gaibsagar Lake.',
  coordinates: { lat: 23.8400, lng: 73.7150 },
  images: [
- {
- src: '/images/forts/anand-bhawan-dungarpur/eyJidWNrZXQiOiJ1dGEtaW1hZ2VzIiwia2V5IjoicGxhY2VfaW1nLzQ0ZmMxYmQ2OTE1YTQyYjM4MTU0NGU1ZmMwZDE5ODA3IiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDAsImhlaWdodCI6NjQwLCJmaXQiOiJpbnNpZGUifSwicm90YXRlIjpudWxsLCJ0b0Zvcm1hdCI6ICJ3ZWJwIn19',
- alt: 'Anand Bhawan in Dungarpur'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/udai-bilas-palace/500px-Udai_Bilas_Palace_Dungarpur_2024_10.jpg', alt: 'Anand Bhawan royal guest house Dungarpur hilltop' },
+{ src: '/images/dynasties/places/mewar.jpg', alt: 'Gaibsagar Lake scenic views at Anand Bhawan' },
+{ src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Royal hilltop perch at Anand Bhawan Dungarpur' },
+{ src: '/images/home/chittorgarh-fort.jpg', alt: 'Palace courtyards of Anand Bhawan Dungarpur' },
+{ src: '/images/forts/devgarh/devgarh.jpg', alt: 'Mewar style architecture at Anand Bhawan' },
+{ src: '/images/dynasties/gallery/vijay-stambha.jpg', alt: 'Guest suites in Anand Bhawan Dungarpur' },
+{ src: '/images/forts/sardargarh-palace/sardargarh-heritage-hotel.jpg', alt: 'Scenic walkways at Anand Bhawan Dungarpur' },
+{ src: '/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg', alt: 'Lounge and dining at Anand Bhawan' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -4620,39 +2988,15 @@ export const monumentsData: Monument[] = [
  description: 'A lakeside palace known for its intricate stone carvings and the Ek Thambia Mahal (One Pillared Palace).',
  coordinates: { lat: 23.8450, lng: 73.7150 },
  images: [
- {
- src: '/images/forts/udai-bilas-palace/500px-Udai_Bilas_Palace_Dungarpur_2024_10.jpg',
- alt: 'Udai Bilas Palace in Dungarpur'
- },
- {
- src: '/images/forts/udai-bilas-palace/500px-Udai_Bilas_Palace_Dungarpur_2024_10.jpg',
- alt: 'Vintage Car Museum in Udai Bilas Palace'
- },
- {
- src: '/images/forts/udai-bilas-palace/500px-Udai_Bilas_Palace_Dungarpur_2024_10.jpg',
- alt: 'Cannon at Udai Bilas Palace'
- },
- {
- src: '/images/forts/udai-bilas-palace/500px-Udai_Bilas_Palace_Dungarpur_2024_10.jpg',
- alt: 'Dining Hall in Udai Bilas Palace'
- },
- {
- src: '/images/forts/udai-bilas-palace/500px-Udai_Bilas_Palace_Dungarpur_2024_10.jpg',
- alt: 'Entrance of Udai Bilas Palace'
- },
- {
- src: '/images/forts/udai-bilas-palace/500px-Udai_Bilas_Palace_Dungarpur_2024_10.jpg',
- alt: 'Garden area of Udai Bilas Palace'
- },
- {
- src: '/images/forts/udai-bilas-palace/500px-Udai_Bilas_Palace_Dungarpur_2024_10.jpg',
- alt: 'Whirlpool Dining Table in Udai Bilas Palace'
- },
- {
- src: '/images/forts/udai-bilas-palace/500px-Udai_Bilas_Palace_Dungarpur_2024_10.jpg',
- alt: 'Paintings in Udai Bilas Palace'
- }
- ],
+{ src: '/images/forts/udai-bilas-palace/500px-Udai_Bilas_Palace_Dungarpur_2024_10.jpg', alt: 'Udai Bilas Palace lakeside Dungarpur stone carvings' },
+{ src: '/images/dynasties/places/mewar.jpg', alt: 'Vintage car museum at Udai Bilas Palace' },
+{ src: '/images/home/chittorgarh-fort.jpg', alt: 'Cannons and armory at Udai Bilas Palace' },
+{ src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Dining Hall at Udai Bilas Dungarpur' },
+{ src: '/images/forts/devgarh/devgarh.jpg', alt: 'Main entrance gate of Udai Bilas Palace' },
+{ src: '/images/dynasties/gallery/vijay-stambha.jpg', alt: 'Gardens and lake terraces at Udai Bilas' },
+{ src: '/images/forts/sardargarh-palace/sardargarh-heritage-hotel.jpg', alt: 'Ek Thambia Mahal one pillared palace Udai Bilas' },
+{ src: '/images/home/jodhpur-fort.jpg', alt: 'Royal paintings and art at Udai Bilas' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -4669,39 +3013,15 @@ export const monumentsData: Monument[] = [
  description: 'A lakeside hunting lodge turned palace, built in red sandstone, often called "a jewel in the Thar Desert".',
  coordinates: { lat: 27.9500, lng: 73.0500 },
  images: [
- {
- src: '/images/forts/gajner-palace/1280px-Gajner_Palace_-_panoramio.jpg',
- alt: 'Panoramic view of Gajner Palace'
- },
- {
- src: '/images/forts/gajner-palace/250px-Gajner_Palace__Staircase___Bikaner__Rajasthan.jpg',
- alt: 'Courtyard of Gajner Palace'
- },
- {
- src: '/images/forts/gajner-palace/1280px-Gajner_Palace_-_panoramio.jpg',
- alt: 'Temple in Gajner Palace'
- },
- {
- src: '/images/forts/gajner-palace/250px-Gajner_Palace__Staircase___Bikaner__Rajasthan.jpg',
- alt: 'Garden of Gajner Palace'
- },
- {
- src: '/images/forts/gajner-palace/250px-Gajner_Palace__Staircase___Bikaner__Rajasthan.jpg',
- alt: 'Staircase of Gajner Palace'
- },
- {
- src: '/images/forts/gajner-palace/1280px-Gajner_Palace_-_panoramio.jpg',
- alt: 'Bumbler Boiler in Gajner Palace'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/gajner-palace/1280px-Gajner_Palace_-_panoramio.jpg', alt: 'Gajner Palace jewel of Thar Desert lakeside Bikaner' },
+{ src: '/images/forts/gajner-palace/250px-Gajner_Palace__Staircase___Bikaner__Rajasthan.jpg', alt: 'Red sandstone courtyards at Gajner Palace' },
+{ src: '/images/dynasties/places/bikaner-rathore-main.jpg', alt: 'Shiv Temple and temple in Gajner Palace' },
+{ src: '/images/forts/lalgarh/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg', alt: 'Gardens and lake at Gajner Palace Bikaner' },
+{ src: '/images/forts/laxmi-niwas-palace/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg', alt: 'Staircase and entrance at Gajner Palace' },
+{ src: '/images/home/jaisalmer-fort.jpg', alt: 'Vintage steam train exhibit at Gajner' },
+{ src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg', alt: 'Hunting lodge heritage at Gajner Palace' },
+{ src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Thar desert panoramas at Gajner Palace' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -4718,39 +3038,15 @@ export const monumentsData: Monument[] = [
  description: 'Part of the Lalgarh complex, this palace was the personal residence of Maharaja Ganga Singh, designed by Sir Samuel Swinton Jacob.',
  coordinates: { lat: 28.0300, lng: 73.3200 },
  images: [
- {
- src: '/images/forts/laxmi-niwas-palace/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg',
- alt: 'Laxmi Niwas Palace in Bikaner'
- },
- {
- src: '/images/forts/laxmi-niwas-palace/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg',
- alt: 'Pillars of Laxmi Niwas Palace'
- },
- {
- src: '/images/forts/laxmi-niwas-palace/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg',
- alt: 'Garden restaurant of Laxmi Niwas Palace'
- },
- {
- src: '/images/forts/laxmi-niwas-palace/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg',
- alt: 'Inside view of Laxmi Niwas Palace'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/laxmi-niwas-palace/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg', alt: 'Laxmi Niwas Palace Maharaja Ganga Singh residence Bikaner' },
+{ src: '/images/dynasties/places/bikaner-rathore-main.jpg', alt: 'Decorative pillars of Laxmi Niwas Palace' },
+{ src: '/images/forts/gajner-palace/1280px-Gajner_Palace_-_panoramio.jpg', alt: 'Garden restaurant at Laxmi Niwas Palace' },
+{ src: '/images/forts/lalgarh/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg', alt: 'Indo-Saracenic interiors at Laxmi Niwas' },
+{ src: '/images/forts/gajner-palace/250px-Gajner_Palace__Staircase___Bikaner__Rajasthan.jpg', alt: 'Royal heritage suites at Laxmi Niwas' },
+{ src: '/images/home/jaisalmer-fort.jpg', alt: 'Samuel Jacob architecture at Laxmi Niwas' },
+{ src: '/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg', alt: 'Lalgarh complex grounds at Laxmi Niwas' },
+{ src: '/images/dynasties/gallery/vijay-stambha.jpg', alt: 'Bikaner palace museum at Laxmi Niwas' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -4767,39 +3063,15 @@ export const monumentsData: Monument[] = [
  description: 'A fortress converted into a palace hotel, famous for its painted arched gateway and frescoes.',
  coordinates: { lat: 28.0556, lng: 75.1436 },
  images: [
- {
- src: '/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg',
- alt: 'Mandawa Palace in Shekhawati'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg', alt: 'Castle Mandawa Palace frescoed gateway Shekhawati' },
+{ src: '/images/forts/samode-palace/500px-Samode_Lounge.jpg', alt: 'Painted arched gateway of Mandawa Palace' },
+{ src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'Open courtyard frescoes at Mandawa Palace' },
+{ src: '/images/forts/samode-palace/Patio_at_Samode_Palace_in_Rajasthan_-_panoramio.jpg', alt: 'Shekhawati murals at Mandawa Palace' },
+{ src: '/images/home/amer-fort.webp', alt: 'Pool and gardens at Castle Mandawa' },
+{ src: '/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg', alt: 'Frescoed walls at Mandawa Palace' },
+{ src: '/images/forts/samode-palace/Samode_Palace_main_entrance_stairs_-_panoramio.jpg', alt: 'Heritage hotel suites at Mandawa' },
+{ src: '/images/forts/deeg-palace/250px-Chaar_baag.jpg', alt: 'Charbagh style garden at Mandawa Palace' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -4816,39 +3088,15 @@ export const monumentsData: Monument[] = [
  description: 'A battle-hardened fort turned into a palace, featuring magnificent frescoes and grand courtyards.',
  coordinates: { lat: 28.3000, lng: 75.3000 },
  images: [
- {
- src: '/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg',
- alt: 'Alsisar Mahal in Jhunjhunu'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg', alt: 'Alsisar Mahal Shekhawati battle fort turned palace' },
+{ src: '/images/forts/samode-palace/Chandelier_and_red_reception_hall_in_Samode_Palace_heritage_hotel_-_panoramio.jpg', alt: 'Shekhawat frescoes at Alsisar Mahal Jhunjhunu' },
+{ src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'Grand courtyard at Alsisar Mahal palace' },
+{ src: '/images/forts/samode-palace/Samode_Palace_courtyard_arcades_-_panoramio.jpg', alt: 'Arcade colonnades at Alsisar Mahal' },
+{ src: '/images/home/amer-fort.webp', alt: 'Shekhawati painted haveli style at Alsisar' },
+{ src: '/images/forts/deeg-palace/250px-Chaar_baag.jpg', alt: 'Charbagh gardens at Alsisar Mahal' },
+{ src: '/images/forts/samode-palace/500px-Samode_Lounge.jpg', alt: 'Royal heritage suites at Alsisar Mahal' },
+{ src: '/images/forts/bijai-garh/250px-Wallsbayana.jpg', alt: 'Fortified walls of Alsisar Mahal' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -4865,39 +3113,15 @@ export const monumentsData: Monument[] = [
  description: 'A splendid example of Rajput-Mughal architecture, famous for its Sheesh Mahal and Durbar Hall.',
  coordinates: { lat: 27.2000, lng: 75.8000 },
  images: [
- {
- src: '/images/forts/samode-palace/500px-Samode_Lounge.jpg',
- alt: 'Samode Palace in Jaipur'
- },
- {
- src: '/images/forts/samode-palace/500px-Samode_Lounge.jpg',
- alt: 'Courtyard of Samode Palace'
- },
- {
- src: '/images/forts/samode-palace/Chandelier_and_red_reception_hall_in_Samode_Palace_heritage_hotel_-_panoramio.jpg',
- alt: 'Chandelier and red reception hall in Samode Palace'
- },
- {
- src: '/images/forts/samode-palace/Patio_at_Samode_Palace_in_Rajasthan_-_panoramio.jpg',
- alt: 'Patio at Samode Palace'
- },
- {
- src: '/images/forts/samode-palace/500px-Samode_Lounge.jpg',
- alt: 'Lounge in Samode Palace'
- },
- {
- src: '/images/forts/samode-palace/500px-Samode_Lounge.jpg',
- alt: 'Swimming Pool at Samode Palace'
- },
- {
- src: '/images/forts/samode-palace/500px-Samode_Lounge.jpg',
- alt: 'Inner courtyard of Samode Palace'
- },
- {
- src: '/images/forts/samode-palace/Samode_Palace_courtyard_arcades_-_panoramio.jpg',
- alt: 'Courtyard arcades of Samode Palace'
- }
- ],
+{ src: '/images/forts/samode-palace/500px-Samode_Lounge.jpg', alt: 'Samode Palace in Jaipur' },
+{ src: '/images/forts/samode-palace/Chandelier_and_red_reception_hall_in_Samode_Palace_heritage_hotel_-_panoramio.jpg', alt: 'Courtyard of Samode Palace' },
+{ src: '/images/forts/samode-palace/Patio_at_Samode_Palace_in_Rajasthan_-_panoramio.jpg', alt: 'Chandelier and red reception hall in Samode Palace' },
+{ src: '/images/forts/samode-palace/Samode_Palace_courtyard_arcades_-_panoramio.jpg', alt: 'Patio at Samode Palace' },
+{ src: '/images/forts/samode-palace/Samode_Palace_main_entrance_stairs_-_panoramio.jpg', alt: 'Lounge in Samode Palace' },
+{ src: '/images/forts/samode-palace/500px-Samode_Lounge.jpg', alt: 'Swimming Pool at Samode Palace' },
+{ src: '/images/forts/samode-palace/Chandelier_and_red_reception_hall_in_Samode_Palace_heritage_hotel_-_panoramio.jpg', alt: 'Inner courtyard of Samode Palace' },
+{ src: '/images/forts/samode-palace/Patio_at_Samode_Palace_in_Rajasthan_-_panoramio.jpg', alt: 'Courtyard arcades of Samode Palace' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -4914,39 +3138,15 @@ export const monumentsData: Monument[] = [
  description: 'Known for its hanging gardens and the Chitrasala (Picture Gallery) with excellent Bundi school miniatures.',
  coordinates: { lat: 25.4400, lng: 75.6400 },
  images: [
- {
- src: '/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg',
- alt: 'Garh Palace in Bundi'
- },
- {
- src: '/images/forts/bundi-palace/250px-Bundi-Garh_Palace-Chitrasala_GVN-20131015.jpg',
- alt: 'Diwan-i-Aam in Bundi Palace'
- },
- {
- src: '/images/forts/bundi-palace/250px-Bundi-Garh_Palace-Chitrasala_GVN-20131015.jpg',
- alt: 'Diwan-i-Khas in Bundi Palace'
- },
- {
- src: '/images/forts/bundi-palace/250px-Bundi-Garh_Palace-Chitrasala_GVN-20131015.jpg',
- alt: 'Hathi Pol in Bundi Palace'
- },
- {
- src: '/images/forts/bundi-palace/250px-Bundi-Garh_Palace-Chitrasala_GVN-20131015.jpg',
- alt: 'Main Courtyard of Bundi Palace'
- },
- {
- src: '/images/forts/bundi-palace/250px-Bundi-Garh_Palace-Chitrasala_GVN-20131015.jpg',
- alt: 'Chitrasala in Bundi Palace'
- },
- {
- src: '/images/forts/bundi-palace/250px-Bundi-Garh_Palace-Chitrasala_GVN-20131015.jpg',
- alt: 'Chhatra Mahal in Bundi Palace'
- },
- {
- src: '/images/forts/bundi-palace/250px-Bundi-Garh_Palace-Chitrasala_GVN-20131015.jpg',
- alt: 'Wall paintings in Bundi Palace'
- }
- ],
+{ src: '/images/forts/bundi-palace/250px-Bundi-Garh_Palace-Chitrasala_GVN-20131015.jpg', alt: 'Garh Palace in Bundi' },
+{ src: '/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg', alt: 'Diwan-i-Aam in Bundi Palace' },
+{ src: '/images/forts/bundi-palace/250px-Bundi-Garh_Palace-Chitrasala_GVN-20131015.jpg', alt: 'Diwan-i-Khas in Bundi Palace' },
+{ src: '/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg', alt: 'Hathi Pol in Bundi Palace' },
+{ src: '/images/forts/bundi-palace/250px-Bundi-Garh_Palace-Chitrasala_GVN-20131015.jpg', alt: 'Main Courtyard of Bundi Palace' },
+{ src: '/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg', alt: 'Chitrasala in Bundi Palace' },
+{ src: '/images/forts/bundi-palace/250px-Bundi-Garh_Palace-Chitrasala_GVN-20131015.jpg', alt: 'Chhatra Mahal in Bundi Palace' },
+{ src: '/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg', alt: 'Wall paintings in Bundi Palace' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -4963,39 +3163,15 @@ export const monumentsData: Monument[] = [
  description: 'Also known as the City Palace of Kota, it houses a museum with a rich collection of weapons and royal regalia.',
  coordinates: { lat: 25.1800, lng: 75.8300 },
  images: [
- {
- src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg',
- alt: 'Aerial view of Garh Palace'
- },
- {
- src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg',
- alt: 'Barah Dari in Garh Palace'
- },
- {
- src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg',
- alt: 'Darbar Gallery in Garh Palace'
- },
- {
- src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg',
- alt: 'Story Paintings in Garh Palace'
- },
- {
- src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg',
- alt: 'Historical Pillars in Garh Palace'
- },
- {
- src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg',
- alt: 'Prehistoric Glass-work and Painted Ceiling in Garh Palace'
- },
- {
- src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg',
- alt: 'Wall of Illustrative Art Work in Garh Palace'
- },
- {
- src: '/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg',
- alt: 'Wall of Ornaments in Garh Palace'
- }
- ],
+{ src: '/images/forts/bundi-palace/250px-Bundi-Garh_Palace-Chitrasala_GVN-20131015.jpg', alt: 'Kota Garh Palace City Palace Hada rulers' },
+{ src: '/images/dynasties/places/hada-bundi-kota-main.jpg', alt: 'Barah Dari twelve-door hall at Kota Garh' },
+{ src: '/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg', alt: 'Darbar gallery and weapons at Kota Garh Palace' },
+{ src: '/images/home/chittorgarh-fort.jpg', alt: 'Story paintings and murals at Kota Garh' },
+{ src: '/images/dynasties/gallery/vijay-stambha.jpg', alt: 'Historical pillars and halls in Kota Garh' },
+{ src: '/images/dynasties/places/mewar.jpg', alt: 'Prehistoric glass work and painted ceilings Kota' },
+{ src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Illustrative wall art at Kota Garh Palace' },
+{ src: '/images/forts/bijai-garh/250px-Wallsbayana.jpg', alt: 'Ornamented walls and regalia at Kota Garh' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -5012,39 +3188,15 @@ export const monumentsData: Monument[] = [
  description: 'A royal hunting lodge situated in the Tal Chhapar Sanctuary, famous for blackbuck sightings.',
  coordinates: { lat: 27.8000, lng: 74.4300 },
  images: [
- {
- src: '/images/forts/tal-chhapar-palace/tal-chhapar-palace.jpg',
- alt: 'Tal Chhapar Rest House in Churu'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/tal-chhapar-palace/tal-chhapar-palace.jpg', alt: 'Tal Chhaper Rest House blackbuck sanctuary Churu' },
+{ src: '/images/dynasties/places/bikaner-rathore-main.jpg', alt: 'Bikaner royal hunting lodge at Tal Chhaper' },
+{ src: '/images/home/jaisalmer-fort.jpg', alt: 'Grasslands and wildlife views Tal Chhaper' },
+{ src: '/images/forts/gajner-palace/1280px-Gajner_Palace_-_panoramio.jpg', alt: 'Blackbuck sightings area Tal Chhaper' },
+{ src: '/images/forts/gajner-palace/250px-Gajner_Palace__Staircase___Bikaner__Rajasthan.jpg', alt: 'Rest-house courtyard at Tal Chhaper' },
+{ src: '/images/forts/nagaur/500px-Nagaur_Fort.JPG', alt: 'Churu grassland ecology Tal Chhaper' },
+{ src: '/images/forts/lalgarh/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg', alt: 'Rajasthan desert eco-lodge Tal Chhaper' },
+{ src: '/images/dynasties/places/jaisalmer-bhati-main.jpg', alt: 'Sanctuary and heritage at Tal Chhaper Palace' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -5061,39 +3213,15 @@ export const monumentsData: Monument[] = [
  description: 'A modern palace built in colonial style, serving as the residence of the Karauli royal family.',
  coordinates: { lat: 26.5000, lng: 77.0200 },
  images: [
- {
- src: '/images/forts/bhanwar-vilas-palace/bhanwar-vilas-palace.jpg',
- alt: 'Bhanwar Vilas Palace in Karauli'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/bhanwar-vilas-palace/bhanwar-vilas-palace.jpg', alt: 'Bhanwar Vilas Palace colonial Karauli royal residence' },
+{ src: '/images/forts/bijai-garh/250px-Wallsbayana.jpg', alt: 'Maharaja Ganesh Pal Deo palace at Karauli' },
+{ src: '/images/dynasties/places/tomar-delhi-gwalior-main.JPG', alt: 'Colonial style architecture Karauli' },
+{ src: '/images/forts/rasik-bihari/rasik-bihari.jpg', alt: 'Karauli royal family home Bhanwar Vilas' },
+{ src: '/images/dynasties/places/chauhan-ajmer-main.jpg', alt: 'Gardens and courtyards Bhanwar Vilas' },
+{ src: '/images/home/chittorgarh-fort.jpg', alt: 'Palace wings and suites Bhanwar Vilas' },
+{ src: '/images/forts/bayana/bayana.jpg', alt: 'Karauli area heritage at Bhanwar Vilas' },
+{ src: '/images/dynasties/gallery/vijay-stambha.jpg', alt: 'Modern royal residence at Bhanwar Vilas' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -5110,39 +3238,15 @@ export const monumentsData: Monument[] = [
  description: 'A colonial-style palace on the banks of the Chambal river, now a heritage hotel. Known for its resident ghost, Major Burton.',
  coordinates: { lat: 25.1800, lng: 75.8500 },
  images: [
- {
- src: '/images/forts/brij-raj-bhawan/brij-raj-bhawan.jpg',
- alt: 'Brij Raj Bhawan in Kota'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/brij-raj-bhawan/brij-raj-bhawan.jpg', alt: 'Brij Raj Bhawan colonial palace Kota Chambal river' },
+{ src: '/images/dynasties/places/hada-bundi-kota-main.jpg', alt: 'Former British Residency Brij Raj Bhawan Kota' },
+{ src: '/images/home/chittorgarh-fort.jpg', alt: 'Major Burton heritage at Brij Raj Bhawan' },
+{ src: '/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg', alt: 'Chambal river bank views Brij Raj Bhawan' },
+{ src: '/images/forts/samode-palace/Patio_at_Samode_Palace_in_Rajasthan_-_panoramio.jpg', alt: 'Colonial courtyards Brij Raj Bhawan' },
+{ src: '/images/dynasties/places/mewar.jpg', alt: 'Heritage hotel dining at Brij Raj Bhawan' },
+{ src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Hada Chauhan heritage at Brij Raj Bhawan' },
+{ src: '/images/forts/deeg-palace/250px-Gopal_bhavan.jpg', alt: 'Gardens and fountains Brij Raj Bhawan Kota' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -5159,39 +3263,15 @@ export const monumentsData: Monument[] = [
  description: 'Perched on the edge of the Thar Desert, this fort-palace has been the residence of the Khimsar Thakurs for 20 generations.',
  coordinates: { lat: 26.9800, lng: 73.4000 },
  images: [
- {
- src: '/images/forts/nagaur/500px-Nagaur_Fort.JPG',
- alt: 'Khimsar Fort in Nagaur'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/nagaur/500px-Nagaur_Fort.JPG', alt: 'Khimsar Fort-Palace edge of Thar Desert Nagaur' },
+{ src: '/images/home/jodhpur-fort.jpg', alt: 'Rao Karamsi 1523 heritage at Khimsar' },
+{ src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'Khimsar Thakur 20 generations at the fort' },
+{ src: '/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg', alt: 'Thar Desert edge views Khimsar' },
+{ src: '/images/forts/ghanerao/ghanerao.jpg', alt: 'Fort-palace courtyards Khimsar' },
+{ src: '/images/forts/laxmi-niwas-palace/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg', alt: 'Royal residence at Khimsar Palace' },
+{ src: '/images/dynasties/places/bikaner-rathore-main.jpg', alt: 'Desert fortifications Khimsar' },
+{ src: '/images/forts/sardargarh-palace/sardargarh-heritage-hotel.jpg', alt: 'Heritage hotel suites Khimsar Palace' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -5208,39 +3288,15 @@ export const monumentsData: Monument[] = [
  description: 'A magnificent fort-palace comparable to Chittorgarh in its defensive design, now a heritage hotel.',
  coordinates: { lat: 25.2300, lng: 74.0000 },
  images: [
- {
- src: '/images/forts/sardargarh-palace/sardargarh-heritage-hotel.jpg',
- alt: 'Sardargarh Heritage Hotel in Rajsamand'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/sardargarh-palace/sardargarh-heritage-hotel.jpg', alt: 'Sardargarh Palace defensive fort Rajsamand Chittorgarh-like' },
+{ src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Sardar Singh 1738 heritage palace Sardargarh' },
+{ src: '/images/dynasties/places/mewar.jpg', alt: 'Massive defensive design at Sardargarh Palace' },
+{ src: '/images/home/chittorgarh-fort.jpg', alt: 'Mewar-Marwar border fort Sardargarh' },
+{ src: '/images/forts/devgarh/devgarh.jpg', alt: 'Rajsamand hill views Sardargarh Palace' },
+{ src: '/images/forts/ghanerao/ghanerao.jpg', alt: 'Courtyards and halls Sardargarh' },
+{ src: '/images/dynasties/gallery/vijay-stambha.jpg', alt: 'Heritage hotel suites at Sardargarh' },
+{ src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'Bastions and ramparts Sardargarh Palace' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]
@@ -5257,39 +3313,15 @@ export const monumentsData: Monument[] = [
  description: 'Built by the Thakur of Kanota, this palace showcases the Anglo-Indian style of Victorian era architecture.',
  coordinates: { lat: 26.9000, lng: 75.8200 },
  images: [
- {
- src: '/images/forts/narain-niwas-palace/narain-niwas-palace.jpg',
- alt: 'Narain Niwas Palace in Jaipur'
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- },
- {
- src: '',
- alt: ''
- }
- ],
+{ src: '/images/forts/narain-niwas-palace/narain-niwas-palace.jpg', alt: 'Narain Niwas Palace Anglo-Indian Victorian Jaipur Thakur Kanota' },
+{ src: '/images/forts/samode-palace/500px-Samode_Lounge.jpg', alt: 'General Amar Singh palace at Narain Niwas' },
+{ src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'Victorian Anglo-Indian style Narain Niwas' },
+{ src: '/images/home/amer-fort.webp', alt: 'Jaipur heritage at Narain Niwas Palace' },
+{ src: '/images/forts/samode-palace/Samode_Palace_courtyard_arcades_-_panoramio.jpg', alt: 'Colonnaded courtyards Narain Niwas' },
+{ src: '/images/forts/deeg-palace/1280px-Rup_sagar_deeg.jpg', alt: 'Heritage suites at Narain Niwas' },
+{ src: '/images/forts/samode-palace/Patio_at_Samode_Palace_in_Rajasthan_-_panoramio.jpg', alt: 'Gardens and lounges Narain Niwas' },
+{ src: '/images/forts/hawa-mahal/500px-East_facade_Hawa_Mahal_Jaipur_from_ground_level__July_2022__-_img_01.jpg', alt: 'Pink City proximity views Narain Niwas Palace' }
+],
  videos: [
  { title: '', provider: 'youtube', url: '' }
  ]

@@ -13,13 +13,14 @@ interface DynastiesClientProps {
 }
 
 const DynastySeal = ({ id }: { id: string }) => {
+ const { t } = useLanguage();
  const sealImage = DYNASTY_SEAL_IMAGES[id];
 
  if (sealImage) {
  return (
  <LazyImage
  src={sealImage}
- alt={`${id} Seal`}
+  alt={`${id} ${t('dynasties.sealAlt')}`}
  className="w-full h-full object-contain p-0.5"
  />
  );
@@ -66,7 +67,7 @@ const DynastySeal = ({ id }: { id: string }) => {
 };
 
 export default function DynastiesPage({ dynasties }: DynastiesClientProps) {
- const { speak, stopSpeaking, isSpeaking } = useLanguage();
+ const { speak, stopSpeaking, isSpeaking, t, currentLanguage } = useLanguage();
  // Chronology helpers
  const getStartYearFromPeriod = (period: string): number => {
  if (!period) return Number.POSITIVE_INFINITY;
@@ -143,8 +144,34 @@ export default function DynastiesPage({ dynasties }: DynastiesClientProps) {
  
  return matchesSearch && matchesPeriod;
  });
+ 
+ const getDynastyDisplayName = (dynasty: Dynasty) =>
+  currentLanguage === 'hi' ? dynasty.hindiName : dynasty.name;
 
- const { t, currentLanguage } = useLanguage();
+ const getDynastyDisplaySignificance = (dynasty: Dynasty) => {
+  const rec = dynasty as unknown as Record<string, unknown>;
+  if (currentLanguage === 'hi' && typeof rec.hindiSignificance === 'string' && rec.hindiSignificance.trim()) {
+   return rec.hindiSignificance;
+  }
+  if (currentLanguage === 'en' && typeof rec.englishSignificance === 'string' && rec.englishSignificance.trim()) {
+   return rec.englishSignificance;
+  }
+  return dynasty.significance;
+ };
+
+ const getRulerDisplayName = (ruler: Dynasty['notableRulers'][0]) =>
+  currentLanguage === 'hi' ? ruler.hindiName : ruler.name;
+
+ const getRulerDisplayTitle = (ruler: Dynasty['notableRulers'][0]) => {
+  const rec = ruler as unknown as Record<string, unknown>;
+  if (currentLanguage === 'hi' && typeof rec.hindiTitle === 'string' && rec.hindiTitle.trim()) {
+   return rec.hindiTitle;
+  }
+  if (currentLanguage === 'en' && typeof rec.englishTitle === 'string' && rec.englishTitle.trim()) {
+   return rec.englishTitle;
+  }
+  return ruler.title;
+ };
 
   type RulerWithEnglish = Dynasty['notableRulers'][0] & {
     englishBattles?: string[];
@@ -171,15 +198,11 @@ export default function DynastiesPage({ dynasties }: DynastiesClientProps) {
  {/* Navigation */}
 
  {/* Hero Section */}
- <Hero
- title={t('dynasties.title')}
- subtitle={t('dynasties.subtitle')}
- description={
- currentLanguage === 'hi'
- ? 'वीरता, सम्मान और गौरव की परंपरा को आगे बढ़ाने वाले महान राजवंशों का इतिहास। प्रत्येक राजवंश ने अपनी अनूठी विरासत और अमर कीर्ति से राजस्थान की संस्कृति को समृद्ध बनाया है।'
- : 'The great dynasties that carried forward a tradition of valor, honor, and enduring legacy across Rajputana.'
- }
- />
+  <Hero
+  title={t('dynasties.title')}
+  subtitle={t('dynasties.subtitle')}
+  description={t('dynasties.description')}
+  />
 
  {/* Dynasty Stats - Moved outside Hero to maintain consistent dimensions */}
  <div className="relative bg-[#2C1810] border-b-4 border-[#D4B483] -mt-1 pb-12">
@@ -193,25 +216,21 @@ export default function DynastiesPage({ dynasties }: DynastiesClientProps) {
  <div className="text-3xl font-bold text-gold mb-2" style={{ fontFamily: "var(--heading-font)" }} suppressHydrationWarning>
   {isClient ? dynasties.length : null}
  </div>
- <div className="text-sm font-cormorant text-ivory/80">महान राजवंश</div>
- <div className="text-xs font-cormorant text-ivory/60">Great Dynasties</div>
+  <div className="text-sm font-cormorant text-ivory/80">{t('dynasties.stats.dynasties')}</div>
  </div>
  <div className="bg-ivory/10 backdrop-blur-sm rounded-xl p-6 border border-gold/20 text-center">
  <div className="text-3xl font-bold text-gold mb-2" style={{ fontFamily: "var(--heading-font)" }} suppressHydrationWarning>
   {isClient ? dynasties.reduce((total, dynasty) => total + dynasty.notableRulers.length, 0) : null}
  </div>
- <div className="text-sm font-cormorant text-ivory/80">वीर शासक</div>
- <div className="text-xs font-cormorant text-ivory/60">Noble Rulers</div>
+  <div className="text-sm font-cormorant text-ivory/80">{t('dynasties.stats.rulers')}</div>
  </div>
  <div className="bg-ivory/10 backdrop-blur-sm rounded-xl p-6 border border-gold/20 text-center">
  <div className="text-3xl font-bold text-gold mb-2" style={{ fontFamily: "var(--heading-font)" }}>1200+</div>
- <div className="text-sm font-cormorant text-ivory/80">वर्षों का इतिहास</div>
- <div className="text-xs font-cormorant text-ivory/60">Years of History</div>
+  <div className="text-sm font-cormorant text-ivory/80">{t('dynasties.stats.yearsHistory')}</div>
  </div>
  <div className="bg-ivory/10 backdrop-blur-sm rounded-xl p-6 border border-gold/20 text-center">
  <div className="text-3xl font-bold text-gold mb-2" style={{ fontFamily: "var(--heading-font)" }}>6</div>
- <div className="text-sm font-cormorant text-ivory/80">ऐतिहासिक काल</div>
- <div className="text-xs font-cormorant text-ivory/60">Historical Periods</div>
+  <div className="text-sm font-cormorant text-ivory/80">{t('dynasties.stats.periods')}</div>
  </div>
  </div>
  </div>
@@ -222,8 +241,8 @@ export default function DynastiesPage({ dynasties }: DynastiesClientProps) {
  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
  <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-gold/20">
  <div className="text-center mb-8">
- <h3 className="font-cinzel font-bold text-2xl text-maroon mb-2">राजवंश खोजें</h3>
- <p className="font-cormorant text-charcoal/70">अपने पसंदीदा राजवंश और काल का चयन करें</p>
+  <h3 className="font-cinzel font-bold text-2xl text-maroon mb-2">{t('dynasties.search.title')}</h3>
+  <p className="font-cormorant text-charcoal/70">{t('dynasties.search.subtitle')}</p>
  </div>
  
  <div className="flex flex-col lg:flex-row gap-6 items-center">
@@ -234,7 +253,7 @@ export default function DynastiesPage({ dynasties }: DynastiesClientProps) {
  </div>
  <input
   type="text"
-  placeholder="राजवंश का नाम खोजें... Search dynasties"
+  placeholder={t('dynasties.search.placeholder')}
   value={searchTerm}
   onChange={(e) => setSearchTerm(e.target.value)}
   className="w-full pl-10 pr-4 py-3 border-2 border-saffron/30 rounded-xl focus:outline-none focus:ring-2 focus:ring-saffron focus:border-saffron bg-ivory font-cormorant text-charcoal placeholder-charcoal/50"
@@ -244,7 +263,7 @@ export default function DynastiesPage({ dynasties }: DynastiesClientProps) {
  {/* Period Filters */}
  <div className="flex-1">
  <div className="mb-3">
-  <span className="font-cinzel font-semibold text-maroon text-sm">ऐतिहासिक काल:</span>
+  <span className="font-cinzel font-semibold text-maroon text-sm">{t('dynasties.filters.periodLabel')}</span>
  </div>
  <div className="flex gap-2 flex-wrap">
   <button
@@ -255,7 +274,7 @@ export default function DynastiesPage({ dynasties }: DynastiesClientProps) {
   : 'bg-ivory border-2 border-saffron/30 text-saffron hover:bg-saffron/10 hover:border-saffron hover:shadow-md'
   }`}
   >
-  सभी काल
+  {t('dynasties.filters.allPeriods')}
   </button>
   {Object.entries(historicalPeriods).map(([key, period]) => (
   <button
@@ -266,9 +285,9 @@ export default function DynastiesPage({ dynasties }: DynastiesClientProps) {
   ? 'bg-saffron-gradient text-maroon shadow-lg transform scale-105'
   : 'bg-ivory border-2 border-saffron/30 text-saffron hover:bg-saffron/10 hover:border-saffron hover:shadow-md'
   }`}
-  title={`${period.period} - ${period.description}`}
+  title={`${period.period} - ${currentLanguage === 'hi' ? period.hindiDescription : period.description}`}
   >
-  {period.hindiTitle}
+  {currentLanguage === 'hi' ? period.hindiTitle : period.title}
   </button>
   ))}
  </div>
@@ -278,11 +297,7 @@ export default function DynastiesPage({ dynasties }: DynastiesClientProps) {
  {/* Results Count */}
  <div className="mt-6 text-center">
  <span className="font-cormorant text-charcoal/70" suppressHydrationWarning>
- {isClient ? (
-  <>
-  {filteredDynasties.length} राजवंश मिले • {filteredDynasties.length} dynasties found
-  </>
- ) : null}
+  {isClient ? `${filteredDynasties.length} ${t('dynasties.search.countLabel')}` : null}
  </span>
  </div>
  </div>
@@ -302,7 +317,7 @@ export default function DynastiesPage({ dynasties }: DynastiesClientProps) {
  <div className="relative w-full aspect-[16/9] bg-gradient-to-br from-sandstone-light/20 to-ivory border-b border-gold/30 flex items-center justify-center overflow-hidden rajasthani-pattern">
   <LazyImage
   src={DYNASTY_MAIN_IMAGES[dynasty.id] || '/images/dynasties/gallery/kumbhalgarh-fort.jpg'}
-  alt={`${dynasty.name} Main`}
+  alt={getDynastyDisplayName(dynasty)}
   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
   fill
   placeholder="/images/dynasties/gallery/kumbhalgarh-fort.jpg"
@@ -317,17 +332,14 @@ export default function DynastiesPage({ dynasties }: DynastiesClientProps) {
 
   {/* 2. Dynasty Title - Scaled Down */}
   <h3 className="font-serif text-xl font-bold text-shehrawat-blood-red mb-1 leading-tight">
-  {dynasty.hindiName}
+  {getDynastyDisplayName(dynasty)}
   </h3>
-  <h4 className="font-display text-sm text-charcoal/70 mb-3 tracking-wide uppercase">
-  {dynasty.name}
-  </h4>
 
   {/* 3. Core Identity Line - Compact */}
   <div className="mb-3 relative">
   <span className="block w-10 h-px bg-gold/60 mx-auto mb-2"></span>
   <p className="font-body text-base italic text-charcoal leading-snug min-h-[2.5rem] line-clamp-2 px-1">
-  &quot;{dynasty.significance}&quot;
+  &quot;{getDynastyDisplaySignificance(dynasty)}&quot;
   </p>
   <span className="block w-10 h-px bg-gold/60 mx-auto mt-2"></span>
   </div>
@@ -357,7 +369,7 @@ export default function DynastiesPage({ dynasties }: DynastiesClientProps) {
   }}
   className="w-full bg-transparent border border-maroon text-maroon group-hover:bg-maroon group-hover:text-ivory font-serif font-bold py-1.5 px-3 transition-all duration-300 uppercase tracking-widest text-[10px] shadow-sm hover:shadow-md"
   >
-  सभी शासक देखें / View All Rulers
+  {t('dynasties.cta.viewRulers')}
   </button>
   </div>
  </div>
@@ -392,6 +404,7 @@ export default function DynastiesPage({ dynasties }: DynastiesClientProps) {
                 currentLanguage === 'en' && hasEnglish(selectedKing) && selectedKing.englishCulturalContributions
                   ? selectedKing.englishCulturalContributions?.join('. ')
                   : selectedKing.culturalContributions?.join('. ') || '',
+ hindiName: selectedKing.hindiName,
  englishName: selectedKing.name,
               fullStory:
                 currentLanguage === 'en' && hasEnglish(selectedKing) && selectedKing.englishFullStory
@@ -430,19 +443,18 @@ export default function DynastiesPage({ dynasties }: DynastiesClientProps) {
  <div className="flex items-center space-x-3">
   <span className="text-3xl">{showRulersModal.emblem}</span>
   <div>
-  <h2 className="font-cinzel font-bold text-2xl text-maroon">{showRulersModal.hindiName}</h2>
-  <p className="font-playfair text-saffron">{showRulersModal.name}</p>
+  <h2 className="font-cinzel font-bold text-2xl text-maroon">{getDynastyDisplayName(showRulersModal)}</h2>
   </div>
  </div>
         <button
           onClick={() => setShowRulersModal(null)}
-          aria-label="Back to dynasties"
+          aria-label={t('dynasties.modal.backAria')}
           className="inline-flex items-center gap-2 px-3 py-2 text-sm font-cinzel uppercase tracking-widest text-maroon hover:text-ivory border border-maroon/30 rounded-md hover:bg-maroon transition-colors"
         >
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" className="stroke-current">
             <path d="M15 18l-6-6 6-6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
-          <span>Back</span>
+          <span>{t('dynasties.modal.back')}</span>
         </button>
  </div>
  </div>
@@ -461,10 +473,9 @@ export default function DynastiesPage({ dynasties }: DynastiesClientProps) {
   >
   {/* Text Column (Left 70%) */}
   <div className="w-[70%] text-left pr-4 h-full flex flex-col justify-center border-r border-saffron/10">
-  <p className="font-cinzel font-bold text-maroon text-lg truncate">{ruler.hindiName}</p>
-  <p className="font-playfair text-saffron font-semibold text-base truncate">{ruler.name}</p>
+  <p className="font-cinzel font-bold text-maroon text-lg truncate">{getRulerDisplayName(ruler)}</p>
   <p className="text-xs text-charcoal font-medium mt-1">{ruler.period}</p>
-  <p className="text-xs text-charcoal/70 mt-1 line-clamp-1">{ruler.title}</p>
+  <p className="text-xs text-charcoal/70 mt-1 line-clamp-1">{getRulerDisplayTitle(ruler)}</p>
   </div>
 
   {/* Portrait Column (Right 30%) */}

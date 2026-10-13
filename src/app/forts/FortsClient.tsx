@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { Monument } from '@/types/frontend';
 import { getDynastyInfo } from './constants';
 import MediaGallery from '../components/MediaGallery';
@@ -35,14 +35,6 @@ interface FormattedStory {
  content: string;
 }
 
-const joinTextList = (value?: string[] | string) => {
- if (!value) return '';
- if (Array.isArray(value)) {
- return value.filter(Boolean).join('; ');
- }
- return value;
-};
-
 const normalizeCategory = (raw?: string): StoryCategoryTag => {
  const value = (raw || '').toLowerCase();
  if (value.includes('siege') || value.includes('battle') || value.includes('war')) return 'SIEGE';
@@ -75,120 +67,26 @@ const normalizeCategory = (raw?: string): StoryCategoryTag => {
  return 'LEGEND';
 };
 
-const buildStoriesForMonument = (monument: Monument): FormattedStory[] => {
+// Build stories for monument
+const buildStoriesForMonument = (monument: Monument, currentLanguage?: string, getLocalized?: any): FormattedStory[] => {
  if (monument.fortStories && monument.fortStories.length > 0) {
  return monument.fortStories.map((story) => ({
- title: story.title,
- category: normalizeCategory(story.category),
- content: story.content,
+ title: getLocalized ? getLocalized(story, 'title') : story.title,
+ category: normalizeCategory(getLocalized ? getLocalized(story, 'category') : story.category),
+ content: getLocalized ? getLocalized(story, 'content') : story.content,
  }));
  }
 
- const description = monument.description || '';
+ // Fallback stories if not explicitly provided
+ const description = getLocalized ? getLocalized(monument, 'description') : (monument.description || '');
  const history = monument.detailedHistory || '';
- const culture = monument.culturalSignificance || '';
- const significance = joinTextList(monument.significance);
- const architecture = joinTextList(
- monument.architecture || monument.architecturalFeatures,
- );
- const facts = joinTextList(monument.interestingFacts || []);
-
- const introParts: string[] = [];
- if (monument.period && monument.location) {
- introParts.push(
- `In ${monument.period}, ${monument.name} rose at ${monument.location}, anchoring the landscape of Rajputana.`,
- );
- } else if (monument.location) {
- introParts.push(
- `${monument.name} stands at ${monument.location}, a familiar landmark in the story of Rajputana.`,
- );
- } else {
- introParts.push(`${monument.name} became a focal point in the heritage of Rajputana.`);
- }
- if (monument.builtBy) {
- introParts.push(`It was commissioned under the patronage of ${monument.builtBy}.`);
- }
- if (monument.dynasty) {
- introParts.push(
- `The site is closely bound to the fortunes of the ${monument.dynasty} house.`,
- );
- }
- const intro = introParts.join(' ');
 
  const stories: FormattedStory[] = [];
 
  stories.push({
- title: `Founding Chronicle of ${monument.name}`,
+ title: currentLanguage === 'hi' ? `${monument.hindiName || monument.name} का इतिहास` : `Founding Chronicle of ${monument.name}`,
  category: 'HISTORICAL EVENT',
- content:
- `${intro}\n\n` +
- (history
- ? `${history}\n\n`
- : '') +
- (significance
- ? `Over the centuries it came to be remembered for key roles in the region's history – ${significance}. `
- : '') +
- (facts
- ? `Court chroniclers and later travellers repeatedly noted details such as ${facts}, each layer adding to the fort's historical weight.`
- : ''),
- });
-
- stories.push({
- title: `Rulers, Courts and Dynastic Life`,
- category: 'ROYAL DYNASTY',
- content:
- `${monument.name} functioned not merely as stone and mortar, but as a living court where alliances were forged, oaths were sworn and royal ceremonies unfolded in measured grandeur.\n\n` +
- (monument.builtBy
- ? `The vision of ${monument.builtBy} shaped its earliest halls, while successive rulers refined and expanded the complex in response to shifting politics and courtly etiquette. `
- : '') +
- (monument.dynasty
- ? `Within these walls, the ${monument.dynasty} lineage received envoys, planned campaigns and observed the elaborate rhythms of Rajput protocol. `
- : '') +
- (culture
- ? `${culture} `
- : '') +
- (facts
- ? `Family traditions still recall episodes in which the palace became the stage for marriages, successions and crises remembered in phrases like ${facts}.`
- : ''),
- });
-
- stories.push({
- title: `Sieges, Sacrifice and Survival`,
- category: 'SIEGE',
- content:
- `${monument.name} stood through an era when the map of North India was redrawn repeatedly by Mughal, Maratha and later British power.\n\n` +
- `Even in years when no cannon smoke touched its ramparts, the palace-fort watched the movement of armies across the plains, served as a refuge for dependants during campaigns, and stored grain, water and arms in anticipation of hard times. ` +
- (history
- ? `Accounts of conflict preserved in regional chronicles echo through its story: ${history} `
- : '') +
- `Every bastion, courtyard and service alley was ultimately part of a defensive system that balanced dignity with preparedness, allowing the structure to adapt to new military realities without surrendering its Rajput character.`,
- });
-
- stories.push({
- title: `Architecture and Living Fabric of ${monument.name}`,
- category: 'ARCHITECTURAL MARVEL',
- content:
- `${monument.name} is equally a work of engineering and of imagination.\n\n` +
- (architecture
- ? `Visitors first notice its architectural grammar: ${architecture}. `
- : '') +
- (description
- ? `${description} `
- : '') +
- `Layouts were planned to temper the desert sun, capture passing breezes and frame long views across lakes, plains or dunes. Careful layering of private and public spaces allowed rulers to appear in splendour while preserving the seclusion of the zenana. ` +
- `Today, restored chambers, patina on stone, and traces of fresco and mirror work together narrate how Rajput craftsmen fused defence, ceremony and everyday life into a single architectural statement.`,
- });
-
- stories.push({
- title: `Legends and Memory around ${monument.name}`,
- category: 'LEGEND',
- content:
- `${monument.name} lives on not only in archival documents, but in the memory of the people who grew up in its shadow.\n\n` +
- `Oral traditions speak of torch-lit processions on festival nights, of horsemen returning from campaign, of queens and princesses watching the world from latticed balconies. Guides still recount episodes of narrow escapes, secret passages and vows taken before family deities, blending verifiable history with the suggestive glow of legend. ` +
- (significance
- ? `Because of these stories, phrases like ${significance} are used locally as shorthand for courage, hospitality and royal obligation. `
- : '') +
- `In this way the fort or palace is not a relic, but a living symbol: a place where Rajputana's ideals of honour, duty and graciousness continue to be imagined and reimagined by each generation.`,
+ content: currentLanguage === 'hi' ? `${description}\n\n${history}` : `${description}\n\n${history}`
  });
 
  return stories;
@@ -204,21 +102,80 @@ export default function FortsClient({ initialForts }: FortsClientProps) {
  const [searchTerm, setSearchTerm] = useState('');
  const [galleryInitialTab, setGalleryInitialTab] = useState<'photos' | 'videos'>('photos');
  const [mounted, setMounted] = useState(false);
- const { currentLanguage, setLanguage, speak, stopSpeaking, isSpeaking, t } = useLanguage();
+ const { currentLanguage, speak, stopSpeaking, isSpeaking, t } = useLanguage();
  const [speakingId, setSpeakingId] = useState<string | null>(null);
+ const [dynamicTranslations, setDynamicTranslations] = useState<Record<string, string>>({});
 
- useEffect(() => {
+ const isHindiText = useCallback((value: string) => /[\u0900-\u097F]/.test(value), []);
+
+ const getLocalizedValue = useCallback(
+  (obj: any, key: string) => {
+   if (!obj) return '';
+   const hindiKey = `hindi${key.charAt(0).toUpperCase()}${key.slice(1)}`;
+   if (currentLanguage === 'hi' && obj[hindiKey]) {
+    return obj[hindiKey];
+   }
+   return obj[key];
+  },
+  [currentLanguage],
+ );
+
+ const displayText = useCallback(
+  (value: string) => {
+   if (!value) return '';
+   if (currentLanguage !== 'hi') return value;
+   if (isHindiText(value)) return value;
+   return dynamicTranslations[value] ?? value;
+  },
+  [currentLanguage, dynamicTranslations, isHindiText],
+ );
+
+ const getStoryCategoryLabel = (category: StoryCategoryTag) => {
+  if (category === 'HISTORICAL EVENT') return t('forts.storyCategory.historicalEvent');
+  if (category === 'ROYAL DYNASTY') return t('forts.storyCategory.royalDynasty');
+  if (category === 'ARCHITECTURAL MARVEL') return t('forts.storyCategory.architecturalMarvel');
+  if (category === 'SIEGE') return t('forts.storyCategory.siege');
+  return t('forts.storyCategory.legend');
+ };
+
+  useEffect(() => {
  setMounted(true);
  }, []);
 
+ const prefetchTranslations = useCallback(
+  async (texts: string[]) => {
+   if (currentLanguage !== 'hi') return;
+   const uniqueTexts = Array.from(new Set(texts.filter(Boolean))).filter((text) => {
+    if (dynamicTranslations[text]) return false;
+    if (isHindiText(text)) return false;
+    return true;
+   });
+   if (uniqueTexts.length === 0) return;
+
+   try {
+    const res = await fetch('/api/translate', {
+     method: 'POST',
+     headers: { 'content-type': 'application/json' },
+     body: JSON.stringify({ texts: uniqueTexts, source: 'en', target: 'hi' }),
+    });
+    if (!res.ok) return;
+    const json = (await res.json()) as { translations?: Record<string, string> };
+    const translations = json.translations ?? {};
+    setDynamicTranslations((prev) => ({ ...prev, ...translations }));
+   } catch {
+    return;
+   }
+  },
+  [currentLanguage, dynamicTranslations, isHindiText],
+ );
+
  const handleListen = (monument: Monument) => {
  const parts = [
- monument.name,
- monument.hindiName,
- monument.location,
- monument.description,
- monument.builtBy,
- monument.period,
+  displayText(getLocalizedValue(monument, 'name') || monument.name),
+  displayText(getLocalizedValue(monument, 'location') || monument.location),
+  displayText(getLocalizedValue(monument, 'description') || monument.description),
+  displayText(getLocalizedValue(monument, 'builtBy') || monument.builtBy),
+  displayText(getLocalizedValue(monument, 'period') || monument.period),
  ].filter(Boolean);
 
  const text = parts.join('. ');
@@ -247,6 +204,43 @@ export default function FortsClient({ initialForts }: FortsClientProps) {
  return matchesSearch && matchesCategory;
  });
 
+ useEffect(() => {
+  if (currentLanguage !== 'hi') return;
+
+  const cardTexts: string[] = [];
+  for (const monument of filteredMonuments) {
+   const seal = getDynastyInfo(monument);
+   cardTexts.push(
+    String(getLocalizedValue(monument, 'name') || monument.name || ''),
+    String(getLocalizedValue(monument, 'location') || monument.location || ''),
+    String(getLocalizedValue(monument, 'period') || monument.period || ''),
+    String(getLocalizedValue(monument, 'builtBy') || monument.builtBy || ''),
+    String(getLocalizedValue(monument, 'status') || monument.status || ''),
+    String(getLocalizedValue(monument, 'description') || monument.description || ''),
+    String(seal.label || ''),
+   );
+  }
+
+  const modalTexts: string[] = [];
+  if (selectedMonument) {
+   modalTexts.push(
+    String(getLocalizedValue(selectedMonument, 'name') || selectedMonument.name || ''),
+    String(getLocalizedValue(selectedMonument, 'location') || selectedMonument.location || ''),
+    String(getLocalizedValue(selectedMonument, 'period') || selectedMonument.period || ''),
+    String(getLocalizedValue(selectedMonument, 'builtBy') || selectedMonument.builtBy || ''),
+    String(getLocalizedValue(selectedMonument, 'description') || selectedMonument.description || ''),
+    String(getLocalizedValue(selectedMonument, 'visitingHours') || selectedMonument.visitingHours || ''),
+    String(getLocalizedValue(selectedMonument, 'entryFee') || selectedMonument.entryFee || ''),
+   );
+   const stories = buildStoriesForMonument(selectedMonument, currentLanguage, getLocalizedValue);
+   for (const story of stories) {
+    modalTexts.push(String(story.title || ''), String(story.content || ''));
+   }
+  }
+
+  void prefetchTranslations([...cardTexts, ...modalTexts]);
+ }, [currentLanguage, filteredMonuments, getLocalizedValue, prefetchTranslations, selectedMonument]);
+
  return (
  <div className="min-h-screen bg-[#FDF6E3] relative">
  <div className="fixed inset-0 texture-paper opacity-20 pointer-events-none z-0"></div>
@@ -256,9 +250,7 @@ export default function FortsClient({ initialForts }: FortsClientProps) {
  <Hero
  title={t('forts.title')}
  subtitle={t('forts.subtitle')}
- description={currentLanguage === 'hi'
- ? 'जहाँ पत्थर वीरता की भाषा बोलते हैं और सन्नाटा हजार कहानियाँ कह जाता है'
- : '"Where stone speaks of valor, and silence tells a thousand tales"'}
+  description={t('forts.hero.description')}
  />
 
  {/* Search and Filter Section */}
@@ -267,15 +259,17 @@ export default function FortsClient({ initialForts }: FortsClientProps) {
  <div className="container mx-auto px-4 py-6 relative z-10">
  <div className="flex flex-col md:flex-row gap-4 items-center justify-between">
  <div className="relative flex-1 max-w-md">
- <input
+  <input
  type="text"
- placeholder="Search royal monuments..."
+  placeholder={t('forts.search.placeholder')}
  value={searchTerm}
  onChange={(e) => setSearchTerm(e.target.value)}
  className="w-full px-4 py-3 pl-12 border-2 border-[#D4B483] rounded-lg focus:outline-none focus:border-[#8B4513] bg-[#FDF6E3] font-playfair text-[#2C1810] placeholder-[#8B4513]/60 shadow-inner"
  />
  <div className="absolute left-4 top-1/2 transform -translate-y-1/2 text-[#8B4513] opacity-70">
- 
+ <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+ </svg>
  </div>
  </div>
  
@@ -290,7 +284,7 @@ export default function FortsClient({ initialForts }: FortsClientProps) {
   : 'bg-[#FDF6E3] text-[#8B4513] hover:bg-[#E6D2B5] border-2 border-[#D4B483]'
   } font-cinzel`}
  >
-  {category === 'all' ? 'All' : category === 'fort' ? 'Forts' : 'Palaces'}
+  {category === 'all' ? t('forts.filters.all') : category === 'fort' ? t('forts.filters.forts') : t('forts.filters.palaces')}
  </button>
  ))}
  </div>
@@ -302,9 +296,9 @@ export default function FortsClient({ initialForts }: FortsClientProps) {
  <div className="container mx-auto px-4 py-12">
  {filteredMonuments.length === 0 ? (
  <div className="text-center py-20">
- <div className="text-6xl mb-4 opacity-50 sepia"></div>
- <h3 className="text-2xl font-cinzel text-[#2C1810] mb-2">No Results Found</h3>
- <p className="text-[#8B4513] font-playfair italic">Please modify your search query</p>
+ <div className="text-6xl mb-4 opacity-50 sepia">🏰</div>
+  <h3 className="text-2xl font-cinzel text-[#2C1810] mb-2">{t('forts.noResults.title')}</h3>
+  <p className="text-[#8B4513] font-playfair italic">{t('forts.noResults.body')}</p>
  </div>
  ) : (
  mounted ? (
@@ -312,7 +306,7 @@ export default function FortsClient({ initialForts }: FortsClientProps) {
  {filteredMonuments.map((monument) => (
  <div
   key={monument.id}
-  className="group relative bg-[#FDF6E3] rounded-lg shadow-md hover:shadow-xl transition-all duration-500 overflow-hidden border border-[#D4B483] hover:border-[#8B4513] cursor-pointer"
+  className="group relative bg-[#FDF6E3] rounded-lg shadow-md hover:shadow-xl transition-all duration-500 overflow-hidden border border-[#D4B483] hover:border-[#8B4513] cursor-pointer flex flex-col h-full"
   onClick={() => { setSelectedMonument(monument); setGalleryInitialTab('photos'); }}
  >
   {/* Image Section with Warm Grading & Grain */}
@@ -324,7 +318,7 @@ export default function FortsClient({ initialForts }: FortsClientProps) {
   return validImage ? (
   <OptimizedImage
   src={validImage.src}
-  alt={validImage.alt || monument.name}
+  alt={displayText(validImage.alt || monument.name)}
   className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700 filter contrast-[1.1] saturate-[0.9]"
   strategy="CONTENT"
   responsive
@@ -334,11 +328,11 @@ export default function FortsClient({ initialForts }: FortsClientProps) {
   />
   ) : (
   <div className="w-full h-full bg-[#E6D2B5] flex items-center justify-center">
-  <span className="text-4xl opacity-20"></span>
+  <span className="text-4xl opacity-20">🏰</span>
   </div>
   );
   })()}
-  
+
   {/* Princely Seal Badge */}
   <div className="absolute top-3 right-3 z-20 group/seal">
   {(() => {
@@ -353,7 +347,7 @@ export default function FortsClient({ initialForts }: FortsClientProps) {
   </div>
   {/* Tooltip for Dynasty Name */}
   <div className="absolute right-full top-1/2 -translate-y-1/2 mr-3 px-3 py-1.5 bg-[#2C1810] text-[#FDF6E3] text-xs font-cinzel rounded border border-[#D4B483] opacity-0 group-hover/seal:opacity-100 transition-opacity duration-300 whitespace-nowrap shadow-xl pointer-events-none z-30">
-  {seal.label}
+  {displayText(seal.label)}
   <div className="absolute top-1/2 -right-1 -translate-y-1/2 w-2 h-2 bg-[#2C1810] border-r border-t border-[#D4B483] transform rotate-45"></div>
   </div>
   </div>
@@ -368,35 +362,37 @@ export default function FortsClient({ initialForts }: FortsClientProps) {
   ? 'bg-[#8B0000] text-[#FDF6E3] border-[#D4B483]' 
   : 'bg-[#4B0082] text-[#FDF6E3] border-[#D4B483]'
   } shadow-md`}>
-  {monument.category}
+  {monument.category === 'fort' ? t('forts.filters.forts') : t('forts.filters.palaces')}
   </span>
   </div>
   </div>
   
   {/* Content Section - Manuscript Style */}
-  <div className="p-5 relative">
+  <div className="p-5 relative flex flex-col flex-grow">
   {/* Decorative Top Border */}
   <div className="absolute top-0 left-4 right-4 h-px bg-gradient-to-r from-transparent via-[#D4B483] to-transparent opacity-50"></div>
 
   <div className="text-center mb-4">
   <h3 className="text-2xl font-bold font-cinzel text-[#2C1810] leading-tight">
-  {currentLanguage === 'hi' ? monument.hindiName || monument.name : monument.name}
+  {displayText(getLocalizedValue(monument, 'name') || monument.name)}
   </h3>
   <p className="text-sm font-playfair italic text-[#8B4513] mt-1">
-  {currentLanguage === 'hi' ? monument.name : monument.hindiName}
+  {currentLanguage === 'hi'
+   ? displayText(monument.name)
+   : monument.hindiName}
   </p>
   </div>
 
   <div className="flex justify-center items-center gap-2 mb-4 text-xs font-cinzel tracking-wider text-[#5D4037]">
   <span className="flex items-center gap-1">
-  {monument.location.split(',')[0]}
+  {displayText(getLocalizedValue(monument, 'location')?.split(',')[0] || monument.location.split(',')[0])}
   </span>
   <span className="text-[#D4B483]">•</span>
-  <span>{monument.period}</span>
+  <span>{displayText(getLocalizedValue(monument, 'period') || monument.period)}</span>
   </div>
   
   <p className="text-[#4A3B2A] font-playfair text-sm leading-relaxed text-justify line-clamp-3 mb-4 px-2">
-  {monument.description}
+  {displayText(getLocalizedValue(monument, 'description') || monument.description)}
   </p>
   
   <div className="flex items-center justify-between mb-3 px-2">
@@ -413,58 +409,30 @@ export default function FortsClient({ initialForts }: FortsClientProps) {
   >
   {isSpeaking && speakingId === monument.id ? (
   <>
-  <StopIcon className="w-4 h-4" /> रोकें
+  <StopIcon className="w-4 h-4" /> {t('audio.stop')}
   </>
   ) : (
   <>
-  <VolumeIcon className="w-4 h-4" /> सुनें
+  <VolumeIcon className="w-4 h-4" /> {t('common.listen')}
   </>
   )}
   </button>
-  <div className="flex items-center gap-2 text-xs font-cinzel">
-  <button
-  onClick={(e) => {
-  e.stopPropagation();
-  setLanguage('hi');
-  }}
-  className={`px-2 py-1 rounded ${
-  currentLanguage === 'hi'
-  ? 'bg-[#8B4513] text-[#FDF6E3]'
-  : 'bg-transparent text-[#8B4513] border border-[#D4B483]'
-  }`}
-  >
-  हिंदी
-  </button>
-  <button
-  onClick={(e) => {
-  e.stopPropagation();
-  setLanguage('en');
-  }}
-  className={`px-2 py-1 rounded ${
-  currentLanguage === 'en'
-  ? 'bg-[#8B4513] text-[#FDF6E3]'
-  : 'bg-transparent text-[#8B4513] border border-[#D4B483]'
-  }`}
-  >
-  EN
-  </button>
-  </div>
   </div>
   
   {/* Footer Info */}
-  <div className="flex items-center justify-between pt-3 border-t border-[#D4B483]/30 text-xs font-playfair text-[#8B4513]">
+  <div className="flex items-center justify-between pt-3 mt-auto border-t border-[#D4B483]/30 text-xs font-playfair text-[#8B4513]">
   <div className="flex items-center gap-1">
   <span></span>
-  <span className="truncate max-w-[100px]">{monument.builtBy}</span>
+  <span className="truncate max-w-[100px]">{displayText(getLocalizedValue(monument, 'builtBy') || monument.builtBy)}</span>
   </div>
   <div className="flex items-center gap-3">
   {monument.visitingHours && (
-  <span title="Visiting Hours">⏰ {monument.visitingHours.split(' ')[0]}</span>
+  <span title={t('forts.modal.timings')}>⏰ {displayText(getLocalizedValue(monument, 'visitingHours') || monument.visitingHours).split(' ')[0]}</span>
   )}
   <span className={`px-2 py-0.5 rounded-sm border ${
   monument.status === 'Standing' ? 'border-green-800/30 text-green-900' : 'border-amber-800/30 text-amber-900'
   }`}>
-  {monument.status}
+  {displayText(getLocalizedValue(monument, 'status') || monument.status)}
   </span>
   </div>
   </div>
@@ -500,12 +468,12 @@ export default function FortsClient({ initialForts }: FortsClientProps) {
  <div className="absolute inset-0 texture-paper opacity-10 pointer-events-none"></div>
  <div className="relative z-10 flex items-center space-x-6">
  <div className="w-16 h-16 rounded-full border-2 border-[#D4B483] bg-[#E6D2B5] flex items-center justify-center shadow-inner">
-  <span className="text-3xl filter sepia contrast-125">{selectedMonument.icon ?? ''}</span>
+  <span className="text-3xl filter sepia contrast-125">{selectedMonument.icon || '🏛️'}</span>
  </div>
  <div>
-  <h2 className="text-3xl font-bold font-cinzel text-[#2C1810] tracking-wide">{selectedMonument.name}</h2>
+  <h2 className="text-3xl font-bold font-cinzel text-[#2C1810] tracking-wide">{displayText(getLocalizedValue(selectedMonument, 'name') || selectedMonument.name)}</h2>
   <div className="flex items-center gap-3 mt-1">
-  <p className="text-[#8B4513] font-playfair italic text-lg">{selectedMonument.hindiName}</p>
+  <p className="text-[#8B4513] font-playfair italic text-lg">{currentLanguage === 'hi' ? displayText(selectedMonument.name) : selectedMonument.hindiName}</p>
   <button
   onClick={(e) => {
   e.stopPropagation();
@@ -516,7 +484,7 @@ export default function FortsClient({ initialForts }: FortsClientProps) {
   ? "bg-[#8B4513] text-[#FDF6E3]"
   : "bg-[#FDF6E3] text-[#8B4513] hover:bg-[#8B4513] hover:text-[#FDF6E3]"
   }`}
-  title={isSpeaking && speakingId === selectedMonument.id ? "Stop Narration" : "Listen to Overview"}
+  title={isSpeaking && speakingId === selectedMonument.id ? t('forts.tooltip.stopNarration') : t('forts.tooltip.listenOverview')}
   >
   {isSpeaking && speakingId === selectedMonument.id ? (
   <StopIcon className="w-3.5 h-3.5" />
@@ -531,7 +499,7 @@ export default function FortsClient({ initialForts }: FortsClientProps) {
   <div className="w-5 h-5">
   <DynastySeal dynasty={seal.key} color={seal.color} />
   </div>
-  <span className="text-xs font-cinzel font-semibold text-[#5D4037]">{seal.label.split('(')[0].trim()}</span>
+  <span className="text-xs font-cinzel font-semibold text-[#5D4037]">{displayText(seal.label.split('(')[0].trim())}</span>
   </div>
   );
   })()}
@@ -556,8 +524,8 @@ export default function FortsClient({ initialForts }: FortsClientProps) {
  <div className="mb-10 relative z-10">
  <div className="bg-white/50 rounded-lg p-6 border border-[#D4B483]/50 shadow-sm">
   <h3 className="font-cinzel font-bold text-2xl text-[#2C1810] mb-6 flex items-center border-b border-[#D4B483]/30 pb-2">
-  <span className="text-2xl mr-3 opacity-80"></span>
-  Visual Gallery
+  <span className="text-2xl mr-3 opacity-80">🖼️</span>
+  {t('forts.modal.visualGallery')}
   </h3>
   <MediaGallery images={selectedMonument.images || []} videos={selectedMonument.videos || []} initialTab={galleryInitialTab} />
  </div>
@@ -567,34 +535,34 @@ export default function FortsClient({ initialForts }: FortsClientProps) {
  <div className="mb-10 relative z-10">
  <div className="bg-[#FDF6E3]/50 rounded-lg p-6 border border-[#D4B483]/50 shadow-sm">
   <h3 className="font-cinzel font-bold text-2xl text-[#2C1810] mb-6 flex items-center border-b border-[#D4B483]/30 pb-2">
-  <span className="text-2xl mr-3 opacity-80"></span>
-  Key Highlights
+  <span className="text-2xl mr-3 opacity-80">⭐</span>
+  {t('forts.modal.keyHighlights')}
   </h3>
   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
   <div className="bg-[#FDF6E3] rounded-lg p-5 border border-[#D4B483] hover:shadow-md transition-shadow">
   <h4 className="font-cinzel font-bold text-[#5D4037] mb-2 text-sm uppercase tracking-wider flex items-center">
-  <span className="mr-2 text-lg"></span>Built By
+  <span className="mr-2 text-lg">👑</span>{t('forts.modal.builtBy')}
   </h4>
-  <p className="font-playfair text-[#2C1810] text-lg leading-relaxed">{selectedMonument.builtBy}</p>
+  <p className="font-playfair text-[#2C1810] text-lg leading-relaxed">{displayText(getLocalizedValue(selectedMonument, 'builtBy') || selectedMonument.builtBy)}</p>
   </div>
   <div className="bg-[#FDF6E3] rounded-lg p-5 border border-[#D4B483] hover:shadow-md transition-shadow">
   <h4 className="font-cinzel font-bold text-[#5D4037] mb-2 text-sm uppercase tracking-wider flex items-center">
-  <span className="mr-2 text-lg"></span>Period
+  <span className="mr-2 text-lg">📅</span>{t('forts.modal.period')}
   </h4>
-  <p className="font-playfair text-[#2C1810] text-lg leading-relaxed">{selectedMonument.period}</p>
+  <p className="font-playfair text-[#2C1810] text-lg leading-relaxed">{displayText(getLocalizedValue(selectedMonument, 'period') || selectedMonument.period)}</p>
   </div>
   <div className="bg-[#FDF6E3] rounded-lg p-5 border border-[#D4B483] hover:shadow-md transition-shadow">
   <h4 className="font-cinzel font-bold text-[#5D4037] mb-2 text-sm uppercase tracking-wider flex items-center">
-  <span className="mr-2 text-lg"></span>Location
+  <span className="mr-2 text-lg">📍</span>{t('forts.modal.location')}
   </h4>
-  <p className="font-playfair text-[#2C1810] text-lg leading-relaxed">{selectedMonument.location}</p>
+  <p className="font-playfair text-[#2C1810] text-lg leading-relaxed">{displayText(getLocalizedValue(selectedMonument, 'location') || selectedMonument.location)}</p>
   </div>
   </div>
  </div>
  </div>
 
  {(() => {
- const stories = buildStoriesForMonument(selectedMonument);
+ const stories = buildStoriesForMonument(selectedMonument, currentLanguage, getLocalizedValue);
  if (!stories || stories.length === 0) {
   return null;
  }
@@ -604,11 +572,13 @@ export default function FortsClient({ initialForts }: FortsClientProps) {
   <div className="absolute inset-0 bg-[url('/textures/mandala-pattern.png')] opacity-5 pointer-events-none"></div>
   <div className="relative z-10">
   <h3 className="font-cinzel font-bold text-2xl text-[#2C1810] mb-2 flex items-center">
-  <span className="text-2xl mr-3"></span>
-  Fort Stories
+  <span className="text-2xl mr-3">📜</span>
+  {t('forts.modal.fortStories')}
   </h3>
   <p className="font-playfair text-sm text-[#8B4513] mb-6">
-  {selectedMonument.name} से जुड़ी प्रमुख कथाएँ
+  {currentLanguage === 'hi'
+   ? `${displayText(getLocalizedValue(selectedMonument, 'name') || selectedMonument.name)} ${t('forts.modal.fortStoriesSubtitle')}`
+   : `${t('forts.modal.fortStoriesSubtitle')} ${selectedMonument.name}`}
   </p>
   <div className="space-y-6">
   {stories.map((story, index) => {
@@ -627,7 +597,7 @@ export default function FortsClient({ initialForts }: FortsClientProps) {
   if (el) el.style.display = 'none';
   }}
   className="absolute top-2 right-2 w-8 h-8 flex items-center justify-center rounded-full bg-[#8B4513]/10 text-[#8B4513] hover:bg-[#8B4513]/20 transition-all duration-300 opacity-0 group-hover:opacity-100 z-10"
-  title="Dismiss story"
+  title={t('forts.tooltip.dismissStory')}
   >
   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -639,7 +609,7 @@ export default function FortsClient({ initialForts }: FortsClientProps) {
    {index + 1}
    </span>
    <h4 className="font-cinzel font-semibold text-lg text-[#2C1810]">
-   {story.title}
+   {displayText(story.title)}
    </h4>
    <button
    onClick={(e) => {
@@ -651,7 +621,7 @@ export default function FortsClient({ initialForts }: FortsClientProps) {
    ? "bg-[#8B4513] text-[#FDF6E3]"
    : "bg-[#FDF6E3] text-[#8B4513] hover:bg-[#8B4513] hover:text-[#FDF6E3]"
    }`}
-   title={isSpeaking && speakingId === storyId ? "Stop Narration" : "Listen to Story"}
+   title={isSpeaking && speakingId === storyId ? t('forts.tooltip.stopNarration') : t('forts.tooltip.listenStory')}
    >
    {isSpeaking && speakingId === storyId ? (
    <StopIcon className="w-3 h-3" />
@@ -662,12 +632,12 @@ export default function FortsClient({ initialForts }: FortsClientProps) {
   </div>
   {story.category && (
    <span className="px-3 py-1 rounded-full text-xs font-cinzel uppercase tracking-wider bg-[#FDF6E3] border border-[#D4B483] text-[#8B4513] whitespace-nowrap">
-   {story.category}
+   {getStoryCategoryLabel(story.category)}
    </span>
   )}
   </div>
   <p className="font-playfair text-sm leading-relaxed text-[#4A3B2A] whitespace-pre-line text-justify">
-  {story.content}
+  {displayText(story.content)}
   </p>
   </article>
   );
@@ -684,32 +654,32 @@ export default function FortsClient({ initialForts }: FortsClientProps) {
  <div className="bg-[#FDF6E3] rounded-2xl p-6 border border-[#D4B483] shadow-lg relative overflow-hidden">
   <div className="absolute inset-0 texture-paper opacity-10 pointer-events-none"></div>
   <h3 className="font-cinzel font-bold text-2xl text-[#2C1810] mb-4 flex items-center relative z-10">
-  <span className="bg-[#8B4513] text-[#FDF6E3] px-3 py-2 rounded-lg mr-3 text-xl shadow-md border border-[#D4B483]"></span>
-  Travel Information
+  <span className="bg-[#8B4513] text-[#FDF6E3] px-3 py-2 rounded-lg mr-3 text-xl shadow-md border border-[#D4B483]">✈️</span>
+  {t('forts.modal.travelInfo')}
   </h3>
   
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6 relative z-10">
   <div className="bg-[#E6D2B5]/30 rounded-xl p-4 border border-[#D4B483] text-center">
-  <h4 className="font-cinzel font-semibold text-[#2C1810] mb-2 text-sm uppercase tracking-wider"> Timings</h4>
-  <p className="font-playfair text-xs text-[#4A3B2A] font-bold">{selectedMonument.visitingHours || "9:00 AM - 5:00 PM"}</p>
+  <h4 className="font-cinzel font-semibold text-[#2C1810] mb-2 text-sm uppercase tracking-wider"> {t('forts.modal.timings')}</h4>
+  <p className="font-playfair text-xs text-[#4A3B2A] font-bold">{displayText(getLocalizedValue(selectedMonument, 'visitingHours') || selectedMonument.visitingHours || '') || t('forts.modal.defaultTimings')}</p>
   </div>
   <div className="bg-[#E6D2B5]/30 rounded-xl p-4 border border-[#D4B483] text-center">
-  <h4 className="font-cinzel font-semibold text-[#2C1810] mb-2 text-sm uppercase tracking-wider"> Entry Fee</h4>
-  <p className="font-playfair text-xs text-[#4A3B2A] font-bold">{selectedMonument.entryFee || "See details"}</p>
+  <h4 className="font-cinzel font-semibold text-[#2C1810] mb-2 text-sm uppercase tracking-wider"> {t('forts.modal.entryFee')}</h4>
+  <p className="font-playfair text-xs text-[#4A3B2A] font-bold">{displayText(getLocalizedValue(selectedMonument, 'entryFee') || selectedMonument.entryFee || '') || t('forts.modal.seeDetails')}</p>
   </div>
   <div className="bg-[#E6D2B5]/30 rounded-xl p-4 border border-[#D4B483] text-center">
-  <h4 className="font-cinzel font-semibold text-[#2C1810] mb-2 text-sm uppercase tracking-wider"> Airport</h4>
-  <p className="font-playfair text-xs text-[#4A3B2A] font-bold">{selectedMonument.location.split(', ')[1] || "Jaipur"}</p>
+  <h4 className="font-cinzel font-semibold text-[#2C1810] mb-2 text-sm uppercase tracking-wider"> {t('forts.modal.airport')}</h4>
+  <p className="font-playfair text-xs text-[#4A3B2A] font-bold">{displayText(getLocalizedValue(selectedMonument, 'location') || selectedMonument.location).split(', ')[1] || t('forts.modal.defaultAirport')}</p>
   </div>
   <div className="bg-[#E6D2B5]/30 rounded-xl p-4 border border-[#D4B483] text-center">
-  <h4 className="font-cinzel font-semibold text-[#2C1810] mb-2 text-sm uppercase tracking-wider"> Railway</h4>
-  <p className="font-playfair text-xs text-[#4A3B2A] font-bold">{selectedMonument.location.split(', ')[0] || "Local"}</p>
+  <h4 className="font-cinzel font-semibold text-[#2C1810] mb-2 text-sm uppercase tracking-wider"> {t('forts.modal.railway')}</h4>
+  <p className="font-playfair text-xs text-[#4A3B2A] font-bold">{displayText(getLocalizedValue(selectedMonument, 'location') || selectedMonument.location).split(', ')[0] || t('forts.modal.defaultRailway')}</p>
   </div>
   </div>
 
   <div className="text-center relative z-10">
   <p className="font-playfair text-sm text-[#8B4513] italic border-t border-[#D4B483] pt-4 inline-block px-8">
-  &quot;{selectedMonument.name} की यात्रा एक अविस्मरणीय अनुभव है जो आपको राजस्थान की समृद्ध विरासत से जोड़ता है।&quot;
+  &quot;{t('forts.modal.quoteStart')} {displayText(getLocalizedValue(selectedMonument, 'name') || selectedMonument.name)} {t('forts.modal.quoteEnd')}&quot;
   </p>
   </div>
  </div>

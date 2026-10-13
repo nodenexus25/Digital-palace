@@ -4,8 +4,6 @@ import React, { useState } from 'react';
 import { useLanguage } from './LanguageProvider';
 import MediaGallery, { GalleryImage, GalleryVideo } from './MediaGallery';
 
-type Language = 'hi' | 'en';
-
 interface Story {
  id?: string;
  name: string;
@@ -44,8 +42,6 @@ const EnhancedStoryModal: React.FC<StoryModalProps> = ({
  isListening
 }) => {
  const { currentLanguage, t } = useLanguage();
- const [modalLanguage, setModalLanguage] = useState<Language>(currentLanguage);
- const [showLanguageMenu, setShowLanguageMenu] = useState(false);
  const [currentStoryIndex, setCurrentStoryIndex] = useState(0);
 
  // Check if story has multiple stories
@@ -54,27 +50,12 @@ const EnhancedStoryModal: React.FC<StoryModalProps> = ({
  const currentStory = stories?.[currentStoryIndex] || { title: story.name, fullStory: story.fullStory || '' };
  const totalStories = stories?.length || 1;
 
- const languageOptions: { code: Language; name: string; flag: string }[] = [
- { code: 'hi', name: 'हिंदी', flag: '' },
- { code: 'en', name: 'English', flag: '' }
- ];
-
- const handleLanguageChange = (lang: Language) => {
- setModalLanguage(lang);
- setShowLanguageMenu(false);
- };
-
  const displayText = (text?: string) => {
  if (!text) return '';
  
  // If we have a translation, use it. Otherwise, show the original text.
  // We don't want to show "Translation coming soon" anymore.
  return text;
- };
-
- const getCurrentLanguageName = () => {
- const lang = languageOptions.find(l => l.code === modalLanguage);
- return lang ? `${lang.flag} ${lang.name}` : ' हिंदी';
  };
 
  // Story navigation functions
@@ -97,10 +78,10 @@ const EnhancedStoryModal: React.FC<StoryModalProps> = ({
  <div className="flex justify-between items-center">
  <div className="flex-1">
  <h2 className="font-cinzel font-bold text-3xl mb-2">
- {modalLanguage === 'hi' ? displayText(story.hindiName || story.name) : displayText(story.englishName || story.name)}
+ {currentLanguage === 'hi' ? displayText(story.hindiName || story.name) : displayText(story.englishName || story.name)}
  </h2>
  <p className="font-playfair text-maroon-dark text-xl">
- {modalLanguage === 'hi' ? displayText(story.hindiName || story.name) : displayText(story.englishName || story.name)}
+ {currentLanguage === 'hi' ? displayText(story.hindiName || story.name) : displayText(story.englishName || story.name)}
  </p>
  {hasMultipleStories && (
  <div className="mt-3 flex items-center gap-3">
@@ -108,36 +89,8 @@ const EnhancedStoryModal: React.FC<StoryModalProps> = ({
   {currentStory.title}
   </h3>
   <span className="text-sm bg-maroon text-saffron px-3 py-1 rounded-full">
-  {modalLanguage === 'hi' ? 'कहानी' : 'Story'} {currentStoryIndex + 1} / {totalStories}
+  {t('common.story')} {currentStoryIndex + 1} / {totalStories}
   </span>
- </div>
- )}
- </div>
- 
- {/* Language Selector */}
- <div className="relative mx-4">
- <button
- onClick={() => setShowLanguageMenu(!showLanguageMenu)}
- className="flex items-center gap-2 px-3 py-2 bg-maroon text-saffron rounded-lg hover:bg-maroon-dark transition-colors font-cinzel text-sm"
- >
- {getCurrentLanguageName()}
- <span className="text-xs">▼</span>
- </button>
- 
- {showLanguageMenu && (
- <div className="absolute top-full right-0 mt-2 bg-white rounded-lg shadow-lg border border-gold/30 z-10 min-w-[150px]">
-  {languageOptions.map((lang) => (
-  <button
-  key={lang.code}
-  onClick={() => handleLanguageChange(lang.code)}
-  className={`w-full text-left px-4 py-2 hover:bg-saffron/20 transition-colors font-cinzel text-sm flex items-center gap-2 ${
-  modalLanguage === lang.code ? 'bg-saffron/30 text-maroon font-semibold' : 'text-charcoal'
-  } ${lang === languageOptions[0] ? 'rounded-t-lg' : ''} ${lang === languageOptions[languageOptions.length - 1] ? 'rounded-b-lg' : ''}`}
-  >
-  <span>{lang.flag}</span>
-  <span>{lang.name}</span>
-  </button>
-  ))}
  </div>
  )}
  </div>
@@ -145,7 +98,7 @@ const EnhancedStoryModal: React.FC<StoryModalProps> = ({
  {/* Audio and Close Controls */}
  <div className="flex items-center gap-3">
  <button
- onClick={() => onListen(story.fullStory)}
+ onClick={() => onListen(currentStory.fullStory || story.fullStory)}
  className={`flex items-center gap-2 px-4 py-2 rounded-lg font-cinzel text-sm transition-colors ${
   isSpeaking && isListening 
   ? 'bg-maroon text-saffron' 
@@ -172,19 +125,19 @@ const EnhancedStoryModal: React.FC<StoryModalProps> = ({
  <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
  {story.period && (
  <div className="bg-saffron/10 p-4 rounded-lg">
-  <h4 className="font-cinzel font-semibold text-maroon mb-2">{modalLanguage === 'hi' ? t('concepts.time') : t('stories.periodLabel')}</h4>
+  <h4 className="font-cinzel font-semibold text-maroon mb-2">{t('dynasties.period')}</h4>
   <p className="font-cormorant text-charcoal">{displayText(story.period)}</p>
  </div>
  )}
  {story.region && (
  <div className="bg-gold/10 p-4 rounded-lg">
-  <h4 className="font-cinzel font-semibold text-maroon mb-2">{modalLanguage === 'hi' ? 'क्षेत्र' : 'Region'}</h4>
+  <h4 className="font-cinzel font-semibold text-maroon mb-2">{t('dynasties.region')}</h4>
   <p className="font-cormorant text-charcoal">{displayText(story.region)}</p>
  </div>
  )}
  {story.significance && (
  <div className="bg-maroon/10 p-4 rounded-lg">
-  <h4 className="font-cinzel font-semibold text-maroon mb-2">{modalLanguage === 'hi' ? 'महत्व' : 'Significance'}</h4>
+  <h4 className="font-cinzel font-semibold text-maroon mb-2">{t('common.significance')}</h4>
   <p className="font-cormorant text-charcoal">{Array.isArray(story.significance) ? story.significance.map(s => displayText(s)).join(' ') : displayText(story.significance)}</p>
  </div>
  )}
@@ -196,7 +149,7 @@ const EnhancedStoryModal: React.FC<StoryModalProps> = ({
  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
  {story.characters && (
  <div className="bg-ivory border-l-4 border-saffron p-4 rounded-lg">
-  <h4 className="font-cinzel font-semibold text-lg text-maroon mb-3">{modalLanguage === 'hi' ? t('stories.charactersLabel') : t('stories.charactersLabel')}</h4>
+  <h4 className="font-cinzel font-semibold text-lg text-maroon mb-3">{t('stories.charactersLabel')}</h4>
   <ul className="space-y-2">
   {story.characters.map((character: string, index: number) => (
   <li key={index} className="font-cormorant text-charcoal flex items-start gap-2">
@@ -210,7 +163,7 @@ const EnhancedStoryModal: React.FC<StoryModalProps> = ({
  
  {story.themes && (
  <div className="bg-ivory border-l-4 border-gold p-4 rounded-lg">
-  <h4 className="font-cinzel font-semibold text-lg text-maroon mb-3">{modalLanguage === 'hi' ? t('concepts.themes') : t('concepts.themes')}</h4>
+  <h4 className="font-cinzel font-semibold text-lg text-maroon mb-3">{t('concepts.themes')}</h4>
   <ul className="space-y-2">
   {story.themes.map((theme: string, index: number) => (
   <li key={index} className="font-cormorant text-charcoal flex items-start gap-2">
@@ -327,7 +280,7 @@ const EnhancedStoryModal: React.FC<StoryModalProps> = ({
   : 'bg-maroon text-saffron hover:bg-maroon-dark'
  }`}
  >
- ⬅ {modalLanguage === 'en' ? 'Previous Story' : 'पिछली कहानी'}
+ ⬅ {t('common.previous')} {t('common.story')}
  </button>
  
  <div className="text-center">
@@ -335,7 +288,7 @@ const EnhancedStoryModal: React.FC<StoryModalProps> = ({
   {currentStoryIndex + 1} / {totalStories}
  </div>
  <div className="font-playfair text-maroon-dark text-sm">
-  {modalLanguage === 'en' ? 'Stories' : 'कहानियाँ'}
+  {t('common.stories')}
  </div>
  </div>
  
@@ -348,7 +301,7 @@ const EnhancedStoryModal: React.FC<StoryModalProps> = ({
   : 'bg-maroon text-saffron hover:bg-maroon-dark'
  }`}
  >
- {modalLanguage === 'en' ? 'Next Story' : 'अगली कहानी'} 
+ {t('common.next')} {t('common.story')}
  </button>
  </div>
  </div>

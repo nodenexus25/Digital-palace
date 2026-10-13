@@ -52,7 +52,7 @@ class ElevenLabsService {
  return this.config.voices.male;
  }
 
- async synthesizeSpeech(text: string, voiceType?: 'male' | 'female'): Promise<ArrayBuffer> {
+ async synthesizeSpeech(text: string, voiceType?: 'male' | 'female', _lang?: 'en' | 'hi'): Promise<ArrayBuffer> {
  if (!this.config.apiKey) {
  throw new Error('ElevenLabs API key not configured');
  }
@@ -155,25 +155,25 @@ class ElevenLabsService {
  }
  }
 
- async speakText(text: string, voiceType?: 'male' | 'female'): Promise<void> {
+ async speakText(text: string, voiceType?: 'male' | 'female', lang?: 'en' | 'hi'): Promise<void> {
  try {
- const audioBuffer = await this.synthesizeSpeech(text, voiceType);
+ const audioBuffer = await this.synthesizeSpeech(text, voiceType, lang);
  await this.playAudio(audioBuffer);
  } catch (error) {
  console.error('ElevenLabs speech synthesis failed:', error);
  // Always fallback to browser speech synthesis on any error
- await this.fallbackToWebSpeech(text);
+ await this.fallbackToWebSpeech(text, lang);
  }
  }
 
- private fallbackToWebSpeech(text: string): Promise<void> {
+ private fallbackToWebSpeech(text: string, lang?: 'en' | 'hi'): Promise<void> {
  return new Promise((resolve) => {
  if ('speechSynthesis' in window) {
  // Cancel any ongoing speech
  speechSynthesis.cancel();
  
  const utterance = new SpeechSynthesisUtterance(text);
- utterance.lang = 'hi-IN';
+ utterance.lang = lang === 'en' ? 'en-US' : (lang === 'hi' ? 'hi-IN' : 'hi-IN');
  utterance.rate = 0.8;
  utterance.pitch = 1.0;
  utterance.volume = 1.0;
@@ -183,12 +183,13 @@ class ElevenLabsService {
  };
  utterance.onerror = () => {
  console.error('Browser speech error occurred');
- // Simple English fallback
- const englishUtterance = new SpeechSynthesisUtterance(text);
- englishUtterance.lang = 'en-US';
- englishUtterance.onend = () => resolve();
- englishUtterance.onerror = () => resolve();
- speechSynthesis.speak(englishUtterance);
+ // Fallback to opposite language voice
+ const altLang = lang === 'hi' ? 'en-US' : 'hi-IN';
+ const altUtterance = new SpeechSynthesisUtterance(text);
+ altUtterance.lang = altLang;
+ altUtterance.onend = () => resolve();
+ altUtterance.onerror = () => resolve();
+ speechSynthesis.speak(altUtterance);
  };
 
  speechSynthesis.speak(utterance);

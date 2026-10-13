@@ -9,23 +9,278 @@ export const allLegends: Legend[] = [
     era: '16th Century',
     location: 'Haldighati, Mewar',
     story: [
-      'The sun had barely cleared the Aravalli ridge when yellow dust began to boil up from the Haldighati pass. In that narrow defile near Gogunda, horse-hooves churned the turmeric-colored earth into a choking haze. At its mouth stood Maharana Pratap of Mewar, lance lowered, watching the Mughal vanguard of Raja Man Singh of Amber emerge like a dark tide from the valley floor. For Pratap, this was not a battle over a corridor to Gujarat; it was the line beyond which Mewar’s freedom would not retreat.',
-      'By 1576, most major Rajput houses had accepted Mughal suzerainty. Mewar, under Pratap since 1572, refused every embassy that urged him to become Akbar’s vassal. Chittor had fallen to the Mughals in 1568, but the Sisodias still held the wooded highlands west of Udaipur, anchoring themselves in a chain of hill forts from Gogunda to Kumbhalgarh. Akbar sent Man Singh with an army that dwarfed Pratap’s contingent of Rajput horsemen and Bhil archers, seeking not just a battlefield victory but the submission of a symbol.',
-      'On 18 June 1576, the two forces collided in Haldighati. Pratap chose the pass to blunt Mughal numbers and make their artillery awkward. Rajput vanguards crashed into the imperial line with shock charges, the most enduring image being Pratap on his horse Chetak, striking at Man Singh’s elephant. The Mughals, however, had depth in their ranks and auxiliary Rajput contingents from loyal houses. As the dust thickened and the sun climbed, Mewar’s front line splintered under sheer weight.',
-      'By midday, Pratap’s priority shifted from victory to survival of the cause. Screened by loyal retainers and Bhil skirmishers who knew every ravine, he cut a path out of the pass, wounded but alive. The Mughals claimed tactical success, but they failed to capture or kill him. From the forests around Gogunda and the stone ramparts of Kumbhalgarh, he reshaped the war into a long guerrilla struggle, harrying Mughal detachments and cutting supply lines instead of offering another open-field battle.',
-      'In the 1580s, the campaign around Dewair saw his forces and those of his son Amar Singh dismantle Mughal outposts in the region, driving imperial garrisons from many positions and allowing Mewar to recover much of its ancestral domain, though Chittor and Mandalgarh remained under the empire. When Pratap died in 1597, he had not regained his old capital, but he had refused to bow. The dust of Haldighati settles on an ambiguous battlefield: tactically favorable to the Mughals, yet claimed in memory by Mewar as the moment when sovereignty was defended even in apparent defeat. Later chronicles and bardic poetry turned that dust into a symbol—the place where an empire won the field, but not the will of the man who opposed it.'
+      `अरावली की पहाड़ियों पर सूरज अभी पूरी तरह उगा भी नहीं था। हल्दीघाटी की सँकरी घाटी में हल्की पीली रोशनी फैल रही थी—जैसे धरती ने खुद अपने रंग में युद्ध का संकेत लिख दिया हो। हवा में एक अजीब-सी बेचैनी थी। अचानक दूर से उठती धूल ने उस शांति को चीर दिया—घोड़ों के खुरों की गड़गड़ाहट, लोहे की टकराहट, और हजारों सैनिकों की साँसों से उठती गरमाहट उस घाटी को ज्वालामुखी बना रही थी।
+
+उस धूल के पार खड़े थे—मेवाड़ के महाराणा प्रताप।
+
+उनकी आँखें स्थिर थीं, भाले की नोक सामने झुकी हुई, और चेहरा ऐसा मानो मृत्यु को भी चुनौती दे रहा हो। उनके पीछे खड़े थे राजपूत वीर—कुछ तलवारें थामे, कुछ भाले, और कुछ धनुष। उनके साथ थे भील योद्धा—जंगल के पुत्र, जिनकी आँखें हर चट्टान और हर पगडंडी को पहचानती थीं।
+
+यह युद्ध सिर्फ एक घाटी के लिए नहीं था।
+
+यह युद्ध था—स्वाभिमान के लिए।
+
+---
+
+महाराणा प्रताप का जन्म मेवाड़ की उसी मिट्टी में हुआ था, जहाँ तलवार चलाना उतना ही स्वाभाविक था जितना साँस लेना। बचपन से ही उनके चारों ओर युद्ध की गूँज थी—घोड़ों की टापें, हथियारों की चमक, और दुर्गों की ऊँची दीवारें।
+
+जब वे छोटे थे, तब ही उन्हें तलवार थमाई गई थी।
+
+“राजपुताना का खून है तुममें,” उनके गुरु ने कहा था, “यह तलवार सिर्फ हथियार नहीं—यह तुम्हारी पहचान है।”
+
+छोटे प्रताप ने उस तलवार को ऐसे पकड़ा, जैसे वह जन्म से उसी के लिए बने हों।
+
+घुड़सवारी, धनुर्विद्या, तलवारबाज़ी—हर कला में उन्होंने अपनी क्षमता साबित कर दी। लेकिन उनकी सबसे बड़ी शक्ति थी—उनका अडिग मन।
+
+जहाँ दूसरे झुकना सीखते थे, वहाँ प्रताप खड़े रहना सीख रहे थे।
+
+---
+
+समय बदला। मुग़ल साम्राज्य अपनी शक्ति के चरम पर था। एक-एक कर राजपूत राजाओं ने अकबर की अधीनता स्वीकार कर ली। कुछ ने समझौता किया, कुछ ने अपने राज्य बचाने के लिए सिर झुका दिया।
+
+लेकिन मेवाड़… मेवाड़ अलग था।
+
+1568 में चित्तौड़ गिर चुका था। दुर्ग की दीवारें टूट चुकी थीं, लेकिन सिसोदिया वंश की आत्मा नहीं टूटी थी।
+
+जब 1572 में प्रताप सिंह ने गद्दी संभाली, तो उनके सामने दो रास्ते थे—या तो अकबर के सामने झुक जाओ, या फिर अपने राज्य को आग और खून के रास्ते से बचाओ।
+
+प्रताप ने बिना एक पल सोचे—दूसरा रास्ता चुना।
+
+“मेवाड़ किसी का जागीर नहीं बनेगा,” उन्होंने अपने दरबार में कहा था।
+
+उनकी आवाज़ में ऐसा दृढ़ निश्चय था कि सभा में सन्नाटा छा गया।
+
+---
+
+और फिर आया—1576 का वह दिन।
+
+हल्दीघाटी।
+
+मुग़ल सेना का नेतृत्व कर रहे थे—राजा मान सिंह।
+
+उनकी सेना विशाल थी—हजारों घुड़सवार, पैदल सैनिक, हाथी, और तोपें। उनके साथ थे वे राजपूत भी, जिन्होंने मुग़लों के साथ संधि कर ली थी।
+
+उधर प्रताप के पास संख्या कम थी, लेकिन हौसला… असीम।
+
+“आज पीछे हटना नहीं है,” प्रताप ने अपने सैनिकों से कहा।
+
+“हर वार में मेवाड़ की आन होनी चाहिए।”
+
+जवाब में गूँजा—
+
+“जय एकलिंग जी!”
+
+और फिर… युद्ध शुरू हुआ।
+
+---
+
+राजपूत घुड़सवारों ने पहली टक्कर में ही मुग़ल पंक्तियों को हिला दिया। तलवारें बिजली की तरह चमकीं। भाले शरीरों को चीरते हुए निकल गए।
+
+घाटी में धूल का ऐसा गुबार उठा कि सूरज भी धुंधला पड़ गया।
+
+प्रताप अपने घोड़े चेतक पर सवार थे—नीले रंग का वह घोड़ा, जिसकी आँखों में भी आग थी।
+
+उन्होंने सीधा लक्ष्य किया—मान सिंह।
+
+चेतक ने छलाँग लगाई।
+
+उसका शरीर हवा में उछला और वह मुग़ल सेना के हाथी के सामने जा पहुँचा। प्रताप का भाला सीधा वार करता हुआ आगे बढ़ा।
+
+“आगे बढ़ो!” प्रताप की गर्जना गूँजी।
+
+लेकिन युद्ध सिर्फ साहस से नहीं जीते जाते।
+
+मुग़ल सेना गहराई में थी। उनकी पंक्तियाँ टूटती नहीं थीं, बल्कि पीछे से नई पंक्तियाँ आगे आ जाती थीं।
+
+धीरे-धीरे… मेवाड़ की सेना दबने लगी।
+
+---
+
+दोपहर तक स्थिति बदल चुकी थी।
+
+धूल, खून, और चीखों के बीच प्रताप घायल हो चुके थे। उनके आसपास के कई सरदार गिर चुके थे।
+
+एक क्षण के लिए समय जैसे थम गया।
+
+प्रताप ने चारों ओर देखा—उनके सैनिक लड़ रहे थे, मर रहे थे… लेकिन रुक नहीं रहे थे।
+
+तभी उनके एक विश्वस्त ने कहा—
+
+“महाराणा, जीवित रहना आवश्यक है। मेवाड़ को आपकी जरूरत है।”
+
+प्रताप की आँखों में एक पल के लिए पीड़ा झलकी।
+
+लेकिन फिर उन्होंने सिर हिलाया।
+
+“युद्ध अभी खत्म नहीं हुआ है,” उन्होंने कहा।
+
+और फिर… उन्होंने पीछे हटने का निर्णय लिया।
+
+---
+
+चेतक घायल था।
+
+उसके पैर में गहरा घाव था, लेकिन वह दौड़ रहा था—अपने स्वामी को बचाने के लिए।
+
+पीछे से मुग़ल सैनिक पीछा कर रहे थे।
+
+घाटी के बाहर एक छोटी-सी नदी आई।
+
+चेतक रुका नहीं।
+
+उसने आखिरी ताकत जुटाई… और छलाँग लगा दी।
+
+नदी पार हो गई।
+
+लेकिन जैसे ही प्रताप सुरक्षित पहुँचे… चेतक गिर पड़ा।
+
+प्रताप उसके पास झुके।
+
+“चेतक…”
+
+उनकी आवाज़ भर्रा गई।
+
+घोड़े ने आखिरी बार अपनी आँखें खोलीं… और फिर स्थिर हो गया।
+
+उस क्षण… एक योद्धा नहीं, एक मित्र खो गया था।
+
+---
+
+मुग़लों ने युद्ध जीत लिया था।
+
+लेकिन वे प्रताप को पकड़ नहीं पाए।
+
+और यही उनकी सबसे बड़ी हार थी।
+
+---
+
+इसके बाद युद्ध का स्वरूप बदल गया।
+
+अब यह खुला युद्ध नहीं था—यह था छाया युद्ध।
+
+जंगलों में, पहाड़ियों में, रात के अंधेरे में।
+
+प्रताप ने अपने सैनिकों को छोटे-छोटे दलों में बाँट दिया।
+
+भील योद्धा मार्गदर्शक बने।
+
+मुग़ल टुकड़ियाँ जब भी आगे बढ़तीं—उन पर अचानक हमला होता।
+
+खाद्य सामग्री लूटी जाती।
+
+रसद काट दी जाती।
+
+और फिर… हमलावर गायब हो जाते।
+
+“यह युद्ध मैदान में नहीं जीता जाएगा,” प्रताप ने कहा था, “यह युद्ध धैर्य से जीता जाएगा।”
+
+---
+
+साल बीतते गए।
+
+1580 के दशक में—देवेर का युद्ध।
+
+इस बार प्रताप तैयार थे।
+
+उनके साथ थे उनके पुत्र—अमर सिंह।
+
+“आज हम वापस लेंगे—अपनी भूमि,” प्रताप ने कहा।
+
+देवेर की पहाड़ियों में मुग़ल चौकियाँ थीं।
+
+प्रताप ने सीधा हमला नहीं किया।
+
+उन्होंने रात को घेराबंदी की।
+
+सुबह होते ही चारों ओर से हमला हुआ।
+
+राजपूतों की गर्जना फिर गूँजी—
+
+“हर हर महादेव!”
+
+मुग़ल सैनिक चौंक गए।
+
+उनकी चौकियाँ एक-एक कर गिरने लगीं।
+
+अमर सिंह ने स्वयं नेतृत्व किया—तलवार उठाए, दुश्मनों के बीच कूदते हुए।
+
+“कोई बचकर न जाए!” उनकी आवाज़ गूँजी।
+
+यह युद्ध अलग था।
+
+यहाँ मेवाड़ पीछे नहीं हट रहा था।
+
+यहाँ वे जीत रहे थे।
+
+धीरे-धीरे… मुग़ल गढ़ टूटते गए।
+
+देवेर में विजय ने पूरे क्षेत्र में नई ऊर्जा भर दी।
+
+मेवाड़ फिर उठ खड़ा हुआ।
+
+---
+
+सालों के संघर्ष के बाद, प्रताप ने अपने अधिकांश क्षेत्र वापस पा लिए।
+
+लेकिन चित्तौड़… अभी भी दूर था।
+
+एक अधूरा सपना।
+
+---
+
+1597।
+
+समय ने अपने निशान छोड़ दिए थे।
+
+प्रताप अब वृद्ध हो चुके थे।
+
+लेकिन उनकी आँखों में वही ज्वाला थी।
+
+अपने अंतिम क्षणों में उन्होंने अपने पुत्र को बुलाया।
+
+“मेवाड़ को कभी झुकने मत देना,” उन्होंने कहा।
+
+“हम हार सकते हैं… लेकिन झुक नहीं सकते।”
+
+और फिर… उनकी साँसें धीमी हो गईं।
+
+अरावली की हवाओं में एक सन्नाटा फैल गया।
+
+---
+
+हल्दीघाटी की धूल आज भी वहीं है।
+
+वही पीला रंग।
+
+वही पहाड़।
+
+लेकिन उस धूल में अब सिर्फ एक युद्ध की याद नहीं है।
+
+वहाँ एक संकल्प है।
+
+एक कहानी है—एक ऐसे राजा की, जिसने हार को भी जीत में बदल दिया।
+
+जिसने अपने राज्य को बचाने के लिए सब कुछ खो दिया—लेकिन अपना स्वाभिमान नहीं।
+
+इतिहास ने उस दिन को चाहे जैसे लिखा हो…
+
+लेकिन जनमानस में वह दिन आज भी गूँजता है—
+
+जब एक सम्राट ने मैदान जीता था…
+
+लेकिन एक योद्धा ने—आत्मा।`
+
     ],
     coverImage: {
-      src: '/images/legends/haldighati-battlefield.jpg',
+      src: '/images/battles/legendary-figures/maharana-pratap.jpg',
       alt: 'Cinematic depiction of the Battle of Haldighati with Rajput cavalry in dust and smoke.'
     },
     galleryImages: [
       {
-        src: '/images/legends/haldighati-ridge.jpg',
+        src: '/images/dynasties/places/mewar.jpg',
         alt: 'Aravalli ridges overlooking the Haldighati pass under a muted sunset sky.'
       },
       {
-        src: '/images/legends/haldighati-charge.jpg',
+        src: '/images/dynasties/rana-sanga.jpg',
         alt: 'Illustrative scene of Rajput horsemen charging through a narrow mountain pass.'
       }
     ],
@@ -45,23 +300,288 @@ export const allLegends: Legend[] = [
     era: '16th Century',
     location: 'Chittorgarh, Mewar',
     story: [
-      'The fires began before dawn. In the courtyards of Chittorgarh, oil-soaked wood and sandal paste were stacked in rising mounds, casting a bitter fragrance into the pre-dawn air. Women moved silently around them, jewelry stripped away, hair unbound, eyes emptied of fear. Above, on the stone bastions, Rajput warriors watched the encircling campfires of a Mughal army that had tightened around the fortress like a noose. Between those two circles of flame—one chosen, one imposed—Chittor prepared to step into legend.',
-      'Chittor had already seen sieges and trauma: in 1303 under Alauddin Khalji, in 1535 under Bahadur Shah of Gujarat. By the time Akbar turned his attention to it in 1567, the fort was more than a stronghold; it was the spiritual axis of Sisodia honor. Rana Udai Singh II, aware of both the fort’s vulnerability to sustained artillery and the cost of its loss, withdrew to the safer lakes and ridges near Udaipur, leaving a garrison under Rawat Jaimal of Badnore and Patta of Kelwa. Around them, imperial guns began to methodically batter walls that had withstood earlier centuries.',
-      'As mines were driven under bastions and breaches widened, the defenders faced a narrow choice. Surrender meant the humiliation of their house and the likely enslavement of their families. Resistance meant annihilation. Accounts describe Jaimal directing the defense while wounded, and Patta fighting with his family beside him. Whatever the exact details, the decision taken inside the fort was unequivocal: Chittor would not be handed over; it would be consumed.',
-      'On the final night, the inner courtyards lit up as the last jauhar was prepared. Women and children stepped into the flames rather than await capture, while the remaining Rajput garrison armed themselves for a last sortie. When the gates finally opened, they charged into the Mughal ranks with the certainty that they were already dead men. By the time the smoke cleared, Chittor had fallen, its population devastated and its role as a living capital broken.',
-      'For Akbar, the savage suppression at Chittor was a message to other resistant houses. For Mewar, it was the wound around which a new identity formed. Udai Singh’s shift to Udaipur and the reorientation of Mewar’s defense into the hills were direct consequences of that fall. In Rajput memory, the names of Jaimal, Patta, and the countless unnamed women who chose the pyre became shorthand for a stark creed: there are fates worse than death, and sometimes the only way to keep faith with the past is to let stone and flesh alike burn rather than bear a conqueror’s mark.'
+      `अरावली की चोटियों के पीछे रात अभी पूरी तरह टूटी भी नहीं थी, जब चित्तौड़ के आकाश में पहली लौ उठी।
+
+किले के भीतर, विशाल प्रांगणों में लकड़ियों के ढेर सजाए जा रहे थे—घी और चंदन से भीगे हुए। हवा में एक विचित्र सुगंध घुल गई थी—पवित्र भी, और भयावह भी। यह कोई साधारण अग्नि नहीं थी।
+
+यह था—अंत का संकल्प।
+
+महिलाएँ शांत थीं। उनके चेहरे पर न आँसू थे, न भय। गहने उतार दिए गए थे, माथे का सिंगार मिटा दिया गया था। बाल खुले थे, जैसे मृत्यु का स्वागत करने को तैयार हों।
+
+ऊपर, किले की प्राचीरों पर खड़े थे राजपूत योद्धा—तलवारें हाथ में, आँखें सामने जमी हुईं। दूर तक मुग़ल सेना के अलाव जल रहे थे—एक घेरा जो दिन-ब-दिन कसता जा रहा था।
+
+दो अग्नियाँ थीं उस रात—
+
+एक, जो दुश्मन ने घेरा बनाकर जलाई थी।
+
+दूसरी, जो चित्तौड़ ने स्वयं अपने लिए चुनी थी।
+
+---
+
+चित्तौड़… यह केवल एक किला नहीं था।
+
+यह था सिसोदिया वंश की आत्मा।
+
+सदियों से इसने आक्रमण झेले थे। अलाउद्दीन खिलजी के समय इसकी दीवारों ने रक्त देखा था। बहादुर शाह के हमले में यह फिर तप चुका था। लेकिन हर बार यह राख से उठ खड़ा हुआ था।
+
+पर इस बार… शत्रु अलग था।
+
+1567 में जब अकबर की दृष्टि चित्तौड़ पर पड़ी, तो यह सिर्फ एक किले पर आक्रमण नहीं था—यह एक प्रतीक को तोड़ने का प्रयास था।
+
+राणा उदय सिंह द्वितीय जानते थे—यह युद्ध केवल तलवार से नहीं जीता जा सकता।
+
+तोपें… बारूद… लंबी घेराबंदी…
+
+उन्होंने निर्णय लिया—किले को बचाने से अधिक महत्वपूर्ण था वंश को बचाना।
+
+वे अरावली की झीलों और पहाड़ियों की ओर निकल गए—उदयपुर की ओर।
+
+लेकिन चित्तौड़ खाली नहीं था।
+
+वहाँ रह गए थे—रावत जयमल और पत्ता।
+
+---
+
+जयमल—अनुभवी, दृढ़, युद्ध के हर दांव-पेच को जानने वाला।
+
+पत्ता—युवा, रक्त में उबाल, आँखों में आग।
+
+“यह किला अब हमारे प्राणों से ही बचेगा,” जयमल ने कहा।
+
+पत्ता ने तलवार उठाई—“तो फिर हमारे प्राण भी तैयार हैं।”
+
+---
+
+मुग़ल सेना ने घेरा कस लिया।
+
+तोपें गरजने लगीं।
+
+हर दिन दीवारों पर गोले बरसते। पत्थर टूटते, धूल उड़ती, और हर विस्फोट के साथ किला थोड़ा और कमजोर होता जाता।
+
+लेकिन हर टूटती दीवार के पीछे खड़े थे योद्धा।
+
+भीतर से जवाब आता—
+
+“हर हर महादेव!”
+
+तीर उड़ते।
+
+भाले गिरते।
+
+हर breach के सामने राजपूत ढाल बनकर खड़े हो जाते।
+
+---
+
+एक दिन, जब सूरज सिर पर था, एक विशाल विस्फोट हुआ।
+
+मुग़लों ने सुरंग बनाकर दीवार के नीचे बारूद भर दिया था।
+
+धमाका हुआ—और किले का एक हिस्सा ध्वस्त हो गया।
+
+धूल के बीच से मुग़ल सैनिक अंदर घुसने लगे।
+
+जयमल आगे बढ़े।
+
+उनकी तलवार बिजली की तरह चमकी।
+
+“पीछे हटना मत!” उनकी आवाज़ गूँजी।
+
+पत्ता उनके साथ कूद पड़ा।
+
+वह केवल सोलह वर्ष का था… लेकिन उस दिन वह मृत्यु से भी बड़ा हो गया।
+
+मुग़ल सैनिक एक-एक कर गिरते गए।
+
+लेकिन उनकी संख्या… अंतहीन थी।
+
+---
+
+घेराबंदी लंबी होती गई।
+
+भोजन कम होने लगा।
+
+पानी सीमित हो गया।
+
+हर दिन एक नया आघात।
+
+एक दिन, युद्ध के दौरान जयमल गंभीर रूप से घायल हो गए।
+
+उनका पैर टूट गया था।
+
+लेकिन उन्होंने पीछे हटने से इनकार कर दिया।
+
+उन्हें एक हाथी पर बैठाया गया—और वहीं से उन्होंने सेना का नेतृत्व किया।
+
+“जब तक मैं जीवित हूँ, चित्तौड़ जीवित है,” उन्होंने कहा।
+
+उनकी आवाज़ में दर्द था… लेकिन उससे अधिक था—अडिग संकल्प।
+
+---
+
+अंततः वह रात आई।
+
+निर्णय लिया गया।
+
+समर्पण नहीं होगा।
+
+जीवित बंदी नहीं बनेंगे।
+
+चित्तौड़… जलेगा।
+
+---
+
+किले के भीतर अग्निकुंड प्रज्वलित किए गए।
+
+महिलाएँ एकत्र हुईं।
+
+एक-दूसरे का हाथ थामे।
+
+कोई रो नहीं रहा था।
+
+एक माँ ने अपनी बेटी के माथे को चूमा।
+
+“यह अंत नहीं है,” उसने कहा, “यह हमारी मर्यादा की रक्षा है।”
+
+धीरे-धीरे… वे अग्नि में उतरने लगीं।
+
+लपटें उठीं।
+
+आकाश लाल हो गया।
+
+उस अग्नि में केवल शरीर नहीं जल रहे थे—
+
+वहाँ जल रही थी… पराजय की संभावना।
+
+---
+
+उधर, किले के द्वारों पर अंतिम तैयारी हो रही थी।
+
+राजपूत योद्धा केसरिया वस्त्र धारण कर चुके थे।
+
+उनके माथे पर तिलक था।
+
+आँखों में मृत्यु की छाया नहीं—बल्कि एक विचित्र शांति थी।
+
+पत्ता ने अपनी तलवार कसकर पकड़ी।
+
+“आज के बाद कोई हमें हारता नहीं देखेगा,” उसने कहा।
+
+जयमल ने उसकी ओर देखा—और मुस्कुराए।
+
+“आज हम अमर होंगे।”
+
+---
+
+भोर से पहले—द्वार खुल गए।
+
+एक गर्जना गूँजी—
+
+“जय एकलिंग जी!”
+
+और फिर… वे टूट पड़े।
+
+---
+
+मुग़ल सेना चौंक गई।
+
+यह आक्रमण नहीं था—यह प्रलय था।
+
+राजपूत योद्धा ऐसे लड़ रहे थे, जैसे उनके पास खोने के लिए कुछ भी नहीं बचा हो।
+
+क्योंकि सच यही था।
+
+तलवारें टकराईं।
+
+घोड़े चीखे।
+
+धूल, खून, और आग—सब एक साथ घुल गए।
+
+पत्ता सीधे दुश्मन के बीच कूद पड़ा।
+
+उसकी तलवार हर वार में एक जीवन ले रही थी।
+
+एक मुग़ल सैनिक चिल्लाया—“यह लड़का है या मौत?”
+
+लेकिन अंत… तय था।
+
+संख्या ने अपना काम किया।
+
+एक-एक कर योद्धा गिरते गए।
+
+जयमल भी अंततः धरती पर गिर पड़े।
+
+उनकी आँखें आकाश की ओर थीं।
+
+चित्तौड़… जल रहा था।
+
+---
+
+जब सूरज उगा… सब कुछ समाप्त हो चुका था।
+
+किला गिर चुका था।
+
+दीवारें टूट चुकी थीं।
+
+प्रांगण राख बन चुके थे।
+
+मुग़ल सेना भीतर प्रवेश कर चुकी थी—लेकिन वहाँ जीत की खुशी नहीं थी।
+
+वहाँ केवल… सन्नाटा था।
+
+---
+
+अकबर ने यह विजय प्राप्त की थी।
+
+लेकिन इस विजय की कीमत… खून और आग में लिखी गई थी।
+
+चित्तौड़ अब जीवित राजधानी नहीं रहा।
+
+लेकिन उसकी कहानी… यहीं समाप्त नहीं हुई।
+
+---
+
+उदय सिंह ने उदयपुर को बसाया।
+
+मेवाड़ ने पहाड़ियों में अपने को फिर से संगठित किया।
+
+और उसी राख से जन्म हुआ—एक नए संघर्ष का।
+
+वही संघर्ष, जो आगे चलकर महाराणा प्रताप के रूप में सामने आया।
+
+---
+
+चित्तौड़ की उस रात ने केवल एक किले को नहीं बदला—
+
+उसने एक विचार को जन्म दिया।
+
+एक विश्वास—
+
+कि कुछ हारें… वास्तव में हार नहीं होतीं।
+
+कुछ ज्वालाएँ… बुझती नहीं, बल्कि पीढ़ियों तक जलती रहती हैं।
+
+आज भी जब कोई चित्तौड़ की दीवारों को देखता है—
+
+उसे वहाँ पत्थर नहीं दिखते।
+
+उसे वहाँ आग दिखती है।
+
+वह आग… जिसमें शरीर जल गए—
+
+लेकिन सम्मान… अमर हो गया।`
+
     ],
     coverImage: {
-      src: '/images/legends/chittorgarh-sunset.jpg',
+      src: '/images/dynasties/places/mewar.jpg',
       alt: 'Chittorgarh Fort silhouetted against a fiery sunset, evoking siege and sacrifice.'
     },
     galleryImages: [
       {
-        src: '/images/legends/chittorgarh-sunset.jpg',
+        src: '/images/dynasties/places/mewar.jpg',
         alt: 'Distant view of Chittorgarh Fort at sunset over the plains.'
       },
       {
-        src: '/images/legends/chittor-battlements-night.jpg',
+        src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg',
         alt: 'Darkened battlements of Chittorgarh under smoke and torchlight.'
       }
     ]
@@ -74,19 +594,318 @@ export const allLegends: Legend[] = [
     era: 'Early 20th Century',
     location: 'Flanders Fields',
     story: [
-      'Mud from the previous night’s rain clung to horse fetlocks as the lancers formed up in the dim light. Ahead, enemy gun positions watched over a town that controlled the approaches to a vital front. The plan sounded anachronistic in the age of machine guns and wire: a mounted charge, lances leveled, straight at entrenched positions. Yet the men who touched wood and steel that morning carried with them centuries of Rajput cavalry instinct, honed on the plains and hill-frontiers of Rajputana and now transplanted to a distant war.',
-      'Long before they rode under imperial colors, Rajput clans had built their identities on fast, decisive cavalry warfare—raids across the Mewar–Malwa borderlands, lightning strikes along the Thar frontier, rear-guard actions against invading armies. With the consolidation of British power and the incorporation of princely states into imperial military networks, that tradition was redirected rather than extinguished. Houses like Jodhpur, Jaipur, and Bikaner raised cavalry regiments that formally served the British Crown but were socially rooted in Rajput martial culture.',
-      'In the First World War, these units found themselves far from the Aravallis, fighting in the mud and dust of global theaters. Contemporary accounts describe Indian cavalry, including Rajputana lancers, being ordered to undertake mounted assaults against enemy trenches and gun lines. The tactical logic was brutal but clear: if they could cross the killing ground with enough speed, they might disrupt machine-gun crews before concentrated fire tore them apart. Steel-tipped lances, once aimed at armored riders, lowered now against sandbags and emplacements.',
-      'Men rode into that firestorm knowing that the age of the horse was ending. Survivors recalled not a romantic gallop but a blur of explosions, wire, and fallen comrades; they spoke of the sickening lurch when a mount went down under them, and of the strange silence that followed when an objective was finally taken and the cost counted. Yet within the regiments, the code felt familiar: ride where ordered, hold the line, do not let your standard fall, even if the banner you rode under was no longer that of an independent Rajput state.',
-      'In hindsight, these actions stand at the hinge of eras. They preserved something of the old cavalry ethos in a world dominated by artillery and industry, and they bound Rajputana’s martial story to places far beyond Rajasthan—names carved on memorials in Europe and the Middle East alongside those of men from countless other regions. The charge of the lancers is remembered not because it single-handedly decided the war, but because it showed, in one violent rush, how a tradition born in the dust of Rajasthan carried its riders all the way to the edge of modernity.'
+      `रात की बारिश अभी-अभी थमी थी। धरती गीली थी, और कीचड़ घोड़ों के खुरों से चिपककर उन्हें भारी बना रहा था। सुबह का उजाला अभी पूरी तरह फैला भी नहीं था कि सैनिक पंक्तियों में खड़े हो चुके थे।
+
+उनके हाथों में थे—भाले।
+
+लंबे, चमकते हुए, स्टील की नोक वाले भाले… जो किसी और युग के प्रतीक लगते थे।
+
+सामने दुश्मन था—मशीनगनों के पीछे छिपा हुआ, तारों और खाइयों से घिरा हुआ।
+
+और फिर भी…
+
+आज हमला घोड़े पर सवार होकर होना था।
+
+सीधा।
+
+तेज।
+
+और अंतिम।
+
+---
+
+ये योद्धा किसी साधारण सेना के सैनिक नहीं थे।
+
+ये थे—राजपूताना के लांसर।
+
+उनकी रगों में वह परंपरा बह रही थी, जो सदियों से तलवार और घोड़े के साथ जुड़ी थी।
+
+अरावली की घाटियों में, थार के रेगिस्तान में, मेवाड़ और मारवाड़ की सीमाओं पर—उनके पूर्वजों ने युद्ध को गति दी थी। तेज आक्रमण, अचानक धावा, और दुश्मन को संभलने का मौका दिए बिना उसे तोड़ देना—यही उनकी पहचान थी।
+
+“घोड़ा हमारी ताकत है… और हमारी आत्मा भी,” उनके बुजुर्ग कहा करते थे।
+
+लेकिन समय बदल चुका था।
+
+अब युद्ध की भाषा बदल गई थी।
+
+अब तलवारों की जगह गोलियाँ थीं।
+
+और फिर भी… वे खड़े थे।
+
+अपने भालों के साथ।
+
+---
+
+ब्रिटिश साम्राज्य के अधीन आने के बाद, राजपूताना के कई राज्यों ने अपनी सेनाओं को नए ढाँचे में ढाल लिया था। जोधपुर, जयपुर, बीकानेर—इन सबने अपनी घुड़सवार रेजिमेंटें बनाईं।
+
+नाम बदल गए।
+
+झंडे बदल गए।
+
+लेकिन दिल नहीं बदला।
+
+जब वे वर्दी पहनते थे, तो उनके भीतर वही गर्व जागता था—जो उनके पूर्वजों में था।
+
+---
+
+फिर आया—विश्व युद्ध।
+
+एक ऐसा युद्ध, जो न सीमाओं को पहचानता था, न परंपराओं को।
+
+राजपूताना के ये योद्धा हजारों मील दूर पहुँचे—कीचड़ भरे मैदानों में, अजनबी धरती पर, जहाँ न रेगिस्तान था, न अरावली।
+
+सिर्फ… मौत।
+
+---
+
+उस सुबह, जब आदेश मिला—“चार्ज करो”—तो कुछ क्षण के लिए सन्नाटा छा गया।
+
+एक जवान ने अपने साथी की ओर देखा।
+
+“भाई… यह घोड़े का युद्ध नहीं रहा।”
+
+दूसरे ने हल्की मुस्कान के साथ कहा—
+
+“हम घोड़े वाले ही हैं।”
+
+और फिर…
+
+आदेश गूँजा—
+
+“लांसर… आगे बढ़ो!”
+
+---
+
+घोड़ों ने दौड़ना शुरू किया।
+
+पहले धीमी चाल…
+
+फिर तेज…
+
+और फिर—पूरी गति।
+
+कीचड़ उछला।
+
+धरती काँपी।
+
+भाले एक साथ आगे झुके।
+
+सैकड़ों घुड़सवार… एक साथ… एक दिशा में।
+
+यह दृश्य किसी प्राचीन युद्ध जैसा था—लेकिन सामने था आधुनिक नरक।
+
+---
+
+पहली गोली चली।
+
+फिर दूसरी।
+
+फिर… मशीनगनों की लगातार गड़गड़ाहट।
+
+हवा गोलियों से भर गई।
+
+घोड़े गिरने लगे।
+
+एक जवान का घोड़ा उसके नीचे से ढह गया। वह जमीन पर गिरा, लेकिन अगले ही पल उठ खड़ा हुआ और दौड़ते हुए अपने भाले के साथ आगे बढ़ गया।
+
+“रुको मत!” किसी ने चिल्लाया।
+
+“सीधे जाओ!”
+
+---
+
+तारों की बाड़ सामने थी।
+
+कुछ घोड़े उसमें उलझ गए।
+
+चीखें उठीं।
+
+लेकिन पीछे से आने वाले रुक नहीं सकते थे।
+
+वे कूद गए।
+
+कुछ पार हुए।
+
+कुछ वहीं रह गए।
+
+---
+
+अब दुश्मन की खाइयाँ सामने थीं।
+
+मशीनगनें लगातार आग उगल रही थीं।
+
+लेकिन अब दूरी बहुत कम रह गई थी।
+
+एक लांसर ने पूरी ताकत से अपना भाला आगे फेंका—सीधा मशीनगन चलाने वाले सैनिक की ओर।
+
+भाला सीधा जा धंसा।
+
+गन चुप हो गई।
+
+“आगे बढ़ो!” उसकी आवाज़ गूँजी—और वह खुद भी अगले ही क्षण गोली का शिकार हो गया।
+
+---
+
+कुछ ही पलों में… घुड़सवार खाइयों तक पहुँच गए।
+
+अब युद्ध बदल गया।
+
+भाले पास से वार करने लगे।
+
+तलवारें निकलीं।
+
+हाथापाई शुरू हो गई।
+
+कीचड़, खून, बारूद—सब एक हो गया।
+
+एक जवान ने देखा—उसका मित्र गिर चुका है।
+
+उसने गुस्से में तलवार उठाई और दुश्मन पर टूट पड़ा।
+
+“राजपूताना!” उसकी गर्जना गूँजी।
+
+---
+
+यह जीत आसान नहीं थी।
+
+हर कदम… खून से खरीदा जा रहा था।
+
+लेकिन धीरे-धीरे… मशीनगनों की आवाज़ कम होने लगी।
+
+दुश्मन की पंक्तियाँ टूटने लगीं।
+
+और फिर—
+
+एक अजीब-सी शांति छा गई।
+
+---
+
+जब धूल बैठी…
+
+तो मैदान बदल चुका था।
+
+खाइयाँ अब उनके कब्जे में थीं।
+
+लेकिन चारों ओर पड़े थे—
+
+गिरे हुए घोड़े…
+
+टूटे हुए भाले…
+
+और… अपने लोग।
+
+---
+
+एक जवान चुपचाप बैठा था।
+
+उसके हाथ में अभी भी भाला था।
+
+उसने अपने आसपास देखा।
+
+“हम जीत गए…” उसने धीरे से कहा।
+
+लेकिन उसकी आवाज़ में कोई खुशी नहीं थी।
+
+---
+
+यह युद्ध केवल एक स्थान की जीत नहीं था।
+
+यह था—एक युग का अंत।
+
+घोड़े… जो सदियों से युद्ध के राजा थे… अब मशीनों के सामने कमजोर पड़ रहे थे।
+
+लेकिन उस दिन…
+
+उन लांसरों ने दिखा दिया—
+
+कि परंपरा केवल हथियारों में नहीं होती।
+
+वह दिल में होती है।
+
+---
+
+उनके लिए यह कोई नई बात नहीं थी।
+
+आदेश का पालन करना…
+
+रेखा को बनाए रखना…
+
+झंडे को गिरने न देना…
+
+ये सब उनके लिए जन्म से सिखाया गया था।
+
+चाहे झंडा अब उनका अपना न रहा हो—
+
+लेकिन उनका सम्मान… उनका ही था।
+
+---
+
+युद्ध खत्म हुआ।
+
+लेकिन उन योद्धाओं की कहानी खत्म नहीं हुई।
+
+उनके नाम दूर-दूर तक लिखे गए—उन धरतियों पर, जहाँ उन्होंने कभी जन्म नहीं लिया था।
+
+यूरोप की ठंडी हवाओं में…
+
+मध्य पूर्व की धूल में…
+
+हर जगह—उनकी कहानी गूँजी।
+
+---
+
+राजपूताना की मिट्टी से निकले वे घुड़सवार…
+
+आधुनिक दुनिया के किनारे तक पहुँच गए थे।
+
+उन्होंने देखा—
+
+कैसे एक युग खत्म होता है।
+
+कैसे एक परंपरा… आखिरी बार अपने पूरे गौरव के साथ चमकती है।
+
+---
+
+आज जब इतिहास उस क्षण को देखता है—
+
+तो वह केवल एक युद्ध नहीं देखता।
+
+वह देखता है—
+
+एक अंतिम दौड़।
+
+एक अंतिम टक्कर।
+
+एक अंतिम गर्जना।
+
+---
+
+घोड़े दौड़ रहे हैं…
+
+भाले आगे बढ़े हैं…
+
+और समय… थम गया है।
+
+क्योंकि उस एक क्षण में—
+
+राजपूताना की सदियों पुरानी आत्मा…
+
+आधुनिक युद्ध के सामने खड़ी हो गई थी।
+
+और उसने कहा—
+
+“हम बदल सकते हैं…
+
+लेकिन हम झुकेंगे नहीं।`
+
     ],
     coverImage: {
-      src: '/images/legends/jaipur-lancers-charge.jpg',
+      src: '/images/dynasties/places/amber-kachwaha-main.jpg',
       alt: 'Stylized scene of mounted lancers riding through mud and smoke on a European battlefield.'
     },
     galleryImages: [
       {
-        src: '/images/legends/jaipur-lancers-formation.jpg',
+        src: '/images/dynasties/man-singh.jpg',
         alt: 'Line of cavalry silhouettes forming up at dawn with lances raised.'
       }
     ],
@@ -106,19 +925,338 @@ export const allLegends: Legend[] = [
     era: 'Medieval Rajputana',
     location: 'Chittorgarh, Mewar',
     story: [
-      'The mirror stood in a pavilion open to the lake breeze, framed by carved stone and quiet water. In its polished metal surface, later tradition says, the Sultan of Delhi saw not the queen herself, but a reflection—enough to ignite an obsession that would bring siege engines rolling to the walls of Chittor. In that still image, captured in the half-light of legend, the entire fate of a kingdom seemed to tilt.',
-      'The figure at the center of this legend is Rani Padmini, or Padmavati, associated with the Chittor of the early fourteenth century. Historically, we know that Alauddin Khalji besieged and captured Chittor in 1303, extending the reach of the Delhi Sultanate deep into Rajputana. Contemporary chroniclers from Delhi describe the campaign in terms of fortifications, plunder, and power; they do not mention a queen whose beauty drove the Sultan to war. The story of Padmini enters the record more than two centuries later, in Malik Muhammad Jayasi’s 1540 Sufi allegorical poem “Padmavat,” where Chittor becomes a stage for a spiritual romance about desire, illusion, and renunciation.',
-      'In Jayasi’s telling, Padmini is the wife of Ratansen of Chittor. Her beauty, discovered by Alauddin through an intermediary, becomes the pretext for intrigue and ultimately siege. The mirror episode—where the Sultan is allowed only a reflected glimpse to preserve purdah—is central to the tale’s imagery. Yet the structure of the poem makes clear that it is operating as allegory as much as history, with characters and events embodying inner states and moral lessons rather than simply recording political fact.',
-      'Over time, Rajput and later nationalist traditions lifted Padmini out of this allegorical frame and rooted her firmly in the stone of Chittorgarh. Versions of her story merged with the very real history of Chittor’s repeated sieges and mass self-immolations, especially the 1568 jauhar under Akbar. In this blended memory, Padmini stands alongside the unnamed women who walked into the flames rather than into captivity, her choice becoming a symbol of uncompromising honor under the gaze of an overwhelming power.',
-      'Modern historians, comparing sources, treat Padmini herself as a literary creation rather than a documented historical queen of 1303, and they view the mirror episode as a poetic device. Yet the legend’s endurance gives it another kind of truth. In songs, paintings, and local storytelling, the Queen in the Mirror continues to shape how Rajputana imagines courage, desire, and loss. She is less a single person than a reflection of the region’s deepest anxieties and ideals: how to remain unbroken when the world insists on seeing, possessing, and defining you on its own terms.'
+      `झील की सतह उस सुबह बिल्कुल स्थिर थी—मानो समय स्वयं ठहर गया हो। हवा में हल्की ठंडक थी, और महल के उस खुले मंडप में, जहाँ पत्थरों की नक्काशी झील की लहरों से संवाद करती थी, एक दर्पण रखा था।
+
+वह साधारण दर्पण नहीं था।
+
+उसकी चमक में केवल चेहरा नहीं दिखता था—उसमें नियति झलकती थी।
+
+और उसी दर्पण में, एक क्षण के लिए, एक प्रतिबिंब उभरा—
+
+रानी पद्मिनी का।
+
+पर वह प्रतिबिंब केवल सौंदर्य नहीं था।
+
+वह एक आग थी… जिसने एक सम्राट के हृदय में तूफान जगा दिया।
+
+---
+
+चित्तौड़।
+
+वह किला, जो केवल पत्थरों का ढाँचा नहीं था—वह राजपूताना की आत्मा था। उसकी दीवारों में युद्धों की गूँज थी, उसकी प्राचीरों पर अनगिनत बलिदानों की छाया।
+
+इसी किले में आई थी—पद्मिनी।
+
+दूर सिंहल द्वीप से।
+
+उसका आगमन किसी साधारण रानी की तरह नहीं था। उसके सौंदर्य की चर्चा दूर-दूर तक थी, लेकिन उससे भी अधिक गहरी थी उसकी बुद्धि, उसकी दृढ़ता, और उसकी शांति।
+
+रतनसेन, चित्तौड़ के राजा, ने जब उसे देखा था—तो केवल रूप नहीं देखा था।
+
+उन्होंने देखा था—एक ऐसी आत्मा, जो उनके साथ इस किले की नियति को जी सके।
+
+---
+
+समय के साथ, चित्तौड़ की शांति में एक हलचल उठी।
+
+दिल्ली से खबर आई—
+
+अलाउद्दीन खिलजी… चित्तौड़ की ओर बढ़ रहा है।
+
+उसकी सेना विशाल थी।
+
+उसकी महत्वाकांक्षा… उससे भी विशाल।
+
+कहा गया—वह केवल किला नहीं चाहता।
+
+वह… पद्मिनी को चाहता है।
+
+---
+
+राजसभा में सन्नाटा था।
+
+“हम समर्पण नहीं करेंगे,” रतनसेन ने दृढ़ स्वर में कहा।
+
+“चित्तौड़ झुकेगा नहीं।”
+
+पद्मिनी ने उनकी ओर देखा।
+
+उनकी आँखों में भय नहीं था।
+
+“तो फिर,” उसने कहा, “हमें हर परिणाम के लिए तैयार रहना होगा।”
+
+---
+
+खिलजी की सेना ने किले को चारों ओर से घेर लिया।
+
+तंबुओं का समुद्र… जहाँ तक नजर जाती।
+
+तोपें, घेराबंदी, सैनिकों की कतारें—हर दिन किला थोड़ा और दबता जा रहा था।
+
+लेकिन चित्तौड़ की दीवारें अभी भी खड़ी थीं।
+
+---
+
+एक दिन, संदेश आया।
+
+सुल्तान चाहता है—रानी का दर्शन।
+
+सभा में क्रोध की लहर दौड़ गई।
+
+“यह अपमान है!” एक सरदार गरजा।
+
+लेकिन पद्मिनी ने शांत स्वर में कहा—
+
+“दर्शन होगा… लेकिन जैसे हम चाहें।”
+
+---
+
+मंडप तैयार किया गया।
+
+दर्पण रखा गया।
+
+सुल्तान आया—उसकी आँखों में लालसा थी, और मन में विजय का विश्वास।
+
+उसे भीतर लाया गया।
+
+और फिर… उसने देखा।
+
+दर्पण में।
+
+एक प्रतिबिंब।
+
+क्षण भर के लिए… समय रुक गया।
+
+उस प्रतिबिंब में उसने केवल एक स्त्री नहीं देखी—
+
+उसने देखा—एक ऐसी चीज, जिसे वह किसी भी कीमत पर पाना चाहता था।
+
+और उसी क्षण… युद्ध तय हो गया।
+
+---
+
+धोखा… राजनीति का सबसे घातक हथियार।
+
+सुल्तान ने मित्रता का प्रस्ताव रखा।
+
+रतनसेन को आमंत्रित किया।
+
+और फिर… उन्हें बंदी बना लिया।
+
+चित्तौड़ में खबर पहुँची—
+
+राजा कैद हैं।
+
+किले में हलचल मच गई।
+
+लेकिन पद्मिनी… शांत रही।
+
+“हम उन्हें वापस लाएँगे,” उसने कहा।
+
+---
+
+योजना बनी।
+
+पालकियों में सैनिक छिपाए गए।
+
+ऐसा दिखाया गया—मानो रानी स्वयं सुल्तान के पास जा रही हो।
+
+दिल्ली के शिविर में, जब वे पालकियाँ पहुँचीं—
+
+तो अचानक… उनमें से तलवारें निकलीं।
+
+“हर हर महादेव!”
+
+राजपूत सैनिक टूट पड़े।
+
+अराजकता फैल गई।
+
+उस अफरा-तफरी में—रतनसेन को छुड़ा लिया गया।
+
+वे वापस चित्तौड़ पहुँचे।
+
+लेकिन अब… युद्ध अनिवार्य था।
+
+---
+
+घेराबंदी और भी कठोर हो गई।
+
+हर दिन, हर रात—तोपें गरजतीं।
+
+दीवारें टूटने लगीं।
+
+अन्न कम होने लगा।
+
+पानी सीमित हो गया।
+
+और फिर… वह क्षण आया—
+
+जब निर्णय लेना था।
+
+---
+
+पद्मिनी ने सभा में प्रवेश किया।
+
+उसके चेहरे पर कोई डर नहीं था।
+
+“समर्पण नहीं होगा,” उसने कहा।
+
+“हम अपने भाग्य का निर्णय स्वयं करेंगे।”
+
+उसकी आवाज़ में ऐसा बल था कि किसी ने विरोध नहीं किया।
+
+---
+
+रात आई।
+
+चित्तौड़ के भीतर अग्निकुंड तैयार किए गए।
+
+महिलाएँ एकत्र हुईं।
+
+कोई रो नहीं रहा था।
+
+एक अजीब-सी शांति थी।
+
+पद्मिनी सबसे आगे खड़ी थी।
+
+उसने अंतिम बार किले की ओर देखा।
+
+उन दीवारों को… जिनमें उसका जीवन बीता था।
+
+और फिर—
+
+वह अग्नि की ओर बढ़ी।
+
+एक-एक कर… सभी उसके पीछे चलीं।
+
+लपटें उठीं।
+
+आकाश लाल हो गया।
+
+---
+
+उधर, पुरुष तैयार हो रहे थे।
+
+केसरिया वस्त्र पहन लिए गए।
+
+माथे पर तिलक।
+
+तलवारें हाथ में।
+
+“आज… अंतिम युद्ध है,” एक योद्धा बोला।
+
+दूसरे ने उत्तर दिया—
+
+“और अंतिम सांस तक।”
+
+---
+
+सुबह से पहले—किले के द्वार खुल गए।
+
+एक गर्जना गूँजी—
+
+“जय मेवाड़!”
+
+और फिर… वे टूट पड़े।
+
+---
+
+मुग़ल सेना तैयार थी।
+
+लेकिन यह आक्रमण अलग था।
+
+यह युद्ध नहीं था—
+
+यह प्रतिशोध था।
+
+राजपूत योद्धा ऐसे लड़ रहे थे, जैसे वे पहले ही मर चुके हों।
+
+क्योंकि सच यही था।
+
+हर वार… अंतिम था।
+
+हर कदम… अंतिम।
+
+---
+
+तलवारें टकराईं।
+
+घोड़े चीखे।
+
+धूल और खून ने आकाश को ढक लिया।
+
+एक-एक कर योद्धा गिरते गए।
+
+लेकिन कोई पीछे नहीं हटा।
+
+---
+
+अंततः…
+
+चित्तौड़ गिर गया।
+
+दीवारें टूट गईं।
+
+किला… खामोश हो गया।
+
+---
+
+लेकिन उस खामोशी में भी एक आवाज़ थी।
+
+एक कहानी।
+
+एक प्रतिबिंब।
+
+---
+
+पद्मिनी अब नहीं थी।
+
+लेकिन उसका निर्णय… जीवित था।
+
+उस दर्पण का वह क्षण—जब केवल एक झलक ने एक युद्ध को जन्म दिया—
+
+वह इतिहास में स्थिर हो गया।
+
+---
+
+आज भी, जब कोई चित्तौड़ की प्राचीरों पर खड़ा होता है—
+
+तो उसे हवा में एक हल्की-सी गर्मी महसूस होती है।
+
+जैसे आग अभी भी बुझी नहीं।
+
+और उस झील के किनारे…
+
+कभी-कभी लगता है—
+
+मानो कोई प्रतिबिंब फिर उभर रहा है।
+
+एक रानी का।
+
+जो स्वयं को नहीं—
+
+अपने सम्मान को बचाने के लिए जली थी।
+
+---
+
+वह केवल एक स्त्री नहीं थी।
+
+वह एक विचार थी।
+
+एक ज्वाला।
+
+एक दर्पण—
+
+जिसमें राजपूताना आज भी खुद को देखता है।`
+
     ],
     coverImage: {
-      src: '/images/legends/padmini-mirror-chittor.jpg',
+      src: '/images/dynasties/rani-padmini.jpg',
       alt: 'Artistic scene of a queen’s reflection in a polished mirror overlooking a lake pavilion at Chittor.'
     },
     galleryImages: [
       {
-        src: '/images/legends/padmini-lake-pavilion.jpg',
+        src: '/images/dynasties/places/mewar.jpg',
         alt: 'Lake-side pavilion at Chittorgarh evoking the setting of the Padmini legend.'
       }
     ]
@@ -131,19 +1269,408 @@ export const allLegends: Legend[] = [
     era: 'Colonial Era',
     location: 'Rajputana',
     story: [
-      'The courtyard was still blue with pre-dawn light when the men gathered, shawls pulled tight against the desert chill. In the center, on a low platform, lay a folded paper. No one touched it until the last of the riders arrived. Only then did Kesari Singh Barhath unfold the sheet and begin to recite verses that cut sharper than any drawn sword—a warning set to meter, aimed at a throne that had forgotten its own oath.',
-      'By the early twentieth century, the battlefields of Rajputana had shifted from open plains to quieter forms of resistance. The Barhath family of Shahpura—especially Kesari Singh and his nephew Pratap Singh—stood at that crossroads. Kesari Singh was a poet and courtier, steeped in the martial past of Rajputana but acutely aware of its present entanglement with British power. In 1903, as the Delhi Durbar was organized to celebrate the coronation of Edward VII, invitations went out to princes across India, including the ruler of Jodhpur. The prospect of a Rajput ruler bowing in a spectacle of imperial grandeur was, to Kesari Singh, a betrayal of the very histories he sang.',
-      'His response was the now-famous poem remembered as “Chetavani Ra Chungtya,” the pinpricks of warning. In it, he summoned the ghosts of old Rajput heroes and measured contemporary rulers against them, making clear that attendance at the Durbar would stain ancestral honor. The verses did not thunder in parliaments; they moved quietly, recited in private gatherings and carried discreetly between allies. Under their influence, Jodhpur’s ruler declined to attend, a symbolic act that reverberated far beyond one empty chair beneath a British canopy.',
-      'Over the next decade, the Barhath family moved from poetic admonition to more direct revolutionary activity. Pratap Singh Barhath became involved in plots coordinated with figures like Rash Behari Bose, including the 1912 attempt to assassinate Viceroy Hardinge in Delhi. These conspiracies were small and fragile compared to the vast machinery of the Raj, but they were rooted in a powerful internal shift: Rajput loyalty was being reinterpreted, no longer defined by service to whichever empire sat in Delhi, but by fidelity to land, people, and an emerging idea of India itself.',
-      'In memory, the oath at dawn is less about a single documented meeting than about a pattern of decisions taken in shadowed courtyards and quiet rooms across Rajputana. Men who had grown up on stories of Haldighati and Chittor turned that same vocabulary of sacrifice towards a new struggle. Where their ancestors had sworn to hold a pass or a fort, they now swore to puncture an empire’s aura of inevitability, even if the cost was imprisonment, exile, or the gallows. Their legacy lies not in a single insurrection, but in the way they bridged the old codes of honor with the language and tactics of modern resistance.'
+      `भोर से पहले का वह क्षण था—जब रात पूरी तरह गई नहीं थी, और दिन अभी जन्म नहीं ले पाया था। आकाश हल्के नीले रंग में डूबा हुआ था। रेगिस्तान की ठंडी हवा पत्थर की दीवारों से टकराकर आँगन में फैल रही थी।
+
+उस आँगन में धीरे-धीरे लोग इकट्ठा हो रहे थे।
+
+सिर पर साफे, कंधों पर ऊनी चादरें, आँखों में गंभीरता।
+
+कोई ऊँची आवाज़ नहीं थी।
+
+कोई हँसी नहीं थी।
+
+सिर्फ… प्रतीक्षा।
+
+बीच में एक छोटा-सा चबूतरा था।
+
+उस पर रखा था—एक कागज़।
+
+मुड़ा हुआ।
+
+लेकिन उसमें छिपा था—एक तूफान।
+
+जब आखिरी घुड़सवार आ पहुँचा, तब एक व्यक्ति आगे बढ़ा।
+
+केसरी सिंह बारहठ।
+
+उनकी आँखें शांत थीं, लेकिन भीतर एक ज्वाला जल रही थी।
+
+उन्होंने धीरे-धीरे कागज़ खोला।
+
+आँगन में सन्नाटा और गहरा हो गया।
+
+और फिर… उन्होंने पढ़ना शुरू किया।
+
+---
+
+वह कविता नहीं थी—
+
+वह चेतावनी थी।
+
+हर शब्द… तलवार की धार जैसा।
+
+हर पंक्ति… एक चोट।
+
+“क्या तुम्हें याद नहीं… तुम्हारे पूर्वजों की शपथ?”
+
+उनकी आवाज़ धीमी थी… लेकिन हर दिल तक पहुँच रही थी।
+
+“क्या तुम उस सिंहासन को झुकाओगे… जो कभी झुका नहीं?”
+
+एक क्षण के लिए हवा भी थम गई।
+
+---
+
+यह वह समय था… जब युद्ध बदल चुका था।
+
+अब तलवारें मैदान में नहीं टकरा रही थीं।
+
+अब लड़ाई… आत्मा के भीतर थी।
+
+राजपूताना, जिसने सदियों तक अपने घोड़ों और तलवारों से इतिहास लिखा था—अब एक नए मोड़ पर खड़ा था।
+
+ब्रिटिश साम्राज्य का विस्तार हो चुका था।
+
+राज्य बचे थे… लेकिन स्वतंत्रता नहीं।
+
+राजाओं के पास गद्दियाँ थीं… लेकिन निर्णय उनके नहीं थे।
+
+---
+
+1903।
+
+दिल्ली।
+
+एक भव्य दरबार की तैयारी हो रही थी।
+
+अंग्रेज सम्राट एडवर्ड सप्तम के सम्मान में।
+
+भारत के कोने-कोने से राजाओं को बुलाया गया था।
+
+उनमें से एक था—जोधपुर का शासक।
+
+और उस निमंत्रण के पीछे छिपा था—
+
+एक आदेश।
+
+एक झुकाव।
+
+एक स्वीकारोक्ति… कि अब शक्ति किसी और की है।
+
+---
+
+केसरी सिंह ने जब यह सुना… तो उनके भीतर कुछ टूट गया।
+
+“क्या राजपूताना अब केवल दर्शक बनकर रह जाएगा?” उन्होंने स्वयं से पूछा।
+
+उनकी नसों में वही रक्त बह रहा था—जो हल्दीघाटी में उफना था।
+
+वही रक्त… जिसने चित्तौड़ की अग्नि देखी थी।
+
+और अब… वही रक्त अपमान सहने को मजबूर था।
+
+---
+
+उनकी कलम उठी।
+
+और फिर… शब्द जन्म लेने लगे।
+
+“चेतावनी रा चुंगटिया…”
+
+छोटे-छोटे वाक्य।
+
+लेकिन हर वाक्य… एक तीर।
+
+“अगर तुम गए… तो इतिहास तुम्हें क्षमा नहीं करेगा।”
+
+“तुम्हारे पूर्वज तुम्हें पहचानेंगे नहीं।”
+
+उनकी आवाज़ अब तेज हो गई।
+
+आँगन में खड़े हर व्यक्ति के भीतर एक लहर उठी।
+
+---
+
+एक युवा आगे बढ़ा।
+
+प्रताप सिंह बारहठ।
+
+उनकी आँखों में जोश था।
+
+“काका, क्या यह काफी होगा?” उसने पूछा।
+
+केसरी सिंह ने उसकी ओर देखा।
+
+“यह शुरुआत है,” उन्होंने कहा।
+
+“शब्द… कभी-कभी तलवार से अधिक गहरे वार करते हैं।”
+
+---
+
+वह कविता फैलने लगी।
+
+धीरे-धीरे।
+
+गुप्त रूप से।
+
+राजमहलों के भीतर…
+
+अँधेरे कमरों में…
+
+विश्वस्त लोगों के बीच।
+
+कोई शोर नहीं था।
+
+लेकिन प्रभाव… गहरा था।
+
+---
+
+जोधपुर।
+
+राजा अपने कक्ष में अकेले थे।
+
+उनके सामने वही शब्द थे।
+
+हर पंक्ति… उन्हें उनके अतीत की ओर खींच रही थी।
+
+उनके पूर्वजों की छवियाँ उभर रही थीं—
+
+घोड़ों पर सवार, तलवारें उठाए, कभी न झुकने वाले।
+
+और फिर… उन्होंने निर्णय लिया।
+
+वे दिल्ली नहीं जाएँगे।
+
+---
+
+यह केवल एक निर्णय नहीं था।
+
+यह एक संदेश था।
+
+एक खाली कुर्सी… जिसने पूरे दरबार को चुनौती दे दी।
+
+---
+
+लेकिन कहानी यहीं खत्म नहीं हुई।
+
+यह तो बस शुरुआत थी।
+
+---
+
+समय आगे बढ़ा।
+
+अब शब्दों से आगे बढ़कर… कार्य की बारी थी।
+
+प्रताप सिंह बारहठ अब केवल श्रोता नहीं रहे।
+
+वे बन गए—क्रांतिकारी।
+
+उनके संपर्क बढ़े।
+
+दिल्ली, पंजाब, बंगाल—हर जगह एक नई आग जल रही थी।
+
+और उस आग के केंद्र में थे—
+
+रास बिहारी बोस।
+
+---
+
+1912।
+
+दिल्ली।
+
+वायसराय हार्डिंग का जुलूस।
+
+हाथी पर सवार।
+
+चारों ओर अंग्रेजी सत्ता का प्रदर्शन।
+
+लेकिन भीड़ के बीच… कुछ आँखें थीं—
+
+जो केवल देख नहीं रही थीं।
+
+वे प्रतीक्षा कर रही थीं।
+
+---
+
+एक क्षण।
+
+एक संकेत।
+
+और फिर—
+
+धमाका।
+
+बम फटा।
+
+आकाश काँप उठा।
+
+हाथी बेकाबू हो गया।
+
+लोग भागने लगे।
+
+अराजकता फैल गई।
+
+---
+
+यह एक हमला था—
+
+सीधा सत्ता के हृदय पर।
+
+प्रताप सिंह उस योजना का हिस्सा थे।
+
+यह युद्ध अब खुला नहीं था—
+
+यह छाया का युद्ध था।
+
+जहाँ हर कदम… जान जोखिम में डालता था।
+
+---
+
+लेकिन हर क्रांति की कीमत होती है।
+
+और वह कीमत… अब सामने आने लगी।
+
+गिरफ्तारियाँ।
+
+पूछताछ।
+
+यातनाएँ।
+
+प्रताप सिंह को पकड़ा गया।
+
+उनसे पूछा गया—
+
+“तुम्हारे साथ कौन है?”
+
+उन्होंने चुप्पी साध ली।
+
+उनकी आँखों में डर नहीं था।
+
+सिर्फ… वही ज्वाला।
+
+---
+
+दिन बीतते गए।
+
+यातनाएँ बढ़ती गईं।
+
+लेकिन एक भी नाम… उनके होंठों से नहीं निकला।
+
+---
+
+उधर, केसरी सिंह भी बच नहीं पाए।
+
+उन्हें भी कैद किया गया।
+
+उनकी कलम छीन ली गई।
+
+लेकिन उनके शब्द… पहले ही उड़ चुके थे।
+
+---
+
+एक दिन, जेल के भीतर—
+
+प्रताप सिंह ने दीवार की ओर देखा।
+
+“क्या हमने सही किया?” किसी ने पूछा।
+
+उन्होंने हल्की मुस्कान के साथ उत्तर दिया—
+
+“हमने वही किया… जो हमारे पूर्वज करते।”
+
+---
+
+यह युद्ध… अब मैदानों में नहीं था।
+
+यह युद्ध… विचारों में था।
+
+सम्मान की नई परिभाषा गढ़ी जा रही थी।
+
+जहाँ पहले निष्ठा राजा के प्रति थी—
+
+अब वह भूमि के प्रति थी।
+
+लोगों के प्रति थी।
+
+एक नए विचार के प्रति—
+
+भारत।
+
+---
+
+वह आँगन…
+
+जहाँ वह कविता पहली बार पढ़ी गई थी—
+
+अब खाली था।
+
+लेकिन उसकी गूँज… अभी भी थी।
+
+हर पत्थर में।
+
+हर दीवार में।
+
+---
+
+वे योद्धा…
+
+जिन्होंने तलवारें नहीं उठाईं—
+
+उन्होंने भी युद्ध लड़ा।
+
+शब्दों से।
+
+विचारों से।
+
+बलिदान से।
+
+---
+
+आज, जब इतिहास पीछे मुड़कर देखता है—
+
+तो वह केवल एक कविता नहीं देखता।
+
+वह देखता है—
+
+एक चेतावनी।
+
+एक विद्रोह।
+
+एक परिवर्तन।
+
+---
+
+हल्दीघाटी के योद्धा…
+
+चित्तौड़ की ज्वाला…
+
+और फिर…
+
+यह आँगन।
+
+ये सब एक ही कहानी के अध्याय हैं।
+
+---
+
+क्योंकि युद्ध बदल सकता है—
+
+हथियार बदल सकते हैं—
+
+लेकिन…
+
+जो झुकने से इनकार करता है—
+
+वह कभी पराजित नहीं होता।`
+
     ],
     coverImage: {
-      src: '/images/legends/kesari-oath-courtyard.jpg',
+      src: '/images/dynasties/gallery/vijay-stambha.jpg',
       alt: 'Shadowed courtyard at dawn with a group of men gathered around a sheet of paper.'
     },
     galleryImages: [
       {
-        src: '/images/legends/kesari-oath-scroll.jpg',
+        src: '/images/dynasties/seals/mewar-sisodia-seal.png',
         alt: 'Close-up of a handwritten revolutionary poem on aged paper.'
       }
     ]
@@ -156,19 +1683,346 @@ export const allLegends: Legend[] = [
     era: 'Timeless Watch',
     location: 'Fortress Walls',
     story: [
-      'The night watch was always longest in the hours before dawn. On a high parapet of an outlying desert fort—whether at Bhatner, Junagarh, Lodurva, or one of a hundred smaller thikanas whose names rarely reach textbooks—a lone sentry paced, cloak pulled against the Thar wind. Below, the waste stretched in ripples of sand and scrub, broken only by the faint glimmer of a caravan fire miles away. The world of empires and grand alliances moved elsewhere; here, history hinged on whether one pair of eyes stayed awake.',
-      'Across centuries, Rajputana’s defense rested not only on spectacular battles but on these quiet posts. Bhati rulers of Jaisalmer watched over caravan routes that threaded between Sindh and the Gangetic plains, taxing and protecting trade while fending off raiders. Bikaner’s houses maintained outposts along shifting borders with Jodhpur, Jaipur, and later British-administered territories. Sirohi’s Deora Chauhans kept watch on the approaches to Mount Abu and the Kumbharia region, balancing pressure from Gujarat Sultanates, Maratha agents, and tribal confederacies in the hills.',
-      'Most of the conflicts that flared along these lines—Nagaur disputes, desert caravan wars, frontier skirmishes with Baluch or tribal groups—never crystallized into single famous battles. They flickered instead as raids, counter-raids, and tense standoffs in which local commanders weighed the cost of pursuit against the risk of overextension. A missed signal from a sentry could mean a caravan cut down, a village burned, a frontier pushed back. A correctly interpreted one could allow a small force to intercept raiders at a ford or close gates just before a surprise assault.',
-      'The Nameless Sentry is therefore less a single person than a stand-in for thousands whose service left no inscription. He might be a Rathore horseman on the walls of Mehrangarh during a rumored night assault, a Bhati archer listening for the distant clink of harness that meant a caravan had chosen one route over another, or a Hada guard above Taragarh watching for Maratha probes. When chronicles were written, they recorded the names of rulers and generals, not of the man who first spotted torches on the horizon.',
-      'His legacy is simple and immense. On one level, he represents the anonymity of everyday courage: the watch kept faithfully when nothing happened, precisely so that something worse would not. On another, he embodies the continuity of Rajputana’s defensive posture—from medieval clashes with sultanates to colonial-era desert policing, including later units like the Bikaner Camel Corps conscripted into imperial campaigns. The cinematic image he leaves behind is stark: a solitary figure on a wall, outlined against a sky just beginning to pale, bearing on his shoulders the unglamorous but essential task of making sure that when danger comes, someone is already awake.'
+      `रात का वह हिस्सा… जब अंधेरा सबसे भारी होता है।
+
+अरावली से बहुत दूर, थार के उस अथाह रेगिस्तान में, एक ऊँचे किले की प्राचीर पर एक आकृति चल रही थी। ठंडी हवा उसकी चादर को झकझोर रही थी, लेकिन उसके कदम स्थिर थे। उसके नीचे—सिर्फ रेत थी… और उस रेत के पार—अनिश्चितता।
+
+उसका नाम इतिहास में नहीं लिखा गया।
+
+लेकिन उसी के जागते रहने पर… एक पूरा राज्य निर्भर था।
+
+---
+
+किले ऊँचे थे—भटनेर, जूनागढ़, लोदुरवा, तारागढ़… और सैकड़ों छोटे-छोटे ठिकाने, जिनके नाम भी समय की धूल में खो चुके थे।
+
+लेकिन हर किले की कहानी एक जैसी थी।
+
+ऊँची दीवारें।
+
+संकीर्ण द्वार।
+
+और उन दीवारों पर—पहरेदार।
+
+---
+
+वह सैनिक धीरे-धीरे चलता रहा।
+
+उसकी आँखें अंधेरे को चीरने की कोशिश कर रही थीं।
+
+रेत की लहरों के बीच दूर कहीं एक हल्की-सी रोशनी चमकी।
+
+वह रुका।
+
+ध्यान से देखा।
+
+एक कारवां… या कुछ और?
+
+उसके हाथ अनायास तलवार की मूठ पर चले गए।
+
+---
+
+राजपूताना के युद्ध केवल उन बड़े मैदानों में नहीं लड़े गए, जिनका वर्णन गीतों में मिलता है।
+
+असली युद्ध… यहीं था।
+
+इन प्राचीरों पर।
+
+इन अनाम पहरेदारों की आँखों में।
+
+---
+
+जैसलमेर के भाटी शासकों के लिए यह केवल सीमा नहीं थी—यह व्यापार की धमनियाँ थीं।
+
+सिंध से गंगा तक जाने वाले कारवां… सोना, मसाले, रेशम लेकर चलते थे।
+
+और उनके साथ चलता था—खतरा।
+
+डकैत।
+
+घुमंतू लुटेरे।
+
+और कभी-कभी… दुश्मन सेना।
+
+“अगर कारवां बचा… तो राज्य जिंदा रहेगा,” एक बुजुर्ग ने कभी कहा था।
+
+और इसलिए… हर रात पहरा था।
+
+---
+
+बीकानेर की सीमा पर…
+
+हवा में रेत के साथ तनाव भी उड़ता था।
+
+जोधपुर, जयपुर—हर दिशा से खतरा आ सकता था।
+
+एक छोटी-सी चूक… और सीमा खिसक सकती थी।
+
+इसलिए, हर किले की प्राचीर पर—
+
+एक जोड़ी आँखें हमेशा जागती रहती थीं।
+
+---
+
+सिरोही की पहाड़ियों में…
+
+देवड़ा चौहान अपने किलों से नीचे घाटियों को देखते थे।
+
+माउंट आबू के रास्ते…
+
+कुंभारी के जंगल…
+
+हर जगह छिपे थे—संभावित हमलावर।
+
+मराठा दल कभी भी हमला कर सकते थे।
+
+गुजरात सल्तनत की नजरें भी कभी हटती नहीं थीं।
+
+और इन सबके बीच—
+
+वह एक पहरेदार।
+
+---
+
+उस रात… हवा में कुछ अलग था।
+
+वह सैनिक फिर रुका।
+
+दूर की रोशनी अब बढ़ रही थी।
+
+एक नहीं…
+
+कई।
+
+उसका दिल तेज़ धड़कने लगा।
+
+“मशालें…” उसने बुदबुदाया।
+
+---
+
+क्षण भर में… उसने निर्णय लिया।
+
+वह दौड़ा।
+
+घंटी की ओर।
+
+उसने जोर से उसे बजाया।
+
+टन… टन… टन…
+
+किले की नींद टूट गई।
+
+---
+
+“क्या हुआ?” एक सरदार ने दौड़ते हुए पूछा।
+
+“दुश्मन… पश्चिम दिशा में,” पहरेदार ने कहा।
+
+“कितने?”
+
+“अभी स्पष्ट नहीं… लेकिन संख्या बढ़ रही है।”
+
+---
+
+आदेश गूँजे—
+
+“द्वार बंद करो!”
+
+“धनुर्धारी तैयार करो!”
+
+“घुड़सवारों को जगाओ!”
+
+कुछ ही पलों में… किला युद्ध के लिए तैयार था।
+
+---
+
+बाहर…
+
+रेत पर दौड़ते घोड़े।
+
+मशालों की कतार।
+
+लुटेरों का एक दल… जो सोच रहा था कि किला सो रहा होगा।
+
+लेकिन वे गलत थे।
+
+---
+
+जैसे ही वे पास आए—
+
+ऊपर से तीरों की बारिश शुरू हो गई।
+
+पहला ही वार… उनके आगे बढ़ते कदमों को रोक गया।
+
+“पीछे हटो!” उनके नेता ने चिल्लाया।
+
+लेकिन तब तक देर हो चुकी थी।
+
+किले के द्वार बंद थे।
+
+और भीतर से—
+
+घुड़सवार निकल चुके थे।
+
+---
+
+टकराव हुआ।
+
+छोटा था।
+
+लेकिन उग्र।
+
+तलवारें टकराईं।
+
+घोड़े भिड़े।
+
+रेत खून से भीग गई।
+
+---
+
+कुछ ही देर में… सब समाप्त हो गया।
+
+लुटेरे भाग चुके थे।
+
+कुछ वहीं पड़े थे।
+
+और किला… सुरक्षित था।
+
+---
+
+सुबह होने लगी।
+
+आकाश हल्का हो गया।
+
+वह पहरेदार फिर अपनी जगह पर खड़ा था।
+
+मानो कुछ हुआ ही न हो।
+
+---
+
+उसका नाम कोई नहीं पूछेगा।
+
+कोई गीत उसके लिए नहीं गाया जाएगा।
+
+कोई इतिहास उसे याद नहीं रखेगा।
+
+---
+
+लेकिन अगर वह उस रात सो गया होता—
+
+तो शायद…
+
+एक कारवां लुट जाता।
+
+एक गाँव जल जाता।
+
+एक सीमा बदल जाती।
+
+---
+
+ऐसे ही हजारों पहरेदार थे।
+
+राठौड़… भाटी… हाड़ा… चौहान…
+
+हर वंश के।
+
+हर किले के।
+
+हर सीमा के।
+
+---
+
+कभी मेहरानगढ़ की दीवारों पर—
+
+एक सैनिक ने दूर आती मशालें देखीं।
+
+और पूरे शहर को बचा लिया।
+
+कभी तारागढ़ की ऊँचाई से—
+
+एक हाड़ा योद्धा ने मराठों की चाल पहचान ली।
+
+और हमला विफल कर दिया।
+
+---
+
+ये युद्ध बड़े नहीं थे।
+
+इनमें कोई भव्य विजय नहीं थी।
+
+लेकिन हर छोटी जीत…
+
+राजपूताना को जीवित रखती थी।
+
+---
+
+समय बदला।
+
+अंग्रेज आए।
+
+सीमाएँ बदल गईं।
+
+लेकिन पहरा नहीं बदला।
+
+बीकानेर का ऊँट कोर…
+
+रेगिस्तान में गश्त करता रहा।
+
+वही सतर्कता।
+
+वही जिम्मेदारी।
+
+---
+
+आज…
+
+वह किला शायद खंडहर हो चुका है।
+
+दीवारें टूटी हुई हैं।
+
+प्राचीरें खाली हैं।
+
+---
+
+लेकिन अगर कोई ध्यान से देखे—
+
+तो उसे एक छाया दिखेगी।
+
+एक आकृति…
+
+जो अब भी चल रही है।
+
+धीरे-धीरे।
+
+सावधानी से।
+
+---
+
+आकाश फिर से नीला हो रहा है।
+
+भोर होने वाली है।
+
+और वह पहरेदार…
+
+अब भी जाग रहा है।
+
+क्योंकि वह जानता है—
+
+इतिहास हमेशा युद्धों से नहीं बनता।
+
+कभी-कभी…
+
+वह सिर्फ इस बात से बनता है—
+
+कि कोई सोया नहीं।`
+
     ],
     coverImage: {
-      src: '/images/legends/nameless-sentry-ramparts.jpg',
+      src: '/images/dynasties/places/jaisalmer-bhati-main.jpg',
       alt: 'Silhouette of a lone sentry on desert fort ramparts before dawn.'
     },
     galleryImages: [
       {
-        src: '/images/legends/desert-fort-night-watch.jpg',
+        src: '/images/dynasties/places/bikaner-rathore-main.jpg',
         alt: 'High desert fort walls under a starry sky, watch fires glowing faintly.'
       }
     ]
@@ -181,11 +2035,340 @@ export const allLegends: Legend[] = [
     era: '14th Century',
     location: 'Marwar',
     story: [
-      'Pabuji Rathore is revered as a divine protector whose life bridged the gap between a historical warrior and a folk deity. Born into the Rathore clan of Marwar, his legend is immortalized in the Phad paintings and oral epics of Rajasthan.',
-      'His most famous vow was to protect the cattle of Deval, a poor woman. When her herd was stolen by raiders during his own niece’s wedding, Pabuji left the ceremony mid-way to fulfill his promise, embodying the ultimate Rajput code of honor.',
-      'To this day, the "Pabuji ki Phad" is recited by bards under the starlight, telling of his magical horse Kesar Kalami and his battles against injustice.'
+      `रेगिस्तान की रात थी—गहरी, शांत, और रहस्यमयी। तारों से भरा आकाश मानो धरती की हर कहानी सुनने के लिए झुका हुआ था। उस अंधेरे के बीच, एक विशाल फड़ (Phad) चित्र को दीपकों की रोशनी में खोला गया। रंग जीवित हो उठे—घोड़े दौड़ने लगे, तलवारें चमकने लगीं।
+
+और फिर… आवाज़ उठी—
+
+“सुनो… यह कथा है पाबूजी राठौड़ की…”
+
+---
+
+मारवाड़ की कठोर धरती पर, जहाँ हर सांस संघर्ष से जन्म लेती थी, वहीं जन्म हुआ—पाबूजी का।
+
+राठौड़ वंश में जन्मे, वे केवल एक राजकुमार नहीं थे। बचपन से ही उनके चारों ओर एक अजीब-सी आभा थी। जैसे यह धरती उन्हें केवल जीने के लिए नहीं, बल्कि कुछ असाधारण करने के लिए लेकर आई हो।
+
+जब वे छोटे थे, तब ही उनके हाथ में लकड़ी की तलवार थमा दी गई थी। लेकिन वह खेल नहीं था—वह अभ्यास था।
+
+“राजपूत का वचन… उसके प्राणों से बड़ा होता है,” उनके गुरु ने कहा था।
+
+पाबूजी ने उस दिन कुछ नहीं कहा।
+
+लेकिन उनकी आँखों में जो चमक थी—वह वचन बन चुकी थी।
+
+---
+
+बचपन बीता।
+
+घोड़े की पीठ उनका घर बन गई।
+
+तलवार उनकी भाषा।
+
+और मर्यादा… उनका धर्म।
+
+उनके साथ था—उनका घोड़ा।
+
+केसर कालमी।
+
+वह साधारण घोड़ा नहीं था।
+
+उसकी चाल हवा जैसी थी, और उसकी आँखों में वही ज्वाला थी—जो पाबूजी के भीतर थी।
+
+कहा जाता था—जब वह दौड़ता था, तो धरती खुद रास्ता छोड़ देती थी।
+
+---
+
+समय के साथ, पाबूजी केवल एक योद्धा नहीं रहे।
+
+वे बन गए—रक्षक।
+
+गरीबों के, असहायों के, और उन लोगों के… जिनकी आवाज़ कोई नहीं सुनता था।
+
+---
+
+एक दिन, एक स्त्री आई।
+
+देवल।
+
+उसके चेहरे पर थकान थी, और आँखों में विनती।
+
+“मेरी गायें…” उसने कहा, “लुटेरों ने छीन ली हैं।”
+
+सभा में कुछ क्षण के लिए सन्नाटा छा गया।
+
+गायें… केवल पशु नहीं थीं।
+
+वे जीवन थीं।
+
+सम्मान थीं।
+
+---
+
+पाबूजी उठे।
+
+उन्होंने उसकी ओर देखा।
+
+“मैं वचन देता हूँ,” उन्होंने कहा।
+
+“तुम्हारी गायें वापस लाऊँगा।”
+
+---
+
+वचन दे दिया गया था।
+
+और पाबूजी के लिए—
+
+वचन… अंतिम था।
+
+---
+
+समय बीता।
+
+और फिर… वह दिन आया—
+
+उनकी भांजी का विवाह।
+
+पूरा महल उत्सव में डूबा था।
+
+ढोल बज रहे थे।
+
+हँसी गूँज रही थी।
+
+राजपूताना का वैभव अपने चरम पर था।
+
+---
+
+तभी—
+
+एक घोड़ा दौड़ता हुआ आया।
+
+उस पर बैठा सवार हाँफ रहा था।
+
+“महाराज!” उसने चिल्लाकर कहा।
+
+“देवल की गायें… फिर लूट ली गई हैं!”
+
+---
+
+एक क्षण।
+
+सिर्फ एक क्षण के लिए—
+
+सब कुछ रुक गया।
+
+पाबूजी खड़े थे।
+
+एक ओर—परिवार।
+
+विवाह।
+
+सम्मान।
+
+दूसरी ओर—
+
+एक वचन।
+
+---
+
+उन्होंने बिना कुछ कहे—
+
+अपनी तलवार उठाई।
+
+“आप कहाँ जा रहे हैं?” किसी ने पूछा।
+
+उन्होंने उत्तर नहीं दिया।
+
+बस इतना कहा—
+
+“वचन निभाने।”
+
+---
+
+और फिर…
+
+वे चल पड़े।
+
+विवाह अधूरा रह गया।
+
+लेकिन एक कहानी… शुरू हो गई।
+
+---
+
+रेगिस्तान की रेत पर केसर कालमी दौड़ रहा था।
+
+उसके खुरों से उठती धूल मानो युद्ध का निमंत्रण दे रही थी।
+
+आगे—लुटेरे थे।
+
+संख्या में अधिक।
+
+लेकिन साहस में नहीं।
+
+---
+
+पाबूजी ने अपनी तलवार निकाली।
+
+“आज कोई नहीं बचेगा,” उन्होंने कहा।
+
+उनकी आवाज़ में ऐसा विश्वास था… कि हवा भी थम गई।
+
+---
+
+टकराव हुआ।
+
+तेज।
+
+निर्दयी।
+
+तलवारें टकराईं।
+
+घोड़े भिड़े।
+
+रेत खून से लाल हो गई।
+
+---
+
+एक लुटेरा आगे बढ़ा।
+
+उसने भाला फेंका।
+
+पाबूजी झुके—
+
+भाला उनके पीछे निकल गया।
+
+अगले ही पल—
+
+उनकी तलवार उसके सीने में थी।
+
+---
+
+“गायों को छोड़ दो!” पाबूजी गरजे।
+
+लेकिन जवाब में—और हमले हुए।
+
+---
+
+युद्ध बढ़ता गया।
+
+हर वार… अंतिम जैसा।
+
+हर कदम… मृत्यु के करीब।
+
+लेकिन पाबूजी रुके नहीं।
+
+---
+
+केसर कालमी बिजली की तरह दौड़ रहा था।
+
+एक के बाद एक दुश्मन गिरता गया।
+
+---
+
+अंततः—
+
+लुटेरे टूट गए।
+
+गायें मुक्त हो गईं।
+
+---
+
+लेकिन…
+
+पाबूजी घायल हो चुके थे।
+
+गंभीर।
+
+---
+
+उन्होंने अंतिम बार आकाश की ओर देखा।
+
+तारे चमक रहे थे।
+
+उसी तरह… जैसे उस रात चमके थे—
+
+जब उनकी कथा पहली बार सुनाई गई थी।
+
+---
+
+देवल उनके पास आई।
+
+उसकी आँखों में आँसू थे।
+
+“आपने वचन निभाया…”
+
+पाबूजी ने हल्की मुस्कान दी।
+
+“वचन… कभी अधूरा नहीं छोड़ते,” उन्होंने कहा।
+
+---
+
+और फिर…
+
+उनकी आँखें स्थिर हो गईं।
+
+---
+
+रेगिस्तान में हवा चल रही थी।
+
+धीमी।
+
+शांत।
+
+लेकिन उसमें अब एक नई कहानी थी।
+
+---
+
+समय बीत गया।
+
+राज्य बदले।
+
+युद्ध बदले।
+
+लेकिन पाबूजी नहीं बदले।
+
+---
+
+वे अब केवल एक योद्धा नहीं रहे।
+
+वे बन गए—
+
+देवता।
+
+---
+
+आज भी…
+
+जब रात होती है…
+
+और फड़ खोली जाती है…
+
+तो दीपक की लौ में वही दृश्य जीवित हो उठते हैं।
+
+केसर कालमी दौड़ता है।
+
+तलवारें चमकती हैं।
+
+और एक आवाज़ गूँजती है—
+
+“यह कथा है उस योद्धा की… जिसने वचन के लिए सब कुछ त्याग दिया।”
+
+---
+
+पाबूजी राठौड़—
+
+एक नाम नहीं।
+
+एक विश्वास।
+
+एक ज्वाला।
+
+जो आज भी जल रही है…
+
+हर उस दिल में—
+
+जो वचन को जीवन से ऊपर मानता है।`
+
     ],
-    coverImage: { src: '/images/legends/pabuji-rathore.jpg', alt: 'Pabuji Rathore on his horse Kesar Kalami.' }
+    coverImage: { src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'Pabuji Rathore on his horse Kesar Kalami.' }
   },
   {
     id: 'pabuji-and-the-sacred-camels',
@@ -195,11 +2378,360 @@ export const allLegends: Legend[] = [
     era: '14th Century',
     location: 'Thar Desert',
     story: [
-      'Legend credits Pabuji with bringing the first camels to Rajasthan from Lanka. It is said he undertook this perilous journey to fulfill a wish for his niece, who wanted these strange, long-necked creatures for her dowry.',
-      'His success in bringing camels to the desert transformed the Thar’s economy and lifestyle forever, making him the patron deity of camel herders (Raika community).',
-      'The story is a blend of adventure and divine intervention, showcasing Pabuji as a hero who looked beyond the battlefield to the needs of his people.'
+      `रेगिस्तान की रेत उस दिन असामान्य रूप से शांत थी—मानो किसी आने वाली घटना की प्रतीक्षा कर रही हो। क्षितिज के उस पार, जहाँ सूरज धीरे-धीरे उग रहा था, एक घोड़ा दौड़ रहा था।
+
+उस पर सवार थे—पाबूजी राठौड़।
+
+उनकी आँखों में केवल युद्ध की ज्वाला नहीं थी।
+
+इस बार… वह यात्रा थी।
+
+एक वचन के लिए।
+
+एक इच्छा के लिए।
+
+और एक ऐसे कार्य के लिए—जो तलवार से भी बड़ा था।
+
+---
+
+मारवाड़ की धरती पर जीवन कठिन था।
+
+रेत… सूखी।
+
+पानी… दुर्लभ।
+
+और दूरी… अंतहीन।
+
+घोड़े थे—तेज, वीर।
+
+लेकिन इस धरती की गहराई को पार करने के लिए… कुछ और चाहिए था।
+
+कुछ ऐसा… जो रेत से लड़ सके।
+
+---
+
+एक दिन, महल में उत्सव था।
+
+पाबूजी की भांजी—विवाह के लिए तैयार हो रही थी।
+
+सभी कुछ भव्य था।
+
+लेकिन उसकी आँखों में एक जिज्ञासा थी।
+
+“मामा,” उसने धीमे स्वर में कहा, “मैंने सुना है… दूर लंका में ऐसे जीव होते हैं… जिनकी गर्दन लंबी होती है… जो रेत में भी चलते हैं।”
+
+पाबूजी ने उसकी ओर देखा।
+
+“ऊँट…” उन्होंने कहा।
+
+“हाँ,” वह मुस्कुराई, “क्या आप उन्हें मेरे लिए ला सकते हैं?”
+
+---
+
+यह एक साधारण इच्छा नहीं थी।
+
+यह एक चुनौती थी।
+
+लंका… दूर थी।
+
+समुद्र के पार।
+
+अज्ञात।
+
+खतरनाक।
+
+---
+
+सभा में जब यह बात उठी—तो कुछ लोगों ने हँस दिया।
+
+“यह असंभव है,” एक सरदार बोला।
+
+“रेगिस्तान का योद्धा… समुद्र पार जाएगा?”
+
+लेकिन पाबूजी… चुप थे।
+
+उन्होंने केवल एक बार अपनी भांजी की ओर देखा।
+
+और फिर—
+
+“मैं लाऊँगा,” उन्होंने कहा।
+
+---
+
+वचन दिया जा चुका था।
+
+और पाबूजी के लिए—
+
+वचन ही मार्ग था।
+
+---
+
+यात्रा शुरू हुई।
+
+रेत के पार…
+
+पहाड़ों के पार…
+
+नदियों के पार…
+
+और फिर—
+
+समुद्र।
+
+---
+
+लहरें उठ रही थीं।
+
+तेज।
+
+अशांत।
+
+पाबूजी कुछ क्षण खड़े रहे।
+
+उनकी आँखों में कोई भय नहीं था।
+
+“रास्ता कितना भी कठिन हो,” उन्होंने कहा, “वचन उससे बड़ा होता है।”
+
+---
+
+नाव तैयार की गई।
+
+और फिर—
+
+उन्होंने समुद्र पार किया।
+
+हर लहर… एक चुनौती।
+
+हर रात… एक परीक्षा।
+
+लेकिन वे रुके नहीं।
+
+---
+
+लंका की भूमि पर जब उन्होंने कदम रखा—
+
+तो वह दुनिया अलग थी।
+
+हरियाली।
+
+नमी।
+
+और वे जीव—
+
+ऊँट।
+
+लंबी गर्दन।
+
+मजबूत पैर।
+
+रेत के लिए बने हुए।
+
+---
+
+लेकिन उन्हें पाना आसान नहीं था।
+
+वहाँ के रक्षक खड़े थे।
+
+“यह हमारे हैं,” उन्होंने कहा।
+
+“इन्हें ले जाना आसान नहीं।”
+
+---
+
+पाबूजी आगे बढ़े।
+
+“मैं इन्हें युद्ध के लिए नहीं चाहता,” उन्होंने कहा।
+
+“मैं इन्हें जीवन के लिए चाहता हूँ।”
+
+लेकिन हर शब्द… तलवार से नहीं जीतता।
+
+और फिर—
+
+युद्ध हुआ।
+
+---
+
+वह युद्ध अलग था।
+
+न मैदान था… न रेत।
+
+लेकिन पाबूजी की तलवार… वही थी।
+
+तेज।
+
+निर्णायक।
+
+---
+
+उन्होंने एक-एक कर विरोधियों को पीछे धकेला।
+
+उनकी चाल में वही आत्मविश्वास था—जो हल्दीघाटी के योद्धाओं में था।
+
+अंततः—
+
+मार्ग खुल गया।
+
+ऊँट… उनके साथ थे।
+
+---
+
+वापसी की यात्रा शुरू हुई।
+
+अब उनके साथ केवल घोड़ा नहीं था—
+
+बल्कि एक नया भविष्य था।
+
+---
+
+रेगिस्तान की धरती ने उन्हें फिर देखा।
+
+इस बार… उनके साथ थे—
+
+ऊँट।
+
+लोगों ने आश्चर्य से देखा।
+
+“ये क्या हैं?” किसी ने पूछा।
+
+“रेगिस्तान के नए साथी,” पाबूजी ने उत्तर दिया।
+
+---
+
+धीरे-धीरे…
+
+ऊँट इस भूमि का हिस्सा बन गए।
+
+वे लंबी यात्राएँ करने लगे।
+
+पानी के बिना भी चलने लगे।
+
+कारवां सुरक्षित होने लगे।
+
+व्यापार बढ़ा।
+
+जीवन बदल गया।
+
+---
+
+राइका समुदाय…
+
+जो पशुपालन करता था—
+
+अब उनके पास एक नया साथी था।
+
+ऊँट।
+
+और उनके लिए—
+
+पाबूजी केवल एक योद्धा नहीं रहे।
+
+वे बन गए—
+
+रक्षक।
+
+देवता।
+
+---
+
+लेकिन हर कहानी का एक अंत होता है।
+
+और हर अंत… एक बलिदान।
+
+---
+
+एक दिन…
+
+जब फिर से संघर्ष उठा—
+
+पाबूजी ने तलवार उठाई।
+
+वह अंतिम युद्ध था।
+
+---
+
+रेगिस्तान फिर लाल हुआ।
+
+तलवारें फिर टकराईं।
+
+घोड़े फिर दौड़े।
+
+और ऊँट… दूर खड़े देख रहे थे—
+
+अपने रक्षक को।
+
+---
+
+पाबूजी घायल हुए।
+
+लेकिन गिरे नहीं।
+
+जब तक अंतिम शत्रु नहीं गिरा—
+
+उन्होंने तलवार नहीं छोड़ी।
+
+---
+
+और फिर…
+
+जब सब समाप्त हुआ—
+
+उन्होंने आकाश की ओर देखा।
+
+सूरज ढल रहा था।
+
+रेत सुनहरी हो रही थी।
+
+---
+
+“अब… यह भूमि सुरक्षित है,” उन्होंने धीमे स्वर में कहा।
+
+और फिर—
+
+उनकी आँखें बंद हो गईं।
+
+---
+
+आज भी…
+
+रेगिस्तान में जब ऊँट चलते हैं—
+
+तो उनकी चाल में एक कहानी होती है।
+
+---
+
+रात के अंधेरे में…
+
+जब फड़ खोली जाती है—
+
+और दीपक जलते हैं—
+
+तो आवाज़ गूँजती है—
+
+“यह कथा है उस योद्धा की… जिसने केवल युद्ध नहीं जीते…”
+
+“उसने जीवन बदला।”
+
+---
+
+पाबूजी राठौड़—
+
+वह नाम…
+
+जो तलवार से भी बड़ा है।
+
+क्योंकि उसने दिखाया—
+
+कि एक सच्चा योद्धा…
+
+केवल लड़ता नहीं—
+
+वह अपने लोगों के लिए…
+
+नई दुनिया भी लाता है।`
+
     ],
-    coverImage: { src: '/images/legends/pabuji-camels.jpg', alt: 'Pabuji leading a caravan of camels through the desert.' }
+    coverImage: { src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'Pabuji leading a caravan of camels through the desert.' }
   },
   {
     id: 'devnarayan-epic',
@@ -209,11 +2741,387 @@ export const allLegends: Legend[] = [
     era: '10th Century',
     location: 'Malwa and Eastern Rajasthan',
     story: [
-      'Devnarayan Ji is worshipped as an avatar of Lord Vishnu. His epic, one of the longest in the world, tells of his birth into a Gurjar family and his mission to restore dharma.',
-      'The legend is filled with miracles, from his divine birth to his battles against oppressive rulers who sought to crush the spirit of the people.',
-      'His followers recite his deeds using the "Devnarayan ki Par," a massive painted scroll that serves as a mobile temple and a visual history of his divine life.'
-    ],
-    coverImage: { src: '/images/legends/devnarayan-epic.jpg', alt: 'Visual depiction of the Devnarayan epic scroll.' }
+      `रात का आकाश अनंत था—तारों से भरा हुआ, जैसे स्वयं देवताओं ने धरती पर अपनी दृष्टि टिकाई हो। दूर कहीं नगाड़े की धीमी थाप सुनाई दे रही थी। एक विशाल चित्र—“पार”—धीरे-धीरे खोला जा रहा था। रंगों में देवता जीवित हो उठे, घोड़े दौड़ने लगे, और एक दिव्य आकृति उभर आई—
+
+देवनारायण जी।
+
+उनका नाम केवल एक कथा नहीं था।
+
+वह एक आस्था थी… एक शक्ति… एक प्रतिज्ञा।
+
+---
+
+समय वह था जब धरती कराह रही थी।
+
+राजाओं के अत्याचार, अन्याय, और भय ने लोगों की आत्मा को जकड़ लिया था। खेत सूख रहे थे, गाँव डर में जी रहे थे, और न्याय केवल ताकतवरों का अधिकार बन चुका था।
+
+उस अंधकार में… एक आशा जन्म लेने वाली थी।
+
+---
+
+गुर्जर परिवार में, एक साधारण-सी झोपड़ी में, वह रात अलग थी।
+
+हवा में एक अजीब-सी ऊर्जा थी।
+
+जब बालक ने जन्म लिया—तो केवल एक माँ ने अपने पुत्र को नहीं देखा…
+
+धरती ने अपने रक्षक को देखा।
+
+कहा गया—वह कोई साधारण जन्म नहीं था।
+
+वह था—विष्णु का अवतार।
+
+देवनारायण।
+
+---
+
+बचपन से ही उनमें कुछ अलग था।
+
+जब अन्य बालक खेलते थे, वह शांत बैठकर दूर क्षितिज को देखते थे—जैसे उन्हें कुछ ऐसा दिखता हो, जो औरों को नहीं दिखता।
+
+उनकी आँखों में गहराई थी।
+
+उनके स्पर्श में… शक्ति।
+
+---
+
+एक दिन, एक वृद्ध उनके पास आया।
+
+उसकी आँखों में आँसू थे।
+
+“हमारा सब कुछ छीन लिया गया है,” उसने कहा।
+
+“राजा के सैनिकों ने… हमारे पशु, हमारी भूमि…”
+
+देवनारायण ने उसकी ओर देखा।
+
+उनके भीतर कुछ जाग उठा।
+
+“अन्याय… समाप्त होगा,” उन्होंने कहा।
+
+---
+
+समय बीता।
+
+बालक युवा हुआ।
+
+और उसके साथ… उसकी शक्ति भी बढ़ी।
+
+अब वह केवल एक व्यक्ति नहीं था।
+
+वह बन चुका था—एक उद्देश्य।
+
+---
+
+उसका घोड़ा—दिव्य।
+
+उसकी तलवार—अजेय।
+
+और उसके साथ थे—विश्वास करने वाले लोग।
+
+गुर्जर, किसान, साधारण जन—
+
+जो अब डरना नहीं चाहते थे।
+
+---
+
+पहला टकराव…
+
+एक अत्याचारी सरदार के विरुद्ध।
+
+उसका किला ऊँचा था।
+
+उसकी सेना बड़ी थी।
+
+लेकिन उसके पास एक चीज नहीं थी—
+
+धर्म।
+
+---
+
+देवनारायण ने अपने साथियों की ओर देखा।
+
+“आज हम केवल युद्ध नहीं लड़ेंगे,” उन्होंने कहा।
+
+“आज हम न्याय लाएँगे।”
+
+---
+
+रात के अंधेरे में—
+
+उनकी सेना किले के पास पहुँची।
+
+कोई शोर नहीं।
+
+कोई घोषणा नहीं।
+
+---
+
+“अब,” उन्होंने फुसफुसाया।
+
+और फिर—
+
+तूफान।
+
+---
+
+द्वार तोड़े गए।
+
+घोड़े अंदर घुसे।
+
+तलवारें चमकीं।
+
+सैनिक जागे—लेकिन देर हो चुकी थी।
+
+---
+
+देवनारायण आगे बढ़े।
+
+उनकी चाल में कोई हड़बड़ी नहीं थी।
+
+उनकी आँखों में केवल लक्ष्य था।
+
+---
+
+सरदार उनके सामने आया।
+
+“तू कौन है?” उसने चिल्लाया।
+
+देवनारायण ने उत्तर दिया—
+
+“मैं… वह हूँ जिसे तुमने बुलाया है।”
+
+---
+
+तलवारें टकराईं।
+
+एक वार।
+
+दूसरा।
+
+तीसरा।
+
+और फिर—
+
+अंत।
+
+---
+
+किला गिर चुका था।
+
+लेकिन यह केवल शुरुआत थी।
+
+---
+
+उनकी ख्याति फैलने लगी।
+
+हर गाँव… हर दिशा में।
+
+“एक रक्षक आया है,” लोग कहते।
+
+“एक देवता… जो हमारे बीच चलता है।”
+
+---
+
+लेकिन हर प्रकाश के सामने… अंधकार भी उठता है।
+
+एक बड़ा शत्रु सामने आया।
+
+एक राजा—जिसकी शक्ति विशाल थी।
+
+उसकी सेना… अंतहीन।
+
+उसका अहंकार… उससे भी बड़ा।
+
+---
+
+मैदान तैयार था।
+
+धूल उड़ रही थी।
+
+दो सेनाएँ आमने-सामने।
+
+---
+
+देवनारायण ने अपने घोड़े को रोका।
+
+उन्होंने अपने लोगों की ओर देखा।
+
+कुछ डरे हुए थे।
+
+कुछ उत्साहित।
+
+---
+
+“डर मत,” उन्होंने कहा।
+
+“क्योंकि आज हम अकेले नहीं हैं।”
+
+---
+
+और फिर—
+
+युद्ध शुरू हुआ।
+
+---
+
+घोड़े दौड़े।
+
+तलवारें टकराईं।
+
+तीर हवा को चीरते हुए निकले।
+
+---
+
+देवनारायण बीच में थे।
+
+जहाँ सबसे अधिक खतरा था—वहीं।
+
+---
+
+एक के बाद एक शत्रु गिरता गया।
+
+लेकिन उनकी संख्या… कम नहीं हो रही थी।
+
+---
+
+तभी—
+
+एक क्षण आया।
+
+जब सब कुछ रुकता हुआ लगा।
+
+---
+
+देवनारायण ने आकाश की ओर देखा।
+
+उनकी आँखों में एक दिव्य प्रकाश चमका।
+
+---
+
+और फिर—
+
+कुछ बदल गया।
+
+---
+
+उनका हर वार… और तेज हो गया।
+
+उनकी चाल… और सटीक।
+
+मानो स्वयं देवता उनके भीतर उतर आए हों।
+
+---
+
+शत्रु टूटने लगा।
+
+उसका मनोबल गिर गया।
+
+और फिर—
+
+वह भागा।
+
+---
+
+मैदान… शांत हो गया।
+
+लेकिन उस शांति में एक नई गूँज थी—
+
+विजय की।
+
+---
+
+देवनारायण ने अपने घोड़े को रोका।
+
+उन्होंने चारों ओर देखा।
+
+लोग… जीवित थे।
+
+स्वतंत्र।
+
+---
+
+“यही धर्म है,” उन्होंने कहा।
+
+---
+
+समय बीतता गया।
+
+उनकी कथा… बढ़ती गई।
+
+हर युद्ध… एक नई कहानी।
+
+हर चमत्कार… एक नई आस्था।
+
+---
+
+आज भी—
+
+जब “देवनारायण की पार” खोली जाती है—
+
+तो वह केवल चित्र नहीं होता।
+
+वह एक मंदिर होता है।
+
+एक जीवित इतिहास।
+
+---
+
+भोपे उसकी कथा गाते हैं।
+
+रात भर।
+
+तारों के नीचे।
+
+---
+
+और जब वे गाते हैं—
+
+तो ऐसा लगता है—
+
+मानो देवनारायण फिर से लौट आए हों।
+
+अपने घोड़े पर।
+
+अपनी तलवार के साथ।
+
+---
+
+वह केवल एक योद्धा नहीं थे।
+
+वह एक अवतार थे।
+
+एक रक्षक।
+
+एक प्रकाश—
+
+जो अंधकार में जन्मा…
+
+और जिसने उसे समाप्त कर दिया।
+
+---
+
+आज भी—
+
+जब कोई अन्याय होता है—
+
+तो लोग आकाश की ओर देखते हैं।
+
+और धीमे से कहते हैं—
+
+“देवनारायण जी… हमारे साथ हैं।”
+
+---
+
+क्योंकि कुछ कथाएँ…
+
+कभी समाप्त नहीं होतीं।
+
+वे केवल…
+
+जीती रहती हैं।` ],
+
+    coverImage: { src: '/images/dynasties/places/paramara-malwa-main.jpg', alt: 'Visual depiction of the Devnarayan epic scroll.' }
   },
   {
     id: 'devnarayan-and-the-gurjar-warriors',
@@ -223,11 +3131,416 @@ export const allLegends: Legend[] = [
     era: '10th Century',
     location: 'Aravalli Range',
     story: [
-      'Devnarayan was not just a divine figure but a leader who united the Gurjar and Rajput communities. His warriors were known for their fierce loyalty and their skill in mountain warfare.',
-      'Together, they fought against tyranny, protecting the poor and the marginalized. The legend emphasizes that true power lies in unity and the protection of the weak.',
-      'The songs of his warriors still echo in the valleys of the Aravallis, celebrating a time when the sword was used solely for the sake of justice.'
+      `अरावली की घाटियाँ उस समय केवल पहाड़ नहीं थीं—वे एक शरणस्थली थीं, एक रणभूमि थीं, और एक ऐसी भूमि थीं जहाँ हर पत्थर संघर्ष की गवाही देता था। सुबह की पहली किरणें जब उन चोटियों को छूती थीं, तो ऐसा लगता था जैसे धरती स्वयं जागकर युद्ध के लिए तैयार हो रही हो।
+
+उसी भूमि पर… एक नाम गूँजता था—
+
+देवनारायण।
+
+वह केवल एक देवता नहीं थे।
+
+वह एक सेनापति थे।
+
+एक संगठक।
+
+एक ऐसा नेता… जिसने बिखरे हुए लोगों को एक शक्ति में बदल दिया।
+
+---
+
+समय कठिन था।
+
+गुर्जर… राजपूत… और अन्य समुदाय—
+
+सब अपने-अपने संघर्ष में उलझे हुए थे।
+
+राजाओं के अत्याचार बढ़ रहे थे।
+
+कमजोरों की आवाज़ दबाई जा रही थी।
+
+और हर गाँव… भय में जी रहा था।
+
+---
+
+लेकिन अरावली की घाटियों में—
+
+कुछ बदल रहा था।
+
+एक पुकार उठ रही थी।
+
+और लोग… उसकी ओर खिंचते जा रहे थे।
+
+---
+
+देवनारायण एक चट्टान पर खड़े थे।
+
+उनके सामने सैकड़ों लोग—
+
+गुर्जर, राजपूत, किसान, योद्धा—
+
+सब एकत्र थे।
+
+उनकी आँखों में सवाल था।
+
+“हम क्यों लड़ें?” एक युवा ने पूछा।
+
+“हम अलग-अलग हैं… हमारा क्या संबंध?”
+
+देवनारायण ने उसकी ओर देखा।
+
+उनकी आवाज़ गूँजी—
+
+“अन्याय… सबको एक करता है।”
+
+---
+
+एक क्षण के लिए सन्नाटा छा गया।
+
+फिर उन्होंने आगे कहा—
+
+“और धर्म… हमें एक मार्ग देता है।”
+
+---
+
+उन शब्दों ने कुछ बदल दिया।
+
+लोगों के भीतर…
+
+उनकी सोच में…
+
+उनकी पहचान में।
+
+---
+
+धीरे-धीरे—
+
+एक सेना बनी।
+
+लेकिन यह केवल तलवारों की सेना नहीं थी।
+
+यह विश्वास की सेना थी।
+
+---
+
+गुर्जर अपने पशुओं के साथ आए।
+
+राजपूत अपनी तलवारों के साथ।
+
+और दोनों—
+
+एक साथ खड़े हुए।
+
+---
+
+पहला युद्ध…
+
+अरावली की एक सँकरी घाटी में।
+
+शत्रु शक्तिशाली था।
+
+संख्या में अधिक।
+
+और आत्मविश्वास में… अंधा।
+
+---
+
+देवनारायण ने अपने योद्धाओं को देखा।
+
+“हम सीधा आक्रमण नहीं करेंगे,” उन्होंने कहा।
+
+“पहाड़… हमारे साथ हैं।”
+
+---
+
+रणनीति बनी।
+
+गुर्जर धनुर्धारी ऊँचाई पर तैनात हुए।
+
+राजपूत घुड़सवार नीचे छिपे रहे।
+
+---
+
+जब शत्रु घाटी में प्रवेश किया—
+
+तो उसे लगा… रास्ता खाली है।
+
+लेकिन वह एक जाल था।
+
+---
+
+“अब!” देवनारायण की आवाज़ गूँजी।
+
+---
+
+ऊपर से तीरों की वर्षा शुरू हुई।
+
+शत्रु घबरा गया।
+
+वह समझ नहीं पाया—हमला कहाँ से हो रहा है।
+
+---
+
+और तभी—
+
+नीचे से घुड़सवार टूट पड़े।
+
+तलवारें चमकीं।
+
+घोड़े गरजे।
+
+---
+
+घाटी युद्ध के शोर से भर गई।
+
+हर वार सटीक था।
+
+हर कदम… योजनाबद्ध।
+
+---
+
+कुछ ही समय में—
+
+शत्रु टूट गया।
+
+उसकी पंक्तियाँ बिखर गईं।
+
+---
+
+यह केवल जीत नहीं थी।
+
+यह एक संकेत था—
+
+कि एकता… शक्ति है।
+
+---
+
+दूसरा युद्ध—
+
+और भी कठिन।
+
+एक किला…
+
+ऊँचा… मजबूत… और घेराबंदी से सुरक्षित।
+
+---
+
+“हम इसे कैसे जीतेंगे?” एक योद्धा ने पूछा।
+
+देवनारायण मुस्कुराए।
+
+“हर किला बाहर से नहीं गिरता,” उन्होंने कहा।
+
+“कुछ… भीतर से टूटते हैं।”
+
+---
+
+रात का समय चुना गया।
+
+छोटे दल बनाए गए।
+
+कुछ ने पीछे से रास्ता खोजा।
+
+कुछ ने सामने ध्यान भटकाया।
+
+---
+
+धीरे-धीरे—
+
+किले के द्वार के पास पहुँच गए।
+
+---
+
+“तैयार?” एक योद्धा ने पूछा।
+
+दूसरे ने सिर हिलाया।
+
+---
+
+और फिर—
+
+धमाका।
+
+द्वार टूटा।
+
+---
+
+अंदर…
+
+अराजकता फैल गई।
+
+शत्रु तैयार नहीं था।
+
+---
+
+देवनारायण आगे बढ़े।
+
+उनकी तलवार… मार्ग बना रही थी।
+
+---
+
+“आज अन्याय समाप्त होगा!” उनकी गर्जना गूँजी।
+
+---
+
+किले के भीतर हर कोना युद्ध में बदल गया।
+
+दीवारें… गलियाँ… आँगन—
+
+सब रणभूमि बन गए।
+
+---
+
+अंततः—
+
+किला गिर गया।
+
+---
+
+लोगों ने पहली बार महसूस किया—
+
+कि वे अकेले नहीं हैं।
+
+---
+
+लेकिन सबसे बड़ा युद्ध अभी बाकी था।
+
+---
+
+मैदान खुला था।
+
+दोनों सेनाएँ आमने-सामने।
+
+धूल उड़ रही थी।
+
+आकाश भारी था।
+
+---
+
+देवनारायण ने अपने योद्धाओं की ओर देखा।
+
+उनमें अब डर नहीं था।
+
+सिर्फ… विश्वास।
+
+---
+
+“आज हम केवल जीतने नहीं आए,” उन्होंने कहा।
+
+“आज हम यह साबित करने आए हैं—कि न्याय… हमेशा जीवित रहेगा।”
+
+---
+
+और फिर—
+
+युद्ध शुरू हुआ।
+
+---
+
+घोड़े दौड़े।
+
+तलवारें टकराईं।
+
+चीखें गूँजीं।
+
+---
+
+देवनारायण बीच में थे।
+
+जहाँ सबसे ज्यादा खतरा था—वहीं।
+
+---
+
+एक शत्रु सरदार आगे बढ़ा।
+
+“तू खुद को देवता समझता है?” उसने चिल्लाया।
+
+देवनारायण ने उत्तर दिया—
+
+“मैं… केवल धर्म का सेवक हूँ।”
+
+---
+
+दोनों भिड़े।
+
+तलवारें टकराईं।
+
+चिंगारियाँ उड़ीं।
+
+---
+
+एक निर्णायक वार—
+
+और सरदार गिर गया।
+
+---
+
+उसके गिरते ही—
+
+शत्रु का मनोबल टूट गया।
+
+---
+
+युद्ध समाप्त हुआ।
+
+---
+
+अरावली की घाटियाँ फिर शांत हो गईं।
+
+लेकिन उस शांति में अब एक नई ध्वनि थी—
+
+गीतों की।
+
+---
+
+आज भी—
+
+उन घाटियों में…
+
+जब हवा चलती है—
+
+तो ऐसा लगता है—
+
+मानो कोई गा रहा हो।
+
+---
+
+देवनारायण के योद्धाओं के गीत।
+
+उनकी वीरता।
+
+उनकी एकता।
+
+---
+
+वे गीत केवल युद्ध की नहीं—
+
+एक विचार की गाथा हैं।
+
+---
+
+कि शक्ति केवल तलवार में नहीं होती।
+
+वह दिलों में होती है।
+
+---
+
+देवनारायण—
+
+एक नाम नहीं।
+
+एक संगम।
+
+एकता का।
+
+न्याय का।
+
+और उस विश्वास का—
+
+कि जब लोग साथ खड़े होते हैं…
+
+तो कोई भी अत्याचार… टिक नहीं सकता।`
+
     ],
-    coverImage: { src: '/images/legends/gurjar-warriors.jpg', alt: 'Gurjar warriors gathered around Devnarayan.' }
+    coverImage: { src: '/images/dynasties/places/paramara-malwa-main.jpg', alt: 'Gurjar warriors gathered around Devnarayan.' }
   },
   {
     id: 'tejaji-and-the-serpent-vow',
@@ -237,11 +3550,434 @@ export const allLegends: Legend[] = [
     era: '11th Century',
     location: 'Shekhawati',
     story: [
-      'Tejaji is a beloved folk hero who died protecting cattle from raiders. His legend is unique because of his encounter with a serpent while on his way to battle.',
-      'He promised the snake he would return to be bitten after fulfilling his duty. Despite being covered in wounds from the battle, he returned to keep his word.',
-      'Finding no uninjured spot on his body, he offered his tongue to the snake. His sacrifice made him the protector against snake bites and a symbol of unwavering truth.'
+      `रात ढल रही थी, और भोर की पहली रेखा अभी क्षितिज पर उभरी भी नहीं थी। हवा में रेत की हल्की गंध थी, और दूर कहीं पशुओं की धीमी आवाज़ें सुनाई दे रही थीं। उसी अंधेरे और शांति के बीच एक घोड़ा धीरे-धीरे आगे बढ़ रहा था।
+
+उस पर सवार था—तेजाजी।
+
+उसकी आँखों में एक अजीब-सी दृढ़ता थी, जैसे हर कदम उसे किसी ऐसे भाग्य की ओर ले जा रहा हो, जिसे वह पहले ही स्वीकार कर चुका था।
+
+---
+
+तेजाजी का जन्म उस भूमि में हुआ था जहाँ वचन, रक्त से भी अधिक पवित्र माना जाता था। बचपन से ही उन्हें सिखाया गया था—
+
+“राजपूत की जुबान… उसकी तलवार से भी तेज होती है।”
+
+और तेजाजी ने उस सीख को अपने भीतर उतार लिया था।
+
+वे केवल योद्धा नहीं थे।
+
+वे सत्य के प्रतीक थे।
+
+---
+
+बचपन में ही उन्होंने अन्याय के खिलाफ खड़े होना सीख लिया था।
+
+गाँव के लोग उन्हें केवल एक युवा नहीं मानते थे—
+
+वे उन्हें एक आशा की तरह देखते थे।
+
+---
+
+समय बीता।
+
+तेजाजी युवा हुए।
+
+उनकी तलवार तेज थी, लेकिन उससे भी तेज था उनका वचन।
+
+---
+
+एक दिन—
+
+एक स्त्री दौड़ती हुई आई।
+
+उसकी साँसें टूटी हुई थीं।
+
+“मेरे पशु…” उसने कहा, “लुटेरे ले गए…”
+
+उसकी आँखों में भय था।
+
+और उसके शब्दों में—निराशा।
+
+---
+
+तेजाजी खड़े हुए।
+
+“कहाँ गए?” उन्होंने पूछा।
+
+उसने दिशा बताई।
+
+---
+
+तेजाजी ने बिना एक पल गंवाए—
+
+अपनी तलवार उठाई।
+
+घोड़े पर सवार हुए।
+
+और निकल पड़े।
+
+---
+
+रास्ता लंबा था।
+
+रेगिस्तान का।
+
+काँटों से भरा।
+
+और उसी रास्ते में—
+
+एक घटना हुई।
+
+---
+
+अचानक—
+
+घोड़ा रुक गया।
+
+तेजाजी ने नीचे देखा।
+
+एक साँप… रास्ते में फैला हुआ।
+
+उसकी आँखों में क्रोध था।
+
+---
+
+“हट जा,” तेजाजी ने कहा।
+
+लेकिन साँप हिला नहीं।
+
+---
+
+“मैं तुझे डँसूँगा,” वह जैसे फुफकारा।
+
+---
+
+तेजाजी कुछ क्षण रुके।
+
+फिर बोले—
+
+“अभी नहीं।”
+
+---
+
+साँप ने सिर उठाया।
+
+“क्यों?”
+
+---
+
+“क्योंकि मुझे पहले एक वचन निभाना है,” तेजाजी ने उत्तर दिया।
+
+“मैं वापस आऊँगा।”
+
+---
+
+यह एक अजीब संवाद था।
+
+एक योद्धा… और एक सर्प।
+
+लेकिन उसमें एक सच्चाई थी।
+
+---
+
+साँप ने कुछ क्षण सोचा।
+
+फिर बोला—
+
+“अगर तू नहीं लौटा… तो?”
+
+---
+
+तेजाजी की आँखों में कोई संदेह नहीं था।
+
+“मैं लौटूँगा,” उन्होंने कहा।
+
+---
+
+और फिर—
+
+वे आगे बढ़ गए।
+
+---
+
+युद्ध…
+
+दूर नहीं था।
+
+लुटेरे पशुओं को लेकर जा रहे थे।
+
+उनकी संख्या अधिक थी।
+
+उनके हाथों में हथियार थे।
+
+---
+
+लेकिन तेजाजी रुके नहीं।
+
+---
+
+“रुको!” उनकी आवाज़ गूँजी।
+
+---
+
+लुटेरे मुड़े।
+
+उन्होंने एक अकेले योद्धा को देखा।
+
+और हँसे।
+
+---
+
+“यह हमें रोकेगा?” एक ने कहा।
+
+---
+
+अगले ही क्षण—
+
+तेजाजी उन पर टूट पड़े।
+
+---
+
+तलवार चमकी।
+
+पहला वार—
+
+एक लुटेरा गिरा।
+
+---
+
+दूसरा वार—
+
+दूसरा।
+
+---
+
+युद्ध शुरू हो गया।
+
+---
+
+घोड़े दौड़े।
+
+धूल उड़ी।
+
+चीखें गूँजीं।
+
+---
+
+तेजाजी अकेले थे।
+
+लेकिन हर वार… सटीक।
+
+हर कदम… दृढ़।
+
+---
+
+एक भाला आया—
+
+उनके कंधे में धँस गया।
+
+उन्होंने उसे निकाला।
+
+और फिर भी—लड़े।
+
+---
+
+एक तलवार उनके पैर को चीर गई।
+
+लेकिन वे गिरे नहीं।
+
+---
+
+खून बह रहा था।
+
+लेकिन उनकी आँखों में वही ज्वाला थी।
+
+---
+
+“पशु छोड़ दो!” उन्होंने गरजकर कहा।
+
+---
+
+अंततः—
+
+लुटेरे टूट गए।
+
+वे भाग गए।
+
+पशु… मुक्त हो गए।
+
+---
+
+युद्ध समाप्त हुआ।
+
+लेकिन तेजाजी का शरीर…
+
+घावों से भरा था।
+
+---
+
+उन्होंने गहरी साँस ली।
+
+और फिर—
+
+वापस मुड़े।
+
+---
+
+उनके सामने था—
+
+वही रास्ता।
+
+वही स्थान।
+
+---
+
+साँप… अभी भी वहाँ था।
+
+---
+
+“तू वापस आया,” उसने कहा।
+
+उसकी आवाज़ में आश्चर्य था।
+
+---
+
+तेजाजी ने सिर हिलाया।
+
+“मैंने वचन दिया था।”
+
+---
+
+साँप ने उनके शरीर को देखा।
+
+हर जगह घाव।
+
+खून।
+
+कोई स्थान नहीं… जहाँ वह डँस सके।
+
+---
+
+“अब?” उसने पूछा।
+
+---
+
+तेजाजी कुछ क्षण चुप रहे।
+
+फिर—
+
+उन्होंने अपनी जीभ बाहर निकाली।
+
+---
+
+“यहाँ,” उन्होंने कहा।
+
+---
+
+एक क्षण के लिए—
+
+समय रुक गया।
+
+---
+
+साँप ने उन्हें देखा।
+
+उसकी आँखों में अब क्रोध नहीं था।
+
+केवल… सम्मान।
+
+---
+
+और फिर—
+
+उसने डँसा।
+
+---
+
+तेजाजी की आँखें बंद हो गईं।
+
+उनका शरीर धीरे-धीरे स्थिर हो गया।
+
+---
+
+लेकिन उस क्षण—
+
+कुछ बदल गया।
+
+---
+
+वह केवल मृत्यु नहीं थी।
+
+वह एक वचन की पूर्णता थी।
+
+---
+
+आज भी—
+
+जब कोई साँप काटता है—
+
+तो लोग पुकारते हैं—
+
+“तेजाजी!”
+
+---
+
+उनका नाम…
+
+एक रक्षा बन गया।
+
+एक आस्था।
+
+---
+
+गाँवों में…
+
+मंदिरों में…
+
+उनकी कथा गाई जाती है।
+
+---
+
+एक योद्धा…
+
+जिसने केवल युद्ध नहीं जीता—
+
+उसने अपने वचन को भी निभाया।
+
+---
+
+तेजाजी—
+
+एक नाम नहीं।
+
+एक सत्य।
+
+---
+
+जो सिखाता है—
+
+कि सबसे बड़ा साहस…
+
+तलवार उठाने में नहीं होता—
+
+बल्कि…
+
+वचन निभाने में होता है।
+
+---
+
+और उस दिन—
+
+रेगिस्तान की हवा ने एक कहानी अपने भीतर समेट ली—
+
+एक ऐसे योद्धा की…
+
+जो मरकर भी…
+
+अमर हो गया।`
+
     ],
-    coverImage: { src: '/images/legends/tejaji-serpent.jpg', alt: 'Tejaji offering his tongue to the serpent.' }
+    coverImage: { src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'Tejaji offering his tongue to the serpent.' }
   },
   {
     id: 'gogaji-the-snake-protector',
@@ -251,11 +3987,341 @@ export const allLegends: Legend[] = [
     era: '11th Century',
     location: 'Northern Rajasthan',
     story: [
-      'Gogaji, also known as Jahar Veer, was a Chauhan Rajput ruler who possessed divine powers over serpents. He is worshipped as the supreme protector against snake bites.',
-      'His legend tells of his miraculous birth and his battles against invaders. He is said to have entered the earth alive at Goga Medi, where his main shrine stands today.',
-      'Devotees from across North India visit his shrines, carrying yellow banners and singing ballads of his courage and divine authority over the natural world.'
-    ],
-    coverImage: { src: '/images/legends/gogaji.jpg', alt: 'Gogaji depicted with serpents and a blue horse.' }
+      `रात गहरी थी, और रेगिस्तान की हवा में एक अनजानी सरसराहट थी—मानो धरती खुद कोई रहस्य छुपाए बैठी हो। दूर कहीं मशालें जल रही थीं, और पीले झंडे हवा में लहरा रहे थे। ढोल की धीमी थाप के साथ एक स्वर उठ रहा था—
+
+“जाहर वीर… गोगाजी…”
+
+और उस पुकार के साथ… एक कथा जीवित हो उठी।
+
+---
+
+चौहान वंश की भूमि पर, जहाँ हर जन्म अपने साथ एक दायित्व लेकर आता था, वहीं हुआ—गोगाजी का जन्म।
+
+लेकिन यह कोई साधारण जन्म नहीं था।
+
+कहा जाता है—जब वे जन्मे, तब आकाश में बिजली चमकी, और धरती के भीतर छिपे सर्प अपने बिलों से बाहर निकल आए।
+
+उनकी आँखों में कोई भय नहीं था।
+
+जैसे वे पहचानते हों—
+
+अपने स्वामी को।
+
+---
+
+बचपन से ही गोगाजी में कुछ अलग था।
+
+जब अन्य बालक खेलते थे, वह सर्पों के बीच बैठ जाते।
+
+उनके हाथ उन फन उठाए नागों पर फिरते—
+
+और वे शांत हो जाते।
+
+---
+
+“यह बालक… सामान्य नहीं है,” एक वृद्ध ने कहा।
+
+“यह… नागों का स्वामी है।”
+
+---
+
+समय बीता।
+
+गोगाजी युवा हुए।
+
+उनकी तलवार तेज थी।
+
+लेकिन उससे भी अधिक शक्तिशाली थी—
+
+उनकी उपस्थिति।
+
+---
+
+उनके आसपास सर्प रहते थे—
+
+जैसे उनकी सेना हो।
+
+उनकी आँखों में एक गहराई थी—
+
+जो केवल युद्ध नहीं देखती थी…
+
+वह प्रकृति को भी समझती थी।
+
+---
+
+लेकिन समय शांत नहीं था।
+
+आक्रमणकारी आगे बढ़ रहे थे।
+
+सीमाएँ टूट रही थीं।
+
+गाँव जल रहे थे।
+
+---
+
+एक दिन—
+
+संदेश आया।
+
+“दुश्मन सीमा पर है।”
+
+---
+
+गोगाजी उठे।
+
+उन्होंने अपनी तलवार उठाई।
+
+और अपने घोड़े पर सवार हुए।
+
+---
+
+“आज केवल युद्ध नहीं होगा,” उन्होंने कहा।
+
+“आज… धरती की रक्षा होगी।”
+
+---
+
+मैदान तैयार था।
+
+धूल उड़ रही थी।
+
+दो सेनाएँ आमने-सामने।
+
+---
+
+दुश्मन की संख्या अधिक थी।
+
+उनके पास हथियार थे।
+
+और आत्मविश्वास।
+
+---
+
+गोगाजी ने अपनी सेना की ओर देखा।
+
+“डरो मत,” उन्होंने कहा।
+
+“क्योंकि हम अकेले नहीं हैं।”
+
+---
+
+उनकी आवाज़ के साथ—
+
+रेत हिलने लगी।
+
+---
+
+धरती से…
+
+सर्प निकलने लगे।
+
+---
+
+सैकड़ों…
+
+हजारों…
+
+---
+
+दुश्मन घबरा गया।
+
+“यह क्या है?” एक सैनिक चिल्लाया।
+
+---
+
+लेकिन तब तक—
+
+युद्ध शुरू हो चुका था।
+
+---
+
+घोड़े दौड़े।
+
+तलवारें टकराईं।
+
+सर्प दुश्मनों के बीच फैल गए।
+
+---
+
+हर ओर अराजकता।
+
+हर ओर भय।
+
+---
+
+गोगाजी आगे बढ़े।
+
+उनकी तलवार… बिजली की तरह।
+
+---
+
+“यह भूमि… किसी और की नहीं!” उनकी गर्जना गूँजी।
+
+---
+
+एक-एक कर दुश्मन गिरता गया।
+
+उनकी पंक्तियाँ टूट गईं।
+
+---
+
+अंततः—
+
+वे भागने लगे।
+
+---
+
+मैदान… शांत हो गया।
+
+लेकिन उस शांति में—
+
+एक नई शक्ति थी।
+
+---
+
+गोगाजी ने अपने घोड़े को रोका।
+
+उन्होंने धरती को देखा।
+
+“यह मेरी नहीं,” उन्होंने कहा।
+
+“यह हम सबकी है।”
+
+---
+
+उनकी कथा यहीं समाप्त नहीं हुई।
+
+---
+
+एक दिन—
+
+जब समय ने उन्हें पुकारा—
+
+उन्होंने एक निर्णय लिया।
+
+---
+
+गोगामेड़ी की धरती पर…
+
+लोग एकत्र थे।
+
+उनकी आँखों में श्रद्धा थी।
+
+---
+
+गोगाजी शांत खड़े थे।
+
+उनके आसपास सर्प घूम रहे थे।
+
+---
+
+“अब समय आ गया है,” उन्होंने कहा।
+
+---
+
+धरती… धीरे-धीरे खुलने लगी।
+
+---
+
+लोगों ने देखा—
+
+और विश्वास नहीं कर पाए।
+
+---
+
+गोगाजी ने अंतिम बार आकाश की ओर देखा।
+
+उनकी आँखों में कोई भय नहीं था।
+
+केवल… शांति।
+
+---
+
+और फिर—
+
+वे धरती में समा गए।
+
+जीवित।
+
+---
+
+धरती बंद हो गई।
+
+लेकिन कहानी… खुल गई।
+
+---
+
+आज भी—
+
+गोगामेड़ी में लोग आते हैं।
+
+पीले झंडे लेकर।
+
+गीत गाते हुए।
+
+---
+
+“जाहर वीर की जय!”
+
+---
+
+उनकी समाधि केवल एक स्थान नहीं है।
+
+वह एक शक्ति है।
+
+एक विश्वास।
+
+---
+
+जब कोई साँप काटता है—
+
+तो लोग उनका नाम लेते हैं।
+
+और कहते हैं—
+
+“गोगाजी… रक्षा करें।”
+
+---
+
+रेगिस्तान की हवा में आज भी—
+
+उनकी उपस्थिति है।
+
+---
+
+वह केवल एक राजा नहीं थे।
+
+वह एक देवता थे।
+
+---
+
+गोगाजी—
+
+एक नाम…
+
+जो भय को समाप्त करता है।
+
+---
+
+एक योद्धा…
+
+जिसने तलवार से नहीं—
+
+प्रकृति से भी मित्रता की।
+
+---
+
+और एक ऐसी शक्ति—
+
+जो आज भी जीवित है।
+
+हर उस पुकार में—
+
+जो विश्वास से निकली हो।
+
+“जाहर वीर… गोगाजी…” ` ],
+
+    coverImage: { src: '/images/dynasties/places/bikaner-rathore-main.jpg', alt: 'Gogaji depicted with serpents and a blue horse.' }
   },
   {
     id: 'ramdevji-of-runicha',
@@ -265,11 +4331,354 @@ export const allLegends: Legend[] = [
     era: '14th Century',
     location: 'Runicha, Western Rajasthan',
     story: [
-      'Ramdevji, or Ramdev Pir, is unique among Rajput legends for his focus on social equality and spiritual healing. He is worshipped by Hindus and Muslims alike.',
-      'Born into the Tanwar Rajput clan, he performed numerous miracles (parchas) to help the poor and the sick. He established Runicha as a center of pilgrimage and peace.',
-      'His message of "equality of all" remains a cornerstone of Rajasthani spirituality, and his annual fair is one of the largest gatherings in the desert.'
+      `थार की रेत पर रात उतर चुकी थी, लेकिन वह अंधेरी नहीं थी—दीपों, ध्वजों और अनगिनत पदचापों से वह जीवित थी। दूर तक पीले और केसरिया झंडे लहरा रहे थे, ढोल की थाप हवा में घुली थी, और हजारों कंठ एक साथ गूँज रहे थे—
+
+“रामदेव पीर की जय!”
+
+रूणीचा की धरती उस रात केवल एक स्थान नहीं थी—
+
+वह एक संगम थी।
+
+विश्वास का।
+
+आस्था का।
+
+और उस नाम का… जिसने भेद मिटा दिए।
+
+---
+
+समय वह था जब समाज बँटा हुआ था।
+
+ऊँच-नीच की दीवारें इतनी ऊँची थीं कि इंसान इंसान को पहचानना भूल चुका था। धर्म अलग, जाति अलग, और हर व्यक्ति अपने घेरे में कैद।
+
+लेकिन उसी अंधेरे में…
+
+एक प्रकाश जन्म लेने वाला था।
+
+---
+
+तानवर राजपूत वंश में, एक घर में वह बालक जन्मा—
+
+रामदेव।
+
+उसके जन्म के साथ ही एक विचित्र शांति फैल गई।
+
+कहा गया—यह केवल एक पुत्र नहीं है।
+
+यह एक संदेश है।
+
+---
+
+बचपन से ही रामदेव अलग थे।
+
+जहाँ अन्य बालक खेलते थे, वह गरीबों के बीच बैठते।
+
+बीमारों के पास जाते।
+
+उनके हाथों में एक स्पर्श था—जो दर्द को कम कर देता था।
+
+---
+
+एक दिन, एक वृद्ध आया।
+
+उसका शरीर कमजोर था।
+
+उसकी आँखों में आशा की अंतिम किरण।
+
+“मुझे बचा लो…” उसने कहा।
+
+---
+
+रामदेव ने उसके माथे पर हाथ रखा।
+
+क्षण भर के लिए—
+
+समय थम गया।
+
+---
+
+और फिर—
+
+वृद्ध की साँसें स्थिर हो गईं।
+
+उसकी आँखों में चमक लौट आई।
+
+---
+
+लोगों ने देखा।
+
+और विश्वास… जन्म लेने लगा।
+
+---
+
+धीरे-धीरे…
+
+उनकी ख्याति फैलने लगी।
+
+हर गाँव…
+
+हर दिशा में।
+
+“एक संत आया है,” लोग कहते।
+
+“जो सबको समान मानता है।”
+
+---
+
+लेकिन यह केवल चमत्कार नहीं था।
+
+यह एक विचार था।
+
+---
+
+एक दिन, कुछ लोग उनके पास आए।
+
+“हम मंदिर में नहीं जा सकते,” उन्होंने कहा।
+
+“हमें बाहर रखा जाता है।”
+
+---
+
+रामदेव उठे।
+
+उन्होंने उन लोगों की ओर देखा।
+
+और फिर—
+
+“जहाँ मैं हूँ… वही मंदिर है,” उन्होंने कहा।
+
+---
+
+उनके शब्दों ने एक दीवार तोड़ दी।
+
+---
+
+रूणीचा…
+
+धीरे-धीरे एक केंद्र बन गया।
+
+जहाँ कोई भेद नहीं था।
+
+जहाँ हर कोई आ सकता था।
+
+---
+
+हिंदू…
+
+मुस्लिम…
+
+गरीब…
+
+अमीर…
+
+सब एक साथ बैठते।
+
+एक साथ खाते।
+
+एक साथ प्रार्थना करते।
+
+---
+
+“ईश्वर एक है,” रामदेव कहते।
+
+“और उसके सामने… सब समान हैं।”
+
+---
+
+लेकिन हर प्रकाश के सामने…
+
+अंधकार भी उठता है।
+
+---
+
+कुछ लोगों को यह स्वीकार नहीं था।
+
+“यह व्यवस्था के खिलाफ है,” उन्होंने कहा।
+
+“यह परंपरा को तोड़ रहा है।”
+
+---
+
+एक दिन…
+
+चुनौती आई।
+
+---
+
+कुछ साधु, कुछ फकीर—
+
+उनकी परीक्षा लेने आए।
+
+---
+
+“अगर तुम सच में शक्तिशाली हो,” उन्होंने कहा,
+
+“तो हमें दिखाओ।”
+
+---
+
+रामदेव मुस्कुराए।
+
+उनकी आँखों में कोई क्रोध नहीं था।
+
+केवल शांति।
+
+---
+
+उन्होंने धरती की ओर देखा।
+
+और फिर—
+
+कुछ ऐसा हुआ…
+
+जिसे शब्दों में बाँधना कठिन है।
+
+---
+
+बीमार ठीक होने लगे।
+
+सूखी भूमि में हरियाली उभर आई।
+
+और लोगों के दिल…
+
+हल्के हो गए।
+
+---
+
+वह केवल चमत्कार नहीं था।
+
+वह विश्वास था।
+
+---
+
+उनकी शक्ति तलवार में नहीं थी।
+
+उनकी शक्ति थी—
+
+समानता में।
+
+---
+
+समय बीतता गया।
+
+रूणीचा एक तीर्थ बन गया।
+
+लोग दूर-दूर से आने लगे।
+
+---
+
+लेकिन एक दिन—
+
+रामदेव शांत बैठे थे।
+
+उनकी आँखों में गहराई थी।
+
+---
+
+“अब समय आ गया है,” उन्होंने कहा।
+
+---
+
+लोग समझ नहीं पाए।
+
+---
+
+उन्होंने अंतिम बार चारों ओर देखा।
+
+उन लोगों को—
+
+जिन्होंने उन्हें अपना माना था।
+
+---
+
+और फिर—
+
+वे ध्यान में लीन हो गए।
+
+---
+
+धीरे-धीरे…
+
+उनका शरीर स्थिर हो गया।
+
+---
+
+लेकिन उस क्षण—
+
+कुछ समाप्त नहीं हुआ।
+
+कुछ शुरू हुआ।
+
+---
+
+आज भी—
+
+रूणीचा की धरती पर…
+
+हर वर्ष…
+
+लाखों लोग आते हैं।
+
+---
+
+ढोल बजते हैं।
+
+झंडे लहराते हैं।
+
+और एक स्वर गूँजता है—
+
+“रामदेव पीर की जय!”
+
+---
+
+वह केवल एक राजा नहीं थे।
+
+वह केवल एक संत नहीं थे।
+
+---
+
+वह एक सेतु थे—
+
+धर्मों के बीच।
+
+लोगों के बीच।
+
+दिलों के बीच।
+
+---
+
+रामदेवजी—
+
+एक नाम…
+
+जो सिखाता है—
+
+कि सबसे बड़ा युद्ध…
+
+मनुष्य के भीतर होता है।
+
+---
+
+और सबसे बड़ी जीत—
+
+तब होती है…
+
+जब हम सबको एक मान लेते हैं।
+
+---
+
+रेगिस्तान की रेत आज भी उनके पदचिन्हों को सँभाले हुए है।
+
+और हवा में आज भी उनकी आवाज़ गूँजती है—
+
+“कोई बड़ा नहीं…
+
+कोई छोटा नहीं…
+
+सब एक हैं…” `
+
     ],
-    coverImage: { src: '/images/legends/ramdevji.jpg', alt: 'Ramdevji on his horse, blessed with divine light.' }
+    coverImage: { src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'Ramdevji on his horse, blessed with divine light.' }
   },
   {
     id: 'veer-durgadas-rathores-loyalty',
@@ -279,11 +4688,484 @@ export const allLegends: Legend[] = [
     era: '17th Century',
     location: 'Marwar',
     story: [
-      'Durgadas Rathore is the epitome of loyalty in Rajput history. When Aurangzeb sought to seize Marwar after Maharaja Jaswant Singh’s death, Durgadas stood as the sole protector of the infant prince Ajit Singh.',
-      'He fought a grueling 30-year guerrilla war against the Mughal Empire, living in the desert and hills, never wavering in his vow to restore the rightful heir to the throne.',
-      'His legacy is one of selfless service; after securing Ajit Singh’s throne, he quietly left the court, proving that his struggle was for honor, not for power.'
+      `मारवाड़ की रेत उस दिन शांत नहीं थी। हवा में एक बेचैनी थी—जैसे आने वाले तूफ़ान की आहट हर कण में दर्ज हो चुकी हो। सूरज ढल रहा था, और जोधपुर के किले की दीवारों पर लंबी परछाइयाँ फैल रही थीं।
+
+अंदर… शोक था।
+
+महाराजा जसवंत सिंह अब नहीं रहे थे।
+
+और उनके साथ ही—एक संकट जन्म ले चुका था।
+
+---
+
+दिल्ली में बैठे औरंगज़ेब की नज़र अब मारवाड़ पर थी।
+
+राज्य बिना स्पष्ट उत्तराधिकारी के था।
+
+मुग़ल दरबार के लिए यह अवसर था—
+
+और मारवाड़ के लिए… अस्तित्व का प्रश्न।
+
+---
+
+लेकिन उस अंधेरे में एक नाम उठ खड़ा हुआ—
+
+दुर्गादास राठौड़।
+
+वह केवल एक सरदार नहीं था।
+
+वह एक वचन था।
+
+---
+
+जब शिशु अजीत सिंह का जन्म हुआ—तब वह केवल एक बालक नहीं था।
+
+वह मारवाड़ की आशा था।
+
+और उसी क्षण—दुर्गादास ने निर्णय ले लिया।
+
+“यह बालक जीवित रहेगा,” उन्होंने कहा।
+
+“और एक दिन—राजसिंहासन पर बैठेगा।”
+
+---
+
+मुग़ल सेना बढ़ रही थी।
+
+जोधपुर पर दबाव था।
+
+और उस दबाव के बीच—
+
+दुर्गादास ने एक साहसिक योजना बनाई।
+
+---
+
+रात का समय।
+
+अंधेरा गहरा।
+
+महल के भीतर हलचल।
+
+---
+
+अजीत सिंह को गोद में लेकर—कुछ विश्वस्त योद्धा चुपचाप निकले।
+
+हर कदम… मृत्यु के साए में।
+
+---
+
+“जल्दी करो,” एक ने फुसफुसाया।
+
+---
+
+दूर से घोड़ों की टापें सुनाई दीं।
+
+मुग़ल सैनिक पास आ रहे थे।
+
+---
+
+दुर्गादास पीछे मुड़े।
+
+उनकी आँखों में ज्वाला थी।
+
+“तुम आगे बढ़ो,” उन्होंने कहा।
+
+“मैं उन्हें रोकता हूँ।”
+
+---
+
+और फिर—
+
+वह अकेले मुड़े।
+
+तलवार निकाली।
+
+---
+
+पहला टकराव—
+
+अचानक।
+
+तेज।
+
+---
+
+मुग़ल सैनिक चौंक गए।
+
+एक अकेला योद्धा…
+
+उनके सामने दीवार बनकर खड़ा था।
+
+---
+
+“मारवाड़ के लिए!” दुर्गादास की गर्जना गूँजी।
+
+---
+
+तलवारें टकराईं।
+
+घोड़े भिड़े।
+
+धूल उड़ी।
+
+---
+
+हर वार में एक संदेश था—
+
+यह युद्ध केवल भूमि का नहीं था।
+
+यह वचन का था।
+
+---
+
+इस बीच—
+
+अजीत सिंह को सुरक्षित दूर ले जाया गया।
+
+---
+
+दुर्गादास घायल हुए।
+
+लेकिन गिरे नहीं।
+
+जब तक अंतिम सैनिक पीछे नहीं हट गया—
+
+उन्होंने तलवार नहीं छोड़ी।
+
+---
+
+यह केवल शुरुआत थी।
+
+---
+
+अगले 30 वर्षों तक—
+
+युद्ध चलता रहा।
+
+लेकिन अब यह खुला युद्ध नहीं था।
+
+यह था—
+
+छाया का युद्ध।
+
+---
+
+रेगिस्तान…
+
+पहाड़…
+
+जंगल…
+
+हर जगह दुर्गादास थे।
+
+---
+
+उन्होंने अपनी सेना को छोटे-छोटे दलों में बाँटा।
+
+तेज।
+
+अदृश्य।
+
+घातक।
+
+---
+
+एक रात—
+
+मुग़ल काफिला आगे बढ़ रहा था।
+
+रसद से भरा हुआ।
+
+---
+
+अचानक—
+
+चारों ओर से हमला।
+
+---
+
+“कौन है?” एक सैनिक चिल्लाया।
+
+---
+
+उत्तर आया—
+
+तलवार की चमक में।
+
+---
+
+कुछ ही पलों में—
+
+काफिला नष्ट।
+
+रसद… समाप्त।
+
+---
+
+और दुर्गादास—
+
+फिर गायब।
+
+---
+
+दूसरा युद्ध—
+
+पहाड़ियों में।
+
+---
+
+मुग़ल सेना भारी थी।
+
+तोपों के साथ।
+
+---
+
+लेकिन दुर्गादास ने मैदान नहीं चुना।
+
+उन्होंने चुना—
+
+संकरा रास्ता।
+
+---
+
+जब सेना उस मार्ग में घुसी—
+
+ऊपर से पत्थर गिरे।
+
+तीर बरसे।
+
+---
+
+नीचे से—
+
+घुड़सवार टूट पड़े।
+
+---
+
+मुग़ल सेना फँस गई।
+
+उनकी संख्या… उनके लिए ही जाल बन गई।
+
+---
+
+“पीछे हटो!” उनका सेनापति चिल्लाया।
+
+---
+
+लेकिन देर हो चुकी थी।
+
+---
+
+यह युद्ध जीत लिया गया।
+
+---
+
+साल बीतते गए।
+
+युद्ध जारी रहा।
+
+---
+
+कभी भूख…
+
+कभी प्यास…
+
+कभी ठंडी रातें।
+
+---
+
+लेकिन दुर्गादास नहीं डिगे।
+
+---
+
+“हम कब तक लड़ेंगे?” एक योद्धा ने पूछा।
+
+---
+
+दुर्गादास ने उत्तर दिया—
+
+“जब तक वचन पूरा नहीं होता।”
+
+---
+
+और वह दिन आया।
+
+---
+
+अजीत सिंह अब युवा थे।
+
+तैयार।
+
+---
+
+जोधपुर की ओर बढ़ते हुए—
+
+सेना तैयार थी।
+
+---
+
+यह अंतिम टकराव था।
+
+---
+
+मैदान खुला था।
+
+धूल उड़ रही थी।
+
+---
+
+दुर्गादास आगे बढ़े।
+
+उनकी तलवार… वर्षों के संघर्ष की गवाह।
+
+---
+
+“आज… मारवाड़ लौटेगा,” उन्होंने कहा।
+
+---
+
+युद्ध शुरू हुआ।
+
+---
+
+घोड़े दौड़े।
+
+तलवारें टकराईं।
+
+चीखें गूँजीं।
+
+---
+
+लेकिन इस बार—
+
+दुर्गादास पीछे नहीं हटे।
+
+---
+
+उन्होंने सीधा आक्रमण किया।
+
+हर वार… निर्णायक।
+
+---
+
+मुग़ल सेना टूटने लगी।
+
+उनका मनोबल गिर गया।
+
+---
+
+और फिर—
+
+वे भागे।
+
+---
+
+जोधपुर… मुक्त हो गया।
+
+---
+
+अजीत सिंह—
+
+सिंहासन पर बैठे।
+
+---
+
+राज्य… वापस मिल गया।
+
+---
+
+लोगों ने उत्सव मनाया।
+
+ढोल बजे।
+
+जयकार गूँजी।
+
+---
+
+लेकिन उस भीड़ में—
+
+दुर्गादास नहीं थे।
+
+---
+
+उन्होंने चुपचाप—
+
+दरबार छोड़ दिया।
+
+---
+
+किसी ने पूछा—
+
+“आप क्यों जा रहे हैं?”
+
+---
+
+उन्होंने उत्तर दिया—
+
+“मैंने जो किया… वह कर्तव्य था।”
+
+---
+
+“मुझे कुछ नहीं चाहिए।”
+
+---
+
+और फिर—
+
+वे चले गए।
+
+---
+
+रेगिस्तान में…
+
+वही हवा…
+
+वही रास्ते…
+
+---
+
+लेकिन अब—
+
+एक कहानी थी।
+
+---
+
+दुर्गादास राठौड़—
+
+एक नाम…
+
+जो सिखाता है—
+
+कि सच्चा योद्धा…
+
+सिंहासन के लिए नहीं लड़ता।
+
+---
+
+वह लड़ता है—
+
+वचन के लिए।
+
+सम्मान के लिए।
+
+और उस विश्वास के लिए—
+
+जो उसे कभी झुकने नहीं देता।
+
+---
+
+आज भी—
+
+मारवाड़ की रेत में…
+
+अगर ध्यान से सुना जाए—
+
+तो एक आवाज़ गूँजती है—
+
+“वचन… जीवन से बड़ा है।” `
+
     ],
-    coverImage: { src: '/images/legends/durgadas-rathore.jpg', alt: 'Durgadas Rathore riding through the Thar desert.' }
+    coverImage: { src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'Durgadas Rathore riding through the Thar desert.' }
   },
   {
     id: 'hadi-ranis-sacrifice',
@@ -293,11 +5175,440 @@ export const allLegends: Legend[] = [
     era: '17th Century',
     location: 'Hadoti',
     story: [
-      'Hadi Rani’s story is one of the most poignant in Rajputana. Her husband, Rao Ratan Singh, was hesitant to go to battle shortly after their wedding, his heart heavy with love.',
-      'To ensure he fulfilled his duty as a warrior, Hadi Rani cut off her own head and sent it to him as a "memento," removing the only distraction that held him back.',
-      'Inspired by her ultimate sacrifice, her husband fought with the fury of a man possessed, securing a victory that was bought with the blood of his beloved queen.'
+      `अरावली की ढलानों पर उस सुबह धुंध हल्की-हल्की तैर रही थी। किले के भीतर शहनाइयों की गूँज अभी पूरी तरह थमी भी नहीं थी—फूलों की खुशबू, दीपों की लौ, और नए विवाह की स्मृतियाँ हवा में घुली थीं। लेकिन उसी हवा में एक और गंध थी—युद्ध की।
+
+आँगन में खड़े थे—राव रतन सिंह।
+
+तलवार उनके हाथ में थी… लेकिन कदम आगे नहीं बढ़ रहे थे।
+
+उनकी आँखों में युद्ध नहीं था—
+
+वहाँ था… प्रेम।
+
+---
+
+अभी कुछ ही दिन पहले—
+
+विवाह हुआ था।
+
+हाड़ा वंश की वह रानी—जिसकी आँखों में तेज था, और हृदय में अटूट धैर्य—
+
+अब इस किले की स्वामिनी थी।
+
+हाड़ी रानी।
+
+उसका सौंदर्य केवल रूप में नहीं था—
+
+वह उसकी आत्मा में था।
+
+और उसी आत्मा ने… एक निर्णय लेने वाला था।
+
+---
+
+संदेश आ चुका था।
+
+सीमा पर शत्रु बढ़ रहा था।
+
+राज्य को अपने सेनापति की आवश्यकता थी।
+
+राव रतन सिंह को युद्ध पर जाना था।
+
+---
+
+लेकिन…
+
+हर बार जब वे द्वार की ओर बढ़ते—
+
+उनके कदम ठिठक जाते।
+
+---
+
+“क्या मैं उसे छोड़कर जा सकता हूँ?” उनके मन में प्रश्न उठता।
+
+“क्या यह सही है?”
+
+---
+
+हाड़ी रानी ने यह देखा।
+
+उसने अपने पति की आँखों में झाँका।
+
+और वह समझ गई—
+
+यह केवल युद्ध नहीं है।
+
+यह एक संघर्ष है—
+
+कर्तव्य और प्रेम के बीच।
+
+---
+
+“आप क्यों रुके हैं?” उसने शांत स्वर में पूछा।
+
+---
+
+राव रतन सिंह ने उत्तर नहीं दिया।
+
+लेकिन उनकी चुप्पी… सब कह गई।
+
+---
+
+“आपको जाना होगा,” हाड़ी रानी ने कहा।
+
+“राजपूत का धर्म… युद्धभूमि में है।”
+
+---
+
+“लेकिन…” राव रतन सिंह की आवाज़ भारी हो गई,
+
+“मैं तुम्हें छोड़कर नहीं जाना चाहता।”
+
+---
+
+कुछ क्षण के लिए—
+
+समय ठहर गया।
+
+---
+
+हाड़ी रानी की आँखों में कोई आँसू नहीं था।
+
+केवल… निर्णय।
+
+---
+
+“तो मैं ही तुम्हारी बाधा हूँ,” उसने धीरे से कहा।
+
+---
+
+राव रतन सिंह ने उसकी ओर देखा—
+
+और कुछ समझ नहीं पाए।
+
+---
+
+“अगर मैं न रहूँ…” उसने आगे कहा,
+
+“तो तुम्हारा मन विचलित नहीं होगा।”
+
+---
+
+उनके शब्दों में एक गहराई थी—
+
+जो आने वाले तूफान का संकेत थी।
+
+---
+
+राव रतन सिंह चले गए—
+
+अधूरे मन के साथ।
+
+---
+
+कुछ दूर…
+
+उन्होंने रुककर पीछे देखा।
+
+किला… शांत था।
+
+लेकिन उनके भीतर… युद्ध चल रहा था।
+
+---
+
+तभी—
+
+एक दूत आया।
+
+उसके हाथ में एक थाल था।
+
+---
+
+“रानी साहिबा ने यह भेजा है,” उसने कहा।
+
+---
+
+राव रतन सिंह ने थाल खोला।
+
+और फिर—
+
+दुनिया थम गई।
+
+---
+
+उस थाल में—
+
+हाड़ी रानी का सिर था।
+
+---
+
+उनकी आँखें खुली थीं।
+
+शांत।
+
+निर्भीक।
+
+जैसे वह अभी भी कह रही हो—
+
+“अब कोई बाधा नहीं।”
+
+---
+
+क्षण भर के लिए—
+
+सब कुछ मौन हो गया।
+
+---
+
+फिर…
+
+एक चीख।
+
+---
+
+राव रतन सिंह की आँखों में अब आँसू नहीं थे।
+
+वहाँ केवल आग थी।
+
+---
+
+“अब…” उन्होंने धीरे से कहा,
+
+“अब मैं रुकूँगा नहीं।”
+
+---
+
+उन्होंने उस सिर को अपने गले से बाँध लिया।
+
+---
+
+और फिर—
+
+वे मुड़े।
+
+---
+
+युद्धभूमि उनका इंतजार कर रही थी।
+
+---
+
+मैदान धूल से भरा था।
+
+शत्रु तैयार था।
+
+---
+
+लेकिन जब राव रतन सिंह पहुँचे—
+
+तो कुछ बदल गया।
+
+---
+
+उनकी चाल में एक उन्माद था।
+
+उनकी आँखों में… मृत्यु।
+
+---
+
+“आज कोई नहीं बचेगा!” उनकी गर्जना गूँजी।
+
+---
+
+और फिर—
+
+वे टूट पड़े।
+
+---
+
+घोड़ा बिजली की तरह दौड़ा।
+
+तलवार चमकी।
+
+---
+
+पहला वार—
+
+एक सैनिक गिरा।
+
+---
+
+दूसरा—
+
+तीसरा—
+
+---
+
+हर वार में एक दर्द था।
+
+हर प्रहार में एक आग।
+
+---
+
+“हाड़ी रानी!” उनकी आवाज़ गूँज रही थी।
+
+---
+
+शत्रु घबरा गया।
+
+यह कोई साधारण योद्धा नहीं था।
+
+यह एक तूफान था।
+
+---
+
+घोड़े टकराए।
+
+भाले टूटे।
+
+धूल और खून ने आकाश को ढक लिया।
+
+---
+
+राव रतन सिंह बीच में थे।
+
+जहाँ सबसे अधिक खतरा था—
+
+वहीं।
+
+---
+
+एक शत्रु सरदार आगे बढ़ा।
+
+“रुक जा!” उसने चिल्लाया।
+
+---
+
+लेकिन उत्तर में—
+
+केवल तलवार आई।
+
+---
+
+क्षण भर में—
+
+वह गिर चुका था।
+
+---
+
+युद्ध चलता रहा।
+
+लेकिन अब परिणाम स्पष्ट था।
+
+---
+
+शत्रु टूट गया।
+
+भागने लगा।
+
+---
+
+मैदान… जीत लिया गया।
+
+---
+
+लेकिन उस जीत में…
+
+कोई खुशी नहीं थी।
+
+---
+
+राव रतन सिंह घोड़े से उतरे।
+
+उनके गले में अब भी—
+
+वह सिर था।
+
+---
+
+उन्होंने उसे धीरे से उतारा।
+
+अपनी हथेली में लिया।
+
+---
+
+“मैंने अपना कर्तव्य निभाया,” उन्होंने कहा।
+
+---
+
+लेकिन उनकी आवाज़ में…
+
+शून्य था।
+
+---
+
+अरावली की हवा चल रही थी।
+
+धीमी।
+
+गंभीर।
+
+---
+
+उस दिन—
+
+एक युद्ध जीता गया।
+
+---
+
+लेकिन उससे बड़ा—
+
+एक बलिदान हुआ।
+
+---
+
+हाड़ी रानी—
+
+एक नाम नहीं।
+
+एक ज्वाला।
+
+---
+
+जिसने दिखाया—
+
+कि प्रेम… केवल साथ रहने में नहीं होता।
+
+---
+
+कभी-कभी…
+
+वह त्याग में होता है।
+
+---
+
+और उस त्याग की आग—
+
+इतनी प्रचंड होती है—
+
+कि वह एक योद्धा को…
+
+अजेय बना देती है।
+
+---
+
+आज भी—
+
+राजपूताना की धरती पर—
+
+जब किसी को अपने कर्तव्य और भावनाओं के बीच निर्णय लेना होता है—
+
+तो एक नाम गूँजता है—
+
+“हाड़ी रानी…”
+
+---
+
+क्योंकि कुछ बलिदान…
+
+समय से परे होते हैं।
+
+वे केवल इतिहास नहीं बनते—
+
+वे बन जाते हैं…
+
+अमर कथा।`
+
     ],
-    coverImage: { src: '/images/legends/hadi-rani.jpg', alt: 'Hadi Rani offering her head as a sacrifice.' }
+    coverImage: { src: '/images/dynasties/hadi-rani.jpg', alt: 'Hadi Rani offering her head as a sacrifice.' }
   },
   {
     id: 'veer-kalyan-singhs-last-ride',
@@ -307,11 +5618,440 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Mewar',
     story: [
-      'Veer Kalyan Singh was a legendary warrior known for his fearless charges. In a critical battle where the odds were overwhelmingly against him, he led his riders in a final, desperate assault.',
-      'His "last ride" is remembered as a moment of pure martial brilliance, where the goal was not to survive, but to inflict enough damage to ensure the enemy would think twice before advancing.',
-      'The legend tells that even after being mortally wounded, he continued to strike until his horse finally collapsed, leaving a trail of fire in the memory of his people.'
+      `भोर की पहली रेखा अभी क्षितिज पर उभरी ही थी, जब रणभूमि की धूल ने आकाश को ढँक लिया। हवा में बारूद नहीं, बल्कि रक्त और संकल्प की गंध थी। दूर-दूर तक फैली सेना—शत्रु की—मानो एक अटूट दीवार थी।
+
+और उस दीवार के सामने खड़े थे—
+
+वीर कल्याण सिंह।
+
+उनकी आँखों में कोई भ्रम नहीं था।
+
+वे जानते थे—
+
+आज का युद्ध… जीतने के लिए नहीं है।
+
+आज का युद्ध… इतिहास लिखने के लिए है।
+
+---
+
+मारवाड़ की धरती ने उन्हें जन्म दिया था—जहाँ हर बालक तलवार की चमक में बड़ा होता है। बचपन से ही कल्याण सिंह की पहचान अलग थी।
+
+जब अन्य युवक अभ्यास करते थे—वह सीमा से आगे सोचते थे।
+
+“युद्ध केवल बल से नहीं जीता जाता,” उनके गुरु ने कहा था।
+
+“युद्ध… मन से जीता जाता है।”
+
+कल्याण सिंह ने उस दिन कुछ नहीं कहा।
+
+लेकिन उन्होंने उस वाक्य को अपने जीवन का आधार बना लिया।
+
+---
+
+युवा होते-होते—
+
+उनकी तलवार की गति, उनकी घुड़सवारी, और उनका साहस—
+
+सब उन्हें अलग बना चुके थे।
+
+लेकिन उनकी सबसे बड़ी पहचान थी—
+
+उनकी निडरता।
+
+---
+
+एक दिन—
+
+संदेश आया।
+
+“शत्रु बढ़ रहा है।”
+
+---
+
+संख्या में विशाल।
+
+शक्ति में प्रबल।
+
+---
+
+सभा में सन्नाटा था।
+
+“हम उनका सामना नहीं कर सकते,” एक सरदार ने कहा।
+
+---
+
+कल्याण सिंह आगे बढ़े।
+
+“हम सामना करेंगे,” उन्होंने कहा।
+
+---
+
+“लेकिन हम कम हैं,” किसी ने उत्तर दिया।
+
+---
+
+कल्याण सिंह की आँखों में एक ज्वाला चमकी।
+
+“संख्या से नहीं… संकल्प से युद्ध जीता जाता है।”
+
+---
+
+और फिर—
+
+निर्णय लिया गया।
+
+---
+
+मैदान चुना गया—
+
+खुला।
+
+धूल से भरा।
+
+जहाँ छिपने का कोई स्थान नहीं।
+
+---
+
+“हम सीधे आक्रमण करेंगे,” कल्याण सिंह ने कहा।
+
+---
+
+कुछ क्षण के लिए—
+
+सन्नाटा।
+
+---
+
+“सीधे?” एक योद्धा ने पूछा।
+
+---
+
+“हाँ,” उन्होंने उत्तर दिया।
+
+“हम उन्हें सोचने का समय नहीं देंगे।”
+
+---
+
+यह एक जोखिम था।
+
+एक अंतिम दांव।
+
+---
+
+रात को—
+
+तैयारी हुई।
+
+घोड़े सजे।
+
+तलवारें तेज की गईं।
+
+---
+
+कल्याण सिंह अपने घोड़े के पास खड़े थे।
+
+उन्होंने उसकी गर्दन थपथपाई।
+
+“कल… हम उड़ेंगे,” उन्होंने कहा।
+
+---
+
+सुबह—
+
+आदेश गूँजा।
+
+---
+
+“आक्रमण!”
+
+---
+
+घोड़े दौड़े।
+
+पहले धीमे…
+
+फिर तेज…
+
+और फिर—
+
+पूर्ण वेग से।
+
+---
+
+सैकड़ों घुड़सवार—
+
+एक साथ—
+
+एक दिशा में।
+
+---
+
+शत्रु चौंक गया।
+
+उसे इस आक्रमण की उम्मीद नहीं थी।
+
+---
+
+“रोक दो उन्हें!” उनका सेनापति चिल्लाया।
+
+---
+
+लेकिन तब तक—
+
+बहुत देर हो चुकी थी।
+
+---
+
+पहली टक्कर—
+
+भीषण।
+
+---
+
+तलवारें टकराईं।
+
+घोड़े भिड़े।
+
+धूल आकाश में भर गई।
+
+---
+
+कल्याण सिंह सबसे आगे थे।
+
+उनकी तलवार… बिजली।
+
+---
+
+पहला वार—
+
+एक सैनिक गिरा।
+
+---
+
+दूसरा—
+
+तीसरा—
+
+---
+
+हर वार में एक संदेश था—
+
+हम डरते नहीं।
+
+---
+
+लेकिन शत्रु की संख्या…
+
+कम नहीं हो रही थी।
+
+---
+
+धीरे-धीरे—
+
+घाव बढ़ने लगे।
+
+---
+
+एक भाला—
+
+उनके कंधे में धँस गया।
+
+---
+
+उन्होंने उसे खींचा—
+
+और फिर भी—आगे बढ़े।
+
+---
+
+“रुको मत!” उनकी आवाज़ गूँजी।
+
+---
+
+उनके पीछे—
+
+उनके योद्धा।
+
+---
+
+हर एक—
+
+मृत्यु को स्वीकार कर चुका।
+
+---
+
+युद्ध बढ़ता गया।
+
+---
+
+कल्याण सिंह अब खून से भीग चुके थे।
+
+लेकिन उनकी आँखों में वही ज्वाला थी।
+
+---
+
+“और आगे!” उन्होंने कहा।
+
+---
+
+एक और टक्कर।
+
+---
+
+घोड़ा डगमगाया।
+
+---
+
+लेकिन वह रुका नहीं।
+
+---
+
+कल्याण सिंह ने अंतिम बार अपनी तलवार उठाई।
+
+---
+
+एक वार—
+
+और एक और शत्रु गिरा।
+
+---
+
+फिर—
+
+घोड़ा गिर पड़ा।
+
+---
+
+धूल उठी।
+
+समय थम गया।
+
+---
+
+कल्याण सिंह घुटनों के बल गिरे।
+
+लेकिन उनकी तलवार… अब भी उठी हुई थी।
+
+---
+
+एक शत्रु आगे बढ़ा।
+
+---
+
+“अब खत्म हो गया,” उसने कहा।
+
+---
+
+कल्याण सिंह ने उसकी ओर देखा।
+
+उनकी आँखों में… मृत्यु नहीं थी।
+
+केवल—
+
+अग्नि।
+
+---
+
+उन्होंने अंतिम वार किया।
+
+---
+
+और वह भी—
+
+गिर गया।
+
+---
+
+फिर…
+
+शांत।
+
+---
+
+मैदान… स्थिर हो गया।
+
+---
+
+शत्रु रुक गया।
+
+उसने चारों ओर देखा।
+
+---
+
+वह जीत गया था।
+
+लेकिन…
+
+वह आगे नहीं बढ़ा।
+
+---
+
+उसके सामने—
+
+एक संदेश था।
+
+---
+
+कि कुछ युद्ध…
+
+केवल जीते नहीं जाते।
+
+वे…
+
+डर पैदा करते हैं।
+
+सम्मान पैदा करते हैं।
+
+---
+
+कल्याण सिंह—
+
+वह नाम बन गया—
+
+जिसे सुनकर शत्रु भी सोचता था।
+
+---
+
+उसकी “अंतिम सवारी”—
+
+एक कहानी बन गई।
+
+---
+
+जहाँ लक्ष्य जीवित रहना नहीं था—
+
+बल्कि…
+
+इतना प्रहार करना था—
+
+कि इतिहास याद रखे।
+
+---
+
+आज भी—
+
+जब रेगिस्तान की हवा चलती है—
+
+तो उसमें एक गर्जना सुनाई देती है—
+
+“आगे बढ़ो!”
+
+---
+
+वीर कल्याण सिंह—
+
+एक योद्धा…
+
+जिसने दिखाया—
+
+कि मृत्यु भी…
+
+उससे डरती है—
+
+जो उससे पहले ही उसे स्वीकार कर चुका हो।`
+
     ],
-    coverImage: { src: '/images/legends/kalyan-singh.jpg', alt: 'Kalyan Singh leading his last cavalry charge.' }
+    coverImage: { src: '/images/dynasties/places/hada-bundi-kota-main.jpg', alt: 'Kalyan Singh leading his last cavalry charge.' }
   },
   {
     id: 'tale-of-the-charan-bards',
@@ -321,11 +6061,380 @@ export const allLegends: Legend[] = [
     era: 'Timeless',
     location: 'All Rajputana',
     story: [
-      'The Charans were more than poets; they were the moral compass of the Rajput states. Their songs had the power to inspire kings to greatness or shame them into courage.',
-      'This legend celebrates the bards who stood on the battlefield, not with swords, but with verses that outlasted the steel. They were the ones who turned a local clash into an immortal saga.',
-      'Without the Charan bards, the dust of history would have buried the names of the brave. Their voices are the echoes that still haunt the corridors of the ancient forts.'
+      `रात के अंतिम पहर में, जब किले की प्राचीरों पर केवल मशालों की लौ काँप रही थी और हवा में युद्ध की गंध घुल चुकी थी, एक आकृति खड़ी थी—न तलवार, न ढाल।
+
+उसके हाथ में था—एक वीणा।
+
+और उसकी आवाज़… किसी रणभेरी से कम नहीं थी।
+
+वह था—चारण।
+
+---
+
+राजपूताना की धरती पर युद्ध केवल भुजाओं से नहीं लड़े जाते थे।
+
+यहाँ युद्ध… आत्मा से लड़े जाते थे।
+
+और उस आत्मा को जगाने वाले थे—
+
+चारण।
+
+---
+
+उनका जन्म तलवार के लिए नहीं हुआ था।
+
+लेकिन उनके शब्द…
+
+तलवार से भी गहरे वार करते थे।
+
+---
+
+बचपन से ही उन्हें सिखाया जाता था—
+
+वंशों की गाथाएँ।
+
+वीरों की कथाएँ।
+
+बलिदानों की आग।
+
+---
+
+उनकी स्मृति में इतिहास जीवित रहता था।
+
+हर नाम…
+
+हर युद्ध…
+
+हर घाव…
+
+सब कुछ।
+
+---
+
+एक चारण जब बोलता था—
+
+तो वह केवल कविता नहीं होती थी।
+
+वह एक आदेश होता था।
+
+एक चुनौती।
+
+एक आईना।
+
+---
+
+एक सुबह—
+
+युद्ध से पहले—
+
+राजा अपनी सेना के साथ खड़ा था।
+
+लेकिन उसके चेहरे पर संदेह था।
+
+---
+
+“क्या हम जीत पाएँगे?” उसने धीरे से पूछा।
+
+---
+
+उसके आसपास सन्नाटा छा गया।
+
+---
+
+तभी—
+
+एक चारण आगे बढ़ा।
+
+---
+
+उसकी आँखों में आग थी।
+
+---
+
+“महाराज,” उसने कहा,
+
+“क्या आप भूल गए—आप किस वंश से हैं?”
+
+---
+
+राजा ने उसकी ओर देखा।
+
+---
+
+चारण ने अपनी वीणा उठाई।
+
+और फिर—
+
+गाना शुरू किया।
+
+---
+
+“वह रक्त जो तुम्हारी नसों में है—
+
+वह कभी पीछे नहीं हटता…”
+
+---
+
+उसकी आवाज़ गूँजने लगी।
+
+---
+
+“वह तलवार—
+
+जो तुम्हारे पूर्वजों ने उठाई—
+
+वह कभी झुकी नहीं…”
+
+---
+
+राजा की आँखों में चमक लौट आई।
+
+---
+
+सेना सीधी हो गई।
+
+---
+
+“आज अगर तुम पीछे हटे—
+
+तो इतिहास तुम्हें नहीं पहचानेगा…”
+
+---
+
+यह केवल गीत नहीं था।
+
+यह एक आग थी—
+
+जो हर दिल में जल उठी।
+
+---
+
+राजा ने अपनी तलवार उठाई।
+
+“हम पीछे नहीं हटेंगे!” उसने गर्जना की।
+
+---
+
+और फिर—
+
+युद्ध शुरू हुआ।
+
+---
+
+घोड़े दौड़े।
+
+तलवारें टकराईं।
+
+धूल उड़ने लगी।
+
+---
+
+चारण…
+
+वहीं खड़ा था।
+
+---
+
+रणभूमि के बीच।
+
+---
+
+वह देख रहा था—
+
+हर वार।
+
+हर बलिदान।
+
+---
+
+और फिर—
+
+उसने गाना शुरू किया।
+
+---
+
+“देखो—
+
+कैसे यह वीर लड़ रहा है…”
+
+---
+
+एक योद्धा—
+
+जिसकी तलवार खून से भीगी थी—
+
+उसने वह आवाज़ सुनी।
+
+---
+
+उसका मन और प्रज्वलित हो गया।
+
+---
+
+“और आगे!” वह चिल्लाया।
+
+---
+
+चारण की आवाज़—
+
+हर दिशा में फैल रही थी।
+
+---
+
+“यह युद्ध केवल भूमि का नहीं—
+
+यह सम्मान का है…”
+
+---
+
+युद्ध और उग्र हो गया।
+
+---
+
+एक योद्धा गिरा।
+
+---
+
+चारण ने उसे देखा।
+
+और गाया—
+
+“वह गिरा नहीं—
+
+वह अमर हुआ…”
+
+---
+
+उसके साथी—
+
+और अधिक जोश से लड़ने लगे।
+
+---
+
+चारण के शब्द—
+
+उनकी शक्ति बन गए।
+
+---
+
+घंटों बाद—
+
+युद्ध समाप्त हुआ।
+
+---
+
+धूल बैठी।
+
+---
+
+मैदान पर—
+
+शव थे।
+
+---
+
+लेकिन वहाँ एक और चीज थी—
+
+एक कथा।
+
+---
+
+चारण ने अपनी वीणा उठाई।
+
+---
+
+उसने गाना शुरू किया।
+
+---
+
+“आज—
+
+यहाँ—
+
+इतिहास लिखा गया…”
+
+---
+
+और उसी क्षण—
+
+एक साधारण युद्ध—
+
+एक अमर गाथा बन गया।
+
+---
+
+राजपूताना के किलों में—
+
+आज भी—
+
+जब हवा चलती है—
+
+तो वह केवल हवा नहीं होती।
+
+---
+
+वह उन गीतों की गूँज होती है।
+
+---
+
+चारण—
+
+वे केवल कवि नहीं थे।
+
+---
+
+वे थे—
+
+धर्म की आवाज़।
+
+सम्मान की याद।
+
+और इतिहास के रक्षक।
+
+---
+
+अगर कोई राजा डगमगाता—
+
+तो वही उसे संभालते।
+
+अगर कोई वीर गिरता—
+
+तो वही उसे अमर करते।
+
+---
+
+उनके बिना—
+
+शायद तलवारें लड़तीं—
+
+लेकिन कहानियाँ मर जातीं।
+
+---
+
+आज भी—
+
+जब किसी पुराने किले के गलियारे में कदमों की आवाज़ गूँजती है—
+
+तो ऐसा लगता है—
+
+मानो कोई अब भी गा रहा हो।
+
+---
+
+एक चारण…
+
+जो समय से परे खड़ा है।
+
+---
+
+और उसकी आवाज़ कहती है—
+
+“वीरता केवल जीती नहीं जाती…
+
+उसे याद भी रखा जाता है।” `
+
     ],
-    coverImage: { src: '/images/legends/charan-bards.jpg', alt: 'A Charan bard reciting poetry in a royal court.' }
+    coverImage: { src: '/images/dynasties/gallery/vijay-stambha.jpg', alt: 'A Charan bard reciting poetry in a royal court.' }
   },
   {
     id: 'ballad-of-the-kesariya-turban',
@@ -335,11 +6444,388 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Rajputana Forts',
     story: [
-      'When the saffron (Kesariya) turbans were donned, it meant only one thing: Saka. The warriors had sworn to fight until the last breath, with no thought of return.',
-      'This ballad tells of the quiet dignity with which men tied their turbans before opening the gates of a besieged fort. It was a ritual of transition from the world of men to the world of legends.',
-      'The Kesariya turban remains the most potent symbol of Rajputana’s refusal to surrender, a flame that burned brightest when the night was darkest.'
+      `रात की आख़िरी साँस चल रही थी। किले की ऊँची दीवारों पर मशालें टिमटिमा रही थीं, और हवा में एक अजीब-सी खामोशी पसरी हुई थी—वह खामोशी, जो तूफ़ान से पहले आती है।
+
+नीचे… दुश्मन का समंदर फैला था।
+
+हज़ारों मशालें।
+
+तोपें।
+
+घेराबंदी।
+
+और भीतर—
+
+चित्त में एक निर्णय।
+
+---
+
+किले के प्रांगण में धीरे-धीरे योद्धा एकत्र हो रहे थे।
+
+कोई शोर नहीं।
+
+कोई उत्साह नहीं।
+
+सिर्फ… एक गहरी शांति।
+
+बीच में रखा था—केसरिया वस्त्र।
+
+वह रंग… जो जीवन का नहीं था।
+
+वह रंग… मृत्यु का था।
+
+---
+
+एक वृद्ध सरदार आगे बढ़ा।
+
+उसने अपने हाथों से केसरिया पगड़ी उठाई।
+
+कुछ क्षण के लिए… उसे देखा।
+
+जैसे वह अपने पूरे जीवन को उस कपड़े में देख रहा हो।
+
+---
+
+फिर—
+
+उसने उसे अपने सिर पर बाँध लिया।
+
+---
+
+और उसी क्षण—
+
+वह बदल गया।
+
+अब वह केवल एक मनुष्य नहीं था।
+
+वह एक प्रतिज्ञा था।
+
+---
+
+एक-एक कर—
+
+सभी ने केसरिया बाँधा।
+
+---
+
+कोई अपने बेटे को देख रहा था।
+
+कोई अपने भाई को।
+
+कोई अपने मित्र को।
+
+---
+
+लेकिन कोई कुछ नहीं कह रहा था।
+
+क्योंकि शब्द… अब छोटे पड़ चुके थे।
+
+---
+
+एक युवा योद्धा आगे आया।
+
+उसके हाथ काँप रहे थे।
+
+---
+
+“क्या हम… वापस नहीं आएँगे?” उसने धीमे से पूछा।
+
+---
+
+वृद्ध ने उसकी ओर देखा।
+
+उसकी आँखों में करुणा थी… लेकिन साथ ही कठोर सत्य।
+
+---
+
+“हम लौटेंगे,” उसने कहा।
+
+“लेकिन शरीर में नहीं…”
+
+“कथा बनकर।”
+
+---
+
+क्षण भर के लिए—
+
+युवा की साँस रुक गई।
+
+---
+
+फिर उसने भी—
+
+केसरिया बाँध लिया।
+
+---
+
+ऊपर, प्राचीरों के पीछे—
+
+जौहर की अग्नि जल चुकी थी।
+
+---
+
+लपटें आकाश को छू रही थीं।
+
+और उस अग्नि में—
+
+उनके अपने लोग…
+
+स्वयं को समर्पित कर चुके थे।
+
+---
+
+अब—
+
+पीछे कुछ नहीं बचा था।
+
+---
+
+द्वार के पास—
+
+घोड़े तैयार खड़े थे।
+
+तलवारें चमक रही थीं।
+
+---
+
+एक सरदार ने ऊँची आवाज़ में कहा—
+
+“आज…”
+
+“हम जीवित नहीं लौटेंगे!”
+
+---
+
+उत्तर में गूँजा—
+
+“हर हर महादेव!”
+
+---
+
+वह गर्जना… दीवारों से टकराकर आसमान तक पहुँची।
+
+---
+
+द्वार धीरे-धीरे खुलने लगे।
+
+---
+
+बाहर—
+
+दुश्मन तैयार था।
+
+---
+
+अंदर—
+
+मृत्यु तैयार थी।
+
+---
+
+और बीच में—
+
+वे योद्धा।
+
+---
+
+पहला कदम बाहर पड़ा।
+
+---
+
+और फिर—
+
+सभी टूट पड़े।
+
+---
+
+घोड़े दौड़े।
+
+तलवारें टकराईं।
+
+धूल का तूफ़ान उठ खड़ा हुआ।
+
+---
+
+हर योद्धा…
+
+एक साथ लड़ रहा था।
+
+---
+
+कोई पीछे नहीं देख रहा था।
+
+क्योंकि पीछे—
+
+अब कुछ था ही नहीं।
+
+---
+
+एक योद्धा—
+
+तीर से घायल हुआ।
+
+---
+
+वह गिरा—
+
+लेकिन उठ खड़ा हुआ।
+
+---
+
+“अभी नहीं!” उसने चिल्लाया।
+
+---
+
+और फिर—
+
+फिर से कूद पड़ा।
+
+---
+
+एक और—
+
+घोड़े से गिरा।
+
+---
+
+लेकिन जमीन से ही—
+
+उसने तलवार चलाई।
+
+---
+
+यह युद्ध नहीं था।
+
+यह—
+
+अंतिम नृत्य था।
+
+---
+
+एक-एक कर—
+
+वे गिरते गए।
+
+---
+
+लेकिन हर गिरने के साथ—
+
+दुश्मन भी गिर रहा था।
+
+---
+
+रक्त…
+
+रेत में मिल गया।
+
+---
+
+सूरज उगने लगा।
+
+---
+
+और उसके साथ—
+
+किले के बाहर…
+
+एक सन्नाटा छा गया।
+
+---
+
+दुश्मन खड़ा था।
+
+जीत गया था।
+
+---
+
+लेकिन…
+
+आगे बढ़ने का साहस नहीं कर पा रहा था।
+
+---
+
+क्योंकि उसने देखा था—
+
+वह क्या था।
+
+---
+
+वह केवल युद्ध नहीं था।
+
+वह—
+
+अवज्ञा थी।
+
+---
+
+वह—
+
+एक संदेश था।
+
+---
+
+कि कुछ लोग…
+
+मर सकते हैं।
+
+लेकिन झुक नहीं सकते।
+
+---
+
+किले की दीवारें अब भी खड़ी थीं।
+
+---
+
+और हवा में—
+
+अब भी वह रंग था।
+
+---
+
+केसरिया।
+
+---
+
+आज भी—
+
+जब वह पगड़ी बाँधी जाती है—
+
+तो वह केवल एक वस्त्र नहीं होता।
+
+---
+
+वह एक स्मृति होती है।
+
+एक शपथ।
+
+---
+
+कि जब अंधेरा सबसे गहरा होगा—
+
+तभी…
+
+सबसे प्रचंड आग जलेगी।
+
+---
+
+केसरिया—
+
+वह रंग…
+
+जो मृत्यु से नहीं डरता।
+
+---
+
+वह रंग—
+
+जो कहता है—
+
+“जीवन समाप्त हो सकता है…”
+
+“लेकिन सम्मान… कभी नहीं।” `
+
     ],
-    coverImage: { src: '/images/legends/kesariya-turban.jpg', alt: 'Rajput warriors tying saffron turbans before battle.' }
+    coverImage: { src: '/images/dynasties/seals/mewar-sisodia-seal.png', alt: 'Rajput warriors tying saffron turbans before battle.' }
   },
   {
     id: 'legend-of-the-rajput-sword-oath',
@@ -349,11 +6835,470 @@ export const allLegends: Legend[] = [
     era: 'Ancient',
     location: 'Clan Shrines',
     story: [
-      'The sword was not just a weapon but a sacred entity. An oath taken on the hilt of a sword was unbreakable, carrying the weight of ancestors and the honor of the clan.',
-      'This legend recounts the story of a young warrior who swore to protect a village against a bandit army. Even when abandoned by his allies, his oath held him to the ground.',
-      'The "Sword Oath" remains a symbol of the uncompromising nature of Rajput integrity, where a man’s word was as sharp and enduring as the blade he carried.'
+      `भोर की पहली रेखा अभी क्षितिज पर उभरी ही थी, जब उस छोटे-से गाँव के बाहर धूल का एक बवंडर उठने लगा। दूर—रेत की लहरों के पार—घोड़ों की टापों की गूँज सुनाई दे रही थी।
+
+लोग समझ गए।
+
+लुटेरे आ रहे हैं।
+
+---
+
+गाँव छोटा था।
+
+दीवारें कमजोर।
+
+और हथियार… सीमित।
+
+लेकिन उस सुबह—
+
+वहाँ एक योद्धा खड़ा था।
+
+युवा।
+
+अकेला।
+
+और उसकी मुट्ठी में थी—
+
+एक तलवार।
+
+---
+
+वह तलवार केवल लोहे की नहीं थी।
+
+उसकी मूठ पर समय की परतें थीं।
+
+उसकी धार पर पूर्वजों की गूँज थी।
+
+---
+
+बचपन में—
+
+जब उसे यह तलवार दी गई थी—
+
+उसके पिता ने कहा था—
+
+“यह केवल हथियार नहीं है।”
+
+“यह… तुम्हारा वचन है।”
+
+---
+
+उस दिन—
+
+उसने उस तलवार की मूठ पर हाथ रखा था।
+
+और कहा था—
+
+“मैं इसकी लाज रखूँगा।”
+
+---
+
+आज…
+
+वही दिन था।
+
+---
+
+गाँव के लोग उसके पास इकट्ठा हुए।
+
+उनकी आँखों में भय था।
+
+“हम क्या करेंगे?” एक वृद्ध ने पूछा।
+
+---
+
+युवा योद्धा ने तलवार निकाली।
+
+सूरज की पहली किरण उस पर पड़ी—
+
+और वह चमक उठी।
+
+---
+
+“हम लड़ेंगे,” उसने कहा।
+
+---
+
+“लेकिन वे बहुत हैं…” किसी ने कहा।
+
+---
+
+“मैं हूँ,” उसने उत्तर दिया।
+
+---
+
+क्षण भर के लिए—
+
+सन्नाटा।
+
+---
+
+फिर—
+
+उसने अपनी तलवार की मूठ को दोनों हाथों से पकड़ा।
+
+आँखें बंद कीं।
+
+---
+
+“मैं शपथ लेता हूँ…”
+
+उसकी आवाज़ गूँजी।
+
+---
+
+“जब तक यह तलवार मेरे हाथ में है…”
+
+“यह गाँव नहीं गिरेगा।”
+
+---
+
+वह केवल शब्द नहीं थे।
+
+वह एक बंधन था।
+
+---
+
+कुछ योद्धा उसके साथ खड़े हो गए।
+
+कुछ ने डर में पीछे हटना चुना।
+
+---
+
+लेकिन वह…
+
+अडिग रहा।
+
+---
+
+दूर—
+
+लुटेरे अब स्पष्ट दिख रहे थे।
+
+उनकी संख्या… भारी।
+
+उनके चेहरे… निर्दयी।
+
+---
+
+“द्वार बंद करो!” किसी ने चिल्लाया।
+
+---
+
+गाँव के कच्चे फाटक बंद कर दिए गए।
+
+---
+
+युवा योद्धा दीवार पर चढ़ गया।
+
+उसकी आँखें सामने जमी थीं।
+
+---
+
+“याद रखना,” उसने अपने साथियों से कहा,
+
+“हमारे पीछे… हमारा घर है।”
+
+---
+
+पहला हमला—
+
+तेज।
+
+---
+
+लुटेरे फाटक से टकराए।
+
+धक्के।
+
+शोर।
+
+---
+
+ऊपर से—
+
+तीर बरसने लगे।
+
+---
+
+कुछ गिर गए।
+
+लेकिन बाकी रुके नहीं।
+
+---
+
+“तोड़ दो!” उनका नेता चिल्लाया।
+
+---
+
+फाटक हिलने लगा।
+
+---
+
+युवा योद्धा नीचे उतरा।
+
+तलवार कसकर पकड़ी।
+
+---
+
+“अब…” उसने कहा।
+
+---
+
+फाटक टूट गया।
+
+---
+
+लुटेरे भीतर घुसे।
+
+---
+
+और फिर—
+
+युद्ध शुरू हुआ।
+
+---
+
+पहला वार—
+
+उसने सीधा सामने वाले को गिरा दिया।
+
+---
+
+दूसरा—
+
+तीसरा—
+
+---
+
+उसकी चाल में डर नहीं था।
+
+केवल संकल्प।
+
+---
+
+एक भाला उसकी बाँह में धँस गया।
+
+---
+
+उसने उसे खींचा—
+
+और फिर भी—लड़ा।
+
+---
+
+“पीछे मत हटो!” उसकी आवाज़ गूँजी।
+
+---
+
+लेकिन उसके साथी—
+
+धीरे-धीरे गिरने लगे।
+
+---
+
+कुछ भाग गए।
+
+---
+
+कुछ…
+
+यहीं रह गए।
+
+---
+
+अब—
+
+वह लगभग अकेला था।
+
+---
+
+लुटेरों ने उसे घेर लिया।
+
+---
+
+“अब क्या करेगा?” उनका सरदार हँसा।
+
+---
+
+युवा योद्धा ने उत्तर नहीं दिया।
+
+---
+
+उसने अपनी तलवार उठाई।
+
+---
+
+“जब तक मैं हूँ…”
+
+“तुम आगे नहीं बढ़ोगे।”
+
+---
+
+और फिर—
+
+वह टूट पड़ा।
+
+---
+
+एक के बाद एक—
+
+लुटेरे गिरते गए।
+
+---
+
+लेकिन घाव बढ़ते गए।
+
+---
+
+खून बह रहा था।
+
+---
+
+उसकी साँसें भारी हो रही थीं।
+
+---
+
+लेकिन उसके हाथ…
+
+अब भी तलवार थामे थे।
+
+---
+
+“क्यों लड़ रहा है?” एक लुटेरे ने पूछा।
+
+---
+
+उसने उत्तर दिया—
+
+“क्योंकि मैंने वचन दिया है।”
+
+---
+
+एक अंतिम वार—
+
+उसने किया।
+
+---
+
+और एक और शत्रु गिरा।
+
+---
+
+फिर—
+
+उसके घुटने झुक गए।
+
+---
+
+वह जमीन पर गिरा।
+
+---
+
+लेकिन—
+
+उसकी तलवार… अब भी उठी हुई थी।
+
+---
+
+लुटेरे रुके।
+
+---
+
+उन्होंने एक-दूसरे की ओर देखा।
+
+---
+
+“यह पागल है…” किसी ने कहा।
+
+---
+
+लेकिन उनके कदम आगे नहीं बढ़े।
+
+---
+
+कुछ क्षण बाद—
+
+वे पीछे हट गए।
+
+---
+
+गाँव… बच गया।
+
+---
+
+सूरज पूरी तरह उग चुका था।
+
+---
+
+और उस प्रकाश में—
+
+एक योद्धा पड़ा था।
+
+---
+
+शांत।
+
+---
+
+उसकी मुट्ठी में—
+
+अब भी वही तलवार थी।
+
+---
+
+उसकी उँगलियाँ…
+
+अब भी उसकी मूठ को थामे थीं।
+
+---
+
+जैसे वह वचन—
+
+अब भी जीवित हो।
+
+---
+
+आज भी—
+
+जब कोई तलवार उठाता है—
+
+तो वह केवल हथियार नहीं उठाता।
+
+---
+
+वह एक शपथ उठाता है।
+
+---
+
+एक वचन—
+
+जो टूटता नहीं।
+
+---
+
+क्योंकि राजपूताना में—
+
+शब्द…
+
+तलवार की तरह होते हैं।
+
+---
+
+एक बार निकल जाएँ—
+
+तो फिर लौटते नहीं।
+
+---
+
+और वही वचन—
+
+एक साधारण मनुष्य को…
+
+अमर बना देता है।`
+
     ],
-    coverImage: { src: '/images/legends/sword-oath.jpg', alt: 'A warrior taking a solemn oath over his sword.' }
+    coverImage: { src: '/images/dynasties/seals/chauhan-ajmer-seal.png', alt: 'A warrior taking a solemn oath over his sword.' }
   },
   {
     id: 'tale-of-the-desert-falcon',
@@ -363,11 +7308,514 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Thar Desert',
     story: [
-      'The Desert Falcon was the title given to the most skilled scouts of the Thar. They moved like shadows across the dunes, providing the intelligence that saved kingdoms.',
-      'This tale follows one such scout who navigated a blinding sandstorm to warn his king of a surprise invasion. He arrived just as the first enemy torches appeared on the horizon.',
-      'His legend celebrates the silent, often invisible work that allowed the grand fortresses of the desert to stand tall against the winds of war.'
+      `रेगिस्तान उस दिन शांत नहीं था।
+
+आकाश पीला पड़ गया था, और हवा ने अपना रूप बदल लिया था—वह अब केवल बह नहीं रही थी, वह गरज रही थी। रेत के कण हवा में उठकर एक दीवार बन गए थे, जो आँखों को अंधा कर दे, साँसों को रोक दे।
+
+यह तूफ़ान था।
+
+और उसी तूफ़ान के भीतर—
+
+एक छाया दौड़ रही थी।
+
+---
+
+उसका नाम इतिहास में नहीं लिखा गया।
+
+लोग उसे बस एक नाम से जानते थे—
+
+“मरु बाज़”।
+
+रेगिस्तान का बाज़।
+
+---
+
+बचपन से ही वह अलग था।
+
+जहाँ दूसरे बच्चे धूप से बचते थे, वह रेत में दौड़ता था।
+
+जहाँ लोग दिशा खो देते थे, वह रास्ता ढूँढ लेता था।
+
+उसकी आँखें…
+
+दूर तक देखती थीं।
+
+और उसका मन—
+
+रेगिस्तान की भाषा समझता था।
+
+---
+
+“रेत बोलती है,” उसके गुरु ने कहा था।
+
+“बस सुनना सीखो।”
+
+---
+
+वर्षों के अभ्यास के बाद—
+
+वह केवल एक सैनिक नहीं रहा।
+
+वह बन गया—
+
+छाया।
+
+---
+
+राज्य के लिए—
+
+उसका कार्य था—
+
+देखना।
+
+सुनना।
+
+और समय से पहले चेतावनी देना।
+
+---
+
+एक दिन—
+
+वह सीमा पर था।
+
+ऊँचे टीले पर खड़ा।
+
+हवा सामान्य थी।
+
+सब कुछ शांत।
+
+---
+
+तभी—
+
+उसने कुछ देखा।
+
+दूर…
+
+बहुत दूर…
+
+---
+
+रेत की एक हल्की-सी लहर—
+
+जो हवा के विपरीत चल रही थी।
+
+---
+
+उसकी आँखें सिकुड़ गईं।
+
+“यह हवा नहीं है…” उसने बुदबुदाया।
+
+---
+
+फिर—
+
+एक चमक।
+
+---
+
+मशाल।
+
+---
+
+और फिर—
+
+और भी।
+
+---
+
+“दुश्मन…” उसने कहा।
+
+---
+
+संख्या…
+
+असंख्य।
+
+---
+
+वे सीधे किले की ओर बढ़ रहे थे।
+
+---
+
+समय बहुत कम था।
+
+---
+
+उसने अपने घोड़े को एड़ी मारी।
+
+---
+
+“चलो!” उसने कहा।
+
+---
+
+घोड़ा दौड़ा।
+
+---
+
+लेकिन तभी—
+
+आकाश बदल गया।
+
+---
+
+तूफ़ान उठा।
+
+---
+
+रेत का बवंडर—
+
+चारों ओर।
+
+---
+
+दिशाएँ गायब।
+
+रास्ते मिट गए।
+
+---
+
+घोड़ा डगमगाया।
+
+---
+
+“रुको मत!” उसने चिल्लाया।
+
+---
+
+रेत उसकी आँखों में घुस रही थी।
+
+साँस लेना कठिन हो रहा था।
+
+---
+
+लेकिन वह रुका नहीं।
+
+---
+
+उसने आँखें बंद कीं।
+
+और महसूस किया—
+
+हवा की दिशा।
+
+रेत की चाल।
+
+---
+
+“बाएँ…” उसने फुसफुसाया।
+
+---
+
+घोड़ा मुड़ा।
+
+---
+
+कुछ दूर—
+
+फिर रुका।
+
+---
+
+“नहीं… दाएँ।”
+
+---
+
+वह केवल देख नहीं रहा था—
+
+वह सुन रहा था।
+
+---
+
+रेगिस्तान…
+
+उससे बात कर रहा था।
+
+---
+
+घंटों जैसे बीत गए।
+
+---
+
+तूफ़ान और तेज हो गया।
+
+---
+
+एक क्षण—
+
+घोड़ा फिसला।
+
+---
+
+दोनों गिर पड़े।
+
+---
+
+रेत ने उन्हें ढँक लिया।
+
+---
+
+कुछ क्षण के लिए—
+
+सब कुछ शांत।
+
+---
+
+फिर—
+
+वह उठा।
+
+---
+
+उसने घोड़े को खड़ा किया।
+
+उसकी आँखों में देखा।
+
+---
+
+“अभी नहीं…” उसने कहा।
+
+---
+
+और फिर—
+
+दोनों फिर दौड़े।
+
+---
+
+धीरे-धीरे—
+
+तूफ़ान कम होने लगा।
+
+---
+
+क्षितिज फिर दिखने लगा।
+
+---
+
+और वहाँ—
+
+दूर—
+
+किला।
+
+---
+
+लेकिन…
+
+दुश्मन भी।
+
+---
+
+मशालें अब स्पष्ट थीं।
+
+---
+
+समय—
+
+लगभग समाप्त।
+
+---
+
+वह अंतिम बार दौड़ा।
+
+---
+
+किले के द्वार पर—
+
+पहरेदार खड़े थे।
+
+---
+
+“कौन है?” उन्होंने चिल्लाया।
+
+---
+
+वह रुका नहीं।
+
+---
+
+“द्वार खोलो!” उसकी आवाज़ गूँजी।
+
+---
+
+“दुश्मन आ रहा है!”
+
+---
+
+क्षण भर में—
+
+घंटी बजी।
+
+---
+
+किला जाग गया।
+
+---
+
+“सेना तैयार करो!”
+
+“द्वार बंद करो!”
+
+“तोपें सजाओ!”
+
+---
+
+कुछ ही पलों में—
+
+किला युद्ध के लिए तैयार था।
+
+---
+
+वह नीचे उतरा।
+
+उसकी साँसें भारी थीं।
+
+---
+
+“कितनी दूर?” एक सरदार ने पूछा।
+
+---
+
+“बस… कुछ ही पल,” उसने कहा।
+
+---
+
+और तभी—
+
+क्षितिज पर—
+
+मशालें उभरीं।
+
+---
+
+युद्ध शुरू हुआ।
+
+---
+
+लेकिन इस बार—
+
+किला तैयार था।
+
+---
+
+दुश्मन चौंक गया।
+
+---
+
+उनकी योजना—
+
+विफल हो गई।
+
+---
+
+युद्ध उग्र हुआ।
+
+---
+
+लेकिन किले की दीवारें—
+
+मजबूत थीं।
+
+---
+
+और अंततः—
+
+दुश्मन पीछे हट गया।
+
+---
+
+सूरज उग चुका था।
+
+---
+
+किला सुरक्षित था।
+
+---
+
+लोगों ने राहत की साँस ली।
+
+---
+
+लेकिन वह…
+
+चुप था।
+
+---
+
+वह प्राचीर पर खड़ा था।
+
+---
+
+उसकी आँखें—
+
+अब भी दूर देख रही थीं।
+
+---
+
+“तुमने हमें बचा लिया,” एक सरदार ने कहा।
+
+---
+
+उसने केवल सिर हिलाया।
+
+---
+
+“यह मेरा काम था।”
+
+---
+
+कोई जयकार नहीं।
+
+कोई उत्सव नहीं।
+
+---
+
+क्योंकि उसका कार्य—
+
+देखा नहीं जाता था।
+
+---
+
+लेकिन उसी कार्य ने—
+
+राज्य को जीवित रखा।
+
+---
+
+आज भी—
+
+जब रेगिस्तान में हवा चलती है—
+
+तो लगता है—
+
+मानो कोई छाया दौड़ रही हो।
+
+---
+
+मरु बाज़।
+
+---
+
+वह योद्धा—
+
+जो दिखता नहीं था।
+
+---
+
+लेकिन जिसके कारण—
+
+किले खड़े रहे।
+
+---
+
+और इतिहास…
+
+लिखा गया।`
+
     ],
-    coverImage: { src: '/images/legends/desert-falcon.jpg', alt: 'A lone scout watching the horizon from a dune.' }
+    coverImage: { src: '/images/dynasties/places/jaisalmer-bhati-main.jpg', alt: 'A lone scout watching the horizon from a dune.' }
   },
   {
     id: 'legend-of-the-eternal-watch-at-chittor',
@@ -377,11 +7825,410 @@ export const allLegends: Legend[] = [
     era: 'Timeless',
     location: 'Chittorgarh',
     story: [
-      'It is said that at Chittorgarh, the watch never ends. The spirits of the fallen warriors are believed to still pace the ramparts at night, keeping the eternal vigil.',
-      'This legend tells of travelers who heard the clink of armor and the sound of phantom horse-hooves near the Victory Tower long after the tourists had gone.',
-      'It is a reminder that some places are so deeply soaked in sacrifice that the boundary between the past and the present remains forever thin.'
+      `रात का वह समय था—जब चित्तौड़ की दीवारों पर दिन की सारी चहल-पहल बुझ चुकी थी। पर्यटक जा चुके थे, दीपक बुझ चुके थे, और किले की विशाल प्राचीरें फिर से अपने प्राचीन मौन में डूब गई थीं।
+
+लेकिन वह मौन… पूर्ण नहीं था।
+
+उसके भीतर कुछ था।
+
+कुछ… जो अब भी जाग रहा था।
+
+---
+
+विजय स्तंभ की छाया लंबी होकर पत्थरों पर फैल रही थी। हवा धीमी थी, लेकिन उसमें एक अजीब-सी गूँज थी—जैसे कोई बहुत पुरानी आवाज़ बार-बार लौट रही हो।
+
+एक यात्री उस रात किले में रुका था।
+
+उसने सोचा था—यह बस एक खंडहर है।
+
+पत्थरों का एक शहर।
+
+इतिहास का एक अवशेष।
+
+---
+
+लेकिन जैसे ही रात गहरी हुई—
+
+उसे पहली आवाज़ सुनाई दी।
+
+---
+
+टन…
+
+---
+
+जैसे धातु किसी और धातु से टकराई हो।
+
+---
+
+वह उठ बैठा।
+
+उसने चारों ओर देखा।
+
+कुछ नहीं।
+
+---
+
+फिर—
+
+एक और आवाज़।
+
+---
+
+खुरों की टाप।
+
+धीमी।
+
+लेकिन स्पष्ट।
+
+---
+
+वह काँप उठा।
+
+“कोई है?” उसने पुकारा।
+
+---
+
+उत्तर में—
+
+केवल हवा।
+
+---
+
+लेकिन वह आवाज़ अब और पास आ रही थी।
+
+---
+
+वह धीरे-धीरे बाहर निकला।
+
+पत्थर की सीढ़ियाँ चढ़ते हुए—
+
+वह प्राचीर तक पहुँचा।
+
+---
+
+और फिर—
+
+उसने देखा।
+
+---
+
+एक आकृति।
+
+---
+
+धुंधली।
+
+लेकिन स्पष्ट।
+
+---
+
+एक योद्धा।
+
+केसरिया बंधा हुआ।
+
+तलवार हाथ में।
+
+---
+
+वह चल रहा था—
+
+धीरे-धीरे।
+
+---
+
+जैसे वह पहरा दे रहा हो।
+
+---
+
+यात्री की साँस रुक गई।
+
+---
+
+“तुम… कौन हो?” उसने फुसफुसाया।
+
+---
+
+कोई उत्तर नहीं।
+
+---
+
+लेकिन फिर—
+
+एक और आकृति।
+
+---
+
+फिर—
+
+एक और।
+
+---
+
+पूरा किला…
+
+जाग रहा था।
+
+---
+
+प्राचीरों पर—
+
+योद्धा चल रहे थे।
+
+---
+
+घोड़े…
+
+छाया में दौड़ रहे थे।
+
+---
+
+तलवारों की चमक…
+
+क्षण भर को दिखाई देती—
+
+फिर गायब हो जाती।
+
+---
+
+और फिर—
+
+एक गर्जना।
+
+---
+
+“हर हर महादेव!”
+
+---
+
+यात्री पीछे हट गया।
+
+उसकी आँखों में भय था।
+
+---
+
+लेकिन उन आकृतियों में—
+
+भय नहीं था।
+
+---
+
+वे वही थे—
+
+जो सदियों पहले—
+
+यहाँ लड़े थे।
+
+---
+
+जिन्होंने केसरिया बाँधा था।
+
+जिन्होंने साका किया था।
+
+---
+
+और जो अब भी—
+
+अपना पहरा निभा रहे थे।
+
+---
+
+एक योद्धा—
+
+विजय स्तंभ के पास रुका।
+
+---
+
+उसने दूर क्षितिज की ओर देखा।
+
+---
+
+जैसे वह अब भी—
+
+दुश्मन की प्रतीक्षा कर रहा हो।
+
+---
+
+उसकी आँखों में—
+
+वही ज्वाला थी।
+
+---
+
+जो कभी बुझी नहीं।
+
+---
+
+यात्री धीरे-धीरे पीछे हटा।
+
+---
+
+उसने महसूस किया—
+
+यह स्थान…
+
+केवल पत्थर नहीं है।
+
+---
+
+यह जीवित है।
+
+---
+
+यहाँ हर दीवार…
+
+हर प्राचीर…
+
+हर सीढ़ी—
+
+एक कहानी है।
+
+---
+
+एक बलिदान।
+
+---
+
+एक प्रतिज्ञा।
+
+---
+
+और वह प्रतिज्ञा…
+
+अभी भी टूटी नहीं है।
+
+---
+
+भोर होने लगी।
+
+---
+
+आकाश हल्का हुआ।
+
+---
+
+और धीरे-धीरे—
+
+वे आकृतियाँ गायब होने लगीं।
+
+---
+
+प्राचीर फिर खाली हो गई।
+
+---
+
+किला फिर शांत हो गया।
+
+---
+
+लेकिन यात्री जान चुका था—
+
+यह शांति…
+
+सिर्फ दिन की है।
+
+---
+
+रात होते ही—
+
+फिर वही होगा।
+
+---
+
+क्योंकि चित्तौड़ में—
+
+पहरा कभी खत्म नहीं होता।
+
+---
+
+यहाँ के योद्धा—
+
+मरते नहीं।
+
+---
+
+वे बस…
+
+रूप बदलते हैं।
+
+---
+
+और हर रात—
+
+जब दुनिया सो जाती है—
+
+वे फिर उठते हैं।
+
+---
+
+तलवारें उठाते हैं।
+
+घोड़े दौड़ाते हैं।
+
+---
+
+और वही करते हैं—
+
+जो उन्होंने जीवन भर किया था—
+
+---
+
+रक्षा।
+
+---
+
+यह किला—
+
+केवल इतिहास नहीं है।
+
+---
+
+यह एक सीमा है—
+
+जहाँ अतीत और वर्तमान—
+
+मिल जाते हैं।
+
+---
+
+जहाँ समय…
+
+ठहर जाता है।
+
+---
+
+और जहाँ—
+
+बलिदान इतना गहरा है—
+
+कि मृत्यु भी उसे समाप्त नहीं कर पाती।
+
+---
+
+आज भी—
+
+अगर कोई रात में वहाँ खड़ा हो—
+
+और ध्यान से सुने—
+
+---
+
+तो उसे सुनाई देगा—
+
+---
+
+खुरों की टाप…
+
+तलवारों की टकराहट…
+
+और एक आवाज़—
+
+---
+
+“पहरा जारी है…” `
+
     ],
-    coverImage: { src: '/images/legends/chittor-watch.jpg', alt: 'Shadowy figures on the battlements of Chittor.' }
+    coverImage: { src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Shadowy figures on the battlements of Chittor.' }
   },
   {
     id: 'ballad-of-the-aravalli-riders',
@@ -391,11 +8238,450 @@ export const allLegends: Legend[] = [
     era: '16th Century',
     location: 'Aravalli Hills',
     story: [
-      'The Aravalli Riders were the light cavalry that Maharana Pratap used to harass the Mughal supply lines. They knew every hidden path and narrow gorge in the rugged hills.',
-      'This ballad celebrates their hit-and-run tactics, which turned the Aravallis into a graveyard for invading armies who were used to fighting on open plains.',
-      'Their legacy is the story of how knowledge of the land can be a more powerful weapon than a hundred cannons.'
+     `अरावली की पहाड़ियों पर सूरज ढल रहा था, लेकिन वह एक साधारण संध्या नहीं थी। घाटियों में अँधेरा उतर रहा था, और उसी अँधेरे में कुछ परछाइयाँ हिल रही थीं—तेज़, चुपचाप, और घातक।
+
+वे थे—
+
+अरावली के सवार।
+
+महाराणा प्रताप की वह सेना… जो दिखाई नहीं देती थी, लेकिन हर जगह थी।
+
+---
+
+मुग़ल सेना मैदानों की आदी थी।
+
+खुले रणक्षेत्र।
+
+सीधी टक्कर।
+
+तोपों की गरज।
+
+लेकिन अरावली…
+
+वह अलग थी।
+
+यहाँ रास्ते सीधे नहीं थे।
+
+यहाँ हर मोड़ एक जाल था।
+
+हर घाटी… एक घात।
+
+---
+
+महाराणा प्रताप उस ऊँची चोटी पर खड़े थे।
+
+नीचे—मुग़ल सेना का काफिला बढ़ रहा था।
+
+रसद, हथियार, घोड़े—
+
+सब कुछ।
+
+---
+
+उनके साथ खड़े थे—उनके सवार।
+
+हल्के घुड़सवार।
+
+तेज़।
+
+चुप।
+
+---
+
+“आज हम युद्ध नहीं करेंगे,” प्रताप ने कहा।
+
+---
+
+एक सवार ने पूछा—
+
+“तो फिर क्या करेंगे, महाराणा?”
+
+---
+
+प्रताप की आँखों में एक हल्की चमक आई।
+
+---
+
+“हम उन्हें थकाएँगे…”
+
+“तोड़ेंगे…”
+
+“और फिर… गायब हो जाएँगे।”
+
+---
+
+यह युद्ध का नया तरीका था।
+
+---
+
+रात गहराई।
+
+---
+
+मुग़ल काफिला घाटी में प्रवेश कर चुका था।
+
+---
+
+अचानक—
+
+ऊपर से एक पत्थर गिरा।
+
+---
+
+फिर—
+
+एक तीर।
+
+---
+
+“कौन है?” एक सैनिक चिल्लाया।
+
+---
+
+उत्तर—
+
+मौन।
+
+---
+
+और फिर—
+
+अचानक चारों ओर से हमला।
+
+---
+
+घोड़े दौड़े।
+
+तलवारें चमकीं।
+
+---
+
+कुछ ही क्षणों में—
+
+अराजकता फैल गई।
+
+---
+
+“रसद बचाओ!” सेनापति चिल्लाया।
+
+---
+
+लेकिन तब तक—
+
+बहुत देर हो चुकी थी।
+
+---
+
+सवारों ने तेजी से हमला किया।
+
+जो मिला—नष्ट किया।
+
+---
+
+और फिर—
+
+जैसे आए थे—
+
+वैसे ही…
+
+गायब हो गए।
+
+---
+
+मुग़ल सैनिक स्तब्ध थे।
+
+---
+
+“वे गए कहाँ?” एक ने पूछा।
+
+---
+
+कोई उत्तर नहीं।
+
+---
+
+लेकिन उत्तर था—
+
+अरावली।
+
+---
+
+दूसरा दिन।
+
+---
+
+फिर वही काफिला—
+
+सावधानी से आगे बढ़ रहा था।
+
+---
+
+“इस बार तैयार रहना,” सेनापति ने कहा।
+
+---
+
+लेकिन अरावली के सवार—
+
+तैयार थे।
+
+---
+
+इस बार—
+
+उन्होंने एक सँकरे दर्रे को चुना।
+
+---
+
+जब सेना वहाँ पहुँची—
+
+ऊपर से—
+
+तीर बरसने लगे।
+
+---
+
+नीचे—
+
+घोड़े फिसलने लगे।
+
+---
+
+मार्ग संकरा था।
+
+भागने का रास्ता नहीं।
+
+---
+
+और तभी—
+
+सवार नीचे टूट पड़े।
+
+---
+
+तलवारें।
+
+भाले।
+
+चीखें।
+
+---
+
+कुछ ही देर में—
+
+काफिला फिर नष्ट।
+
+---
+
+और सवार—
+
+फिर गायब।
+
+---
+
+यह युद्ध नहीं था।
+
+यह—
+
+शिकार था।
+
+---
+
+मुग़ल सेना अब डरने लगी थी।
+
+---
+
+“ये सामने क्यों नहीं आते?” एक अधिकारी ने पूछा।
+
+---
+
+दूसरे ने कहा—
+
+“क्योंकि यह उनका मैदान नहीं…”
+
+“यह उनका घर है।”
+
+---
+
+दिन बीतते गए।
+
+---
+
+हर रात—
+
+एक नया हमला।
+
+---
+
+हर दिन—
+
+एक नया नुकसान।
+
+---
+
+रसद कम होने लगी।
+
+मन टूटने लगा।
+
+---
+
+“हम यहाँ लड़ नहीं सकते,” एक सेनापति ने कहा।
+
+---
+
+“यहाँ हर पत्थर… हमारा दुश्मन है।”
+
+---
+
+और सच यही था।
+
+---
+
+अरावली के सवार—
+
+केवल योद्धा नहीं थे।
+
+---
+
+वे उस भूमि के पुत्र थे।
+
+---
+
+उन्हें हर रास्ता पता था।
+
+हर छिपा हुआ दर्रा।
+
+हर गुप्त पगडंडी।
+
+---
+
+एक रात—
+
+प्रताप अपने सवारों के बीच खड़े थे।
+
+---
+
+“याद रखो,” उन्होंने कहा,
+
+“हमारी ताकत… हमारी संख्या नहीं है।”
+
+---
+
+“हमारी ताकत है—यह भूमि।”
+
+---
+
+सभी ने सिर झुकाया।
+
+---
+
+और फिर—
+
+वे फिर निकल पड़े।
+
+---
+
+अँधेरे में।
+
+---
+
+चुपचाप।
+
+---
+
+घात लगाने।
+
+---
+
+युद्ध करने।
+
+---
+
+और फिर—
+
+गायब हो जाने।
+
+---
+
+समय के साथ—
+
+अरावली मुग़लों के लिए एक भय बन गई।
+
+---
+
+एक ऐसा स्थान—
+
+जहाँ वे कभी सुरक्षित नहीं थे।
+
+---
+
+जहाँ हर कदम—
+
+संभावित मृत्यु था।
+
+---
+
+और जहाँ—
+
+कोई युद्ध… कभी समाप्त नहीं होता था।
+
+---
+
+आज भी—
+
+जब उन पहाड़ियों में हवा चलती है—
+
+तो ऐसा लगता है—
+
+मानो घोड़ों की टाप सुनाई दे रही हो।
+
+---
+
+तेज़।
+
+चुप।
+
+घातक।
+
+---
+
+अरावली के सवार—
+
+एक सेना नहीं।
+
+---
+
+एक छाया।
+
+---
+
+एक रणनीति।
+
+---
+
+एक कहानी—
+
+जो सिखाती है—
+
+कि कभी-कभी…
+
+सबसे बड़ा हथियार…
+
+तलवार नहीं होता।
+
+---
+
+बल्कि—
+
+अपनी भूमि की समझ होती है।
+
+---
+
+और वही समझ—
+
+एक साम्राज्य को भी झुका सकती है।`
+
     ],
-    coverImage: { src: '/images/legends/aravalli-riders.jpg', alt: 'Cavalry moving through a narrow mountain pass.' }
+    coverImage: { src: '/images/dynasties/places/mewar.jpg', alt: 'Cavalry moving through a narrow mountain pass.' }
   },
   {
     id: 'tale-of-the-desert-sentinel',
@@ -405,11 +8691,528 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Jaisalmer Frontier',
     story: [
-      'On the furthest edge of the desert, where the water is scarce and the sun is a furnace, stood the Desert Sentinel. He was the first line of defense against raiders from the west.',
-      'This tale recounts the story of a lone sentinel who held an outpost for three days against a marauding band, with only his camel and his courage to keep him company.',
-      'His story is a tribute to the thousands of nameless guards who protected the trade routes and the people of the Thar for centuries.'
+      `रेगिस्तान के उस सुदूर छोर पर—जहाँ धरती जलती हुई धातु जैसी लगती थी और हवा साँसों को चीरती हुई गुजरती थी—एक छोटा-सा चौकीदुर्ग खड़ा था।
+
+न कोई भव्य दीवारें।
+
+न विशाल सेना।
+
+बस… पत्थरों का एक ढेर।
+
+और उस ढेर पर—
+
+एक पहरेदार।
+
+मरु प्रहरी।
+
+---
+
+सूरज सिर पर था।
+
+आकाश आग बन चुका था।
+
+रेत की लहरें चमक रही थीं—मानो हर कण अंगार हो।
+
+उस चौकी पर खड़ा वह अकेला योद्धा दूर क्षितिज को देख रहा था।
+
+उसके साथ था—उसका ऊँट।
+
+वफादार।
+
+शांत।
+
+और उतना ही दृढ़ जितना उसका स्वामी।
+
+---
+
+वह कोई प्रसिद्ध सेनापति नहीं था।
+
+कोई इतिहास में दर्ज नाम नहीं।
+
+लेकिन उसी के जागते रहने पर—
+
+एक पूरा मार्ग निर्भर था।
+
+कारवां…
+
+व्यापार…
+
+लोगों का जीवन।
+
+---
+
+उसका दिन… सरल था।
+
+देखना।
+
+सुनना।
+
+और इंतजार करना।
+
+---
+
+लेकिन उस दिन—
+
+कुछ अलग था।
+
+---
+
+दूर…
+
+रेत की एक रेखा उठी।
+
+---
+
+उसने आँखें सिकोड़कर देखा।
+
+---
+
+धूल।
+
+घोड़ों की टाप।
+
+---
+
+“लुटेरे…” उसने धीमे से कहा।
+
+---
+
+संख्या—
+
+बहुत।
+
+---
+
+उसके पास—
+
+सिर्फ एक तलवार।
+
+एक भाला।
+
+और—
+
+उसका ऊँट।
+
+---
+
+वह भाग सकता था।
+
+---
+
+लेकिन—
+
+उसने मुड़कर चौकी को देखा।
+
+---
+
+“यह मेरा स्थान है,” उसने कहा।
+
+---
+
+और वह रुका।
+
+---
+
+पहला दिन।
+
+---
+
+लुटेरे पास आए।
+
+---
+
+“सिर्फ एक आदमी?” उनके नेता ने हँसकर कहा।
+
+---
+
+“हट जा रास्ते से,” उसने चिल्लाया।
+
+---
+
+उत्तर—
+
+तलवार की चमक में मिला।
+
+---
+
+पहला वार—
+
+एक लुटेरा गिरा।
+
+---
+
+दूसरा—
+
+तीसरा—
+
+---
+
+युद्ध शुरू हो गया।
+
+---
+
+धूल उड़ी।
+
+घोड़े चीखे।
+
+---
+
+मरु प्रहरी अकेला था—
+
+लेकिन उसकी हर चाल सटीक थी।
+
+---
+
+उसका ऊँट—
+
+उसके साथ-साथ घूम रहा था।
+
+---
+
+तेज़।
+
+फुर्तीला।
+
+---
+
+पहले दिन के अंत तक—
+
+लुटेरे पीछे हट गए।
+
+---
+
+“कल लौटेंगे,” उनका नेता बोला।
+
+---
+
+मरु प्रहरी खड़ा रहा।
+
+---
+
+उसकी साँसें भारी थीं।
+
+---
+
+लेकिन उसकी आँखें—
+
+अब भी स्थिर थीं।
+
+---
+
+दूसरा दिन।
+
+---
+
+सूरज और तेज।
+
+---
+
+प्यास—
+
+और गहरी।
+
+---
+
+पानी लगभग समाप्त।
+
+---
+
+लेकिन वह खड़ा था।
+
+---
+
+“तू क्यों नहीं भागता?” एक लुटेरे ने चिल्लाकर पूछा।
+
+---
+
+उसने उत्तर दिया—
+
+“क्योंकि यह मेरा कर्तव्य है।”
+
+---
+
+और फिर—
+
+दूसरा युद्ध।
+
+---
+
+इस बार—
+
+और उग्र।
+
+---
+
+भाले टकराए।
+
+तलवारें चमकीं।
+
+---
+
+उसके कंधे पर एक गहरा घाव लगा।
+
+---
+
+खून बहने लगा।
+
+---
+
+लेकिन वह रुका नहीं।
+
+---
+
+“पीछे हटो!” उसकी आवाज़ गूँजी।
+
+---
+
+और आश्चर्य—
+
+कुछ लुटेरे सच में पीछे हट गए।
+
+---
+
+तीसरा दिन।
+
+---
+
+अब…
+
+वह लगभग समाप्त हो चुका था।
+
+---
+
+प्यास।
+
+थकान।
+
+घाव।
+
+---
+
+लेकिन उसकी तलवार—
+
+अब भी उठी हुई थी।
+
+---
+
+उसका ऊँट—
+
+उसके पास खड़ा था।
+
+---
+
+जैसे वह भी समझता हो—
+
+यह अंत है।
+
+---
+
+लुटेरे फिर आए।
+
+---
+
+इस बार—
+
+निर्णायक।
+
+---
+
+“अब खत्म कर दो,” उनका नेता बोला।
+
+---
+
+मरु प्रहरी ने अंतिम बार आकाश की ओर देखा।
+
+---
+
+सूरज…
+
+अब भी जल रहा था।
+
+---
+
+“मैं तैयार हूँ,” उसने कहा।
+
+---
+
+और फिर—
+
+वह आगे बढ़ा।
+
+---
+
+अंतिम युद्ध।
+
+---
+
+हर वार—
+
+अंतिम।
+
+---
+
+हर कदम—
+
+मृत्यु के करीब।
+
+---
+
+एक-एक कर—
+
+लुटेरे गिरते गए।
+
+---
+
+लेकिन उसकी ताकत…
+
+कम हो रही थी।
+
+---
+
+अंततः—
+
+वह घुटनों पर आ गया।
+
+---
+
+उसकी तलवार—
+
+अब भी उठी थी।
+
+---
+
+एक लुटेरा आगे बढ़ा।
+
+---
+
+“अब… खत्म,” उसने कहा।
+
+---
+
+मरु प्रहरी ने उसकी ओर देखा।
+
+---
+
+और—
+
+एक अंतिम वार किया।
+
+---
+
+वह भी गिर गया।
+
+---
+
+फिर—
+
+शांत।
+
+---
+
+सूरज ढलने लगा।
+
+---
+
+लुटेरे…
+
+पीछे हट गए।
+
+---
+
+तीन दिन।
+
+---
+
+तीन दिन तक—
+
+एक अकेले योद्धा ने—
+
+उन्हें रोके रखा।
+
+---
+
+जब सहायता पहुँची—
+
+तो उन्होंने देखा—
+
+वह वहीं था।
+
+---
+
+शांत।
+
+---
+
+उसका ऊँट—
+
+उसके पास बैठा था।
+
+---
+
+और उसकी तलवार—
+
+अब भी उसकी मुट्ठी में थी।
+
+---
+
+उसने अपना कर्तव्य निभा दिया था।
+
+---
+
+आज…
+
+उस चौकी पर शायद कुछ नहीं बचा।
+
+---
+
+दीवारें टूटी हुई हैं।
+
+रेत ने सब ढँक लिया है।
+
+---
+
+लेकिन अगर कोई ध्यान से देखे—
+
+तो उसे एक छाया दिखेगी।
+
+---
+
+एक पहरेदार।
+
+---
+
+जो अब भी खड़ा है।
+
+---
+
+मरु प्रहरी।
+
+---
+
+एक नाम नहीं।
+
+एक प्रतीक।
+
+---
+
+उन हजारों के लिए—
+
+जो बिना नाम के—
+
+इस धरती की रक्षा करते रहे।
+
+---
+
+और जिन्होंने साबित किया—
+
+कि कभी-कभी…
+
+एक अकेला आदमी भी—
+
+एक पूरी सेना के बराबर होता है।`
+
     ],
-    coverImage: { src: '/images/legends/desert-sentinel.jpg', alt: 'A lone guard on a high dune at sunset.' }
+    coverImage: { src: '/images/dynasties/places/bikaner-rathore-main.jpg', alt: 'A lone guard on a high dune at sunset.' }
   },
   {
     id: 'legend-of-the-midnight-cavalry',
@@ -419,11 +9222,478 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Marwar',
     story: [
-      'The Midnight Cavalry was a specialized unit that fought only under the cover of darkness. They used the silence of the desert night to launch devastating surprise attacks.',
-      'Legend says they muffled their horses’ hooves with cloth and moved like ghosts, appearing from the dunes to strike and vanishing before the enemy could form a line.',
-      'Their story highlights the Rajput mastery of psychological warfare, where the fear of the unknown was as deadly as the steel they carried.'
+      `रेगिस्तान की रात… दिन से भी अधिक खतरनाक होती है।
+
+जब सूरज ढल जाता है और रेत की तपिश ठंडी हो जाती है, तब अंधेरा केवल अंधेरा नहीं रहता—वह एक परदा बन जाता है… जिसके पीछे मृत्यु छिपी होती है।
+
+उस रात…
+
+आकाश काला था।
+
+चाँद बादलों में छिपा हुआ।
+
+और रेत पर—
+
+सन्नाटा।
+
+---
+
+मुग़ल शिविर फैला हुआ था।
+
+मशालें जल रही थीं।
+
+सैनिक आराम कर रहे थे।
+
+कुछ हँस रहे थे।
+
+कुछ सो रहे थे।
+
+---
+
+“आज कोई हमला नहीं होगा,” एक अधिकारी ने कहा।
+
+“रेगिस्तान की रात में कौन पागल बाहर निकलेगा?”
+
+---
+
+लेकिन उसी अंधेरे में—
+
+कुछ चल रहा था।
+
+---
+
+धीरे।
+
+चुपचाप।
+
+---
+
+घोड़े… लेकिन उनकी टाप नहीं सुनाई दे रही थी।
+
+---
+
+क्योंकि उनके खुर…
+
+कपड़ों में लिपटे हुए थे।
+
+---
+
+वे थे—
+
+मध्यरात्रि अश्वदल।
+
+---
+
+राजपूताना के वे सवार—
+
+जो केवल रात में युद्ध करते थे।
+
+---
+
+उनकी आँखें अंधेरे में भी देख सकती थीं।
+
+उनकी चाल—
+
+छाया जैसी।
+
+---
+
+“याद रखो,” उनके सरदार ने फुसफुसाया,
+
+“हम दिखाई नहीं देंगे…”
+
+“हम महसूस होंगे।”
+
+---
+
+सभी ने सिर हिलाया।
+
+---
+
+और फिर—
+
+वे आगे बढ़े।
+
+---
+
+रेत पर कोई आवाज़ नहीं।
+
+हवा भी जैसे रुक गई थी।
+
+---
+
+मुग़ल शिविर के पास—
+
+वे रुक गए।
+
+---
+
+कुछ ही दूरी।
+
+---
+
+एक सवार ने हाथ उठाया।
+
+संकेत।
+
+---
+
+और फिर—
+
+अचानक।
+
+---
+
+तूफान।
+
+---
+
+तलवारें चमकीं।
+
+घोड़े कूद पड़े।
+
+---
+
+“हमला!” एक चीख गूँजी।
+
+---
+
+मुग़ल सैनिक घबरा गए।
+
+---
+
+“कहाँ से आए?” कोई चिल्लाया।
+
+---
+
+उत्तर—
+
+हर दिशा से।
+
+---
+
+एक सवार पीछे से आया—
+
+उसकी तलवार ने एक सैनिक को गिरा दिया।
+
+---
+
+दूसरा—
+
+तंबुओं के बीच से निकला।
+
+---
+
+तीसरा—
+
+सीधे आग के पास।
+
+---
+
+यह हमला नहीं था—
+
+यह प्रलय था।
+
+---
+
+मुग़ल सैनिक अपने हथियार ढूँढ रहे थे।
+
+लेकिन तब तक—
+
+बहुत देर हो चुकी थी।
+
+---
+
+मध्यरात्रि अश्वदल—
+
+हर जगह था।
+
+---
+
+और कहीं भी नहीं।
+
+---
+
+कुछ ही क्षणों में—
+
+अराजकता फैल गई।
+
+---
+
+“पंक्ति बनाओ!” एक सेनापति चिल्लाया।
+
+---
+
+लेकिन पंक्ति बनने से पहले ही—
+
+वह गिर चुका था।
+
+---
+
+फिर—
+
+जैसे आए थे—
+
+वैसे ही…
+
+वे गायब होने लगे।
+
+---
+
+एक-एक कर—
+
+छाया में समाते हुए।
+
+---
+
+और फिर—
+
+सन्नाटा।
+
+---
+
+मुग़ल शिविर…
+
+खंडहर बन चुका था।
+
+---
+
+“वे कहाँ गए?” एक घायल सैनिक ने पूछा।
+
+---
+
+कोई उत्तर नहीं।
+
+---
+
+केवल अंधेरा।
+
+---
+
+दूसरी रात।
+
+---
+
+शिविर अब सतर्क था।
+
+---
+
+“आज वे आएँगे,” एक अधिकारी ने कहा।
+
+---
+
+सैनिक तैयार थे।
+
+हथियार हाथ में।
+
+---
+
+लेकिन रात बीतती रही।
+
+---
+
+कुछ नहीं हुआ।
+
+---
+
+और जैसे ही—
+
+उन्होंने राहत की साँस ली—
+
+---
+
+पीछे से—
+
+फिर वही हमला।
+
+---
+
+इस बार—
+
+और भी तेज।
+
+---
+
+“हर दिशा में हैं!” कोई चिल्लाया।
+
+---
+
+लेकिन सच—
+
+वे कहीं नहीं थे।
+
+---
+
+वे केवल—
+
+भय थे।
+
+---
+
+दिन बीतते गए।
+
+---
+
+हर रात—
+
+एक नया हमला।
+
+---
+
+हर रात—
+
+एक नई अराजकता।
+
+---
+
+मुग़ल सेना अब सो नहीं पा रही थी।
+
+---
+
+हर आवाज़—
+
+उन्हें चौंका देती।
+
+---
+
+हर छाया—
+
+उन्हें डराती।
+
+---
+
+“यह युद्ध नहीं है…” एक सैनिक बोला।
+
+---
+
+“यह… भूत हैं।”
+
+---
+
+और यही—
+
+रणनीति थी।
+
+---
+
+मध्यरात्रि अश्वदल ने—
+
+केवल शरीर नहीं तोड़े।
+
+---
+
+उन्होंने मन तोड़ा।
+
+---
+
+एक रात—
+
+उनका सरदार एक टीले पर खड़ा था।
+
+---
+
+नीचे—
+
+डरा हुआ शिविर।
+
+---
+
+उसने अपने साथियों की ओर देखा।
+
+---
+
+“हम जीत रहे हैं,” उसने कहा।
+
+---
+
+“क्योंकि वे अब लड़ नहीं रहे…”
+
+---
+
+“वे डर रहे हैं।”
+
+---
+
+और यही—
+
+सबसे बड़ा हथियार था।
+
+---
+
+कुछ ही समय में—
+
+मुग़ल सेना पीछे हटने लगी।
+
+---
+
+रेगिस्तान…
+
+फिर शांत हो गया।
+
+---
+
+लेकिन वह शांति—
+
+खाली नहीं थी।
+
+---
+
+उसमें एक कहानी थी।
+
+---
+
+मध्यरात्रि अश्वदल की।
+
+---
+
+आज भी—
+
+जब रेगिस्तान की रात गहरी होती है—
+
+और हवा धीमी चलती है—
+
+---
+
+तो कभी-कभी—
+
+ऐसा लगता है—
+
+जैसे कोई दौड़ रहा हो।
+
+---
+
+बिना आवाज़।
+
+---
+
+छाया की तरह।
+
+---
+
+और फिर—
+
+अचानक गायब हो जाता है।
+
+---
+
+क्योंकि कुछ योद्धा—
+
+इतिहास में नहीं रहते।
+
+---
+
+वे…
+
+अंधेरे में रहते हैं।
+
+---
+
+और वहीं से—
+
+अपनी सबसे बड़ी जीत हासिल करते हैं।`
+
     ],
-    coverImage: { src: '/images/legends/midnight-cavalry.jpg', alt: 'Cavalry charging under a full moon.' }
+    coverImage: { src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'Cavalry charging under a full moon.' }
   },
   {
     id: 'ballad-of-the-warrior-bride',
@@ -433,11 +9703,534 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Mewar',
     story: [
-      'This ballad tells of a young bride who, upon hearing that her husband had fallen in battle, donned his armor and led the remaining villagers to defend their home.',
-      'She fought with a ferocity that stunned the invaders, proving that the Rajput spirit of courage was not limited to the men on the battlefield.',
-      'Her story is a celebration of the countless women who stepped into the roles of protectors when the situation demanded it, often at the cost of their own lives.'
+      `भोर की पहली किरण अभी धरती को छू भी नहीं पाई थी, जब उस छोटे-से गाँव में शोक की छाया उतर आई।
+
+धूल से भरा एक सवार गाँव के बीच आकर रुका।
+
+उसकी साँसें टूटी हुई थीं।
+
+उसकी आँखों में… वह समाचार था—
+
+जिसने सब कुछ बदल देना था।
+
+---
+
+“वह… लौटकर नहीं आए…”
+
+उसने धीमे से कहा।
+
+---
+
+गाँव में सन्नाटा छा गया।
+
+---
+
+वह शब्द…
+
+किसी तलवार से अधिक गहरे थे।
+
+---
+
+उस घर के आँगन में—
+
+एक युवती खड़ी थी।
+
+अभी कुछ ही समय पहले—
+
+उसका विवाह हुआ था।
+
+सिंदूर अभी सूखा भी नहीं था।
+
+---
+
+उसने वह समाचार सुना।
+
+---
+
+एक क्षण के लिए—
+
+उसकी आँखें खाली हो गईं।
+
+---
+
+फिर—
+
+कुछ बदल गया।
+
+---
+
+वह रोई नहीं।
+
+---
+
+वह टूटी नहीं।
+
+---
+
+उसने केवल—
+
+आकाश की ओर देखा।
+
+---
+
+“तुम अपना कर्तव्य निभाकर गए…” उसने फुसफुसाया,
+
+“अब मेरी बारी है।”
+
+---
+
+गाँव के लोग एकत्र हुए।
+
+भय उनके चेहरों पर साफ था।
+
+---
+
+“अब हम क्या करेंगे?” एक वृद्ध ने पूछा।
+
+---
+
+“लुटेरे आ रहे हैं,” किसी ने कहा।
+
+---
+
+“कोई नहीं बचेगा…”
+
+---
+
+तभी—
+
+वह युवती आगे बढ़ी।
+
+---
+
+उसकी चाल में अब शोक नहीं था।
+
+वह… दृढ़ थी।
+
+---
+
+वह भीतर गई।
+
+---
+
+कुछ क्षण बाद—
+
+वह वापस आई।
+
+---
+
+लेकिन अब—
+
+वह वही नहीं थी।
+
+---
+
+उसने अपने पति का कवच पहन लिया था।
+
+---
+
+तलवार हाथ में।
+
+---
+
+आँखों में—
+
+आग।
+
+---
+
+“अब…” उसने कहा,
+
+“कोई नहीं डरेगा।”
+
+---
+
+लोग स्तब्ध रह गए।
+
+---
+
+“तुम…?” एक ने पूछा।
+
+---
+
+“मैं उसकी पत्नी हूँ,” उसने उत्तर दिया।
+
+“और इस गाँव की रक्षा… अब मेरा धर्म है।”
+
+---
+
+उसकी आवाज़ में ऐसा बल था—
+
+कि भय पीछे हट गया।
+
+---
+
+धीरे-धीरे—
+
+लोग उसके पीछे खड़े हो गए।
+
+---
+
+“हम तुम्हारे साथ हैं,” एक युवक ने कहा।
+
+---
+
+“तो फिर तैयार हो जाओ,” उसने उत्तर दिया।
+
+---
+
+गाँव के द्वार बंद किए गए।
+
+जो भी हथियार थे—इकट्ठा किए गए।
+
+---
+
+और फिर—
+
+प्रतीक्षा।
+
+---
+
+दूर—
+
+धूल उठी।
+
+---
+
+लुटेरे आ रहे थे।
+
+---
+
+संख्या में अधिक।
+
+हथियारों से लैस।
+
+---
+
+“यह आसान होगा,” उनके नेता ने कहा।
+
+---
+
+लेकिन जैसे ही वे पास आए—
+
+उन्होंने देखा—
+
+द्वार पर कोई खड़ा था।
+
+---
+
+एक योद्धा।
+
+---
+
+लेकिन उसकी आँखों में कुछ अलग था।
+
+---
+
+“रुको,” उसने कहा।
+
+---
+
+उसकी आवाज़ गूँजी।
+
+---
+
+लुटेरे हँसे।
+
+---
+
+“एक औरत?” उन्होंने कहा।
+
+---
+
+क्षण भर के लिए—
+
+समय थम गया।
+
+---
+
+फिर—
+
+वह आगे बढ़ी।
+
+---
+
+“आज तुम सीखोगे,” उसने कहा,
+
+“कि साहस का कोई लिंग नहीं होता।”
+
+---
+
+और फिर—
+
+युद्ध शुरू हुआ।
+
+---
+
+पहला वार—
+
+तेज़।
+
+---
+
+एक लुटेरा गिरा।
+
+---
+
+दूसरा—
+
+तीसरा—
+
+---
+
+उसकी तलवार…
+
+बिजली की तरह चल रही थी।
+
+---
+
+लोग उसके पीछे—
+
+लड़ने लगे।
+
+---
+
+“आगे बढ़ो!” उसकी आवाज़ गूँजी।
+
+---
+
+गाँव अब केवल बचाव नहीं कर रहा था—
+
+वह लड़ रहा था।
+
+---
+
+लुटेरे चौंक गए।
+
+---
+
+“यह क्या है?” एक ने चिल्लाया।
+
+---
+
+“यह… पागलपन है!”
+
+---
+
+लेकिन वह पागलपन नहीं था।
+
+---
+
+वह—
+
+राजपूताना की आत्मा थी।
+
+---
+
+युद्ध उग्र हो गया।
+
+---
+
+घोड़े भिड़े।
+
+तलवारें टकराईं।
+
+---
+
+वह युवती—
+
+बीच में थी।
+
+---
+
+जहाँ सबसे अधिक खतरा था—
+
+वहीं।
+
+---
+
+एक भाला आया—
+
+उसके कंधे को चीर गया।
+
+---
+
+वह डगमगाई।
+
+---
+
+लेकिन गिरी नहीं।
+
+---
+
+“अभी नहीं!” उसने कहा।
+
+---
+
+और फिर—
+
+फिर से कूद पड़ी।
+
+---
+
+उसकी आँखों में अब दर्द नहीं था।
+
+---
+
+केवल—
+
+अग्नि।
+
+---
+
+एक-एक कर—
+
+लुटेरे गिरते गए।
+
+---
+
+उनका मनोबल टूट गया।
+
+---
+
+“पीछे हटो!” उनका नेता चिल्लाया।
+
+---
+
+और फिर—
+
+वे भागे।
+
+---
+
+गाँव… बच गया।
+
+---
+
+धूल बैठ गई।
+
+---
+
+लोग खड़े थे—
+
+साँसें भारी।
+
+---
+
+उन्होंने उसकी ओर देखा।
+
+---
+
+वह अभी भी खड़ी थी।
+
+---
+
+लेकिन…
+
+धीरे-धीरे—
+
+उसके घुटने झुक गए।
+
+---
+
+तलवार—
+
+उसके हाथ से छूट गई।
+
+---
+
+वह गिर पड़ी।
+
+---
+
+लोग दौड़े।
+
+---
+
+“तुमने हमें बचा लिया…” एक ने कहा।
+
+---
+
+उसने हल्की मुस्कान दी।
+
+---
+
+“यह… हमारा घर है…” उसने फुसफुसाया।
+
+---
+
+और फिर—
+
+उसकी आँखें बंद हो गईं।
+
+---
+
+आकाश में सूरज उग चुका था।
+
+---
+
+उसकी किरणें—
+
+उसके चेहरे पर पड़ीं।
+
+---
+
+शांत।
+
+निर्भीक।
+
+---
+
+आज…
+
+उस गाँव में शायद उसका नाम कोई नहीं जानता।
+
+---
+
+लेकिन उसकी कहानी—
+
+जीवित है।
+
+---
+
+हर उस स्त्री में—
+
+जो संकट के समय खड़ी होती है।
+
+---
+
+हर उस आवाज़ में—
+
+जो कहती है—
+
+“हम डरेंगे नहीं।”
+
+---
+
+वह केवल एक दुल्हन नहीं थी।
+
+---
+
+वह एक योद्धा थी।
+
+---
+
+और उसने साबित किया—
+
+कि साहस…
+
+कभी सीमित नहीं होता।
+
+---
+
+वह केवल—
+
+जागता है।
+
+जब समय उसे पुकारता है।`
+
     ],
-    coverImage: { src: '/images/legends/warrior-bride.jpg', alt: 'A woman in armor leading a defense.' }
+    coverImage: { src: '/images/dynasties/rani-lakshmibai.jpg', alt: 'A woman in armor leading a defense.' }
   },
   {
     id: 'tale-of-the-blood-oath',
@@ -447,11 +10240,496 @@ export const allLegends: Legend[] = [
     era: 'Ancient',
     location: 'Clan Gathering',
     story: [
-      'The Blood Oath was a rare and solemn ritual where warriors from different clans bound themselves together in a common cause. It was a commitment that superseded all other loyalties.',
-      'This tale follows two rivals who took the Blood Oath to defend a sacred shrine. Despite their past animosity, they fought side-by-side until the very end.',
-      'The legend emphasizes that in the face of a greater threat, the bond of honor is stronger than the blood of lineage.'
+      `अरावली की काली चट्टानों के बीच, एक प्राचीन मंदिर खड़ा था—पत्थरों से नहीं, प्रतिज्ञाओं से बना हुआ। उसकी दीवारों पर समय की धूल जमी थी, लेकिन भीतर जलती लौ आज भी उतनी ही प्रखर थी।
+
+उस दिन… वह लौ काँप रही थी।
+
+क्योंकि क्षितिज पर धूल उठ चुकी थी।
+
+दुश्मन आ रहा था।
+
+---
+
+मंदिर के प्रांगण में योद्धा इकट्ठा थे।
+
+कम।
+
+थके हुए।
+
+लेकिन आँखों में आग थी।
+
+---
+
+उनके बीच खड़े थे—दो पुरुष।
+
+दो नाम… जो एक-दूसरे के शत्रु थे।
+
+सालों पुरानी दुश्मनी।
+
+खून का हिसाब।
+
+अपमान की स्मृतियाँ।
+
+---
+
+एक था—राठौड़।
+
+दूसरा—चौहान।
+
+---
+
+उनकी तलवारें पहले भी टकरा चुकी थीं।
+
+और आज—
+
+वे एक ही स्थान पर खड़े थे।
+
+---
+
+“हम साथ नहीं लड़ सकते,” राठौड़ ने कहा।
+
+---
+
+“लेकिन हम अकेले भी नहीं जीत सकते,” चौहान ने उत्तर दिया।
+
+---
+
+सन्नाटा।
+
+---
+
+मंदिर के भीतर घंटी बजी।
+
+धीमी।
+
+गंभीर।
+
+---
+
+एक वृद्ध पुजारी आगे आया।
+
+उसकी आँखों में समय का भार था।
+
+---
+
+“यह स्थान…” उसने कहा,
+
+“केवल पत्थर नहीं है।”
+
+---
+
+“यह आस्था है।”
+
+---
+
+“और आज… यह तुम्हारी परीक्षा है।”
+
+---
+
+उसने एक कटोरा उठाया।
+
+उसमें जल था।
+
+और… रक्त की एक बूंद।
+
+---
+
+“रक्त शपथ,” उसने कहा।
+
+---
+
+दोनों योद्धा एक-दूसरे की ओर देखने लगे।
+
+---
+
+क्षण भर के लिए—
+
+पुरानी यादें लौट आईं।
+
+युद्ध।
+
+घाव।
+
+घृणा।
+
+---
+
+लेकिन फिर—
+
+उन्होंने मंदिर की ओर देखा।
+
+---
+
+और निर्णय लिया।
+
+---
+
+राठौड़ आगे बढ़ा।
+
+उसने अपनी तलवार की नोक से अपनी हथेली काटी।
+
+रक्त टपका।
+
+---
+
+चौहान ने भी वही किया।
+
+---
+
+दोनों ने अपने रक्त को उस कटोरे में मिलाया।
+
+---
+
+“आज से…” पुजारी की आवाज़ गूँजी,
+
+“तुम एक हो।”
+
+---
+
+“तुम्हारी दुश्मनी… समाप्त।”
+
+---
+
+“तुम्हारा वचन… एक।”
+
+---
+
+दोनों ने एक साथ कहा—
+
+“हम इस मंदिर की रक्षा करेंगे…”
+
+“अंतिम साँस तक।”
+
+---
+
+और उसी क्षण—
+
+दो शत्रु…
+
+बंधु बन गए।
+
+---
+
+रात उतर आई।
+
+---
+
+दूर—
+
+मशालें दिखाई देने लगीं।
+
+---
+
+दुश्मन।
+
+---
+
+संख्या—
+
+बहुत अधिक।
+
+---
+
+मंदिर के द्वार बंद कर दिए गए।
+
+---
+
+“याद रखो,” राठौड़ ने कहा,
+
+“अब कोई पीछे नहीं हटेगा।”
+
+---
+
+चौहान ने उसकी ओर देखा।
+
+---
+
+“अब हम साथ हैं,” उसने कहा।
+
+---
+
+और फिर—
+
+पहला हमला।
+
+---
+
+द्वार पर प्रहार।
+
+---
+
+धक्के।
+
+शोर।
+
+---
+
+“तैयार!” राठौड़ चिल्लाया।
+
+---
+
+द्वार टूटा।
+
+---
+
+और फिर—
+
+युद्ध।
+
+---
+
+तलवारें टकराईं।
+
+घोड़े चीखे।
+
+---
+
+राठौड़ और चौहान—
+
+साथ-साथ।
+
+---
+
+एक वार करता—
+
+दूसरा उसकी रक्षा करता।
+
+---
+
+एक गिरता—
+
+दूसरा उसे उठाता।
+
+---
+
+यह युद्ध केवल शत्रु से नहीं था—
+
+यह उनके अतीत से भी था।
+
+---
+
+“बाएँ!” चौहान चिल्लाया।
+
+---
+
+राठौड़ मुड़ा—
+
+और एक वार रोका।
+
+---
+
+“पीछे!” राठौड़ ने कहा।
+
+---
+
+चौहान हट गया—
+
+और बच गया।
+
+---
+
+धीरे-धीरे—
+
+उनकी चाल एक हो गई।
+
+---
+
+जैसे वे हमेशा से साथ लड़े हों।
+
+---
+
+दुश्मन हैरान था।
+
+---
+
+“ये कौन हैं?” एक सैनिक चिल्लाया।
+
+---
+
+उत्तर—
+
+उनकी तलवारों में था।
+
+---
+
+घंटों बीत गए।
+
+---
+
+घाव बढ़ते गए।
+
+---
+
+रक्त…
+
+पत्थरों पर बहने लगा।
+
+---
+
+लेकिन वे रुके नहीं।
+
+---
+
+“हम टूटेंगे नहीं!” राठौड़ गरजा।
+
+---
+
+“क्योंकि हम अकेले नहीं हैं!” चौहान ने उत्तर दिया।
+
+---
+
+अंतिम चरण।
+
+---
+
+अब केवल कुछ ही योद्धा बचे थे।
+
+---
+
+दुश्मन चारों ओर।
+
+---
+
+“अब…” चौहान ने कहा,
+
+“अंत है।”
+
+---
+
+राठौड़ मुस्कुराया।
+
+---
+
+“तो फिर… अंत साथ होगा।”
+
+---
+
+दोनों आगे बढ़े।
+
+---
+
+अंतिम आक्रमण।
+
+---
+
+तलवारें चमकीं।
+
+---
+
+एक-एक कर—
+
+शत्रु गिरते गए।
+
+---
+
+लेकिन उनकी ताकत…
+
+कम हो रही थी।
+
+---
+
+एक वार—
+
+चौहान के सीने में।
+
+---
+
+वह डगमगाया।
+
+---
+
+राठौड़ ने उसे थामा।
+
+---
+
+“अभी नहीं…” उसने कहा।
+
+---
+
+लेकिन उसी क्षण—
+
+एक और वार।
+
+---
+
+दोनों…
+
+गिर पड़े।
+
+---
+
+मंदिर के सामने।
+
+---
+
+उनकी तलवारें…
+
+अब भी एक-दूसरे को छू रही थीं।
+
+---
+
+सूरज उगा।
+
+---
+
+दुश्मन पीछे हट गया।
+
+---
+
+मंदिर… बच गया।
+
+---
+
+लोग आए।
+
+---
+
+उन्होंने देखा—
+
+दो शरीर।
+
+---
+
+लेकिन एक कहानी।
+
+---
+
+दो शत्रु…
+
+जो अंत में—
+
+एक बन गए।
+
+---
+
+आज भी—
+
+उस मंदिर में—
+
+कभी-कभी…
+
+ऐसा लगता है—
+
+जैसे दो आवाज़ें गूँज रही हों।
+
+---
+
+एक राठौड़ की।
+
+एक चौहान की।
+
+---
+
+और वे कहती हैं—
+
+“रक्त अलग हो सकता है…”
+
+“लेकिन सम्मान…”
+
+“एक होता है।”n `
+
     ],
-    coverImage: { src: '/images/legends/blood-oath.jpg', alt: 'Two warriors shaking hands over a ritual fire.' }
+    coverImage: { src: '/images/dynasties/seals/hada-bundi-kota-seal.png', alt: 'Two warriors shaking hands over a ritual fire.' }
   },
   {
     id: 'legend-of-the-rajput-war-drum',
@@ -461,11 +10739,508 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Battlefield',
     story: [
-      'The Nagaada, or war drum, was the heartbeat of the Rajput army. Its deep, resonant boom could be heard for miles, signaling the start of a charge or the resolve of a siege.',
-      'This legend tells of a drummer who continued to beat his drum even after his fort’s walls had been breached, his rhythm keeping the defenders’ spirits high until the final stand.',
-      'The war drum remains a symbol of the unyielding spirit of Rajputana, a sound that transformed fear into a focused, deadly intent.'
+    `रात का अंधेरा किले की दीवारों पर चिपका हुआ था। हवा भारी थी—बारूद, पसीने और प्रतीक्षा की गंध से भरी हुई। नीचे घाटी में दुश्मन का समंदर फैला था—मशालों की कतारें, तोपों की गर्जना, और उस गर्जना के बीच… एक सन्नाटा।
+
+किले के भीतर—
+
+हर साँस… युद्ध की तैयारी थी।
+
+---
+
+प्राचीर के पास, एक ऊँचे चबूतरे पर—
+
+वह बैठा था।
+
+उसके सामने—
+
+नगाड़ा।
+
+विशाल।
+
+काले चमड़े से मढ़ा हुआ।
+
+और उसके हाथ में—
+
+दो डंडे।
+
+---
+
+वह कोई सेनापति नहीं था।
+
+न तलवार थी उसके पास।
+
+न कवच।
+
+लेकिन उसकी आवाज़—
+
+पूरे युद्ध की दिशा बदल सकती थी।
+
+---
+
+वह था—
+
+नगाड़ची।
+
+---
+
+“जब यह बजेगा…” एक वृद्ध योद्धा ने उससे कहा था,
+
+“तो दिल धड़केंगे नहीं…”
+
+“दहाड़ेंगे।”
+
+---
+
+उसने उस दिन कुछ नहीं कहा था।
+
+लेकिन उसने नगाड़े को छुआ था—
+
+जैसे वह कोई जीवित चीज हो।
+
+---
+
+आज—
+
+वह दिन था।
+
+---
+
+सुबह होते ही—
+
+पहली तोप चली।
+
+---
+
+धमाका।
+
+---
+
+दीवार काँपी।
+
+---
+
+और उसी क्षण—
+
+उसने पहला प्रहार किया।
+
+---
+
+धम…
+
+---
+
+आवाज़ गूँजी।
+
+दीवारों से टकराकर—
+
+आकाश तक पहुँची।
+
+---
+
+दूसरा प्रहार।
+
+---
+
+धम… धम…
+
+---
+
+और फिर—
+
+लय।
+
+---
+
+किले के भीतर—
+
+योद्धाओं ने सिर उठाया।
+
+---
+
+उनकी आँखों में—
+
+एक चमक आई।
+
+---
+
+“नगाड़ा…” किसी ने कहा।
+
+---
+
+और उसी क्षण—
+
+भय… पीछे हट गया।
+
+---
+
+“तैयार!” एक सरदार गरजा।
+
+---
+
+दुश्मन आगे बढ़ रहा था।
+
+---
+
+तोपें दीवारों को तोड़ रही थीं।
+
+---
+
+पत्थर गिर रहे थे।
+
+---
+
+लेकिन नगाड़ा—
+
+रुक नहीं रहा था।
+
+---
+
+धम… धम… धम…
+
+---
+
+हर प्रहार—
+
+एक आदेश।
+
+---
+
+“लड़ो!”
+
+---
+
+“मत रुको!”
+
+---
+
+“यह अंत नहीं है!”
+
+---
+
+पहला breach—
+
+दीवार का एक हिस्सा टूट गया।
+
+---
+
+दुश्मन भीतर घुसने लगा।
+
+---
+
+“रोक लो उन्हें!” एक आवाज़ गूँजी।
+
+---
+
+और योद्धा—
+
+टूट पड़े।
+
+---
+
+तलवारें टकराईं।
+
+घोड़े चीखे।
+
+---
+
+लेकिन नगाड़ा—
+
+अब और तेज।
+
+---
+
+धम… धम… धम…
+
+---
+
+एक योद्धा गिरा।
+
+---
+
+उसने अंतिम बार नगाड़े की आवाज़ सुनी।
+
+---
+
+और उसकी आँखों में—
+
+डर नहीं था।
+
+---
+
+केवल—
+
+गर्व।
+
+---
+
+दूसरा चरण।
+
+---
+
+दुश्मन अब किले के भीतर था।
+
+---
+
+अराजकता।
+
+धूल।
+
+खून।
+
+---
+
+लेकिन उस सबके बीच—
+
+एक लय थी।
+
+---
+
+नगाड़े की।
+
+---
+
+नगाड़ची अब खड़ा था।
+
+---
+
+उसके चारों ओर—
+
+युद्ध।
+
+---
+
+लेकिन उसके हाथ—
+
+रुक नहीं रहे थे।
+
+---
+
+धम…
+
+धम…
+
+धम…
+
+---
+
+एक तीर—
+
+आकर उसके कंधे में धँस गया।
+
+---
+
+वह डगमगाया।
+
+---
+
+लेकिन रुका नहीं।
+
+---
+
+उसने दाँत भींचे—
+
+और फिर—
+
+और जोर से बजाया।
+
+---
+
+धम!!!
+
+---
+
+उसकी आवाज़—
+
+और भी गूँज उठी।
+
+---
+
+“वह अभी भी बजा रहा है!” एक योद्धा चिल्लाया।
+
+---
+
+और फिर—
+
+वे और जोर से लड़े।
+
+---
+
+“जब तक नगाड़ा बजेगा…”
+
+“हम नहीं रुकेंगे!”
+
+---
+
+दुश्मन चौंक गया।
+
+---
+
+“इसे बंद करो!” उनका सेनापति चिल्लाया।
+
+---
+
+कुछ सैनिक उसकी ओर बढ़े।
+
+---
+
+लेकिन उनके बीच—
+
+योद्धा कूद पड़े।
+
+---
+
+“कोई इसे छू नहीं सकता!” एक ने गरजकर कहा।
+
+---
+
+नगाड़ची—
+
+अब खून से भीग चुका था।
+
+---
+
+उसकी साँसें भारी थीं।
+
+---
+
+लेकिन उसकी आँखों में—
+
+एक अजीब-सी शांति थी।
+
+---
+
+“बस… थोड़ा और…” उसने खुद से कहा।
+
+---
+
+अंतिम चरण।
+
+---
+
+अब—
+
+केवल कुछ ही योद्धा बचे थे।
+
+---
+
+दुश्मन चारों ओर।
+
+---
+
+लेकिन नगाड़ा—
+
+अब भी बज रहा था।
+
+---
+
+धम…
+
+धम…
+
+---
+
+धीमा…
+
+लेकिन अडिग।
+
+---
+
+एक अंतिम तीर—
+
+सीधा उसकी छाती में।
+
+---
+
+उसका शरीर पीछे की ओर झुका।
+
+---
+
+लेकिन उसके हाथ—
+
+अब भी चल रहे थे।
+
+---
+
+एक अंतिम प्रहार।
+
+---
+
+धम…
+
+---
+
+और फिर—
+
+शांत।
+
+---
+
+किला गिर गया।
+
+---
+
+दुश्मन जीत गया।
+
+---
+
+लेकिन—
+
+वह नगाड़ा…
+
+अब भी गूँज रहा था।
+
+---
+
+उन योद्धाओं के दिलों में—
+
+जो अंत तक लड़े।
+
+---
+
+उन कहानियों में—
+
+जो पीढ़ियों तक सुनाई गईं।
+
+---
+
+आज भी—
+
+जब कहीं नगाड़ा बजता है—
+
+तो वह केवल एक आवाज़ नहीं होती।
+
+---
+
+वह एक स्मृति होती है।
+
+---
+
+एक युद्ध।
+
+एक बलिदान।
+
+---
+
+और वह संदेश—
+
+कि जब तक दिल धड़कता है—
+
+तब तक…
+
+युद्ध खत्म नहीं होता।
+
+---
+
+नगाड़ा—
+
+राजपूताना की आत्मा की धड़कन।
+
+---
+
+जो कभी नहीं रुकती।`
+
     ],
-    coverImage: { src: '/images/legends/war-drum.jpg', alt: 'A massive war drum being struck at the gate of a fort.' }
+    coverImage: { src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'A massive war drum being struck at the gate of a fort.' }
   },
   {
     id: 'ballad-of-the-camel-riders',
@@ -475,11 +11250,468 @@ export const allLegends: Legend[] = [
     era: 'Medieval to Colonial',
     location: 'Bikaner',
     story: [
-      'The Camel Corps, especially of Bikaner, were legendary for their endurance and speed across the deep sands. They could travel distances that would exhaust any horse.',
-      'This ballad celebrates the riders who could fire with precision from the back of a moving camel, turning the animal into a mobile fortress in the trackless Thar.',
-      'Their legacy includes service in distant lands, where the sight of the Bikaner Camel Corps brought a touch of the desert’s indomitable spirit to global battlefields.'
+      `रेगिस्तान की साँझ उतर रही थी—धीरे, भारी, और तपिश से भरी हुई। रेत के अनंत समंदर पर लंबी परछाइयाँ फैल रही थीं। हवा में एक कंपन था… जैसे धरती खुद किसी आने वाली चाल को महसूस कर रही हो।
+
+और फिर—
+
+दूर क्षितिज पर कुछ उभरा।
+
+घोड़ों की तरह नहीं…
+
+कुछ और।
+
+लंबे, ऊँचे, और अडिग।
+
+---
+
+वे थे—
+
+ऊँट सवार।
+
+बीकानेर का ऊँट कोर।
+
+---
+
+उनकी चाल अलग थी।
+
+धीमी… लेकिन अनथक।
+
+रेत उनके लिए बाधा नहीं थी—
+
+वह उनका रास्ता था।
+
+---
+
+उनके बीच, एक सरदार खड़ा था।
+
+उसकी आँखें दूर तक देख रही थीं।
+
+---
+
+“आज हम मैदान में नहीं लड़ेंगे,” उसने कहा।
+
+---
+
+एक जवान ने पूछा—
+
+“तो कैसे?”
+
+---
+
+उसने मुस्कुराकर उत्तर दिया—
+
+“जैसे रेत लड़ती है…”
+
+“धीरे… और हर जगह।”
+
+---
+
+ये योद्धा अलग थे।
+
+वे घोड़े पर नहीं—
+
+ऊँट पर सवार थे।
+
+---
+
+ऊँट—
+
+जो थकता नहीं।
+
+जो रुकता नहीं।
+
+जो रेत में भी उड़ सकता है।
+
+---
+
+और उसके ऊपर—
+
+एक निशानेबाज।
+
+---
+
+“याद रखो,” सरदार ने कहा,
+
+“हम रुकेंगे नहीं…”
+
+“हम चलती हुई आग हैं।”
+
+---
+
+रात हुई।
+
+---
+
+दुश्मन शिविर लगा चुका था।
+
+---
+
+उसे विश्वास था—
+
+कि वह सुरक्षित है।
+
+---
+
+लेकिन उसने रेगिस्तान को नहीं समझा था।
+
+---
+
+अचानक—
+
+दूर से एक आवाज़ आई।
+
+---
+
+घंटी जैसी।
+
+---
+
+फिर—
+
+धूल उठी।
+
+---
+
+ऊँट सवार।
+
+---
+
+वे सीधे नहीं आए।
+
+---
+
+वे घूमते हुए आए।
+
+---
+
+घेरते हुए।
+
+---
+
+और फिर—
+
+पहला वार।
+
+---
+
+धड़ाम!
+
+---
+
+गोली चली।
+
+---
+
+एक सैनिक गिरा।
+
+---
+
+“कहाँ से?” किसी ने चिल्लाया।
+
+---
+
+उत्तर—
+
+हर दिशा से।
+
+---
+
+ऊँट दौड़ रहे थे—
+
+तेज़।
+
+---
+
+उनकी चाल अलग थी—
+
+झटकेदार।
+
+अनिश्चित।
+
+---
+
+और उसी चाल में—
+
+सवार निशाना साध रहे थे।
+
+---
+
+गोली…
+
+सीधी।
+
+सटीक।
+
+---
+
+एक के बाद एक—
+
+दुश्मन गिरता गया।
+
+---
+
+“पंक्ति बनाओ!” सेनापति चिल्लाया।
+
+---
+
+लेकिन पंक्ति बनने से पहले—
+
+वे फिर गायब।
+
+---
+
+रेत में।
+
+---
+
+जैसे वे कभी थे ही नहीं।
+
+---
+
+दूसरा दिन।
+
+---
+
+दुश्मन आगे बढ़ा।
+
+---
+
+लेकिन हर कदम—
+
+एक खतरा था।
+
+---
+
+ऊँट सवार फिर आए।
+
+---
+
+इस बार—
+
+और तेज।
+
+---
+
+वे पास आते—
+
+गोली चलाते—
+
+और दूर निकल जाते।
+
+---
+
+“ये रुकते क्यों नहीं?” एक सैनिक चिल्लाया।
+
+---
+
+“क्योंकि ये घोड़े नहीं हैं…”
+
+दूसरे ने कहा।
+
+---
+
+“ये… रेगिस्तान हैं।”
+
+---
+
+तीसरा दिन।
+
+---
+
+दुश्मन थक चुका था।
+
+---
+
+पानी कम।
+
+मन कमजोर।
+
+---
+
+और तभी—
+
+अंतिम आक्रमण।
+
+---
+
+ऊँट सवार सीधा टूट पड़े।
+
+---
+
+इस बार—
+
+पास से।
+
+---
+
+तलवारें निकलीं।
+
+---
+
+घोड़े नहीं—
+
+ऊँट भिड़े।
+
+---
+
+उनकी ऊँचाई—
+
+उनकी ताकत बन गई।
+
+---
+
+ऊपर से वार।
+
+---
+
+नीचे से चीखें।
+
+---
+
+कुछ ही क्षणों में—
+
+युद्ध समाप्त।
+
+---
+
+दुश्मन पीछे हट गया।
+
+---
+
+रेगिस्तान फिर शांत हो गया।
+
+---
+
+लेकिन यह कहानी यहीं नहीं रुकी।
+
+---
+
+समय बदला।
+
+---
+
+और वही ऊँट सवार—
+
+दूर देशों में पहुँचे।
+
+---
+
+रेगिस्तान से बहुत दूर।
+
+---
+
+जहाँ रेत नहीं थी।
+
+जहाँ हवा अलग थी।
+
+---
+
+लेकिन वे वही थे।
+
+---
+
+उनकी चाल—
+
+उनकी आँखें—
+
+उनका साहस—
+
+सब वही।
+
+---
+
+जब विदेशी सैनिकों ने उन्हें देखा—
+
+तो वे चकित रह गए।
+
+---
+
+“ये कौन हैं?” उन्होंने पूछा।
+
+---
+
+उत्तर आया—
+
+“बीकानेर का ऊँट कोर।”
+
+---
+
+और फिर—
+
+वहीं भी…
+
+उन्होंने वही किया।
+
+---
+
+चलते हुए युद्ध।
+
+तेज़ आक्रमण।
+
+अदृश्य रणनीति।
+
+---
+
+उन्होंने दिखाया—
+
+कि रेगिस्तान केवल एक स्थान नहीं है।
+
+---
+
+वह एक शक्ति है—
+
+जो जहाँ जाए—
+
+अपने साथ जाती है।
+
+---
+
+आज भी—
+
+जब थार में ऊँट चलते हैं—
+
+तो उनकी चाल में एक गर्व होता है।
+
+---
+
+जैसे वे जानते हों—
+
+कि उनके पूर्वजों ने—
+
+इतिहास लिखा था।
+
+---
+
+ऊँट कोर—
+
+एक सेना नहीं।
+
+---
+
+एक परंपरा।
+
+---
+
+एक गति।
+
+---
+
+एक ज्वाला—
+
+जो कभी नहीं बुझती।
+
+---
+
+और जो यह सिखाती है—
+
+कि जब धरती कठिन हो—
+
+तो वही…
+
+तुम्हारी सबसे बड़ी ताकत बन सकती है।`
+
     ],
-    coverImage: { src: '/images/legends/camel-riders.jpg', alt: 'Camel-mounted warriors charging across the dunes.' }
+    coverImage: { src: '/images/dynasties/places/bikaner-rathore-main.jpg', alt: 'Camel-mounted warriors charging across the dunes.' }
   },
   {
     id: 'tale-of-the-rajput-falconers',
@@ -489,11 +11721,422 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Desert Skies',
     story: [
-      'Falconry was not just a royal sport but a vital part of desert warfare. Falcons were trained to act as scouts, spotting enemy movements long before they reached the ground.',
-      'This tale tells of a master falconer whose bird identified a hidden trap in a narrow ravine, saving a Rajput contingent from a certain ambush.',
-      'The bond between the falconer and his bird is a symbol of the Rajput connection to the natural world, where every creature played a role in the defense of the land.'
+      `अरावली की उन सँकरी घाटियों में, जहाँ धूप भी देर से पहुँचती थी, एक अजीब-सी खामोशी पसरी हुई थी। पत्थरों के बीच से गुजरती हवा धीमी थी… लेकिन उसमें कुछ छिपा था।
+
+ऊपर आसमान में—
+
+एक बाज़ मंडरा रहा था।
+
+उसकी आँखें नीचे गहराई तक झाँक रही थीं।
+
+और नीचे—
+
+घोड़े धीरे-धीरे आगे बढ़ रहे थे।
+
+---
+
+दल छोटा था।
+
+राजपूत योद्धा—
+
+सावधानी से चलते हुए।
+
+---
+
+उनके आगे—
+
+एक व्यक्ति था।
+
+उसके कंधे पर बैठा था—
+
+वह बाज़।
+
+---
+
+वह था—
+
+बाज़पाल।
+
+---
+
+उसकी आँखें ज़मीन नहीं देख रही थीं।
+
+वह आकाश को देख रहा था।
+
+---
+
+“रुको,” उसने अचानक कहा।
+
+---
+
+घोड़े थम गए।
+
+---
+
+“क्या हुआ?” एक सरदार ने पूछा।
+
+---
+
+उसने उत्तर नहीं दिया।
+
+---
+
+उसने बस अपने बाज़ की ओर देखा।
+
+---
+
+बाज़ ने अपने पंख फैलाए।
+
+और फिर—
+
+वह ऊपर उठा।
+
+---
+
+ऊँचा…
+
+और ऊँचा…
+
+---
+
+उसकी आँखें—
+
+अब सब कुछ देख रही थीं।
+
+---
+
+घाटी…
+
+पत्थर…
+
+और—
+
+छिपे हुए लोग।
+
+---
+
+उसने एक तेज़ आवाज़ निकाली।
+
+---
+
+नीचे—
+
+बाज़पाल की आँखें सिकुड़ गईं।
+
+---
+
+“घात…” उसने धीरे से कहा।
+
+---
+
+“कहाँ?” सरदार ने पूछा।
+
+---
+
+उसने हाथ उठाया—
+
+सामने की ओर इशारा किया।
+
+---
+
+“पत्थरों के पीछे…”
+
+“दोनों ओर…”
+
+---
+
+क्षण भर के लिए—
+
+सन्नाटा।
+
+---
+
+अगर वे आगे बढ़ते—
+
+तो सीधे जाल में फँस जाते।
+
+---
+
+“तुम्हें कैसे पता?” एक जवान ने पूछा।
+
+---
+
+बाज़पाल ने ऊपर देखा।
+
+---
+
+“वह देखता है… जहाँ हम नहीं देख सकते।”
+
+---
+
+तभी—
+
+बाज़ वापस आया।
+
+उसके पंखों की गति—
+
+तेज़।
+
+---
+
+वह बाज़पाल के हाथ पर बैठ गया।
+
+---
+
+उनकी आँखें मिलीं।
+
+---
+
+कोई शब्द नहीं।
+
+---
+
+लेकिन संदेश—
+
+स्पष्ट।
+
+---
+
+“योजना बदलो,” बाज़पाल ने कहा।
+
+---
+
+सरदार ने तुरंत आदेश दिया—
+
+“दल को बाँटो!”
+
+---
+
+कुछ योद्धा पीछे हटे।
+
+---
+
+कुछ—
+
+ऊपर की ओर चढ़ने लगे।
+
+---
+
+धीरे-धीरे—
+
+वे घाटी के दोनों ओर फैल गए।
+
+---
+
+नीचे—
+
+दुश्मन इंतजार कर रहा था।
+
+---
+
+“वे आते ही होंगे,” एक ने कहा।
+
+---
+
+लेकिन समय बीतता गया।
+
+---
+
+कोई नहीं आया।
+
+---
+
+“क्या हुआ?” एक ने पूछा।
+
+---
+
+और तभी—
+
+ऊपर से—
+
+पहला तीर गिरा।
+
+---
+
+दुश्मन चौंक गया।
+
+---
+
+“हम पर हमला?” वह चिल्लाया।
+
+---
+
+और फिर—
+
+दोनों ओर से—
+
+राजपूत टूट पड़े।
+
+---
+
+तलवारें चमकीं।
+
+पत्थर गिरे।
+
+---
+
+अब—
+
+घात उलट चुका था।
+
+---
+
+जो शिकारी थे—
+
+वे शिकार बन गए।
+
+---
+
+कुछ ही समय में—
+
+सब समाप्त।
+
+---
+
+घाटी—
+
+फिर शांत।
+
+---
+
+सरदार ने बाज़पाल की ओर देखा।
+
+---
+
+“अगर तुम न होते…”
+
+---
+
+वह मुस्कुराया।
+
+---
+
+“मैं नहीं…”
+
+उसने कहा,
+
+“वह।”
+
+---
+
+उसने अपने बाज़ के सिर को हल्के से सहलाया।
+
+---
+
+“यह केवल पक्षी नहीं है…”
+
+“यह मेरी आँखें है।”
+
+---
+
+रात को—
+
+जब शिविर लगा—
+
+बाज़ एक पत्थर पर बैठा था।
+
+---
+
+बाज़पाल उसके पास बैठा।
+
+---
+
+“आज हमने उन्हें बचा लिया,” उसने कहा।
+
+---
+
+बाज़ ने कोई उत्तर नहीं दिया।
+
+---
+
+लेकिन उसकी आँखों में—
+
+वही शांति थी।
+
+---
+
+समय बीतता गया।
+
+---
+
+उनकी कथा फैल गई।
+
+---
+
+लोग कहते—
+
+“वह आदमी… जो आकाश से देखता है।”
+
+---
+
+लेकिन सच—
+
+कुछ और था।
+
+---
+
+वह अकेला नहीं था।
+
+---
+
+वह और उसका बाज़—
+
+एक थे।
+
+---
+
+आज भी—
+
+जब अरावली की घाटियों में कोई बाज़ उड़ता है—
+
+तो लगता है—
+
+मानो वह केवल शिकार नहीं देख रहा।
+
+---
+
+वह इतिहास देख रहा है।
+
+---
+
+उस बंधन को—
+
+जो मनुष्य और प्रकृति के बीच था।
+
+---
+
+जहाँ हर जीव—
+
+एक योद्धा था।
+
+---
+
+और हर आँख—
+
+रक्षा का हिस्सा।
+
+---
+
+बाज़पाल और उसका बाज़—
+
+एक कहानी नहीं।
+
+---
+
+एक स्मरण।
+
+---
+
+कि कभी-कभी…
+
+सबसे बड़ी जीत—
+
+तलवार से नहीं—
+
+दृष्टि से होती है।`
+
     ],
-    coverImage: { src: '/images/legends/falconers.jpg', alt: 'A Rajput noble with a falcon on his wrist.' }
+    coverImage: { src: '/images/dynasties/man-singh.jpg', alt: 'A Rajput noble with a falcon on his wrist.' }
   },
   {
     id: 'legend-of-the-warrior-s-pyre',
@@ -507,7 +12150,7 @@ export const allLegends: Legend[] = [
       'This legend recounts the story of a commander who, after seeing his men fall, walked into the flames with his standard still held high, refusing to let it touch the ground.',
       'The warrior’s pyre is a stark reminder of the lengths to which the people of Rajputana would go to preserve their dignity against an overwhelming foe.'
     ],
-    coverImage: { src: '/images/legends/warrior-pyre.jpg', alt: 'A large ritual pyre burning under a dark sky.' }
+    coverImage: { src: '/images/dynasties/rana-sanga.jpg', alt: 'A large ritual pyre burning under a dark sky.' }
   },
   {
     id: 'ballad-of-the-desert-storm-riders',
@@ -521,7 +12164,7 @@ export const allLegends: Legend[] = [
       'This ballad celebrates their ability to navigate the shifting sands when the enemy was blinded, turning a natural disaster into a tactical advantage.',
       'Their story is a testament to the Rajput ability to adapt to the harshest environments and turn the desert’s own power against those who sought to conquer it.'
     ],
-    coverImage: { src: '/images/legends/storm-riders.jpg', alt: 'Cavalry charging through a thick dust storm.' }
+    coverImage: { src: '/images/dynasties/maharana-pratap.jpg', alt: 'Cavalry charging through a thick dust storm.' }
   },
   {
     id: 'tale-of-the-rajput-fortress-builders',
@@ -531,11 +12174,494 @@ export const allLegends: Legend[] = [
     era: 'Ancient to Medieval',
     location: 'Aravalli Ridges',
     story: [
-      'The fortresses of Rajputana were not just buildings but masterpieces of defensive engineering. This tale celebrates the architects who understood the geometry of survival.',
-      'It tells of the construction of Kumbhalgarh, with its massive walls and hidden passages, designed to be impregnable even to the most determined siege.',
-      'The fortress builders left behind a legacy of stone that still stands as a witness to the ingenuity and resolve of a people who refused to be caged.'
+      `अरावली की काली, टेढ़ी-मेढ़ी पहाड़ियों के बीच… जहाँ बादल भी रास्ता भूल जाते हैं… वहाँ एक सपना आकार ले रहा था।
+
+पत्थरों का सपना।
+
+रक्षा का सपना।
+
+अजेय होने का सपना।
+
+---
+
+सूरज अभी पूरी तरह उगा नहीं था, जब हथौड़ों की आवाज़ पहाड़ियों में गूँजने लगी। हर चोट—एक प्रतिज्ञा थी। हर पत्थर—एक दीवार नहीं, एक निर्णय था।
+
+वहाँ खड़ा था—एक वास्तुकार।
+
+उसके हाथ में तलवार नहीं थी।
+
+लेकिन उसकी आँखों में वही ज्वाला थी—
+
+जो एक सेनापति में होती है।
+
+---
+
+“हम किला नहीं बना रहे,” उसने अपने कारीगरों से कहा।
+
+“हम… समय को चुनौती दे रहे हैं।”
+
+---
+
+उसके सामने फैली थी—
+
+कुंभलगढ़ की भूमि।
+
+ऊँची।
+
+कठोर।
+
+और विश्वासघाती।
+
+---
+
+“यही सही स्थान है?” एक कारीगर ने पूछा।
+
+---
+
+वास्तुकार मुस्कुराया।
+
+---
+
+“यही सबसे कठिन है…”
+
+“इसलिए यही सबसे सुरक्षित होगा।”
+
+---
+
+निर्माण शुरू हुआ।
+
+---
+
+पत्थर ढोए गए।
+
+पहाड़ियों को काटा गया।
+
+---
+
+दिन की तपिश…
+
+रात की ठंड…
+
+सब सहते हुए—
+
+दीवारें उठने लगीं।
+
+---
+
+लेकिन यह साधारण निर्माण नहीं था।
+
+---
+
+हर मोड़—
+
+सोचा-समझा।
+
+---
+
+हर दीवार—
+
+एक रणनीति।
+
+---
+
+“दीवारें सीधी नहीं होंगी,” वास्तुकार ने कहा।
+
+---
+
+“क्यों?” एक युवक ने पूछा।
+
+---
+
+“क्योंकि दुश्मन सीधा सोचता है…”
+
+“और हम उसे भटकाएँगे।”
+
+---
+
+इसलिए—
+
+दीवारें मुड़ी हुई थीं।
+
+घुमावदार।
+
+---
+
+ताकि हर कदम पर—
+
+दुश्मन उलझ जाए।
+
+---
+
+फिर—
+
+गुप्त मार्ग।
+
+---
+
+“यह रास्ता कहाँ जाएगा?” एक कारीगर ने पूछा।
+
+---
+
+वास्तुकार ने उत्तर दिया—
+
+“जहाँ दुश्मन कभी नहीं पहुँचेगा।”
+
+---
+
+भूमिगत सुरंगें बनीं।
+
+---
+
+पत्थरों के भीतर छिपी—
+
+रहस्यमयी।
+
+---
+
+ताकि जब घेराबंदी हो—
+
+तो जीवन चलता रहे।
+
+---
+
+पानी के स्रोत बनाए गए।
+
+---
+
+तालाब।
+
+कुएँ।
+
+---
+
+“अगर हम घिरे रहें… महीनों तक?”
+
+---
+
+“तो भी हम जीवित रहेंगे,” वास्तुकार ने कहा।
+
+---
+
+समय बीतता गया।
+
+---
+
+दीवारें ऊँची होती गईं।
+
+---
+
+इतनी ऊँची—
+
+कि बादल उनसे टकराते।
+
+---
+
+इतनी लंबी—
+
+कि आँखें अंत न देख पाएँ।
+
+---
+
+और फिर—
+
+एक दिन—
+
+किला खड़ा था।
+
+---
+
+कुंभलगढ़।
+
+---
+
+पत्थरों का नहीं—
+
+संकल्प का किला।
+
+---
+
+लेकिन असली परीक्षा—
+
+अब शुरू हुई।
+
+---
+
+दूर—
+
+धूल उठी।
+
+---
+
+मुग़ल सेना।
+
+---
+
+तोपें।
+
+हजारों सैनिक।
+
+---
+
+“वे आ गए…” एक प्रहरी ने कहा।
+
+---
+
+किले के भीतर—
+
+सन्नाटा।
+
+---
+
+वास्तुकार प्राचीर पर खड़ा था।
+
+---
+
+उसने दीवारों को देखा।
+
+---
+
+“अब…” उसने कहा,
+
+“देखते हैं… क्या हमने सही बनाया है।”
+
+---
+
+पहला प्रहार।
+
+---
+
+तोप गरजी।
+
+---
+
+गोला दीवार से टकराया।
+
+---
+
+धूल उठी।
+
+---
+
+लेकिन दीवार—
+
+खड़ी रही।
+
+---
+
+दूसरा प्रहार।
+
+---
+
+तीसरा।
+
+---
+
+लेकिन हर बार—
+
+वही परिणाम।
+
+---
+
+“यह नहीं टूटेगा…” एक मुग़ल अधिकारी ने कहा।
+
+---
+
+“तो अंदर घुसो!” आदेश आया।
+
+---
+
+सेना आगे बढ़ी।
+
+---
+
+लेकिन रास्ते…
+
+सीधे नहीं थे।
+
+---
+
+घुमाव।
+
+मोड़।
+
+भ्रम।
+
+---
+
+“यहाँ से जाओ!”
+
+“नहीं, वहाँ से!”
+
+---
+
+वे भटक गए।
+
+---
+
+ऊपर से—
+
+तीर बरसने लगे।
+
+---
+
+“यह जाल है!” एक सैनिक चिल्लाया।
+
+---
+
+लेकिन अब—
+
+बहुत देर हो चुकी थी।
+
+---
+
+किले के भीतर—
+
+योद्धा तैयार थे।
+
+---
+
+हर दीवार—
+
+एक रक्षा।
+
+---
+
+हर मोड़—
+
+एक हमला।
+
+---
+
+दिन बीतते गए।
+
+---
+
+मुग़ल सेना थक गई।
+
+---
+
+रसद कम होने लगी।
+
+---
+
+और किला—
+
+अब भी अडिग।
+
+---
+
+वास्तुकार प्राचीर पर खड़ा था।
+
+---
+
+उसकी आँखों में संतोष था।
+
+---
+
+“यह केवल पत्थर नहीं है…”
+
+उसने धीरे से कहा,
+
+“यह… स्वतंत्रता है।”
+
+---
+
+अंततः—
+
+मुग़ल सेना पीछे हट गई।
+
+---
+
+कुंभलगढ़—
+
+खड़ा रहा।
+
+---
+
+समय बीतता गया।
+
+---
+
+राजा बदले।
+
+युद्ध बदले।
+
+---
+
+लेकिन वह किला—
+
+अब भी वहीं है।
+
+---
+
+आज भी—
+
+उसकी दीवारों पर खड़े होकर—
+
+अगर कोई दूर देखे—
+
+---
+
+तो उसे केवल पहाड़ नहीं दिखते।
+
+---
+
+उसे दिखता है—
+
+वह संकल्प।
+
+---
+
+वह बुद्धि।
+
+---
+
+वह जिद—
+
+जो कहती है—
+
+“हम झुकेंगे नहीं।”
+
+---
+
+कुंभलगढ़—
+
+एक किला नहीं।
+
+---
+
+एक उत्तर है।
+
+---
+
+उन सभी के लिए—
+
+जो सोचते हैं—
+
+कि केवल तलवार ही रक्षा कर सकती है।
+
+---
+
+कभी-कभी—
+
+एक दीवार…
+
+एक रास्ता…
+
+एक विचार—
+
+---
+
+पूरे साम्राज्य से अधिक शक्तिशाली होता है।
+
+---
+
+और वही—
+
+राजपूताना की असली ताकत थी।`
+
     ],
-    coverImage: { src: '/images/legends/fortress-builders.jpg', alt: 'Workers carving massive stone blocks for a fort wall.' }
+    coverImage: { src: '/images/dynasties/places/mewar.jpg', alt: 'Workers carving massive stone blocks for a fort wall.' }
   },
   {
     id: 'legend-of-the-golden-turban',
@@ -545,11 +12671,468 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Royal Court',
     story: [
-      'The Golden Turban was a rare honor bestowed upon a leader who had shown exceptional wisdom and courage. It was more than a mark of rank; it was a mark of trust.',
-      'This legend tells of a minister who, through his diplomatic skill, averted a war that would have devastated his people, earning him the Golden Turban from a grateful king.',
-      'The story emphasizes that the greatest victories are often those won with the mind and the heart, rather than just the sword.'
+      `संध्या उतर रही थी। किले की ऊँची दीवारों पर सूरज की अंतिम किरणें सुनहरी आभा बिखेर रही थीं—मानो स्वयं समय ठहरकर किसी निर्णय की प्रतीक्षा कर रहा हो।
+
+लेकिन उस दिन—
+
+युद्ध केवल रणभूमि पर नहीं था।
+
+वह दरबार में था।
+
+वह मन में था।
+
+---
+
+किले के भीतर—
+
+सभा लगी थी।
+
+राजा सिंहासन पर थे।
+
+उनकी आँखों में चिंता थी।
+
+---
+
+संदेश स्पष्ट था—
+
+दुश्मन सेना सीमा पर खड़ी थी।
+
+---
+
+“वे आक्रमण करेंगे,” एक सेनापति ने कहा।
+
+---
+
+“तो हम तैयार हैं,” दूसरे ने उत्तर दिया।
+
+---
+
+तलवारें खिंचने को तैयार थीं।
+
+घोड़े सजाए जा रहे थे।
+
+---
+
+लेकिन तभी—
+
+एक व्यक्ति आगे बढ़ा।
+
+---
+
+वह न कवच पहने था।
+
+न हाथ में तलवार।
+
+---
+
+लेकिन उसकी आँखों में—
+
+एक अलग प्रकार की शक्ति थी।
+
+---
+
+वह था—
+
+मंत्री।
+
+---
+
+“महाराज,” उसने कहा,
+
+“यह युद्ध… हमें जीत नहीं देगा।”
+
+---
+
+सभा में सन्नाटा।
+
+---
+
+“क्या तुम डरते हो?” एक सेनापति गरजा।
+
+---
+
+मंत्री ने उसकी ओर देखा।
+
+---
+
+“मैं युद्ध से नहीं डरता,” उसने शांत स्वर में कहा,
+
+“मैं उस विनाश से डरता हूँ… जो इसके बाद आएगा।”
+
+---
+
+राजा ने ध्यान से उसकी ओर देखा।
+
+---
+
+“तो तुम्हारा क्या सुझाव है?” उन्होंने पूछा।
+
+---
+
+मंत्री ने गहरी साँस ली।
+
+---
+
+“मुझे जाने दीजिए,” उसने कहा।
+
+---
+
+“दुश्मन के शिविर में।”
+
+---
+
+क्षण भर के लिए—
+
+पूरा दरबार स्तब्ध।
+
+---
+
+“यह आत्महत्या है!” एक ने कहा।
+
+---
+
+“या… एक अवसर,” मंत्री ने उत्तर दिया।
+
+---
+
+राजा कुछ क्षण चुप रहे।
+
+---
+
+फिर—
+
+उन्होंने सिर हिलाया।
+
+---
+
+“जाओ,” उन्होंने कहा।
+
+---
+
+“लेकिन याद रखो…”
+
+“तुम केवल अपने लिए नहीं जा रहे।”
+
+---
+
+“तुम… पूरे राज्य के लिए जा रहे हो।”
+
+---
+
+रात हुई।
+
+---
+
+मंत्री अकेले निकला।
+
+---
+
+किले के द्वार उसके पीछे बंद हो गए।
+
+---
+
+अंधेरे में—
+
+वह दुश्मन की ओर बढ़ा।
+
+---
+
+हर कदम—
+
+जोखिम।
+
+---
+
+हर साँस—
+
+अनिश्चित।
+
+---
+
+दुश्मन शिविर सामने था।
+
+---
+
+मशालें।
+
+सैनिक।
+
+हथियार।
+
+---
+
+“कौन है?” एक प्रहरी ने चिल्लाया।
+
+---
+
+“एक दूत,” मंत्री ने उत्तर दिया।
+
+---
+
+उसे भीतर ले जाया गया।
+
+---
+
+दुश्मन का सेनापति—
+
+ऊँचे तंबू में बैठा था।
+
+---
+
+उसकी आँखों में घमंड था।
+
+---
+
+“तुम यहाँ क्यों आए हो?” उसने पूछा।
+
+---
+
+मंत्री ने उसकी ओर देखा।
+
+---
+
+“युद्ध रोकने,” उसने कहा।
+
+---
+
+एक ठहाका।
+
+---
+
+“तुम सोचते हो… तुम मुझे रोक सकते हो?”
+
+---
+
+मंत्री मुस्कुराया।
+
+---
+
+“मैं आपको रोकने नहीं आया…”
+
+“मैं आपको समझाने आया हूँ।”
+
+---
+
+सेनापति की आँखें सिकुड़ गईं।
+
+---
+
+“कहो,” उसने कहा।
+
+---
+
+मंत्री आगे बढ़ा।
+
+---
+
+“अगर आप हमला करते हैं,” उसने कहा,
+
+“तो आप जीत सकते हैं…”
+
+---
+
+“लेकिन आप खोएँगे भी।”
+
+---
+
+“अपने सैनिक…”
+
+“अपनी शक्ति…”
+
+“और शायद… अपना भविष्य।”
+
+---
+
+सेनापति चुप हो गया।
+
+---
+
+“और अगर आप शांति चुनते हैं…” मंत्री ने आगे कहा,
+
+“तो आप बिना रक्त बहाए… सब पा सकते हैं।”
+
+---
+
+कुछ क्षण के लिए—
+
+तंबू में सन्नाटा।
+
+---
+
+बाहर—
+
+हवा चल रही थी।
+
+---
+
+सेनापति ने धीरे से पूछा—
+
+“और मुझे क्यों विश्वास होना चाहिए?”
+
+---
+
+मंत्री ने उत्तर दिया—
+
+“क्योंकि मैं खाली हाथ आया हूँ…”
+
+---
+
+“अगर मैं झूठ बोल रहा होता…”
+
+“तो मैं तलवार लाता।”
+
+---
+
+उनके शब्दों में एक सच्चाई थी—
+
+जो तलवार से अधिक तेज थी।
+
+---
+
+रात बीतती रही।
+
+---
+
+वार्ता चलती रही।
+
+---
+
+शब्द—
+
+तलवारों की जगह ले चुके थे।
+
+---
+
+सुबह—
+
+सूरज उगा।
+
+---
+
+और उसके साथ—
+
+एक निर्णय।
+
+---
+
+दुश्मन सेना पीछे हटने लगी।
+
+---
+
+कोई युद्ध नहीं हुआ।
+
+---
+
+कोई रक्त नहीं बहा।
+
+---
+
+किला सुरक्षित रहा।
+
+---
+
+लोगों ने राहत की साँस ली।
+
+---
+
+दरबार में—
+
+मंत्री खड़ा था।
+
+---
+
+राजा उसकी ओर देख रहे थे।
+
+---
+
+उनकी आँखों में गर्व था।
+
+---
+
+“तुमने…” उन्होंने कहा,
+
+“वह कर दिखाया… जो तलवारें नहीं कर सकीं।”
+
+---
+
+उन्होंने एक पगड़ी उठाई।
+
+---
+
+सुनहरी।
+
+---
+
+चमकती हुई।
+
+---
+
+“यह केवल सम्मान नहीं है,” राजा ने कहा,
+
+“यह विश्वास है।”
+
+---
+
+उन्होंने वह पगड़ी मंत्री के सिर पर बाँध दी।
+
+---
+
+सभा में जयकार गूँज उठी।
+
+---
+
+लेकिन मंत्री—
+
+शांत था।
+
+---
+
+क्योंकि वह जानता था—
+
+उसने युद्ध नहीं जीता।
+
+---
+
+उसने…
+
+युद्ध टाला था।
+
+---
+
+और कभी-कभी—
+
+वही सबसे बड़ी जीत होती है।
+
+---
+
+आज भी—
+
+जब सुनहरी पगड़ी बाँधी जाती है—
+
+तो वह केवल एक वस्त्र नहीं होती।
+
+---
+
+वह एक स्मरण होती है—
+
+कि बुद्धि…
+
+साहस से कम नहीं होती।
+
+---
+
+और कि सच्चा नेता—
+
+वह नहीं जो युद्ध करे…
+
+---
+
+बल्कि वह—
+
+जो उसे होने से रोक दे।`
+
     ],
-    coverImage: { src: '/images/legends/golden-turban.jpg', alt: 'A noble being presented with a golden turban.' }
+    coverImage: { src: '/images/dynasties/rulers/raja-bhoja-paramara.jpg', alt: 'A noble being presented with a golden turban.' }
   },
   {
     id: 'ballad-of-the-last-defender',
@@ -559,11 +13142,432 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Outpost Fort',
     story: [
-      'This ballad recounts the story of a young soldier who was the last man left alive in a remote outpost. He held the gate for a full day, refusing to let the enemy pass.',
-      'His lone stand allowed the nearby village to evacuate, saving hundreds of lives. By the time the relief force arrived, he was found leaning against his shield, dead but unbroken.',
-      'His story is a tribute to the individual courage that forms the bedrock of the Rajput martial tradition.'
+      `अरावली की एक दूरस्थ चौकी…
+
+जहाँ न कोई भव्य किला था…
+न विशाल सेना…
+
+सिर्फ पत्थरों से बना एक छोटा द्वार…
+और उसके पीछे… एक गाँव।
+
+वह चौकी… मानो दुनिया से अलग थी…
+लेकिन उसके अस्तित्व का अर्थ… बहुत बड़ा था।
+
+क्योंकि वही… अंतिम रेखा थी।
+
+और उस दिन…
+उस रेखा पर खड़ा था—
+
+एक युवा सैनिक।
+
+उसका जन्म किसी बड़े कुल में नहीं हुआ था…
+लेकिन उसके खून में वही आग थी…
+जो हर राजपूत में होती है।
+
+जब वह छोटा था…
+
+उसके पिता उसे लकड़ी की तलवार देते थे—
+
+“वार कर…”
+
+वह करता…
+
+कमज़ोर…
+
+पिता सिर हिलाते—
+
+“फिर से…”
+
+बार-बार…
+
+जब तक हाथ काँपना बंद न हो जाए।
+
+एक दिन…
+
+बालक ने पूछा—
+
+“मैं क्यों सीख रहा हूँ यह?”
+
+पिता ने उत्तर दिया—
+
+“क्योंकि एक दिन… तू अकेला भी होगा…”
+
+वह बात…
+
+उस समय समझ नहीं आई…
+
+लेकिन वह दिन… आने वाला था।
+
+समय बीता…
+
+बालक युवा बना…
+
+और एक दिन…
+
+उसे उस चौकी पर भेजा गया।
+
+छोटा स्थान…
+कम सैनिक…
+
+और चारों ओर…
+
+रेगिस्तान।
+
+एक साथी ने हँसकर कहा—
+
+“यहाँ क्या होगा?”
+
+युवा ने उत्तर दिया—
+
+“युद्ध… कभी बताकर नहीं आता…”
+
+दिन शांत थे…
+
+रातें लंबी…
+
+और पहरा…
+
+एकरस।
+
+लेकिन वह सतर्क था।
+
+हर हवा…
+हर धूल…
+
+वह देखता…
+
+सुनता…
+
+समझता।
+
+एक सुबह…
+
+क्षितिज पर धूल उठी।
+
+धीरे…
+फिर तेज़।
+
+एक वृद्ध सैनिक बोला—
+
+“यह सामान्य नहीं है…”
+
+युवा ने देखा…
+
+और कहा—
+
+“यह सेना है…”
+
+कुछ ही घंटों में…
+
+सत्य सामने था।
+
+दुश्मन।
+
+संख्या में अधिक…
+
+और तेजी से बढ़ता हुआ।
+
+चौकी…
+
+अब एक लक्ष्य थी।
+
+एक सैनिक चिल्लाया—
+
+“हम कम हैं!”
+
+दूसरा—
+
+“हमें पीछे हटना चाहिए!”
+
+युवा खड़ा रहा…
+
+शांत।
+
+“और गाँव?”
+
+सन्नाटा।
+
+कोई उत्तर नहीं।
+
+वह बोला—
+
+“जब तक यह द्वार खड़ा है…
+गाँव सुरक्षित है।”
+
+निर्णय हो गया।
+
+गाँव को संदेश भेजा गया—
+
+“तुरंत निकल जाओ!”
+
+और चौकी…
+
+तैयार हो गई।
+
+पहला हमला…
+
+तेज़…
+
+अचानक।
+
+“हर हर महादेव!”
+
+गर्जना…
+
+और फिर…
+
+टक्कर।
+
+तीर…
+तलवारें…
+धूल…
+
+लेकिन चौकी…
+
+अब भी खड़ी।
+
+एक-एक कर…
+
+सैनिक गिरने लगे।
+
+दुश्मन…
+
+अधिक…
+
+और लगातार।
+
+एक साथी गिरा…
+
+दूसरा…
+
+फिर तीसरा…
+
+और धीरे-धीरे…
+
+वह अकेला रह गया।
+
+एक सैनिक ने मरते हुए कहा—
+
+“द्वार… मत छोड़ना…”
+
+युवा ने सिर हिलाया—
+
+“कभी नहीं…”
+
+अब…
+
+वह अकेला था।
+
+सामने…
+
+दुश्मन की पूरी सेना।
+
+एक सेनापति हँसा—
+
+“एक आदमी… हमें रोकेगा?”
+
+युवा ने तलवार उठाई—
+
+“जब तक साँस है…”
+
+और फिर…
+
+युद्ध।
+
+वह द्वार के सामने खड़ा…
+
+ढाल उठाए…
+
+तलवार चमकती हुई।
+
+पहला वार…
+
+दुश्मन गिरा।
+
+दूसरा…
+
+तीसरा…
+
+हर वार…
+
+अब अंतिम था।
+
+लेकिन वह रुका नहीं।
+
+घंटे बीतते गए…
+
+सूरज ऊपर चढ़ा…
+
+फिर नीचे उतरने लगा।
+
+रक्त…
+
+उसके शरीर से बह रहा था…
+
+लेकिन उसकी आँखें…
+
+अब भी अडिग।
+
+एक दुश्मन सैनिक चिल्लाया—
+
+“वह क्यों नहीं गिरता?”
+
+दूसरा बोला—
+
+“क्योंकि वह… खड़ा रहने के लिए पैदा हुआ है…”
+
+युवा…
+
+अब थक चुका था…
+
+साँस भारी…
+
+लेकिन वह जानता था—
+
+गाँव…
+
+अब दूर जा चुका है।
+
+उसने आसमान की ओर देखा—
+
+और मुस्कुराया।
+
+“वे सुरक्षित हैं…”
+
+यह विचार…
+
+उसे और मजबूत कर गया।
+
+एक अंतिम हमला…
+
+दुश्मन पूरी शक्ति से…
+
+वह तैयार।
+
+“आओ!”
+
+उसकी आवाज़…
+
+कमज़ोर…
+
+लेकिन अडिग।
+
+तलवारें टकराईं…
+
+ढाल टूटी…
+
+घाव…
+
+गहरे…
+
+और फिर…
+
+एक भारी वार।
+
+वह पीछे हटा…
+
+दीवार से टिक गया…
+
+लेकिन गिरा नहीं।
+
+उसने अपनी ढाल को सामने रखा…
+
+और आखिरी बार…
+
+तलवार उठाई।
+
+“यह द्वार… नहीं गिरेगा…”
+
+और फिर…
+
+मौन।
+
+दुश्मन…
+
+धीरे-धीरे आगे बढ़ा…
+
+सावधानी से…
+
+जैसे वह अब भी जीवित हो।
+
+उन्होंने उसे देखा—
+
+वह खड़ा था…
+
+दीवार से टिककर…
+
+ढाल सामने…
+
+तलवार नीचे…
+
+लेकिन आँखें…
+
+अब बंद।
+
+वह मर चुका था।
+
+लेकिन द्वार…
+
+अब भी बंद था।
+
+और गाँव…
+
+सुरक्षित।
+
+कुछ देर बाद…
+
+राजपूत सेना पहुँची।
+
+उन्होंने दृश्य देखा…
+
+और समझ गए—
+
+यह जीत…
+
+किसी एक व्यक्ति की है।
+
+एक सैनिक आगे बढ़ा…
+
+उसकी ढाल को छुआ…
+
+और धीरे से कहा—
+
+“तू गिरा नहीं…”
+
+आज…
+
+वह चौकी…
+
+अब भी खड़ी है।
+
+पत्थर टूट चुके हैं…
+
+लेकिन वह द्वार…
+
+अब भी बंद होता है।
+
+और जब हवा चलती है…
+
+तो कोई आवाज़ आती है—
+
+“मत छोड़ना…”
+
+क्योंकि…
+
+कुछ युद्ध…
+
+सेना नहीं जीतती…
+
+वे एक व्यक्ति जीतता है।
+
+और उसकी कहानी…
+
+आज भी कहती है—
+
+“साहस… संख्या से नहीं मापा जाता…”
+`
     ],
-    coverImage: { src: '/images/legends/last-defender.jpg', alt: 'A single warrior standing before a breached gate.' }
+    coverImage: { src: '/images/dynasties/places/tomar-delhi-gwalior-main.JPG', alt: 'A single warrior standing before a breached gate.' }
   },
   {
     id: 'tale-of-the-night-watchmen',
@@ -573,11 +13577,397 @@ export const allLegends: Legend[] = [
     era: 'Timeless',
     location: 'Fortress Ramparts',
     story: [
-      'The Night Watchmen were the invisible guardians of the peace. While the city slept, they paced the walls, their torches the only light in the darkness.',
-      'This tale follows a watchman who noticed a subtle change in the sound of the desert wind, realizing it was the muffled approach of an enemy force.',
-      'His quick thinking and immediate signal saved the city from a surprise massacre, reminding everyone that the safety of all depends on the vigilance of a few.'
+      `रात…
+
+जब किला सो जाता था…
+जब बाजार की आवाज़ें थम जाती थीं…
+जब महल के भीतर दीपक धीमे-धीमे बुझने लगते थे…
+
+तब…
+एक और दुनिया जागती थी।
+
+प्राचीरों पर…
+छाया के बीच…
+मशाल की लौ के साथ…
+
+चलते थे—
+रात्रि प्रहरी।
+
+वे नामहीन थे…
+अनदेखे…
+लेकिन उनके बिना…
+
+कोई भी किला… सुरक्षित नहीं था।
+
+यह कथा है…
+उनमें से एक की।
+
+एक ऐसा प्रहरी…
+जिसकी आँखें… सोती नहीं थीं।
+
+उसका जन्म किसी राजवंश में नहीं हुआ था…
+
+वह एक साधारण परिवार में पला…
+
+लेकिन बचपन से ही…
+उसके कान… अलग थे।
+
+वह हवा को सुन सकता था…
+
+उसके पिता…
+स्वयं एक प्रहरी थे।
+
+वे कहते—
+
+“रात में… आँखें धोखा दे सकती हैं…
+लेकिन कान… कभी नहीं।”
+
+बालक ध्यान से सुनता…
+
+और हर रात…
+
+किले की दीवारों पर चढ़कर…
+
+हवा को सुनने की कोशिश करता।
+
+“क्या सुन रहा है?” पिता पूछते।
+
+बालक कहता—
+
+“कुछ नहीं…”
+
+पिता मुस्कुराते—
+
+“फिर से सुन…”
+
+धीरे-धीरे…
+
+वह सीख गया।
+
+हवा का स्वर…
+रेत की सरसराहट…
+दूर चलते कदमों की हल्की थरथराहट…
+
+सब कुछ…
+
+एक संकेत था।
+
+समय बीता…
+
+वह युवा हुआ…
+
+और एक दिन…
+
+उसने भी मशाल उठाई।
+
+अब वह भी…
+
+रात्रि प्रहरी था।
+
+पहली रात…
+
+प्राचीर पर…
+
+मौन…
+
+अंधेरा…
+
+और दूर…
+
+रेगिस्तान।
+
+उसने कदम बढ़ाए…
+
+धीरे-धीरे…
+
+मशाल की लौ…
+
+हवा में डोलती हुई।
+
+एक साथी ने पूछा—
+
+“डर लगता है?”
+
+वह बोला—
+
+“डर… जरूरी है…”
+
+“क्यों?”
+
+“क्योंकि वही… जागता रखता है।”
+
+यह उसका पहला पहरा था।
+
+दिन बीतते गए…
+
+रातें…
+
+एक जैसी…
+
+लेकिन हर रात…
+
+वह कुछ नया सुनता।
+
+एक दिन…
+
+एक सैनिक ने कहा—
+
+“यह काम आसान है…”
+
+वह मुस्कुराया—
+
+“जब तक कुछ होता नहीं…”
+
+और फिर…
+
+वह रात आई।
+
+अमावस्या…
+
+आकाश काला…
+
+हवा धीमी…
+
+और किला…
+
+गहरी नींद में।
+
+प्रहरी…
+
+प्राचीर पर चल रहा था।
+
+मशाल…
+
+उसके हाथ में…
+
+और कान…
+
+हवा में।
+
+सब कुछ… सामान्य।
+
+फिर…
+
+एक हल्की सी आवाज़।
+
+कुछ अलग।
+
+वह रुका।
+
+साँस रोकी।
+
+फिर से सुना।
+
+हवा…
+
+आज अलग थी।
+
+उसमें… एक लय थी।
+
+जैसे… कोई उसे छुपा रहा हो।
+
+उसने धीरे से कहा—
+
+“यह हवा नहीं है…”
+
+एक साथी ने पूछा—
+
+“क्या?”
+
+वह बोला—
+
+“यह… कदम हैं…”
+
+दूर…
+
+बहुत दूर…
+
+लेकिन स्पष्ट।
+
+दुश्मन।
+
+वे आ रहे थे…
+
+मौन…
+
+धीरे-धीरे…
+
+किले को घेरने।
+
+एक क्षण…
+
+और फिर…
+
+निर्णय।
+
+वह दौड़ा नहीं…
+
+वह भागा नहीं…
+
+उसने अपनी मशाल उठाई…
+
+और एक विशेष संकेत दिया।
+
+तीन बार…
+धीरे…
+फिर तेज़।
+
+यह संकेत…
+
+केवल पहरेदार जानते थे।
+
+नीचे…
+
+एक प्रहरी जागा—
+
+“कुछ गड़बड़ है…”
+
+फिर…
+
+दूसरा…
+
+तीसरा…
+
+और धीरे-धीरे…
+
+पूरा किला जाग गया।
+
+“हथियार उठाओ!”
+
+“दुश्मन आ रहा है!”
+
+सैनिक दौड़े…
+तलवारें उठीं…
+
+और उसी समय…
+
+दुश्मन…
+
+दीवारों के नीचे पहुँच चुका था।
+
+लेकिन अब…
+
+आश्चर्य नहीं था।
+
+“हर हर महादेव!”
+
+गर्जना…
+
+और फिर…
+
+प्रतिरोध।
+
+तीर बरसे…
+पत्थर गिरे…
+
+दुश्मन…
+
+जो चुपचाप हमला करना चाहता था…
+
+अब शोर में फँस गया।
+
+युद्ध…
+
+भयंकर।
+
+रात…
+
+अब आग से भर गई थी।
+
+प्रहरी…
+
+अब भी प्राचीर पर…
+
+मशाल हाथ में…
+
+और आँखें…
+
+हर दिशा में।
+
+एक सैनिक चिल्लाया—
+
+“अगर तू नहीं सुनता…
+तो हम सब…”
+
+वह मुस्कुराया—
+
+“मैंने केवल अपना काम किया…”
+
+युद्ध समाप्त हुआ…
+
+दुश्मन पीछे हटा…
+
+किला बच गया।
+
+सुबह…
+
+सूरज उगा…
+
+और पहली किरण…
+
+उस प्राचीर पर पड़ी…
+
+जहाँ वह खड़ा था।
+
+राजा स्वयं आया—
+
+“तूने शहर बचा लिया…”
+
+प्रहरी ने सिर झुकाया—
+
+“मैंने केवल सुना…”
+
+राजा ने कहा—
+
+“और वही… सबसे बड़ा काम था…”
+
+समय बीता…
+
+उसकी कथा…
+
+धीरे-धीरे फैल गई।
+
+लेकिन उसका नाम…
+
+अब भी कोई नहीं जानता था।
+
+क्योंकि वह…
+
+नाम के लिए नहीं था।
+
+आज…
+
+जब रात होती है…
+
+और किले खामोश…
+
+तो कुछ लोग कहते हैं—
+
+“अब भी… कोई चल रहा है…”
+
+“कौन?”
+
+“प्रहरी…”
+
+क्योंकि…
+
+रात कभी पूरी तरह खाली नहीं होती।
+
+और हर किले की सुरक्षा…
+
+अब भी…
+
+कुछ अनदेखे कदमों पर टिकी है।
+
+अरावली की हवा…
+
+आज भी कहती है—
+
+“जब सब सोते हैं…
+तभी कुछ लोग… जागते हैं…”
+`
     ],
-    coverImage: { src: '/images/legends/night-watchmen.jpg', alt: 'A watchman holding a torch on a dark wall.' }
+    coverImage: { src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'A watchman holding a torch on a dark wall.' }
   },
   {
     id: 'legend-of-the-aravalli-guardians',
@@ -587,11 +13977,400 @@ export const allLegends: Legend[] = [
     era: 'Ancient',
     location: 'Aravalli Range',
     story: [
-      'The Aravalli Guardians are believed to be ancient spirits that dwell in the deep caves and high peaks of the mountains. They are said to guide those whose hearts are pure.',
-      'This legend tells of a lost prince who was led to safety by a mysterious figure in the mountains, only for the figure to vanish into the mist once the path was clear.',
-      'The story reflects the deep spiritual connection the people of Rajputana have with their rugged landscape, seeing it not just as a barrier, but as a protector.'
+      `अरावली…
+
+पत्थरों की वह प्राचीन शृंखला… जो समय से भी पुरानी लगती है…
+जहाँ हर शिखर… किसी भूले हुए प्रहरी की तरह खड़ा है…
+और हर गुफा… एक अनकहा रहस्य छुपाए बैठी है…
+
+लोग कहते हैं…
+यह केवल पर्वत नहीं हैं।
+
+यह जीवित हैं।
+
+और इनके भीतर…
+कुछ और भी है।
+
+“अरावली के रक्षक।”
+
+कहते हैं… वे दिखाई नहीं देते…
+लेकिन जब कोई खो जाता है…
+जब कोई अकेला पड़ जाता है…
+
+तब वे मार्ग दिखाते हैं।
+
+यह कथा है…
+एक राजकुमार की…
+जो युद्ध में खो गया…
+और पहाड़ों ने उसे वापस लौटा दिया।
+
+उसका जन्म…
+एक राजवंश में हुआ था…
+
+महल की ऊँची दीवारें…
+चमकती तलवारें…
+और हर दिन… प्रशिक्षण।
+
+उसके पिता…
+एक कठोर शासक…
+
+वे कहते—
+
+“राजकुमार… कभी रास्ता नहीं खोता…”
+
+लेकिन जीवन…
+हमेशा सीधा नहीं चलता।
+
+बचपन से ही…
+
+उसने युद्ध सीखा…
+रणनीति सीखी…
+और सबसे महत्वपूर्ण—
+
+निर्णय लेना सीखा।
+
+लेकिन उसने कभी…
+
+खोने का अनुभव नहीं किया था।
+
+जब तक…
+
+वह दिन नहीं आया।
+
+युद्ध।
+
+मैदान…
+
+अरावली की घाटियों के बीच…
+
+दुश्मन…
+
+अचानक…
+
+चारों ओर से।
+
+“हर हर महादेव!”
+
+गर्जना…
+
+और फिर…
+
+टक्कर।
+
+घोड़े दौड़े…
+तलवारें टकराईं…
+
+धूल…
+रक्त…
+और अराजकता।
+
+राजकुमार…
+
+अग्रिम पंक्ति में।
+
+उसकी तलवार…
+
+तेज़…
+
+लेकिन युद्ध…
+
+असंतुलित।
+
+एक विस्फोट…
+
+घोड़ा बेकाबू…
+
+और वह…
+
+अलग हो गया।
+
+जब धूल बैठी…
+
+तो वह अकेला था।
+
+कोई सेना नहीं…
+कोई साथी नहीं…
+
+सिर्फ पहाड़…
+
+और सन्नाटा।
+
+उसने चारों ओर देखा—
+
+“कौन है?”
+
+कोई उत्तर नहीं।
+
+सूरज ढलने लगा…
+
+छायाएँ लंबी…
+
+और रास्ते…
+
+और भी उलझे हुए।
+
+उसने चलना शुरू किया…
+
+एक दिशा में…
+
+फिर दूसरी में…
+
+लेकिन हर बार…
+
+वह वहीं लौट आता।
+
+रात…
+
+ठंडी…
+
+और भयावह।
+
+एक आवाज़…
+
+दूर से…
+
+मानो कोई चल रहा हो।
+
+“कौन?”
+
+उसने पुकारा।
+
+मौन।
+
+फिर…
+
+एक आकृति।
+
+धुंध में…
+
+अस्पष्ट…
+
+लेकिन स्पष्ट भी।
+
+एक व्यक्ति…
+
+या शायद…
+
+कुछ और।
+
+“तुम खो गए हो…”
+
+आवाज़ आई।
+
+राजकुमार ने तलवार उठाई—
+
+“कौन हो तुम?”
+
+आकृति शांत—
+
+“मार्ग।”
+
+यह उत्तर…
+
+अजीब था।
+
+“मुझे रास्ता दिखाओ…”
+
+राजकुमार ने कहा।
+
+आकृति मुड़ी…
+
+और चलने लगी।
+
+राजकुमार…
+उसके पीछे।
+
+चुपचाप…
+
+कोई शब्द नहीं…
+
+सिर्फ कदमों की आहट।
+
+वे चट्टानों के बीच से गुज़रे…
+संकीर्ण रास्तों से…
+गहरी खाइयों के पास से…
+
+हर जगह…
+
+जहाँ अकेले जाना… असंभव था।
+
+राजकुमार ने पूछा—
+
+“तुम्हें रास्ता कैसे पता है?”
+
+आकृति ने उत्तर नहीं दिया।
+
+बस… चलती रही।
+
+एक स्थान पर…
+
+वह रुकी।
+
+नीचे…
+
+एक गहरी घाटी…
+
+और एक संकरा मार्ग।
+
+“यहाँ से…”
+
+आवाज़ आई।
+
+राजकुमार झिझका—
+
+“यह सुरक्षित नहीं है…”
+
+आकृति ने उसकी ओर देखा—
+
+“तुम्हारा मन… है?”
+
+राजकुमार कुछ क्षण चुप रहा…
+
+फिर आगे बढ़ा।
+
+धीरे-धीरे…
+
+संतुलन रखते हुए…
+
+और वह पार कर गया।
+
+जब उसने पीछे मुड़कर देखा…
+
+आकृति वहीं थी।
+
+फिर…
+
+वे आगे बढ़े।
+
+घंटों…
+
+दिनों जैसे लगे…
+
+लेकिन अंततः…
+
+एक ऊँचाई पर…
+
+सूरज उग रहा था।
+
+दूर…
+
+एक किला।
+
+उसका अपना।
+
+राजकुमार की आँखों में चमक—
+
+“हम पहुँच गए…”
+
+वह मुड़ा—
+
+“तुम…”
+
+लेकिन…
+
+कोई नहीं था।
+
+सिर्फ धुंध…
+
+और हवा।
+
+आकृति…
+
+गायब।
+
+राजकुमार कुछ क्षण खड़ा रहा…
+
+समझने की कोशिश करता हुआ…
+
+फिर धीरे से बोला—
+
+“धन्यवाद…”
+
+वह किले तक पहुँचा…
+
+थका हुआ…
+लेकिन जीवित।
+
+सैनिकों ने उसे देखा—
+
+“राजकुमार!”
+
+“आप कहाँ थे?”
+
+उसने उत्तर दिया—
+
+“मैं… मार्ग पर था…”
+
+उन्होंने पूछा—
+
+“किसने दिखाया?”
+
+वह मुस्कुराया—
+
+“पहाड़ों ने…”
+
+समय बीता…
+
+वह राजा बना…
+
+और हर निर्णय में…
+
+वह उन पहाड़ों को याद रखता।
+
+एक दिन…
+
+एक युवा सैनिक उससे पूछता है—
+
+“क्या सच में… कोई मार्गदर्शक होता है?”
+
+राजा कुछ क्षण चुप रहता है…
+
+फिर कहता है—
+
+“अगर तुम्हारा मन साफ हो…
+तो मार्ग स्वयं आता है…”
+
+आज भी…
+
+जब कोई अरावली में भटकता है…
+
+और अचानक…
+
+उसे रास्ता मिल जाता है…
+
+तो लोग कहते हैं—
+
+“रक्षक…”
+
+वे अब भी हैं।
+
+गुफाओं में…
+शिखरों पर…
+धुंध के बीच…
+
+और जब समय आता है…
+
+वे सामने आते हैं…
+
+बस उतने समय के लिए…
+
+जितना आवश्यक हो।
+
+और फिर…
+
+वापस…
+
+छाया में।
+
+अरावली की हवाएँ…
+
+आज भी फुसफुसाती हैं—
+
+“यह पर्वत… केवल खड़े नहीं हैं…
+वे देख रहे हैं…”
+`
     ],
-    coverImage: { src: '/images/legends/aravalli-guardians.jpg', alt: 'A misty mountain peak with a faint, ethereal figure.' }
+    coverImage: { src: '/images/dynasties/places/mewar.jpg', alt: 'A misty mountain peak with a faint, ethereal figure.' }
   },
   {
     id: 'tale-of-the-warrior-monk',
@@ -601,11 +14380,522 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Monastery and Battlefield',
     story: [
-      'This tale follows a Rajput prince who became a monk but returned to the battlefield when his people were threatened. He fought with a calm that unsettled his enemies.',
-      'He carried no shield, only his sword and his faith, believing that true protection comes from within. His presence on the field inspired a sense of divine purpose in his men.',
-      'The legend of the Warrior Monk illustrates the synthesis of martial valor and spiritual discipline that characterizes the highest Rajput ideals.'
+      `अरावली की चट्टानों के बीच…
+
+जहाँ एक ओर रणभूमि की धूल उड़ती थी… और दूसरी ओर तपस्वियों की धूनी जलती थी…
+वहीं जन्मी थी एक ऐसी कथा… जो तलवार और तप—दोनों की सीमा को मिटा देती है।
+
+यह कहानी है—
+एक राजकुमार की…
+जो संन्यासी बना…
+और फिर… युद्ध बन गया।
+
+उसका जन्म एक राजवंश में हुआ था…
+
+महल के भीतर…
+सोने की दीवारें…
+और बाहर…
+सदा तैयार खड़ी सेना।
+
+जब वह जन्मा…
+
+तो दरबार में नगाड़े बजे…
+
+“राजकुमार आया है!”
+
+लेकिन उसी क्षण…
+
+महल के बाहर…
+एक युद्ध भी चल रहा था।
+
+रक्त…
+धूल…
+और तलवारों की टकराहट…
+
+यह उसका पहला संसार था।
+
+बचपन से ही…
+
+उसने दो चीज़ें देखीं—
+
+एक ओर…
+तलवार का तेज़।
+
+दूसरी ओर…
+मंदिर की शांति।
+
+उसके पिता…
+एक महान योद्धा…
+
+वे कहते—
+
+“तलवार ही राजपूत की पहचान है।”
+
+लेकिन उसकी माँ…
+
+धीमे स्वर में कहती—
+
+“और आत्मा… उसका आधार।”
+
+यह द्वंद्व…
+
+उसके भीतर पलता रहा।
+
+प्रशिक्षण शुरू हुआ…
+
+घोड़े की पीठ…
+धनुष की डोरी…
+तलवार का भार…
+
+वह सब कुछ सीखता गया…
+
+तेज़…
+सटीक…
+
+लेकिन हर शाम…
+
+वह मंदिर में बैठ जाता।
+
+आँखें बंद…
+
+और घंटों…
+
+मौन।
+
+एक दिन…
+
+उसके गुरु ने पूछा—
+
+“तू यहाँ क्यों बैठता है?”
+
+राजकुमार ने उत्तर दिया—
+
+“क्योंकि यहाँ… कोई शोर नहीं है।”
+
+गुरु मुस्कुराए—
+
+“और युद्ध?”
+
+राजकुमार ने आँखें खोलीं—
+
+“वह भीतर है…”
+
+यह उत्तर…
+
+सामान्य नहीं था।
+
+समय बीता…
+
+राजकुमार युवा हुआ…
+
+और फिर…
+
+एक दिन…
+
+उसने घोषणा की—
+
+“मैं संन्यास लूँगा।”
+
+दरबार स्तब्ध।
+
+पिता क्रोधित—
+
+“तू तलवार छोड़ देगा?”
+
+राजकुमार शांत—
+
+“मैं तलवार नहीं छोड़ रहा…
+मैं उसे समझने जा रहा हूँ।”
+
+और वह चला गया।
+
+अरावली की गहराई में…
+
+एक आश्रम…
+
+जहाँ न कोई युद्ध…
+न कोई सत्ता…
+
+सिर्फ साधना।
+
+वर्ष बीतते गए…
+
+उसके बाल बढ़ गए…
+शरीर पतला…
+
+लेकिन आँखें…
+
+और गहरी।
+
+वह अब तलवार नहीं उठाता था…
+
+लेकिन उसकी उपस्थिति…
+
+एक शक्ति थी।
+
+एक दिन…
+
+एक दूत आया।
+
+घबराया हुआ…
+
+“राज्य पर आक्रमण हुआ है!”
+
+मौन।
+
+सभी उसकी ओर देखने लगे।
+
+“आपको लौटना होगा…”
+
+वह कुछ क्षण चुप रहा…
+
+फिर धीरे से उठा।
+
+“समय आ गया है…”
+
+उसने कहा।
+
+वह लौटा…
+
+लेकिन अब वह वही नहीं था।
+
+न कोई कवच…
+न कोई ढाल…
+
+सिर्फ एक तलवार…
+
+और उसका विश्वास।
+
+दरबार में…
+
+सबने उसे देखा—
+
+“क्या आप युद्ध करेंगे?”
+
+वह शांत स्वर में बोला—
+
+“मैं रक्षा करूँगा।”
+
+सेना तैयार हुई…
+
+मैदान सजा…
+
+दुश्मन विशाल…
+
+और इस बार…
+
+स्थिति कठिन।
+
+एक सैनिक उसके पास आया—
+
+“आपके पास ढाल नहीं है…”
+
+वह मुस्कुराया—
+
+“जिसे भीतर ढाल मिल जाए…
+उसे बाहर की आवश्यकता नहीं होती।”
+
+यह उत्तर…
+
+अजीब था…
+
+लेकिन उसमें शक्ति थी।
+
+युद्ध शुरू हुआ।
+
+“हर हर महादेव!”
+
+गर्जना…
+
+और फिर…
+
+धावा।
+
+घोड़े दौड़े…
+तलवारें टकराईं…
+
+लेकिन वह…
+
+अलग था।
+
+वह दौड़ा नहीं…
+
+वह चला।
+
+धीरे…
+
+स्थिर…
+
+और हर कदम…
+
+मापा हुआ।
+
+एक दुश्मन उसके सामने आया—
+
+“तू बिना ढाल के आया है?”
+
+वह शांत—
+
+“हाँ…”
+
+वार आया…
+
+तेज़…
+
+लेकिन उसने उसे रोका…
+
+और एक ही प्रहार में…
+
+दुश्मन गिर पड़ा।
+
+उसकी गति…
+
+अजीब थी।
+
+न तेज़…
+न धीमी…
+
+लेकिन अडिग।
+
+एक सैनिक ने देखा—
+
+“वह डरता नहीं…”
+
+दूसरा बोला—
+
+“वह सोचता भी नहीं…”
+
+क्योंकि वह…
+
+केवल उपस्थित था।
+
+युद्ध भयंकर था…
+
+रक्त…
+धूल…
+और चीखें…
+
+लेकिन उसके चारों ओर…
+
+एक अजीब शांति थी।
+
+उसके साथी…
+
+उसे देखकर प्रेरित हुए।
+
+“वह शांत है…
+तो हम क्यों डरें?”
+
+उनका साहस बढ़ा…
+
+उनकी चाल मजबूत हुई…
+
+और धीरे-धीरे…
+
+युद्ध बदलने लगा।
+
+दूसरा संघर्ष…
+
+और भी कठिन।
+
+इस बार…
+
+रात का युद्ध।
+
+अंधेरा…
+
+और हर दिशा में खतरा।
+
+एक सैनिक बोला—
+
+“हम कुछ नहीं देख पा रहे…”
+
+वह धीरे से बोला—
+
+“तो सुनो…”
+
+सबने साँस रोकी…
+
+और पहली बार…
+
+उन्होंने युद्ध को सुना।
+
+पगचाप…
+हथियारों की खनक…
+हवा की दिशा…
+
+और उसी आधार पर…
+
+उन्होंने वार किए।
+
+दुश्मन…
+
+भ्रमित…
+
+और धीरे-धीरे…
+
+परास्त।
+
+तीसरा और अंतिम युद्ध…
+
+निर्णायक।
+
+दुश्मन की पूरी शक्ति…
+
+एक साथ।
+
+मैदान…
+
+विशाल…
+
+और इस बार…
+
+वापसी का कोई मार्ग नहीं।
+
+एक युवा सैनिक उसके पास आया—
+
+“क्या हम जीतेंगे?”
+
+वह मुस्कुराया—
+
+“यह युद्ध जीतने के लिए नहीं…
+निभाने के लिए है।”
+
+फिर…
+
+उसने आँखें बंद कीं…
+
+एक गहरी साँस ली…
+
+और तलवार उठाई।
+
+“हर हर महादेव!”
+
+गर्जना…
+
+और अंतिम धावा।
+
+इस बार…
+
+वह सबसे आगे था।
+
+उसकी तलवार…
+
+अब भी वैसी ही…
+
+लेकिन उसकी उपस्थिति…
+
+और भी भारी।
+
+हर वार…
+
+सटीक…
+
+हर कदम…
+
+अडिग।
+
+दुश्मन…
+
+पीछे हटने लगा।
+
+लेकिन एक क्षण…
+
+एक भारी वार…
+
+उसके कंधे पर।
+
+रक्त…
+
+बहने लगा।
+
+एक सैनिक चिल्लाया—
+
+“पीछे हटिए!”
+
+वह मुस्कुराया—
+
+“मैं कहीं नहीं जा रहा…”
+
+और फिर…
+
+वह आगे बढ़ा।
+
+अंतिम क्षण…
+
+जब शरीर जवाब दे रहा था…
+
+लेकिन मन…
+
+अभी भी स्थिर।
+
+उसने आसमान की ओर देखा…
+
+और कहा—
+
+“मैं तैयार हूँ…”
+
+और फिर…
+
+एक अंतिम वार।
+
+दुश्मन पीछे हट गया।
+
+युद्ध समाप्त हुआ।
+
+विजय…
+
+लेकिन वह…
+
+भूमि पर बैठ गया।
+
+शांत…
+
+जैसे कोई ध्यान में हो।
+
+सैनिक उसके पास आए—
+
+“आपने हमें बचा लिया…”
+
+वह धीरे से बोला—
+
+“मैंने कुछ नहीं किया…”
+
+“तो यह कैसे हुआ?”
+
+उसने आँखें बंद कीं—
+
+“जब मन शांत हो…
+तो तलवार स्वयं चलती है…”
+
+और फिर…
+
+मौन।
+
+आज…
+
+उसकी कथा…
+
+किसी एक योद्धा की नहीं…
+
+एक आदर्श की है।
+
+कि जब तलवार और ध्यान…
+एक हो जाएँ…
+
+तो योद्धा केवल लड़ता नहीं…
+
+वह मार्ग बनाता है।
+
+और अरावली की हवाएँ…
+
+आज भी कहती हैं—
+
+“सबसे बड़ी शक्ति…
+वह है… जो भीतर स्थिर हो…”
+`
     ],
-    coverImage: { src: '/images/legends/warrior-monk.jpg', alt: 'A monk in saffron robes wielding a sword.' }
+    coverImage: { src: '/images/dynasties/hammir-dev.jpg', alt: 'A monk in saffron robes wielding a sword.' }
   },
   {
     id: 'legend-of-the-rajput-war-banner',
@@ -615,11 +14905,442 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Battlefield',
     story: [
-      'The clan banner was the soul of the army. To let it fall was the ultimate disgrace. This legend tells of a standard-bearer who tied the banner to his own arm.',
-      'Even as he fell, his arm remained upright, the banner fluttering in the wind until his comrades could reclaim it. It was a beacon of hope in the chaos of battle.',
-      'The war banner remains a symbol of the collective honor of the clan, a focal point for the courage of every individual warrior.'
+      `अरावली की घाटियों में…
+
+जहाँ हर किले की प्राचीर पर एक ध्वज लहराता था…
+जहाँ हर रंग… केवल रंग नहीं—एक वंश की आत्मा होता था…
+
+वहीं से शुरू होती है यह कथा—
+एक ध्वज की…
+और उस योद्धा की…
+जिसने उसे अपने प्राणों से बाँध लिया।
+
+वह जन्मा था एक ऐसे कुल में…
+जहाँ तलवार से पहले ध्वज को प्रणाम किया जाता था।
+
+उसके पिता…
+सेना के ध्वजवाहक थे।
+
+जब वह छोटा था…
+तो वह अक्सर पूछता—
+
+“यह झंडा इतना महत्वपूर्ण क्यों है?”
+
+पिता उसे किले की ऊँचाई पर ले जाते…
+
+और कहते—
+
+“यह केवल कपड़ा नहीं है…”
+
+फिर नीचे मैदान की ओर इशारा करते—
+
+“जब यह गिरता है…
+तो लोग मान लेते हैं कि हम हार गए।”
+
+बालक ने पूछा—
+
+“और अगर यह खड़ा रहे?”
+
+पिता मुस्कुराए—
+
+“तो हम तब तक नहीं हारे…
+जब तक यह खड़ा है।”
+
+यह वाक्य…
+
+उसके भीतर पत्थर की तरह जम गया।
+
+बचपन…
+
+उसने तलवार भी सीखी…
+घोड़ा भी…
+
+लेकिन उसका मुख्य प्रशिक्षण…
+
+ध्वज के साथ था।
+
+कैसे उसे उठाना है…
+कैसे उसे संभालना है…
+कैसे हर परिस्थिति में…
+
+उसे गिरने नहीं देना है।
+
+एक दिन…
+
+पिता ने उसे ध्वज थमाया—
+
+“अब… यह तुम्हारा है।”
+
+उसने उसे दोनों हाथों से पकड़ा…
+
+और महसूस किया—
+
+यह भारी है।
+
+पिता ने कहा—
+
+“यह भार… कपड़े का नहीं…
+सम्मान का है।”
+
+समय बीता…
+
+और वह युवा बना।
+
+उसकी भुजाएँ मजबूत…
+नज़र अडिग…
+
+और हाथ… ध्वज के लिए स्थिर।
+
+फिर…
+
+युद्ध आया।
+
+मैदान…
+
+विशाल…
+धूल से भरा…
+
+सामने…
+
+दुश्मन की सेना।
+
+उस दिन…
+
+वह पहली बार ध्वज लेकर खड़ा था।
+
+उसने उसे ऊँचा उठाया…
+
+और हवा में…
+
+वह लहराया।
+
+“हर हर महादेव!”
+
+गर्जना…
+
+और फिर…
+
+धावा।
+
+घोड़े दौड़े…
+तलवारें टकराईं…
+
+और उस सबके बीच…
+
+वह ध्वज…
+
+ऊपर।
+
+हर सैनिक…
+
+उसे देखता…
+
+और जानता—
+
+“हम अब भी खड़े हैं।”
+
+युद्ध समाप्त हुआ…
+
+विजय…
+
+और वह…
+
+अब ध्वजवाहक बन चुका था।
+
+लेकिन यह केवल शुरुआत थी।
+
+समय बीता…
+
+और एक दिन…
+
+सबसे भयानक युद्ध आया।
+
+दुश्मन…
+
+असंख्य…
+
+और इस बार…
+
+स्थिति कठिन।
+
+मैदान…
+
+खाई…
+चट्टानें…
+और बीच में…
+
+रक्त की धारा।
+
+ध्वजवाहक…
+
+सबसे आगे।
+
+उसने ध्वज को उठाया…
+
+और कहा—
+
+“जब तक यह है…
+हम हैं।”
+
+युद्ध शुरू हुआ।
+
+“हर हर महादेव!”
+
+गर्जना…
+
+और फिर…
+
+टक्कर।
+
+दुश्मन…
+
+भारी…
+
+ताकतवर…
+
+और संख्या में अधिक।
+
+एक-एक कर…
+
+सैनिक गिरने लगे।
+
+धूल…
+रक्त…
+और चीखें…
+
+सब कुछ मिलकर…
+
+एक अराजकता बन गया।
+
+एक तीर…
+
+ध्वजवाहक के कंधे में लगा।
+
+वह डगमगाया…
+
+लेकिन रुका नहीं।
+
+ध्वज…
+
+अब भी ऊँचा।
+
+एक साथी चिल्लाया—
+
+“पीछे हटो!”
+
+उसने उत्तर दिया—
+
+“ध्वज… पीछे नहीं जाता!”
+
+और वह आगे बढ़ता रहा।
+
+दूसरा वार…
+
+उसकी जांघ में…
+
+वह घुटनों पर आया…
+
+लेकिन ध्वज…
+
+अब भी ऊपर।
+
+अब दुश्मन…
+
+उसके पास था।
+
+एक सैनिक चिल्लाया—
+
+“उसे गिराओ! ध्वज गिराओ!”
+
+वे जानते थे—
+
+अगर ध्वज गिरा…
+
+तो सेना टूट जाएगी।
+
+ध्वजवाहक ने यह सुना।
+
+उसने अपने चारों ओर देखा…
+
+साथी गिर चुके थे…
+
+मैदान…
+
+रक्त से लाल।
+
+और उसी क्षण…
+
+उसने निर्णय लिया।
+
+उसने ध्वज को अपनी भुजा से बाँधा…
+
+कसकर…
+
+इतना कसकर…
+
+कि वह अलग न हो सके।
+
+एक साथी ने देखा—
+
+“तू क्या कर रहा है?”
+
+उसने मुस्कुराकर कहा—
+
+“अब… यह मुझसे अलग नहीं होगा।”
+
+और फिर…
+
+वह उठा।
+
+घायल…
+कमजोर…
+
+लेकिन ध्वज…
+
+अब भी ऊँचा।
+
+अंतिम धावा।
+
+वह दुश्मन के बीच घुस गया।
+
+हर वार…
+
+अब अंतिम…
+
+हर कदम…
+
+अब इतिहास।
+
+एक तलवार…
+
+उसकी छाती में लगी।
+
+वह रुका…
+
+साँस भारी…
+
+लेकिन ध्वज…
+
+अब भी हवा में।
+
+उसने अंतिम बार कहा—
+
+“इसे… गिरने मत देना…”
+
+और फिर…
+
+वह गिर पड़ा।
+
+लेकिन…
+
+उसकी भुजा…
+
+अब भी उठी हुई थी।
+
+ध्वज…
+
+अब भी लहरा रहा था।
+
+हवा…
+
+उसे हिला रही थी…
+
+जैसे वह जीवित हो।
+
+दुश्मन…
+
+रुक गया।
+
+क्षण भर के लिए…
+
+मौन।
+
+क्योंकि उन्होंने कुछ ऐसा देखा था…
+
+जो समझ से परे था।
+
+एक मृत शरीर…
+
+और उसके ऊपर…
+
+एक जीवित ध्वज।
+
+उस क्षण…
+
+राजपूत सेना…
+
+फिर उठी।
+
+एक सैनिक चिल्लाया—
+
+“ध्वज… अब भी खड़ा है!”
+
+और फिर…
+
+“हर हर महादेव!”
+
+गर्जना…
+
+और पलटवार।
+
+युद्ध…
+
+फिर भड़का…
+
+और इस बार…
+
+विजय उनकी थी।
+
+युद्ध के बाद…
+
+सैनिक उस स्थान पर पहुँचे।
+
+ध्वज…
+
+अब भी उसकी भुजा से बंधा…
+
+अब भी हवा में।
+
+उन्होंने धीरे से उसे खोला…
+
+और अपने माथे से लगाया।
+
+कोई शब्द नहीं…
+
+सिर्फ मौन।
+
+लेकिन उस मौन में…
+
+एक वचन था।
+
+आज…
+
+जब भी कोई ध्वज उठता है…
+
+तो वह केवल कपड़ा नहीं होता…
+
+वह उस भुजा की स्मृति होता है…
+
+जो गिरकर भी खड़ी रही।
+
+और जब हवा चलती है…
+
+और ध्वज लहराता है…
+
+तो वह कहता है—
+
+“सम्मान…
+कभी नहीं गिरता…”
+
+और अरावली की हवाएँ…
+
+धीमे से गूँजती हैं—
+
+“जब तक ध्वज है…
+हम हैं…”
+`
     ],
-    coverImage: { src: '/images/legends/war-banner.jpg', alt: 'A tattered banner flying high above a battle.' }
+    coverImage: { src: '/images/dynasties/seals/solanki-chaulukya-seal.png', alt: 'A tattered banner flying high above a battle.' }
   },
   {
     id: 'ballad-of-the-sword-of-mewar',
@@ -629,11 +15350,510 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Udaipur Palace',
     story: [
-      'The Sword of Mewar is a legendary weapon believed to have been used by the greatest Maharanas. It is said to be imbued with the spirit of the land itself.',
-      'This ballad tells of the battles where the sword seemed to have a life of its own, striking with a speed and power that no ordinary blade could match.',
-      'It is a symbol of the enduring sovereignty of Mewar, a reminder that the kingdom’s freedom was won and kept through the edge of the sword.'
+      `अरावली की चट्टानों के बीच…
+
+जहाँ सूरज की पहली किरण पत्थरों को अग्नि बना देती है…
+जहाँ हर हवा… एक पुरानी प्रतिज्ञा लेकर चलती है…
+
+वहीं जन्मी थी एक तलवार।
+
+कोई साधारण शस्त्र नहीं…
+न ही केवल लोहे का एक टुकड़ा…
+
+वह थी—
+मेवाड़ की तलवार।
+
+कहते हैं…
+उसमें इस भूमि की आत्मा बसती थी।
+
+वह केवल हाथ से नहीं चलती थी…
+वह संकल्प से चलती थी।
+
+और जिस दिन वह पहली बार उठी…
+
+उस दिन एक बालक…
+अपने पिता के सामने खड़ा था।
+
+उसका जन्म राजवंश में हुआ था…
+जहाँ तलवार केवल विरासत नहीं… पहचान थी।
+
+महल के भीतर…
+दीवारों पर लगी तलवारें…
+
+और उनके बीच…
+
+वह एक—
+जो सबसे अलग थी।
+
+पिता ने उसे उठाया…
+
+और बालक की ओर बढ़ाया—
+
+“यह… तुम्हारी नहीं है…”
+
+बालक चौंका—
+
+“तो किसकी है?”
+
+पिता ने कहा—
+
+“यह मेवाड़ की है…
+और तुम… इसके योग्य बनोगे।”
+
+यह पहला पाठ था।
+
+बचपन…
+
+कठोर…
+
+घोड़े की पीठ…
+धनुष की डोरी…
+तलवार का भार…
+
+हर दिन…
+
+उसके शरीर को तोड़ता…
+
+लेकिन मन…
+
+और मजबूत होता।
+
+एक दिन…
+
+उसने तलवार उठाने की कोशिश की…
+
+लेकिन वह भारी थी।
+
+वह गिर पड़ा।
+
+पिता उसके पास आए—
+
+“ताकत से नहीं…
+धारण से उठाओ…”
+
+बालक ने फिर प्रयास किया…
+
+धीरे-धीरे…
+
+और इस बार…
+
+वह खड़ा हुआ।
+
+तलवार हाथ में…
+
+और आँखों में…
+
+एक नई चमक।
+
+समय बीता…
+
+बालक युवा हुआ…
+
+और फिर…
+
+वह दिन आया।
+
+पहला युद्ध।
+
+मैदान…
+
+धूल…
+सूरज…
+
+और सामने…
+
+दुश्मन की सेना।
+
+उसने तलवार को देखा…
+
+क्षण भर…
+
+और फिर…
+
+उसे उठाया।
+
+“हर हर महादेव!”
+
+गर्जना…
+
+और फिर…
+
+धावा।
+
+पहला वार…
+
+तेज़…
+
+दूसरा…
+
+और भी तेज़।
+
+तलवार…
+
+मानो खुद चल रही थी।
+
+हर प्रहार…
+
+सटीक…
+
+हर वार…
+
+घातक।
+
+एक सैनिक चिल्लाया—
+
+“यह कैसे संभव है?”
+
+दूसरा बोला—
+
+“यह… वही है…”
+
+वह तलवार…
+
+जो केवल युद्ध नहीं करती…
+
+निर्णय लेती है।
+
+युद्ध समाप्त हुआ…
+
+विजय…
+
+लेकिन युवा…
+
+समझ गया—
+
+यह केवल शुरुआत है।
+
+दूसरा युद्ध…
+
+और भी भयंकर।
+
+इस बार…
+
+किला घिरा हुआ…
+
+तोपें…
+धमाके…
+
+दीवारें टूट रही थीं।
+
+दरबार में…
+
+मौन।
+
+एक सरदार बोला—
+
+“हम अधिक देर तक नहीं टिक पाएँगे…”
+
+युवा उठा…
+
+और तलवार को देखा—
+
+“जब तक यह है…
+हम टिकेंगे…”
+
+यह केवल विश्वास नहीं था…
+
+यह घोषणा थी।
+
+रात…
+
+अचानक हमला…
+
+दुश्मन भीतर घुस आया।
+
+तलवारें टकराईं…
+
+अराजकता…
+
+और उस सबके बीच…
+
+वह।
+
+उसकी तलवार…
+
+अब और भी तेज़…
+
+मानो हर वार…
+
+किसी अदृश्य शक्ति से भरा हो।
+
+एक दुश्मन सेनापति उसके सामने आया—
+
+“आज… अंत है!”
+
+युवा ने उत्तर दिया—
+
+“आज… शुरुआत है…”
+
+और फिर…
+
+एक वार।
+
+सेनापति गिर पड़ा।
+
+दुश्मन पीछे हटा…
+
+किला बच गया।
+
+लेकिन हर विजय…
+
+कुछ ले जाती है।
+
+एक दिन…
+
+विश्वासघात।
+
+अपने ही लोगों में…
+
+एक गद्दार।
+
+रात…
+
+शिविर में हमला।
+
+अचानक…
+
+चीखें…
+
+और रक्त।
+
+युवा उठा…
+
+तलवार हाथ में…
+
+और चिल्लाया—
+
+“धोखा!”
+
+उसकी आँखों में अब…
+
+क्रोध था।
+
+उसने उस गद्दार को खोजा…
+
+और जब पाया…
+
+तो कुछ नहीं कहा।
+
+सिर्फ…
+
+एक वार।
+
+तलवार…
+
+अब केवल युद्ध नहीं कर रही थी…
+
+वह न्याय कर रही थी।
+
+अंतिम युद्ध…
+
+सबसे बड़ा।
+
+मैदान विशाल…
+
+दुश्मन असंख्य…
+
+और इस बार…
+
+वापसी का कोई मार्ग नहीं।
+
+एक सैनिक ने पूछा—
+
+“क्या हम जीतेंगे?”
+
+युवा मुस्कुराया—
+
+“हम हारेंगे नहीं।”
+
+केसरिया…
+
+तलवारें…
+
+और एक मौन संकल्प।
+
+“हर हर महादेव!”
+
+गर्जना…
+
+और फिर…
+
+अंतिम धावा।
+
+घोड़े दौड़े…
+
+धूल का तूफ़ान…
+
+तलवारें टकराईं…
+
+रक्त…
+
+और उस सबके बीच…
+
+वह तलवार।
+
+अब…
+
+मानो जीवित।
+
+हर वार…
+
+बिजली की तरह…
+
+हर प्रहार…
+
+अग्नि की तरह।
+
+दुश्मन…
+
+पीछे हटने लगा।
+
+लेकिन संख्या…
+
+अब भी अधिक।
+
+एक-एक कर…
+
+साथी गिरने लगे।
+
+युवा…
+
+अब अकेला।
+
+घाव…
+
+गहरे…
+
+रक्त…
+
+बहता हुआ।
+
+लेकिन तलवार…
+
+अब भी उठी हुई।
+
+एक सैनिक चिल्लाया—
+
+“रुक जाओ!”
+
+वह मुस्कुराया—
+
+“यह… रुकने के लिए नहीं है…”
+
+और फिर…
+
+अंतिम धावा।
+
+वह दुश्मन के बीच घुस गया…
+
+हर वार…
+
+अब अंतिम…
+
+हर कदम…
+
+अब अमर।
+
+धीरे-धीरे…
+
+उसकी गति कम हुई…
+
+घुटने काँपे…
+
+और फिर…
+
+वह रुका।
+
+तलवार…
+
+अब भी हाथ में।
+
+उसने आसमान की ओर देखा…
+
+और धीरे से कहा—
+
+“मेवाड़… सुरक्षित रहे…”
+
+और फिर…
+
+वह गिर पड़ा।
+
+युद्ध समाप्त हुआ…
+
+दुश्मन पीछे हट गया…
+
+मैदान शांत।
+
+एक सैनिक आगे बढ़ा…
+
+तलवार उठाई…
+
+और देखा—
+
+वह अब भी गर्म थी।
+
+मानो उसमें…
+
+अब भी जीवन हो।
+
+समय बीता…
+
+पीढ़ियाँ बदलीं…
+
+राज्य बदले…
+
+लेकिन वह तलवार…
+
+अब भी है।
+
+कभी किसी मंदिर में…
+कभी किसी किले में…
+
+लेकिन हर बार…
+
+जब कोई उसे उठाता है…
+
+तो उसे केवल लोहे का भार नहीं लगता…
+
+उसे वह इतिहास महसूस होता है…
+
+वह रक्त…
+वह संकल्प…
+
+और वह आवाज़—
+
+“यह तुम्हारी नहीं…
+मेवाड़ की है…”
+
+आज भी…
+
+जब अरावली की हवा चलती है…
+
+और सूरज ढलता है…
+
+तो कुछ लोग कहते हैं—
+
+“वह तलवार… अब भी चमकती है…”
+
+क्योंकि…
+
+कुछ शस्त्र…
+
+कभी पुराने नहीं होते।
+
+वे केवल…
+
+अगले हाथ का इंतज़ार करते हैं।
+
+और हवा…
+
+धीमे से कहती है—
+
+“स्वतंत्रता…
+हमेशा धार पर लिखी जाती है…”
+`
     ],
-    coverImage: { src: '/images/legends/sword-mewar.jpg', alt: 'A beautifully crafted Rajput sword on a velvet cushion.' }
+    coverImage: { src: '/images/dynasties/rulers/rana-kumbha.jpg', alt: 'A beautifully crafted Rajput sword on a velvet cushion.' }
   },
   {
     id: 'tale-of-the-rajput-horse-masters',
@@ -643,11 +15863,439 @@ export const allLegends: Legend[] = [
     era: 'Ancient to Medieval',
     location: 'Marwar Stables',
     story: [
-      'The Rajputs were masters of the horse, especially the Marwari breed with its distinctive curved ears. This tale celebrates the trainers who could communicate with their mounts through a mere touch.',
-      'It tells of a horse that saved its rider by jumping a massive ravine, an act that was only possible because of the absolute trust between them.',
-      'The legacy of the horse masters is seen in the graceful, powerful animals that still grace the ceremonies and festivals of Rajasthan.'
+      `अरावली की ढलानों से उतरती हुई सुबह…
+
+जहाँ पहली किरण घोड़े की अयाल को छूती है… और हवा में धूल नहीं—गति की गंध होती है…
+वहीं जन्मी थी एक परंपरा—
+मनुष्य और अश्व के बीच… एक ऐसा बंधन… जो शब्दों से नहीं… स्पर्श से बनता है।
+
+यह कहानी है… एक अश्वारोही की…
+और उसके घोड़े की…
+लेकिन उससे पहले… उस परंपरा की… जिसने उन्हें एक बनाया।
+
+उसका जन्म किसी महल में नहीं…
+बल्कि अस्तबल के पास हुआ था।
+
+जब वह बालक था…
+तो उसकी पहली लोरी… घोड़ों की साँसों की आवाज़ थी…
+पहली गंध… घास और पसीने की…
+
+उसके पिता…
+राजपूत अश्व-प्रशिक्षक…
+
+वे तलवार नहीं उठाते थे…
+लेकिन उनके हाथ… युद्ध तय करते थे।
+
+एक दिन…
+
+बालक ने एक जंगली घोड़े को देखा…
+
+काला… शक्तिशाली…
+और पूरी तरह बेकाबू।
+
+उसने पूछा—
+
+“क्या यह कभी काबू में आएगा?”
+
+पिता मुस्कुराए—
+
+“काबू नहीं…
+साथ आएगा।”
+
+बालक ने समझा नहीं।
+
+पिता घोड़े के पास गए…
+
+कोई रस्सी नहीं…
+कोई जोर नहीं…
+
+बस…
+
+एक हाथ…
+
+धीरे से उसकी गर्दन पर।
+
+घोड़ा पहले तना…
+
+फिर धीरे-धीरे…
+
+शांत हो गया।
+
+“देखा?” पिता बोले—
+
+“घोड़ा डर से नहीं… विश्वास से चलता है।”
+
+यह पहला पाठ था।
+
+समय बीता…
+
+बालक युवा हुआ…
+
+अब वह घोड़ों को केवल सवारी नहीं करता था…
+
+वह उन्हें समझता था।
+
+उनकी आँखें…
+उनकी साँसें…
+उनका डर…
+
+सब कुछ।
+
+एक दिन…
+
+उसे एक विशेष घोड़ा दिया गया।
+
+नीले रंग की चमक…
+मुड़ी हुई कान…
+आँखों में आग…
+
+“यह तुम्हारा है…”
+
+पिता ने कहा।
+
+युवा ने उसे देखा…
+
+और धीरे से उसके पास गया।
+
+कोई शब्द नहीं…
+
+सिर्फ एक स्पर्श।
+
+घोड़े ने उसे देखा…
+
+और जैसे समझ गया—
+
+“यह मेरा है…”
+
+वहीं से शुरू हुआ…
+
+एक बंधन।
+
+दिन…
+
+प्रशिक्षण…
+
+दौड़…
+
+घाटियाँ…
+
+रेत…
+
+हर जगह…
+
+वे साथ थे।
+
+एक दिन…
+
+युवा ने बिना लगाम के उसे दौड़ाया…
+
+घोड़ा मुड़ा…
+
+रुका…
+
+फिर दौड़ा…
+
+सब कुछ…
+
+सिर्फ संकेत से।
+
+एक साथी ने पूछा—
+
+“तू इसे कैसे नियंत्रित करता है?”
+
+युवा मुस्कुराया—
+
+“मैं इसे नहीं…
+यह मुझे सुनता है।”
+
+यह केवल कौशल नहीं था…
+
+यह विश्वास था।
+
+और फिर…
+
+युद्ध आया।
+
+दुश्मन की सेना…
+
+सीमा पर…
+
+और राजपूत सेना तैयार।
+
+युवा…
+
+अब एक योद्धा…
+
+और उसका घोड़ा…
+
+उसका साथी।
+
+मैदान…
+
+धूल…
+धूप…
+
+और सामने…
+
+दुश्मन।
+
+“हर हर महादेव!”
+
+गर्जना…
+
+और फिर…
+
+धावा।
+
+घोड़े दौड़े…
+
+तलवारें टकराईं…
+
+और उस सबके बीच…
+
+वह और उसका घोड़ा…
+
+एक।
+
+हर मोड़…
+
+हर वार…
+
+एक साथ।
+
+एक दुश्मन सेनापति सामने आया—
+
+“उसे गिराओ!”
+
+तीर चला…
+
+घोड़े ने झटका दिया…
+
+तीर बच गया।
+
+युवा ने वार किया…
+
+और सेनापति गिर पड़ा।
+
+युद्ध समाप्त हुआ…
+
+विजय…
+
+लेकिन कहानी यहीं नहीं थी।
+
+कुछ समय बाद…
+
+एक और युद्ध…
+
+और इस बार…
+
+स्थिति कठिन।
+
+घाटी…
+
+संकीर्ण…
+
+और नीचे…
+
+एक गहरी खाई।
+
+दुश्मन पीछे…
+
+पीछा करता हुआ।
+
+युवा और उसका घोड़ा…
+
+आगे बढ़ते हुए।
+
+“रुको!” एक सैनिक चिल्लाया—
+
+“आगे रास्ता नहीं है!”
+
+लेकिन पीछे…
+
+मृत्यु थी।
+
+युवा ने खाई को देखा…
+
+गहरी…
+चौड़ी…
+
+असंभव।
+
+उसने अपने घोड़े की अयाल को छुआ…
+
+धीरे से…
+
+कोई शब्द नहीं।
+
+घोड़े ने उसकी ओर देखा…
+
+और समझ गया।
+
+यह वही क्षण था…
+
+जहाँ प्रशिक्षण…
+
+विश्वास…
+
+और जीवन…
+
+एक हो जाते हैं।
+
+दुश्मन करीब आ रहा था—
+
+“अब बच नहीं सकते!”
+
+लेकिन युवा…
+
+शांत।
+
+उसने धीरे से कहा—
+
+“चल…”
+
+घोड़ा पीछे हटा…
+
+एक कदम…
+दो कदम…
+
+फिर…
+
+दौड़ा।
+
+पूरा शरीर तन गया…
+
+साँस थमी…
+
+और फिर—
+
+छलाँग।
+
+हवा में…
+
+क्षण भर…
+
+मानो समय रुक गया।
+
+फिर…
+
+दूसरी ओर…
+
+धड़ाम!
+
+वे पार कर चुके थे।
+
+दुश्मन…
+
+रुक गया।
+
+कोई उनका पीछा नहीं कर सका।
+
+युवा ने घोड़े की गर्दन को पकड़ा—
+
+“तूने कर दिखाया…”
+
+घोड़ा शांत…
+
+जैसे कुछ हुआ ही नहीं।
+
+लेकिन वह क्षण…
+
+अमर हो गया।
+
+समय बीता…
+
+युद्ध खत्म हुए…
+
+और वह युवा…
+
+अब वृद्ध।
+
+उसके बाल सफेद…
+
+लेकिन उसकी आँखें…
+
+अब भी तेज़।
+
+अस्तबल में…
+
+अब नए बालक…
+
+नए घोड़े…
+
+और वह…
+
+अब गुरु।
+
+एक बालक ने पूछा—
+
+“घोड़ा कैसे सिखाते हैं?”
+
+वह मुस्कुराया—
+
+“पहले खुद सीखो…”
+
+“क्या?”
+
+“विश्वास…”
+
+वह घोड़े के पास गया…
+
+धीरे से हाथ रखा…
+
+और कहा—
+
+“यही…”
+
+बालक ने देखा…
+
+और समझा—
+
+कि यह केवल प्रशिक्षण नहीं…
+
+एक रिश्ता है।
+
+आज…
+
+जब राजस्थान के मेले लगते हैं…
+
+और मारवाड़ी घोड़े…
+
+अपनी मुड़ी हुई कानों के साथ…
+
+गर्व से चलते हैं…
+
+तो लोग केवल उनकी सुंदरता नहीं देखते…
+
+वे उस विरासत को देखते हैं…
+
+जो पीढ़ियों से चली आ रही है।
+
+एक बंधन…
+
+जो तलवार से भी मजबूत है।
+
+और जब कोई घोड़ा…
+
+अपने सवार के इशारे पर…
+
+असंभव कर दिखाता है…
+
+तो लोग धीरे से कहते हैं—
+
+“यह केवल घोड़ा नहीं…”
+
+“यह विश्वास है…”
+
+और हवा…
+
+धीमे से कहती है—
+
+“जहाँ शब्द समाप्त होते हैं…
+वहाँ से… यह रिश्ता शुरू होता है…”
+`
     ],
-    coverImage: { src: '/images/legends/horse-masters.jpg', alt: 'A Rajput trainer with a Marwari horse.' }
+    coverImage: { src: '/images/dynasties/rulers/rao-jodha.jpg', alt: 'A Rajput trainer with a Marwari horse.' }
   },
   {
     id: 'legend-of-the-desert-shield',
@@ -657,11 +16305,410 @@ export const allLegends: Legend[] = [
     era: 'Ancient',
     location: 'Thar Desert',
     story: [
-      'The Desert Shield is a mythical concept, a divine protection believed to be granted to those who have lived in the Thar for generations. It is said to turn the very sand into a barrier against invaders.',
-      'This legend tells of an army that was swallowed by the dunes, not by a storm, but by the desert itself rising to defend its people.',
-      'The story reflects the deep respect the people of the desert have for their environment, seeing it as a living, breathing ally in their struggle for survival.'
+      `थार…
+
+रेत का वह अथाह सागर… जहाँ हर कण जीवित लगता है… जहाँ हवा केवल चलती नहीं—निर्णय लेती है… और जहाँ कभी-कभी… धरती स्वयं युद्ध करती है।
+
+लोग कहते हैं—
+इस मरुभूमि के पास एक कवच है।
+
+कोई धातु नहीं…
+कोई ढाल नहीं…
+
+रेत का कवच।
+
+“मरु-कवच।”
+
+यह कहानी है… उस कवच की…
+और उस योद्धा की… जिसने उसे पहली बार देखा।
+
+उसका जन्म… रेत के बीच हुआ था…
+
+न कोई हरियाली…
+न कोई नदी…
+
+सिर्फ धूप…
+और धैर्य।
+
+उसके पिता… सीमा के रक्षक…
+
+उन्होंने बचपन में ही उसे सिखाया—
+
+“इस रेत को केवल मत देख…
+इसे सुन…”
+
+बालक हँस पड़ा—
+
+“रेत… बोलती है?”
+
+पिता ने कहा—
+
+“जब तू चुप होगा…
+तब यह बोलेगी…”
+
+बचपन…
+
+कठिन…
+
+प्यास…
+धूप…
+और हर दिन…
+
+एक संघर्ष।
+
+लेकिन धीरे-धीरे…
+
+वह सीखने लगा।
+
+हवा की दिशा…
+रेत की लहर…
+टीलों का बदलना…
+
+सब कुछ…
+
+एक संकेत था।
+
+एक दिन…
+
+वह अपने पिता के साथ ऊँट पर बैठा था…
+
+दूर… क्षितिज पर…
+
+धूल उठी।
+
+“दुश्मन…” पिता ने कहा।
+
+बालक ने पूछा—
+
+“कितने?”
+
+पिता ने आँखें संकरी कीं—
+
+“बहुत…”
+
+वह पहला युद्ध था…
+
+जो आने वाला था।
+
+समय बीता…
+
+बालक युवा बना…
+
+और अब…
+
+वह स्वयं एक योद्धा था।
+
+लेकिन उसकी शक्ति…
+
+तलवार में नहीं…
+
+रेत में थी।
+
+एक दिन…
+
+राज्य पर संकट आया।
+
+दुश्मन की सेना…
+
+विशाल…
+
+और वे थार को पार कर रहे थे।
+
+राजा ने अपने सरदारों से कहा—
+
+“हम उनका सामना मैदान में नहीं कर सकते…”
+
+सन्नाटा।
+
+तभी…
+
+वह युवा आगे बढ़ा—
+
+“हमें मैदान में नहीं…
+मरुभूमि में लड़ना होगा…”
+
+एक सरदार ने पूछा—
+
+“कैसे?”
+
+उसने उत्तर दिया—
+
+“जैसे यह भूमि लड़ती है…”
+
+यह विचार…
+
+अलग था…
+
+लेकिन समय कम था।
+
+सेना तैयार हुई…
+
+लेकिन यह सेना…
+
+छोटी थी।
+
+वे टीलों के पीछे छिप गए…
+
+हवा की दिशा में…
+
+रेत के साथ।
+
+दुश्मन आगे बढ़ा…
+
+घोड़े…
+हाथी…
+सैनिक…
+
+उनका विश्वास…
+
+अटूट।
+
+“यह रेत… हमें नहीं रोक सकती…”
+
+उनका सेनापति हँसा।
+
+लेकिन वह नहीं जानता था—
+
+रेत… केवल बाधा नहीं होती…
+
+वह निर्णय भी लेती है।
+
+पहला संकेत…
+
+हवा बदली।
+
+धीरे…
+
+फिर तेज़।
+
+रेत उठने लगी…
+
+लेकिन यह तूफ़ान नहीं था।
+
+यह… कुछ और था।
+
+युवा ने अपनी आँखें बंद कीं—
+
+“अब…”
+
+उसने धीरे से कहा।
+
+राजपूत सैनिक…
+
+स्थिर…
+
+रेत के साथ घुले हुए।
+
+दुश्मन आगे बढ़ता गया…
+
+और फिर…
+
+अचानक…
+
+एक टीला खिसका।
+
+एक घोड़ा फिसला…
+
+फिर दूसरा…
+
+फिर…
+
+पूरा दल।
+
+“क्या हो रहा है?”
+
+सेनापति चिल्लाया।
+
+रेत…
+
+अब स्थिर नहीं थी।
+
+वह बह रही थी…
+
+जैसे पानी।
+
+टीलों ने आकार बदलना शुरू किया…
+
+और धीरे-धीरे…
+
+दुश्मन के चारों ओर…
+
+घिरने लगे।
+
+यह कोई साधारण घटना नहीं थी।
+
+यह… मरुभूमि थी…
+
+जो उठ खड़ी हुई थी।
+
+राजपूत योद्धा…
+
+अब सामने आए।
+
+“हर हर महादेव!”
+
+गर्जना…
+
+और फिर…
+
+धावा।
+
+घोड़े…
+
+रेत पर ऐसे दौड़े…
+
+जैसे वह उनका घर हो।
+
+दुश्मन…
+
+अब फँस चुका था।
+
+हर कदम…
+
+उसे और नीचे धँसा रहा था।
+
+तलवारें टकराईं…
+
+लेकिन संतुलन…
+
+अब केवल एक पक्ष के पास था।
+
+युवा…
+
+सबसे आगे…
+
+उसकी तलवार…
+
+तेज़…
+
+लेकिन उसकी आँखें…
+
+रेत पर।
+
+वह हर बदलाव को पढ़ रहा था…
+
+हर लहर…
+
+हर गिरावट…
+
+और उसी के अनुसार…
+
+वार कर रहा था।
+
+एक दुश्मन सेनापति उसके सामने आया—
+
+“यह जादू है!”
+
+युवा ने उत्तर दिया—
+
+“यह भूमि है…”
+
+और फिर…
+
+एक वार।
+
+सेनापति गिर पड़ा।
+
+युद्ध…
+
+धीरे-धीरे समाप्त हुआ।
+
+दुश्मन…
+
+या तो मारा गया…
+
+या रेत में समा गया।
+
+कुछ…
+
+भाग निकले…
+
+लेकिन वे कभी वापस नहीं आए।
+
+जब धूल बैठी…
+
+और हवा शांत हुई…
+
+तो मैदान खाली था।
+
+कोई विशाल सेना नहीं…
+
+कोई निशान नहीं…
+
+सिर्फ…
+
+रेत।
+
+राजा ने उस युवा को देखा—
+
+“तूने यह कैसे किया?”
+
+वह मुस्कुराया—
+
+“मैंने नहीं…
+इसने किया…”
+
+और उसने रेत को छुआ।
+
+यह केवल एक विजय नहीं थी…
+
+यह एक समझ थी।
+
+कि यह भूमि…
+
+केवल रहने की जगह नहीं…
+
+एक साथी है।
+
+एक रक्षक।
+
+समय बीता…
+
+कहानियाँ बनीं…
+
+और लोग कहने लगे—
+
+“मरु-कवच…”
+
+“क्या है वह?”
+
+“जब भूमि… स्वयं रक्षा करती है…”
+
+आज भी…
+
+जब थार में हवा उठती है…
+
+और टीलों का आकार बदलता है…
+
+तो कुछ लोग कहते हैं—
+
+“यह वही है…”
+
+“क्या?”
+
+“मरु-कवच…”
+
+क्योंकि जो लोग इस भूमि को समझते हैं…
+
+वे जानते हैं—
+
+यह केवल रेत नहीं…
+
+यह जीवित है।
+
+और जब समय आता है…
+
+तो यह उठ खड़ी होती है।
+
+और हवा…
+
+धीमे से कहती है—
+
+“जिसने इस भूमि को अपनाया…
+यह उसे कभी अकेला नहीं छोड़ती…”
+`
     ],
-    coverImage: { src: '/images/legends/desert-shield.jpg', alt: 'The desert dunes glowing with a mysterious light.' }
+    coverImage: { src: '/images/dynasties/places/jaisalmer-bhati-main.jpg', alt: 'The desert dunes glowing with a mysterious light.' }
   },
   {
     id: 'ballad-of-the-rajput-war-chant',
@@ -671,11 +16718,428 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Battlefield',
     story: [
-      'The war chant was a rhythmic, guttural sound that the warriors would make before a charge. It was designed to synchronize their breathing and strike fear into the enemy.',
-      'This ballad celebrates the power of the chant to unite a thousand voices into a single, terrifying force. It was the sound of a people who had decided that today was a good day to die.',
-      'The war chant remains an echo in the desert wind, a reminder of the raw, primal energy of the Rajput spirit.'
+      `अरावली की घाटियों में…
+
+जहाँ पत्थर भी ध्वनि को याद रखते हैं…
+जहाँ हवा… केवल चलती नहीं… गूँजती है…
+
+वहीं जन्मी थी एक आवाज़—
+
+कर्कश… गहरी… और भयावह।
+
+वह कोई गीत नहीं था…
+कोई प्रार्थना नहीं…
+
+वह था—
+युद्ध का स्वर।
+
+रणघोष।
+
+कहते हैं… यह आवाज़ तलवार से पहले आती थी…
+और कई बार… दुश्मन की आत्मा को उसी क्षण तोड़ देती थी।
+
+यह कहानी है… उस स्वर की…
+और उन लोगों की… जिन्होंने उसे जन्म दिया।
+
+एक बालक…
+
+पहली बार युद्ध देखने जा रहा था।
+
+उसके हाथ में तलवार थी…
+लेकिन उसके भीतर… भय।
+
+उसने अपने पिता से पूछा—
+
+“क्या मैं तैयार हूँ?”
+
+पिता ने उसकी ओर देखा…
+
+और कहा—
+
+“जब तेरी सांस… दूसरों के साथ चलेगी…
+तब तू तैयार होगा।”
+
+बालक समझ नहीं पाया।
+
+लेकिन कुछ ही क्षणों में…
+
+वह समझने वाला था।
+
+मैदान…
+
+खुला…
+धूल से भरा…
+
+सामने…
+
+दुश्मन की विशाल सेना।
+
+सन्नाटा…
+
+क्षण भर का।
+
+फिर…
+
+एक धीमी आवाज़।
+
+“हूँ…”
+
+एक योद्धा…
+
+फिर दूसरा…
+
+फिर तीसरा…
+
+और धीरे-धीरे…
+
+वह आवाज़ बढ़ने लगी।
+
+“हूँ… हूँ… हूँ…”
+
+यह कोई शब्द नहीं था…
+
+यह एक लय थी।
+
+एक साँस…
+
+जो हजारों छातियों में एक साथ चल रही थी।
+
+बालक ने अपने पिता की ओर देखा—
+
+“यह क्या है?”
+
+पिता ने आँखें बंद कीं…
+
+और उसी लय में शामिल हो गए।
+
+“यह… हमारा स्वर है…”
+
+धीरे-धीरे…
+
+पूरा मैदान गूँजने लगा।
+
+“हूँ… हूँ… हूँ…”
+
+धरती काँपने लगी…
+
+हवा भारी हो गई…
+
+दुश्मन ने देखा…
+
+और उनके चेहरे पर…
+
+पहली बार…
+
+भय।
+
+क्योंकि यह केवल आवाज़ नहीं थी…
+
+यह एक निर्णय था।
+
+एक सैनिक ने पूछा—
+
+“वे क्या कर रहे हैं?”
+
+दूसरा बोला—
+
+“वे… मरने के लिए तैयार हो रहे हैं…”
+
+और यही…
+
+सबसे भयानक था।
+
+क्योंकि जो मरने से नहीं डरता…
+
+उसे कोई नहीं रोक सकता।
+
+अचानक…
+
+स्वर बदल गया।
+
+“हर हर महादेव!”
+
+गर्जना…
+
+और फिर…
+
+धावा।
+
+घोड़े दौड़े…
+
+तलवारें चमकीं…
+
+धूल का तूफ़ान…
+
+लेकिन उस सबके बीच…
+
+वह स्वर…
+
+अब भी था।
+
+हर वार के साथ…
+
+हर कदम के साथ…
+
+“हूँ… हूँ… हूँ…”
+
+यह अब केवल आवाज़ नहीं थी…
+
+यह शक्ति बन चुका था।
+
+पहला युद्ध…
+
+विजय।
+
+बालक…
+
+अब खड़ा था…
+
+लेकिन वह वही नहीं था।
+
+उसकी सांस…
+
+अब अकेली नहीं थी।
+
+वह समझ चुका था—
+
+रणघोष क्या है।
+
+समय बीता…
+
+वह युवा बना…
+
+और फिर…
+
+एक दिन…
+
+वह स्वयं उस स्वर का नेतृत्व कर रहा था।
+
+दूसरा युद्ध…
+
+और भी बड़ा…
+
+दुश्मन अधिक…
+
+स्थिति कठिन।
+
+एक सैनिक ने उससे पूछा—
+
+“क्या हम जीत सकते हैं?”
+
+वह मुस्कुराया—
+
+“जब तक हम एक हैं…”
+
+फिर…
+
+उसने अपनी आँखें बंद कीं…
+
+और शुरू किया—
+
+“हूँ…”
+
+धीरे…
+
+गहरा…
+
+और फिर…
+
+पूरी सेना…
+
+उसके साथ।
+
+यह केवल ध्वनि नहीं थी…
+
+यह एकता थी।
+
+दुश्मन ने सुना…
+
+और उनके कदम रुक गए।
+
+“यह क्या है?”
+
+“यह… उनका रणघोष है…”
+
+और फिर…
+
+“हर हर महादेव!”
+
+धावा।
+
+युद्ध…
+
+भयंकर।
+
+तलवारें…
+रक्त…
+चीखें…
+
+लेकिन हर चीज़ के बीच…
+
+वह स्वर…
+
+अब भी गूँज रहा था।
+
+एक सैनिक गिरा…
+
+लेकिन उसका साथी…
+
+उसी स्वर को जारी रखता है।
+
+क्योंकि यह केवल व्यक्ति का नहीं था…
+
+यह समुदाय का था।
+
+तीसरा युद्ध…
+
+अंतिम।
+
+स्थिति…
+
+निराशाजनक।
+
+संख्या कम…
+
+थकान अधिक…
+
+और सामने…
+
+एक विशाल सेना।
+
+सन्नाटा।
+
+इस बार…
+
+कोई स्वर नहीं।
+
+एक युवा सैनिक बोला—
+
+“क्या हम हार गए?”
+
+नेता ने धीरे से कहा—
+
+“नहीं…
+हम अभी शुरू नहीं हुए…”
+
+उसने अपनी तलवार उठाई…
+
+और एक गहरी साँस ली—
+
+“हूँ…”
+
+धीरे…
+
+कमजोर…
+
+लेकिन सच्चा।
+
+एक-एक कर…
+
+अन्य जुड़ते गए।
+
+स्वर बढ़ता गया…
+
+धीरे-धीरे…
+
+फिर तेज़…
+
+फिर और तेज़…
+
+और फिर…
+
+वह गर्जना—
+
+“हर हर महादेव!”
+
+अंतिम धावा।
+
+हर योद्धा…
+
+अब जानता था—
+
+यह अंत है।
+
+लेकिन कोई रुका नहीं।
+
+क्योंकि अब…
+
+वे अकेले नहीं थे।
+
+वे एक थे।
+
+एक स्वर…
+
+एक शक्ति…
+
+एक निर्णय।
+
+युद्ध समाप्त हुआ…
+
+कई गिरे…
+
+कई बचे…
+
+लेकिन वह स्वर…
+
+रुक गया।
+
+या क्या सच में?
+
+आज…
+
+जब थार की हवा चलती है…
+
+और रेत उड़ती है…
+
+तो कभी-कभी…
+
+एक हल्की सी गूँज सुनाई देती है—
+
+“हूँ…”
+
+कोई कहता है—
+
+“यह क्या है?”
+
+दूसरा मुस्कुराता है—
+
+“यह वही है…”
+
+रणघोष…
+
+जो कभी समाप्त नहीं होता।
+
+क्योंकि यह केवल आवाज़ नहीं…
+
+यह आत्मा है।
+
+यह उस क्षण की गूँज है…
+
+जब एक व्यक्ति…
+
+अपने भय को छोड़ देता है…
+
+और केवल एक चीज़ रह जाती है—
+
+संकल्प।
+
+और जब हजारों संकल्प…
+
+एक साथ उठते हैं…
+
+तो वह बनता है—
+
+रणघोष।
+
+और उसकी कहानी…
+
+आज भी कहती है—
+
+“सबसे बड़ी शक्ति…
+वह है… जब हम एक साथ साँस लेते हैं…”
+`
     ],
-    coverImage: { src: '/images/legends/war-chant.jpg', alt: 'A group of warriors with their mouths open in a chant.' }
+    coverImage: { src: '/images/dynasties/places/hada-bundi-kota-main.jpg', alt: 'A group of warriors with their mouths open in a chant.' }
   },
   {
     id: 'tale-of-the-fortress-keepers',
@@ -685,11 +17149,404 @@ export const allLegends: Legend[] = [
     era: 'Timeless',
     location: 'Fortress Walls',
     story: [
-      'While the warriors fought on the battlements, the Fortress Keepers worked in the shadows, repairing walls, managing water, and ensuring the fort could withstand a long siege.',
-      'This tale follows a master mason who worked through the night to repair a breach in the wall, finishing just as the enemy launched their final assault.',
-      'Their story is a tribute to the craftsmen and laborers whose skills were as essential to the survival of the kingdom as the courage of the soldiers.'
+      `चित्तौड़ की प्राचीर…
+
+जहाँ ऊपर तलवारें टकराती थीं…
+और नीचे… पत्थर साँस लेते थे।
+
+किले की दीवारें केवल पत्थरों से नहीं बनतीं…
+वे बनती हैं—हाथों से…
+घिसी हुई हथेलियों से…
+और उस मौन श्रम से… जो किसी युद्धघोष में नहीं सुनाई देता।
+
+जब नगाड़े बजते थे…
+जब “हर हर महादेव!” की गर्जना आसमान को चीरती थी…
+
+तब भी… कहीं गहराई में…
+कुछ लोग चुपचाप अपना युद्ध लड़ रहे होते थे।
+
+वे थे—
+दुर्ग रक्षक।
+
+लेकिन यह कहानी…
+उनमें से एक की है—
+
+एक शिल्पी…
+एक पत्थर तराशने वाला…
+जिसका नाम इतिहास ने नहीं लिखा…
+
+लेकिन जिसकी रात… एक युद्ध के बराबर थी।
+
+उसका जन्म किले की छाया में हुआ था…
+
+जब वह बालक था…
+उसके हाथों में तलवार नहीं…
+छेनी और हथौड़ा था।
+
+उसके पिता कहते—
+
+“हम दीवार बनाते हैं…
+और वही दीवार… युद्ध जीतती है।”
+
+बालक पूछता—
+
+“कैसे?”
+
+पिता मुस्कुराते—
+
+“जब दीवार खड़ी रहती है…
+तो तलवार चलती रहती है।”
+
+यह उसका पहला पाठ था।
+
+वर्ष बीतते गए…
+
+बालक युवा हुआ…
+
+उसके हाथ अब मजबूत थे…
+हर प्रहार सटीक…
+
+वह पत्थर को समझता था…
+
+कहाँ दबाना है…
+कहाँ सहारा देना है…
+
+वह जानता था—
+
+दीवार केवल बाहर से नहीं टूटती…
+वह भीतर से भी कमजोर होती है।
+
+और फिर…
+
+वह दिन आया।
+
+घेराबंदी।
+
+दुश्मन की सेना…
+
+असंख्य…
+
+किले को चारों ओर से घेरे हुए।
+
+तोपें गरजती थीं…
+
+“धड़ाम!”
+
+दीवारें काँपती थीं…
+
+ऊपर…
+
+सैनिक लड़ रहे थे…
+
+नीचे…
+
+दुर्ग रक्षक काम कर रहे थे।
+
+एक पत्थर गिरता…
+
+वे उसे उठाते…
+
+दूसरा लगाते…
+
+कोई शोर नहीं…
+
+कोई घबराहट नहीं…
+
+सिर्फ काम।
+
+शिल्पी…
+अब उनमें अग्रणी था।
+
+एक दिन…
+
+एक बड़ा धमाका…
+
+दीवार का एक हिस्सा टूट गया।
+
+धूल का बादल…
+
+और उसके पीछे…
+
+खुला मार्ग।
+
+एक सैनिक दौड़ता हुआ आया—
+
+“दीवार टूट गई!”
+
+अंदर…
+
+क्षण भर का सन्नाटा।
+
+फिर…
+
+सभी की नजर उस शिल्पी पर गई।
+
+उसने टूटे हिस्से को देखा…
+
+मापा…
+
+और धीरे से कहा—
+
+“हमारे पास रात है।”
+
+“और सुबह?” एक ने पूछा।
+
+वह बोला—
+
+“सुबह तक… यह दीवार खड़ी होगी।”
+
+यह वचन था।
+
+रात…
+
+अंधेरी…
+
+मशालें जल रही थीं…
+
+और उस रोशनी में…
+
+वे काम कर रहे थे।
+
+पत्थर उठाना…
+जोड़ना…
+गारा लगाना…
+
+हर क्षण…
+
+कीमती।
+
+ऊपर से…
+
+कभी-कभी तीर गिरते…
+
+दुश्मन…
+अंधेरे में भी हमला कर रहा था।
+
+एक युवा कारीगर डर गया—
+
+“अगर वे अभी आ गए तो?”
+
+शिल्पी ने बिना रुके कहा—
+
+“तो हम उनके सामने भी यही करेंगे…”
+
+यह उत्तर…
+
+शांत था…
+
+लेकिन अडिग।
+
+घंटे बीतते गए…
+
+हाथ थकने लगे…
+
+पसीना… धूल में मिल गया…
+
+लेकिन काम रुका नहीं।
+
+एक पत्थर फिसला…
+
+एक कारीगर घायल…
+
+वह गिर पड़ा।
+
+शिल्पी उसके पास गया—
+
+“ठीक हो?”
+
+वह मुस्कुराया—
+
+“दीवार पहले…”
+
+और फिर…
+
+वह फिर उठ खड़ा हुआ।
+
+यह उनका युद्ध था।
+
+आधी रात…
+
+दीवार आधी बन चुकी थी।
+
+लेकिन समय…
+
+कम था।
+
+एक संदेश आया—
+
+“सुबह… अंतिम हमला होगा…”
+
+सभी ने एक-दूसरे की ओर देखा।
+
+शिल्पी ने कहा—
+
+“तो हमें उससे पहले खत्म करना होगा।”
+
+अब…
+
+गति बढ़ गई।
+
+हर प्रहार…
+
+और तेज़…
+
+हर पत्थर…
+
+और सटीक।
+
+मशालें बुझने लगीं…
+
+लेकिन उन्होंने रोशनी बढ़ा दी।
+
+आँखें जल रही थीं…
+
+हाथ काँप रहे थे…
+
+लेकिन काम…
+
+अब भी चल रहा था।
+
+अंतिम क्षण…
+
+आकाश हल्का होने लगा…
+
+पहली किरण…
+
+क्षितिज पर।
+
+और उसी समय…
+
+अंतिम पत्थर…
+
+अपनी जगह पर रखा गया।
+
+शिल्पी पीछे हटा…
+
+दीवार को देखा…
+
+और धीरे से कहा—
+
+“खड़ी है…”
+
+उसी क्षण…
+
+नगाड़े बजे।
+
+दुश्मन…
+
+आ रहा था।
+
+“हर हर महादेव!”
+
+ऊपर से गर्जना…
+
+और सैनिक…
+
+नई दीवार पर खड़े हो गए।
+
+दुश्मन ने देखा—
+
+जहाँ कल रास्ता था…
+
+आज दीवार है।
+
+वे रुके नहीं…
+
+उन्होंने हमला किया।
+
+सीढ़ियाँ…
+तोपें…
+
+लेकिन हर वार…
+
+उस दीवार से टकराया।
+
+और हर बार…
+
+वह खड़ी रही।
+
+युद्ध भयंकर था…
+
+घोड़े…
+तलवारें…
+रक्त…
+
+लेकिन उस दीवार ने…
+
+समय दिया।
+
+और वही समय…
+
+विजय बना।
+
+दुश्मन पीछे हट गया।
+
+किला…
+
+बचा रहा।
+
+युद्ध समाप्त हुआ…
+
+सैनिकों की जयकार गूँजी…
+
+लेकिन नीचे…
+
+शिल्पी बैठा था।
+
+थका हुआ…
+
+शांत…
+
+उसके हाथ…
+
+अब भी काँप रहे थे।
+
+एक सैनिक उसके पास आया—
+
+“तुमने हमें बचा लिया…”
+
+शिल्पी ने सिर हिलाया—
+
+“नहीं… हमने दीवार बचाई…”
+
+और दीवार ने…
+
+सबको बचाया।
+
+समय बीतता है…
+
+युद्ध खत्म होते हैं…
+
+किले खामोश हो जाते हैं…
+
+लेकिन कुछ कहानियाँ…
+
+दीवारों में रह जाती हैं।
+
+आज…
+
+जब कोई उस किले की प्राचीर को छूता है…
+
+तो उसे केवल पत्थर नहीं मिलता…
+
+उसे वह रात महसूस होती है…
+
+वह श्रम…
+वह मौन युद्ध…
+
+और वह वचन—
+
+“सुबह तक… यह खड़ी होगी…”
+
+और हवा…
+
+धीमे से कहती है—
+
+“हर विजय… तलवार से नहीं होती…
+कुछ… पत्थरों से भी होती हैं…”
+`
     ],
-    coverImage: { src: '/images/legends/fortress-keepers.jpg', alt: 'A mason working on a stone wall under torchlight.' }
+    coverImage: { src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'A mason working on a stone wall under torchlight.' }
   },
   {
     id: 'legend-of-the-hidden-treasure-of-mewar',
@@ -699,11 +17556,453 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Secret Caves of Mewar',
     story: [
-      'Legend says that during the times of the great sieges, the treasures of Mewar were hidden in secret caves in the Aravallis. This wealth was meant to fund the recovery of the kingdom.',
-      'This legend tells of a guardian who stayed with the treasure for decades, refusing to reveal its location until a rightful heir appeared to claim it.',
-      'The hidden treasure is a symbol of the resilience of Mewar, a reminder that even when the forts were lost, the seeds of their return were always being protected.'
+      `अरावली…
+
+पत्थरों की वह अनंत श्रृंखला… जहाँ हर गुफा एक रहस्य छुपाती है… और हर छाया… एक प्रतिज्ञा को ढककर रखती है…
+
+उसी छाया में… जन्मी एक कथा—
+एक खजाने की…
+एक प्रहरी की…
+और एक ऐसे वचन की… जो समय से भी लंबा चला।
+
+मेवाड़…
+
+वह भूमि… जहाँ किले केवल पत्थर नहीं थे… वे आत्मा थे…
+और जब वे किले एक-एक कर गिरने लगे…
+जब दुश्मन की सेना… प्राचीरों को तोड़ती चली गई…
+
+तब भी…
+
+सब कुछ समाप्त नहीं हुआ था।
+
+क्योंकि कुछ… बचा लिया गया था।
+
+रात…
+
+चित्तौड़ की एक गुप्त सभा…
+
+मशालें जल रही थीं…
+
+और चेहरे… गंभीर।
+
+एक वृद्ध सरदार बोला—
+
+“अगर हम सब खो दें… तो क्या बचेगा?”
+
+एक अन्य ने उत्तर दिया—
+
+“वह… जिससे हम फिर उठ सकें…”
+
+और फिर…
+
+निर्णय लिया गया।
+
+मेवाड़ का खजाना…
+
+सोना… रत्न… शस्त्र…
+
+सब…
+
+किलों से निकालकर…
+
+अरावली की गुफाओं में छिपाया जाएगा।
+
+लेकिन खजाना…
+
+सिर्फ छिपाने से सुरक्षित नहीं होता।
+
+उसे चाहिए…
+
+एक प्रहरी।
+
+तभी…
+
+एक योद्धा आगे बढ़ा।
+
+उसका नाम…
+
+समय में खो गया…
+
+लेकिन उसका संकल्प…
+
+अब भी जीवित है।
+
+“मैं रहूँगा…”
+
+उसने कहा।
+
+एक सरदार ने पूछा—
+
+“कितने समय तक?”
+
+वह मुस्कुराया—
+
+“जब तक आवश्यकता हो…”
+
+यह उत्तर…
+
+साधारण नहीं था।
+
+यह एक जीवन का त्याग था।
+
+उसका जन्म…
+
+एक योद्धा परिवार में हुआ था…
+
+बचपन से…
+
+तलवार… घोड़ा… और युद्ध…
+
+सब उसके जीवन का हिस्सा थे।
+
+लेकिन आज…
+
+उसे एक अलग युद्ध लड़ना था।
+
+मौन का।
+
+वह खजाने के साथ…
+
+अरावली की गहराई में चला गया।
+
+गुफाएँ…
+
+अंधेरी… ठंडी…
+
+और रहस्यमयी।
+
+वहीं…
+
+उसने अपना स्थान बनाया।
+
+दिन…
+
+रात…
+
+साल…
+
+बीतने लगे।
+
+बाहर…
+
+युद्ध होते रहे…
+
+राज्य बदलते रहे…
+
+लेकिन वह…
+
+वहीं रहा।
+
+एक बार…
+
+कुछ डाकू उस क्षेत्र में पहुँचे।
+
+उन्हें खबर मिली थी—
+
+“यहाँ कहीं खजाना है…”
+
+वे गुफाओं तक पहुँचे…
+
+मशालें लेकर…
+
+आँखों में लालच।
+
+प्रहरी…
+
+छाया में खड़ा था।
+
+उन्होंने पुकारा—
+
+“कौन है?”
+
+कोई उत्तर नहीं।
+
+वे आगे बढ़े…
+
+और तभी…
+
+एक आवाज़—
+
+“वापस जाओ…”
+
+वे चौंके—
+
+“कौन?”
+
+छाया से वह निकला…
+
+तलवार हाथ में…
+
+आँखों में अडिगता।
+
+“यह स्थान… तुम्हारा नहीं है…”
+
+डाकुओं ने हँसकर कहा—
+
+“और तुम हमें रोकोगे?”
+
+उसने उत्तर दिया—
+
+“जब तक प्राण हैं…”
+
+और फिर…
+
+युद्ध।
+
+गुफा के भीतर…
+
+तलवारें टकराईं…
+
+चिंगारियाँ उड़ीं…
+
+अंधेरा…
+
+और रक्त।
+
+एक-एक कर…
+
+डाकू गिरते गए।
+
+प्रहरी घायल हुआ…
+
+लेकिन रुका नहीं।
+
+अंततः…
+
+मौन लौट आया।
+
+वह दीवार से टिककर बैठा…
+
+रक्त बह रहा था…
+
+लेकिन उसकी आँखों में…
+
+संतोष था।
+
+“अब भी सुरक्षित है…”
+
+उसने धीरे से कहा।
+
+साल बीतते गए…
+
+उसके बाल सफेद हो गए…
+
+शरीर कमजोर…
+
+लेकिन उसकी दृष्टि…
+
+अब भी तेज़।
+
+एक दिन…
+
+एक युवक वहाँ पहुँचा।
+
+थका हुआ…
+भटका हुआ…
+
+उसने प्रहरी को देखा—
+
+“क्या आप यहाँ रहते हैं?”
+
+प्रहरी ने सिर हिलाया—
+
+“हाँ…”
+
+“क्यों?”
+
+कुछ क्षण…
+
+मौन…
+
+फिर उत्तर—
+
+“क्योंकि यह मेरा वचन है…”
+
+युवक ने पूछा—
+
+“किसके लिए?”
+
+प्रहरी ने दूर देखा—
+
+“उसके लिए… जो अभी आया नहीं…”
+
+यह उत्तर…
+
+समय से परे था।
+
+और फिर…
+
+वह युवक चला गया।
+
+प्रहरी…
+
+अब भी वहीं रहा।
+
+एक अंतिम दिन…
+
+आकाश शांत था…
+
+हवा धीमी…
+
+और गुफा के भीतर…
+
+वह बैठा था।
+
+उसकी साँसें भारी…
+
+लेकिन आँखें…
+
+अब भी खुली।
+
+अचानक…
+
+कदमों की आहट।
+
+कोई आया।
+
+एक युवा…
+
+लेकिन उसकी चाल…
+
+राजसी।
+
+उसकी आँखों में…
+
+वही ज्वाला…
+
+जो कभी…
+
+पुराने योद्धाओं में थी।
+
+वह आगे बढ़ा—
+
+“मैं…”
+
+वह रुका…
+
+फिर बोला—
+
+“मैं मेवाड़ का पुत्र हूँ…”
+
+प्रहरी ने उसे देखा…
+
+लंबे समय तक…
+
+जैसे वह उसकी आत्मा पढ़ रहा हो।
+
+“प्रमाण?”
+
+युवक ने तलवार निकाली…
+
+और कहा—
+
+“यह वचन है…”
+
+प्रहरी मुस्कुराया।
+
+धीरे-धीरे उठने की कोशिश की…
+
+लेकिन शरीर…
+
+अब साथ नहीं दे रहा था।
+
+वह बैठ गया…
+
+और गुफा की ओर इशारा किया—
+
+“वह… तुम्हारा है…”
+
+युवक आगे बढ़ा…
+
+और पहली बार…
+
+वह खजाना देखा।
+
+सोना…
+रत्न…
+शस्त्र…
+
+लेकिन उससे अधिक…
+
+एक संभावना।
+
+वह मुड़ा…
+
+प्रहरी की ओर—
+
+“आपने… इतने वर्षों तक…”
+
+प्रहरी ने धीरे से कहा—
+
+“मैंने केवल इंतज़ार किया…”
+
+“क्यों?”
+
+उसने आँखें बंद कीं—
+
+“क्योंकि मेवाड़… समाप्त नहीं होता…”
+
+और फिर…
+
+मौन।
+
+उसका शरीर शांत हो गया।
+
+लेकिन उसका वचन…
+
+पूरा हो चुका था।
+
+युवक बाहर आया…
+
+आकाश की ओर देखा…
+
+और समझ गया—
+
+यह केवल खजाना नहीं है…
+
+यह पुनर्जन्म है।
+
+समय बीता…
+
+और मेवाड़…
+
+फिर उठा।
+
+किले… फिर खड़े हुए…
+
+सेना… फिर बनी…
+
+और उस खजाने की चमक…
+
+फिर युद्धभूमि में दिखाई दी।
+
+आज…
+
+अरावली की गुफाएँ…
+
+अब भी वहीं हैं…
+
+मौन…
+गहरी…
+
+लेकिन कुछ लोग कहते हैं—
+
+“वहाँ कोई अब भी पहरा दे रहा है…”
+
+“कौन?”
+
+“वही…
+जिसने कभी छोड़ा नहीं…”
+
+और हवा…
+
+धीमे से कहती है—
+
+“कुछ वचन…
+समय से भी लंबे होते हैं…”
+`
     ],
-    coverImage: { src: '/images/legends/hidden-treasure.jpg', alt: 'A dark cave filled with gold and jewels.' }
+    coverImage: { src: '/images/dynasties/seals/paramara-malwa-seal.jpg', alt: 'A dark cave filled with gold and jewels.' }
   },
   {
     id: 'ballad-of-the-rajput-scouts',
@@ -713,11 +18012,491 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Thar Desert',
     story: [
-      'The scouts were the eyes and ears of the Rajput army. They could track a single horseman across the rocky plains and predict the movements of a thousand-strong force.',
-      'This ballad celebrates their ability to blend into the landscape, becoming one with the sand and the scrub to gather the information that decided the fate of battles.',
-      'Their story is a tribute to the skill and endurance of the men who operated alone in the most dangerous parts of the frontier.'
+      `अरावली की सूखी ढलानों पर…
+
+जहाँ हर पत्थर एक छाया बनाता है… और हर छाया… एक रहस्य छुपाती है…
+वहीं चलते थे वे लोग… जिनके कदमों की कोई आवाज़ नहीं होती थी…
+
+वे थे—
+राजपूत सेना की आँखें… और कान।
+
+गुप्तचर।
+
+न कोई ढाल…
+न कोई झंडा…
+न कोई युद्धघोष…
+
+सिर्फ मौन…
+और वह दृष्टि… जो दूर तक देख सके।
+
+कहानी शुरू होती है एक बालक से…
+
+वह किसी बड़े योद्धा का पुत्र नहीं था…
+लेकिन उसकी आँखें… अलग थीं।
+
+वह मिट्टी को देखता…
+और उसमें कहानी पढ़ लेता।
+
+एक दिन…
+
+उसके पिता ने उससे पूछा—
+
+“तू क्या देख रहा है?”
+
+बालक ने झुककर जमीन को छुआ—
+
+“यहाँ से एक घोड़ा गया है…
+एक आदमी… अकेला…
+और वह जल्दी में था…”
+
+पिता कुछ क्षण चुप रहे…
+
+फिर मुस्कुराए—
+
+“तू तलवार से नहीं… नजर से लड़ेगा।”
+
+यहीं से शुरू हुआ उसका मार्ग।
+
+प्रशिक्षण…
+
+अलग था।
+
+उसे तलवार चलाना सिखाया गया…
+लेकिन उससे पहले…
+
+सुनना सिखाया गया।
+
+“हवा क्या कह रही है…”
+
+“रेत कैसे बदली है…”
+
+“पक्षी क्यों उड़े…”
+
+हर चीज़…
+
+एक संकेत थी।
+
+एक दिन…
+
+उसका गुरु उसे रेगिस्तान में ले गया—
+
+“चल…”
+
+घंटों तक वे चलते रहे…
+
+कोई शब्द नहीं…
+
+फिर गुरु रुका—
+
+“बताओ… क्या बदला है?”
+
+बालक ने चारों ओर देखा…
+
+कुछ क्षण…
+
+फिर कहा—
+
+“यहाँ से कोई गुज़रा है…”
+
+“कितने?”
+
+“तीन…
+एक घायल…”
+
+गुरु ने सिर हिलाया—
+
+“अब… तू देख सकता है।”
+
+यह उसकी पहली जीत थी।
+
+समय बीता…
+
+वह युवा बना…
+
+और अब…
+
+वह अकेला चलता था।
+
+उसके पास कोई सेना नहीं…
+
+सिर्फ उसका कौशल।
+
+राज्य अशांत था…
+
+हर सीमा पर खतरा…
+
+और हर युद्ध से पहले…
+
+एक प्रश्न—
+
+“दुश्मन कहाँ है?”
+
+और उत्तर…
+
+वही लाता था।
+
+पहला अभियान…
+
+एक दूर की सीमा…
+
+जहाँ चट्टानें और रेत मिलती थीं।
+
+उसे आदेश मिला—
+
+“दुश्मन की चाल पता करो…”
+
+वह निकला…
+
+अकेला।
+
+दिन…
+
+तपता हुआ सूरज…
+
+पानी कम…
+
+लेकिन वह रुका नहीं।
+
+रात…
+
+ठंडी…
+और खामोश…
+
+वह चट्टानों के बीच छिपा…
+
+दूर…
+
+दुश्मन का शिविर।
+
+मशालें…
+
+पहरेदार…
+
+और गतिविधि।
+
+वह धीरे-धीरे आगे बढ़ा…
+
+रेत में घुलकर…
+
+झाड़ियों के बीच…
+
+उसने देखा—
+
+घोड़ों की संख्या…
+तंबुओं की दिशा…
+पहरे का चक्र…
+
+हर चीज़…
+
+उसके मन में अंकित हो गई।
+
+एक पहरेदार उसकी ओर बढ़ा…
+
+वह स्थिर हो गया…
+
+साँस भी रोकी…
+
+पहरेदार पास से गुज़रा…
+
+कुछ नहीं देखा।
+
+वह छाया बन चुका था।
+
+सुबह…
+
+वह लौट आया।
+
+राजा के सामने खड़ा हुआ—
+
+“वे तीन दिन में हमला करेंगे…
+उत्तर से नहीं… पश्चिम से…”
+
+राजा ने पूछा—
+
+“तुम इतने निश्चित कैसे हो?”
+
+उसने उत्तर दिया—
+
+“क्योंकि उनकी रेत… उस दिशा में टूटी है…”
+
+तीन दिन बाद…
+
+ठीक वैसा ही हुआ।
+
+युद्ध…
+
+और विजय।
+
+लेकिन किसी ने उसका नाम नहीं पुकारा।
+
+क्योंकि वह…
+
+नाम के लिए नहीं था।
+
+दूसरा अभियान…
+
+और भी कठिन।
+
+इस बार…
+
+उसे दुश्मन की पूरी सेना का पता लगाना था।
+
+वह निकला…
+
+और कई दिनों तक…
+
+कोई खबर नहीं।
+
+राजा चिंतित—
+
+“क्या वह जीवित है?”
+
+फिर…
+
+एक सुबह…
+
+वह लौटा।
+
+थका हुआ…
+घायल…
+
+लेकिन आँखें…
+
+अब भी तेज़।
+
+“पाँच हजार…”
+
+उसने कहा—
+
+“तीन दलों में…
+और वे घाटी में उतरेंगे…”
+
+“कब?”
+
+“कल…”
+
+यह सूचना…
+
+निर्णायक थी।
+
+सेना तैयार हुई…
+
+घाटी में घात लगाई गई…
+
+और जब दुश्मन आया…
+
+वह फँस गया।
+
+तीनों दल…
+
+एक साथ टूटे…
+
+और युद्ध…
+
+विजय में बदल गया।
+
+राजा ने उसे देखा—
+
+“तूने यह युद्ध जीत लिया…”
+
+वह मुस्कुराया—
+
+“मैंने केवल देखा…”
+
+यह उसका स्वभाव था।
+
+लेकिन हर मार्ग…
+
+खतरे से भरा होता है।
+
+एक अंतिम अभियान…
+
+सबसे कठिन।
+
+उसे दुश्मन के गहरे क्षेत्र में जाना था…
+
+जहाँ कोई सहायता नहीं…
+
+कोई वापसी का मार्ग नहीं।
+
+वह गया…
+
+अकेला…
+
+दिनों तक…
+
+छिपता… चलता…
+
+सुनता… देखता…
+
+और फिर…
+
+एक रात…
+
+वह दुश्मन के बीच था।
+
+तंबुओं के बीच…
+
+पहरेदार…
+
+और हर तरफ खतरा।
+
+उसने सब देखा…
+
+सब समझा…
+
+और लौटने लगा।
+
+लेकिन तभी…
+
+एक आवाज़—
+
+“कौन है?”
+
+वह रुक गया।
+
+एक सैनिक…
+
+उसकी ओर बढ़ता हुआ।
+
+क्षण भर…
+
+और फिर…
+
+वह छाया से बाहर आया।
+
+तलवार…
+
+तेज़…
+
+एक वार…
+
+सैनिक गिर पड़ा।
+
+लेकिन अब…
+
+मौन टूट चुका था।
+
+अलार्म…
+
+चीखें…
+
+और पीछा।
+
+वह दौड़ा…
+
+चट्टानों के बीच…
+
+रेत के ऊपर…
+
+घोड़े नहीं…
+
+सिर्फ उसके पैर।
+
+तीर…
+
+उसके पास से गुज़रे…
+
+एक… उसके कंधे में लगा…
+
+लेकिन वह रुका नहीं।
+
+क्योंकि अब…
+
+वह केवल जीवित नहीं रह रहा था…
+
+वह जानकारी लेकर जा रहा था।
+
+आख़िरकार…
+
+वह सीमा पार कर गया।
+
+गिर पड़ा…
+
+लेकिन मुस्कुराया—
+
+“मैं पहुँच गया…”
+
+जब वह राजा के सामने लाया गया…
+
+उसने धीमे से कहा—
+
+“वे सुबह आएँगे…”
+
+और फिर…
+
+उसकी आँखें बंद हो गईं।
+
+युद्ध हुआ…
+
+और जैसा उसने कहा था…
+
+वैसा ही।
+
+विजय…
+
+लेकिन इस बार…
+
+मौन भारी था।
+
+क्योंकि वह…
+
+अब नहीं था।
+
+आज…
+
+जब कोई उस सीमा पर जाता है…
+
+तो उसे कुछ नहीं दिखता…
+
+सिर्फ रेत…
+पत्थर…
+
+लेकिन कुछ लोग कहते हैं—
+
+“वह अब भी देख रहा है…”
+
+“कहाँ?”
+
+“हर जगह…”
+
+क्योंकि गुप्तचर…
+
+कभी पूरी तरह जाते नहीं…
+
+वे भूमि का हिस्सा बन जाते हैं।
+
+वे हवा में होते हैं…
+रेत में…
+छाया में…
+
+और जब भी कोई योद्धा पूछता है—
+
+“दुश्मन कहाँ है?”
+
+तो कहीं न कहीं…
+
+एक आवाज़ आती है—
+
+“वहीं… जहाँ तुम नहीं देख रहे…”
+
+और यही है—
+
+उनकी विरासत।
+
+वे युद्ध नहीं लड़ते…
+
+लेकिन युद्ध उनके बिना जीते नहीं जाते।
+
+और उनकी कहानी…
+
+आज भी कहती है—
+
+“सबसे बड़ी शक्ति…
+वह होती है… जो दिखाई नहीं देती…”
+`
     ],
-    coverImage: { src: '/images/legends/rajput-scouts.jpg', alt: 'A scout crouching in the desert scrub.' }
+    coverImage: { src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'A scout crouching in the desert scrub.' }
   },
   {
     id: 'tale-of-the-silent-riders',
@@ -727,11 +18506,464 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Marwar',
     story: [
-      'The Silent Riders were a group of elite horsemen who specialized in night raids. They were known for their absolute silence, even in the heat of a charge.',
-      'This tale follows a mission where they infiltrated an enemy camp and neutralized the command before a single alarm could be raised.',
-      'Their story illustrates the Rajput mastery of stealth and precision, proving that a small, focused force could be more effective than a massive army.'
+      `अरावली की काली रात…
+
+जहाँ चाँद भी बादलों के पीछे छिपकर देखता है… और हवा… इतनी धीमी चलती है कि पत्तों की सरसराहट भी एक संकेत बन जाती है…
+
+उसी अंधेरे में जन्मी थी एक टुकड़ी—
+जिसका नाम लोग फुसफुसाकर लेते थे—
+
+“मौन अश्वारोही…”
+
+वे आते थे…
+और चले जाते थे…
+
+बिना किसी शोर के…
+बिना किसी निशान के…
+
+और जब सुबह होती…
+तो दुश्मन को केवल अपने मृत सेनापति मिलते।
+
+यह कहानी है… उनके सबसे कठिन अभियान की।
+
+लेकिन उससे पहले…
+
+उनका जन्म समझना होगा।
+
+वे कोई साधारण सैनिक नहीं थे।
+
+उनमें से हर एक…
+
+एक चुना हुआ योद्धा था।
+
+उनका प्रशिक्षण…
+दिन में नहीं…
+रात में होता था।
+
+एक बालक…
+
+घोड़े की पीठ पर बैठा है…
+
+उसका गुरु उसके पास खड़ा है—
+
+“घोड़ा दौड़ाओ…”
+
+बालक दौड़ाता है…
+
+“अब… बिना आवाज़ के…”
+
+बालक रुक जाता है—
+
+“यह कैसे संभव है?”
+
+गुरु उसकी आँखों में देखता है—
+
+“जब तुम और तुम्हारा घोड़ा… एक हो जाओगे…”
+
+यह पहला पाठ था।
+
+धीरे-धीरे…
+
+वे सीखते हैं—
+
+कैसे घोड़े के खुरों को नरम जमीन पर रखना है…
+कैसे सांस को नियंत्रित करना है…
+कैसे तलवार निकालनी है… बिना खनक के…
+
+उनकी पहचान…
+
+उनकी चुप्पी थी।
+
+एक दिन…
+
+उनके नेता ने कहा—
+
+“जब हम दौड़ेंगे…
+तो हवा भी हमें नहीं सुन पाएगी।”
+
+और यह कोई अतिशयोक्ति नहीं थी…
+
+यह उनका सत्य था।
+
+समय बीता…
+
+और वे तैयार हुए।
+
+राज्य संकट में था।
+
+दुश्मन की सेना… विशाल…
+और उसका शिविर…
+
+किले जैसा सुरक्षित।
+
+सीधे युद्ध में जाना…
+
+मूर्खता होती।
+
+तब…
+
+राजा ने उन्हें बुलाया।
+
+मौन अश्वारोही…
+
+दरबार में खड़े थे…
+
+चुप…
+स्थिर…
+
+राजा ने कहा—
+
+“हमें उनका सिर चाहिए…
+उनकी सेना नहीं।”
+
+सन्नाटा।
+
+फिर उनके नेता ने सिर झुकाया—
+
+“आदेश समझ लिया गया है।”
+
+यह केवल एक मिशन नहीं था…
+
+यह एक छाया युद्ध था।
+
+रात…
+
+अमावस्या…
+
+आकाश काला…
+
+और धरती…
+
+और भी काली।
+
+वे निकले…
+
+दस… बीस… पचास…
+
+घोड़े…
+
+धीरे-धीरे चलते हुए…
+
+कोई खुर की आवाज़ नहीं…
+
+कोई फुसफुसाहट नहीं…
+
+सिर्फ साँसें…
+
+जो भी नियंत्रित थीं।
+
+एक सैनिक ने धीरे से पूछा—
+
+“हम कितने करीब हैं?”
+
+नेता ने बिना देखे कहा—
+
+“इतने… कि अब शब्द भी भारी हैं।”
+
+वे रुक गए।
+
+दूर…
+
+दुश्मन का शिविर।
+
+मशालें जल रही थीं…
+पहरेदार चल रहे थे…
+
+सब सामान्य…
+
+और यही उनकी कमजोरी थी।
+
+नेता ने संकेत किया।
+
+तीन दल बने।
+
+पहला…
+
+पहरेदारों के लिए।
+
+दूसरा…
+
+आंतरिक मार्ग के लिए।
+
+तीसरा…
+
+सीधे सेनापति के तंबू के लिए।
+
+योजना स्पष्ट थी—
+
+“कोई शोर नहीं…
+कोई गलती नहीं…”
+
+पहला दल आगे बढ़ा।
+
+धीरे…
+
+छाया की तरह…
+
+एक पहरेदार…
+
+कुछ महसूस करता है…
+
+लेकिन तब तक…
+
+एक हाथ उसके मुँह पर…
+
+और एक खंजर…
+
+उसका अंत।
+
+कोई आवाज़ नहीं।
+
+दूसरा पहरेदार…
+
+फिर तीसरा…
+
+एक-एक कर…
+
+रास्ता साफ।
+
+दूसरा दल…
+
+शिविर के भीतर।
+
+तंबुओं के बीच…
+
+धीरे-धीरे…
+
+हर कदम मापा हुआ।
+
+एक सैनिक का पैर… रस्सी से टकराता है…
+
+वह जम जाता है।
+
+कुछ क्षण…
+
+कोई हरकत नहीं…
+
+फिर…
+
+वह आगे बढ़ता है।
+
+यह युद्ध…
+
+तलवार से नहीं…
+
+नियंत्रण से जीता जा रहा था।
+
+तीसरा दल…
+
+नेता के साथ…
+
+सीधे केंद्र की ओर।
+
+सेनापति का तंबू…
+
+सबसे बड़ा…
+
+सबसे सुरक्षित…
+
+लेकिन अब…
+
+सबसे कमजोर।
+
+नेता ने संकेत किया—
+
+दो योद्धा पीछे…
+
+तीन आगे…
+
+और वह स्वयं…
+
+बीच में।
+
+तंबू के बाहर…
+
+दो सैनिक…
+
+सतर्क…
+
+लेकिन थके हुए।
+
+एक पल…
+
+और फिर…
+
+दो छायाएँ।
+
+एक-एक वार…
+
+दोनों गिर पड़े।
+
+अब…
+
+अंदर।
+
+तंबू के भीतर…
+
+सेनापति सो रहा था।
+
+बिना किसी चिंता के…
+
+क्योंकि उसे विश्वास था—
+
+कोई यहाँ तक नहीं पहुँच सकता।
+
+नेता आगे बढ़ा…
+
+उसने तलवार निकाली…
+
+धीरे…
+
+और फिर…
+
+एक ही वार।
+
+सब समाप्त।
+
+कोई चीख नहीं…
+
+कोई संघर्ष नहीं…
+
+सिर्फ मौन।
+
+और यही…
+
+उनकी विजय थी।
+
+लेकिन अभी…
+
+कार्य पूरा नहीं हुआ था।
+
+वे उसी तरह…
+
+शिविर से बाहर निकले…
+
+जैसे आए थे।
+
+कोई शोर नहीं…
+
+कोई पीछा नहीं…
+
+सिर्फ…
+
+छाया।
+
+सुबह…
+
+जब सूरज उगा…
+
+दुश्मन शिविर में हलचल हुई।
+
+“सेनापति…!”
+
+कोई उत्तर नहीं।
+
+तंबू खोला गया…
+
+और भीतर…
+
+मृत शरीर।
+
+अराजकता…
+
+घबराहट…
+
+और भय।
+
+“यह कैसे हुआ?”
+
+कोई उत्तर नहीं।
+
+क्योंकि उत्तर…
+
+रात के साथ चला गया था।
+
+उधर…
+
+मौन अश्वारोही…
+
+पहाड़ियों में लौट चुके थे।
+
+राजा के सामने…
+
+वे फिर खड़े थे।
+
+चुप…
+
+जैसे कुछ हुआ ही नहीं।
+
+राजा ने पूछा—
+
+“क्या कार्य पूरा हुआ?”
+
+नेता ने सिर झुकाया—
+
+“हाँ।”
+
+बस इतना ही।
+
+कोई गर्व नहीं…
+
+कोई प्रदर्शन नहीं…
+
+क्योंकि उनका कार्य…
+
+शोर नहीं…
+
+परिणाम था।
+
+उस दिन…
+
+एक बड़ी सेना…
+
+बिना युद्ध के हार गई।
+
+और यह सिद्ध हो गया—
+
+कि शक्ति केवल संख्या में नहीं होती…
+
+वह नियंत्रण में होती है…
+
+वह सटीकता में होती है…
+
+और कभी-कभी…
+
+वह मौन में होती है।
+
+आज भी…
+
+जब अरावली की रात गहरी होती है…
+
+और हवा स्थिर…
+
+तो कुछ लोग कहते हैं—
+
+“घोड़ों की हल्की आहट…”
+
+“कहाँ?”
+
+“वहीं… छाया में…”
+
+मौन अश्वारोही…
+
+वे अब भी दौड़ते हैं।
+
+बिना आवाज़…
+
+बिना नाम…
+
+लेकिन हर बार…
+
+अपने पीछे एक कहानी छोड़ जाते हैं—
+
+कि सबसे घातक वार…
+
+वह होता है…
+
+जो सुनाई नहीं देता।”
+`
     ],
-    coverImage: { src: '/images/legends/silent-riders.jpg', alt: 'Cavalry moving silently under the stars.' }
+    coverImage: { src: '/images/dynasties/rulers/prithviraj-chauhan.jpg', alt: 'Cavalry moving silently under the stars.' }
   },
   {
     id: 'legend-of-the-rajput-flame',
@@ -741,11 +18973,423 @@ export const allLegends: Legend[] = [
     era: 'Timeless',
     location: 'Clan Shrines',
     story: [
-      'The Rajput Flame is a metaphorical concept, representing the undying spirit of courage and honor that defines the community. It is said to be a gift from the sun itself.',
-      'This legend tells of a lamp in an ancient shrine that has never gone out, even during the most violent storms and sieges, symbolizing the continuity of the Rajput legacy.',
-      'The flame is a reminder that while empires may rise and fall, the core values of a people can remain unbroken through the ages.'
+      `अरावली की ऊँचाइयों के बीच…
+
+जहाँ हवा पत्थरों से टकराकर एक अनसुनी ध्वनि पैदा करती है…
+जहाँ बादल किलों की प्राचीरों को छूकर गुजरते हैं…
+
+वहीं… एक प्राचीन मंदिर खड़ा है।
+
+न कोई भव्य द्वार…
+न कोई सोने की मूर्तियाँ…
+
+सिर्फ पत्थर…
+और उसके भीतर…
+
+एक दीप।
+
+एक छोटी सी लौ…
+
+जो कभी बुझी नहीं।
+
+लोग उसे कहते हैं—
+“राजपूत ज्वाला।”
+
+कहते हैं… यह अग्नि… सूर्य का उपहार है।
+
+वह सूर्य… जो हर दिन इस भूमि को तपाता है…
+और हर शाम… अपने रंग इस आकाश में छोड़ जाता है।
+
+कहानी शुरू होती है… बहुत पुराने समय में…
+
+जब इस भूमि पर युद्धों का अंत नहीं था।
+
+एक बालक जन्मा…
+
+सूर्योदय के समय…
+
+जब आकाश केसरिया था…
+और पहली किरण… उसके चेहरे पर पड़ी।
+
+एक वृद्ध पुजारी ने उसे देखा…
+
+और कहा—
+
+“यह बालक… अग्नि लेकर आया है…”
+
+उसके पिता… एक योद्धा…
+
+उन्होंने हँसकर कहा—
+
+“तो यह अग्नि… युद्ध में जलेगी।”
+
+लेकिन वह अग्नि… केवल युद्ध के लिए नहीं थी।
+
+बचपन…
+
+बालक मंदिर में बैठता…
+
+उस दीप को देखता…
+
+घंटों…
+
+बिना कुछ बोले।
+
+एक दिन…
+
+उसने पुजारी से पूछा—
+
+“यह दीप… बुझता क्यों नहीं?”
+
+पुजारी मुस्कुराया—
+
+“क्योंकि यह तेल से नहीं… विश्वास से जलता है।”
+
+यह उत्तर…
+
+उसके भीतर उतर गया।
+
+समय बीता…
+
+बालक युवा हुआ…
+
+और फिर…
+
+वह योद्धा बना।
+
+उसके हाथ में तलवार थी…
+
+लेकिन उसकी आँखों में…
+
+वही दीप जल रहा था।
+
+पहला युद्ध…
+
+खुला मैदान…
+
+सूरज सिर पर…
+
+दुश्मन सामने।
+
+“हर हर महादेव!”
+
+गर्जना…
+
+और फिर…
+
+टक्कर।
+
+तलवारें टकराईं…
+रक्त बहा…
+धूल उठी…
+
+वह लड़ा…
+
+पूरी शक्ति से…
+
+लेकिन हर वार के बीच…
+
+उसे वह दीप याद आता—
+
+जो शांत था…
+अडिग…
+
+युद्ध समाप्त हुआ…
+
+विजय उसकी थी…
+
+लेकिन वह जानता था—
+
+यह केवल शुरुआत है।
+
+दूसरा युद्ध…
+
+किला घिरा हुआ…
+
+चारों ओर दुश्मन…
+
+तोपों की गड़गड़ाहट…
+
+दीवारें काँप रही थीं।
+
+अंदर…
+
+मौन।
+
+योद्धा ने अपने साथियों से कहा—
+
+“जब तक यह किला खड़ा है…
+हम खड़े हैं।”
+
+एक सैनिक बोला—
+
+“और अगर किला गिर गया?”
+
+उसने उत्तर दिया—
+
+“तो भी… हम नहीं गिरेंगे।”
+
+यह वाक्य…
+
+उस दीप जैसा था।
+
+रात…
+
+हमला…
+
+अचानक…
+
+तीर…
+आग…
+
+दुश्मन भीतर घुसने की कोशिश करता है।
+
+वह अग्रिम पंक्ति में खड़ा है…
+
+तलवार उठाए…
+
+और चिल्लाता है—
+
+“आओ!”
+
+उसकी आवाज़…
+
+भय नहीं… चुनौती थी।
+
+युद्ध चलता है…
+
+घंटों…
+
+दिनों…
+
+लेकिन अंततः…
+
+दुश्मन पीछे हटता है।
+
+किला बच जाता है।
+
+और वह दीप…
+
+अब भी जल रहा है।
+
+समय बीतता है…
+
+युद्ध बढ़ते हैं…
+
+और एक दिन…
+
+सबसे बड़ा संकट आता है।
+
+एक विशाल सेना…
+
+एक लंबा घेराव…
+
+और फिर…
+
+तूफ़ान।
+
+आकाश काला…
+
+हवा तेज़…
+
+बारिश…
+
+जो आग को बुझा सकती है।
+
+मंदिर के भीतर…
+
+वह दीप…
+
+अब भी जल रहा है।
+
+लोग डरते हैं—
+
+“यह बुझ जाएगा…”
+
+लेकिन पुजारी कहता है—
+
+“यह अग्नि… बाहर की नहीं है…”
+
+और तभी…
+
+एक युवा योद्धा…
+
+मंदिर के सामने खड़ा होता है।
+
+उसके शरीर पर घाव…
+
+आँखों में थकान…
+
+लेकिन भीतर…
+
+वही ज्वाला।
+
+वह अपने साथियों से कहता है—
+
+“जब तक यह दीप जल रहा है…
+हम नहीं हारेंगे।”
+
+यह केवल विश्वास नहीं था…
+
+यह शक्ति थी।
+
+अगले दिन…
+
+अंतिम युद्ध।
+
+दुश्मन पूरी ताकत से आता है…
+
+तोपें…
+घोड़े…
+सैनिक…
+
+सब कुछ।
+
+किले के द्वार खुलते हैं…
+
+“हर हर महादेव!”
+
+गर्जना…
+
+और फिर…
+
+अंतिम धावा।
+
+घोड़े दौड़ते हैं…
+
+तलवारें टकराती हैं…
+
+रक्त…
+
+अब धरती को लाल कर रहा है।
+
+योद्धा…
+
+सबसे आगे…
+
+उसकी तलवार…
+
+अब भी उतनी ही तेज़…
+
+लेकिन शरीर…
+
+कमजोर।
+
+एक घाव…
+फिर दूसरा…
+
+लेकिन वह रुका नहीं।
+
+क्योंकि उसके पीछे…
+
+वह दीप है।
+
+वह गिरता है…
+
+घुटनों पर…
+
+लेकिन उठता है…
+
+फिर वार करता है…
+
+और फिर…
+
+अंततः…
+
+वह शांत हो जाता है।
+
+युद्ध समाप्त होता है…
+
+किला गिर जाता है…
+
+दुश्मन भीतर आता है…
+
+मंदिर तक पहुँचता है…
+
+और वहाँ…
+
+वह दीप।
+
+अब भी जल रहा है।
+
+एक सैनिक कहता है—
+
+“इसे बुझा दो…”
+
+दूसरा आगे बढ़ता है…
+
+लेकिन जैसे ही वह हाथ बढ़ाता है…
+
+हवा का झोंका आता है…
+
+और दीप…
+
+और तेज़ जल उठता है।
+
+वे पीछे हट जाते हैं।
+
+क्योंकि यह केवल आग नहीं थी…
+
+यह कुछ और था।
+
+समय बीतता है…
+
+राज्य बदलते हैं…
+
+साम्राज्य उठते हैं… गिरते हैं…
+
+लेकिन वह मंदिर…
+
+अब भी खड़ा है।
+
+और वह दीप…
+
+अब भी जल रहा है।
+
+पीढ़ियाँ आती हैं…
+
+जाती हैं…
+
+लेकिन हर नई पीढ़ी…
+
+उस दीप के सामने खड़ी होती है…
+
+और वही प्रश्न पूछती है—
+
+“यह बुझता क्यों नहीं?”
+
+और उत्तर…
+
+अब भी वही है—
+
+“क्योंकि यह अग्नि… भीतर की है।”
+
+आज…
+
+जब कोई उस मंदिर में जाता है…
+
+तो उसे केवल एक दीप नहीं दिखता…
+
+उसे एक वंश दिखता है…
+
+एक परंपरा…
+
+एक ज्वाला…
+
+जो कभी बुझी नहीं।
+
+और अरावली की हवाएँ…
+
+धीमे से कहती हैं—
+
+“राज्य बदल सकते हैं…
+समय बदल सकता है…
+
+लेकिन जो भीतर जलता है…
+वह कभी नहीं बुझता…”
+`
     ],
-    coverImage: { src: '/images/legends/rajput-flame.jpg', alt: 'A single oil lamp burning in a stone alcove.' }
+    coverImage: { src: '/images/dynasties/seals/jaisalmer-bhati-seal.png', alt: 'A single oil lamp burning in a stone alcove.' }
   },
   {
     id: 'ballad-of-the-eternal-kesariya',
@@ -755,11 +19399,400 @@ export const allLegends: Legend[] = [
     era: 'Timeless',
     location: 'Rajputana',
     story: [
-      'This ballad celebrates the color saffron as the ultimate symbol of sacrifice. It tells of the many times the Kesariya was donned, from the ancient battles to the modern era.',
-      'The "Eternal Kesariya" is the idea that the spirit of sacrifice is always present, ready to be called upon whenever the honor of the land is at stake.',
-      'The song is a powerful reminder of the cost of freedom and the enduring resolve of those who are willing to pay it.'
+      `केसरिया…
+
+वह केवल एक रंग नहीं है…
+वह अग्नि है…
+वह वचन है…
+वह वह क्षण है… जब एक मनुष्य… अपने जीवन को पीछे छोड़ देता है… और इतिहास बन जाता है।
+
+अरावली की पहाड़ियों के बीच…
+थार की रेत के ऊपर…
+किलों की प्राचीरों पर…
+
+यह रंग बार-बार उभरा है…
+हर युग में… हर संकट में…
+
+और हर बार… इसका अर्थ एक ही रहा—
+
+“अब लौटना नहीं है।”
+
+कहानी शुरू होती है…
+बहुत पीछे…
+
+जब एक बालक… पहली बार अपने पिता को देखता है…
+केसरिया साफा बाँधते हुए।
+
+“यह क्या है?” वह पूछता है।
+
+पिता उसकी ओर देखते हैं…
+
+उनकी आँखों में एक गहरी शांति…
+
+“यह अंत है…
+और शुरुआत भी।”
+
+बालक समझ नहीं पाता…
+
+लेकिन वह दृश्य… उसके भीतर रह जाता है।
+
+बचपन बीतता है…
+
+तलवार का अभ्यास…
+घोड़े की चाल…
+धूल… और पसीना…
+
+लेकिन हर दिन… एक ही बात दोहराई जाती है—
+
+“केसरिया… तब पहनो…
+जब पीछे कुछ न बचा हो।”
+
+समय बदलता है…
+
+बालक युवा होता है…
+
+और फिर…
+
+एक दिन…
+
+वह क्षण आता है।
+
+पहला युद्ध…
+
+रेगिस्तान का खुला मैदान…
+
+सूरज सिर पर…
+रेत तपती हुई…
+
+और सामने…
+
+दुश्मन की विशाल सेना।
+
+“हर हर महादेव!”
+
+गर्जना…
+
+और फिर…
+
+टक्कर।
+
+घोड़े दौड़ते हैं…
+तलवारें टकराती हैं…
+
+धूल का तूफ़ान…
+
+और उस धूल के बीच…
+
+वह युवा…
+
+पहली बार रक्त देखता है।
+
+एक साथी गिरता है…
+
+दूसरा उसकी जगह लेता है…
+
+यह चक्र चलता रहता है।
+
+युद्ध समाप्त होता है…
+
+वह जीवित है…
+
+लेकिन उसकी आँखों में अब…
+
+एक नई गहराई है।
+
+रात…
+
+वह अपने पिता के पास जाता है—
+
+“मैंने आज युद्ध देखा…”
+
+पिता धीरे से कहते हैं—
+
+“अभी तुमने केवल शुरुआत देखी है…”
+
+और फिर…
+
+वर्ष बीतते हैं।
+
+युद्ध बढ़ते हैं…
+
+अनुभव बढ़ता है…
+
+और फिर…
+
+एक दिन…
+
+वह क्षण आता है…
+
+जब किले की दीवारें टूटने लगती हैं।
+
+तोपों की गड़गड़ाहट…
+
+पत्थर गिरते हैं…
+
+और भीतर…
+
+मौन।
+
+दरबार में…
+
+सभी खड़े हैं।
+
+कोई आदेश नहीं…
+
+कोई चर्चा नहीं…
+
+क्योंकि सभी जानते हैं—
+
+अब समय आ गया है।
+
+केसरिया।
+
+एक-एक कर…
+
+साफे निकाले जाते हैं…
+
+कपड़े बाँधे जाते हैं…
+
+हाथ काँपते नहीं…
+
+क्योंकि यह भय नहीं…
+
+निर्णय है।
+
+एक युवा अपने पिता से पूछता है—
+
+“क्या हम मरेंगे?”
+
+पिता मुस्कुराते हैं—
+
+“हम जीएँगे… बस अलग तरीके से।”
+
+यह उत्तर…
+
+वह समझ जाता है।
+
+नीचे…
+
+जौहर की अग्नि जलती है…
+
+ऊपर…
+
+केसरिया।
+
+दोनों…
+
+एक ही कथा के दो पक्ष।
+
+द्वार खुलते हैं…
+
+“हर हर महादेव!”
+
+गर्जना…
+
+और फिर…
+
+अंतिम धावा।
+
+हर वार…
+
+अब अंतिम है…
+
+हर कदम…
+
+अब वापसी से दूर।
+
+रक्त…
+
+धूल…
+
+चीखें…
+
+और उस सब के बीच…
+
+केसरिया।
+
+वह रंग…
+
+जो अब कपड़े में नहीं…
+
+वायु में फैल गया है।
+
+युद्ध समाप्त होता है…
+
+किला गिरता है…
+
+लेकिन वह रंग…
+
+गायब नहीं होता।
+
+वह मिट्टी में समा जाता है…
+
+और फिर…
+
+समय आगे बढ़ता है।
+
+नए युग…
+
+नई सीमाएँ…
+
+नई लड़ाइयाँ…
+
+लेकिन संकट…
+
+अब भी आते हैं।
+
+एक सैनिक…
+
+आधुनिक वर्दी में…
+
+सीमा पर खड़ा है।
+
+उसके पास तलवार नहीं…
+
+लेकिन उसका संकल्प…
+
+वही है।
+
+एक दिन…
+
+उससे पूछा जाता है—
+
+“तुम क्यों खड़े हो यहाँ?”
+
+वह मुस्कुराता है—
+
+“क्योंकि यह मेरी भूमि है।”
+
+उसके कंधे पर…
+
+कोई केसरिया साफा नहीं…
+
+लेकिन उसकी आँखों में…
+
+वही रंग है।
+
+एक और युद्ध…
+
+इस बार…
+
+रेत नहीं…
+
+पत्थर नहीं…
+
+बल्कि सीमाएँ…
+
+जो अदृश्य हैं।
+
+लेकिन जब संकट आता है…
+
+तो वही भावना उठती है—
+
+“अब पीछे नहीं हटना।”
+
+एक अधिकारी…
+
+अपने जवानों से कहता है—
+
+“आज… हमें टिकना है…”
+
+एक जवान धीरे से पूछता है—
+
+“अगर हम नहीं बचे तो?”
+
+उत्तर आता है—
+
+“तो हम याद रहेंगे…”
+
+और यही…
+
+केसरिया है।
+
+यह केवल अतीत का नहीं…
+
+यह वर्तमान का भी है।
+
+यह केवल कपड़े का नहीं…
+
+यह मन का है।
+
+एक अंतिम दृश्य…
+
+अरावली की एक चोटी…
+
+सूरज ढल रहा है…
+
+आकाश केसरिया हो गया है।
+
+एक वृद्ध…
+
+और एक बालक…
+
+साथ खड़े हैं।
+
+बालक पूछता है—
+
+“दादा… यह रंग इतना खास क्यों है?”
+
+वृद्ध धीरे से कहते हैं—
+
+“क्योंकि इसमें… त्याग है…”
+
+बालक फिर पूछता है—
+
+“और त्याग क्या होता है?”
+
+वृद्ध उसकी ओर देखते हैं…
+
+और कहते हैं—
+
+“जब तुम अपने से बड़ा कुछ चुनते हो…”
+
+बालक आकाश की ओर देखता है…
+
+और पहली बार…
+
+वह समझता है।
+
+केसरिया…
+
+वह कभी समाप्त नहीं होता।
+
+वह हर युग में लौटता है…
+
+हर संकट में उठता है…
+
+हर निर्णय में झलकता है।
+
+क्योंकि यह रंग…
+
+किसी एक युद्ध का नहीं…
+
+किसी एक व्यक्ति का नहीं…
+
+यह एक भावना है…
+
+जो हमेशा जीवित रहती है।
+
+और जब भी…
+
+भूमि पुकारती है…
+
+तो कहीं न कहीं…
+
+कोई फिर से…
+
+केसरिया पहन लेता है।
+
+और हवा…
+
+धीमे से कहती है—
+
+“त्याग… कभी पुराना नहीं होता…”
+`
     ],
-    coverImage: { src: '/images/legends/eternal-kesariya.jpg', alt: 'A saffron cloth fluttering in the desert wind.' }
+    coverImage: { src: '/images/dynasties/gallery/vijay-stambha.jpg', alt: 'A saffron cloth fluttering in the desert wind.' }
   },
   {
     id: 'tale-of-the-rajput-bloodline',
@@ -769,11 +19802,434 @@ export const allLegends: Legend[] = [
     era: 'Ancient to Modern',
     location: 'All Rajputana',
     story: [
-      'This tale traces the lineage of a single Rajput family through centuries of war and peace. It shows how the values of the ancestors were passed down to the descendants.',
-      'It emphasizes that the "bloodline" is not just about biology, but about a shared commitment to a code of conduct that defines what it means to be a Rajput.',
-      'The story is a celebration of the continuity of culture and the enduring power of family traditions in the face of a changing world.'
+      `अरावली की तलहटी में…
+
+जहाँ एक छोटा-सा किला खड़ा था… समय की मार से झुलसा हुआ… लेकिन अब भी अडिग…
+वहीं से शुरू होती है यह कथा—
+
+एक वंश की…
+एक रक्तरेखा की…
+और उस वचन की… जो पीढ़ियों से बहता आया।
+
+पहली पीढ़ी…
+
+वह समय… जब तलवारें नई थीं… और युद्ध हर दिशा में।
+
+उस वंश का प्रथम पुरुष…
+
+एक योद्धा…
+
+जिसका नाम आज पत्थरों में खो गया है…
+लेकिन उसका कर्म… अब भी जीवित है।
+
+उसका जन्म युद्ध के बीच हुआ…
+
+जब उसकी माँ ने उसे जन्म दिया…
+तब बाहर तलवारें टकरा रही थीं।
+
+उसके पिता…
+
+घोड़े पर सवार…
+
+रक्त से सने हुए…
+
+जब पहली बार उसे देखा…
+
+तो कहा—
+
+“यह केवल मेरा पुत्र नहीं…
+यह मेरा वचन है।”
+
+बचपन…
+
+कोई लोरी नहीं…
+कोई खेल नहीं…
+
+सिर्फ प्रशिक्षण।
+
+“तलवार उठाओ…”
+
+“घोड़े को संभालो…”
+
+“पीछे मत देखो…”
+
+उसका जीवन…
+
+एक ही दिशा में चल रहा था—
+
+युद्ध।
+
+पहला युद्ध…
+
+वह युवा था…
+
+हाथ काँप रहे थे…
+
+लेकिन उसने अपने पिता की आवाज़ सुनी—
+
+“डर को मारो…”
+
+और उसने वार किया।
+
+उस दिन…
+
+वह योद्धा बन गया।
+
+वह लड़ा…
+
+जीता…
+
+और फिर…
+
+एक दिन…
+
+अपने पुत्र को वही सिखाने लगा।
+
+दूसरी पीढ़ी…
+
+अब समय बदल चुका था।
+
+किले मजबूत थे…
+राज्य स्थापित…
+
+लेकिन खतरे अब भी थे।
+
+उसका पुत्र…
+
+अपने पिता से अलग था।
+
+वह केवल तलवार नहीं जानता था…
+
+वह रणनीति भी जानता था।
+
+एक दिन…
+
+दरबार में…
+
+नक्शे फैलाए गए।
+
+“हम सीधे हमला नहीं करेंगे…”
+
+उसने कहा।
+
+एक सरदार ने पूछा—
+
+“तो?”
+
+उसने उत्तर दिया—
+
+“हम उन्हें यहाँ खींचेंगे…”
+
+और फिर…
+
+घाटी में युद्ध।
+
+ऊपर से तीर…
+नीचे से घुड़सवार…
+
+दुश्मन फँस गया।
+
+विजय…
+
+लेकिन यह केवल शक्ति नहीं थी…
+
+यह बुद्धि थी।
+
+वह अपने पुत्र से कहता—
+
+“रक्त केवल बहता नहीं…
+सोचता भी है।”
+
+तीसरी पीढ़ी…
+
+अब समय और बदल चुका था।
+
+दरबारों में राजनीति…
+
+मित्रता और विश्वासघात…
+
+युद्ध अब केवल मैदान में नहीं…
+
+अंदर भी।
+
+इस पीढ़ी का योद्धा…
+
+अपने ही लोगों के बीच लड़ रहा था।
+
+एक रात…
+
+उसके सबसे विश्वस्त साथी ने उसे धोखा दिया।
+
+शिविर में हमला…
+
+अचानक…
+
+चीखें…
+
+रक्त…
+
+वह उठा…
+
+तलवार लेकर…
+
+और चिल्लाया—
+
+“कौन?”
+
+उत्तर मिला—
+
+“वही… जिसे तुमने विश्वास दिया था…”
+
+उसने युद्ध लड़ा…
+
+लेकिन उस रात…
+
+उसने कुछ खो दिया।
+
+उसने अपने पुत्र से कहा—
+
+“याद रखना…
+तलवार से पहले… मन को संभालना…”
+
+यह पीढ़ी…
+
+कठोर थी।
+
+चौथी पीढ़ी…
+
+अब युद्ध बदल चुका था।
+
+कुछ शांति…
+कुछ संघर्ष…
+
+और एक नया जीवन।
+
+इस पीढ़ी का पुरुष…
+
+केवल योद्धा नहीं था…
+
+वह निर्माता था।
+
+उसने किले सुधारे…
+मंदिर बनाए…
+लोगों को बसाया।
+
+एक दिन…
+
+उसके पुत्र ने पूछा—
+
+“क्या हम अब युद्ध नहीं करेंगे?”
+
+वह मुस्कुराया—
+
+“हमेशा नहीं…
+लेकिन जब करना होगा… तब करेंगे।”
+
+यह संतुलन था।
+
+पाँचवीं पीढ़ी…
+
+फिर तूफ़ान आया।
+
+बाहरी आक्रमण…
+
+नई शक्ति…
+
+नई रणनीतियाँ…
+
+और फिर…
+
+युद्ध।
+
+इस बार…
+
+पूरा वंश एक साथ खड़ा था।
+
+पिता… पुत्र… भाई…
+
+सब एक ही पंक्ति में।
+
+“हर हर महादेव!”
+
+गर्जना…
+
+और फिर…
+
+टक्कर।
+
+एक गिरा…
+दूसरा उसकी जगह आया…
+
+रक्त…
+
+अब केवल व्यक्तिगत नहीं था…
+
+यह वंश का था।
+
+एक युवक…
+
+घायल…
+
+अपने पिता से बोला—
+
+“क्या हम जीतेंगे?”
+
+पिता ने कहा—
+
+“हम निभाएँगे…”
+
+यह उत्तर…
+
+पीढ़ियों से चला आ रहा था।
+
+छठी पीढ़ी…
+
+अब समय और बदल गया।
+
+राज्य बदल गए…
+सीमाएँ बदल गईं…
+
+लेकिन वंश…
+
+अब भी था।
+
+इस पीढ़ी का पुरुष…
+
+युद्ध से लौट चुका था।
+
+उसने अपने बच्चों को सिखाया—
+
+“तलवार जरूरी है…
+लेकिन वचन उससे भी जरूरी।”
+
+वह उन्हें कहानियाँ सुनाता…
+
+उनके पूर्वजों की…
+
+उनकी जीतों की…
+
+उनके बलिदानों की।
+
+और बच्चे…
+
+उन्हें सुनते…
+
+और समझते—
+
+कि वे केवल व्यक्ति नहीं हैं…
+
+वे एक श्रृंखला हैं।
+
+एक दिन…
+
+एक बालक ने पूछा—
+
+“क्या हम भी वैसे ही बनेंगे?”
+
+वृद्ध मुस्कुराया—
+
+“अगर तुम याद रखोगे… तो हाँ।”
+
+समय आगे बढ़ा…
+
+पीढ़ियाँ बदलती रहीं…
+
+लेकिन कुछ चीजें नहीं बदलीं—
+
+वचन…
+सम्मान…
+और वह अदृश्य धागा…
+
+जो सबको जोड़ता था।
+
+एक अंतिम दृश्य…
+
+अरावली की वही तलहटी…
+
+वही किला…
+
+अब आधा खंडहर…
+
+लेकिन अब भी खड़ा।
+
+एक युवा…
+
+तलवार लेकर खड़ा है…
+
+उसके पीछे…
+
+कोई नहीं…
+
+लेकिन फिर भी…
+
+वह अकेला नहीं है।
+
+क्योंकि उसके भीतर…
+
+सभी हैं।
+
+पहली पीढ़ी…
+दूसरी…
+तीसरी…
+
+सब…
+
+उसकी सांसों में…
+
+उसकी सोच में…
+
+उसके निर्णय में।
+
+वह तलवार उठाता है…
+
+और धीरे से कहता है—
+
+“मैं वचन निभाऊँगा…”
+
+यह शब्द…
+
+नए नहीं हैं…
+
+लेकिन हर बार…
+
+वे नए बन जाते हैं।
+
+क्योंकि यही है—
+
+रक्तरेखा।
+
+यह केवल शरीर से नहीं बहती…
+
+यह मूल्यों से बहती है।
+
+यह केवल जन्म से नहीं बनती…
+
+यह निर्णय से बनती है।
+
+और जब तक…
+
+कोई एक भी व्यक्ति…
+
+इस वचन को जीवित रखता है…
+
+तब तक…
+
+वह वंश…
+
+कभी समाप्त नहीं होता।
+
+अरावली की हवाएँ…
+
+आज भी यह कहानी सुनाती हैं—
+
+“रक्त बदल सकता है…
+समय बदल सकता है…
+
+लेकिन वचन…
+सदैव चलता है…”
+`
     ],
-    coverImage: { src: '/images/legends/bloodline.jpg', alt: 'A family tree carved into a stone wall.' }
+    coverImage: { src: '/images/dynasties/seals/marwar-rathore-seal.png', alt: 'A family tree carved into a stone wall.' }
   },
   {
     id: 'legend-of-the-warrior-s-return',
@@ -783,11 +20239,456 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Village Gate',
     story: [
-      'This legend tells of a warrior who was thought to have fallen in a distant battle but returned years later, his body scarred but his spirit intact.',
-      'He did not seek glory or power, but spent the rest of his days teaching the young men of his village the skills and the values that had kept him alive.',
-      'The "Warrior’s Return" is a story of the quiet heroism of those who continue to serve their community long after their time on the battlefield is over.'
+      `अरावली की ढलानों पर बसा वह छोटा-सा गाँव…
+
+जहाँ सुबह का सूरज पहाड़ों के पीछे से निकलकर धीरे-धीरे हर कच्ची दीवार को छूता था… और शाम को वही पहाड़ अंधेरे को अपने भीतर समेट लेते थे…
+
+वहीं से निकला था वह बालक…
+जिसे लोग बाद में “वापस लौटने वाला” कहेंगे।
+
+उसका जन्म किसी राजमहल में नहीं हुआ था…
+लेकिन उसके घर की दीवारों पर तलवारें टंगी थीं…
+और हर शाम… उसके पिता युद्ध की कहानियाँ सुनाते थे।
+
+“याद रखना…” उसके पिता कहते—
+“योद्धा केवल लड़ता नहीं… वह टिकता भी है।”
+
+बालक ध्यान से सुनता…
+उसकी आँखों में चमक होती…
+और हाथ… अनजाने में तलवार की मूठ पकड़ने की कोशिश करते।
+
+बचपन से ही उसका जीवन कठोर था।
+
+सुबह से पहले उठना…
+घोड़े को साधना…
+धनुष की डोरी खींचना…
+
+हर दिन… शरीर टूटता…
+लेकिन मन… और मजबूत होता।
+
+एक दिन…
+
+वह गिर पड़ा…
+
+थककर…
+हारकर…
+
+“मुझसे नहीं होगा…” उसने कहा।
+
+उसके गुरु ने उसे उठाया…
+
+और धीरे से कहा—
+
+“जो लौट आता है… वही योद्धा होता है।”
+
+यह वाक्य…
+
+उसके भीतर कहीं गहराई में बैठ गया।
+
+समय बीता…
+
+बालक युवा बना…
+
+और फिर…
+
+एक दिन…
+
+गाँव में खबर आई—
+
+युद्ध।
+
+सीमा पर खतरा था…
+
+राजा ने सेना बुलवाई।
+
+गाँव के सभी युवा इकट्ठा हुए…
+
+और वह भी।
+
+माँ ने उसके माथे पर तिलक लगाया—
+
+“सावधान रहना…”
+
+वह मुस्कुराया—
+
+“मैं लौटकर आऊँगा।”
+
+उस समय…
+
+किसी ने नहीं सोचा…
+
+कि यह वाक्य…
+
+कितने वर्षों तक अधूरा रहेगा।
+
+युद्धभूमि…
+
+पहाड़ों के पार…
+
+एक विशाल मैदान…
+
+जहाँ धूल… और रक्त… एक साथ उड़ते थे।
+
+पहली टक्कर…
+
+“हर हर महादेव!”
+
+गर्जना…
+
+और फिर…
+
+टक्कर।
+
+घोड़े दौड़े…
+तलवारें टकराईं…
+
+वह भी उस भीड़ में था…
+
+पहली बार…
+
+वास्तविक युद्ध में।
+
+एक वार…
+फिर दूसरा…
+
+धीरे-धीरे…
+
+वह सीखता गया।
+
+लेकिन युद्ध…
+
+सिर्फ कौशल नहीं होता…
+
+वह भाग्य भी होता है।
+
+एक दिन…
+
+एक बड़ा संघर्ष…
+
+दुश्मन संख्या में अधिक…
+
+स्थिति गंभीर।
+
+सेनापति चिल्लाया—
+
+“पीछे हटो!”
+
+लेकिन तब तक…
+
+बहुत देर हो चुकी थी।
+
+घेराव।
+
+चारों ओर से।
+
+वह लड़ा…
+
+पूरा दम लगाकर…
+
+लेकिन एक भारी वार…
+
+उसके कंधे पर पड़ा।
+
+वह गिर पड़ा…
+
+धूल में…
+
+रक्त में…
+
+और फिर…
+
+अंधेरा।
+
+जब आँखें खुलीं…
+
+तो सब कुछ बदल चुका था।
+
+चारों ओर…
+
+मृत शरीर…
+
+टूटी तलवारें…
+
+और सन्नाटा।
+
+वह जीवित था…
+
+लेकिन अकेला।
+
+वह उठने की कोशिश करता है…
+
+दर्द…
+
+असहनीय…
+
+लेकिन वह खड़ा हुआ।
+
+“मुझे लौटना है…”
+
+यह एक विचार नहीं था…
+
+यह एक जिद थी।
+
+दिन…
+
+फिर रात…
+
+वह चलता रहा।
+
+घायल…
+
+भूखा…
+
+प्यासा…
+
+लेकिन चलता रहा।
+
+कभी गिरता…
+फिर उठता…
+
+हर बार…
+
+वही शब्द—
+
+“लौटना है…”
+
+एक दिन…
+
+वह एक अजनबी गाँव पहुँचा।
+
+लोगों ने उसे देखा…
+
+घावों से भरा…
+
+पहचाना नहीं।
+
+लेकिन उसे पानी दिया…
+भोजन दिया…
+
+और जीवन।
+
+वह कुछ समय वहाँ रहा…
+
+घाव भरने लगे…
+
+लेकिन शरीर पर निशान…
+
+हमेशा के लिए रह गए।
+
+साल बीत गए…
+
+युद्ध खत्म हो गए…
+
+लोगों ने उसे मृत मान लिया।
+
+उसका गाँव…
+
+अब उसे याद नहीं करता था…
+
+लेकिन वह…
+
+भूल नहीं पाया।
+
+एक सुबह…
+
+वह उठा…
+
+और चल पड़ा।
+
+वापस।
+
+वर्षों बाद…
+
+जब वह अपने गाँव पहुँचा…
+
+तो सब कुछ बदल चुका था।
+
+नए चेहरे…
+नए बच्चे…
+
+कोई उसे पहचानता नहीं था।
+
+एक वृद्ध ने उसे देखा…
+
+ध्यान से…
+
+और फिर धीरे से कहा—
+
+“तू…?”
+
+वह मुस्कुराया—
+
+“मैं लौट आया हूँ…”
+
+गाँव में खबर फैल गई।
+
+“वह जीवित है…”
+
+लेकिन वह…
+
+बदला हुआ था।
+
+उसकी चाल धीमी थी…
+शरीर झुका हुआ…
+
+लेकिन आँखें…
+
+अब भी वैसी ही थीं।
+
+लोगों ने पूछा—
+
+“अब क्या करोगे?”
+
+उसने उत्तर दिया—
+
+“जो मैंने सीखा… उसे बाँटूँगा।”
+
+और फिर…
+
+एक नया अध्याय शुरू हुआ।
+
+सुबह…
+
+अब वह स्वयं खड़ा होता…
+
+और सामने…
+
+गाँव के युवा।
+
+“तलवार ऐसे पकड़ो…”
+
+वह कहता…
+
+“घोड़े को समझो… उसे आदेश मत दो…”
+
+उसकी आवाज़ कठोर नहीं थी…
+
+लेकिन गहरी थी।
+
+एक दिन…
+
+एक बालक ने पूछा—
+
+“आप इतने शांत क्यों हैं?”
+
+वह कुछ क्षण चुप रहा…
+
+फिर बोला—
+
+“क्योंकि मैंने शोर देख लिया है…”
+
+यह उत्तर…
+
+युद्ध से बड़ा था।
+
+वह केवल युद्ध नहीं सिखाता था…
+
+वह धैर्य सिखाता था…
+
+वह निर्णय सिखाता था…
+
+वह जीवन सिखाता था।
+
+एक दिन…
+
+एक युवक ने पूछा—
+
+“आप फिर से युद्ध में क्यों नहीं जाते?”
+
+वह मुस्कुराया—
+
+“क्योंकि अब… मेरी जगह यहाँ है…”
+
+यह उसका अंतिम परिवर्तन था।
+
+अब वह योद्धा नहीं था…
+
+वह मार्गदर्शक था।
+
+साल बीतते गए…
+
+उसके बाल सफेद हो गए…
+
+शरीर और झुक गया…
+
+लेकिन हर सुबह…
+
+वह अब भी खड़ा होता…
+
+और सिखाता।
+
+एक शाम…
+
+सूरज ढल रहा था…
+
+वह बैठा था…
+
+और सामने…
+
+वे युवक…
+
+जो अब स्वयं योद्धा बन चुके थे।
+
+एक ने पूछा—
+
+“क्या आप खुश हैं?”
+
+उसने धीरे से कहा—
+
+“हाँ… क्योंकि मैं लौट आया…”
+
+और फिर…
+
+उसने आँखें बंद कर लीं।
+
+शांत…
+
+जैसे कोई यात्रा पूरी हो गई हो।
+
+गाँव में…
+
+उस दिन…
+
+कोई युद्ध नहीं था…
+
+कोई गर्जना नहीं…
+
+सिर्फ मौन।
+
+लेकिन उस मौन में…
+
+एक विरासत थी।
+
+आज भी…
+
+जब उस गाँव में सुबह होती है…
+
+और कोई बालक तलवार उठाता है…
+
+तो कोई आवाज़ कहती है—
+
+“गिरना मत डर…
+डरना मत गिरने से…”
+
+और लोग कहते हैं—
+
+“वह अब भी यहीं है…”
+
+क्योंकि कुछ योद्धा…
+
+युद्धभूमि में नहीं…
+
+लौटने में महान बनते हैं।
+
+और उसकी कहानी…
+
+आज भी कहती है—
+
+“सच्चा वीर…
+वह है… जो अंत तक सेवा करता है…”
+`
     ],
-    coverImage: { src: '/images/legends/warrior-return.jpg', alt: 'An old warrior being greeted by villagers.' }
+    coverImage: { src: '/images/dynasties/rulers/amar-singh-ii.jpg', alt: 'An old warrior being greeted by villagers.' }
   },
   {
     id: 'ballad-of-the-rajput-oathkeepers',
@@ -797,11 +20698,467 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Frontier Outpost',
     story: [
-      'This ballad celebrates those who remained true to their oaths even in the face of certain death. It tells of a group of warriors who refused to retreat from a position they had sworn to hold.',
-      'Their sacrifice bought the time needed for the main army to regroup, turning a potential disaster into a hard-won victory.',
-      'The "Oathkeepers" are the ultimate examples of the Rajput belief that one’s word is more valuable than one’s life.'
+      `सीमा के उस छोर पर… जहाँ धरती अचानक ढलान बनकर घाटी में उतरती थी… और सामने दूर-दूर तक फैली अरावली की परतें धुंध में खो जाती थीं… वहीं खड़ा था वह छोटा-सा किला—पत्थरों का, लेकिन जिद में अडिग।
+
+लोग उसे “धरना-दुर्ग” कहते थे।
+
+कोई विशाल किला नहीं…
+कोई भव्य प्राचीर नहीं…
+
+लेकिन उसकी एक पहचान थी—
+
+वहाँ खड़े लोग… कभी पीछे नहीं हटते थे।
+
+और उस दिन…
+
+वहीं इकट्ठा हुए थे—
+वे योद्धा… जिन्हें इतिहास “शपथधारी” कहेगा।
+
+कहानी शुरू होती है एक बालक से…
+
+उसका जन्म किसी बड़े महल में नहीं…
+बल्कि एक छोटे ठाकुर परिवार में हुआ था…
+
+लेकिन उस घर में… एक नियम था—
+
+“जो कहा जाए… वह निभाया जाए।”
+
+उसके पिता… एक कठोर योद्धा…
+
+एक दिन उन्होंने उसे अपने सामने खड़ा किया—
+
+“तलवार उठाओ।”
+
+बालक ने उठाई।
+
+“अब… यह केवल लोहे का टुकड़ा नहीं है…”
+
+पिता ने कहा—
+
+“यह तुम्हारा वचन है।”
+
+बालक ने पूछा—
+
+“वचन?”
+
+पिता की आँखें सख्त हो गईं—
+
+“राजपूत के लिए… वचन… प्राणों से बड़ा होता है।”
+
+यह वाक्य…
+
+उसके भीतर अंकित हो गया।
+
+बचपन…
+
+घोड़े की पीठ…
+धूल…
+घाव…
+
+और हर दिन…
+
+एक नई सीख।
+
+गुरु कहते—
+
+“तुम्हारी ताकत… तुम्हारी भुजाओं में नहीं… तुम्हारे शब्द में है।”
+
+समय बीता…
+
+बालक युवा हुआ…
+
+और फिर…
+
+एक दिन…
+
+उसे बुलाया गया।
+
+दरबार में…
+
+मौन…
+
+गंभीर चेहरों के बीच…
+
+सेनापति खड़ा था।
+
+“दुश्मन आगे बढ़ रहा है…”
+
+नक्शे पर एक स्थान दिखाया गया—
+
+वही छोटा किला।
+
+“अगर यह गिरा… तो हमारी पूरी सेना खुली रह जाएगी…”
+
+सन्नाटा।
+
+फिर सेनापति ने कहा—
+
+“हमें कुछ लोग चाहिए… जो वहाँ टिकें…
+जब तक मुख्य सेना पुनर्गठित न हो जाए।”
+
+सब जानते थे…
+
+यह क्या है।
+
+यह आदेश नहीं…
+
+यह बलिदान था।
+
+युवा आगे बढ़ा—
+
+“मैं जाऊँगा।”
+
+एक-एक कर…
+
+और लोग आगे आए।
+
+दस… बीस… पचास…
+
+फिर…
+
+एक समूह बना।
+
+सेनापति ने उनकी ओर देखा—
+
+“यह वापसी का मार्ग नहीं है…”
+
+एक वृद्ध योद्धा मुस्कुराया—
+
+“हमने पूछा भी नहीं।”
+
+फिर…
+
+उन्होंने तलवारें उठाईं…
+
+और एक साथ कहा—
+
+“हम शपथ लेते हैं…
+कि इस स्थान को नहीं छोड़ेंगे…”
+
+वह क्षण…
+
+साधारण नहीं था।
+
+यह जीवन का अंत था…
+
+जिसे उन्होंने स्वयं चुना।
+
+अगले दिन…
+
+वे उस किले में पहुँचे।
+
+छोटा… संकरा…
+चारों ओर से खुला…
+
+लेकिन रणनीतिक।
+
+ऊपर से घाटी दिखती थी…
+
+और नीचे से आने वाला हर शत्रु…
+
+स्पष्ट।
+
+युवा ने चारों ओर देखा—
+
+“यहीं… हम खड़े रहेंगे।”
+
+पहला दिन…
+
+दुश्मन आया।
+
+घोड़े… धूल…
+और युद्ध का नगाड़ा।
+
+“हर हर महादेव!”
+
+गर्जना हुई…
+
+और पहला टकराव।
+
+तीर बरसे…
+पत्थर गिरे…
+
+दुश्मन पीछे हटा।
+
+एक योद्धा हँसा—
+
+“इतना आसान?”
+
+युवा ने सिर हिलाया—
+
+“यह शुरुआत है…”
+
+दूसरा दिन…
+
+हमला और बड़ा।
+
+इस बार…
+
+तोपें भी थीं।
+
+धमाका!
+
+दीवार का एक हिस्सा हिला…
+
+धूल उठी…
+
+और उसी धूल के बीच…
+
+दुश्मन चढ़ा।
+
+तलवारें टकराईं—
+
+“छन्न!”
+
+रक्त…
+चीखें…
+
+एक योद्धा गिरा…
+
+दूसरा उसकी जगह खड़ा हो गया।
+
+“पीछे मत हटना!”
+
+युवा चिल्लाया।
+
+और कोई पीछे नहीं हटा।
+
+तीसरा दिन…
+
+घेराव।
+
+दुश्मन ने चारों ओर से घेर लिया।
+
+अब…
+
+कोई सहायता नहीं…
+
+कोई राहत नहीं…
+
+सिर्फ…
+
+समय।
+
+एक सैनिक ने पूछा—
+
+“हम कब तक…?”
+
+युवा ने उत्तर दिया—
+
+“जब तक सांस है…”
+
+रात…
+
+शांत…
+
+लेकिन भीतर…
+
+तूफ़ान।
+
+एक योद्धा… घायल…
+
+धीरे से बोला—
+
+“क्या हमने सही किया?”
+
+युवा उसके पास बैठा—
+
+“हमने जो कहा… वही कर रहे हैं।”
+
+“और अगर हम मर गए?”
+
+युवा मुस्कुराया—
+
+“तो हमारा वचन जीवित रहेगा।”
+
+यह उत्तर…
+
+सभी ने सुना।
+
+और फिर…
+
+किसी ने कुछ नहीं कहा।
+
+चौथा दिन…
+
+अंतिम हमला।
+
+दुश्मन अब पूरी शक्ति के साथ आया।
+
+घोड़े दौड़े…
+तोपें गरजीं…
+
+और किला…
+
+काँप उठा।
+
+“हर हर महादेव!”
+
+गर्जना…
+
+और फिर…
+
+अंतिम युद्ध।
+
+हर योद्धा…
+
+अब जानता था—
+
+यह अंत है।
+
+लेकिन कोई रुका नहीं।
+
+एक ने दो को गिराया…
+दूसरे ने तीन…
+
+रक्त…
+
+अब पत्थरों पर बह रहा था।
+
+युवा…
+
+सबसे आगे…
+
+उसकी तलवार…
+
+अब भी तेज़…
+
+लेकिन शरीर…
+
+थक चुका।
+
+एक घाव…
+फिर दूसरा…
+
+लेकिन वह रुका नहीं।
+
+एक साथी चिल्लाया—
+
+“अब बस!”
+
+युवा ने उत्तर दिया—
+
+“शपथ… अभी बाकी है!”
+
+और फिर…
+
+एक अंतिम धावा।
+
+दुश्मन…
+अब भीतर था।
+
+तलवारें…
+
+करीब…
+और भी तेज़।
+
+एक-एक कर…
+
+वे गिरने लगे।
+
+वृद्ध योद्धा…
+
+जिसने सबसे पहले मुस्कुराया था…
+
+वह भी गिरा…
+
+लेकिन उसके चेहरे पर…
+
+वही मुस्कान थी।
+
+“हमने निभाया…”
+
+उसने अंतिम शब्द कहा।
+
+अंततः…
+
+युवा अकेला खड़ा था।
+
+चारों ओर…
+
+शव…
+
+और दुश्मन।
+
+उसने आसमान की ओर देखा…
+
+और धीरे से कहा—
+
+“हमने समय दे दिया…”
+
+और फिर…
+
+वह भी गिर पड़ा।
+
+युद्ध समाप्त हुआ…
+
+किला गिर गया…
+
+लेकिन उसी समय…
+
+दूर…
+
+मुख्य सेना…
+
+पुनर्गठित हो चुकी थी।
+
+उन्होंने पलटवार किया।
+
+और इस बार…
+
+विजय उनकी थी।
+
+सेनापति ने मैदान पर खड़े होकर कहा—
+
+“यह जीत… उनकी है…”
+
+और उस छोटे किले की ओर देखा…
+
+जहाँ अब…
+
+सन्नाटा था।
+
+आज…
+
+वह किला खंडहर है…
+
+पत्थर टूट चुके हैं…
+
+लेकिन जब हवा चलती है…
+
+तो एक आवाज़ आती है—
+
+“हमने कहा था…”
+
+“और हमने निभाया…”
+
+“शपथधारी…”
+
+वे नाम नहीं हैं…
+
+वे एक विचार हैं।
+
+एक विश्वास…
+
+कि जब एक शब्द दिया जाए…
+
+तो वह जीवन से बड़ा हो जाता है।
+
+और आज भी…
+
+जब कोई योद्धा…
+
+अपनी तलवार उठाता है…
+
+तो कहीं न कहीं…
+
+वह आवाज़ गूँजती है—
+
+“वचन…
+प्राणों से बड़ा होता है…”
+`
     ],
-    coverImage: { src: '/images/legends/oathkeepers.jpg', alt: 'A small group of warriors standing firm against a large force.' }
+    coverImage: { src: '/images/dynasties/places/hada-bundi-kota-main.jpg', alt: 'A small group of warriors standing firm against a large force.' }
   },
   {
     id: 'tale-of-the-desert-pilgrimage',
@@ -811,11 +21168,408 @@ export const allLegends: Legend[] = [
     era: 'Ancient to Modern',
     location: 'Thar Desert',
     story: [
-      'The desert pilgrimage was a test of faith and endurance. This tale follows a pilgrim who traveled hundreds of miles to visit a sacred shrine in the heart of the Thar.',
-      'Along the way, he faced sandstorms, thirst, and bandits, but his devotion never wavered. His journey is a symbol of the spiritual resilience of the people of Rajasthan.',
-      'The story highlights the deep connection between the physical landscape of the desert and the spiritual life of its inhabitants.'
+      `थार…
+
+रेत का वह अनंत समुद्र… जहाँ क्षितिज भी धोखा देता है… जहाँ हर दिशा एक जैसी लगती है… और जहाँ हर कदम… जीवन और मृत्यु के बीच एक सौदा होता है।
+
+उसी मरुस्थल के हृदय में… एक कथा चलती है—
+एक यात्री की…
+एक संकल्प की…
+और एक ऐसी यात्रा की… जो केवल पैरों से नहीं… आत्मा से तय होती है।
+
+उसका नाम कोई नहीं जानता था…
+लोग उसे बस “यात्री” कहते थे।
+
+लेकिन वह जन्म से साधारण नहीं था।
+
+वह एक ऐसे घर में जन्मा था… जहाँ तलवारें भी थीं… और तुलसी की माला भी।
+उसके पिता… कभी युद्धभूमि में खड़े योद्धा थे…
+और माँ… भक्ति में डूबी हुई एक शांत धारा।
+
+जब वह बालक था…
+
+एक दिन उसने अपने पिता से पूछा—
+
+“क्या सबसे कठिन युद्ध कौन सा होता है?”
+
+पिता ने कहा—
+
+“वह… जो तलवार से नहीं… भीतर लड़ा जाता है।”
+
+यह उत्तर… उसके भीतर कहीं गहराई में उतर गया।
+
+बचपन में…
+
+उसने धनुष उठाया…
+घोड़े पर बैठा…
+रणनीति सीखी…
+
+लेकिन उसके भीतर एक और पुकार थी…
+
+एक ऐसी आवाज़… जो उसे युद्धभूमि से दूर… रेत के उस पार बुला रही थी।
+
+समय बीता…
+
+वह युवा हुआ…
+
+और एक दिन…
+
+उसने निर्णय लिया—
+
+“मैं यात्रा पर जाऊँगा।”
+
+उसके सामने एक लक्ष्य था…
+
+मरुस्थल के मध्य… एक प्राचीन धाम…
+जहाँ लोग कहते थे—
+“जो वहाँ पहुँच जाए… वह केवल लौटता नहीं… बदलकर लौटता है।”
+
+माँ ने उसके माथे पर हाथ रखा—
+
+“यह मार्ग कठिन है…”
+
+यात्री ने उत्तर दिया—
+
+“मुझे पता है…”
+
+पिता ने उसकी आँखों में देखा—
+
+“यह युद्ध है…”
+
+यात्री मुस्कुराया—
+
+“इस बार… भीतर का।”
+
+और फिर…
+
+वह निकल पड़ा।
+
+पहला दिन…
+
+रेत शांत थी…
+हवा धीमी…
+
+ऊँट की चाल स्थिर…
+
+सब कुछ सहज लगता था।
+
+लेकिन थार…
+
+कभी सरल नहीं होता।
+
+दूसरे दिन…
+
+सूरज और तेज़…
+
+पानी कम…
+
+होंठ सूखने लगे…
+
+एक साथी बोला—
+
+“वापस चलें…”
+
+यात्री ने सिर हिलाया—
+
+“अभी नहीं…”
+
+यह केवल शुरुआत थी।
+
+तीसरे दिन…
+
+आसमान बदला…
+
+हवा तेज़ हुई…
+
+और फिर…
+
+रेत का तूफ़ान।
+
+आकाश गायब…
+
+धरती गायब…
+
+सिर्फ रेत…
+
+जो हर दिशा से आ रही थी।
+
+ऊँट बेकाबू…
+
+लोग गिरने लगे…
+
+एक आवाज़ आई—
+
+“रुको!”
+
+लेकिन यात्री…
+
+आगे बढ़ता रहा।
+
+उसने अपने चेहरे को ढका…
+
+और कहा—
+
+“तूफ़ान… मार्ग नहीं रोकता…
+वह केवल उसे कठिन बनाता है।”
+
+घंटों बाद…
+
+तूफ़ान थमा।
+
+कुछ लोग पीछे रह गए…
+
+कुछ लौट गए…
+
+लेकिन यात्री…
+
+अब भी खड़ा था।
+
+उसकी आँखों में थकान थी…
+
+लेकिन संकल्प… और भी मजबूत।
+
+रात…
+
+ठंडी… और शांत…
+
+तारों से भरा आकाश…
+
+यात्री अकेला बैठा था।
+
+उसने पानी की अंतिम बूंद पी…
+
+और आकाश की ओर देखा—
+
+“क्या मैं पहुँच पाऊँगा?”
+
+कोई उत्तर नहीं…
+
+सिर्फ सन्नाटा।
+
+लेकिन उसी सन्नाटे में…
+
+एक विश्वास था।
+
+अगले दिन…
+
+एक नई चुनौती।
+
+दूर…
+
+कुछ आकृतियाँ दिखाई दीं।
+
+घोड़े…
+और उन पर सवार…
+
+डाकू।
+
+उन्होंने रास्ता रोक लिया।
+
+“जो कुछ है… दे दो…”
+
+उनकी आवाज़ कठोर थी।
+
+यात्री ने शांत होकर कहा—
+
+“मेरे पास कुछ नहीं है…”
+
+एक डाकू हँसा—
+
+“तो जीवन दे दो…”
+
+तलवारें निकलीं।
+
+क्षण भर में…
+
+वातावरण बदल गया।
+
+यात्री…
+जो अब तक शांत था…
+
+धीरे-धीरे खड़ा हुआ।
+
+उसकी आँखों में अब…
+
+एक अलग ही ज्वाला थी।
+
+“यह यात्रा… मैं पूरी करूँगा…”
+
+पहला वार…
+
+उसने रोका…
+
+दूसरा…
+
+उसने पलटवार किया।
+
+वह केवल भक्त नहीं था…
+
+वह योद्धा भी था।
+
+धूल उड़ी…
+
+तलवारें टकराईं…
+
+और कुछ ही क्षणों में…
+
+डाकू पीछे हट गए।
+
+एक ने कहा—
+
+“तुम कौन हो?”
+
+यात्री ने उत्तर दिया—
+
+“एक मार्ग पर चलने वाला…”
+
+और वह आगे बढ़ गया।
+
+दिन बीतते गए…
+
+शरीर थक गया…
+
+पैरों में छाले…
+
+आँखों में धुंध…
+
+लेकिन मन…
+
+अब भी अडिग।
+
+एक दिन…
+
+वह गिर पड़ा।
+
+रेत पर…
+
+अकेला…
+
+सूरज सिर पर…
+
+और चारों ओर…
+
+मृत सन्नाटा।
+
+उसने आँखें बंद कीं…
+
+“शायद… यहीं अंत है…”
+
+लेकिन उसी क्षण…
+
+उसे अपने पिता की आवाज़ सुनाई दी—
+
+“असली युद्ध… भीतर होता है…”
+
+उसने आँखें खोलीं…
+
+धीरे-धीरे उठ बैठा…
+
+और कहा—
+
+“मैं अभी हारा नहीं हूँ…”
+
+और फिर…
+
+एक-एक कदम…
+
+वह आगे बढ़ा।
+
+आख़िरकार…
+
+एक सुबह…
+
+क्षितिज बदला।
+
+दूर…
+
+एक आकृति…
+
+एक धाम…
+
+वह स्थान…
+
+जिसके लिए उसने सब कुछ सहा।
+
+उसकी आँखों में आँसू आ गए…
+
+लेकिन वह रुका नहीं।
+
+वह वहाँ पहुँचा…
+
+धीरे-धीरे…
+
+और फिर…
+
+उसने उस भूमि को छुआ।
+
+उस क्षण…
+
+सब शांत हो गया।
+
+न प्यास…
+न थकान…
+न दर्द…
+
+सिर्फ एक शांति।
+
+वह बैठ गया…
+
+और आँखें बंद कर लीं।
+
+यह विजय नहीं थी…
+
+यह पूर्णता थी।
+
+कुछ समय बाद…
+
+वह लौटा।
+
+लेकिन वह वही व्यक्ति नहीं था…
+
+जो गया था।
+
+उसके भीतर अब…
+
+रेगिस्तान बस चुका था।
+
+उसकी कठोरता…
+उसकी विशालता…
+और उसकी शांति।
+
+लोगों ने पूछा—
+
+“क्या मिला वहाँ?”
+
+वह मुस्कुराया—
+
+“मैं खुद को मिला…”
+
+और थार की हवाएँ…
+
+आज भी यह कहानी सुनाती हैं—
+
+एक यात्री की…
+
+जिसने रेत को पार किया…
+
+और अपने भीतर पहुँच गया।
+
+क्योंकि इस मरुस्थल में…
+
+हर यात्रा…
+
+केवल दूरी नहीं होती…
+
+वह एक परिवर्तन होती है।
+
+और जो इसे पार कर ले…
+
+वह केवल लौटता नहीं…
+
+वह अमर हो जाता है।
+`
     ],
-    coverImage: { src: '/images/legends/desert-pilgrimage.jpg', alt: 'A lone pilgrim walking across a vast sand dune.' }
+    coverImage: { src: '/images/dynasties/places/jaisalmer-bhati-main.jpg', alt: 'A lone pilgrim walking across a vast sand dune.' }
   },
   {
     id: 'legend-of-the-warrior-s-shadow',
@@ -825,11 +21579,525 @@ export const allLegends: Legend[] = [
     era: 'Timeless',
     location: 'Battlefield',
     story: [
-      'This legend tells of a great warrior whose shadow was said to be seen on the battlefield long after his death, guiding his descendants in times of crisis.',
-      'It is a metaphor for the enduring influence of the ancestors, whose examples of courage and honor continue to shape the actions of those who follow.',
-      'The "Warrior’s Shadow" is a reminder that no act of bravery is ever truly lost; it remains a part of the collective memory of the land.'
+      `अरावली की काली परछाइयों में…
+
+जहाँ सूरज ढलते ही पहाड़ों की रेखाएँ धुँधली हो जाती हैं… और रेत पर चलते कदम भी अपने निशान खो देते हैं… वहीं जन्मी थी एक कथा—
+
+एक योद्धा की…
+और उसकी छाया की।
+
+उसका नाम… समय ने निगल लिया…
+लेकिन उसकी उपस्थिति… आज भी मिट नहीं सकी।
+
+वह जन्मा था एक ऐसे कुल में… जहाँ तलवारें विरासत होती थीं… और शपथें रक्त में बहती थीं।
+
+उस रात… जब वह जन्मा…
+
+किले की प्राचीर पर मशालें जल रही थीं…
+और दूर कहीं युद्ध के नगाड़े धीमे-धीमे गूँज रहे थे।
+
+एक वृद्ध ज्योतिषी ने उसे देखकर कहा—
+
+“यह बालक… केवल जीवित नहीं रहेगा…
+यह समय के पार जाएगा।”
+
+उसके पिता… एक महान योद्धा…
+
+उन्होंने बालक को अपनी बाहों में उठाया…
+
+और कहा—
+
+“यह मेरे बाद… मेरी तलवार होगा।”
+
+बचपन से ही…
+
+उसके हाथों में लकड़ी की तलवार नहीं…
+लोहे की ठंडक थी।
+
+जब दूसरे बच्चे खेलते थे…
+
+वह घोड़े की पीठ पर संतुलन सीखता था…
+
+जब वे हँसते थे…
+
+वह वार करना सीखता था।
+
+एक दिन…
+
+उसका गुरु उससे बोला—
+
+“तलवार चलाना आसान है…
+लेकिन उसे सही कारण के लिए उठाना… कठिन।”
+
+बालक ने पूछा—
+
+“और सही कारण क्या है?”
+
+गुरु ने उत्तर दिया—
+
+“जब तुम्हारे पीछे… तुम्हारी भूमि खड़ी हो।”
+
+यह वाक्य…
+
+उसके भीतर उतर गया।
+
+समय बीता…
+
+और वह बालक…
+
+युवा बन गया।
+
+उसकी चाल में एक अजीब सा विश्वास था…
+
+मानो वह पहले से जानता हो—
+
+कि उसका मार्ग…
+
+युद्ध की ओर जाता है।
+
+उस समय…
+
+राजनीतिक आकाश अशांत था।
+
+चारों ओर संघर्ष…
+
+राज्य एक-दूसरे से टकरा रहे थे…
+
+और हर सीमा…
+
+एक संभावित युद्धभूमि थी।
+
+उसके पिता…
+
+अब वृद्ध हो चुके थे।
+
+एक दिन…
+
+दरबार में उन्होंने उसे बुलाया—
+
+“अब समय आ गया है…”
+
+युवा ने सिर झुकाया—
+
+“आदेश दीजिए।”
+
+“सेना तुम्हारी है…”
+
+यह केवल पद नहीं था…
+
+यह एक अग्नि थी…
+
+जो अब उसके हाथों में आ गई थी।
+
+पहला युद्ध…
+
+रेगिस्तान के खुले मैदान में।
+
+सूरज सिर पर…
+
+रेत तपती हुई…
+
+और सामने…
+
+दुश्मन की सेना।
+
+घोड़े पंक्तिबद्ध…
+
+तलवारें चमकती हुई…
+
+एक क्षण का मौन…
+
+और फिर—
+
+“हर हर महादेव!”
+
+गर्जना…
+
+और दोनों सेनाएँ टकराईं।
+
+वह अग्रिम पंक्ति में था।
+
+उसकी तलवार…
+
+हर वार के साथ…
+
+एक नया मार्ग बना रही थी।
+
+एक दुश्मन सेनापति उसके सामने आया—
+
+“आज… तुम्हारा अंत है!”
+
+उसने उत्तर दिया—
+
+“आज… मेरी शुरुआत है।”
+
+और फिर…
+
+एक तेज़ वार…
+
+रक्त…
+
+और वह सेनापति गिर पड़ा।
+
+युद्ध समाप्त हुआ…
+
+विजय उसकी थी।
+
+लेकिन यह केवल पहला कदम था।
+
+समय बीता…
+
+युद्ध बढ़ते गए…
+
+और उसके साथ…
+
+उसका नाम।
+
+अब वह केवल योद्धा नहीं था…
+
+वह एक प्रतीक बन रहा था।
+
+दूसरा युद्ध…
+
+अरावली की घाटियों में।
+
+यह मैदान नहीं था…
+
+यह एक भूलभुलैया थी।
+
+दुश्मन संख्या में अधिक था…
+
+लेकिन वह मुस्कुराया।
+
+“हम उन्हें यहाँ हराएँगे…”
+
+एक सैनिक ने पूछा—
+
+“कैसे?”
+
+उसने कहा—
+
+“यह भूमि… हमारी है।”
+
+रात…
+
+अंधेरा…
+
+और फिर…
+
+तीर।
+
+पहाड़ी के ऊपर से…
+
+एक-एक कर…
+
+दुश्मन गिरने लगा।
+
+वे घबराए…
+
+“कहाँ से हमला हो रहा है?”
+
+लेकिन उत्तर…
+
+कहीं नहीं था।
+
+फिर…
+
+नीचे से घुड़सवार टूट पड़े।
+
+दो दिशाओं से हमला…
+
+और दुश्मन…
+
+फँस गया।
+
+यह केवल साहस नहीं था…
+
+यह रणनीति थी।
+
+युद्ध समाप्त हुआ…
+
+और फिर…
+
+एक और विजय।
+
+लेकिन हर विजय…
+
+कुछ छीनती है।
+
+एक दिन…
+
+एक विश्वासघात हुआ।
+
+एक साथी…
+
+जिस पर उसने भरोसा किया था…
+
+दुश्मन से जा मिला।
+
+रात…
+
+शिविर…
+
+और अचानक हमला।
+
+अफरा-तफरी…
+
+चीखें…
+
+और रक्त।
+
+वह उठा…
+
+तलवार उठाई…
+
+और चिल्लाया—
+
+“धोखा!”
+
+उसकी आँखों में अब क्रोध था…
+
+और उस रात…
+
+उसने केवल युद्ध नहीं लड़ा…
+
+उसने प्रतिशोध लिया।
+
+लेकिन जब सुबह हुई…
+
+उसने अपने सबसे विश्वस्त साथी को खो दिया था।
+
+वह पहली बार…
+
+चुप हो गया।
+
+कुछ क्षणों के लिए…
+
+उसने आसमान की ओर देखा…
+
+और फिर कहा—
+
+“अब… कोई गलती नहीं होगी।”
+
+यह उसका परिवर्तन था।
+
+अब वह केवल योद्धा नहीं था…
+
+वह एक छाया बन चुका था।
+
+अंतिम युद्ध…
+
+सबसे बड़ा…
+
+सबसे भयानक।
+
+दुश्मन विशाल था…
+
+और इस बार…
+
+संख्या का अंतर स्पष्ट था।
+
+एक सेनापति ने कहा—
+
+“हम पीछे हट सकते हैं…”
+
+वह मुस्कुराया—
+
+“और अपने नाम को पीछे छोड़ दें?”
+
+सन्नाटा।
+
+“नहीं…
+आज… हम इतिहास बनेंगे।”
+
+सुबह…
+
+केसरिया…
+
+तलवारें…
+
+और एक मौन संकल्प।
+
+“हर हर महादेव!”
+
+गर्जना…
+
+और फिर…
+
+अंतिम धावा।
+
+घोड़े दौड़े…
+
+धूल का तूफ़ान…
+
+तलवारें टकराईं…
+
+रक्त…
+
+चीखें…
+
+और अराजकता।
+
+वह सबसे आगे था।
+
+उसकी तलवार…
+
+अब भी उतनी ही तेज़…
+
+लेकिन शरीर…
+
+थक चुका था।
+
+एक… दो… तीन घाव…
+
+रक्त बहने लगा…
+
+लेकिन वह रुका नहीं।
+
+एक सैनिक चिल्लाया—
+
+“महाराज! पीछे हटिए!”
+
+उसने उत्तर दिया—
+
+“अब… पीछे कुछ नहीं है।”
+
+और फिर…
+
+वह दुश्मन के सबसे घने समूह में घुस गया।
+
+हर वार…
+
+अब अंतिम था।
+
+धीरे-धीरे…
+
+उसकी गति कम हुई…
+
+घुटने काँपे…
+
+और फिर…
+
+वह रुका।
+
+आसमान की ओर देखा…
+
+और अंतिम बार कहा—
+
+“यह भूमि… सुरक्षित रहे…”
+
+और फिर…
+
+वह गिर गया।
+
+युद्ध समाप्त हुआ…
+
+लेकिन कहानी नहीं।
+
+क्योंकि उस दिन…
+
+कुछ अजीब हुआ।
+
+सैनिकों ने कहा—
+
+“हमने उसे देखा…”
+
+“कहाँ?”
+
+“वहीं… धूल के बीच…”
+
+“वह अब भी लड़ रहा था…”
+
+पहले…
+
+किसी ने विश्वास नहीं किया।
+
+लेकिन फिर…
+
+दूसरे युद्धों में…
+
+संकट के समय…
+
+जब सब कुछ टूटता हुआ लगता…
+
+किसी ने कहा—
+
+“देखो…”
+
+और दूर…
+
+धूल के बीच…
+
+एक आकृति।
+
+तलवार उठाए…
+
+मार्ग दिखाती हुई।
+
+“वह… वही है…”
+
+यह छाया…
+
+डर नहीं थी…
+
+यह विश्वास थी।
+
+पीढ़ियाँ बीत गईं…
+
+नाम भूल गए…
+
+कहानियाँ बदल गईं…
+
+लेकिन छाया…
+
+अब भी वहीं है।
+
+जब भी कोई योद्धा…
+
+संकट में होता है…
+
+जब भी कोई निर्णय…
+
+असंभव लगता है…
+
+वह छाया…
+
+उसके साथ खड़ी होती है।
+
+क्योंकि…
+
+एक योद्धा मर सकता है…
+
+लेकिन उसका साहस…
+
+उसकी प्रतिज्ञा…
+
+कभी नहीं मरती।
+
+आज भी…
+
+जब अरावली की धूल उठती है…
+
+और सूरज ढलता है…
+
+तो कुछ लोग कहते हैं—
+
+“वह अभी भी यहाँ है…”
+
+“कौन?”
+
+“वही…
+जिसकी छाया… कभी नहीं जाती…”
+
+और हवा…
+
+धीमे से फुसफुसाती है—
+
+“कोई भी वीरता… कभी खोती नहीं…
+वह भूमि का हिस्सा बन जाती है…”
+`
     ],
-    coverImage: { src: '/images/legends/warrior-shadow.jpg', alt: 'A faint shadow of a warrior on a sun-drenched plain.' }
+    coverImage: { src: '/images/dynasties/rana-sanga.jpg', alt: 'A faint shadow of a warrior on a sun-drenched plain.' }
   },
   {
     id: 'ballad-of-the-rajput-war-path',
@@ -839,11 +22107,422 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Rajputana',
     story: [
-      'The "War Path" was the life of a Rajput warrior, from his first training as a child to his final stand on the battlefield. It was a path defined by duty and sacrifice.',
-      'This ballad celebrates the milestones of that journey, the lessons learned in the stables, the court, and the camp, all leading to the ultimate test of character.',
-      'The song is a tribute to the discipline and the resolve that allowed the Rajput states to survive for centuries in a world of constant conflict.'
+      `एक पथ होता है…
+
+जो नक्शों पर नहीं बनता…
+जिस पर कोई मील के पत्थर नहीं होते…
+जिसे कोई राजा घोषित नहीं करता…
+
+लेकिन वह पथ… पीढ़ियों तक चलता है।
+
+वह है—युद्ध का पथ।
+एक राजपूत का जीवन।
+
+यह कहानी किसी एक योद्धा की नहीं है…
+यह हर उस बालक की है… जो जन्म लेते ही… एक वचन बन जाता है।
+
+सुबह का समय…
+
+एक छोटा सा बालक…
+महल के आँगन में खड़ा है।
+
+उसके हाथ में लकड़ी की तलवार…
+
+आँखों में चमक…
+और सामने…
+
+उसका गुरु।
+
+“पकड़ इसे ठीक से,” गुरु की आवाज़ कठोर है।
+
+बालक तलवार कसकर पकड़ता है…
+
+वार करता है…
+
+कमज़ोर।
+
+गुरु सिर हिलाता है—
+
+“तलवार हाथ से नहीं… मन से चलती है।”
+
+यह पहला पाठ है।
+
+उस दिन से…
+
+हर सुबह…
+
+हर साँस…
+
+प्रशिक्षण बन जाती है।
+
+घोड़े की पीठ पर गिरना…
+फिर उठना…
+फिर गिरना…
+
+जब तक गिरना दर्द नहीं…
+आदत बन जाए।
+
+धनुष की डोरी खींचना…
+उँगलियों में छाले पड़ना…
+
+लेकिन तीर…
+
+लक्ष्य तक पहुँचना चाहिए।
+
+एक दिन…
+
+बालक थककर बैठ जाता है—
+
+“मुझसे नहीं होगा…”
+
+गुरु उसके पास आता है…
+
+और धीरे से कहता है—
+
+“राजपूत के लिए ‘नहीं’ शब्द नहीं होता।”
+
+यह वाक्य…
+
+उसके भीतर उतर जाता है।
+
+वर्ष बीतते हैं…
+
+बालक अब युवा हो चुका है।
+
+उसके हाथ में अब लकड़ी नहीं…
+वास्तविक तलवार है।
+
+उसकी चाल में आत्मविश्वास है…
+
+लेकिन अभी…
+
+पथ पूरा नहीं हुआ।
+
+दरबार…
+
+राजनीति का स्थान।
+
+वहाँ तलवार नहीं…
+शब्द चलते हैं।
+
+एक मंत्री कहता है—
+
+“युद्ध केवल मैदान में नहीं जीता जाता…”
+
+युवा योद्धा चुप रहता है…
+
+सुनता है…
+
+सीखता है…
+
+क्योंकि यह भी एक युद्ध है।
+
+धैर्य का।
+
+एक दिन…
+
+राजा उसे बुलाता है—
+
+“अब समय आ गया है…”
+
+युवा सिर झुकाता है—
+
+“आदेश दीजिए।”
+
+“सीमा पर जाओ…”
+
+यह उसका पहला अभियान है।
+
+कैंप…
+
+रेगिस्तान…
+
+तंबू…
+
+रात का सन्नाटा…
+
+और दूर…
+
+दुश्मन की आहट।
+
+एक अनुभवी सैनिक उसके पास आता है—
+
+“डर लग रहा है?”
+
+वह कुछ क्षण चुप रहता है…
+
+फिर कहता है—
+
+“हाँ…”
+
+सैनिक मुस्कुराता है—
+
+“अच्छा है…
+जो डरता नहीं… वह मरता जल्दी है।”
+
+यह दूसरा पाठ है।
+
+डर…
+
+शत्रु नहीं है…
+
+वह चेतावनी है।
+
+और फिर…
+
+पहला युद्ध।
+
+सुबह…
+
+सूरज उगता है…
+
+और उसके साथ…
+
+गर्जना—
+
+“हर हर महादेव!”
+
+घोड़े दौड़ते हैं…
+
+तलवारें चमकती हैं…
+
+धूल उठती है…
+
+युवा योद्धा…
+
+पहली बार…
+
+दुश्मन के सामने।
+
+उसका हाथ काँपता है…
+
+एक क्षण…
+
+फिर…
+
+वार।
+
+तलवार टकराती है…
+
+चिंगारी…
+
+और वह क्षण…
+
+जहाँ वह बदल जाता है।
+
+अब वह बालक नहीं है।
+
+वह योद्धा है।
+
+युद्ध समाप्त होता है…
+
+वह जीवित है…
+
+लेकिन उसके भीतर…
+
+कुछ बदल चुका है।
+
+रात…
+
+वह अकेला बैठा है…
+
+तलवार साफ कर रहा है…
+
+उस पर लगा रक्त…
+
+धीरे-धीरे हटता है…
+
+लेकिन स्मृति…
+
+नहीं।
+
+एक बुजुर्ग सैनिक उसके पास बैठता है—
+
+“पहली बार… कठिन होती है…”
+
+वह सिर हिलाता है।
+
+“आगे आसान हो जाएगा?”
+
+बुजुर्ग हँसता है—
+
+“नहीं…
+तू बस मजबूत हो जाएगा।”
+
+यह तीसरा पाठ है।
+
+समय बीतता है…
+
+युद्ध बढ़ते हैं…
+
+अनुभव बढ़ता है…
+
+अब वह केवल आदेश नहीं मानता…
+
+वह निर्णय लेता है।
+
+एक दिन…
+
+वह अपनी सेना के सामने खड़ा है।
+
+“आज… हम रुकेंगे नहीं।”
+
+उसकी आवाज़ में वही दृढ़ता है…
+
+जो कभी उसके गुरु की थी।
+
+युद्ध…
+
+और भी भयानक।
+
+घोड़े गिरते हैं…
+सैनिक चिल्लाते हैं…
+रक्त बहता है…
+
+लेकिन वह…
+
+आगे बढ़ता है।
+
+हर वार…
+
+अब सटीक है।
+
+हर निर्णय…
+
+रणनीति है।
+
+लेकिन…
+
+हर पथ का एक अंत होता है।
+
+एक दिन…
+
+अंतिम युद्ध।
+
+दुश्मन अधिक है…
+स्थिति कठिन…
+
+वह समझता है—
+
+“यह आखिरी है।”
+
+वह अपने साथियों की ओर देखता है…
+
+कुछ युवा…
+कुछ अनुभवी…
+
+सब तैयार।
+
+एक सैनिक पूछता है—
+
+“क्या हम जीतेंगे?”
+
+वह मुस्कुराता है—
+
+“हम हारेंगे नहीं।”
+
+केसरिया पहना जाता है…
+
+साफा बाँधा जाता है…
+
+और फिर…
+
+द्वार खुलते हैं।
+
+“हर हर महादेव!”
+
+गर्जना…
+
+और फिर…
+
+अंतिम धावा।
+
+वह दौड़ता है…
+
+तलवार उठाए…
+
+हर वार…
+
+अब अंतिम है।
+
+घाव लगते हैं…
+
+रक्त बहता है…
+
+लेकिन वह रुकता नहीं।
+
+क्योंकि यह पथ…
+
+यहीं समाप्त होना था।
+
+वह घुटनों पर आता है…
+
+साँसें भारी…
+
+आँखें आसमान की ओर…
+
+और एक अंतिम विचार—
+
+“मैंने अपना पथ पूरा किया।”
+
+और फिर…
+
+मौन।
+
+लेकिन…
+
+क्या यह अंत है?
+
+नहीं।
+
+क्योंकि अगले दिन…
+
+एक नया बालक…
+
+उसी आँगन में खड़ा होता है…
+
+लकड़ी की तलवार के साथ…
+
+और गुरु कहता है—
+
+“पकड़ इसे ठीक से…”
+
+पथ…
+
+फिर शुरू हो जाता है।
+
+युद्ध का पथ…
+
+राजपूत का जीवन…
+
+जो कभी समाप्त नहीं होता।
+
+क्योंकि यह केवल एक व्यक्ति का नहीं…
+
+एक परंपरा का है।
+
+और आज भी…
+
+जब तलवारें शांत हैं…
+
+और युद्ध बदल चुके हैं…
+
+यह पथ…
+
+अब भी चलता है—
+
+दिलों में…
+
+वचनों में…
+
+और उस संकल्प में—
+
+जो कहता है—
+
+“कर्तव्य… जीवन से बड़ा है…”
+`
     ],
-    coverImage: { src: '/images/legends/war-path.jpg', alt: 'A young boy practicing with a wooden sword.' }
+    coverImage: { src: '/images/dynasties/rulers/sawai-jai-singh.jpg', alt: 'A young boy practicing with a wooden sword.' }
   },
   {
     id: 'tale-of-the-guardians-of-chittor',
@@ -853,11 +22532,400 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Chittorgarh',
     story: [
-      'This tale celebrates the collective courage of the people of Chittorgarh during its many sieges. It tells of the common soldiers, the women, and even the children who played their part.',
-      'It emphasizes that the strength of Chittor lay not just in its walls, but in the spirit of its people, who were willing to sacrifice everything for their home and their honor.',
-      'The "Guardians of Chittor" are a symbol of the indomitable will of a community that refused to be broken, even when faced with annihilation.'
+      `चित्तौड़…
+
+वह केवल एक किला नहीं था…
+वह एक जीवित आत्मा था।
+
+उसकी दीवारें ऊँची थीं… उसके द्वार मजबूत… लेकिन उसकी असली शक्ति पत्थरों में नहीं थी…
+
+वह बसती थी—उसके लोगों में।
+
+हर बार जब चित्तौड़ घिरा…
+हर बार जब दुश्मन ने उसकी दीवारों को तोड़ने की कोशिश की…
+
+तो केवल सैनिक ही नहीं खड़े हुए…
+
+पूरा किला खड़ा हो गया।
+
+यही थे—चित्तौड़ के रक्षक।
+“Guardians of Chittor।”
+
+सुबह का समय…
+
+किले की प्राचीर पर एक साधारण सैनिक खड़ा था।
+
+कोई राजवंश नहीं…
+कोई बड़ा नाम नहीं…
+
+लेकिन उसकी आँखों में वही ज्वाला थी…
+
+जो किसी महाराणा में होती है।
+
+उसने नीचे देखा…
+
+दूर तक फैली दुश्मन की सेना…
+
+हजारों तंबू…
+झंडे…
+तोपें…
+
+एक साथी ने पूछा—
+
+“डर लग रहा है?”
+
+वह मुस्कुराया—
+
+“हाँ… लेकिन पीछे जाने का रास्ता नहीं है।”
+
+यह उत्तर…
+
+हर सैनिक के भीतर था।
+
+क्योंकि चित्तौड़ में…
+
+कोई पीछे नहीं हटता था।
+
+किले के भीतर…
+
+महिलाएँ तैयार थीं।
+
+वे केवल प्रतीक्षा नहीं कर रही थीं…
+
+वे भी युद्ध का हिस्सा थीं।
+
+कोई भोजन बना रही थी…
+कोई घायलों की सेवा…
+कोई हथियारों को तैयार कर रही थी…
+
+एक माँ अपने बेटे के माथे पर तिलक लगाती है—
+
+“जा… और नाम रोशन कर।”
+
+वह बेटा…
+
+शायद लौटेगा नहीं…
+
+लेकिन उसके कदम नहीं रुकते।
+
+क्योंकि यह केवल युद्ध नहीं है…
+
+यह उसका घर है।
+
+और घर…
+
+किसी भी कीमत पर बचाया जाता है।
+
+बच्चे भी…
+
+चुपचाप नहीं बैठे थे।
+
+एक छोटा बालक…
+
+पत्थर उठाकर दीवार तक लाता है…
+
+एक सैनिक मुस्कुराता है—
+
+“तू भी लड़ रहा है?”
+
+बालक सिर हिलाता है—
+
+“यह मेरा किला है।”
+
+यह वाक्य…
+
+इतिहास से बड़ा था।
+
+क्योंकि यही था—
+
+चित्तौड़।
+
+दुश्मन ने पहला हमला किया।
+
+तोपों की गड़गड़ाहट…
+
+धमाका!
+
+दीवार का एक हिस्सा हिल गया।
+
+धूल उठी…
+
+और उसी धूल के बीच…
+
+तीर चले।
+
+राजपूत सैनिक…
+
+दीवारों पर खड़े…
+
+हर वार रोक रहे थे।
+
+“हर हर महादेव!”
+
+गूँज उठा।
+
+नीचे से दुश्मन चढ़ने लगा…
+
+सीढ़ियाँ लगाईं गईं…
+
+लेकिन हर सीढ़ी पर…
+
+एक तलवार खड़ी थी।
+
+एक सामान्य सैनिक…
+
+अपने अंतिम प्रहार तक लड़ता है…
+
+उसका नाम कोई नहीं जानता…
+
+लेकिन उसका वार…
+
+इतिहास में दर्ज हो जाता है।
+
+दिन बीतते गए…
+
+घेराव लंबा होता गया…
+
+अनाज कम होने लगा…
+
+पानी घटने लगा…
+
+लेकिन किले के भीतर…
+
+कोई शिकायत नहीं थी।
+
+एक महिला…
+
+अपने हिस्से का भोजन एक घायल सैनिक को देती है—
+
+“तुम्हें इसकी ज़रूरत है…”
+
+वह सैनिक कहता है—
+
+“और तुम्हें?”
+
+वह मुस्कुराती है—
+
+“मेरा हिस्सा… चित्तौड़ है।”
+
+यह केवल त्याग नहीं था…
+
+यह पहचान थी।
+
+एक रात…
+
+दुश्मन ने अचानक हमला किया।
+
+अंधेरा…
+
+और फिर…
+
+धावा।
+
+सैनिक दौड़े…
+
+घंटियाँ बजीं…
+
+और पूरा किला जाग गया।
+
+पुरुष…
+
+तलवार लेकर…
+
+दीवारों की ओर भागे।
+
+महिलाएँ…
+
+घायलों को खींचकर पीछे लाईं…
+
+बच्चे…
+
+पानी और पट्टियाँ लेकर दौड़े।
+
+यह युद्ध…
+
+केवल सैनिकों का नहीं था…
+
+यह पूरे किले का था।
+
+एक बुजुर्ग…
+
+जो लड़ नहीं सकता…
+
+दीवार के पास खड़ा होकर पत्थर फेंकता है—
+
+“यह मेरी आखिरी लड़ाई है…”
+
+उसकी आवाज़…
+
+कमजोर थी…
+
+लेकिन उसका संकल्प…
+
+पहाड़ जैसा।
+
+सुबह हुई…
+
+हमला विफल हुआ।
+
+लेकिन यह केवल एक दिन था…
+
+युद्ध अभी बाकी था।
+
+धीरे-धीरे…
+
+स्थिति कठिन होती गई।
+
+और फिर…
+
+वह क्षण आया…
+
+जब सब समझ गए—
+
+अब अंत निकट है।
+
+सभा हुई…
+
+मौन…
+
+भारी…
+
+लेकिन किसी के चेहरे पर भय नहीं।
+
+एक सैनिक बोला—
+
+“हम हार रहे हैं…”
+
+दूसरा बोला—
+
+“नहीं… हम समाप्त हो रहे हैं…”
+
+यह अंतर…
+
+महत्वपूर्ण था।
+
+क्योंकि हार…
+
+मन की होती है…
+
+और चित्तौड़…
+
+कभी मन से नहीं हारा।
+
+अगले दिन…
+
+जौहर की तैयारी…
+
+और साका का निर्णय…
+
+लेकिन यह कहानी केवल अंत की नहीं है…
+
+यह उस यात्रा की है…
+
+जो हर व्यक्ति ने तय की।
+
+जब अग्नि जली…
+
+तो केवल स्त्रियाँ नहीं गईं…
+
+उनके साथ…
+
+उनकी कहानियाँ… उनके सपने…
+
+सब उस अग्नि में समा गए।
+
+और जब पुरुष…
+
+केसरिया पहनकर निकले…
+
+तो वे केवल योद्धा नहीं थे…
+
+वे उस पूरे समुदाय की आत्मा थे।
+
+“हर हर महादेव!”
+
+गर्जना हुई…
+
+और फिर…
+
+अंतिम युद्ध।
+
+हर व्यक्ति…
+
+अपनी पूरी शक्ति के साथ लड़ा।
+
+कोई पीछे नहीं हटा…
+
+कोई रुका नहीं…
+
+क्योंकि अब…
+
+सब एक थे।
+
+सैनिक…
+महिला…
+बालक…
+
+सब…
+
+चित्तौड़।
+
+युद्ध समाप्त हुआ…
+
+किला गिर गया…
+
+लेकिन…
+
+क्या सच में?
+
+नहीं।
+
+क्योंकि जो गिरा…
+
+वह पत्थर था।
+
+जो बचा…
+
+वह आत्मा थी।
+
+चित्तौड़…
+
+आज भी खड़ा है…
+
+केवल एक स्थान के रूप में नहीं…
+
+एक प्रतीक के रूप में।
+
+उस समुदाय का…
+
+जिसने दिखाया—
+
+कि शक्ति दीवारों में नहीं होती…
+
+वह लोगों में होती है।
+
+और जब लोग…
+
+एक साथ खड़े हो जाएँ…
+
+तो कोई शक्ति…
+
+उन्हें तोड़ नहीं सकती।
+
+आज भी…
+
+जब कोई चित्तौड़ की प्राचीर पर खड़ा होता है…
+
+तो उसे एक आवाज़ सुनाई देती है—
+
+हजारों आवाज़ों की…
+
+एक साथ—
+
+“हम ही चित्तौड़ हैं…”
+`
     ],
-    coverImage: { src: '/images/legends/guardians-chittor.jpg', alt: 'A group of men and women standing on a fort wall.' }
+    coverImage: { src: '/images/dynasties/places/mewar.jpg', alt: 'A group of men and women standing on a fort wall.' }
   },
   {
     id: 'legend-of-the-last-rajput-sentinel',
@@ -867,11 +22935,278 @@ export const allLegends: Legend[] = [
     era: 'Modern Era Transition',
     location: 'Border Outpost',
     story: [
-      'This legend tells of a sentinel who kept his post on the border long after the kingdoms had been unified into a modern state. He was a link between the old world and the new.',
-      'His story is a meditation on the changing nature of honor and service in a world where the battlefield has shifted from the desert to the diplomatic table.',
-      'The "Last Sentinel" remains a symbol of the enduring relevance of the Rajput values of vigilance and duty, even in a world that has moved on from the age of the sword.'
+      `सीमा…
+
+वह रेखा… जो नक्शे पर खींची जाती है… लेकिन धरती पर वह रेखा केवल मिट्टी नहीं होती… वह स्मृति होती है… शपथ होती है… और कभी-कभी… एक अकेले प्रहरी की साँसों में जीवित रहती है।
+
+थार का वही विस्तार… वही हवा… वही रेत…
+लेकिन समय बदल चुका था।
+
+राज्य एक हो चुके थे…
+पुराने झंडे उतर चुके थे…
+नए प्रतीक उठ खड़े हुए थे…
+
+दरबारों की जगह अब दफ्तर थे…
+युद्धभूमि की जगह अब वार्ताएँ थीं…
+
+लेकिन एक स्थान… ऐसा भी था…
+जहाँ समय जैसे ठहर गया था।
+
+वहाँ… एक प्रहरी खड़ा था।
+
+लोग उसे कहते थे—“अंतिम प्रहरी।”
+
+कोई नहीं जानता था उसका असली नाम…
+कोई नहीं जानता था वह कब से वहाँ खड़ा है…
+
+लेकिन यह सब जानते थे—
+
+वह कभी अपनी जगह से हटा नहीं।
+
+उसका जन्म उस युग में हुआ था… जब तलवार ही भाषा थी।
+
+बचपन में ही उसने सीखा था—
+घोड़े की चाल…
+तलवार का भार…
+और सीमा का अर्थ।
+
+उसके पिता… एक सैनिक थे…
+
+उन्होंने एक दिन उससे कहा था—
+
+“सीमा केवल जमीन नहीं होती… यह विश्वास होती है… और उसे कभी अकेला नहीं छोड़ना चाहिए।”
+
+वह बात… उसके भीतर पत्थर की तरह जम गई।
+
+समय बीता…
+
+युद्ध हुए…
+राज्य बदले…
+नाम बदले…
+
+लेकिन वह प्रहरी…
+
+वहीं रहा।
+
+एक दिन…
+
+उसने देखा—
+
+नए सैनिक आए हैं।
+
+उनकी वर्दी अलग थी…
+उनकी भाषा अलग थी…
+
+उन्होंने उससे कहा—
+
+“अब यह सीमा… हमारे अधीन है… आप विश्राम कर सकते हैं।”
+
+प्रहरी ने उनकी ओर देखा…
+
+कुछ क्षण…
+
+फिर धीमे से कहा—
+
+“सीमा… कभी विश्राम नहीं करती।”
+
+सैनिक चुप हो गए।
+
+वह कोई विद्रोह नहीं कर रहा था…
+वह केवल अपने कर्तव्य को समझ रहा था।
+
+दिन बीतते गए…
+
+अब वहाँ युद्ध नहीं होते थे…
+
+कोई तलवार नहीं टकराती थी…
+
+सिर्फ हवा चलती थी…
+
+और दूर कहीं… ऊँटों की घंटियाँ बजती थीं।
+
+लेकिन प्रहरी…
+
+अब भी सतर्क था।
+
+हर सुबह…
+
+वह अपनी जगह पर खड़ा होता…
+
+क्षितिज को देखता…
+
+जैसे किसी अदृश्य शत्रु की प्रतीक्षा कर रहा हो।
+
+एक युवा अधिकारी एक दिन उसके पास आया—
+
+“बाबा… अब कोई युद्ध नहीं होगा…”
+
+प्रहरी मुस्कुराया—
+
+“युद्ध बदल जाता है… समाप्त नहीं होता।”
+
+यह उत्तर…
+
+उस अधिकारी के लिए नया था।
+
+“कैसे?”
+
+प्रहरी ने दूर क्षितिज की ओर देखा—
+
+“पहले तलवारें थीं… अब शब्द हैं…
+पहले घोड़े दौड़ते थे… अब समझौते चलते हैं…”
+
+वह कुछ क्षण चुप रहा…
+
+फिर बोला—
+
+“लेकिन सीमा… वही है।”
+
+यह केवल अनुभव नहीं था…
+
+यह एक युग की आवाज़ थी।
+
+एक दिन…
+
+रेगिस्तान में एक तूफ़ान उठा।
+
+तेज़ हवा…
+रेत का बवंडर…
+
+दूर तक कुछ दिखाई नहीं दे रहा था।
+
+नए सैनिक अपने तंबुओं में छिप गए…
+
+लेकिन प्रहरी…
+
+वहीं खड़ा रहा।
+
+रेत उसके चेहरे पर लग रही थी…
+
+आँखें मुश्किल से खुल रही थीं…
+
+लेकिन वह हिला नहीं।
+
+क्योंकि उसके लिए…
+
+कर्तव्य… मौसम से बड़ा था।
+
+तूफ़ान के बाद…
+
+जब सब शांत हुआ…
+
+एक सैनिक ने उससे पूछा—
+
+“आप क्यों नहीं हटे?”
+
+प्रहरी ने सीधा उत्तर दिया—
+
+“अगर मैं हट जाता… तो सीमा अकेली हो जाती।”
+
+यह उत्तर…
+
+साधारण नहीं था।
+
+यह एक दर्शन था।
+
+समय और आगे बढ़ा…
+
+उसके बाल सफेद हो गए…
+
+शरीर कमजोर होने लगा…
+
+लेकिन उसकी आँखें…
+
+अब भी वैसी ही थीं—
+
+सतर्क… और अडिग।
+
+एक शाम…
+
+सूरज ढल रहा था…
+
+रेगिस्तान सुनहरा हो गया था…
+
+प्रहरी अपनी जगह पर खड़ा था…
+
+लेकिन इस बार…
+
+उसकी साँसें भारी थीं।
+
+एक युवा सैनिक उसके पास आया—
+
+“अब… आप विश्राम कर लीजिए…”
+
+प्रहरी ने उसकी ओर देखा…
+
+और पहली बार…
+
+हल्की सी थकान उसके चेहरे पर आई।
+
+“शायद… अब समय आ गया है…”
+
+उसने धीरे से कहा।
+
+वह बैठ गया…
+
+रेत पर…
+
+और दूर क्षितिज को देखने लगा।
+
+“याद रखना…”
+
+उसने सैनिक से कहा—
+
+“सीमा… केवल नक्शे पर नहीं होती…
+वह दिल में होती है…”
+
+सैनिक चुप रहा…
+
+क्योंकि वह समझ रहा था—
+
+यह केवल शब्द नहीं हैं…
+
+यह विरासत है।
+
+कुछ क्षण बाद…
+
+प्रहरी की आँखें बंद हो गईं।
+
+रेगिस्तान शांत था…
+
+हवा धीमी…
+
+और एक युग…
+
+समाप्त हो गया।
+
+लेकिन क्या वह सच में समाप्त हुआ?
+
+नहीं।
+
+क्योंकि अगले दिन…
+
+वही युवा सैनिक…
+
+उसी स्थान पर खड़ा था।
+
+उसी तरह…
+
+उसी दृष्टि के साथ।
+
+और दूर…
+
+अरावली की हवाएँ…
+
+धीमे से फुसफुसा रही थीं—
+
+“तलवारें बदल सकती हैं…
+युद्ध बदल सकते हैं…
+
+लेकिन पहरेदारी…
+कभी समाप्त नहीं होती…”
+`
     ],
-    coverImage: { src: '/images/legends/last-sentinel.jpg', alt: 'An old man in a turban looking out over a modern border.' }
+    coverImage: { src: '/images/dynasties/places/tomar-delhi-gwalior-main.JPG', alt: 'An old man in a turban looking out over a modern border.' }
   },
   {
     id: 'jauhar-padmini',
@@ -881,11 +23216,370 @@ export const allLegends: Legend[] = [
     era: '1303 AD',
     location: 'Chittorgarh',
     story: [
-      'The Jauhar of Rani Padmini in 1303 is one of the most defining moments in Rajput history. When Alauddin Khalji’s forces breached the outer defenses of Chittorgarh after a long siege, the women of the fort, led by Rani Padmini, chose the fire over captivity.',
-      'As the men donned their saffron robes for the final "Saka" charge, the women stepped into a massive pyre in the underground chambers of the fort. It was a choice of ultimate agency, ensuring that their honor remained untainted by the conqueror.',
-      'This sacrifice turned Chittorgarh into a symbol of resistance and a pilgrimage site for those who value honor above life itself.'
+     `चित्तौड़…
+
+वह किला जो केवल पत्थरों से नहीं बना था… वह बना था स्वाभिमान से… उस जिद से… जो कहती थी—“झुकना नहीं है।”
+
+1303…
+
+एक वर्ष… जो केवल एक तारीख नहीं… एक ज्वाला था… जिसने इतिहास को हमेशा के लिए बदल दिया।
+
+अलाउद्दीन खिलजी की सेना…
+
+असंख्य… संगठित… और अडिग…
+
+महीनों से चित्तौड़ को घेरे हुए थी।
+
+दिन-रात तोपें गरजती थीं…
+मीनारें टूटती थीं…
+दीवारें हिलती थीं…
+
+लेकिन किले के भीतर…
+
+अब भी एक आग जल रही थी।
+
+राणा रतन सिंह…
+उनके सरदार…
+और वह स्त्री…
+
+जिसका नाम इतिहास में अमर होने वाला था—
+
+रानी पद्मिनी।
+
+वह केवल सौंदर्य का प्रतीक नहीं थी…
+वह निर्णय की प्रतिमा थी।
+
+घेराबंदी लंबी होती गई…
+
+अनाज कम होने लगा…
+पानी घटने लगा…
+
+हर दिन…
+
+एक नई परीक्षा।
+
+एक रात…
+
+दरबार लगा।
+
+मौन… भारी… और निर्णायक।
+
+एक सेनापति ने कहा—
+
+“महाराज… दीवारें अब अधिक समय तक नहीं टिकेंगी…”
+
+एक अन्य ने धीमे स्वर में जोड़ा—
+
+“दुश्मन भीतर आने ही वाला है…”
+
+यह सत्य था।
+
+और इस सत्य के साथ…
+
+एक प्रश्न—
+
+“अब क्या?”
+
+राणा रतन सिंह ने सिर झुका लिया…
+
+फिर धीरे-धीरे उठाया…
+
+उनकी आँखों में पीड़ा थी…
+
+लेकिन उससे अधिक…
+
+एक दृढ़ता।
+
+“हम युद्ध करेंगे…”
+
+लेकिन यह केवल आधा उत्तर था।
+
+क्योंकि दूसरा आधा…
+
+किले के भीतर…
+
+महिलाओं के बीच तय होना था।
+
+रानी पद्मिनी…
+
+उस रात…
+
+एक सभा के बीच खड़ी थीं।
+
+उनके सामने…
+
+सैकड़ों स्त्रियाँ…
+
+माताएँ… बहनें… पुत्रियाँ…
+
+कोई भय नहीं…
+
+सिर्फ एक गहरा सन्नाटा।
+
+पद्मिनी ने चारों ओर देखा…
+
+फिर बोलीं—
+
+“दुश्मन दीवारों तक पहुँच चुका है…”
+
+कोई हलचल नहीं।
+
+“अगर वे भीतर आए…”
+
+उनका स्वर धीमा हुआ…
+
+“तो वे हमें जीवित नहीं छोड़ेंगे…”
+
+यह बात सब जानती थीं।
+
+लेकिन पद्मिनी ने आगे कहा—
+
+“हम अपने जीवन का अंत… अपने हाथों करेंगे।”
+
+एक क्षण…
+
+और फिर…
+
+सिर झुक गए।
+
+यह निर्णय था—
+
+जौहर।
+
+कोई विरोध नहीं…
+
+कोई आँसू नहीं…
+
+क्योंकि यह भय का नहीं…
+
+चयन का क्षण था।
+
+अगली सुबह…
+
+चित्तौड़ के भीतर…
+
+एक अलग ही तैयारी शुरू हुई।
+
+भूमिगत कक्ष…
+
+जहाँ कभी शांति थी…
+
+अब वहाँ अग्नि की तैयारी हो रही थी।
+
+लकड़ियाँ रखी गईं…
+घी डाला गया…
+
+और फिर…
+
+एक विशाल चिता।
+
+ऊपर…
+
+पुरुष…
+
+केसरिया पहन रहे थे।
+
+साफे… रक्त के रंग जैसे…
+
+यह संकेत था—
+
+“अब लौटना नहीं है।”
+
+एक युवा योद्धा ने अपने पिता से पूछा—
+
+“क्या हम जीतेंगे?”
+
+उसने उत्तर दिया—
+
+“आज… हम हारेंगे नहीं।”
+
+नीचे…
+
+महिलाएँ तैयार थीं।
+
+रानी पद्मिनी…
+
+सबसे आगे।
+
+उनका चेहरा शांत था…
+
+मानो वह मृत्यु नहीं…
+
+एक यात्रा के लिए तैयार हों।
+
+एक युवा स्त्री ने पूछा—
+
+“रानी सा… क्या यह सही है?”
+
+पद्मिनी ने उसकी ओर देखा…
+
+और कहा—
+
+“सम्मान… जीवन से बड़ा होता है।”
+
+यह उत्तर…
+
+अंतिम था।
+
+अग्नि जलाई गई।
+
+लपटें उठीं…
+
+धीरे-धीरे… फिर तेज़…
+
+और फिर…
+
+आकाश को छूती हुई।
+
+वह केवल आग नहीं थी…
+
+वह एक निर्णय था।
+
+पद्मिनी ने एक क्षण के लिए आँखें बंद कीं…
+
+चित्तौड़ की दीवारें…
+अपने लोगों के चेहरे…
+
+सब एक साथ…
+
+फिर उन्होंने आगे कदम बढ़ाया।
+
+और अग्नि में प्रवेश कर गईं।
+
+उनके पीछे…
+
+सैकड़ों स्त्रियाँ…
+
+एक-एक कर…
+
+लपटों में समा गईं।
+
+कोई चीख नहीं…
+
+कोई पुकार नहीं…
+
+सिर्फ अग्नि…
+
+और उसमें विलीन होता हुआ एक युग।
+
+ऊपर…
+
+जब यह सब हो रहा था…
+
+पुरुषों ने केसरिया पहन लिया था।
+
+राणा रतन सिंह…
+
+अपने घोड़े पर सवार थे।
+
+उनकी आँखों में अब कोई बोझ नहीं था…
+
+क्योंकि उनके पीछे…
+
+अब कुछ भी नहीं बचा था।
+
+उन्होंने तलवार उठाई—
+
+“आज… हम अमर होंगे!”
+
+“हर हर महादेव!”
+
+गर्जना…
+
+आकाश को चीर गई।
+
+किले के द्वार खुले…
+
+और फिर…
+
+साका।
+
+राजपूत सेना…
+
+पूरी शक्ति के साथ…
+
+दुश्मन पर टूट पड़ी।
+
+तलवारें टकराईं…
+
+घोड़े भिड़े…
+
+धूल… रक्त… और चीखें…
+
+हर योद्धा…
+
+अंतिम साँस तक लड़ा।
+
+कोई पीछे नहीं हटा…
+
+कोई रुका नहीं…
+
+क्योंकि अब…
+
+लौटने के लिए कुछ भी नहीं था।
+
+अलाउद्दीन की सेना…
+
+अंततः किले में प्रवेश कर गई।
+
+उन्होंने जीत लिया था…
+
+चित्तौड़।
+
+लेकिन जब वे भीतर आए…
+
+तो उन्हें क्या मिला?
+
+राख…
+
+और मौन।
+
+कोई स्त्री नहीं…
+कोई जीवन नहीं…
+
+सिर्फ…
+
+एक किला…
+
+जो अब भी खड़ा था…
+
+लेकिन उसके भीतर…
+
+एक ज्वाला हमेशा के लिए जल चुकी थी।
+
+चित्तौड़…
+
+अब केवल एक स्थान नहीं था…
+
+वह एक प्रतीक बन गया।
+
+प्रतिरोध का…
+सम्मान का…
+और उस निर्णय का…
+
+जो कहता है—
+
+“जीवन खो सकते हैं…
+लेकिन आत्मा नहीं।”
+
+आज भी…
+
+जब कोई चित्तौड़ की दीवारों को छूता है…
+
+तो उसे केवल पत्थर नहीं मिलते…
+
+उसे वह गर्मी महसूस होती है…
+
+जो उस जौहर की अग्नि से आई थी।
+
+और वह आवाज़…
+
+आज भी गूँजती है—
+
+“सम्मान… मृत्यु से भी बड़ा होता है…”
+`
     ],
-    coverImage: { src: '/images/legends/jauhar-padmini.jpg', alt: 'The sacred Jauhar Kund at Chittorgarh.' }
+    coverImage: { src: '/images/dynasties/rani-padmini.jpg', alt: 'The sacred Jauhar Kund at Chittorgarh.' }
   },
   {
     id: 'gora-badal-rescue',
@@ -895,11 +23589,455 @@ export const allLegends: Legend[] = [
     era: '1303 AD',
     location: 'Delhi and Chittorgarh',
     story: [
-      'Gora and Badal were the legendary uncle-nephew duo who executed a brilliant rescue mission to save Rana Ratan Singh from Alauddin Khalji’s camp in Delhi.',
-      'Using a ruse involving 700 palanquins supposedly carrying the queen and her attendants, they smuggled armed warriors into the heart of the enemy camp. The ensuing battle was a display of sheer audacity and tactical brilliance.',
-      'Though Gora fell in the battle, Badal successfully escorted the Rana back to Chittor, leaving a legacy of courage that bards still sing of today.'
+      `दिल्ली…
+
+वह नगरी जहाँ सत्ता का सिंहासन खड़ा था… जहाँ हर रास्ता ताकत की ओर जाता था… और जहाँ से उठी एक इच्छा… चित्तौड़ को झुकाने की।
+
+अलाउद्दीन खिलजी…
+
+उसकी महत्वाकांक्षा की कोई सीमा नहीं थी।
+
+और उस महत्वाकांक्षा के बीच… एक नाम आकर खड़ा हुआ—
+
+राणा रतन सिंह।
+
+चित्तौड़ का स्वामी… स्वाभिमान का प्रतीक…
+
+लेकिन एक दिन…
+
+कपट ने युद्ध को पीछे छोड़ दिया।
+
+राणा को छल से पकड़ लिया गया…
+
+और दिल्ली के शिविर में कैद कर लिया गया।
+
+चित्तौड़…
+
+अब बिना अपने स्वामी के खड़ा था।
+
+दीवारें वही थीं…
+तलवारें वही थीं…
+
+लेकिन दिल…
+
+भारी थे।
+
+दरबार में सन्नाटा था।
+
+हर चेहरा… चिंता से भरा।
+
+“अब क्या होगा?”
+
+यह प्रश्न… हर आँख में था।
+
+तभी…
+
+दो छायाएँ आगे बढ़ीं—
+
+गोरा… और बादल।
+
+चाचा और भतीजा…
+
+लेकिन उससे कहीं अधिक—
+
+युद्ध के दो स्तंभ।
+
+गोरा… अनुभवी… शांत… और दृढ़।
+
+बादल… युवा… तेज… और अग्नि से भरा।
+
+गोरा ने दरबार में कहा—
+
+“राणा को वापस लाया जाएगा।”
+
+एक सरदार ने पूछा—
+
+“कैसे? दिल्ली के बीच से?”
+
+बादल की आँखों में चमक थी—
+
+“सीधे… उनके शिविर के भीतर से।”
+
+यह सुनते ही…
+
+कमरे में हलचल हुई।
+
+“यह असंभव है!”
+
+किसी ने कहा।
+
+गोरा ने धीरे से उत्तर दिया—
+
+“असंभव… केवल तब तक होता है… जब तक कोई उसे कर न दे।”
+
+और फिर…
+
+योजना बनी।
+
+एक ऐसी योजना…
+
+जो केवल साहस नहीं…
+
+बुद्धि की भी परीक्षा थी।
+
+सात सौ पालकियाँ…
+
+रानी और उसकी दासियों के नाम पर…
+
+दिल्ली भेजी जाएँगी।
+
+लेकिन उन पालकियों में…
+
+दासियाँ नहीं होंगी…
+
+योद्धा होंगे।
+
+चुप… सशस्त्र… और तैयार।
+
+दिन आया…
+
+दिल्ली का शिविर…
+
+विशाल… सशक्त… और निश्चिंत।
+
+दूर से…
+
+पालकियों की एक लंबी पंक्ति आती हुई दिखाई दी।
+
+मुग़ल सैनिकों ने देखा…
+
+“रानी आ रही है…”
+
+हँसी… और उत्सुकता…
+
+किसी को संदेह नहीं हुआ।
+
+पालकियाँ शिविर के भीतर पहुँच गईं।
+
+हर पालकी…
+
+एक मौन तूफ़ान थी।
+
+अंदर…
+
+राजपूत योद्धा…
+
+साँस रोके हुए…
+
+तलवारों पर हाथ…
+
+बस एक संकेत का इंतज़ार।
+
+गोरा और बादल…
+
+सबसे आगे।
+
+उनकी आँखें… चारों ओर देख रही थीं…
+
+हर रास्ता… हर पहरा…
+
+सब कुछ उनके ध्यान में था।
+
+और फिर…
+
+संकेत मिला।
+
+एक हल्की सी आवाज़…
+
+एक दरवाज़ा…
+
+और फिर—
+
+“अब!”
+
+अगले ही क्षण…
+
+पालकियों के पर्दे फटे…
+
+और भीतर से…
+
+तलवारें चमक उठीं।
+
+“हर हर महादेव!”
+
+गर्जना ने पूरे शिविर को हिला दिया।
+
+मुग़ल सैनिक स्तब्ध रह गए—
+
+“यह क्या—?”
+
+लेकिन अब देर हो चुकी थी।
+
+राजपूत योद्धा…
+
+सीधे उनके बीच थे।
+
+तलवारें चलीं…
+
+चीखें गूँजीं…
+
+और शिविर…
+
+अराजकता में डूब गया।
+
+गोरा…
+
+सबसे आगे था।
+
+उसकी तलवार…
+
+हर वार के साथ…
+
+एक रास्ता बना रही थी।
+
+बादल…
+
+उसके पीछे…
+
+तेज़… और निर्दय।
+
+“राणा को खोजो!”
+
+गोरा चिल्लाया।
+
+कुछ ही क्षणों में…
+
+वे उस स्थान तक पहुँच गए…
+
+जहाँ राणा कैद थे।
+
+बादल ने दरवाज़ा तोड़ा…
+
+और भीतर—
+
+राणा रतन सिंह।
+
+थके हुए… लेकिन आँखों में वही ज्वाला।
+
+“महाराज!”
+
+बादल ने कहा—
+
+“हम आपको लेने आए हैं!”
+
+राणा ने तलवार उठाई—
+
+“तो चलो… रास्ता बनाते हैं!”
+
+अब…
+
+तीन योद्धा थे।
+
+और बाहर…
+
+पूरा शिविर।
+
+लौटना…
+
+आसान नहीं था।
+
+लेकिन अब…
+
+कोई विकल्प नहीं था।
+
+वे बाहर निकले…
+
+और फिर…
+
+दूसरा युद्ध।
+
+मुग़ल सेना संभल चुकी थी।
+
+चारों ओर से घेराव…
+
+तीर… भाले… तलवारें…
+
+हर दिशा से।
+
+गोरा ने देखा…
+
+स्थिति गंभीर है।
+
+उसने बादल की ओर देखा—
+
+“तू राणा को लेकर निकल…”
+
+बादल चौंका—
+
+“और आप—?”
+
+गोरा मुस्कुराया—
+
+“मैं रास्ता बनाऊँगा।”
+
+यह निर्णय…
+
+एक जीवन का अंत था।
+
+लेकिन एक उद्देश्य के लिए।
+
+गोरा आगे बढ़ा…
+
+पूरी शक्ति के साथ।
+
+उसकी तलवार…
+
+अब और भी तेज़ हो गई।
+
+हर वार…
+
+एक प्रहार नहीं…
+
+एक बलिदान था।
+
+“आओ!”
+
+वह चिल्लाया—
+
+और दुश्मन उसकी ओर टूट पड़ा।
+
+बादल…
+
+राणा को लेकर…
+
+दूसरी दिशा में बढ़ा।
+
+घोड़े दौड़े…
+
+तलवारें चलीं…
+
+और पीछे…
+
+गोरा…
+
+एक तूफ़ान बन चुका था।
+
+एक के बाद एक…
+
+दुश्मन गिरता गया…
+
+लेकिन संख्या…
+
+बहुत अधिक थी।
+
+धीरे-धीरे…
+
+गोरा के घाव बढ़ने लगे।
+
+रक्त बहने लगा…
+
+लेकिन वह रुका नहीं।
+
+एक अंतिम गर्जना—
+
+“हर हर महादेव!”
+
+और फिर…
+
+वह गिर पड़ा।
+
+लेकिन तब तक…
+
+रास्ता बन चुका था।
+
+बादल…
+
+राणा को लेकर…
+
+शिविर से बाहर निकल चुका था।
+
+पीछे से पीछा…
+
+तेज़…
+
+निरंतर…
+
+एक सैनिक चिल्लाया—
+
+“उन्हें पकड़ो!”
+
+लेकिन बादल…
+
+अब केवल भाग नहीं रहा था…
+
+वह बचा रहा था।
+
+हर वार…
+
+हर मोड़…
+
+एक संघर्ष।
+
+आख़िरकार…
+
+चित्तौड़ की दीवारें दिखाई दीं।
+
+द्वार खुले…
+
+और राणा भीतर पहुँचे।
+
+सुरक्षित।
+
+बादल ने पीछे देखा…
+
+उसकी आँखों में…
+
+थकान नहीं थी…
+
+केवल एक खालीपन।
+
+क्योंकि वह जानता था—
+
+गोरा…
+
+वापस नहीं आएगा।
+
+चित्तौड़ में…
+
+खबर फैली…
+
+“राणा लौट आए हैं!”
+
+जयकार गूँजी…
+
+लेकिन उस जयकार के पीछे…
+
+एक मौन भी था।
+
+एक बलिदान का।
+
+गोरा…
+
+वह नाम…
+
+जो केवल एक योद्धा नहीं था…
+
+वह एक मार्ग था।
+
+और बादल…
+
+वह अग्नि…
+
+जो उस मार्ग को पूरा करके लौटा।
+
+आज भी…
+
+जब चित्तौड़ की दीवारों पर हवा चलती है…
+
+तो दो नाम गूँजते हैं—
+
+गोरा… बादल…
+
+एक ने प्राण दिए…
+
+दूसरे ने वचन निभाया…
+
+और दोनों ने मिलकर…
+
+इतिहास को अमर कर दिया।
+`
     ],
-    coverImage: { src: '/images/legends/gora-badal.jpg', alt: 'Gora and Badal leading the palanquin rescue.' }
+    coverImage: { src: '/images/dynasties/places/mewar.jpg', alt: 'Gora and Badal leading the palanquin rescue.' }
   },
   {
     id: 'panna-dai-sacrifice',
@@ -909,11 +24047,423 @@ export const allLegends: Legend[] = [
     era: '16th Century',
     location: 'Chittorgarh',
     story: [
-      'Panna Dai was a nursemaid who saved the young Prince Udai Singh II from the murderous intentions of the usurper Banvir. To protect the future of the Sisodia dynasty, she placed her own son, Chandan, in the prince’s bed.',
-      'When Banvir entered the room and demanded to know which one was the prince, Panna pointed to her own son, watching in silence as he was struck down. She then smuggled the real prince to safety in Kumbhalgarh.',
-      'Her name became synonymous with selfless loyalty, a reminder that the foundations of a kingdom are often built on the quiet, agonizing sacrifices of its people.'
+      `चित्तौड़…
+
+वह किला जहाँ हर पत्थर वीरता की कहानी कहता है… लेकिन उन्हीं दीवारों के भीतर… एक रात ऐसी भी आई… जब तलवारों की टकराहट नहीं… बल्कि एक माँ के हृदय के टूटने की आवाज़ इतिहास में गूँज गई।
+
+यह कहानी है—पन्ना धाय की।
+
+वह कोई रानी नहीं थी…
+कोई सेनापति नहीं थी…
+
+लेकिन उसके निर्णय ने एक पूरे वंश को जीवित रखा।
+
+सिसोदिया राजवंश… मेवाड़ की वह धारा… जो सदियों से बह रही थी… अब एक ऐसे मोड़ पर थी… जहाँ एक गलत कदम… सब कुछ समाप्त कर सकता था।
+
+राजमहल के भीतर… षड्यंत्र पनप रहा था।
+
+बनवीर…
+
+एक नाम… जो रक्त से जुड़ा था… लेकिन अधिकार से नहीं।
+
+उसकी आँखों में केवल एक ही लक्ष्य था—
+
+सिंहासन।
+
+और उस सिंहासन के रास्ते में…
+
+एक छोटा सा बालक खड़ा था—
+
+उदय सिंह।
+
+राजकुमार…
+
+मेवाड़ का भविष्य।
+
+और उसकी रक्षा की जिम्मेदारी…
+
+एक स्त्री के कंधों पर थी—
+
+पन्ना धाय।
+
+पन्ना…
+
+जिसने उस बालक को अपनी गोद में खिलाया था…
+जिसने उसे अपने पुत्र की तरह पाला था…
+
+लेकिन वह जानती थी—
+
+कि आज…
+
+उसका कर्तव्य केवल माँ का नहीं है…
+
+वह मेवाड़ की संरक्षक है।
+
+एक रात…
+
+महल के गलियारों में अजीब सा सन्नाटा था।
+
+दीयों की लौ काँप रही थी…
+
+और हवा में एक भय था…
+
+जो किसी तूफ़ान के आने से पहले महसूस होता है।
+
+एक सेवक दौड़ता हुआ आया—
+
+“पन्ना! बनवीर… राजकुमार को मारने आ रहा है!”
+
+यह शब्द…
+
+बिजली की तरह गिरे।
+
+पन्ना कुछ क्षण के लिए स्थिर हो गई।
+
+उसके सामने…
+
+दो बच्चे थे।
+
+एक…
+
+राजकुमार उदय सिंह।
+
+दूसरा…
+
+उसका अपना पुत्र—
+
+चंदन।
+
+दोनों सो रहे थे…
+
+निर्दोष… शांत…
+
+और अगले ही क्षण…
+
+उनका भाग्य तय होने वाला था।
+
+पन्ना के भीतर…
+
+एक तूफ़ान उठा।
+
+एक माँ…
+
+और एक धाय…
+
+दोनों आमने-सामने खड़ी थीं।
+
+“क्या मैं अपने पुत्र को बचाऊँ…
+या इस वंश को…?”
+
+यह प्रश्न…
+
+किसी भी युद्ध से कठिन था।
+
+उसने धीरे-धीरे अपने पुत्र को देखा…
+
+चंदन…
+
+उसका अपना रक्त…
+
+उसकी आँखों का तारा…
+
+फिर उसने उदय सिंह को देखा…
+
+मेवाड़ का भविष्य…
+
+उसकी साँसें तेज़ हो गईं…
+
+हाथ काँपने लगे…
+
+लेकिन समय…
+
+रुक नहीं रहा था।
+
+बाहर…
+
+बनवीर के कदमों की आहट…
+
+धीरे-धीरे पास आ रही थी।
+
+तलवार की हल्की सी खनक…
+
+और फिर…
+
+दरवाज़े के पास छाया।
+
+पन्ना ने आँखें बंद कीं…
+
+एक क्षण…
+
+बस एक क्षण…
+
+और फिर…
+
+निर्णय।
+
+उसने उदय सिंह को उठाया…
+
+धीरे से…
+
+बिना आवाज़ के…
+
+और उसे एक टोकरी में छिपा दिया।
+
+फिर…
+
+अपने पुत्र को उठाया…
+
+और उसे राजकुमार के बिस्तर पर लिटा दिया।
+
+चंदन… अभी भी सो रहा था…
+
+अनजान…
+
+कि अगले कुछ क्षणों में…
+
+उसका जीवन…
+
+इतिहास बन जाएगा।
+
+पन्ना उसके पास बैठ गई…
+
+उसकी आँखों में आँसू नहीं थे…
+
+क्योंकि अब आँसू भी विलासिता थे।
+
+दरवाज़ा खुला।
+
+बनवीर भीतर आया।
+
+उसकी आँखों में क्रूरता थी…
+
+हाथ में तलवार…
+
+“राजकुमार कहाँ है?”
+
+उसकी आवाज़…
+
+ठंडी… और कठोर।
+
+कमरे में सन्नाटा।
+
+पन्ना ने उसकी ओर देखा…
+
+और फिर…
+
+अपने ही पुत्र की ओर इशारा किया।
+
+उस क्षण…
+
+समय थम गया।
+
+बनवीर आगे बढ़ा…
+
+बिना किसी संदेह के…
+
+तलवार उठाई…
+
+और—
+
+एक वार।
+
+चंदन…
+
+वहीं…
+
+शांत हो गया।
+
+कोई चीख नहीं…
+
+कोई आवाज़ नहीं…
+
+सिर्फ एक माँ…
+
+जो सब देख रही थी।
+
+उसके भीतर…
+
+कुछ टूट गया…
+
+लेकिन उसके चेहरे पर…
+
+कोई भाव नहीं था।
+
+क्योंकि अगर वह एक पल भी हिली…
+
+तो सब समाप्त हो जाता।
+
+बनवीर मुड़ा…
+
+और चला गया।
+
+कमरे में…
+
+फिर सन्नाटा।
+
+लेकिन अब…
+
+वह सन्नाटा…
+
+और भी भारी था।
+
+पन्ना धीरे-धीरे उठी…
+
+उसके कदम काँप रहे थे…
+
+वह अपने पुत्र के पास गई…
+
+उसके चेहरे को देखा…
+
+स्पर्श किया…
+
+लेकिन रोई नहीं।
+
+क्योंकि अभी…
+
+उसका कर्तव्य समाप्त नहीं हुआ था।
+
+उसने टोकरी उठाई…
+
+जिसमें उदय सिंह छिपे थे…
+
+और बिना पीछे देखे…
+
+कमरे से बाहर निकल गई।
+
+रात…
+
+अंधेरी…
+
+महल के गलियारे…
+
+खामोश…
+
+हर कदम…
+
+मृत्यु के साथ।
+
+वह धीरे-धीरे आगे बढ़ी…
+
+हर मोड़ पर खतरा…
+
+हर छाया में शक…
+
+लेकिन वह रुकी नहीं।
+
+महल के बाहर…
+
+एक विश्वस्त सेवक इंतज़ार कर रहा था।
+
+“जल्दी…!”
+
+उन्होंने फुसफुसाया।
+
+पन्ना ने टोकरी उसे सौंपी…
+
+और खुद भी उसके साथ चल पड़ी।
+
+घोड़े तैयार थे…
+
+और फिर…
+
+वे निकल पड़े।
+
+चित्तौड़ पीछे छूट गया…
+
+लेकिन खतरा अभी खत्म नहीं हुआ था।
+
+रास्ता लंबा था…
+
+काँटों से भरा…
+
+लेकिन लक्ष्य स्पष्ट था—
+
+कुंभलगढ़।
+
+कई दिनों तक…
+
+वे छिपते-छिपाते चलते रहे…
+
+जंगल… पहाड़… घाटियाँ…
+
+हर जगह…
+
+सावधानी।
+
+एक रात…
+
+एक सैनिक ने पूछा—
+
+“पन्ना… तुमने यह कैसे किया?”
+
+पन्ना कुछ क्षण चुप रही…
+
+फिर धीरे से कहा—
+
+“मैंने अपने पुत्र को नहीं खोया…
+मैंने मेवाड़ को बचाया है।”
+
+यह उत्तर…
+
+किसी भी युद्ध की जीत से बड़ा था।
+
+आख़िरकार…
+
+वे कुंभलगढ़ पहुँचे।
+
+राजकुमार सुरक्षित थे।
+
+सिसोदिया वंश…
+
+जीवित था।
+
+लेकिन उस जीत की कीमत…
+
+इतनी बड़ी थी…
+
+कि उसे शब्दों में नहीं बाँधा जा सकता।
+
+समय बीता…
+
+उदय सिंह बड़े हुए…
+
+और एक दिन…
+
+मेवाड़ के महाराणा बने।
+
+लेकिन उस सिंहासन के नीचे…
+
+एक बलिदान छिपा था—
+
+एक माँ का।
+
+पन्ना धाय…
+
+वह नाम…
+
+जो केवल इतिहास नहीं है…
+
+वह एक भावना है।
+
+वह याद दिलाता है—
+
+कि राज्य केवल तलवारों से नहीं बनते…
+
+वे उन त्यागों से बनते हैं…
+
+जो मौन में दिए जाते हैं।
+
+और आज भी…
+
+चित्तौड़ की दीवारें…
+
+धीमे से यह कहानी कहती हैं—
+
+“एक माँ ने अपना पुत्र खोया…
+ताकि एक वंश जीवित रहे…”
+`
     ],
-    coverImage: { src: '/images/legends/panna-dai.jpg', alt: 'Panna Dai fleeing with the young prince Udai Singh.' }
+    coverImage: { src: '/images/dynasties/rani-kamlapati.jpg', alt: 'Panna Dai fleeing with the young prince Udai Singh.' }
   },
   {
     id: 'chetak-last-leap',
@@ -923,11 +24473,353 @@ export const allLegends: Legend[] = [
     era: '1576 AD',
     location: 'Haldighati',
     story: [
-      'Chetak was the blue-colored Marwari horse of Maharana Pratap. During the Battle of Haldighati, even after being severely wounded, Chetak carried his master away from the pursuing Mughal cavalry.',
-      'His final act was a legendary leap across a wide mountain stream, ensuring Pratap’s safety before collapsing on the other side. Pratap is said to have wept for his loyal companion, immortalizing him in history.',
-      'Chetak remains the symbol of the unbreakable bond between a Rajput warrior and his horse, a testament to loyalty that transcends the human world.'
+      `हल्दीघाटी…
+
+वह दिन जब धरती केवल युद्धभूमि नहीं रही थी… वह एक अग्निकुंड बन चुकी थी… जहाँ हर सांस के साथ मृत्यु की गंध उठ रही थी… और हर कदम पर रक्त की रेखाएँ खिंच रही थीं।
+
+घोड़ों की टापों से धरती काँप रही थी…
+तलवारों की टकराहट से आकाश गूँज रहा था…
+
+और उस प्रलय के बीच… एक जोड़ी थी… जो इतिहास में अमर होने वाली थी—
+
+महाराणा प्रताप… और चेतक।
+
+चेतक…
+
+कोई साधारण घोड़ा नहीं था।
+
+उसका शरीर नीले रंग की चमक लिए हुए… उसकी आँखों में अग्नि… और उसकी चाल—मानो हवा भी पीछे छूट जाए।
+
+जब वह दौड़ता… तो लगता जैसे धरती उसके नीचे टिक नहीं पा रही…
+
+लेकिन उसकी सबसे बड़ी शक्ति उसकी गति नहीं थी…
+
+वह थी—उसकी निष्ठा।
+
+बचपन से ही चेतक को प्रताप ने स्वयं प्रशिक्षित किया था।
+
+वह केवल एक सवारी नहीं था…
+
+वह एक साथी था।
+
+एक बार…
+
+एक युवा सैनिक ने पूछा—
+
+“महाराज… क्या यह घोड़ा इतना विशेष है?”
+
+प्रताप ने चेतक की अयाल पर हाथ फेरते हुए कहा—
+
+“यह केवल घोड़ा नहीं है… यह मेरा प्राण है।”
+
+और हल्दीघाटी के उस दिन…
+
+यह वाक्य सच होने वाला था।
+
+युद्ध शुरू हुआ…
+
+मुग़ल सेना विशाल थी…
+
+हाथी… घोड़े… तोपें…
+
+और उनके सामने…
+
+मेवाड़ की सेना…
+
+संख्या में कम… लेकिन साहस में असीम।
+
+“हर हर महादेव!”
+
+गर्जना हुई…
+
+और फिर…
+
+टक्कर।
+
+चेतक ने एक झटके में छलाँग लगाई…
+
+और प्रताप को लेकर सीधे दुश्मन की पंक्ति में घुस गया।
+
+तलवारें चमकीं…
+
+भाले चले…
+
+धूल का बादल उठा…
+
+लेकिन चेतक रुका नहीं।
+
+उसकी गति…
+
+उसकी शक्ति…
+
+उसकी आँखों में वह आग…
+
+मानो वह भी युद्ध समझ रहा हो।
+
+एक मुग़ल हाथी… आगे बढ़ा…
+
+उस पर बैठा सेनापति… भारी कवच में…
+
+उसने गर्जना की—
+
+“राणा को रोक लो!”
+
+चेतक ने देखा…
+
+उसकी नासिका फूली…
+
+और फिर…
+
+वह सीधा उस हाथी की ओर दौड़ा।
+
+यह कोई सामान्य निर्णय नहीं था…
+
+यह मृत्यु की ओर दौड़ना था।
+
+लेकिन चेतक रुका नहीं।
+
+अगले ही क्षण…
+
+उसने छलाँग लगाई…
+
+सीधे हाथी के मस्तक पर।
+
+उसके खुर… हाथी के माथे पर पड़े…
+
+प्रताप ने उसी क्षण वार किया…
+
+तलवार चली…
+
+और दुश्मन गिर पड़ा।
+
+लेकिन उसी क्षण…
+
+हाथी के दाँतों से बंधी तलवार…
+
+चेतक के पैर में धँस गई।
+
+रक्त फूट पड़ा।
+
+चेतक लड़खड़ाया…
+
+लेकिन गिरा नहीं।
+
+उसकी आँखों में दर्द था…
+
+लेकिन उससे बड़ा कुछ और था—
+
+कर्तव्य।
+
+प्रताप ने महसूस किया—
+
+“चेतक… घायल है…”
+
+लेकिन युद्ध अभी खत्म नहीं हुआ था।
+
+चारों ओर से मुग़ल सेना घेर रही थी।
+
+एक सरदार चिल्लाया—
+
+“महाराज! पीछे हटिए!”
+
+प्रताप ने चेतक की अयाल पकड़ ली—
+
+“चलो!”
+
+और फिर…
+
+चेतक दौड़ा।
+
+घायल… रक्त से भीगा हुआ…
+
+लेकिन उसकी गति कम नहीं हुई।
+
+पीछे से मुग़ल घुड़सवार पीछा कर रहे थे।
+
+तीर… भाले…
+
+हर तरफ से आ रहे थे।
+
+एक सैनिक चिल्लाया—
+
+“उन्हें पकड़ो! राणा भाग रहा है!”
+
+लेकिन चेतक भाग नहीं रहा था…
+
+वह बचा रहा था।
+
+हर कदम…
+
+दर्द से भरा…
+
+लेकिन हर कदम…
+
+एक संकल्प।
+
+प्रताप ने नीचे देखा…
+
+रक्त की धारा…
+
+चेतक का पैर लगभग जवाब दे चुका था…
+
+“बस… थोड़ा और…”
+
+उन्होंने धीमे से कहा।
+
+चेतक ने जैसे यह सुन लिया।
+
+उसकी गति और तेज़ हो गई।
+
+आगे…
+
+एक नाला…
+
+चौड़ा… गहरा…
+
+सामान्य स्थिति में भी कठिन…
+
+और अब…
+
+इस हालत में…
+
+असंभव।
+
+पीछे से दुश्मन पास आ रहा था।
+
+प्रताप ने एक क्षण के लिए सोचा…
+
+“अब…?”
+
+लेकिन चेतक ने नहीं सोचा।
+
+उसने केवल देखा—
+
+और फिर…
+
+दौड़ा।
+
+पूरा शरीर तन गया…
+
+दर्द को पीछे छोड़ते हुए…
+
+और फिर…
+
+छलाँग।
+
+एक लंबी… असंभव छलाँग।
+
+हवा में कुछ क्षण…
+
+मानो समय थम गया।
+
+फिर…
+
+दूसरी ओर…
+
+धड़ाम!
+
+वे पार कर चुके थे।
+
+दुश्मन रुक गया…
+
+कोई उनका पीछा नहीं कर पाया।
+
+प्रताप सुरक्षित थे।
+
+लेकिन…
+
+चेतक…
+
+अब रुक गया।
+
+उसकी साँसें भारी थीं…
+
+शरीर काँप रहा था…
+
+प्रताप तुरंत नीचे उतरे—
+
+“चेतक!”
+
+उन्होंने उसके सिर को अपनी गोद में लिया।
+
+चेतक की आँखें…
+
+अब शांत थीं।
+
+मानो वह कह रहा हो—
+
+“मैंने अपना कार्य पूरा कर दिया…”
+
+प्रताप की आँखों में…
+
+पहली बार…
+
+आँसू आए।
+
+“तुमने मुझे बचा लिया…”
+
+उनकी आवाज़ टूट गई।
+
+चेतक ने धीरे से आँखें बंद कीं…
+
+और शांत हो गया।
+
+वह क्षण…
+
+कोई युद्ध नहीं था…
+
+कोई गर्जना नहीं थी…
+
+सिर्फ मौन…
+
+और एक राजा…
+
+जो अपने साथी के लिए रो रहा था।
+
+हल्दीघाटी का युद्ध…
+
+इतिहास बन गया…
+
+लेकिन चेतक…
+
+कथा बन गया।
+
+उसने दिखा दिया—
+
+कि निष्ठा…
+
+केवल मनुष्यों तक सीमित नहीं होती।
+
+वह उस बंधन में भी होती है…
+
+जो शब्दों से नहीं…
+
+हृदय से बनता है।
+
+आज भी…
+
+जब मेवाड़ की धरती पर घोड़े दौड़ते हैं…
+
+तो एक नाम गूँजता है—
+
+“चेतक…”
+
+वह केवल एक घोड़ा नहीं था…
+
+वह एक योद्धा था…
+
+जिसने अपने प्राण देकर…
+
+अपने स्वामी को अमर कर दिया।
+
+और उसकी कहानी…
+
+आज भी कहती है—
+
+“निष्ठा… मृत्यु से भी बड़ी होती है…”
+`
     ],
-    coverImage: { src: '/images/legends/chetak-leap.jpg', alt: 'Chetak leaping across the stream at Haldighati.' }
+    coverImage: { src: '/images/dynasties/rana-sanga.jpg', alt: 'Chetak leaping across the stream at Haldighati.' }
   },
   {
     id: 'bhamashah-treasure',
@@ -937,11 +24829,379 @@ export const allLegends: Legend[] = [
     era: '16th Century',
     location: 'Mewar',
     story: [
-      'Bhamashah was a wealthy merchant and a trusted advisor to Maharana Pratap. When Pratap’s resources were exhausted during his long struggle against Akbar, Bhamashah offered his entire personal fortune to the cause.',
-      'This massive gift allowed Pratap to rebuild his army and continue his resistance for years. Bhamashah’s act showed that the fight for freedom was a collective effort of all sections of society.',
-      'He is remembered as the "Saviour of Mewar," a reminder that the power of the purse can be as decisive as the power of the sword.'
+      `अरावली की घाटियाँ…
+
+जहाँ पत्थर भी संघर्ष की कहानी सुनाते हैं… जहाँ हर पगडंडी पर इतिहास की छाया चलती है…
+
+वहीं, एक समय ऐसा भी था… जब तलवारें तो थीं… पर उन्हें चलाने के लिए शक्ति नहीं थी।
+
+महाराणा प्रताप…
+
+वह नाम, जो झुकना नहीं जानता था… लेकिन उस समय… वह एक ऐसे मोड़ पर खड़ा था जहाँ केवल साहस पर्याप्त नहीं था।
+
+हल्दीघाटी के बाद… वर्षों का संघर्ष…
+जंगलों में भटकना…
+गुफाओं में रहना…
+घास की रोटी…
+
+यह केवल कहानी नहीं थी… यह एक यथार्थ था।
+
+और इस यथार्थ में…
+
+एक राजा… अपने लोगों के लिए लड़ रहा था…
+
+लेकिन उसके पास अब सेना नहीं थी।
+
+हथियार टूट चुके थे…
+घोड़े थक चुके थे…
+सैनिक बिखर चुके थे…
+
+और सबसे बड़ी बात—
+
+खजाना खाली था।
+
+एक रात…
+
+अरावली की एक गुफा में…
+
+राणा चुपचाप बैठे थे।
+
+उनके सामने कुछ मुट्ठीभर सैनिक…
+थके हुए… भूखे… लेकिन अब भी वफादार।
+
+एक सरदार ने धीरे से कहा—
+
+“महाराज… अब क्या करें…?”
+
+यह प्रश्न…
+
+सिर्फ उस सरदार का नहीं था…
+
+यह पूरे मेवाड़ का था।
+
+राणा ने कुछ क्षण सोचा…
+
+फिर धीरे से कहा—
+
+“जब तक प्राण हैं… युद्ध रहेगा…”
+
+लेकिन भीतर…
+
+वह जानते थे—
+
+केवल संकल्प से युद्ध नहीं जीते जाते।
+
+तभी…
+
+उस अंधेरे में…
+
+एक छाया उभरी।
+
+घोड़े की धीमी आहट…
+
+और फिर…
+
+एक व्यक्ति…
+
+जो उस गुफा के भीतर आया।
+
+वह कोई साधारण व्यक्ति नहीं था।
+
+वह था—
+
+भामाशाह।
+
+एक व्यापारी…
+लेकिन केवल धन का व्यापारी नहीं…
+
+वह विश्वास का व्यापारी था।
+
+वह राणा का मित्र था… सलाहकार था…
+
+और उस रात…
+
+वह कुछ लेकर आया था—
+
+जो तलवार से भी अधिक शक्तिशाली था।
+
+भामाशाह ने गुफा के भीतर कदम रखा…
+
+उसकी आँखों में थकान नहीं थी…
+
+बल्कि एक दृढ़ निश्चय था।
+
+उसने राणा को देखा…
+
+और झुककर प्रणाम किया।
+
+“महाराज…”
+
+राणा ने उसे देखा…
+
+आश्चर्य… और फिर एक हल्की मुस्कान—
+
+“भामा… तुम यहाँ…?”
+
+भामाशाह ने धीरे-धीरे कहा—
+
+“मैं देर से आया हूँ… लेकिन खाली हाथ नहीं आया।”
+
+उसके पीछे कुछ लोग थे…
+
+और उनके साथ…
+
+संदूक।
+
+भारी… मजबूत… और मौन।
+
+भामाशाह ने संकेत किया…
+
+संदूक खोले गए।
+
+और उस अंधेरी गुफा में…
+
+सोना चमक उठा।
+
+चाँदी… सिक्के… रत्न…
+
+इतना धन…
+
+कि वह केवल संपत्ति नहीं था…
+
+वह एक सेना था।
+
+गुफा में खड़े सभी लोग स्तब्ध रह गए।
+
+राणा भी…
+
+कुछ क्षणों तक… कुछ नहीं बोले।
+
+“यह…?”
+
+भामाशाह आगे बढ़ा…
+
+“यह सब… आपका है, महाराज।”
+
+राणा ने तुरंत कहा—
+
+“नहीं… यह तुम्हारा है…”
+
+भामाशाह की आवाज़ गूँजी—
+
+“मेरा कुछ भी नहीं है… जो है… वह मेवाड़ का है।”
+
+एक क्षण के लिए…
+
+गुफा में सन्नाटा छा गया।
+
+फिर भामाशाह ने आगे कहा—
+
+“इससे आप 25,000 सैनिकों को वर्षों तक पाल सकते हैं…
+हथियार बना सकते हैं…
+घोड़े खरीद सकते हैं…”
+
+उसकी आँखों में आग थी—
+
+“युद्ध खत्म नहीं हुआ है, महाराज…
+और जब तक मैं जीवित हूँ… यह खत्म नहीं होगा।”
+
+राणा की आँखों में…
+
+कुछ बदल गया।
+
+यह केवल धन नहीं था…
+
+यह आशा थी।
+
+उन्होंने धीरे-धीरे कहा—
+
+“तुम जानते हो… यह क्या है?”
+
+भामाशाह मुस्कुराया—
+
+“यह मेरा धर्म है।”
+
+राणा ने आगे बढ़कर उसका हाथ पकड़ा—
+
+“तुमने मुझे केवल धन नहीं दिया…
+तुमने मुझे फिर से खड़ा कर दिया।”
+
+उस रात…
+
+अरावली की उस गुफा में…
+
+एक नई शुरुआत हुई।
+
+अगले ही दिन…
+
+तैयारी शुरू हो गई।
+
+घोड़े खरीदे गए…
+हथियार बनाए गए…
+सैनिक बुलाए गए…
+
+जो बिखर गए थे…
+वे फिर लौटने लगे।
+
+“राणा फिर उठ खड़ा हुआ है!”
+
+यह खबर फैलने लगी।
+
+और उसके साथ…
+
+एक नया उत्साह।
+
+कुछ ही समय में…
+
+एक नई सेना तैयार हो गई।
+
+लेकिन यह केवल संख्या नहीं थी…
+
+यह विश्वास था।
+
+एक रात…
+
+राणा ने अपने सेनापतियों को बुलाया—
+
+“अब… हम हमला करेंगे।”
+
+एक मुग़ल चौकी…
+
+अरावली के बीच…
+
+सुरक्षित… और निश्चिंत।
+
+लेकिन उन्हें नहीं पता था—
+
+कि तूफ़ान फिर लौट आया है।
+
+रात…
+
+घना अंधकार…
+
+पहले…
+
+भीलों के तीर…
+
+फिर…
+
+राजपूत घुड़सवार।
+
+“हर हर महादेव!”
+
+गूँज उठा।
+
+मुग़ल सैनिक घबरा गए…
+
+“यह कैसे संभव है?”
+
+लेकिन उत्तर सामने था—
+
+भामाशाह।
+
+युद्ध भयंकर था…
+
+तलवारें टकराईं…
+
+घोड़े दौड़े…
+
+और कुछ ही समय में…
+
+चौकी गिर गई।
+
+राणा खड़े थे…
+
+चारों ओर देखा…
+
+और फिर धीरे से कहा—
+
+“यह विजय… हमारी नहीं… यह उस व्यक्ति की है…
+जिसने हमें यह लड़ने की शक्ति दी।”
+
+भामाशाह पीछे खड़ा था…
+
+मुस्कुरा रहा था।
+
+उसके हाथ में तलवार नहीं थी…
+
+लेकिन उसका योगदान…
+
+हर तलवार से बड़ा था।
+
+समय बीता…
+
+और राणा ने एक-एक कर अपने क्षेत्रों को वापस लेना शुरू किया।
+
+हर जीत…
+
+उस धन की गूँज थी।
+
+हर युद्ध…
+
+उस विश्वास की कहानी।
+
+और धीरे-धीरे…
+
+मुग़ल भी समझ गए—
+
+कि यह युद्ध केवल तलवारों का नहीं है…
+
+यह लोगों का है।
+
+एक ऐसा संघर्ष…
+
+जहाँ हर व्यक्ति…
+
+अपने हिस्से की लड़ाई लड़ रहा था।
+
+आज…
+
+जब इतिहास की बात होती है…
+
+तो केवल योद्धाओं के नाम नहीं लिए जाते…
+
+कुछ नाम…
+
+ऐसे भी होते हैं…
+
+जो तलवार नहीं उठाते…
+
+लेकिन युद्ध जीतने में सबसे बड़ी भूमिका निभाते हैं।
+
+भामाशाह…
+
+वह नाम…
+
+जो दिखाता है—
+
+कि युद्ध केवल रणभूमि में नहीं जीता जाता…
+
+वह खजाने में भी जीता जाता है।
+
+वह विश्वास में जीता जाता है।
+
+और वह उस क्षण में जीता जाता है—
+
+जब कोई व्यक्ति…
+
+अपना सब कुछ त्याग देता है…
+
+किसी बड़े उद्देश्य के लिए।
+
+और आज भी…
+
+अरावली की हवाएँ…
+
+एक कहानी सुनाती हैं—
+
+“एक योद्धा ने तलवार उठाई…
+और एक ने खजाना…
+
+और दोनों ने मिलकर…
+स्वतंत्रता को जीवित रखा…”
+`
     ],
-    coverImage: { src: '/images/legends/bhamashah.jpg', alt: 'Bhamashah presenting his treasure to Maharana Pratap.' }
+    coverImage: { src: '/images/dynasties/rulers/man-singh-tomar.jpg', alt: 'Bhamashah presenting his treasure to Maharana Pratap.' }
   },
   {
     id: 'rao-jodha-jodhpur',
@@ -951,11 +25211,314 @@ export const allLegends: Legend[] = [
     era: '1459 AD',
     location: 'Jodhpur',
     story: [
-      'Rao Jodha, a Rathore ruler, sought a new, more defensible capital after the fall of Mandore. He chose a massive rocky ridge known as the "Mountain of Birds" (Bhakarcheria).',
-      'There, he laid the foundation of Mehrangarh Fort, which would become one of the most formidable citadels in India. The city that grew around it was named Jodhpur, the "City of the Sun."',
-      'The founding of Jodhpur marked the rise of the Rathores as the dominant power in the desert, a legacy that still stands tall in the stone of Mehrangarh.'
+      `मांडोर…
+
+एक समय था जब वही राठौड़ों की शान था… वही उनकी राजधानी… वही उनका गौरव।
+
+लेकिन इतिहास कभी स्थिर नहीं रहता।
+
+एक दिन… वही मांडोर, जो कभी अभेद्य लगता था… असुरक्षित हो गया।
+हमले… षड्यंत्र… और खुला मैदान—जहाँ दुश्मन आसानी से पहुँच सकता था।
+
+राव जोधा… राठौड़ वंश का वह योद्धा… जिसने बचपन से ही संघर्ष देखा था… अब समझ चुका था—
+
+“अगर राज्य को बचाना है… तो नींव बदलनी होगी।”
+
+वह केवल युद्ध लड़ने वाला राजा नहीं था…
+वह सोचने वाला राजा था।
+
+एक रात…
+
+मांडोर के महल में… दीयों की लौ धीमी थी… और वातावरण भारी।
+
+जोधा अकेले खड़ा था… दीवारों को देखता हुआ…
+
+“यहाँ से जाना होगा…”
+
+यह निर्णय आसान नहीं था।
+
+यह केवल राजधानी बदलना नहीं था…
+यह इतिहास को मोड़ना था।
+
+अगले दिन…
+
+दरबार लगा।
+
+सरदार… मंत्री… योद्धा…
+
+सब उपस्थित थे।
+
+जोधा खड़ा हुआ—
+
+“मांडोर अब सुरक्षित नहीं है। हमें एक नई राजधानी चाहिए… ऐसी… जिसे कोई छू भी न सके।”
+
+एक सरदार ने पूछा—
+
+“महाराज… कहाँ?”
+
+जोधा ने उत्तर दिया—
+
+“पहाड़ पर।”
+
+कुछ क्षण के लिए सन्नाटा…
+
+फिर हल्की फुसफुसाहट…
+
+“रेगिस्तान में… पहाड़?”
+
+जोधा की आँखों में चमक थी—
+
+“हाँ… वहाँ… जहाँ पक्षी भी सावधानी से उतरते हैं…”
+
+और फिर…
+
+उन्होंने उस स्थान का नाम लिया—
+
+भाकरचेरिया।
+
+“पक्षियों का पहाड़।”
+
+वह स्थान…
+
+ऊँचा… कठोर… और लगभग अभेद्य।
+
+लेकिन वहाँ कुछ भी नहीं था।
+
+न पानी…
+न बसावट…
+सिर्फ चट्टानें…
+
+और एक खामोश चुनौती।
+
+कुछ दिनों बाद…
+
+जोधा स्वयं उस पहाड़ी पर पहुँचा।
+
+तेज़ हवा…
+नीचे फैला हुआ रेगिस्तान…
+
+उसने चारों ओर देखा…
+
+और फिर धीरे से कहा—
+
+“यहीं… मेरा किला बनेगा।”
+
+एक सैनिक ने संदेह से पूछा—
+
+“महाराज… यहाँ…?”
+
+जोधा मुस्कुराया—
+
+“जहाँ सबसे कम संभावना होती है… वहीं सबसे मजबूत किले बनते हैं।”
+
+और फिर…
+
+निर्माण शुरू हुआ।
+
+पहला पत्थर रखा गया…
+
+और उसके साथ…
+
+एक नई कहानी की नींव।
+
+लेकिन यह आसान नहीं था।
+
+चट्टान को काटना…
+ऊँचाई पर सामग्री ले जाना…
+पानी की व्यवस्था…
+
+हर दिन…
+
+एक युद्ध था।
+
+मज़दूर थकते…
+घोड़े लड़खड़ाते…
+
+लेकिन काम रुका नहीं।
+
+जोधा रोज़ उस पहाड़ी पर खड़ा होता…
+
+निर्माण देखता…
+
+और कहता—
+
+“यह केवल किला नहीं है… यह हमारा भविष्य है।”
+
+धीरे-धीरे…
+
+दीवारें उठने लगीं…
+
+ऊँची… मोटी… अडिग…
+
+और फिर…
+
+एक दिन…
+
+वह किला आकार लेने लगा—
+
+मेहरानगढ़।
+
+रेगिस्तान के बीच…
+
+एक पत्थर का समुद्र…
+
+जो आसमान को छूता था।
+
+उसकी दीवारें इतनी ऊँची…
+
+कि दुश्मन उन्हें देखकर ही थम जाए…
+
+उसके द्वार इतने मजबूत…
+
+कि कोई सेना उन्हें तोड़ न सके…
+
+एक सैनिक ने पहली बार उसे देखकर कहा—
+
+“महाराज… यह किला नहीं… यह पर्वत है…”
+
+जोधा ने उत्तर दिया—
+
+“और यह पर्वत… अब हमारा है।”
+
+लेकिन केवल किला बनाना ही पर्याप्त नहीं था।
+
+किले के नीचे…
+
+एक शहर बसना था।
+
+धीरे-धीरे…
+
+लोग आने लगे…
+
+कुटिया… फिर घर… फिर बाज़ार…
+
+और फिर…
+
+एक नगर जन्म लेने लगा—
+
+जोधपुर।
+
+“सूर्य नगरी।”
+
+क्योंकि यहाँ…
+
+हर सुबह…
+
+सूरज सबसे पहले इसी किले को छूता था…
+
+और उसकी रोशनी…
+
+पूरे नगर को जीवन देती थी।
+
+लेकिन…
+
+हर निर्माण…
+
+एक चुनौती को जन्म देता है।
+
+कुछ स्थानीय शक्तियाँ…
+
+इस परिवर्तन से संतुष्ट नहीं थीं।
+
+उन्होंने हमला किया।
+
+पहला युद्ध…
+
+किले के नीचे…
+
+रेत का मैदान…
+
+घोड़े दौड़े…
+
+तलवारें चमकीं…
+
+और फिर…
+
+टक्कर।
+
+जोधा स्वयं अग्रिम पंक्ति में था।
+
+उसकी तलवार…
+
+हर वार के साथ…
+
+एक नया रास्ता बना रही थी।
+
+एक शत्रु सरदार चिल्लाया—
+
+“तुम्हारा यह नया किला… तुम्हें नहीं बचा पाएगा!”
+
+जोधा हँसा—
+
+“यह किला नहीं… यह हमारी इच्छा है…”
+
+और फिर…
+
+एक तेज़ वार…
+
+वह सरदार गिर पड़ा।
+
+युद्ध समाप्त हुआ…
+
+और जोधपुर…
+
+स्थिर हो गया।
+
+समय बीता…
+
+और यह शहर…
+
+एक शक्ति बन गया।
+
+व्यापार… संस्कृति… और सैन्य शक्ति…
+
+सब एक साथ बढ़ने लगे।
+
+राठौड़ वंश…
+
+अब केवल एक राज नहीं था…
+
+वह एक साम्राज्य बन रहा था।
+
+मेहरानगढ़…
+
+अब केवल एक किला नहीं था…
+
+वह प्रतीक था—
+
+अडिगता का…
+दूरदृष्टि का…
+और उस साहस का…
+
+जो कहता है—
+
+“अगर पुराना गिर जाए… तो नया बनाओ… और उसे इतना मजबूत बनाओ… कि कोई उसे गिरा न सके।”
+
+आज…
+
+जब कोई मेहरानगढ़ की दीवारों पर खड़ा होता है…
+
+और नीचे जोधपुर को देखता है…
+
+तो उसे केवल एक शहर नहीं दिखता…
+
+उसे एक निर्णय दिखता है…
+
+एक राजा का…
+
+जिसने जोखिम उठाया…
+
+और इतिहास बना दिया।
+
+और थार की हवाएँ…
+
+आज भी यह कहानी सुनाती हैं—
+
+“वह राजा… जिसने पहाड़ को अपना किला बनाया…
+और रेत को अपनी राजधानी…”
+`
     ],
-    coverImage: { src: '/images/legends/rao-jodha.jpg', alt: 'Rao Jodha overlooking the construction of Mehrangarh.' }
+    coverImage: { src: '/images/dynasties/rao-jodha.jpg', alt: 'Rao Jodha overlooking the construction of Mehrangarh.' }
   },
   {
     id: 'rao-bika-bikaner',
@@ -965,11 +25528,392 @@ export const allLegends: Legend[] = [
     era: '1488 AD',
     location: 'Bikaner',
     story: [
-      'Rao Bika, the son of Rao Jodha, left Jodhpur to forge his own destiny. He ventured into the harsh, northern reaches of the Thar, a region then known as Jangladesh.',
-      'Despite the challenges of the terrain and the resistance of local clans, he founded the city of Bikaner. His success was attributed to his persistence and his ability to unite the diverse communities of the region.',
-      'Bikaner became a major center of trade and culture, proving that the Rajput spirit could thrive even in the most unforgiving corners of the desert.'
+      `थार का उत्तर…
+
+जहाँ रेत का रंग और भी कठोर हो जाता है… जहाँ हवाएँ केवल चलती नहीं, चुभती हैं… जहाँ पानी एक कथा है… और जीवन, एक चुनौती…
+
+उसी वीरान विस्तार को लोग कहते थे—जांगलदेश।
+
+न कोई स्थायी नगर…
+न कोई सुरक्षित मार्ग…
+सिर्फ बिखरे हुए कबीले… और एक अनिश्चित भविष्य।
+
+लेकिन इतिहास ने कई बार दिखाया है…
+
+कि जहाँ सबसे कम संभावना होती है…
+वहीं सबसे बड़ी कथाएँ जन्म लेती हैं।
+
+और ऐसी ही एक कथा थी—राव बीका की।
+
+वह राव जोधा का पुत्र था… जोधपुर का राजकुमार… जिसके सामने महलों के द्वार खुले थे… सत्ता उसके पास थी… वैभव उसके सामने बिछा था…
+
+लेकिन उसके भीतर…
+
+कुछ और ही जल रहा था।
+
+एक दिन…
+
+दरबार में बैठे-बैठे उसने अपने पिता को देखा…
+
+जोधपुर… विशाल… सुरक्षित… स्थापित…
+
+और उसी क्षण…
+
+उसके भीतर एक विचार उठा—
+
+“क्या मैं केवल इस छाया में जीऊँगा…?
+या अपना सूर्य स्वयं बनाऊँगा?”
+
+उस रात…
+
+महल की दीवारें शांत थीं…
+
+लेकिन बीका के भीतर तूफ़ान था।
+
+अगली सुबह…
+
+वह अपने पिता के सामने खड़ा था।
+
+“पिताजी… मैं जांगलदेश जाना चाहता हूँ।”
+
+दरबार में सन्नाटा छा गया।
+
+किसी ने सोचा भी नहीं था…
+
+कि कोई स्वेच्छा से उस वीरान भूमि की ओर जाएगा।
+
+राव जोधा ने उसकी आँखों में देखा…
+
+वहाँ कोई संदेह नहीं था…
+
+सिर्फ संकल्प।
+
+उन्होंने धीरे से कहा—
+
+“वहाँ कुछ नहीं है…”
+
+बीका ने उत्तर दिया—
+
+“तो मैं वहाँ सब कुछ बनाऊँगा।”
+
+यह शब्द…
+
+सिर्फ एक उत्तर नहीं थे…
+
+यह एक घोषणा थी।
+
+और उसी क्षण…
+
+एक नया अध्याय शुरू हुआ।
+
+बीका ने अपने कुछ वफादार योद्धाओं को साथ लिया…
+
+और निकल पड़ा…
+
+रेत के उस समुद्र की ओर…
+
+जहाँ हर कदम…
+
+एक परीक्षा था।
+
+दिन…
+
+जलता हुआ सूरज…
+
+रेत के तूफ़ान…
+
+घोड़े थकते…
+सैनिक लड़खड़ाते…
+
+लेकिन बीका रुका नहीं।
+
+एक सैनिक ने कहा—
+
+“महाराज… यहाँ तो जीवन असंभव है…”
+
+बीका ने रेत उठाकर अपनी मुट्ठी में भरी…
+
+और कहा—
+
+“जहाँ जीवन नहीं है… वहीं उसे बनाना सबसे बड़ा कार्य होता है।”
+
+यह केवल साहस नहीं था…
+
+यह दृष्टि थी।
+
+लेकिन जांगलदेश केवल निर्जन नहीं था…
+
+वहाँ कबीले थे…
+
+स्थानीय सरदार…
+
+जो इस भूमि को अपना मानते थे।
+
+और वे किसी बाहरी को स्वीकार करने के लिए तैयार नहीं थे।
+
+पहली मुठभेड़…
+
+अचानक हुई।
+
+रेत के टीलों के पीछे से…
+
+घुड़सवार निकले…
+
+तीर चले…
+
+“यह हमारी भूमि है!”
+
+एक कबीलाई सरदार चिल्लाया।
+
+बीका ने अपनी तलवार उठाई—
+
+“अब यह हमारी भी होगी!”
+
+और फिर…
+
+पहला युद्ध।
+
+घोड़े टकराए…
+
+तलवारें चमकीं…
+
+रेत का तूफ़ान उठा…
+
+हर वार…
+
+जीवन और मृत्यु के बीच था।
+
+बीका अग्रिम पंक्ति में था।
+
+उसकी तलवार…
+
+हर प्रहार के साथ…
+
+एक रास्ता बना रही थी।
+
+लेकिन यह केवल युद्ध से नहीं जीता जा सकता था।
+
+कुछ दिनों बाद…
+
+दूसरा कबीला…
+
+फिर तीसरा…
+
+हर बार युद्ध…
+
+हर बार रक्त…
+
+लेकिन हर बार…
+
+बीका कुछ नया सीखता।
+
+एक रात…
+
+उसने अपने सेनापतियों से कहा—
+
+“हम हर किसी से लड़कर नहीं जीत सकते…”
+
+एक ने पूछा—
+
+“तो क्या करें?”
+
+बीका ने उत्तर दिया—
+
+“हम उन्हें साथ लेंगे।”
+
+यह निर्णय…
+
+युद्ध जितना ही कठिन था।
+
+अगले दिन…
+
+वह एक कबीलाई सरदार के पास गया…
+
+बिना सेना… बिना हथियार…
+
+सिर्फ एक प्रस्ताव के साथ।
+
+“यह भूमि… हम मिलकर सँवार सकते हैं…”
+
+सरदार ने हँसकर कहा—
+
+“और क्यों हम तुम्हें स्वीकार करें?”
+
+बीका ने उत्तर दिया—
+
+“क्योंकि मैं तुम्हारा शत्रु बनकर सब कुछ ले सकता हूँ…
+या मित्र बनकर… सब कुछ दे सकता हूँ।”
+
+यह शब्द…
+
+तलवार से भी तेज़ थे।
+
+धीरे-धीरे…
+
+कुछ कबीले जुड़ने लगे।
+
+फिर और…
+
+फिर और…
+
+और एक दिन…
+
+जांगलदेश…
+
+अब केवल बिखरा हुआ नहीं था।
+
+वह एकजुट हो रहा था।
+
+लेकिन चुनौतियाँ खत्म नहीं हुई थीं।
+
+पानी…
+
+सबसे बड़ी समस्या।
+
+रेत के बीच…
+
+जीवन के लिए सबसे आवश्यक चीज़…
+
+सबसे दुर्लभ थी।
+
+बीका ने अपने लोगों से कहा—
+
+“अगर हम पानी ढूँढ लें… तो हम यहाँ राज कर सकते हैं।”
+
+खोज शुरू हुई…
+
+दिनों तक…
+
+सप्ताहों तक…
+
+और फिर…
+
+एक स्रोत मिला।
+
+छोटा… लेकिन जीवन से भरा।
+
+उस दिन…
+
+बीका ने उस स्थान पर खड़े होकर कहा—
+
+“यहीं… हमारा नगर बनेगा।”
+
+और फिर…
+
+निर्माण शुरू हुआ।
+
+रेत के बीच…
+
+दीवारें उठने लगीं…
+
+घर बनने लगे…
+
+बाज़ार बसने लगे…
+
+और धीरे-धीरे…
+
+एक शहर जन्म लेने लगा—
+
+बीकानेर।
+
+यह केवल एक नगर नहीं था…
+
+यह एक चमत्कार था।
+
+जहाँ पहले केवल रेत थी…
+
+वहाँ अब जीवन था।
+
+व्यापारी आने लगे…
+
+ऊँटों के काफिले…
+
+सामान से लदे हुए…
+
+रेशम… मसाले… धातु…
+
+और बीकानेर…
+
+एक व्यापारिक केंद्र बन गया।
+
+एक दिन…
+
+एक व्यापारी ने कहा—
+
+“यह स्थान… असंभव था…”
+
+बीका मुस्कुराया—
+
+“असंभव… केवल तब तक होता है… जब तक कोई उसे संभव न कर दे।”
+
+लेकिन यह सब…
+
+आसान नहीं था।
+
+बीका ने हर कदम पर संघर्ष किया…
+
+हर निर्णय…
+
+एक जोखिम था…
+
+हर जीत…
+
+एक कीमत के साथ आई।
+
+लेकिन उसने हार नहीं मानी।
+
+क्योंकि उसके भीतर…
+
+एक आग थी—
+
+अपना नाम…
+
+अपने हाथों से लिखने की।
+
+समय बीता…
+
+और बीकानेर…
+
+रेगिस्तान का एक रत्न बन गया।
+
+एक ऐसा नगर…
+
+जो केवल रेत में नहीं…
+
+संकल्प में बना था।
+
+आज…
+
+जब थार की हवाएँ चलती हैं…
+
+और बीकानेर की दीवारों को छूती हैं…
+
+तो वे एक कहानी सुनाती हैं—
+
+एक ऐसे राजकुमार की…
+
+जिसने महल छोड़ दिया…
+
+रेगिस्तान चुना…
+
+और वहाँ…
+
+एक साम्राज्य खड़ा कर दिया।
+
+क्योंकि…
+
+राजपूत केवल युद्ध नहीं जीतता…
+
+वह इतिहास बनाता है।
+
+और राव बीका…
+
+उस इतिहास का वह अध्याय है—
+
+जिसने रेत को… स्वर्ण बना दिया।
+`
     ],
-    coverImage: { src: '/images/legends/rao-bika.jpg', alt: 'Rao Bika establishing his camp in the desert.' }
+    coverImage: { src: '/images/dynasties/places/bikaner-rathore-main.jpg', alt: 'Rao Bika establishing his camp in the desert.' }
   },
   {
     id: 'rana-kumbha-fortress',
@@ -979,11 +25923,309 @@ export const allLegends: Legend[] = [
     era: '15th Century',
     location: 'Mewar',
     story: [
-      'Rana Kumbha was a polymath—a warrior, a scholar, and a builder. He is credited with constructing or restoring 32 of the 84 fortresses that protected Mewar.',
-      'His most famous creation, Kumbhalgarh, features a wall second only to the Great Wall of China in length. His architectural legacy was not just about defense, but about creating centers of art and learning.',
-      'Kumbha’s reign is remembered as a golden age of Mewar, where the strength of the forts matched the depth of the culture they sheltered.'
+      `अरावली की लहरदार भुजाओं के बीच… जहाँ पहाड़ मानो स्वयं प्रहरी बनकर खड़े रहते हैं… वहीं एक युग ने जन्म लिया—ऐसा युग जहाँ तलवार और विद्या साथ-साथ चलीं… जहाँ किले केवल रक्षा के लिए नहीं, बल्कि संस्कृति के लिए भी खड़े हुए।
+
+और उस युग का केंद्र था—राणा कुंभा।
+
+वह केवल एक राजा नहीं था…
+वह एक संपूर्ण युग था।
+
+उसका जन्म सिसोदिया वंश की उस परंपरा में हुआ था, जहाँ हर बालक को बचपन से ही दो चीज़ें सिखाई जाती थीं—युद्ध और धर्म।
+
+लेकिन कुंभा… वह अलग था।
+
+जब अन्य राजकुमार केवल शस्त्र विद्या में मग्न रहते… कुंभा शास्त्रों में भी डूब जाता।
+एक हाथ में तलवार… दूसरे में ग्रंथ…
+
+उसके गुरु अक्सर कहते—
+
+“यह बालक… केवल युद्ध नहीं जीतेगा… यह समय को जीतने वाला है।”
+
+बचपन में ही उसकी दृष्टि दूर तक देखने लगी थी।
+
+वह केवल दुश्मन को हराने की बात नहीं करता था…
+वह यह सोचता था—“कैसे हम अपनी भूमि को इतना मजबूत बना दें कि कोई दुश्मन उसे छू भी न सके।”
+
+समय बीता…
+
+और वही बालक… मेवाड़ का स्वामी बना।
+
+लेकिन यह सिंहासन शांति का प्रतीक नहीं था…
+
+यह चुनौती थी।
+
+चारों ओर से खतरे थे…
+मालवा के सुल्तान… गुजरात के शासक… और उत्तर से आने वाली ताकतें…
+
+हर कोई मेवाड़ की ओर देख रहा था।
+
+लेकिन कुंभा ने एक अलग रास्ता चुना।
+
+उसने केवल सेना नहीं बढ़ाई…
+
+उसने किले बनाए।
+
+एक… दो… तीन…
+
+और फिर… बत्तीस।
+
+84 में से 32 किले…
+
+या तो उसने बनाए… या फिर उन्हें पुनर्जीवित किया।
+
+लेकिन यह केवल निर्माण नहीं था…
+
+यह एक रणनीति थी।
+
+“अगर दुश्मन एक किला ले भी ले… तो दूसरा उसका इंतज़ार करेगा…”
+
+उसने कहा।
+
+और इस रणनीति का सबसे भव्य प्रतीक था—
+
+कुंभलगढ़।
+
+अरावली की ऊँचाइयों पर…
+
+बादलों के बीच…
+
+एक ऐसा किला…
+
+जो दूर से देखने पर मानो पहाड़ का ही हिस्सा लगता था।
+
+उसकी दीवारें…
+
+लंबी… चौड़ी… और अंतहीन…
+
+इतनी विशाल कि उन पर कई घोड़े एक साथ दौड़ सकते थे।
+
+एक सैनिक ने पहली बार उसे देखकर कहा—
+
+“महाराज… यह दीवार नहीं… यह तो एक सागर है…”
+
+कुंभा मुस्कुराया—
+
+“और यह सागर… हमारी रक्षा करेगा।”
+
+लेकिन कुंभा का दृष्टिकोण केवल युद्ध तक सीमित नहीं था।
+
+उसने किलों को केवल सैनिकों के लिए नहीं बनाया…
+
+उसने उन्हें ज्ञान के केंद्र बनाया।
+
+कुंभलगढ़ के भीतर…
+
+मंदिर… विद्यालय… सभाएँ…
+
+यहाँ केवल तलवारों की आवाज़ नहीं गूँजती थी…
+
+यहाँ वीणा भी बजती थी।
+
+रात के समय…
+
+जब पहाड़ों पर चाँदनी फैलती…
+
+किले के भीतर…
+
+विद्वान ग्रंथों पर चर्चा करते…
+
+संगीतकार राग छेड़ते…
+
+और कवि…
+
+शब्दों में इतिहास लिखते।
+
+एक दिन…
+
+एक सेनापति ने पूछा—
+
+“महाराज… युद्ध के इस समय में… यह सब क्यों?”
+
+कुंभा ने उसकी ओर देखा—
+
+“अगर हम केवल युद्ध जीतेंगे… और अपनी संस्कृति खो देंगे… तो क्या हमने सच में कुछ जीता?”
+
+यह उत्तर…
+
+उस युग की आत्मा था।
+
+लेकिन शांति…
+
+हमेशा स्थायी नहीं होती।
+
+और एक दिन…
+
+युद्ध फिर दरवाज़े पर आ खड़ा हुआ।
+
+मालवा का सुल्तान…
+
+एक विशाल सेना लेकर…
+
+मेवाड़ की ओर बढ़ा।
+
+कुंभा ने तुरंत तैयारी की।
+
+लेकिन इस बार…
+
+युद्ध केवल तलवारों से नहीं जीता जाना था…
+
+यह किलों से जीता जाना था।
+
+पहला हमला…
+
+एक सीमावर्ती किले पर हुआ।
+
+मुग़ल सेना ने सोचा—
+
+“यह आसान होगा…”
+
+लेकिन जैसे ही वे किले के पास पहुँचे…
+
+ऊपर से तीरों की वर्षा शुरू हो गई…
+
+पत्थर गिरने लगे…
+
+और हर प्रयास विफल हो गया।
+
+कुछ दिनों बाद…
+
+उन्होंने दूसरा किला घेरा…
+
+वही परिणाम।
+
+फिर तीसरा…
+
+फिर चौथा…
+
+हर बार…
+
+उन्हें वही दीवार मिली…
+
+वही प्रतिरोध।
+
+एक सैनिक चिल्लाया—
+
+“यह भूमि किलों से भरी हुई है!”
+
+और यही कुंभा की रणनीति थी।
+
+दुश्मन थकने लगा…
+
+उसकी सेना बिखरने लगी…
+
+और तभी…
+
+कुंभा ने हमला किया।
+
+कुंभलगढ़ के द्वार खुले…
+
+राजपूत सेना… बिजली की तरह नीचे उतरी…
+
+“हर हर महादेव!”
+
+गूँज उठा।
+
+घोड़े दौड़े…
+
+तलवारें चमकीं…
+
+और फिर…
+
+टक्कर।
+
+दुश्मन पहले से ही थका हुआ था…
+
+भ्रमित था…
+
+और अब…
+
+इस आक्रमण के लिए तैयार नहीं था।
+
+राजपूत सेना ने उसे चारों ओर से घेर लिया।
+
+कुंभा स्वयं अग्रिम पंक्ति में था।
+
+उसकी तलवार…
+
+हर वार के साथ…
+
+एक नया मार्ग बना रही थी।
+
+एक दुश्मन सेनापति उसके सामने आया—
+
+“तुम्हारे किले… तुम्हें नहीं बचा पाएँगे!”
+
+कुंभा हँसा—
+
+“किले केवल पत्थर नहीं होते… वे इरादे होते हैं…”
+
+और फिर…
+
+एक वार…
+
+वह सेनापति गिर पड़ा।
+
+युद्ध कुछ ही समय में समाप्त हो गया।
+
+दुश्मन पीछे हट गया…
+
+और मेवाड़…
+
+फिर सुरक्षित हो गया।
+
+लेकिन कुंभा के लिए…
+
+यह केवल एक विजय नहीं थी।
+
+यह उसकी सोच की जीत थी।
+
+उसने साबित कर दिया—
+
+कि केवल तलवार से नहीं…
+
+बुद्धि से भी युद्ध जीता जाता है।
+
+समय बीता…
+
+और कुंभा का युग…
+
+एक स्वर्ण युग बन गया।
+
+किले खड़े थे…
+
+मजबूत… अडिग…
+
+लेकिन उनके भीतर…
+
+संस्कृति भी उतनी ही मजबूत थी।
+
+आज…
+
+जब कोई कुंभलगढ़ की दीवारों पर खड़ा होता है…
+
+तो उसे केवल पत्थर नहीं दिखते…
+
+उसे एक दृष्टि दिखती है…
+
+एक राजा की…
+
+जिसने समझा था—
+
+कि सच्ची शक्ति…
+
+केवल रक्षा में नहीं…
+
+निर्माण में होती है।
+
+और अरावली की हवाएँ…
+
+आज भी यह कहानी सुनाती हैं—
+
+“वह राजा… जिसने किले बनाए…
+और एक युग गढ़ दिया…”
+`
     ],
-    coverImage: { src: '/images/legends/rana-kumbha.jpg', alt: 'Rana Kumbha inspecting the walls of Kumbhalgarh.' }
+    coverImage: { src: '/images/dynasties/rana-kumbha.jpg', alt: 'Rana Kumbha inspecting the walls of Kumbhalgarh.' }
   },
   {
     id: 'maharana-pratap-exile',
@@ -993,11 +26235,383 @@ export const allLegends: Legend[] = [
     era: '16th Century',
     location: 'Aravalli Hills',
     story: [
-      'After the Battle of Haldighati, Maharana Pratap spent years in the deep forests and rugged hills of the Aravallis. He lived a life of extreme hardship, often moving his family from one hidden cave to another.',
-      'Legend says he and his family sometimes ate bread made of grass seeds (Ghas ki Roti). Despite the suffering, he refused every offer of surrender from the Mughal court.',
-      'His forest years turned him into a symbol of uncompromising resistance, proving that a king’s power is not in his palace, but in his refusal to bow to a conqueror.'
+      `हल्दीघाटी…
+
+वह दिन… जब धरती रक्त से लाल हो गई थी… जब तलवारों की टकराहट ने आकाश को भी कंपा दिया था… और जब एक योद्धा—महाराणा प्रताप—ने अपनी अंतिम शक्ति तक लड़कर भी झुकने से इंकार कर दिया था।
+
+लेकिन उस युद्ध के बाद…
+
+कहानी खत्म नहीं हुई।
+
+वहीं से शुरू हुआ… उसका सबसे कठिन अध्याय।
+
+ना कोई महल…
+ना कोई दरबार…
+ना कोई स्वर्ण सिंहासन…
+
+सिर्फ जंगल… पहाड़… और एक अंतहीन संघर्ष।
+
+अरावली की गहरी घाटियाँ… जहाँ सूरज की रोशनी भी मुश्किल से पहुँचती थी… वही अब महाराणा का आश्रय बन चुकी थीं।
+
+उनके साथ उनका परिवार… उनके कुछ वफादार सरदार… और कुछ भील योद्धा…
+
+बाकी सब… इतिहास के पीछे छूट गया था।
+
+पहली रात…
+
+एक गुफा में…
+
+ठंडी हवा… और चारों ओर अंधकार…
+
+राणा चुपचाप बैठे थे।
+
+उनकी तलवार पास में रखी थी… लेकिन आज वह चमक नहीं रही थी…
+
+आज वह भी थकी हुई लग रही थी।
+
+एक छोटा सा बच्चा रो रहा था…
+
+भूख से।
+
+एक माँ उसे चुप कराने की कोशिश कर रही थी—
+
+“बस… थोड़ा और…”
+
+लेकिन उसके पास देने के लिए कुछ नहीं था।
+
+राणा ने यह देखा…
+
+उनकी आँखों में एक क्षण के लिए पीड़ा आई…
+
+यह वही राजा था…
+
+जिसके महल में कभी अन्न की कमी नहीं होती थी…
+
+और आज…
+
+उसका अपना पुत्र… भूखा था।
+
+अगले दिन…
+
+भीलों ने कुछ बीज इकट्ठे किए…
+
+घास के बीज…
+
+उन्हें पीसा गया…
+
+और उससे बनी एक रोटी…
+
+सूखी… कड़ी… और लगभग बेस्वाद…
+
+राणा के सामने रखी गई।
+
+उन्होंने उसे देखा…
+
+कुछ क्षणों तक…
+
+फिर एक टुकड़ा तोड़ा…
+
+और खा लिया।
+
+यह केवल भोजन नहीं था…
+
+यह प्रतिज्ञा थी।
+
+एक सरदार ने धीमे से कहा—
+
+“महाराज… यह जीवन… कितना समय…?”
+
+राणा ने उसकी ओर देखा…
+
+“जब तक यह धरती स्वतंत्र नहीं हो जाती…”
+
+यह उत्तर…
+
+साधारण नहीं था।
+
+यह एक संकल्प था…
+
+जो हर कष्ट से बड़ा था।
+
+दिन बीतते गए…
+
+राणा एक गुफा से दूसरी गुफा में जाते…
+
+एक पहाड़ी से दूसरी पहाड़ी…
+
+हमेशा चलते रहते…
+
+क्योंकि दुश्मन… हर जगह था।
+
+मुग़ल सेना उन्हें खोज रही थी।
+
+हर घाटी… हर जंगल… हर रास्ता…
+
+लेकिन राणा…
+
+छाया बन चुके थे।
+
+एक बार…
+
+मुग़ल सैनिकों का एक दल…
+
+उनके बहुत करीब पहुँच गया।
+
+भील मुखिया दौड़ता हुआ आया—
+
+“महाराज… तुरंत चलना होगा!”
+
+राणा ने अपने परिवार की ओर देखा…
+
+थके हुए… कमजोर…
+
+लेकिन उन्होंने कुछ नहीं कहा।
+
+वे उठे…
+
+और फिर चल पड़े।
+
+रात…
+
+घना जंगल…
+
+कोई रास्ता नहीं…
+
+सिर्फ पत्तों की सरसराहट…
+
+और दूर कहीं… दुश्मन की आवाज़ें।
+
+एक बच्चा ठोकर खाकर गिर पड़ा…
+
+वह रोने लगा…
+
+माँ ने तुरंत उसका मुँह बंद कर दिया—
+
+“शांत…”
+
+क्योंकि एक आवाज़…
+
+सब कुछ खत्म कर सकती थी।
+
+राणा ने यह देखा…
+
+उनकी मुट्ठी भींच गई।
+
+यह वह जीवन नहीं था… जो एक राजा के लिए होता है…
+
+लेकिन उन्होंने इसे चुना था।
+
+क्योंकि दूसरा रास्ता…
+
+झुकना था।
+
+और वह… संभव नहीं था।
+
+कुछ समय बाद…
+
+मुग़ल दरबार से एक प्रस्ताव आया।
+
+एक दूत…
+
+शांति का संदेश लेकर आया।
+
+“अगर आप समर्पण कर दें… तो आपको सम्मान मिलेगा… आपका राज्य लौटाया जाएगा…”
+
+दरबार नहीं था…
+
+कोई औपचारिकता नहीं…
+
+सिर्फ एक गुफा…
+
+और उसके भीतर खड़ा एक राजा।
+
+राणा ने दूत की ओर देखा…
+
+कुछ क्षणों तक…
+
+फिर बोले—
+
+“सम्मान… दिया नहीं जाता… कमाया जाता है।”
+
+दूत ने फिर कहा—
+
+“आपका परिवार कष्ट में है…”
+
+यह शब्द…
+
+हवा को काट गए।
+
+राणा की आँखों में एक पल के लिए दर्द चमका…
+
+लेकिन अगले ही क्षण…
+
+वह कठोर हो गया।
+
+“जो अपने स्वाभिमान के लिए कष्ट नहीं सह सकता… वह राजा नहीं है।”
+
+दूत चला गया।
+
+और उसके साथ…
+
+एक और अवसर…
+
+जो राणा ने ठुकरा दिया।
+
+दिन…
+
+सालों में बदल गए।
+
+लेकिन यह संघर्ष…
+
+रुका नहीं।
+
+राणा ने केवल जीवित रहने का प्रयास नहीं किया…
+
+उन्होंने लड़ाई जारी रखी।
+
+छोटे-छोटे दल…
+
+रात के हमले…
+
+अचानक आक्रमण…
+
+और फिर गायब।
+
+यह गुरिल्ला युद्ध था।
+
+एक रात…
+
+एक मुग़ल चौकी…
+
+शांत…
+
+अचानक…
+
+तीर…
+
+फिर हमला…
+
+राजपूत और भील एक साथ टूट पड़े।
+
+“हर हर महादेव!”
+
+चीख गूँजी…
+
+और कुछ ही समय में…
+
+चौकी खत्म।
+
+राणा खड़े थे…
+
+चारों ओर देखा…
+
+और फिर कहा—
+
+“युद्ध… अभी खत्म नहीं हुआ है…”
+
+यह केवल शुरुआत थी।
+
+धीरे-धीरे…
+
+उन्होंने अपने खोए हुए क्षेत्रों को वापस लेना शुरू किया।
+
+एक किला… फिर दूसरा…
+
+एक गाँव… फिर दूसरा…
+
+हर जीत छोटी थी…
+
+लेकिन हर जीत…
+
+एक संदेश थी—
+
+“मैं अभी भी खड़ा हूँ।”
+
+उनका जीवन…
+
+अब एक कथा बन चुका था।
+
+एक राजा…
+
+जो महल छोड़कर…
+
+जंगल में जी रहा था…
+
+लेकिन झुका नहीं।
+
+एक दिन…
+
+उनकी बेटी ने पूछा—
+
+“पिताजी… हम घर कब जाएँगे?”
+
+राणा कुछ क्षण चुप रहे…
+
+फिर मुस्कुराए—
+
+“जब यह पूरा जंगल… हमारा घर बन जाएगा…”
+
+यह उत्तर…
+
+सिर्फ एक बच्ची के लिए नहीं था…
+
+यह इतिहास के लिए था।
+
+समय बीता…
+
+और वह राजा…
+
+जो कभी महलों में रहता था…
+
+अब पहाड़ों का हिस्सा बन चुका था।
+
+लेकिन उसका संकल्प…
+
+और भी मजबूत हो गया था।
+
+उसने साबित कर दिया—
+
+कि राजा की शक्ति…
+
+उसके महल में नहीं होती…
+
+उसके मुकुट में नहीं होती…
+
+वह होती है—
+
+उसके निर्णय में।
+
+उसके इनकार में।
+
+उसके इस वाक्य में—
+
+“मैं नहीं झुकूँगा।”
+
+और आज भी…
+
+जब अरावली की घाटियों में हवा चलती है…
+
+तो वह एक कहानी लेकर आती है—
+
+एक ऐसे राजा की…
+
+जिसने घास की रोटी खाई…
+
+लेकिन अपने स्वाभिमान को कभी नहीं खोया।
+
+जिसने जंगल में जीवन बिताया…
+
+लेकिन इतिहास में अमर हो गया।
+
+और वह आवाज़…
+
+आज भी गूँजती है—
+
+“राजा वह नहीं… जो सिंहासन पर बैठता है…
+राजा वह है… जो झुकता नहीं…”
+`
     ],
-    coverImage: { src: '/images/legends/pratap-exile.jpg', alt: 'Maharana Pratap and his family in a forest camp.' }
+    coverImage: { src: '/images/dynasties/maharana-pratap.jpg', alt: 'Maharana Pratap and his family in a forest camp.' }
   },
   {
     id: 'bhil-alliance',
@@ -1007,11 +26621,312 @@ export const allLegends: Legend[] = [
     era: 'Timeless',
     location: 'Southern Mewar',
     story: [
-      'The Bhils, the indigenous people of the Aravallis, were the most loyal allies of the Sisodia rulers of Mewar. Their knowledge of the terrain and their skill with the bow were vital in guerrilla warfare.',
-      'The bond was so strong that the royal seal of Mewar features a Bhil warrior alongside a Rajput. They provided the Maharana with safe passage and intelligence during his most difficult times.',
-      'The Bhil alliance is a testament to the inclusive nature of the Rajput resistance, where the defense of the land was a shared duty of all its inhabitants.'
+      `अरावली…
+
+पत्थरों की वह अनंत श्रृंखला… जो केवल पहाड़ नहीं थी… वह एक जीवित प्राणी थी—जो हर आहट सुनती थी, हर छाया को पहचानती थी, और हर शत्रु को निगल जाने की क्षमता रखती थी।
+
+इन पहाड़ियों के बीच… जहाँ सूर्य की किरणें भी मुश्किल से ज़मीन तक पहुँचती थीं… वहाँ बसते थे वे लोग… जिन्हें कोई साम्राज्य पूरी तरह कभी समझ नहीं पाया—
+
+भील।
+
+वे किसी महल में जन्मे नहीं थे…
+उनके पास कोई स्वर्ण सिंहासन नहीं था…
+
+लेकिन उनके पास था—जंगल का ज्ञान…
+धरती की भाषा…
+और धनुष… जो उनकी आत्मा का विस्तार था।
+
+एक भील बालक जब जन्म लेता… तो उसके हाथ में तलवार नहीं… धनुष की कल्पना होती थी।
+
+उसका पहला खेल—शिकार…
+पहली शिक्षा—चुप रहना…
+पहली जीत—अदृश्य रहना।
+
+और यही अदृश्यता… एक दिन इतिहास का सबसे बड़ा हथियार बनने वाली थी।
+
+मेवाड़…
+
+सिसोदिया राजपूतों की भूमि… जहाँ स्वाभिमान का अर्थ ही था—अंत तक लड़ना।
+
+लेकिन जब मुग़ल साम्राज्य का साया इस भूमि पर पड़ा… तब केवल किलों की दीवारें पर्याप्त नहीं थीं।
+
+क्योंकि यह युद्ध अब मैदानों में नहीं… जंगलों और पहाड़ियों में लड़ा जाना था।
+
+और वहीं… सिसोदिया राजाओं को मिला उनका सबसे अनमोल सहयोग—
+
+भील।
+
+यह गठबंधन किसी कागज़ पर नहीं लिखा गया था…
+यह किसी दरबार में घोषित नहीं हुआ था…
+
+यह बना था—विश्वास से।
+
+एक दिन… जब महाराणा अपने सबसे कठिन समय से गुजर रहे थे…
+चारों ओर शत्रु… पीछे हटने का कोई मार्ग नहीं…
+
+तभी… अरावली के जंगलों में… कुछ आँखें उन्हें देख रही थीं।
+
+भील।
+
+वे छाया की तरह थे…
+ना आवाज़… ना संकेत…
+
+बस उपस्थिति।
+
+एक भील मुखिया आगे बढ़ा…
+
+उसने महाराणा को देखा…
+और फिर कहा—
+
+“यह जंगल… अब आपका है।”
+
+यह शब्द… साधारण नहीं थे।
+
+यह एक वचन था।
+
+और उसी क्षण… एक नया अध्याय शुरू हुआ।
+
+भीलों ने महाराणा को केवल आश्रय नहीं दिया…
+
+उन्होंने उन्हें अदृश्य बना दिया।
+
+जब मुग़ल सेना पहाड़ियों में प्रवेश करती…
+उन्हें लगता—वे अकेले हैं।
+
+लेकिन वे कभी अकेले नहीं थे।
+
+हर चट्टान के पीछे…
+हर पेड़ की छाया में…
+
+एक भील धनुर्धर था।
+
+और फिर…
+
+एक तीर।
+
+सीधा… सटीक… और घातक।
+
+मुग़ल सैनिक चिल्लाता—
+
+“कहाँ से आया?”
+
+कोई उत्तर नहीं।
+
+सिर्फ सन्नाटा।
+
+और फिर… दूसरा तीर।
+
+यह युद्ध… दिखाई नहीं देता था…
+
+लेकिन हर दिन… हर रात… दुश्मन को कमजोर करता जाता था।
+
+महाराणा ने एक दिन अपने सेनापतियों से कहा—
+
+“हमारी तलवारें मैदान में लड़ती हैं…
+लेकिन यह युद्ध… जंगल जीत रहा है।”
+
+और उस जंगल का राजा… भील था।
+
+एक रात…
+
+मुग़ल सेना ने पहाड़ियों में डेरा डाला।
+
+थके हुए सैनिक…
+थोड़ा विश्राम…
+
+अचानक…
+
+अंधेरे को चीरता हुआ एक तीर…
+
+फिर दूसरा…
+
+फिर तीसरा…
+
+चीखें…
+
+घबराहट…
+
+“हमले हो रहे हैं!”
+
+लेकिन दुश्मन दिखता नहीं था।
+
+भील… छाया बन चुके थे।
+
+वे आते… वार करते… और फिर गायब हो जाते।
+
+एक मुग़ल सेनापति ने गुस्से में कहा—
+
+“इनसे लड़ना असंभव है!”
+
+और यही… उनका सबसे बड़ा हथियार था।
+
+केवल युद्ध में ही नहीं…
+
+भीलों ने महाराणा को जीवन दिया।
+
+जब भोजन नहीं था…
+वे जंगली फल लाते…
+
+जब पानी नहीं था…
+वे छिपे हुए स्रोत दिखाते…
+
+जब मार्ग नहीं था…
+वे रास्ता बनाते।
+
+एक दिन…
+
+महाराणा थके हुए थे…
+घायल… और भूखे…
+
+एक भील स्त्री आगे आई…
+
+उसने उन्हें एक पत्ते में लिपटी हुई रोटी दी।
+
+महाराणा ने उसे देखा…
+
+वह रोटी साधारण थी…
+
+लेकिन उस क्षण…
+
+वह अमृत थी।
+
+उन्होंने धीरे से कहा—
+
+“तुमने मेरा जीवन बचाया है…”
+
+भील स्त्री मुस्कुराई—
+
+“यह भूमि आपकी है…
+आपका जीवन… हमारा धर्म है।”
+
+यह केवल शब्द नहीं थे…
+
+यह एक बंधन था।
+
+और यह बंधन इतना गहरा था…
+
+कि मेवाड़ के राजचिह्न में…
+
+एक भील योद्धा… एक राजपूत के साथ खड़ा दिखाया गया।
+
+दो अलग संसार…
+
+एक साथ।
+
+क्योंकि यह युद्ध…
+
+केवल राजाओं का नहीं था।
+
+यह हर उस व्यक्ति का था…
+
+जो इस भूमि से प्रेम करता था।
+
+समय बीता…
+
+युद्ध चलते रहे…
+
+महाराणा ने कई बार वापसी की…
+
+और हर बार…
+
+भील उनके साथ थे।
+
+एक अंतिम बड़ा अभियान…
+
+मुग़ल चौकियों पर हमला…
+
+रात…
+
+अरावली की घाटियाँ…
+
+मौन…
+
+महाराणा ने भील मुखिया से कहा—
+
+“क्या हम तैयार हैं?”
+
+भील ने सिर हिलाया—
+
+“हम हमेशा तैयार हैं…”
+
+और फिर…
+
+संकेत मिला।
+
+पहले तीर चले…
+
+अंधेरे में…
+
+फिर राजपूत घुड़सवार टूट पड़े।
+
+यह संयुक्त आक्रमण था—
+
+रणनीति और साहस का।
+
+मुग़ल सेना पूरी तरह भ्रमित हो गई।
+
+उन्हें समझ ही नहीं आया—
+
+हमला कहाँ से हो रहा है।
+
+भील तीर चला रहे थे…
+राजपूत तलवार…
+
+और कुछ ही समय में…
+
+चौकी गिर गई।
+
+महाराणा ने चारों ओर देखा…
+
+और फिर भील मुखिया की ओर मुड़े—
+
+“यह विजय… हमारी नहीं… हमारी है।”
+
+भील मुस्कुराया—
+
+“हम अलग कब थे?”
+
+यह प्रश्न…
+
+उत्तर से अधिक शक्तिशाली था।
+
+क्योंकि सच यही था—
+
+वे कभी अलग नहीं थे।
+
+वे एक ही भूमि के पुत्र थे।
+
+और जब भूमि खतरे में थी…
+
+तो सभी एक साथ खड़े थे।
+
+आज…
+
+जब अरावली की हवाएँ चलती हैं…
+
+तो वे केवल पत्थरों को नहीं छूतीं…
+
+वे उस इतिहास को छूती हैं…
+
+जहाँ एक भील और एक राजपूत…
+
+कंधे से कंधा मिलाकर खड़े थे।
+
+जहाँ कोई ऊँच-नीच नहीं थी…
+
+केवल एक उद्देश्य था—
+
+स्वतंत्रता।
+
+और वह कहानी…
+
+आज भी गूँजती है—
+
+“यह भूमि… केवल हमारी नहीं…
+हम सबकी है…”
+`
     ],
-    coverImage: { src: '/images/legends/bhil-warriors.jpg', alt: 'Bhil archers guarding a mountain pass.' }
+    coverImage: { src: '/images/dynasties/places/mewar.jpg', alt: 'Bhil archers guarding a mountain pass.' }
   },
   {
     id: 'veer-kalla-rathore',
@@ -1021,11 +26936,378 @@ export const allLegends: Legend[] = [
     era: '1568 AD',
     location: 'Chittorgarh',
     story: [
-      'Veer Kalla Rathore is remembered for his extraordinary courage during the Siege of Chittorgarh in 1568. When his mentor, Jaimal, was wounded and unable to walk, Kalla carried him on his shoulders into the battle.',
-      'With Jaimal wielding two swords and Kalla wielding another two, they appeared to the enemy as a single, four-armed deity of war. Legend says they continued to fight even after being mortally wounded.',
-      'His name is invoked as a symbol of the superhuman strength that comes from a commitment to a cause greater than oneself.'
+      `चित्तौड़…
+
+वह नाम ही अपने भीतर एक गर्जना समेटे हुए है।
+
+अरावली की गोद में खड़ा वह दुर्ग… जिसकी दीवारें केवल पत्थर नहीं थीं… वे रक्त, प्रतिज्ञा और बलिदान से बनी थीं।
+
+और उन दीवारों के भीतर… 1568 का वह समय… जब आकाश तक धुआँ उठ रहा था… और धरती पर हर कदम युद्ध की गूँज से काँप रहा था।
+
+अलाउद्दीन नहीं… इस बार दिल्ली की गद्दी पर अकबर था।
+उसकी सेना… और भी विशाल… और भी संगठित… और भी निर्दयी।
+
+चित्तौड़ को घेर लिया गया था।
+
+दिन-रात तोपें गरजती थीं…
+पत्थर टूटते थे…
+और हर धमाके के साथ… किले का एक हिस्सा बिखरता जाता था।
+
+लेकिन किले के भीतर…
+
+अब भी एक आग जल रही थी।
+
+उस आग का नाम था—वीरता।
+
+और उसी अग्नि में तपकर उभरा था एक नाम—
+
+वीर कल्ला राठौड़।
+
+वह जन्म से ही योद्धा था…
+राठौड़ वंश की वह नस्ल… जिसमें रक्त के साथ शौर्य बहता था।
+
+बचपन से ही उसकी भुजाओं में असाधारण शक्ति थी।
+जब वह तलवार उठाता… तो लगता जैसे वह उसके लिए बनी ही हो।
+
+लेकिन उसकी सबसे बड़ी पहचान उसकी शक्ति नहीं थी…
+
+वह थी—उसकी निष्ठा।
+
+जैमल… उसके गुरु… उसके मार्गदर्शक… उसके सेनापति…
+
+कल्ला के लिए वे केवल एक नेता नहीं थे…
+
+वे उसकी आत्मा थे।
+
+एक दिन प्रशिक्षण के दौरान जैमल ने उससे कहा था—
+
+“कल्ला… युद्ध में सबसे कठिन क्या होता है?”
+
+कल्ला ने उत्तर दिया—
+
+“दुश्मन को हराना।”
+
+जैमल मुस्कुराए—
+
+“नहीं… अपने भय को हराना।”
+
+उस दिन से… कल्ला ने भय को अपने भीतर जगह ही नहीं दी।
+
+समय बीता…
+
+और वह वही योद्धा बना… जो अब चित्तौड़ की रक्षा में खड़ा था।
+
+लेकिन यह युद्ध… सामान्य नहीं था।
+
+अकबर की सेना ने किले को चारों ओर से घेर लिया था।
+तोपें दिन-रात आग उगल रही थीं।
+
+एक रात…
+
+एक भयानक धमाका हुआ।
+
+दीवार का एक हिस्सा टूट गया।
+
+और उसी समय…
+
+जैमल… अग्रिम पंक्ति में लड़ते हुए… गंभीर रूप से घायल हो गए।
+
+एक गोली… उनके पैर में धँस गई।
+
+वे गिर पड़े।
+
+चारों ओर अफरा-तफरी मच गई।
+
+“सेनापति घायल हैं!”
+
+यह खबर आग की तरह फैल गई।
+
+कल्ला दौड़ता हुआ उनके पास पहुँचा।
+
+“गुरुदेव!”
+
+जैमल ने आँखें खोलीं… दर्द साफ़ दिखाई दे रहा था…
+
+लेकिन उनकी आवाज़ अब भी दृढ़ थी—
+
+“मैं अभी जीवित हूँ…”
+
+कल्ला ने चारों ओर देखा…
+
+दुश्मन बढ़ता जा रहा था…
+
+“आपको पीछे ले चलना होगा…”
+
+जैमल ने सिर हिलाया—
+
+“नहीं… युद्ध अभी समाप्त नहीं हुआ…”
+
+कल्ला कुछ क्षण चुप रहा…
+
+फिर उसने एक निर्णय लिया।
+
+वह घुटनों के बल बैठा…
+
+“तो फिर… आप पीछे नहीं जाएँगे…”
+
+जैमल ने उसकी ओर देखा—
+
+“कल्ला…?”
+
+कल्ला की आवाज़ गूँजी—
+
+“आप आगे ही रहेंगे… मेरे साथ।”
+
+और अगले ही क्षण…
+
+उसने जैमल को अपने कंधों पर उठा लिया।
+
+चारों ओर खड़े सैनिक स्तब्ध रह गए।
+
+यह क्या था…?
+
+एक योद्धा… अपने घायल सेनापति को कंधों पर उठाकर… युद्ध में जाने के लिए तैयार…
+
+कल्ला खड़ा हुआ…
+
+उसकी भुजाएँ तन गईं…
+
+जैमल उसके कंधों पर…
+और उनके हाथों में… तलवारें।
+
+कल्ला ने अपनी तलवारें उठाईं…
+
+अब…
+
+वह अकेला नहीं था।
+
+वह एक सेना था।
+
+“हर हर महादेव!”
+
+उसकी गर्जना ने हवा को चीर दिया।
+
+और फिर…
+
+वह आगे बढ़ा।
+
+दुश्मन की ओर।
+
+जो दृश्य सामने आया…
+
+वह किसी मानव का नहीं था।
+
+एक योद्धा… जिसके कंधों पर दूसरा योद्धा…
+और चार तलवारें… एक साथ चमकती हुई…
+
+मुग़ल सैनिक ठिठक गए।
+
+एक ने भय से कहा—
+
+“यह… यह क्या है…?”
+
+दूसरे ने फुसफुसाया—
+
+“देवता…”
+
+और फिर…
+
+प्रलय।
+
+कल्ला दौड़ा…
+
+उसके कदम धरती को हिला रहे थे…
+
+पहला वार—
+
+दो सैनिक एक साथ गिर पड़े।
+
+जैमल के हाथों से तलवारें घूमीं…
+
+दूसरा वार—
+
+तीन और…
+
+कल्ला की तलवारें बिजली की तरह चमक रही थीं…
+
+हर दिशा में… मृत्यु।
+
+धूल का बादल उठा…
+
+चीखें गूँजीं…
+
+घोड़े पीछे हटने लगे…
+
+यह युद्ध नहीं था…
+
+यह एक तूफ़ान था।
+
+एक मुग़ल सेनापति चिल्लाया—
+
+“उसे घेरो!”
+
+दस… बीस… पचास सैनिक…
+
+सब एक साथ टूट पड़े।
+
+लेकिन कल्ला रुका नहीं।
+
+उसके कंधों पर भार था…
+
+लेकिन उसकी गति कम नहीं हुई।
+
+हर वार… सटीक…
+
+हर कदम… दृढ़।
+
+जैमल ने ऊपर से कहा—
+
+“कल्ला… धीमे मत पड़ना!”
+
+कल्ला हँसा—
+
+“आज… रुकने का समय नहीं है, गुरुदेव!”
+
+और फिर…
+
+और तेज़।
+
+चार तलवारें…
+चार दिशाएँ…
+चारों ओर रक्त।
+
+यह दृश्य…
+
+इतना भयानक था…
+
+कि दुश्मन के मन में भय बैठ गया।
+
+एक सैनिक पीछे हटते हुए चिल्लाया—
+
+“ये मरेंगे नहीं!”
+
+लेकिन हर योद्धा… चाहे कितना भी महान हो…
+
+शरीर की सीमा होती है।
+
+धीरे-धीरे…
+
+घाव बढ़ने लगे।
+
+एक तलवार कल्ला के कंधे को चीर गई…
+
+दूसरी उसके बाजू में धँसी…
+
+रक्त बहने लगा…
+
+लेकिन वह रुका नहीं।
+
+जैमल भी घायल थे…
+
+लेकिन उनके हाथ अब भी तलवार चला रहे थे।
+
+एक क्षण के लिए…
+
+दोनों की आँखें मिलीं।
+
+कोई शब्द नहीं…
+
+बस एक समझ—
+
+“यह अंत है…”
+
+लेकिन यह अंत…
+
+हार का नहीं था।
+
+कल्ला ने अंतिम बार गर्जना की—
+
+“हर हर महादेव!”
+
+और फिर…
+
+वह दुश्मन के सबसे घने समूह में घुस गया।
+
+एक… दो… तीन…
+
+तलवारें चलीं…
+
+शत्रु गिरे…
+
+लेकिन अब…
+
+उसकी गति धीमी हो रही थी।
+
+घुटने काँपे…
+
+साँस भारी हुई…
+
+और फिर…
+
+वह रुका।
+
+धीरे-धीरे…
+
+वह घुटनों पर आया…
+
+जैमल अब भी उसके कंधों पर थे…
+
+दोनों की तलवारें… अब भी उठी हुई थीं…
+
+और फिर…
+
+एक अंतिम वार…
+
+दोनों ने साथ में किया।
+
+और फिर…
+
+मौन।
+
+वे गिर गए।
+
+लेकिन उस क्षण…
+
+किसी ने यह नहीं देखा कि वे गिरे हैं।
+
+क्योंकि उनके चारों ओर…
+
+इतने शत्रु गिरे थे…
+
+कि उनका शरीर दिखाई ही नहीं दे रहा था।
+
+युद्ध चलता रहा…
+
+चित्तौड़ गिर गया…
+
+लेकिन उस दिन…
+
+एक कथा जन्मी।
+
+वीर कल्ला राठौड़…
+
+जिसने अपने गुरु को कंधों पर उठाकर…
+
+युद्ध को देवत्व का रूप दे दिया।
+
+उसने दिखा दिया—
+
+कि जब कोई अपने से बड़े उद्देश्य के लिए लड़ता है…
+
+तो वह केवल मनुष्य नहीं रहता…
+
+वह शक्ति बन जाता है।
+
+और आज भी…
+
+जब चित्तौड़ की दीवारों पर हवा चलती है…
+
+तो एक स्वर गूँजता है—
+
+“चार भुजाओं वाला वह योद्धा… अभी भी लड़ रहा है…”
+`
     ],
-    coverImage: { src: '/images/legends/kalla-rathore.jpg', alt: 'Veer Kalla Rathore carrying Jaimal into battle.' }
+    coverImage: { src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'Veer Kalla Rathore carrying Jaimal into battle.' }
   },
   {
     id: 'rajput-saka-tradition',
@@ -1035,11 +27317,340 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Rajputana Forts',
     story: [
-      'The Saka was the final ritual of a besieged Rajput garrison when all hope of victory was gone. It involved the women committing Jauhar (self-immolation) and the men performing the "Kesariya" (the final charge).',
-      'Wearing saffron robes and turbans, the warriors would open the gates and charge into the enemy ranks, seeking to inflict maximum damage before falling.',
-      'The Saka was not an act of suicide, but a ritual of liberation, ensuring that the enemy won only a pile of ash and a field of dead heroes, but never the spirit of the people.'
+      `घेराबंदी…
+
+वह शब्द ही अपने भीतर एक धीमा, घुटता हुआ भय समेटे होता है।
+
+किले की ऊँची दीवारों के भीतर बंद लोग… बाहर फैली हुई विशाल सेना… और बीच में समय—जो हर दिन, हर रात, धीरे-धीरे उम्मीद को खा जाता है।
+
+राजपूत किलों ने इसे बार-बार झेला था। चित्तौड़… रणथंभौर… जालोर… सीवाना… हर पत्थर इस सन्नाटे को जानता था।
+
+जब घेराबंदी शुरू होती… तो शुरुआत में उत्साह होता।
+
+“हम टिकेंगे!”
+“वे थक जाएँगे!”
+
+दीवारों पर खड़े योद्धा गर्जना करते—
+“हर हर महादेव!”
+
+पहले कुछ दिनों तक… हर हमला विफल किया जाता।
+तीर बरसते… उबलता तेल गिरता… दुश्मन पीछे हटता।
+
+लेकिन फिर… समय बदलता।
+
+दिन हफ्तों में बदलते… हफ्ते महीनों में…
+
+अनाज के भंडार खाली होने लगते…
+कुएँ सूखने लगते…
+और हर चेहरे पर एक अनकहा प्रश्न उभरने लगता—
+
+“अब… कितना समय?”
+
+रातें सबसे कठिन होती थीं।
+
+किले के भीतर… सन्नाटा…
+कहीं दूर एक बच्चे की धीमी सिसकी…
+कहीं एक माँ उसे चुप कराती हुई—
+
+“शांत… सब ठीक होगा…”
+
+लेकिन वह जानती थी… कुछ भी ठीक नहीं होगा।
+
+और फिर… एक दिन…
+
+किले के सबसे ऊँचे बुर्ज पर खड़ा सेनापति नीचे देखता है—
+दुश्मन की सेना और भी बढ़ गई है।
+नई तोपें… नए सैनिक… नए झंडे…
+
+वह समझ जाता है।
+
+यह युद्ध… अब जीतने के लिए नहीं रहा।
+
+वह धीरे-धीरे मुड़ता है…
+और किले के भीतर जाता है।
+
+सभा बुलाई जाती है।
+
+राजा… सेनापति… योद्धा… सब एकत्र होते हैं।
+
+कोई ऊँची आवाज़ नहीं…
+कोई बहस नहीं…
+
+सिर्फ एक गहरी, भारी चुप्पी।
+
+राजा उठता है…
+
+उसकी आँखों में न भय है… न भ्रम…
+सिर्फ एक कठोर सत्य।
+
+“अब… समय आ गया है।”
+
+एक युवा योद्धा पूछता है—
+
+“महाराज… क्या हम आत्मसमर्पण करें?”
+
+यह प्रश्न… हवा को काट देता है।
+
+राजा कुछ क्षण चुप रहता है…
+फिर धीरे-धीरे बोलता है—
+
+“राजपूत… आत्मसमर्पण नहीं करता।”
+
+और फिर…
+
+वह शब्द… जो हर दिल को चीर देता है—
+
+“साका।”
+
+एक क्षण के लिए… समय थम जाता है।
+
+फिर… सब सिर झुका देते हैं।
+
+यह निर्णय है… अंतिम।
+
+उस रात… किले के भीतर एक अलग ही तैयारी होती है।
+
+यह युद्ध की तैयारी नहीं…
+यह अंत की तैयारी है।
+
+महिलाएँ… माताएँ… बहनें…
+
+सब एकत्र होती हैं।
+
+उनके चेहरों पर आँसू नहीं होते…
+क्योंकि आँसू अब व्यर्थ हैं।
+
+एक वृद्धा धीरे से कहती है—
+
+“आज… हम अपने सम्मान को अग्नि को सौंपेंगे…”
+
+आग जलाई जाती है।
+
+लपटें उठती हैं…
+
+धीरे-धीरे… फिर तेज़… फिर आकाश को छूती हुई…
+
+यह जौहर है।
+
+एक माँ अपने बच्चे को सीने से लगाती है…
+एक पत्नी अपने पति की ओर आखिरी बार देखती है…
+
+कोई शब्द नहीं…
+सिर्फ आँखों में एक अंतिम संवाद—
+
+“फिर मिलेंगे… किसी और जन्म में…”
+
+और फिर…
+
+वे अग्नि में प्रवेश करती हैं।
+
+एक-एक कर…
+सैकड़ों… हजारों…
+
+लपटें उन्हें अपने भीतर समेट लेती हैं।
+
+किले के बाहर… दुश्मन को कुछ समझ नहीं आता…
+
+लेकिन किले के भीतर…
+
+सब बदल चुका होता है।
+
+अब… वहाँ केवल योद्धा बचे हैं।
+
+और उनके सामने… मृत्यु।
+
+सुबह होती है।
+
+सूरज उगता है…
+
+और उसकी किरणें एक नए रंग को उजागर करती हैं—
+
+केसरिया।
+
+हर योद्धा ने केसरिया वस्त्र पहना है…
+सिर पर केसरिया साफा…
+
+यह अब केवल वस्त्र नहीं है…
+
+यह घोषणा है—
+
+“हम मरने जा रहे हैं।”
+
+एक युवा सैनिक अपने मित्र से कहता है—
+
+“डर लग रहा है…”
+
+उसका मित्र मुस्कुराता है—
+
+“मुझे भी…”
+
+दोनों कुछ क्षण चुप रहते हैं…
+
+फिर एक साथ हँसते हैं—
+
+“तो चल… डर को भी साथ ले चलते हैं…”
+
+राजा अपने घोड़े पर सवार होता है।
+
+उसकी आँखों में अब कोई बोझ नहीं है…
+
+क्योंकि उसके पीछे… अब कोई नहीं बचा…
+
+कोई जिसे वह खो सकता है।
+
+वह अपनी तलवार उठाता है—
+
+“आज… हम जीतने नहीं… अमर होने जा रहे हैं!”
+
+“हर हर महादेव!”
+
+यह गर्जना… किले की दीवारों को हिला देती है।
+
+और फिर…
+
+किले के द्वार खुलते हैं।
+
+धीरे-धीरे…
+
+भारी आवाज़ के साथ…
+
+जैसे स्वयं इतिहास खुल रहा हो।
+
+बाहर…
+
+दुश्मन की सेना तैयार खड़ी है।
+
+उन्हें लगता है—
+अब समर्पण होगा।
+
+लेकिन जो वे देखते हैं…
+
+वह कुछ और ही है।
+
+केसरिया लहराता हुआ एक तूफ़ान…
+
+जो उनकी ओर बढ़ रहा है।
+
+और फिर…
+
+टक्कर।
+
+घोड़े दौड़ते हैं…
+तलवारें चमकती हैं…
+धूल का बादल उठता है…
+
+पहला वार…
+
+एक… दो… तीन…
+
+हर वार… मृत्यु का संदेश लेकर आता है।
+
+राजपूत सेना… सीधे दुश्मन के बीच घुस जाती है।
+
+कोई रुकता नहीं…
+कोई पीछे नहीं देखता…
+
+हर योद्धा जानता है—
+
+वह वापस नहीं लौटेगा।
+
+लेकिन यही उसे और भी भयानक बना देता है।
+
+एक मुग़ल सैनिक चिल्लाता है—
+
+“ये मरने के लिए लड़ रहे हैं!”
+
+हाँ…
+
+वे मरने के लिए नहीं…
+मरकर जीतने के लिए लड़ रहे हैं।
+
+एक राजपूत योद्धा…
+घावों से लथपथ…
+फिर भी तलवार चलाता है…
+
+जब तक कि उसका शरीर साथ न छोड़ दे।
+
+एक दूसरा…
+घोड़े से गिरता है…
+फिर उठता है…
+और फिर हमला करता है।
+
+यह युद्ध नहीं है…
+
+यह विस्फोट है।
+
+एक-एक कर…
+वे गिरते जाते हैं…
+
+लेकिन हर गिरते हुए योद्धा के साथ…
+दुश्मन भी गिरता है।
+
+सूरज ऊपर चढ़ता है…
+
+फिर धीरे-धीरे ढलने लगता है…
+
+और अंत में…
+
+मौन।
+
+मैदान… शवों से भर चुका है।
+
+केसरिया… अब रक्त से भीग चुका है।
+
+दुश्मन खड़ा है…
+
+लेकिन उसके सामने…
+
+कोई जीवित शत्रु नहीं है।
+
+सिर्फ…
+
+राख…
+
+और शव।
+
+वह किला… अब खाली है।
+
+उन्होंने उसे जीत लिया है…
+
+लेकिन वहाँ कुछ भी नहीं है।
+
+न महिलाएँ…
+न बच्चे…
+न आत्मा।
+
+केवल पत्थर…
+
+और वह सन्नाटा…
+
+जो कहता है—
+
+“तुमने कुछ नहीं जीता।”
+
+साका…
+
+यह पराजय नहीं था।
+
+यह अंतिम स्वतंत्रता थी।
+
+यह वह क्षण था… जब एक समाज ने तय किया—
+
+कि वह शरीर हार सकता है…
+
+लेकिन आत्मा नहीं।
+
+और आज भी…
+
+जब किसी पुराने किले की दीवारों पर हवा चलती है…
+
+तो एक धीमी सी गर्जना सुनाई देती है—
+
+“केसरिया… केवल रंग नहीं…
+यह अंतिम संकल्प है…”
+`
     ],
-    coverImage: { src: '/images/legends/saka-tradition.jpg', alt: 'Warriors in saffron charging from a fort gate.' }
+    coverImage: { src: '/images/dynasties/gallery/vijay-stambha.jpg', alt: 'Warriors in saffron charging from a fort gate.' }
   },
   {
     id: 'jaisalmer-jauhars',
@@ -1049,11 +27660,324 @@ export const allLegends: Legend[] = [
     era: '13th to 16th Century',
     location: 'Jaisalmer',
     story: [
-      'The Golden Fort of Jaisalmer has witnessed three major Jauhars. The first was during the siege by Alauddin Khalji, the second during the reign of Feroz Shah Tughlaq, and the third was a "Half-Jauhar" in the 16th century.',
-      'In the third instance, there was no time to build a pyre, so the warriors were forced to kill their own women to protect them from capture before they themselves charged to their deaths.',
-      'These episodes are etched into the stone of the fort, serving as a grim but powerful reminder of the cost of maintaining sovereignty in the trackless sands.'
+      `थार का मरुस्थल… जहाँ दिन का सूरज मानो पृथ्वी को जला देने का संकल्प लेकर निकलता है… और रात का अंधकार उतना ही गहरा होता है जितना किसी योद्धा के मन का संकल्प…
+
+उसी अथाह रेत के समुद्र के बीच… एक स्वर्णिम छाया उठती है—जैसलमेर का किला।
+
+दूर से देखने पर ऐसा लगता है मानो सूर्य की किरणें खुद पत्थर बनकर खड़ी हो गई हों… इसलिए उसे कहा गया—स्वर्ण किला।
+
+लेकिन इस स्वर्णिम चमक के भीतर… इतिहास के सबसे भयावह और दर्दनाक अध्याय छिपे हुए हैं।
+
+यह केवल एक किला नहीं था…
+
+यह तीन जौहरों की अग्नि का साक्षी था।
+
+पहला… दूसरा… और फिर तीसरा…
+
+तीन बार… इस किले ने अपनी ही ज्वाला में अपने प्राणों को समर्पित होते देखा।
+
+और हर बार… कारण एक ही था—
+
+सम्मान।
+
+कभी यह किला समृद्धि का प्रतीक था। व्यापार के मार्ग यहाँ से गुजरते थे… ऊँटों के काफिले सोना, रेशम और मसालों से लदे आते-जाते थे…
+
+लेकिन इसी समृद्धि ने इसे शत्रुओं की दृष्टि में ला दिया।
+
+जब अलाउद्दीन खिलजी की सेना ने पहली बार इस किले को घेरा… तो वह केवल विजय नहीं चाहता था…
+
+वह इस स्वर्ण किले को झुकाना चाहता था।
+
+घेराव लंबा चला…
+
+महीनों तक…
+
+किले के भीतर अनाज कम होने लगा… पानी सीमित हो गया…
+
+लेकिन दीवारें अभी भी अडिग थीं।
+
+राजपूत योद्धा हर हमले को रोकते…
+
+ऊपर से तीर बरसते… नीचे से शत्रु टूटते…
+
+“हर हर महादेव!”
+
+गूँजता था…
+
+लेकिन समय…
+
+समय सबसे बड़ा शत्रु होता है।
+
+और फिर…
+
+वह क्षण आया…
+
+जब यह स्पष्ट हो गया कि अब बचना संभव नहीं है।
+
+किले के भीतर एक सभा हुई…
+
+महिलाएँ… माताएँ… बहनें…
+
+सब एकत्र थीं।
+
+कोई रो नहीं रहा था…
+
+कोई काँप नहीं रहा था…
+
+केवल एक मौन था… भारी… और निर्णायक।
+
+एक रानी आगे बढ़ी…
+
+“अब समय आ गया है…”
+
+आग जलाई गई…
+
+लपटें उठीं…
+
+और फिर…
+
+पहला जौहर…
+
+अग्नि ने सब कुछ अपने भीतर समेट लिया…
+
+और उसी अग्नि की रोशनी में…
+
+पुरुषों ने केसरिया पहना…
+
+और अंतिम युद्ध के लिए निकल पड़े।
+
+किले के द्वार खुले…
+
+और फिर…
+
+एक प्रलय…
+
+राजपूत सेना… मृत्यु से परे जाकर लड़ी…
+
+एक-एक कर सब गिर गए…
+
+लेकिन कोई झुका नहीं।
+
+समय बीता…
+
+सदियाँ बदलीं…
+
+लेकिन जैसलमेर का भाग्य नहीं बदला।
+
+फिर आया दूसरा तूफ़ान…
+
+फिरोज शाह तुगलक की सेना…
+
+फिर वही घेराव…
+
+फिर वही संघर्ष…
+
+और फिर…
+
+वही निर्णय…
+
+दूसरा जौहर…
+
+फिर आग…
+
+फिर बलिदान…
+
+फिर रक्त…
+
+और फिर…
+
+मौन।
+
+लेकिन तीसरी बार…
+
+इतिहास ने सबसे क्रूर रूप लिया।
+
+16वीं शताब्दी…
+
+किला फिर संकट में था…
+
+लेकिन इस बार…
+
+समय ने साथ नहीं दिया।
+
+घेराव अचानक हुआ…
+
+तैयारी का अवसर नहीं मिला…
+
+और सबसे भयावह बात—
+
+जौहर के लिए अग्निकुंड तैयार करने का समय भी नहीं था।
+
+किले के भीतर अफरा-तफरी थी…
+
+हर कोई जानता था—
+
+शत्रु दरवाज़े तक पहुँच चुका है।
+
+एक योद्धा ने काँपती आवाज़ में कहा—
+
+“अब क्या करें…?”
+
+उत्तर आया…
+
+धीमे… लेकिन दृढ़ स्वर में—
+
+“सम्मान… हर हाल में बचना चाहिए…”
+
+और फिर…
+
+जो हुआ…
+
+वह इतिहास का सबसे दर्दनाक अध्याय बन गया।
+
+कोई अग्नि नहीं थी…
+
+कोई लपटें नहीं थीं…
+
+लेकिन निर्णय उतना ही कठोर था।
+
+योद्धाओं ने…
+
+अपने ही हाथों से…
+
+अपनी स्त्रियों को…
+
+मृत्यु दी…
+
+ताकि वे शत्रु के हाथों अपमानित न हों।
+
+किले की दीवारों ने वह सब देखा…
+
+हर चीख…
+
+हर आह…
+
+हर टूटता हुआ हृदय…
+
+और फिर…
+
+मौन।
+
+कुछ क्षणों बाद…
+
+वही योद्धा…
+
+जिनके हाथ अभी काँप रहे थे…
+
+उन्होंने तलवारें उठाईं।
+
+अब उनके पास खोने के लिए कुछ भी नहीं था।
+
+केवल प्रतिशोध।
+
+केसरिया पहना गया…
+
+आँखों में आँसू नहीं… केवल आग थी।
+
+एक युवा योद्धा बोला—
+
+“हम अब क्या हैं…?”
+
+उत्तर आया—
+
+“हम अब मृत्यु हैं…”
+
+किले के द्वार खुले…
+
+और फिर…
+
+तीसरा युद्ध।
+
+रेत का तूफ़ान उठा…
+
+घोड़े दौड़े…
+
+तलवारें चमकीं…
+
+और फिर…
+
+रक्त।
+
+हर वार…
+
+हर प्रहार…
+
+एक कहानी बनता गया।
+
+राजपूत सेना…
+
+पूरी शक्ति के साथ…
+
+दुश्मन के बीच घुस गई।
+
+कोई पीछे नहीं हटा…
+
+कोई रुका नहीं…
+
+हर योद्धा…
+
+अंतिम साँस तक लड़ा।
+
+एक मुग़ल सैनिक चिल्लाया—
+
+“ये पागल हैं! ये मरने के लिए लड़ रहे हैं!”
+
+लेकिन वे पागल नहीं थे…
+
+वे मुक्त थे।
+
+क्योंकि उन्होंने पहले ही सब कुछ खो दिया था।
+
+अब उनके लिए केवल एक ही लक्ष्य था—
+
+इतिहास में अमर होना।
+
+धीरे-धीरे…
+
+एक-एक कर…
+
+वे गिरने लगे…
+
+लेकिन हर गिरते हुए योद्धा के साथ…
+
+एक नया शत्रु भी गिरता।
+
+सूरज ढलने लगा…
+
+और मैदान…
+
+मौन हो गया।
+
+जैसलमेर का किला खड़ा रहा…
+
+लेकिन उसकी दीवारों पर…
+
+तीन जौहरों की अग्नि…
+
+हमेशा के लिए अंकित हो गई।
+
+आज भी…
+
+जब सूरज उस किले पर पड़ता है…
+
+तो उसकी चमक केवल स्वर्ण की नहीं होती…
+
+वह उन लपटों की होती है…
+
+जो कभी बुझी नहीं।
+
+वह उन चीखों की होती है…
+
+जो हवा में घुल चुकी हैं।
+
+और वह उस संकल्प की होती है…
+
+जो कहता है—
+
+“स्वतंत्रता की कीमत… कभी-कभी जीवन से भी अधिक होती है…”
+`
     ],
-    coverImage: { src: '/images/legends/jaisalmer-jauhar.jpg', alt: 'The sun setting over the ramparts of Jaisalmer.' }
+    coverImage: { src: '/images/dynasties/places/jaisalmer-bhati-main.jpg', alt: 'The sun setting over the ramparts of Jaisalmer.' }
   },
   {
     id: 'defense-of-ranthambore',
@@ -1063,11 +27987,344 @@ export const allLegends: Legend[] = [
     era: '1301 AD',
     location: 'Ranthambore',
     story: [
-      'Hammir Dev Chauhan is remembered for his refusal to hand over Mughal rebels who had sought refuge in his fort, even when faced with the full might of Alauddin Khalji.',
-      'He famously said, "A lion’s cub, a good man’s word, and a banana tree—these bear fruit only once." His commitment to the code of "Sharanagat" (protecting the seeker of refuge) led to a historic siege.',
-      'The fall of Ranthambore and Hammir’s death are celebrated as the ultimate examples of Rajput integrity, where a guest’s life was more valuable than a king’s crown.'
+      `अरावली की अडिग भुजाओं के बीच, जहाँ पत्थर भी समय को चुनौती देते खड़े रहते हैं… वहीं उठता था एक दुर्ग—रणथंभौर।
+
+ऊँची-ऊँची दीवारें, खाई से घिरा किला, और हर पत्थर में समाई हुई गर्जना—यह केवल एक किला नहीं था… यह था स्वाभिमान का प्रहरी।
+
+और उस प्रहरी का स्वामी था—हम्मीर देव चौहान।
+
+उसका जन्म चौहान वंश की उस परंपरा में हुआ था, जहाँ तलवार केवल युद्ध का औजार नहीं, बल्कि वचन की रक्षा का माध्यम थी। बचपन से ही उसे सिखाया गया—
+
+“राजपूत की पहचान उसकी शक्ति से नहीं… उसके शब्द से होती है।”
+
+हम्मीर ने यह बात अपने हृदय में ऐसे उतारी, जैसे कोई योद्धा अपनी तलवार को म्यान में रखता है—सुरक्षित, पर हर समय तैयार।
+
+जब वह बालक था, तब भी उसकी आँखों में एक अलग ही दृढ़ता थी। वह केवल युद्ध सीखता नहीं था… वह यह भी समझता था कि कब लड़ना है, और क्यों लड़ना है।
+
+घुड़सवारी में वह हवा को पीछे छोड़ देता… धनुष की डोरी खींचते ही तीर लक्ष्य को चीर देता… और तलवार? वह तो उसकी कलाई के साथ एक हो चुकी थी।
+
+समय बीता… और वह रणथंभौर का स्वामी बना।
+
+पर यह समय शांति का नहीं था।
+
+दिल्ली में अलाउद्दीन खिलजी बैठा था—एक ऐसा शासक जिसकी महत्वाकांक्षा सीमाओं को नहीं पहचानती थी। उसका साम्राज्य फैल रहा था… और हर स्वतंत्र किला उसकी आँखों में एक चुनौती था।
+
+और रणथंभौर… वह तो एक काँटा था—जो उसके गले में अटका हुआ था।
+
+इसी बीच… एक घटना घटी…
+
+कुछ विद्रोही… जो दिल्ली के खिलाफ खड़े हुए थे… अपनी जान बचाकर रणथंभौर पहुँचे।
+
+वे थके हुए थे… घायल थे… और उनकी आँखों में भय साफ़ झलक रहा था।
+
+वे दरबार में आए… और झुककर बोले—
+
+“महाराज… हमें शरण दीजिए… हम आपकी शरणागत हैं…”
+
+दरबार में सन्नाटा छा गया।
+
+सब जानते थे—इसका अर्थ क्या है।
+
+अगर हम्मीर उन्हें शरण देते हैं… तो इसका मतलब है—दिल्ली से युद्ध।
+
+एक मंत्री ने धीमे से कहा—
+
+“महाराज… सोच लीजिए… यह सुल्तान से टकराव होगा…”
+
+हम्मीर ने उसकी ओर देखा…
+
+फिर उन शरणागतों की ओर…
+
+और फिर धीरे-धीरे बोले—
+
+“सिंह का बच्चा… सज्जन का वचन… और केले का पेड़…”
+
+पूरा दरबार उनकी ओर देखने लगा।
+
+उन्होंने आगे कहा—
+
+“ये तीनों… केवल एक बार ही फल देते हैं।”
+
+उनकी आवाज़ गूँज उठी—
+
+“मैंने इन्हें शरण दी है… अब मेरा वचन भी केवल एक बार ही फल देगा—और वह है रक्षा!”
+
+बस… उसी क्षण… युद्ध का निर्णय हो गया।
+
+जब यह समाचार दिल्ली पहुँचा… तो अलाउद्दीन का क्रोध भड़क उठा।
+
+“एक किला… हमारी आज्ञा को ठुकराएगा?” उसने गर्जना की।
+
+आदेश दिया गया—
+
+“रणथंभौर को घेर लो… और हम्मीर को झुका दो!”
+
+और फिर…
+
+धरती काँप उठी।
+
+हजारों सैनिक… हाथी… तोपें… और उनके साथ एक ही लक्ष्य—रणथंभौर।
+
+किले के भीतर…
+
+हम्मीर ने अपने सेनापतियों को बुलाया।
+
+“यह युद्ध केवल भूमि का नहीं है…” उन्होंने कहा, “यह युद्ध हमारे वचन का है।”
+
+एक युवा योद्धा बोला—
+
+“महाराज… वे बहुत अधिक हैं…”
+
+हम्मीर मुस्कुराए—
+
+“तो हम उन्हें यह सिखाएँगे… कि संख्या नहीं… संकल्प युद्ध जीतता है।”
+
+और फिर…
+
+घेराव शुरू हुआ।
+
+पहला दिन…
+
+तोपों की गड़गड़ाहट…
+
+धमाका!
+
+किले की दीवारों पर पत्थर टूटे… धूल का बादल उठा…
+
+लेकिन रणथंभौर खड़ा रहा।
+
+ऊपर से राजपूतों ने तीरों की वर्षा की… उबलता तेल फेंका… और हर उस सैनिक को नीचे गिरा दिया जो दीवार के पास आया।
+
+“हर हर महादेव!”
+
+गूँज उठा।
+
+दिन बीतते गए…
+
+मुग़ल सेना बार-बार हमला करती…
+
+और हर बार… वापस धकेल दी जाती।
+
+रात को…
+
+किले के भीतर एक अलग ही योजना बनती।
+
+हम्मीर ने अपने सैनिकों से कहा—
+
+“हम केवल रक्षा नहीं करेंगे… हम हमला भी करेंगे।”
+
+और फिर…
+
+रात के अंधेरे में…
+
+किले का एक गुप्त द्वार खुलता…
+
+राजपूतों का एक दल बाहर निकलता…
+
+वे मुग़ल शिविर पर टूट पड़ते…
+
+तंबुओं में आग लगा देते… सैनिकों को काटते… और फिर अंधेरे में गायब हो जाते।
+
+एक मुग़ल सेनापति चिल्लाया—
+
+“ये युद्ध नहीं… यह आतंक है!”
+
+लेकिन यह आतंक नहीं था…
+
+यह रणनीति थी।
+
+दिन… सप्ताह… और फिर महीने…
+
+घेराव लंबा होता गया।
+
+किले के भीतर…
+
+अनाज कम होने लगा…
+
+पानी घटने लगा…
+
+लेकिन मनोबल?
+
+अडिग।
+
+एक दिन…
+
+एक सैनिक ने आकर कहा—
+
+“महाराज… अब हमारे पास अधिक समय नहीं है…”
+
+हम्मीर ने कुछ क्षण सोचा…
+
+फिर कहा—
+
+“तो अब… अंतिम निर्णय का समय आ गया है…”
+
+सभा बुलाई गई।
+
+हर चेहरा गंभीर था…
+
+लेकिन आँखों में कोई भय नहीं था।
+
+हम्मीर खड़े हुए—
+
+“हम समर्पण कर सकते हैं… और जीवित रह सकते हैं…”
+
+एक क्षण का सन्नाटा…
+
+फिर उन्होंने कहा—
+
+“या फिर… हम साका करेंगे… और अमर हो जाएँगे…”
+
+पूरा दरबार एक साथ गूँज उठा—
+
+“साका!”
+
+रात आई…
+
+और उसके साथ…
+
+जौहर।
+
+महिलाएँ… माताएँ… बहनें…
+
+सब एकत्र हुईं।
+
+आग जलाई गई…
+
+लपटें उठीं…
+
+और उनके साथ…
+
+सम्मान की रक्षा में… असंख्य जीवन अग्नि में विलीन हो गए।
+
+किले के भीतर अब केवल योद्धा बचे थे…
+
+और उनके सामने… अंतिम युद्ध।
+
+सुबह…
+
+सूरज उगा…
+
+और उसके साथ…
+
+किले के द्वार खुले।
+
+हम्मीर देव अपने घोड़े पर सवार थे।
+
+केसरिया बाना…
+
+आँखों में ज्वाला…
+
+और चेहरे पर शांति।
+
+उन्होंने अपनी तलवार उठाई—
+
+“आज… कोई पीछे नहीं हटेगा!”
+
+एक सैनिक ने पूछा—
+
+“महाराज… क्या हम जीतेंगे?”
+
+हम्मीर ने उत्तर दिया—
+
+“आज… हम अपने वचन को जीतेंगे…”
+
+“हर हर महादेव!”
+
+और फिर…
+
+वे निकल पड़े।
+
+मुग़ल सेना तैयार खड़ी थी…
+
+लेकिन जो हुआ… वह किसी तूफ़ान से कम नहीं था।
+
+राजपूत सेना…
+
+पूरी शक्ति के साथ…
+
+सीधे उनके बीच घुस गई।
+
+तलवारें टकराईं…
+
+घोड़े भिड़े…
+
+चीखें गूँजीं…
+
+रक्त बहा…
+
+हर योद्धा…
+
+अपने अंतिम प्रहार तक लड़ा।
+
+हम्मीर सबसे आगे थे।
+
+उनकी तलवार…
+
+हर वार के साथ…
+
+एक नया मार्ग बना रही थी।
+
+एक मुग़ल सेनापति ने उन्हें घेर लिया—
+
+“अब तुम्हारा अंत है, हम्मीर!”
+
+हम्मीर ने मुस्कुराकर कहा—
+
+“राजपूत का अंत नहीं होता… वह उदाहरण बन जाता है…”
+
+और फिर…
+
+अंतिम युद्ध…
+
+उनकी तलवार चली…
+
+एक… दो… तीन…
+
+लेकिन घाव गहरे थे…
+
+रक्त बह रहा था…
+
+धीरे-धीरे…
+
+उनकी गति धीमी हुई…
+
+और फिर…
+
+वे घुटनों पर गिरे…
+
+आसमान की ओर देखा…
+
+और अंतिम साँस ली।
+
+रणथंभौर गिर गया…
+
+मुग़ल सेना किले में प्रवेश कर गई…
+
+लेकिन…
+
+जो वे जीत पाए…
+
+वह केवल पत्थर थे।
+
+क्योंकि उस दिन…
+
+हम्मीर ने दिखा दिया—
+
+कि एक शरणागत का जीवन…
+
+एक राजा के मुकुट से भी अधिक मूल्यवान होता है।
+
+और आज भी…
+
+रणथंभौर की दीवारें…
+
+उस वचन को दोहराती हैं—
+
+“राजपूत का शब्द… एक बार ही फल देता है…”
+`
     ],
-    coverImage: { src: '/images/legends/ranthambore.jpg', alt: 'The imposing cliffs of Ranthambore Fort.' }
+    coverImage: { src: '/images/dynasties/places/mewar.jpg', alt: 'The imposing cliffs of Ranthambore Fort.' }
   },
   {
     id: 'siege-of-siwana',
@@ -1077,11 +28334,312 @@ export const allLegends: Legend[] = [
     era: '1308 AD',
     location: 'Siwana, Marwar',
     story: [
-      'The fort of Siwana, under Sital Dev, was a bastion of resistance against Alauddin Khalji’s expansion into the desert. The siege lasted for months, testing the endurance of both sides.',
-      'When the water supply was finally poisoned, the defenders chose the Saka. Sital Dev’s head was sent to the Sultan, but his spirit remained in the songs of the desert.',
-      'The defense of Siwana proved that even the most remote desert outposts could become centers of a powerful, uncompromising will.'
+      `रेगिस्तान… जहाँ दिन में सूरज आग बरसाता है और रात में सन्नाटा तलवार की धार जैसा तेज़ हो जाता है… उसी निर्जन विस्तार के बीच उठता था एक किला—सीवाना।
+
+पत्थरों से बना… लेकिन इरादों में लोहे से भी कठोर।
+
+और उस किले का स्वामी था—सीतल देव।
+
+उसका जन्म किसी साधारण समय में नहीं हुआ था। यह वह युग था जब हर दिशा से आक्रांताओं के कदमों की धूल उठ रही थी… जब दिल्ली की गद्दी पर बैठा अलाउद्दीन खिलजी अपने साम्राज्य को रेगिस्तान तक फैलाने की ठान चुका था।
+
+सीतल देव बचपन से ही युद्ध की गोद में पला था।
+
+जब दूसरे बालक खेलते थे, वह तलवार की धार पर उँगलियाँ फेरता था… जब वे घोड़े पर बैठना सीखते थे, वह उन्हें दौड़ाते हुए दुश्मन के काल्पनिक सिर काटने की कल्पना करता था।
+
+उसके पिता ने एक दिन कहा था—
+
+“सीतल… किला केवल पत्थरों से नहीं बचता… उसे बचाने के लिए दिल पत्थर से भी कठोर होना चाहिए।”
+
+उसने यह बात अपने भीतर गहराई तक उतार ली।
+
+समय बीता… और वह बालक सीवाना का स्वामी बना।
+
+लेकिन यह राजसिंहासन किसी शांति का प्रतीक नहीं था… यह एक चेतावनी थी—कि तूफ़ान आने वाला है।
+
+दिल्ली में… अलाउद्दीन खिलजी की आँखें अब सौराष्ट्र और मरुस्थल की ओर टिक चुकी थीं। उसकी सेना ने कई किले गिरा दिए थे… और अब उसकी नज़र सीवाना पर थी।
+
+क्योंकि सीवाना केवल एक किला नहीं था… यह एक दरवाज़ा था—मरुस्थल के भीतर जाने का।
+
+और वह दरवाज़ा… सीतल देव ने बंद कर दिया था।
+
+जब सुल्तान का दूत आया… उसने कहा—
+
+“सीवाना को सौंप दो… या फिर उसका नाम भी इतिहास से मिटा दिया जाएगा।”
+
+दरबार में सन्नाटा छा गया।
+
+सीतल देव ने दूत की आँखों में सीधा देखा—
+
+“इतिहास मिटाने वाले बहुत आए… लेकिन कुछ नाम पत्थरों पर नहीं… रक्त में लिखे जाते हैं।”
+
+दूत चला गया।
+
+और उसी के साथ… युद्ध निश्चित हो गया।
+
+कुछ ही समय बाद… क्षितिज पर धूल का एक विशाल गुबार उठा।
+
+अलाउद्दीन की सेना…
+
+हजारों सैनिक… हाथी… घोड़े… और उनके साथ वह क्रूर संकल्प—कि सीवाना को हर हाल में जीतना है।
+
+किले के भीतर… तैयारी शुरू हो चुकी थी।
+
+सीतल देव ने अपने सेनापतियों को बुलाया—
+
+“हम संख्या में कम हैं… लेकिन यह किला हमारा साथ देगा। हर दीवार… हर चट्टान… हमारी ढाल है।”
+
+एक युवा योद्धा बोला—
+
+“महाराज… वे बहुत अधिक हैं…”
+
+सीतल देव मुस्कुराया—
+
+“तो हम उन्हें थका देंगे… भूखा रखेंगे… और फिर… एक-एक कर काटेंगे।”
+
+और फिर… घेराव शुरू हुआ।
+
+दिन… सप्ताह… और फिर महीने…
+
+मुग़ल सेना ने किले को चारों ओर से घेर लिया।
+
+कोई अंदर नहीं जा सकता था… कोई बाहर नहीं निकल सकता था।
+
+पहले दिन… तोपों की गड़गड़ाहट से शुरू हुए।
+
+धमाका!
+
+पत्थर टूटे… दीवारों पर दरारें आईं…
+
+लेकिन सीवाना झुका नहीं।
+
+ऊपर से राजपूतों ने तीरों की वर्षा की… उबलता तेल फेंका… और हर उस सैनिक को नीचे गिरा दिया जो दीवार के पास आया।
+
+“हर हर महादेव!”
+
+गूँजता था… और हर बार एक नया आक्रमण विफल हो जाता था।
+
+रात को…
+
+जब मुग़ल सेना अपने शिविर में आराम करती…
+
+अचानक किले का एक छोटा द्वार खुलता…
+
+और राजपूतों का एक दल बाहर निकलता।
+
+वे बिजली की तरह हमला करते… शिविर में आग लगाते… और फिर अंधेरे में गायब हो जाते।
+
+एक मुग़ल सेनापति चिल्लाया—
+
+“ये छाया की तरह आते हैं… और मौत बनकर लौट जाते हैं!”
+
+दिन बीतते गए…
+
+मुग़ल सेना थकने लगी… लेकिन उनका संकल्प अभी भी अडिग था।
+
+उन्होंने रणनीति बदली।
+
+सीधे हमले की जगह… उन्होंने इंतज़ार करना शुरू किया।
+
+“उन्हें भूखा मरने दो…” आदेश दिया गया।
+
+किले के भीतर…
+
+अनाज कम होने लगा…
+
+पानी सीमित हो गया…
+
+लेकिन सबसे बड़ा आघात अभी बाकी था।
+
+एक दिन…
+
+किले के जलस्रोत से अजीब सी गंध आने लगी।
+
+सैनिकों ने पानी पिया… और कुछ ही देर में… गिरने लगे।
+
+ज़हर…
+
+जल में ज़हर मिला दिया गया था।
+
+किले में हाहाकार मच गया।
+
+एक सैनिक भागता हुआ सीतल देव के पास आया—
+
+“महाराज… पानी… विषाक्त हो चुका है…”
+
+एक क्षण के लिए… समय थम गया।
+
+सीतल देव ने धीरे-धीरे आँखें बंद कीं…
+
+और फिर खोलीं…
+
+उनकी आँखों में अब कोई भ्रम नहीं था… केवल निर्णय था।
+
+“तो अब… अंतिम समय आ गया है…”
+
+सभा बुलाई गई।
+
+किले के भीतर… हर चेहरा थका हुआ था… लेकिन आँखों में अभी भी वही ज्वाला थी।
+
+सीतल देव खड़े हुए—
+
+“हमारे पास अब दो रास्ते हैं… या तो आत्मसमर्पण… या फिर… साका।”
+
+एक क्षण के लिए सन्नाटा…
+
+फिर एक साथ आवाज़ गूँजी—
+
+“साका!”
+
+यह निर्णय था… अंतिम।
+
+रात आई…
+
+और उसके साथ… जौहर की तैयारी।
+
+महिलाएँ… माताएँ… बहनें…
+
+सब एकत्र हुईं।
+
+आग जलाई गई…
+
+लपटें उठीं…
+
+और उनके साथ… असंख्य जीवन… सम्मान की रक्षा में अग्नि को समर्पित हो गए।
+
+किले के भीतर अब केवल योद्धा बचे थे…
+
+और उनके सामने… मृत्यु।
+
+सुबह…
+
+सूरज उगा…
+
+और उसके साथ… किले के द्वार खुले।
+
+सीतल देव अपने घोड़े पर सवार थे।
+
+केसरिया बाना… रक्त से भीगा हुआ…
+
+आँखों में शांति… और भीतर प्रलय।
+
+उन्होंने अपनी तलवार उठाई—
+
+“आज… कोई लौटेगा नहीं…”
+
+एक सैनिक ने कहा—
+
+“महाराज… क्या हम जीतेंगे?”
+
+सीतल देव ने उत्तर दिया—
+
+“आज… हम अमर होंगे।”
+
+“हर हर महादेव!”
+
+और फिर…
+
+वे निकल पड़े।
+
+मुग़ल सेना तैयार खड़ी थी…
+
+लेकिन जो उन्होंने देखा… वह युद्ध नहीं था… वह तूफ़ान था।
+
+राजपूत सेना… पूरी शक्ति के साथ… सीधे उनके बीच घुस गई।
+
+तलवारें टकराईं…
+
+घोड़े भिड़े…
+
+चीखें गूँजीं…
+
+रक्त बहा…
+
+हर योद्धा… अपने अंतिम प्रहार तक लड़ा।
+
+सीतल देव सबसे आगे थे।
+
+उनकी तलवार… हर वार के साथ… एक नया मार्ग बना रही थी—रक्त का।
+
+एक मुग़ल अधिकारी ने उन्हें घेर लिया—
+
+“अब तुम्हारा अंत है!”
+
+सीतल देव हँसे—
+
+“राजपूत का अंत नहीं होता… केवल कथा शुरू होती है…”
+
+और फिर…
+
+अंतिम युद्ध…
+
+उनकी तलवार चली…
+
+एक… दो… तीन…
+
+लेकिन घाव गहरे थे…
+
+रक्त बह रहा था…
+
+धीरे-धीरे… उनकी गति धीमी हुई…
+
+और फिर…
+
+एक अंतिम वार…
+
+वे घुटनों पर गिरे…
+
+आसमान की ओर देखा…
+
+और शांत हो गए।
+
+युद्ध समाप्त हुआ…
+
+सीवाना गिर गया…
+
+मुग़ल सेना किले के भीतर आई…
+
+और उनके सामने… केवल मौन था…
+
+और राख…
+
+सीतल देव का सिर काटकर सुल्तान के पास भेजा गया…
+
+लेकिन…
+
+उसका शरीर नहीं… उसकी आत्मा नहीं…
+
+वह तो वहीं रह गई…
+
+रेगिस्तान की हवाओं में…
+
+गीतों में…
+
+कहानियों में…
+
+क्योंकि उस दिन…
+
+एक छोटे से किले ने…
+
+दुनिया को यह दिखा दिया—
+
+कि शक्ति केवल संख्या में नहीं होती…
+
+वह संकल्प में होती है…
+
+और जब संकल्प अडिग हो…
+
+तो मृत्यु भी हार जाती है।
+
+आज भी…
+
+जब सीवाना के खंडहरों पर हवा चलती है…
+
+तो मानो एक आवाज़ गूँजती है—
+
+“साका… केवल मृत्यु नहीं… अमरत्व है…”
+`
     ],
-    coverImage: { src: '/images/legends/siwana-fort.jpg', alt: 'The rugged walls of Siwana Fort under a desert sky.' }
+    coverImage: { src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'The rugged walls of Siwana Fort under a desert sky.' }
   },
   {
     id: 'defense-of-jalor',
@@ -1091,11 +28649,234 @@ export const allLegends: Legend[] = [
     era: '1311 AD',
     location: 'Jalor',
     story: [
-      'Kanhadadev of Jalor is celebrated for his resistance against Alauddin Khalji, particularly his refusal to let the Sultan’s army pass through his territory to attack Gujarat.',
-      'The ensuing war and the final siege of Jalor are immortalized in the epic "Kanhadade Prabandha." The fort’s fall was marked by a massive Jauhar and a final, desperate charge.',
-      'His story is a reminder that the smallest kingdoms often provided the fiercest resistance when their autonomy and honor were at stake.'
+      `अरावली की पश्चिमी भुजाओं में, जहाँ रेगिस्तान का सुनहरा विस्तार पहाड़ियों से टकराकर थम जाता है… वहीं उठता है एक दुर्ग—जालोर। पत्थरों से बना, पर आत्मा में अग्नि लिए… और उसी अग्नि का नाम था—कान्हड़देव।
+
+कान्हड़देव का जन्म राजसी वैभव में हुआ, पर उनकी आँखों में बचपन से ही वैभव से अधिक कुछ और था—स्वतंत्रता की चमक। जालोर के राजमहल में, जहाँ दीवारों पर पूर्वजों की विजयगाथाएँ उकेरी थीं, वहीं एक बालक तलवार को खिलौना नहीं, वचन मानकर थामता था।
+
+“राजपूत की साँस भी उसकी मर्यादा के साथ चलती है,” उनके गुरु कहते, “और जब मर्यादा पर आंच आए… तो साँसें भी तलवार बन जाती हैं।”
+
+कान्हड़देव ने यह बात अपने हृदय में उतार ली।
+
+घुड़सवारी में वे हवा को पछाड़ देते… धनुष की डोरी खींचते तो तीर मानो बिजली बन जाता… और तलवार? वह तो उनकी कलाई का विस्तार थी—तेज़, सटीक, और निर्मम।
+
+समय बीता… और वह बालक जालोर का स्वामी बना। पर यह समय आसान नहीं था।
+
+दिल्ली में बैठा अलाउद्दीन खिलजी अपनी शक्ति के चरम पर था। उसके सेनापति एक-एक कर राजाओं को झुका रहे थे। गुजरात उसकी दृष्टि में था—समृद्ध, शक्तिशाली, और रणनीतिक।
+
+और गुजरात तक पहुँचने का सबसे सीधा मार्ग… जालोर से होकर गुजरता था।
+
+एक दिन, दिल्ली से संदेश आया।
+
+सुल्तान की मुहर लगी हुई थी।
+
+“हमारी सेना को जालोर से गुजरने दो। यह केवल मार्ग है… युद्ध नहीं।”
+
+दरबार में सन्नाटा छा गया।
+
+सब समझते थे—यह केवल मार्ग नहीं, अधीनता का संकेत था।
+
+कान्हड़देव ने संदेश पढ़ा… फिर धीरे से उसे मोड़कर रख दिया।
+
+उनकी आँखों में स्थिर ज्वाला थी।
+
+“जालोर की धरती… किसी आक्रमण का रास्ता नहीं बनेगी।”
+
+एक दरबारी ने धीमे से कहा—“महाराज… यह सुल्तान का आदेश है…”
+
+कान्हड़देव की आवाज़ गूँजी—“जालोर में केवल एक ही आदेश चलता है… और वह है—स्वाभिमान का!”
+
+और उसी क्षण… युद्ध का निर्णय हो गया।
+
+अलाउद्दीन के दरबार में जब यह उत्तर पहुँचा… तो क्रोध से वातावरण भारी हो गया।
+
+“एक छोटा सा किला… हमारी राह रोकेगा?” सुल्तान की आँखों में आग थी।
+
+आदेश दिया गया—“जालोर को मिटा दो!”
+
+और फिर… दिल्ली से एक विशाल सेना चली।
+
+हाथी, घोड़े, तोपें, और हजारों सैनिक…
+
+धरती काँप उठी।
+
+कान्हड़देव ने भी तैयारी शुरू कर दी।
+
+जालोर का किला—ऊँची दीवारें, संकरी चढ़ाई, और चारों ओर पहाड़ियों की ढाल। यह दुर्ग केवल पत्थरों का नहीं, रणनीति का भी था।
+
+“हम मैदान में नहीं लड़ेंगे,” कान्हड़देव ने अपने सेनापतियों से कहा, “हम उन्हें थकाएँगे… हर मोड़ पर… हर चट्टान के पीछे…”
+
+और फिर शुरू हुआ पहला संघर्ष।
+
+मुग़ल सेना जैसे ही अरावली की घाटियों में प्रवेश करती… अचानक तीरों की वर्षा शुरू हो जाती।
+
+ऊपर से पत्थर गिरते… नीचे से घुड़सवार हमला करते…
+
+और फिर… सब गायब।
+
+यह युद्ध नियमों से नहीं… बुद्धि से लड़ा जा रहा था।
+
+एक मुग़ल सेनापति चिल्लाया—“इन कायरों को सामने आकर लड़ने दो!”
+
+ऊपर से आवाज़ आई—
+
+“राजपूत कायर नहीं होते… वे केवल मूर्ख नहीं होते!”
+
+तीर सीधा उसके सीने में आकर धँस गया।
+
+दिन बीतते गए… मुग़ल सेना थकने लगी… पर उनका लक्ष्य स्पष्ट था—जालोर।
+
+आख़िरकार… वे किले के सामने पहुँचे।
+
+और फिर शुरू हुआ—घेराव।
+
+चारों ओर मुग़ल शिविर लग गए। तोपें तैनात हुईं। हाथियों को आगे लाया गया।
+
+पहला हमला…
+
+धमाका!
+
+तोपों की गूँज से आसमान काँप उठा। किले की दीवारों पर दरारें पड़ने लगीं।
+
+राजपूतों ने ऊपर से उबलता तेल फेंका… तीरों की वर्षा की…
+
+“हर हर महादेव!”
+
+गूँज उठी।
+
+मुग़ल सैनिक दीवारों पर चढ़ने लगे… सीढ़ियाँ लगाईं गईं…
+
+लेकिन हर सीढ़ी पर… हर कदम पर… मृत्यु खड़ी थी।
+
+कान्हड़देव स्वयं दीवार पर खड़े थे।
+
+उनकी तलवार हर उस सैनिक को नीचे गिरा रही थी… जो ऊपर आने की कोशिश करता।
+
+एक क्षण के लिए उनकी नज़र दूर खड़े मुग़ल शिविर पर गई…
+
+“वे रुकेंगे नहीं…” उन्होंने कहा, “हमें भी नहीं रुकना है…”
+
+दिन महीनों में बदल गए।
+
+अनाज कम होने लगा… पानी सीमित हो गया…
+
+लेकिन मनोबल?
+
+अडिग।
+
+फिर… एक रात…
+
+किले के भीतर एक सभा हुई।
+
+मौन… भारी… और निर्णायक।
+
+महिलाएँ… माताएँ… बहनें… सब एकत्र थीं।
+
+एक वृद्धा आगे बढ़ी—
+
+“महाराज… अब समय आ गया है…”
+
+कान्हड़देव की आँखें एक क्षण के लिए झुक गईं…
+
+वे समझ गए।
+
+यह था—जौहर का निर्णय।
+
+रात गहरी थी…
+
+आग की लपटें उठीं…
+
+और उनके साथ… असंख्य जीवन… सम्मान की रक्षा में… अग्नि में विलीन हो गए।
+
+किले के बाहर… मुग़ल सेना को कुछ समझ नहीं आया…
+
+लेकिन किले के भीतर… सब बदल चुका था।
+
+सुबह हुई…
+
+और किले के द्वार खुले।
+
+कान्हड़देव अपने अंतिम युद्ध के लिए तैयार खड़े थे।
+
+केसरिया बाना… रक्त से भीगा हुआ…
+
+आँखों में मृत्यु का भय नहीं… केवल क्रोध और शांति का अजीब मिश्रण।
+
+“आज… कोई पीछे नहीं हटेगा,” उन्होंने कहा।
+
+एक युवा सैनिक बोला—
+
+“महाराज… आज जीत या हार?”
+
+कान्हड़देव मुस्कुराए—
+
+“आज… केवल इतिहास लिखा जाएगा।”
+
+और फिर—
+
+“हर हर महादेव!”
+
+राजपूत सेना बिजली की तरह बाहर निकली।
+
+यह अब युद्ध नहीं था… यह प्रलय था।
+
+हर योद्धा… एक अग्नि की तरह… दुश्मन के बीच घुस रहा था।
+
+तलवारें टूट रही थीं… भाले चटक रहे थे…
+
+लेकिन कोई रुक नहीं रहा था।
+
+कान्हड़देव सबसे आगे थे।
+
+उनकी तलवार… एक-एक वार के साथ… कईयों को गिरा रही थी।
+
+एक मुग़ल सेनापति ने उन्हें घेर लिया—
+
+“अब खत्म हो जाओगे, कान्हड़देव!”
+
+उन्होंने उत्तर दिया—
+
+“राजपूत कभी खत्म नहीं होता… वह कथा बन जाता है!”
+
+और फिर… अंतिम वार…
+
+धीरे-धीरे… उनकी गति धीमी हुई…
+
+घाव गहरे थे… रक्त बह रहा था…
+
+लेकिन उनके चेहरे पर एक शांति थी।
+
+वे घुटनों पर गिरे…
+
+आसमान की ओर देखा…
+
+और अंतिम साँस ली।
+
+युद्ध समाप्त हुआ…
+
+जालोर गिर गया…
+
+लेकिन जो बचा… वह पराजय नहीं थी…
+
+वह था—अमरत्व।
+
+क्योंकि उस दिन…
+
+एक छोटे से राज्य ने…
+
+एक विशाल साम्राज्य को दिखा दिया…
+
+कि जब सम्मान दाँव पर हो…
+
+तो आकार नहीं… साहस मायने रखता है।
+
+और आज भी… जालोर की हवाएँ…
+
+उस अंतिम गर्जना को दोहराती हैं—
+
+“राजपूत कभी झुकता नहीं…”
+`
     ],
-    coverImage: { src: '/images/legends/jalor-fort.jpg', alt: 'The high ramparts of Jalor overlooking the plains.' }
+    coverImage: { src: '/images/dynasties/seals/paramara-malwa-seal.jpg', alt: 'The high ramparts of Jalor overlooking the plains.' }
   },
   {
     id: 'bhuchar-mori-war',
@@ -1105,11 +28886,232 @@ export const allLegends: Legend[] = [
     era: '1591 AD',
     location: 'Dhrol, Gujarat',
     story: [
-      'The Battle of Bhuchar Mori was fought between the forces of the Nawanagar State and the Mughal Empire. It is remembered for the massive scale of the conflict and the high cost of life.',
-      'The Jam of Nawanagar, along with his Rajput and Kathi allies, fought to protect a Mughal rebel who had sought their refuge. The battlefield became a sea of saffron.',
-      'The war is a significant chapter in the history of the Jadeja Rajputs, showing that the code of honor was as strong in the coastal plains as it was in the desert hills.'
+      `सौराष्ट्र की धरती… जहाँ समुद्र की लहरें भी मानो शौर्य के गीत गाती थीं… जहाँ हवा में नमक के साथ-साथ तलवारों की चमक और रक्त की गंध भी घुली रहती थी…
+
+वहीं, भुचर मोरी का वह मैदान… जो कभी शांत था… एक दिन इतिहास के सबसे भयानक और रक्तरंजित युद्धों का साक्षी बनने वाला था।
+
+यह कहानी केवल एक युद्ध की नहीं थी… यह कहानी थी वचन की… शरण की… और उस मर्यादा की… जिसे निभाने के लिए राजपूत अपने प्राण भी हँसते-हँसते न्योछावर कर देते थे।
+
+नवानगर… जाडेजा राजपूतों की भूमि… जहाँ राजसत्ता केवल शक्ति से नहीं, बल्कि सम्मान से चलती थी। वहाँ के शासक, जाम, केवल राजा नहीं थे… वे उस परंपरा के रक्षक थे, जहाँ “शरणागत” की रक्षा करना धर्म से भी ऊपर माना जाता था।
+
+जाम का जन्म उसी परंपरा में हुआ था। बचपन से ही उन्हें तलवार चलाने के साथ-साथ यह भी सिखाया गया था कि एक सच्चा राजपूत केवल युद्ध नहीं लड़ता… वह अपने वचन के लिए जीता है और उसी के लिए मरता है।
+
+घुड़सवारी, भाला, तलवार—ये सब उनके लिए खेल नहीं थे, बल्कि जीवन का हिस्सा थे। उनके गुरु अक्सर कहते—
+
+“जाम, याद रखना… तलवार हाथ में लेना आसान है… लेकिन उसे धर्म के लिए उठाना ही सच्ची वीरता है।”
+
+समय बीता… और वह बालक एक योद्धा बन गया… फिर एक राजा…
+
+लेकिन उस समय का राजनीतिक वातावरण शांत नहीं था।
+
+मुग़ल साम्राज्य अपनी चरम शक्ति पर था। अकबर का साम्राज्य उत्तर से लेकर पश्चिम तक फैल चुका था। उसके सेनापति हर उस क्षेत्र को अपने अधीन करना चाहते थे, जो अभी भी स्वतंत्र था।
+
+और तभी… एक घटना ने पूरे सौराष्ट्र को युद्ध की आग में झोंक दिया।
+
+एक मुग़ल विद्रोही… जो साम्राज्य के खिलाफ खड़ा हुआ था… अपनी जान बचाने के लिए नवानगर पहुँचा।
+
+वह थका हुआ था… घायल था… और उसकी आँखों में भय साफ़ दिखाई दे रहा था।
+
+वह जाम के दरबार में पहुँचा… और झुककर बोला—
+
+“मुझे शरण दीजिए… मैं आपका आश्रित हूँ…”
+
+दरबार में सन्नाटा छा गया।
+
+सब जानते थे—इसका अर्थ क्या है।
+
+अगर जाम उसे शरण देते हैं… तो इसका सीधा मतलब था—मुग़ल साम्राज्य से युद्ध।
+
+एक क्षण के लिए सबकी निगाहें जाम पर टिक गईं।
+
+जाम ने धीरे-धीरे उठकर उस व्यक्ति को देखा…
+
+फिर दृढ़ स्वर में बोले—
+
+“जो मेरी शरण में आया है… उसकी रक्षा मेरा धर्म है… चाहे इसके लिए मुझे अपने प्राण ही क्यों न देने पड़ें।”
+
+बस… उसी क्षण… युद्ध का निर्णय हो गया।
+
+मुग़ल दरबार में यह समाचार पहुँचा… और तुरंत ही एक विशाल सेना सौराष्ट्र की ओर बढ़ने लगी।
+
+हजारों सैनिक… हाथी… तोपें… घोड़े…
+
+धरती काँपने लगी।
+
+जाम ने भी अपने सहयोगियों को बुलाया—राजपूत, काठी, और अन्य योद्धा…
+
+हर दिशा से योद्धा आने लगे।
+
+हर एक के सिर पर केसरिया साफा… हर एक की आँखों में केवल एक ही संकल्प—
+
+“मरेंगे… लेकिन वचन नहीं तोड़ेंगे।”
+
+और फिर… वह दिन आया…
+
+भुचर मोरी का मैदान… जहाँ दूर तक फैला हुआ समतल क्षेत्र… अब युद्ध के लिए तैयार था।
+
+सुबह की पहली किरण के साथ… दोनों सेनाएँ आमने-सामने खड़ी थीं।
+
+एक ओर मुग़ल सेना—संगठित, विशाल, और सुसज्जित।
+
+दूसरी ओर—जाम की सेना—संख्या में कम, लेकिन हृदय में अग्नि लिए हुए।
+
+हवा में तनाव इतना घना था कि मानो तलवार से काटा जा सके।
+
+और फिर…
+
+“हर हर महादेव!”
+
+यह गर्जना आसमान को चीर गई।
+
+राजपूत सेना बिजली की तरह आगे बढ़ी।
+
+घोड़ों की टापों से धरती काँप उठी… धूल का बादल आसमान तक उठ गया…
+
+पहली टक्कर…
+
+“छन्न!”
+
+तलवारें भिड़ीं… भाले आर-पार हुए…
+
+चीखें… गर्जनाएँ… और रक्त…
+
+युद्ध शुरू हो चुका था।
+
+मुग़ल सेना ने अपनी तोपों से हमला किया। धमाकों की आवाज़ से मैदान गूँज उठा। कई योद्धा उसी क्षण धराशायी हो गए।
+
+लेकिन राजपूत रुके नहीं।
+
+वे और तेज़ी से आगे बढ़े।
+
+जाम स्वयं सबसे आगे थे।
+
+उनकी तलवार हर वार के साथ एक नई लकीर खींच रही थी—रक्त की।
+
+एक मुग़ल अधिकारी उनके सामने आया—
+
+“तुम्हें अभी भी मौका है, जाम! विद्रोही को सौंप दो… और अपनी जान बचा लो!”
+
+जाम की आँखों में क्रोध चमका—
+
+“राजपूत अपनी जान दे सकता है… लेकिन अपने वचन से नहीं मुकरता!”
+
+और अगले ही पल… तलवार चली…
+
+वह अधिकारी गिर पड़ा।
+
+युद्ध और भयानक हो गया।
+
+काठी योद्धा अपने भालों के साथ दुश्मन की पंक्तियों को चीरते हुए आगे बढ़ रहे थे। घोड़े टकरा रहे थे… सैनिक गिर रहे थे… रक्त की धारा बह रही थी।
+
+मुग़ल सेना ने अपनी रणनीति बदली।
+
+उन्होंने चारों ओर से घेरने की कोशिश की।
+
+जाम ने तुरंत आदेश दिया—
+
+“दाएँ पंख को पीछे हटाओ… उन्हें अंदर आने दो… फिर चारों ओर से घेरो!”
+
+यह एक जोखिम भरा निर्णय था…
+
+लेकिन यही युद्ध की दिशा बदल सकता था।
+
+राजपूतों ने पीछे हटने का नाटक किया…
+
+मुग़ल सेना अंदर घुस आई…
+
+और फिर—
+
+“अब!”
+
+चारों ओर से हमला हुआ।
+
+मुग़ल सेना कुछ क्षणों के लिए भ्रमित हो गई।
+
+लेकिन उनकी संख्या बहुत अधिक थी…
+
+धीरे-धीरे… वे फिर से संभलने लगे।
+
+युद्ध अब अपने चरम पर था।
+
+सूरज सिर पर था… और मैदान अब सचमुच केसरिया हो चुका था—
+
+साफों से… और रक्त से।
+
+घंटों तक युद्ध चलता रहा…
+
+हर क्षण… हर वार… मृत्यु का संदेश लेकर आ रहा था।
+
+राजपूत एक-एक कर गिरने लगे…
+
+लेकिन कोई पीछे नहीं हटा।
+
+हर योद्धा आखिरी साँस तक लड़ा।
+
+जाम के चारों ओर अब केवल कुछ ही सैनिक बचे थे।
+
+उनके शरीर पर घाव थे… रक्त बह रहा था…
+
+लेकिन उनकी आँखों में वही आग थी।
+
+एक साथी ने कहा—
+
+“जाम… अब पीछे हट जाइए… अभी भी समय है…”
+
+जाम ने धीमे से सिर हिलाया—
+
+“जो अपने आश्रित को छोड़कर भाग जाए… वह राजा नहीं… कायर होता है…”
+
+और फिर… वह फिर से युद्ध में कूद पड़े।
+
+उनकी तलवार आखिरी बार चमकी…
+
+और फिर…
+
+धीरे-धीरे… वह भी थम गई।
+
+सूरज ढलने लगा…
+
+और भुचर मोरी का मैदान… मौन हो गया।
+
+चारों ओर केवल शव थे…
+
+घोड़े… सैनिक… और वह केसरिया रंग…
+
+जो अब इतिहास बन चुका था।
+
+यह युद्ध जीत या हार का नहीं था…
+
+यह युद्ध उस मर्यादा का था… जिसे जाम ने अंत तक निभाया।
+
+मुग़ल सेना मैदान में खड़ी थी…
+
+लेकिन उनकी आँखों में भी एक अजीब सा सम्मान था।
+
+क्योंकि उन्होंने देखा था—
+
+कैसे कुछ हजार योद्धाओं ने… अपने वचन के लिए… एक साम्राज्य को चुनौती दी…
+
+और अंत तक लड़े।
+
+भुचर मोरी…
+
+सिर्फ एक युद्ध नहीं…
+
+एक गाथा है…
+
+जहाँ समुद्र के किनारे भी… राजपूती सम्मान उतना ही ऊँचा था…
+
+जितना रेगिस्तान की पहाड़ियों में।
+
+और आज भी… जब सौराष्ट्र की हवाएँ चलती हैं…
+
+तो मानो एक धीमी सी आवाज़ सुनाई देती है—
+
+“वचन… प्राणों से भी बड़ा होता है…”
+`
     ],
-    coverImage: { src: '/images/legends/bhuchar-mori.jpg', alt: 'A memorial at the site of the Bhuchar Mori battlefield.' }
+    coverImage: { src: '/images/dynasties/places/solanki-chaulukya-main.jpg', alt: 'A memorial at the site of the Bhuchar Mori battlefield.' }
   },
   {
     id: 'rajput-counterattack-dewair',
@@ -1119,11 +29121,124 @@ export const allLegends: Legend[] = [
     era: '1582 AD',
     location: 'Dewair, Mewar',
     story: [
-      'The Battle of Dewair in 1582 was a pivotal victory for Maharana Pratap. It marked the beginning of his successful counter-offensive to reclaim the territories lost to the Mughals.',
-      'Pratap’s forces launched a surprise attack on the Mughal garrison at Dewair, catching them off guard. The victory boosted the morale of the Rajput forces and led to the fall of several other outposts.',
-      'Dewair is remembered as the moment when the momentum shifted, proving that a determined guerrilla force could eventually overcome a much larger imperial army.'
+      `अरावली की दुर्गम पहाड़ियों के बीच, जहाँ पत्थरों से टकराकर हवाएँ भी एक अलग ही स्वर में गूँजती थीं, वहीं से उठी थी एक प्रतिज्ञा—स्वाभिमान की, स्वतंत्रता की, और अंत तक संघर्ष की।
+
+यह कहानी है उस क्षण की, जब पराजय के अंधकार को चीरते हुए एक योद्धा ने इतिहास की दिशा बदल दी… और उस युद्धभूमि का नाम था—दिवेर।
+
+मेवाड़ की धरती, जो कभी वैभव और वीरता का प्रतीक थी, अब घावों से भरी हुई थी। चित्तौड़ का पतन हो चुका था, मुग़ल साम्राज्य का विशाल साया अरावली की घाटियों तक फैल चुका था। हर किले पर मुग़ल झंडा फहराने लगा था, और हर गाँव में भय का सन्नाटा पसरा हुआ था।
+
+लेकिन एक नाम ऐसा था, जो अभी भी झुका नहीं था—महाराणा प्रताप।
+
+उनका जन्म राजसी वैभव में हुआ था, पर उनका जीवन युद्धभूमि में तपकर बना। बचपन से ही तलवार उनके हाथ का विस्तार बन चुकी थी। घुड़सवारी, धनुर्विद्या, और रणकौशल—यह सब उनके लिए खेल नहीं, बल्कि जीवन का उद्देश्य था।
+
+जब अन्य राजकुमार महलों में सुख भोग रहे थे, प्रताप पहाड़ियों के बीच, कठोर परिस्थितियों में खुद को गढ़ रहे थे। उनकी आँखों में बचपन से ही एक अलग ही आग थी—एक ऐसी आग, जो किसी भी कीमत पर अपने स्वाभिमान को नहीं झुकने देगी।
+
+समय बीता, और वही बालक मेवाड़ का स्वामी बना। लेकिन यह सिंहासन फूलों का नहीं, काँटों का था।
+
+अकबर की विशाल सेना, उसकी रणनीति, और उसकी कूटनीति—सब मिलकर मेवाड़ को दबाने की कोशिश कर रहे थे। हल्दीघाटी का युद्ध हुआ, और वह युद्ध इतिहास में अमर हो गया। परंतु उस युद्ध के बाद मेवाड़ की स्थिति और भी कठिन हो गई।
+
+प्रताप के पास न तो विशाल सेना थी, न ही असीम संसाधन। उनके पास था तो बस एक अडिग संकल्प।
+
+उन्होंने जंगलों को अपना किला बना लिया, पहाड़ियों को अपनी ढाल। यही से शुरू हुआ एक नया अध्याय—गुरिल्ला युद्ध।
+
+मुग़ल सेना जहाँ खुले मैदानों में लड़ने की आदी थी, वहीं प्रताप ने उन्हें उन स्थानों पर खींच लिया जहाँ हर पत्थर, हर पेड़, हर घाटी उनके लिए जाल बन गई।
+
+रात के अंधेरे में अचानक हमला, दिन में पहाड़ियों में गायब—यह युद्ध अब नियमों से नहीं, बुद्धि और साहस से लड़ा जा रहा था।
+
+और फिर आया वह दिन… 1582 का वर्ष… जब प्रताप ने अपने सबसे साहसी अभियान की योजना बनाई—दिवेर पर आक्रमण।
+
+दिवेर, अरावली की घाटियों में स्थित एक महत्वपूर्ण चौकी थी। यहाँ मुग़ल सेना का मजबूत गढ़ था, और यह पूरे क्षेत्र में उनकी पकड़ का केंद्र था। अगर यह गिरता, तो बाकी चौकियाँ भी कमजोर पड़ जातीं।
+
+प्रताप ने अपने सरदारों को बुलाया। एक छोटी सी सभा, जहाँ हर चेहरा थकान से भरा था, लेकिन आँखों में आग अब भी जल रही थी।
+
+“यह युद्ध सिर्फ एक किले के लिए नहीं है,” प्रताप की आवाज़ गूँजी, “यह युद्ध हमारी आत्मा के लिए है। अगर दिवेर गिरा, तो मेवाड़ फिर से साँस लेगा।”
+
+एक क्षण के लिए सन्नाटा छा गया। फिर एक साथ तलवारें उठीं—“हर हर महादेव!”
+
+योजना बनाई गई—सीधा हमला नहीं, बल्कि अचानक आक्रमण।
+
+रात गहराई। चाँद बादलों में छिपा हुआ था। अरावली की घाटियाँ सन्नाटे में डूबी हुई थीं।
+
+और उसी सन्नाटे को चीरते हुए, धीरे-धीरे आगे बढ़ रही थी प्रताप की सेना।
+
+घोड़ों के खुरों पर कपड़ा बाँधा गया था, ताकि आवाज़ न हो। सैनिक साँस रोककर आगे बढ़ रहे थे। हर कदम पर मौत का खतरा था।
+
+दिवेर की चौकी अभी भी निश्चिंत थी। मुग़ल सैनिकों को अंदाज़ा भी नहीं था कि तूफ़ान उनके द्वार पर खड़ा है।
+
+और फिर… अचानक…
+
+“आक्रमण!”
+
+प्रताप की गर्जना ने रात को चीर दिया।
+
+तुरंत ही हर दिशा से तीरों की वर्षा होने लगी। अग्निबाण आसमान को चीरते हुए किले के भीतर गिरने लगे। मुग़ल सैनिक नींद से उठे, लेकिन तब तक बहुत देर हो चुकी थी।
+
+राजपूत घुड़सवार बिजली की गति से किले के द्वार तक पहुँच चुके थे।
+
+तलवारें टकराईं—“छन्न!”
+
+चिंगारियाँ उड़ीं। चीखें गूँजीं। घोड़े उछले। धरती काँप उठी।
+
+प्रताप स्वयं सबसे आगे थे। उनकी तलवार हर वार के साथ बिजली की तरह चमक रही थी।
+
+एक मुग़ल सेनापति उनके सामने आया। उसने भारी आवाज़ में कहा, “राणा! अब भी समय है—समर्पण कर दो!”
+
+प्रताप की आँखों में ज्वाला भड़क उठी—“राजपूत कभी समर्पण नहीं करता!”
+
+और अगले ही क्षण, उनकी तलवार ने हवा को चीरते हुए उस सेनापति को धराशायी कर दिया।
+
+युद्ध अब अपने चरम पर था।
+
+धूल का बादल उठ चुका था। खून से धरती लाल हो रही थी। हर तरफ़ बस एक ही आवाज़ गूँज रही थी—“हर हर महादेव!”
+
+राजपूत सेना ने मुग़ल चौकी को चारों ओर से घेर लिया। यह सिर्फ युद्ध नहीं था—यह प्रतिशोध था, वर्षों के अपमान का उत्तर।
+
+प्रताप ने अपनी सेना को छोटे-छोटे दलों में बाँट दिया था। हर दल एक अलग दिशा से हमला कर रहा था, जिससे मुग़ल सेना पूरी तरह भ्रमित हो गई।
+
+कोई समझ नहीं पा रहा था कि हमला कहाँ से हो रहा है।
+
+यही था प्रताप का कौशल—रणनीति, जो विशाल सेना को भी कमजोर बना दे।
+
+कुछ ही घंटों में, दिवेर की दीवारें टूटने लगीं।
+
+एक-एक करके मुग़ल चौकियाँ गिरने लगीं।
+
+और फिर… सुबह की पहली किरण के साथ…
+
+दिवेर पर मेवाड़ का ध्वज फिर से लहराया।
+
+सूरज की किरणें जैसे इस विजय की साक्षी बन गईं।
+
+मुग़ल सेना पीछे हटने लगी। जो बचे, वे भाग गए। जो लड़े, वे वहीं गिर गए।
+
+यह सिर्फ एक किले की जीत नहीं थी—यह एक शुरुआत थी।
+
+दिवेर के बाद, एक-एक करके कई मुग़ल चौकियाँ गिरने लगीं। प्रताप की सेना अब रुकने वाली नहीं थी।
+
+हर गाँव में फिर से जीवन लौटने लगा। हर दिल में फिर से आशा जाग उठी।
+
+लेकिन इस विजय के पीछे कितने बलिदान थे—यह कोई नहीं जानता था।
+
+युद्धभूमि पर खड़े प्रताप ने चारों ओर देखा—उनके अपने योद्धा, जो अब हमेशा के लिए मौन हो चुके थे।
+
+उनकी आँखों में एक क्षण के लिए नमी आई।
+
+“तुम्हारा बलिदान व्यर्थ नहीं जाएगा,” उन्होंने धीरे से कहा।
+
+दिवेर की यह विजय इतिहास में सिर्फ एक युद्ध नहीं, बल्कि एक मोड़ बन गई।
+
+यह वह क्षण था, जब दुनिया ने देखा कि एक दृढ़ संकल्प, एक अडिग आत्मा, और सही रणनीति—किसी भी साम्राज्य से बड़ी हो सकती है।
+
+महाराणा प्रताप ने उस दिन सिर्फ एक किला नहीं जीता…
+
+उन्होंने उम्मीद को फिर से जीवित किया।
+
+और अरावली की घाटियाँ आज भी उस गर्जना को याद करती हैं—
+
+“हर हर महादेव!”
+`
     ],
-    coverImage: { src: '/images/legends/dewair-battle.jpg', alt: 'Rajput cavalry charging a Mughal outpost at Dewair.' }
+    coverImage: { src: '/images/dynasties/rulers/rana-raimal.jpg', alt: 'Rajput cavalry charging a Mughal outpost at Dewair.' }
   },
   {
     id: 'marwar-war-succession',
@@ -1133,11 +29248,431 @@ export const allLegends: Legend[] = [
     era: '17th Century',
     location: 'Marwar',
     story: [
-      'After the death of Maharaja Jaswant Singh, the Mughal Emperor Aurangzeb sought to annex Marwar. This led to a thirty-year war of resistance led by Veer Durgadas Rathore.',
-      'The struggle was not just about territory, but about the survival of the Rathore identity and the restoration of the rightful heir, Ajit Singh.',
-      'The war involved countless skirmishes, desert raids, and diplomatic maneuvers, eventually ending in the restoration of the Rathore dynasty and the weakening of Mughal authority in the region.'
+      `मरवाड़…
+रेत का वह साम्राज्य, जहाँ हर कण में स्वाभिमान था…
+और हर हवा में युद्ध की गंध।
+
+लेकिन उस दिन—
+जब महाराजा जसवंत सिंह नहीं रहे…
+
+तो केवल एक राजा नहीं गया था—
+एक संतुलन टूट गया था।
+
+---
+
+जोधपुर का किला मौन था।
+
+दीवारें खड़ी थीं…
+लेकिन भीतर—अस्थिरता थी।
+
+क्योंकि दिल्ली में—
+एक और सिंहासन जाग चुका था।
+
+औरंगज़ेब।
+
+उसकी दृष्टि अब मरवाड़ पर थी।
+
+“अब यह हमारा होगा…” उसने कहा।
+
+---
+
+लेकिन—
+
+मरवाड़ किसी का नहीं होता।
+
+वह केवल उन्हीं का होता है—
+जो उसके लिए मरने को तैयार हों।
+
+---
+
+उसी समय…
+एक नाम धीरे-धीरे उभर रहा था—
+
+दुर्गादास राठौड़।
+
+---
+
+वह किसी महल में पैदा नहीं हुआ था…
+
+लेकिन उसकी आँखों में वही ज्वाला थी—
+जो राजाओं में होती है।
+
+---
+
+जब खबर आई—
+
+“औरंगज़ेब मरवाड़ को अपने अधीन करना चाहता है…”
+
+तो सभा में सन्नाटा छा गया।
+
+---
+
+एक सरदार बोला—
+“हम संख्या में कम हैं…”
+
+दूसरा बोला—
+“उनकी सेना विशाल है…”
+
+---
+
+तभी—
+
+दुर्गादास उठा।
+
+उसकी आवाज़ शांत थी—
+
+“तो हम उन्हें यहाँ जीतने नहीं देंगे…”
+
+---
+
+उसने आगे कहा—
+
+“यह युद्ध मैदान में नहीं…
+मरुस्थल में होगा…”
+
+---
+
+और इसी के साथ—
+
+शुरू हुआ…
+
+तीस वर्षों का युद्ध।
+
+---
+
+पहला संघर्ष—
+
+सीधा नहीं था।
+
+---
+
+मुगल सेना आगे बढ़ी।
+
+भारी… संगठित…
+
+लेकिन—
+
+मरुस्थल उनका नहीं था।
+
+---
+
+दुर्गादास ने अपने दल को छोटे-छोटे हिस्सों में बाँट दिया।
+
+“सीधे मत भिड़ो…” उसने कहा,
+“उन्हें थकाओ… तोड़ो…”
+
+---
+
+और फिर—
+
+घात।
+
+---
+
+रात—
+
+रेत के टीलों के पीछे से…
+
+“धावा!”
+
+---
+
+छोटे-छोटे हमले…
+
+रसद पर वार…
+
+पानी के स्रोतों पर कब्ज़ा…
+
+---
+
+मुगल सेना परेशान हो गई।
+
+“वे सामने क्यों नहीं आते?” एक सेनापति चिल्लाया।
+
+---
+
+दुर्गादास मुस्कुराया।
+
+“क्योंकि हम जानते हैं… कि हम कहाँ हैं।”
+
+---
+
+दूसरा युद्ध—
+
+और भी गहरा।
+
+---
+
+इस बार—
+
+दुर्गादास ने एक बड़ा जाल बिछाया।
+
+---
+
+एक काफिला…
+
+जो कमजोर दिखता था…
+
+---
+
+मुगल सेना ने हमला किया।
+
+लेकिन—
+
+जैसे ही वे भीतर आए—
+
+चारों ओर से धावा।
+
+---
+
+“हर हर महादेव!”
+
+---
+
+तलवारें टकराईं।
+
+रेत में खून बहा।
+
+मुगल सेना फँस गई।
+
+---
+
+दुर्गादास सबसे आगे था।
+
+उसकी तलवार लगातार चल रही थी।
+
+उसकी आँखों में केवल एक लक्ष्य था—
+
+जीवित रहना… और लड़ते रहना।
+
+---
+
+युद्ध समाप्त हुआ।
+
+मुगल सेना पीछे हट गई।
+
+---
+
+लेकिन यह अंत नहीं था—
+
+यह शुरुआत थी।
+
+---
+
+वर्ष बीतते गए।
+
+युद्ध चलता रहा।
+
+---
+
+कभी खुले मैदान में…
+कभी टीलों के बीच…
+कभी रात के अंधेरे में…
+
+---
+
+हर बार—
+
+दुर्गादास सामने नहीं आता…
+
+वह हर जगह होता…
+
+और कहीं नहीं।
+
+---
+
+इस बीच—
+
+एक और जिम्मेदारी।
+
+---
+
+अजित सिंह…
+
+वह उत्तराधिकारी…
+जिसके लिए यह सब लड़ा जा रहा था।
+
+---
+
+दुर्गादास ने उसे सुरक्षित रखा।
+
+छिपाया…
+संभाला…
+
+“तुम केवल एक बालक नहीं हो…” उसने कहा,
+“तुम मरवाड़ हो।”
+
+---
+
+तीसरा बड़ा संघर्ष—
+
+निर्णायक।
+
+---
+
+मुगल सेना ने अंतिम प्रयास किया।
+
+वे पूरी ताकत से आए।
+
+---
+
+दुर्गादास ने अपने योद्धाओं को इकट्ठा किया।
+
+“आज…” उसने कहा,
+“हम उन्हें दिखाएँगे… कि मरवाड़ क्या है।”
+
+---
+
+“धावा!”
+
+---
+
+घोड़े गरजे।
+
+तलवारें चमकीं।
+
+---
+
+युद्ध भयानक था।
+
+हर वार…
+हर कदम…
+
+एक संघर्ष।
+
+---
+
+दुर्गादास सीधे दुश्मन के केंद्र में घुसा।
+
+एक मुगल सेनापति उसके सामने आया।
+
+“तुम हार जाओगे!” वह गरजा।
+
+---
+
+दुर्गादास ने शांत स्वर में कहा—
+
+“हम कभी नहीं हारते…
+हम केवल लड़ते हैं।”
+
+---
+
+और उसकी तलवार ने वार किया।
+
+---
+
+घंटों तक युद्ध चला।
+
+फिर—
+
+एक क्षण आया…
+
+जब मुगल सेना टूटने लगी।
+
+वे पीछे हटने लगे।
+
+---
+
+यह केवल एक जीत नहीं थी—
+
+यह एक युग का अंत था।
+
+---
+
+मरवाड़ फिर खड़ा था।
+
+अजित सिंह—
+
+अपने सिंहासन पर।
+
+---
+
+दुर्गादास किले के बाहर खड़ा था।
+
+उसने अंदर नहीं देखा।
+
+---
+
+एक सैनिक ने पूछा—
+
+“आप अंदर क्यों नहीं जाते?”
+
+---
+
+वह मुस्कुराया।
+
+“मेरा काम… पूरा हो गया,” उसने कहा।
+
+---
+
+उसकी आँखों में थकान थी…
+
+लेकिन संतोष भी।
+
+---
+
+वर्षों बाद—
+
+वह अकेला बैठा था।
+
+रेत के बीच।
+
+---
+
+उसने दूर देखा—
+
+जहाँ सूरज ढल रहा था।
+
+---
+
+“हमने… उसे बचा लिया…” उसने कहा।
+
+---
+
+आज भी…
+
+मरवाड़ की रेत में…
+
+जब हवा चलती है—
+
+तो एक नाम गूँजता है—
+
+दुर्गादास।
+
+---
+
+यह कहानी केवल युद्ध की नहीं है—
+
+यह पहचान की है…
+
+अस्तित्व की है…
+
+और उस जिद की—
+
+जो कहती है—
+
+“हम मिटेंगे नहीं…”
+
+---
+
+तीस वर्षों का वह संघर्ष…
+
+आज भी यह सिखाता है—
+
+कि कभी-कभी—
+
+सबसे बड़ी जीत…
+
+जीवित रहना होती है।
+
+और जब आत्मा अडिग हो—
+
+तो साम्राज्य भी…
+
+झुक जाते हैं।
+`
     ],
-    coverImage: { src: '/images/legends/marwar-war.jpg', alt: 'Rathore riders moving through the dunes at night.' }
+    coverImage: { src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'Rathore riders moving through the dunes at night.' }
   },
   {
     id: 'kachwaha-rise-amber',
@@ -1147,11 +29682,374 @@ export const allLegends: Legend[] = [
     era: '11th to 16th Century',
     location: 'Amber and Jaipur',
     story: [
-      'The Kachwaha Rajputs originally established themselves in the Dausa region before taking Amber from the Meenas. Their rise to prominence was marked by strategic alliances and military prowess.',
-      'Under rulers like Raja Bhagwant Das and Raja Man Singh, the Kachwahas became some of the most powerful generals in the Mughal Empire, while still maintaining their own cultural identity.',
-      'The founding of Jaipur in 1727 by Sawai Jai Singh II was the culmination of this ascent, creating one of the most planned and beautiful cities in the world.'
+      `अरावली की गोद में…
+जहाँ पहाड़ धीरे-धीरे मैदानों में उतरते हैं…
+वहीं कहीं, धूल और संघर्ष के बीच… एक वंश ने अपनी पहली साँस ली थी—
+कछवाहा।
+
+यह कहानी किसी एक युद्ध की नहीं…
+यह एक यात्रा थी—उदय की… विस्तार की… और उस संतुलन की, जहाँ तलवार और बुद्धि साथ चलते हैं।
+
+---
+
+दौसा…
+पत्थरों और पहाड़ियों के बीच बसा वह क्षेत्र—जहाँ कछवाहाओं ने पहली बार अपनी जड़ें जमाईं।
+
+उसी भूमि पर एक बालक का जन्म हुआ।
+
+उसके चारों ओर न कोई विशाल साम्राज्य था…
+न कोई भव्य राजधानी…
+
+बस एक संघर्षरत शक्ति… जो खुद को स्थापित करने की कोशिश कर रही थी।
+
+उसके पिता ने उसे पहाड़ियों की ओर दिखाया।
+
+“यहाँ से शुरुआत होती है…” उसने कहा।
+
+बालक ने दूर देखा—
+
+जहाँ हर दिशा में चुनौती थी।
+
+---
+
+उसका बचपन युद्ध और राजनीति—दोनों के बीच बीता।
+
+वह तलवार चलाना सीखता…
+लेकिन साथ ही—बातचीत करना भी।
+
+उसके गुरु ने कहा—
+
+“हर युद्ध मैदान में नहीं जीता जाता…
+कुछ युद्ध—संधियों में जीते जाते हैं।”
+
+बालक ने यह बात गहराई से समझ ली।
+
+---
+
+समय बीता।
+
+और फिर—
+
+वह क्षण आया…
+
+जब कछवाहाओं ने अपनी पहली बड़ी चुनौती का सामना किया।
+
+---
+
+आमेर…
+
+मीणाओं का गढ़…
+
+ऊँचाई पर स्थित… मजबूत… और अजेय।
+
+---
+
+एक सभा हुई।
+
+सरदार खड़े थे।
+
+“सीधा हमला करेंगे!” एक बोला।
+
+“नहीं… यह किला आसानी से नहीं गिरेगा,” दूसरे ने कहा।
+
+---
+
+वह उठा।
+
+“हम केवल ताकत से नहीं जीतेंगे…” उसने कहा,
+“हम बुद्धि से जीतेंगे।”
+
+---
+
+पहला संघर्ष—
+
+घाटियों में।
+
+---
+
+कछवाहा योद्धा छाया की तरह आगे बढ़े।
+
+छोटे-छोटे हमले…
+रास्तों पर कब्ज़ा…
+
+धीरे-धीरे—
+
+आमेर अलग-थलग पड़ने लगा।
+
+---
+
+दूसरा युद्ध—
+
+सीधा।
+
+---
+
+“धावा!”
+
+घोड़े गरजे।
+
+तलवारें टकराईं।
+
+मीणा योद्धा भी डटे रहे।
+
+युद्ध भयानक था।
+
+---
+
+वह सबसे आगे था।
+
+उसकी तलवार लगातार चल रही थी।
+
+उसकी साँसें तेज़ थीं।
+
+---
+
+एक मीणा सरदार उसके सामने आया।
+
+“तुम यहाँ टिक नहीं पाओगे!” वह गरजा।
+
+उसने शांत स्वर में कहा—
+
+“हम टिकने नहीं… लेने आए हैं।”
+
+और उसकी तलवार ने वार किया।
+
+---
+
+घंटों तक युद्ध चला।
+
+फिर—
+
+एक क्षण आया…
+
+जब आमेर की पंक्तियाँ टूटने लगीं।
+
+कछवाहा विजयी हुए।
+
+---
+
+आमेर अब उनका था।
+
+और यही—
+
+उनके उदय की शुरुआत थी।
+
+---
+
+समय बदला।
+
+साम्राज्य बदले।
+
+और फिर—
+
+एक नया युग आया।
+
+---
+
+मुगल साम्राज्य।
+
+---
+
+कछवाहाओं ने एक नया मार्ग चुना—
+
+टकराव नहीं…
+
+संधि।
+
+---
+
+राजा भगवंत दास…
+
+एक ऐसा नाम… जिसने संतुलन को समझा।
+
+उसने शक्ति को पहचाना…
+
+और उसे अपने पक्ष में मोड़ लिया।
+
+---
+
+फिर—
+
+राजा मान सिंह।
+
+---
+
+वह केवल एक राजपूत नहीं था…
+
+वह एक सेनापति था—
+
+जिसकी तलवार ने दूर-दूर तक युद्ध देखे।
+
+---
+
+एक युद्ध—
+
+विदेशी भूमि पर।
+
+---
+
+मुगल सेना आगे बढ़ रही थी।
+
+मान सिंह उसके अग्रभाग में था।
+
+---
+
+“तुम राजपूत हो… और उनके लिए लड़ते हो?” एक सैनिक ने पूछा।
+
+---
+
+मान सिंह ने उत्तर दिया—
+
+“मैं अपनी प्रतिष्ठा के लिए लड़ता हूँ…
+और मेरी प्रतिष्ठा—मेरे साथ है।”
+
+---
+
+“धावा!”
+
+---
+
+घोड़े गरजे।
+
+तलवारें टकराईं।
+
+मान सिंह सबसे आगे था।
+
+उसकी रणनीति सटीक थी।
+
+उसकी गति—अजेय।
+
+---
+
+दुश्मन टूट गया।
+
+विजय मिली।
+
+---
+
+लेकिन—
+
+वह अपनी पहचान नहीं भूला।
+
+उसके भीतर—
+
+अब भी वही कछवाहा था।
+
+---
+
+और फिर—
+
+समय ने एक नया अध्याय लिखा।
+
+---
+
+सवाई जय सिंह द्वितीय।
+
+---
+
+वह केवल योद्धा नहीं था…
+
+वह एक दृष्टा था।
+
+---
+
+उसने युद्ध देखे थे…
+राजनीति समझी थी…
+
+अब—
+
+वह कुछ अलग बनाना चाहता था।
+
+---
+
+एक शहर…
+
+जो केवल रक्षा के लिए नहीं…
+
+जीवन के लिए हो।
+
+---
+
+जयपुर।
+
+---
+
+1727…
+
+रेत पर रेखाएँ खींची गईं।
+
+नक्शे बनाए गए।
+
+सड़कों को सीधा रखा गया।
+
+बाजारों को व्यवस्थित किया गया।
+
+---
+
+यह कोई साधारण शहर नहीं था—
+
+यह एक विचार था।
+
+---
+
+एक दिन—
+
+वह शहर के बीच खड़ा था।
+
+उसने चारों ओर देखा—
+
+साफ़ रास्ते…
+सुंदर भवन…
+जीवंत जीवन…
+
+---
+
+एक सरदार ने पूछा—
+
+“महाराज… यह युद्ध से अलग क्यों है?”
+
+---
+
+वह मुस्कुराया।
+
+“क्योंकि हर जीत तलवार से नहीं होती…” उसने कहा,
+“कुछ जीत—निर्माण से होती हैं।”
+
+---
+
+आज—
+
+दौसा… आमेर… जयपुर…
+
+ये केवल स्थान नहीं हैं…
+
+ये एक यात्रा हैं—
+
+संघर्ष से… संतुलन तक… और फिर—निर्माण तक।
+
+---
+
+कछवाहा वंश…
+
+आज भी यह सिखाता है—
+
+कि शक्ति केवल युद्ध में नहीं होती…
+
+वह उस बुद्धि में होती है—
+
+जो जानती है—
+
+कब लड़ना है…
+और कब बनाना है।
+
+---
+
+और यही—
+
+सच्चा साम्राज्य होता है।
+`
     ],
-    coverImage: { src: '/images/legends/amber-fort.jpg', alt: 'The majestic Amber Fort reflected in Maota Lake.' }
+    coverImage: { src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'The majestic Amber Fort reflected in Maota Lake.' }
   },
   {
     id: 'jodhpur-lancers-haifa',
@@ -1161,11 +30059,335 @@ export const allLegends: Legend[] = [
     era: '1918 AD',
     location: 'Haifa, Palestine',
     story: [
-      'During World War I, the Jodhpur Lancers executed one of the last and most successful cavalry charges in history at the Battle of Haifa.',
-      'Armed only with lances and swords, they charged against machine guns and artillery to capture the fortified city. Their victory is still celebrated as a masterclass in cavalry tactics.',
-      'The charge at Haifa brought global recognition to the Rajput martial tradition, showing that the spirit of the desert could overcome the technology of modern warfare.'
+      `हैफा…
+रेत नहीं थी वहाँ… न अरावली की पहाड़ियाँ…
+बल्कि दूर-दूर तक फैले मैदान… और समुद्र की ओर खुलता हुआ एक शहर—जिसके चारों ओर खड़ी थीं मशीनगनों की पंक्तियाँ… और तोपों की गर्जना।
+
+यह 1918 का समय था…
+युद्ध बदल चुका था।
+
+अब तलवारें नहीं…
+गोलियाँ बोलती थीं।
+
+लेकिन उस दिन—
+
+इतिहास ने एक बार फिर घोड़े की टाप सुनी।
+
+---
+
+राजपुताना से दूर…
+विदेशी भूमि पर…
+
+जोधपुर लांसर्स खड़े थे।
+
+उनके हाथों में बंदूकें नहीं…
+बल्कि भाले थे—लंबे, चमकते हुए…
+
+और कमर पर तलवार।
+
+---
+
+एक युवा सैनिक अपने घोड़े के पास खड़ा था।
+
+उसने दूर देखा—जहाँ दुश्मन की पंक्तियाँ थीं।
+
+मशीनगनें…
+तोपें…
+किलेबंदी…
+
+उसने धीरे से कहा—
+
+“हम… सच में वहाँ तक जाएँगे?”
+
+उसके पास खड़े एक वृद्ध सवार ने मुस्कुराकर कहा—
+
+“हम हमेशा जाते हैं।”
+
+---
+
+उनका सेनापति आगे आया।
+
+उसकी आँखों में वही दृढ़ता थी—जो सदियों से चली आ रही थी।
+
+“आज…” उसने कहा,
+“हम दिखाएँगे… कि घोड़ा अभी मरा नहीं है।”
+
+---
+
+सन्नाटा।
+
+---
+
+“वे सोचते हैं… कि मशीनें हमें रोक लेंगी…”
+
+उसने भाला उठाया—
+
+“लेकिन वे नहीं जानते… कि हम कौन हैं।”
+
+---
+
+और फिर—
+
+“धावा!”
+
+---
+
+घोड़ों की टाप गूँजी।
+
+मैदान काँप उठा।
+
+धूल उड़ी।
+
+---
+
+जोधपुर लांसर्स टूट पड़े।
+
+सीधे—
+
+मशीनगनों की ओर।
+
+---
+
+गोलियाँ चलीं।
+
+हवा चीरती हुई।
+
+घोड़े गिरने लगे।
+
+सैनिक गिरे।
+
+लेकिन—
+
+कोई रुका नहीं।
+
+---
+
+वह युवा सैनिक—
+
+अब सबसे आगे था।
+
+उसकी साँसें तेज़ थीं।
+
+उसके कानों में केवल एक आवाज़—
+
+टापों की…
+
+और अपने दिल की धड़कन।
+
+---
+
+एक गोली उसके पास से निकली।
+
+दूसरी उसके पीछे।
+
+लेकिन—
+
+वह आगे बढ़ता रहा।
+
+---
+
+“हर हर महादेव!”
+
+चीख गूँजी।
+
+---
+
+और फिर—
+
+टकराव।
+
+---
+
+भाले सीधे दुश्मन की पंक्तियों में घुसे।
+
+मशीनगनें चलती रहीं—
+
+लेकिन अब—
+
+बहुत करीब से।
+
+---
+
+घोड़े उछले।
+
+तलवारें चमकीं।
+
+चीखें गूँजीं।
+
+---
+
+दुश्मन चौंक गया।
+
+उन्होंने सोचा था—
+
+कोई इतनी तेजी से… इतनी निर्भीकता से…
+
+सीधे उनकी ओर नहीं आएगा।
+
+---
+
+लेकिन—
+
+वे आ चुके थे।
+
+---
+
+वह युवा सैनिक एक मशीनगन के सामने पहुँचा।
+
+उसने भाला उठाया—
+
+और वार किया।
+
+---
+
+गनर गिर पड़ा।
+
+मशीनगन शांत हो गई।
+
+---
+
+उसके आसपास—
+
+युद्ध भड़क उठा।
+
+घोड़े… तलवारें… धूल… खून…
+
+---
+
+जोधपुर लांसर्स रुक नहीं रहे थे।
+
+वे आगे बढ़ते रहे—
+
+एक लहर की तरह…
+
+जो सब कुछ बहा ले जाती है।
+
+---
+
+कुछ ही समय में—
+
+दुश्मन की पंक्तियाँ टूट गईं।
+
+मशीनगनें चुप हो गईं।
+
+तोपें बंद हो गईं।
+
+---
+
+हैफा—
+
+अब उनके सामने था।
+
+---
+
+वह युवा सैनिक घोड़े से उतरा।
+
+उसकी साँसें भारी थीं।
+
+उसका शरीर काँप रहा था।
+
+---
+
+उसने चारों ओर देखा—
+
+उसके साथी…
+
+कुछ खड़े थे…
+
+कुछ नहीं।
+
+---
+
+उसने धीरे से कहा—
+
+“हम… पहुँच गए…”
+
+---
+
+उनका सेनापति आगे आया।
+
+उसने शहर की ओर देखा।
+
+फिर—
+
+धीरे से कहा—
+
+“यह केवल जीत नहीं है…”
+
+---
+
+सन्नाटा।
+
+---
+
+“यह प्रमाण है…”
+
+“कि हम अब भी वही हैं…”
+
+---
+
+उसने अपने भाले को जमीन में गाड़ा।
+
+---
+
+आज भी—
+
+हैफा की उस धरती पर…
+
+जब हवा चलती है—
+
+तो ऐसा लगता है जैसे घोड़ों की टाप गूँज रही हो।
+
+---
+
+वह धावा—
+
+केवल एक युद्ध नहीं था…
+
+वह एक घोषणा थी—
+
+कि समय बदल सकता है…
+
+हथियार बदल सकते हैं…
+
+लेकिन—
+
+आत्मा नहीं बदलती।
+
+---
+
+जोधपुर लांसर्स का वह धावा…
+
+आज भी यह सिखाता है—
+
+कि साहस…
+
+कभी पुराना नहीं होता।
+
+और जब वह जागता है—
+
+तो मशीनें भी…
+
+उसके सामने झुक जाती हैं।
+
+---
+
+हैफा…
+
+आज भी गूँजता है—
+
+टापों की आवाज़ से…
+
+और उस क्षण से—
+
+जब इतिहास ने देखा—
+
+कि घोड़ा…
+
+अभी भी दौड़ सकता है।
+`
     ],
-    coverImage: { src: '/images/legends/haifa-charge.jpg', alt: 'Jodhpur Lancers charging into the city of Haifa.' }
+    coverImage: { src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'Jodhpur Lancers charging into the city of Haifa.' }
   },
   {
     id: 'rajput-coronation-traditions',
@@ -1175,11 +30397,325 @@ export const allLegends: Legend[] = [
     era: 'Timeless',
     location: 'Royal Palaces',
     story: [
-      'The Rajtilak, or coronation, was a deeply symbolic ceremony. In many states, the tilak was applied by a member of the local tribal or peasant community, signifying the ruler’s bond with his subjects.',
-      'The ceremony involved the worship of ancestral weapons and the taking of a solemn oath to protect the land and uphold dharma. It was a transition from an individual to a living symbol of the state.',
-      'These traditions highlight the concept of kingship in Rajputana as a duty and a service, rather than just a position of power.'
+      `सूरज उगने से पहले का वह क्षण…
+जब आकाश हल्का नीला होता है… और हवा में एक अजीब सी स्थिरता होती है—मानो स्वयं समय ठहर गया हो।
+
+किले के भीतर… दीप जल रहे थे…
+और प्रांगण में एक सिंहासन रखा था—खाली… प्रतीक्षा करता हुआ।
+
+आज—राजतिलक था।
+
+लेकिन यह केवल एक राजा के बनने का दिन नहीं था…
+यह वह क्षण था—जब एक मनुष्य… एक प्रतीक बनता था।
+
+---
+
+प्रांगण के एक कोने में एक युवा खड़ा था।
+
+उसकी आँखों में गर्व था…
+लेकिन उसके भीतर—एक भार भी।
+
+आज वह केवल पुत्र नहीं रहेगा…
+आज वह राज्य बन जाएगा।
+
+---
+
+उसके सामने—उसके पिता की तलवार रखी थी।
+
+वही तलवार… जिसने अनेक युद्ध देखे थे…
+जिसकी धार पर खून भी था… और विजय भी।
+
+उसने उसे उठाया।
+
+उसकी उँगलियाँ हल्की सी काँपीं।
+
+“क्या तुम तैयार हो?” एक वृद्ध सरदार ने पूछा।
+
+युवा ने कुछ क्षण चुप रहकर… फिर सिर हिलाया।
+
+“मुझे होना होगा,” उसने कहा।
+
+---
+
+नगाड़े बजे।
+
+पूरे किले में गूँज फैल गई।
+
+“समय आ गया है!”
+
+---
+
+प्रांगण भर चुका था।
+
+सरदार… सैनिक…
+गाँवों से आए लोग…
+और दूर खड़े—वे, जिनकी आवाज़ अक्सर दरबार तक नहीं पहुँचती थी।
+
+आज—
+
+वे भी उपस्थित थे।
+
+---
+
+सिंहासन के सामने एक स्थान बनाया गया।
+
+वहाँ खड़ा था—एक साधारण व्यक्ति।
+
+न कोई आभूषण…
+न कोई शाही वस्त्र…
+
+वह एक किसान था…
+या शायद एक भील…
+या वह कोई था—जो इस भूमि की जड़ों से जुड़ा था।
+
+---
+
+युवा ने उसे देखा।
+
+उसकी आँखों में एक प्रश्न था।
+
+---
+
+वृद्ध सरदार आगे आया।
+
+“याद रखो…” उसने कहा,
+“तुम्हें यह तिलक केवल राजवंश नहीं देता…”
+
+उसने उस व्यक्ति की ओर इशारा किया—
+
+“यह तुम्हें जनता देती है।”
+
+---
+
+सन्नाटा छा गया।
+
+---
+
+युवा आगे बढ़ा।
+
+उसने सिर झुका दिया।
+
+---
+
+उस साधारण व्यक्ति ने अपने हाथ में चंदन और रक्त मिलाया।
+
+उसने युवा के माथे पर तिलक लगाया।
+
+---
+
+वह क्षण—
+
+सामान्य नहीं था।
+
+यह केवल रंग नहीं था—
+
+यह वचन था।
+
+---
+
+भीड़ में एक गूँज उठी—
+
+“महाराज!”
+
+---
+
+लेकिन युवा ने आँखें बंद रखीं।
+
+क्योंकि वह जानता था—
+
+यह केवल सम्मान नहीं…
+
+यह जिम्मेदारी है।
+
+---
+
+फिर—
+
+शस्त्र पूजन।
+
+---
+
+उसने अपने पूर्वजों की तलवार को उठाया।
+
+उसकी धार पर दीप की रोशनी चमकी।
+
+---
+
+उसने उसे माथे से लगाया।
+
+“मैं वचन देता हूँ…” उसकी आवाज़ गूँजी—
+
+“कि मैं इस भूमि की रक्षा करूँगा…”
+“कि मैं धर्म का पालन करूँगा…”
+“कि मैं अपने प्राण दे दूँगा… लेकिन अपनी प्रजा को नहीं छोड़ूँगा…”
+
+---
+
+सभी ने सिर झुका लिया।
+
+---
+
+वह सिंहासन की ओर बढ़ा।
+
+हर कदम भारी था।
+
+जैसे हर कदम उसे एक नए रूप में बदल रहा हो।
+
+---
+
+वह बैठा।
+
+और उसी क्षण—
+
+वह बदल गया।
+
+अब वह केवल एक व्यक्ति नहीं था…
+
+वह राज्य था।
+
+---
+
+भीड़ ने जयकारा लगाया—
+
+“जय!”
+
+---
+
+लेकिन उसके भीतर—
+
+एक शांति थी।
+
+और एक गहरी समझ—
+
+कि अब उसका जीवन उसका नहीं रहा।
+
+---
+
+कुछ ही दिनों बाद—
+
+युद्ध की आहट आई।
+
+---
+
+वह अब राजा था।
+
+लेकिन रणभूमि में—
+
+वह सबसे आगे था।
+
+---
+
+तलवारें टकराईं।
+
+घोड़े गरजे।
+
+चीखें गूँजीं।
+
+---
+
+एक सैनिक उसके पास गिरा।
+
+“महाराज…” उसने धीमे से कहा।
+
+---
+
+राजा झुका।
+
+उसने उसका हाथ पकड़ा।
+
+“मैं हूँ…” उसने कहा।
+
+---
+
+उस क्षण—
+
+वह केवल शासक नहीं था…
+
+वह रक्षक था।
+
+---
+
+युद्ध भयानक था।
+
+खून बहा।
+
+धूल उड़ी।
+
+---
+
+लेकिन वह पीछे नहीं हटा।
+
+क्योंकि उसने वचन लिया था।
+
+---
+
+अंततः—
+
+विजय।
+
+---
+
+वह किले में लौटा।
+
+उसी प्रांगण में—
+
+जहाँ तिलक हुआ था।
+
+---
+
+उसने सिंहासन को देखा।
+
+फिर—
+
+धीरे से कहा—
+
+“मैंने वचन निभाया…”
+
+---
+
+वर्षों बाद—
+
+वह वृद्ध हो चुका था।
+
+उसके सामने एक नया युवा खड़ा था।
+
+वही प्रांगण… वही अग्नि… वही तलवार…
+
+---
+
+वह मुस्कुराया।
+
+“आज… तुम्हारी बारी है,” उसने कहा।
+
+---
+
+आज भी…
+
+राजतिलक केवल एक रस्म नहीं है…
+
+यह एक परिवर्तन है—
+
+एक व्यक्ति से…
+एक उत्तरदायित्व तक…
+
+---
+
+यह याद दिलाता है—
+
+कि राज करना अधिकार नहीं…
+
+सेवा है।
+
+---
+
+और जब कोई उस सेवा को समझ लेता है—
+
+तभी वह सच में…
+
+राजा बनता है।
+`
     ],
-    coverImage: { src: '/images/legends/coronation.jpg', alt: 'A Rajput ruler being anointed during his coronation.' }
+    coverImage: { src: '/images/dynasties/sawai-jai-singh.jpg', alt: 'A Rajput ruler being anointed during his coronation.' }
   },
   {
     id: 'rajput-sword-worship',
@@ -1189,11 +30725,298 @@ export const allLegends: Legend[] = [
     era: 'Timeless',
     location: 'Clan Shrines',
     story: [
-      'The worship of weapons, especially the sword (Khanda), is a central part of Rajput life. During the festival of Dussehra, every household and state would perform Shastra Puja.',
-      'The weapons were cleaned, anointed, and worshipped as manifestations of divine power. It was a ritual of reconnecting with the martial spirit and the duty of protection.',
-      'The sword was seen as more than a tool; it was a sacred partner in the warrior’s journey, a witness to his oaths and his deeds.'
+      `रात गहरी थी…
+लेकिन उस रात का अंधकार अलग था—उसमें एक प्रतीक्षा थी… एक गंभीरता… एक मौन संकल्प।
+
+किले के भीतर दीप जल रहे थे…
+और उनके बीच—तलवारें रखी थीं।
+
+आज युद्ध नहीं था…
+लेकिन यह वही रात थी—जब युद्ध आत्मा में जागता था।
+
+---
+
+प्रांगण के बीच एक स्थान सजा हुआ था।
+
+फूल… चंदन… दीप…
+और उनके बीच—खांडों की पंक्ति।
+
+चमकती हुई… शांत… लेकिन भीतर से जैसे जीवित।
+
+---
+
+एक बालक अपने पिता के साथ वहाँ खड़ा था।
+
+उसने पहली बार इतनी सारी तलवारों को एक साथ देखा।
+
+“ये सब… क्यों रखी हैं?” उसने पूछा।
+
+पिता ने धीरे से कहा,
+“क्योंकि आज… हम इन्हें याद करते हैं।”
+
+---
+
+“याद?” बालक ने आश्चर्य से पूछा।
+
+पिता ने एक खांडा उठाया।
+
+उसकी धार पर दीप की रोशनी चमक उठी।
+
+“यह केवल लोहे का टुकड़ा नहीं है,” उसने कहा,
+“यह तुम्हारा वचन है… तुम्हारा धर्म है।”
+
+---
+
+प्रांगण में धीरे-धीरे सभी योद्धा एकत्र होने लगे।
+
+हर कोई अपनी तलवार लेकर आया।
+
+कोई पुरानी… घिसी हुई…
+कोई नई… चमकती हुई…
+
+लेकिन हर तलवार—एक कहानी थी।
+
+---
+
+एक वृद्ध सरदार आगे आया।
+
+उसके हाथ में एक प्राचीन खांडा था।
+
+उसकी धार पर समय के निशान थे…
+लेकिन उसकी चमक अब भी जीवित थी।
+
+---
+
+उसने उसे अग्नि के सामने रखा।
+
+“यह…” उसकी आवाज़ गूँजी,
+“हमारा साथी है।”
+
+---
+
+सन्नाटा छा गया।
+
+---
+
+“यह हमारे साथ जन्म लेता है…”
+“हमारे साथ लड़ता है…”
+“और कई बार… हमारे साथ मर भी जाता है…”
+
+---
+
+उसने तलवार को धीरे से छुआ।
+
+जैसे वह किसी जीवित चीज़ को छू रहा हो।
+
+---
+
+एक-एक कर सभी योद्धा आगे बढ़े।
+
+उन्होंने अपनी तलवारों को साफ़ किया…
+उन पर चंदन लगाया…
+फूल चढ़ाए…
+
+---
+
+वह बालक भी आगे बढ़ा।
+
+उसके हाथ में एक छोटी तलवार थी—उसकी पहली।
+
+उसने उसे काँपते हाथों से उठाया।
+
+पिता ने उसके कंधे पर हाथ रखा।
+
+“इसे केवल पकड़ना मत…” उसने कहा,
+“इसे समझो।”
+
+---
+
+बालक ने तलवार की धार को देखा।
+
+उसमें उसकी अपनी छवि दिख रही थी।
+
+---
+
+उसने धीरे से तिलक लगाया।
+
+और उसी क्षण—
+
+उसके भीतर कुछ बदल गया।
+
+---
+
+अचानक—
+
+नगाड़ा बजा।
+
+---
+
+एक स्वर उठा—
+
+“जय भवानी!”
+
+---
+
+और फिर—
+
+पूरे प्रांगण में गूँज—
+
+“जय भवानी!”
+
+---
+
+योद्धाओं ने अपनी तलवारें उठाईं।
+
+अग्नि की लपटें उन पर पड़ रही थीं।
+
+हर तलवार—एक वचन बन गई।
+
+---
+
+“हम वचन लेते हैं…”
+“कि हम धर्म की रक्षा करेंगे…”
+“कि हम अन्याय के सामने नहीं झुकेंगे…”
+“कि हम अपने प्राण दे देंगे… लेकिन अपनी पीठ नहीं दिखाएँगे…”
+
+---
+
+स्वर गूँजने लगे।
+
+दीवारें काँप उठीं।
+
+अग्नि और ऊँची हो गई।
+
+---
+
+वह बालक—
+
+अब स्थिर खड़ा था।
+
+उसकी आँखों में अब भय नहीं था…
+
+सिर्फ़ एक आग।
+
+---
+
+अचानक—
+
+उसके मन में एक दृश्य आया।
+
+युद्ध…
+
+घोड़े…
+
+तलवारें…
+
+और वह—
+
+इस खांडे के साथ।
+
+---
+
+उसने धीरे से कहा—
+
+“मैं तैयार हूँ…”
+
+---
+
+वर्षों बाद—
+
+वही बालक—अब एक योद्धा—
+
+रणभूमि में खड़ा था।
+
+उसकी तलवार खून से भीगी हुई थी।
+
+उसकी साँसें भारी थीं।
+
+---
+
+एक दुश्मन उसके सामने आया।
+
+“तुम क्यों लड़ते हो?” उसने पूछा।
+
+---
+
+उसने अपनी तलवार को देखा।
+
+फिर उत्तर दिया—
+
+“क्योंकि मैंने वचन लिया है।”
+
+---
+
+और फिर—
+
+वार।
+
+---
+
+युद्ध समाप्त हुआ।
+
+वह खड़ा था।
+
+उसकी तलवार अब भी उसके हाथ में थी।
+
+---
+
+वह किले में लौटा।
+
+उसी प्रांगण में—
+
+जहाँ अग्नि जलती थी।
+
+---
+
+उसने अपनी तलवार को फिर वहीं रखा।
+
+उसकी आँखें बंद हुईं।
+
+“हमने वचन निभाया…” उसने कहा।
+
+---
+
+आज भी…
+
+दशहरे की रात…
+
+जब शस्त्र पूजन होता है—
+
+तो केवल पूजा नहीं होती…
+
+एक संबंध फिर जीवित होता है।
+
+---
+
+योद्धा और उसकी तलवार का…
+
+धर्म और कर्तव्य का…
+
+जीवन और मृत्यु का…
+
+---
+
+खांडा…
+
+आज भी यह सिखाता है—
+
+कि यह केवल हथियार नहीं है…
+
+यह साक्षी है—
+
+तुम्हारे वचनों का…
+तुम्हारे कर्मों का…
+
+और जब तुम इसे उठाते हो—
+
+तो तुम अकेले नहीं होते…
+
+तुम्हारे साथ—
+
+सदियों का इतिहास खड़ा होता है।
+`
     ],
-    coverImage: { src: '/images/legends/sword-puja.jpg', alt: 'A collection of traditional swords arranged for a ritual.' }
+    coverImage: { src: '/images/dynasties/seals/mewar-sisodia-seal.png', alt: 'A collection of traditional swords arranged for a ritual.' }
   },
   {
     id: 'rajput-dussehra-arms',
@@ -1203,11 +31026,300 @@ export const allLegends: Legend[] = [
     era: 'Timeless',
     location: 'Rajputana Capitals',
     story: [
-      'Dussehra was the most important festival for the Rajput states, marking the end of the monsoon and the start of the campaigning season. It was a day of grand processions and military displays.',
-      'The highlights included the worship of the state standard, the horse, and the elephant. In many states, the ruler would lead a mock battle to signify his readiness for war.',
-      'The Dussehra rituals were a powerful display of the state’s military identity and a way to reinforce the martial values of the community.'
+      `दशहरा…
+केवल एक उत्सव नहीं…
+एक घोषणा।
+
+बरसात के बाद जब धरती की नमी सूखने लगती थी…
+जब आसमान साफ़ हो जाता था…
+और जब हवा में एक अजीब सी तीव्रता भर जाती थी—
+
+तभी आता था वह दिन…
+जब राजपुताना फिर से युद्ध के लिए जागता था।
+
+---
+
+किले के भीतर सुबह से ही हलचल थी।
+
+नगाड़े बज रहे थे…
+ध्वज लहरा रहे थे…
+और सैनिक—सज-धज कर तैयार खड़े थे।
+
+यह कोई साधारण दिन नहीं था।
+
+यह वह दिन था—
+जब तलवारें केवल चमकती नहीं थीं…
+वे वचन देती थीं।
+
+---
+
+एक बालक अपने पिता के साथ प्रांगण में खड़ा था।
+
+उसकी आँखों में उत्सुकता थी।
+
+उसने इतने सारे सैनिक कभी एक साथ नहीं देखे थे।
+
+घोड़े… हाथी…
+ध्वज… ढाल…
+और बीच में—राजा।
+
+---
+
+“आज क्या होगा?” उसने पूछा।
+
+पिता ने गहरी साँस ली।
+
+“आज…” उसने कहा,
+“हम याद करेंगे… कि हम कौन हैं।”
+
+---
+
+प्रांगण के बीच एक विशाल ध्वज खड़ा था।
+
+राज्य का प्रतीक।
+
+उसके सामने दीप जलाए गए।
+
+फूल चढ़ाए गए।
+
+---
+
+राजा आगे बढ़ा।
+
+उसने ध्वज को प्रणाम किया।
+
+उसकी आँखों में गंभीरता थी।
+
+यह केवल सम्मान नहीं था—
+
+यह वचन था।
+
+---
+
+फिर—
+
+अश्व पूजन।
+
+घोड़े सजाए गए…
+उनके माथे पर तिलक…
+उनकी गर्दन पर फूल…
+
+राजा ने अपने घोड़े के पास जाकर उसे छुआ।
+
+“आज फिर…” उसने धीमे से कहा,
+“हम साथ चलेंगे।”
+
+---
+
+हाथी भी सजे थे—
+विशाल… स्थिर…
+युद्ध के भारी कदमों के प्रतीक।
+
+---
+
+और फिर—
+
+नगाड़ा गूँजा।
+
+---
+
+“तैयार हो जाओ!”
+
+---
+
+सैनिक पंक्तियों में खड़े हो गए।
+
+तलवारें उठीं।
+
+धूप में उनकी चमक—आँखों को चीर रही थी।
+
+---
+
+राजा घोड़े पर सवार हुआ।
+
+उसने चारों ओर देखा—
+
+उसके लोग…
+उसकी सेना…
+उसका राज्य…
+
+---
+
+“आज…” उसकी आवाज़ गूँजी,
+“हम केवल उत्सव नहीं मनाते…”
+
+---
+
+सन्नाटा।
+
+---
+
+“हम अपने युद्ध को याद करते हैं…”
+
+---
+
+और फिर—
+
+“धावा!”
+
+---
+
+एक नकली युद्ध शुरू हुआ।
+
+लेकिन उसमें कोई हल्कापन नहीं था।
+
+घोड़े दौड़े…
+तलवारें टकराईं…
+सैनिक गरजे—
+
+“हर हर महादेव!”
+
+---
+
+वह बालक स्तब्ध खड़ा था।
+
+यह खेल नहीं था…
+
+यह तैयारी थी।
+
+---
+
+राजा सबसे आगे था।
+
+उसकी तलवार हवा को चीर रही थी।
+
+उसकी चाल… उसका संतुलन… उसका संकल्प—
+
+सब कुछ स्पष्ट था।
+
+---
+
+अचानक—
+
+एक सैनिक गिरा।
+
+भले ही यह अभ्यास था—
+
+लेकिन दर्द असली था।
+
+---
+
+राजा रुका नहीं।
+
+क्योंकि युद्ध में—
+
+कोई नहीं रुकता।
+
+---
+
+कुछ ही समय में—
+
+नकली युद्ध समाप्त हुआ।
+
+लेकिन उसके पीछे एक सच्चाई थी—
+
+कि अगला युद्ध असली होगा।
+
+---
+
+सैनिक वापस खड़े हुए।
+
+साँसें भारी…
+चेहरे गंभीर…
+
+---
+
+राजा घोड़े से उतरा।
+
+वह प्रांगण के बीच आया।
+
+उसने अपनी तलवार नीचे रखी।
+
+---
+
+“हम तैयार हैं,” उसने कहा।
+
+---
+
+सभी ने एक साथ उत्तर दिया—
+
+“हम तैयार हैं!”
+
+---
+
+वह बालक अब भी खड़ा था।
+
+उसकी आँखों में अब केवल उत्सुकता नहीं थी…
+
+अब उसमें समझ थी।
+
+---
+
+उसने धीरे से कहा—
+
+“एक दिन… मैं भी तैयार रहूँगा…”
+
+---
+
+सूरज ढलने लगा।
+
+दीप जल उठे।
+
+संगीत फिर गूँजा।
+
+लेकिन अब—
+
+उसमें एक अलग स्वर था—
+
+एक तैयारी का…
+एक संकल्प का…
+
+---
+
+आज भी…
+
+राजस्थान के किलों में…
+
+जब दशहरा आता है—
+
+तो केवल उत्सव नहीं होता…
+
+एक स्मरण होता है—
+
+कि यह भूमि केवल जीने के लिए नहीं…
+
+लड़ने के लिए भी बनी है।
+
+---
+
+दशहरा…
+
+आज भी यह सिखाता है—
+
+कि युद्ध अचानक नहीं आता…
+
+उसकी तैयारी—
+हर वर्ष… हर क्षण…
+
+चलती रहती है।
+
+और जो तैयार रहता है—
+
+वही जीवित रहता है।
+
+---
+
+और जब नगाड़ा बजता है—
+
+तो यह केवल एक ध्वनि नहीं होती…
+
+यह एक पुकार होती है—
+
+“उठो…
+समय आ गया है।”
+`
     ],
-    coverImage: { src: '/images/legends/dussehra-procession.jpg', alt: 'A grand royal procession during Dussehra.' }
+    coverImage: { src: '/images/dynasties/ahilyabai-holkar.jpg', alt: 'A grand royal procession during Dussehra.' }
   },
   {
     id: 'rajput-horse-festival',
@@ -1217,11 +31329,294 @@ export const allLegends: Legend[] = [
     era: 'Timeless',
     location: 'Marwar and Mewar',
     story: [
-      'The Ashwa Pujan, or horse worship, was a key part of the Dussehra and other festivals. The horses were decorated with fine silks and jewelry, and their lineage was celebrated.',
-      'It was an acknowledgment of the horse’s role in the survival and success of the Rajput states. A warrior’s horse was often treated with the same respect as a family member.',
-      'These festivals are a reminder of the deep equestrian culture of Rajasthan, which produced some of the finest cavalry in the world.'
+      `रेत की ठंडी होती साँझ…
+आकाश में ढलता सूरज… और किले के प्रांगण में एक अलग ही तैयारी।
+
+आज युद्ध नहीं था…
+लेकिन हर योद्धा के भीतर वही उत्साह… वही गर्व… वही गंभीरता थी।
+
+क्योंकि आज—अश्व पूजन था।
+
+---
+
+किले के भीतर विशाल प्रांगण में घोड़े खड़े थे।
+
+साधारण नहीं—
+रक्त से जुड़े… युद्ध के साथी… जीवन के रक्षक।
+
+उनके शरीर पर रेशमी कपड़े…
+माथे पर सोने-चाँदी के अलंकार…
+घुँघरुओं की हल्की ध्वनि…
+
+लेकिन उनकी आँखों में—वही जंगली स्वतंत्रता… वही तेज।
+
+---
+
+एक बालक अपने पिता के साथ खड़ा था।
+
+उसने अपने सामने खड़े घोड़े को देखा—ऊँचा… सुंदर… और गर्व से भरा।
+
+“क्या यह भी योद्धा है?” उसने पूछा।
+
+पिता मुस्कुराया।
+
+“यह योद्धा नहीं…” उसने कहा,
+“यह तुम्हारा जीवन है।”
+
+---
+
+बालक ने आश्चर्य से देखा।
+
+पिता ने घोड़े की गर्दन पर हाथ फेरा।
+
+“जब तलवारें टकराती हैं…” उसने कहा,
+“तो यह तुम्हें वहाँ ले जाता है… और वापस भी लाता है।”
+
+---
+
+उसने अपने घोड़े के कानों को छुआ—जो हल्के से मुड़े हुए थे।
+
+“यह तुम्हारी साँसों को समझता है…” पिता ने कहा,
+“तुम्हारे डर को भी… और तुम्हारे साहस को भी।”
+
+---
+
+प्रांगण में ढोल बजने लगे।
+
+पूजा शुरू होने वाली थी।
+
+---
+
+एक-एक कर योद्धा अपने घोड़ों के पास गए।
+
+उन्होंने उनके माथे पर तिलक लगाया।
+
+फूल चढ़ाए।
+
+घंटी की ध्वनि गूँज उठी।
+
+---
+
+वह बालक भी आगे बढ़ा।
+
+उसने काँपते हाथों से तिलक लगाया।
+
+घोड़े ने हल्के से सिर झुकाया।
+
+---
+
+उस क्षण—
+
+एक बंधन बन गया।
+
+---
+
+पूजा के बाद—
+
+एक वृद्ध सरदार आगे आया।
+
+उसकी आवाज़ गूँजी—
+
+“यह केवल उत्सव नहीं है…”
+
+---
+
+सन्नाटा छा गया।
+
+---
+
+“यह स्मरण है…” उसने कहा,
+“कि हम अकेले नहीं लड़ते…”
+
+---
+
+उसने अपने घोड़े की ओर देखा।
+
+“यह हमारे साथ लड़ता है…
+हमारे साथ मरता है…”
+
+---
+
+उसकी आँखों में एक पुरानी याद चमकी।
+
+“मैंने एक युद्ध में…” उसने धीमे स्वर में कहा,
+“अपना घोड़ा खो दिया था…”
+
+---
+
+सभी चुप हो गए।
+
+---
+
+“वह मुझे बचाकर… खुद गिर पड़ा…” उसने कहा।
+
+उसकी आवाज़ भारी हो गई।
+
+---
+
+“उस दिन… मैंने समझा…”
+“कि यह केवल पशु नहीं है…”
+
+---
+
+उसने सिर झुका लिया।
+
+“यह परिवार है…”
+
+---
+
+अचानक—
+
+नगाड़े तेज़ हो गए।
+
+---
+
+एक प्रदर्शन शुरू हुआ।
+
+घोड़े दौड़े।
+
+उनकी चाल… उनकी गति… उनका संतुलन…
+
+हर कदम—एक कला।
+
+---
+
+युवा योद्धा अपने घोड़ों पर सवार हुए।
+
+वे घुमाव लेते…
+अचानक रुकते…
+फिर दौड़ते…
+
+---
+
+यह केवल प्रदर्शन नहीं था—
+
+यह युद्ध की तैयारी थी।
+
+---
+
+वह बालक अब घोड़े पर बैठा था।
+
+पहली बार।
+
+उसकी पकड़ थोड़ी ढीली थी…
+
+लेकिन उसकी आँखों में एक चमक थी।
+
+---
+
+पिता ने पास आकर कहा—
+
+“याद रखो… इसे आदेश मत दो…”
+
+“इसके साथ चलो।”
+
+---
+
+बालक ने सिर हिलाया।
+
+उसने लगाम को हल्के से थामा।
+
+घोड़ा आगे बढ़ा।
+
+---
+
+उस क्षण—
+
+वह केवल सवार नहीं था…
+
+वह एक योद्धा बन रहा था।
+
+---
+
+वर्षों बाद—
+
+वही बालक… अब एक अनुभवी योद्धा…
+
+अपने घोड़े के साथ खड़ा था।
+
+उसकी तलवार… उसके घाव… उसकी जीत…
+
+सब इस घोड़े के साथ जुड़े थे।
+
+---
+
+उसने धीरे से कहा—
+
+“हमने बहुत कुछ देखा है… है ना?”
+
+घोड़ा शांत खड़ा रहा।
+
+---
+
+अचानक—
+
+दूर से युद्ध का नगाड़ा गूँजा।
+
+---
+
+वह घोड़े पर चढ़ा।
+
+उसने उसके कानों को छुआ।
+
+“चलें…” उसने कहा।
+
+---
+
+और फिर—
+
+धावा।
+
+---
+
+घोड़े की टापें गूँजीं।
+
+तलवार चमकी।
+
+युद्ध शुरू हुआ।
+
+---
+
+लेकिन इस बार—
+
+वह अकेला नहीं था।
+
+---
+
+आज भी राजस्थान की धरती पर…
+
+जब अश्व पूजन होता है…
+
+तो केवल पूजा नहीं होती…
+
+एक बंधन फिर जीवित होता है।
+
+---
+
+वह बंधन—
+
+योद्धा और उसके घोड़े के बीच…
+
+जीवन और मृत्यु के बीच…
+
+---
+
+अश्व पूजन…
+
+आज भी यह सिखाता है—
+
+कि कुछ रिश्ते शब्दों से नहीं…
+
+युद्ध के मैदान में बनते हैं।
+
+और जब वह बंधन बन जाता है—
+
+तो सवार और घोड़ा…
+
+एक ही आत्मा बन जाते हैं।
+`
     ],
-    coverImage: { src: '/images/legends/horse-festival.jpg', alt: 'A beautifully decorated Marwari horse at a festival.' }
+    coverImage: { src: '/images/dynasties/rulers/rao-jodha.jpg', alt: 'A beautifully decorated Marwari horse at a festival.' }
   },
   {
     id: 'rajput-war-oath-ceremony',
@@ -1231,11 +31626,342 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Battlefield Camps',
     story: [
-      'Before a major battle, the warriors would gather around a sacred fire or their clan banner to take a collective oath. They would swear to stand by each other and to never turn their backs to the enemy.',
-      'The oath was often sealed with the drinking of water from a common vessel, signifying the dissolution of individual egos into the collective honor of the unit.',
-      'This ceremony created a sense of brotherhood and purpose that allowed Rajput forces to face overwhelming odds with a calm, deadly resolve.'
+      `रात उतर चुकी थी…
+आकाश में तारे स्थिर थे—जैसे वे भी उस क्षण के साक्षी बनना चाहते हों।
+दूर कहीं युद्ध की आहट थी… लेकिन इस समय… किले के भीतर—एक अलग ही अग्नि जल रही थी।
+
+यह वह क्षण था…
+जब तलवारें अभी म्यान में थीं…
+लेकिन युद्ध पहले ही शुरू हो चुका था—मन के भीतर।
+
+---
+
+किले के प्रांगण में एक अग्नि जल रही थी।
+
+चारों ओर योद्धा खड़े थे—
+राठौड़… सिसोदिया… चौहान…
+हर कुल… हर वंश…
+
+लेकिन इस क्षण—वे सब एक थे।
+
+---
+
+एक बालक भी उस भीड़ में खड़ा था।
+
+आज वह पहली बार इस सभा में आया था।
+
+उसकी आँखों में उत्साह था…
+लेकिन भीतर कहीं एक हल्का भय भी।
+
+उसने अपने पिता को देखा—
+जो अग्नि के सामने खड़े थे… शांत… स्थिर…
+
+“डर लग रहा है?” पिता ने धीमे से पूछा।
+
+बालक कुछ क्षण चुप रहा…
+फिर सिर हिलाया—“थोड़ा…”
+
+पिता मुस्कुराया।
+
+“अच्छा है… डर होना चाहिए,” उसने कहा,
+“क्योंकि वही तुम्हें याद दिलाएगा—कि तुम अकेले नहीं हो।”
+
+---
+
+अग्नि की लपटें ऊँची उठीं।
+
+एक सरदार आगे बढ़ा।
+
+उसके हाथ में कुल-ध्वज था—
+वह ध्वज… जो पीढ़ियों से युद्ध का साक्षी रहा था।
+
+उसने उसे अग्नि के सामने रोका।
+
+“आज…” उसकी आवाज़ गूँजी,
+“हम केवल अपने लिए नहीं लड़ेंगे…”
+
+---
+
+सन्नाटा छा गया।
+
+हर आँख उसी ध्वज पर टिक गई।
+
+---
+
+“आज हम… एक-दूसरे के लिए लड़ेंगे,” उसने कहा।
+
+---
+
+एक-एक कर योद्धा आगे बढ़ने लगे।
+
+उन्होंने अपनी तलवारें निकालीं…
+और उन्हें अग्नि की रोशनी में उठाया।
+
+चिंगारियाँ उनके चेहरों पर पड़ रही थीं—
+जैसे अग्नि उन्हें स्वीकार कर रही हो।
+
+---
+
+“हम वचन लेते हैं…” एक स्वर उठा।
+
+“हम वचन लेते हैं…” सभी ने दोहराया।
+
+---
+
+“कि हम एक-दूसरे का साथ नहीं छोड़ेंगे…”
+
+“कि हम पीठ नहीं दिखाएँगे…”
+
+“कि हम आखिरी साँस तक लड़ेंगे…”
+
+---
+
+स्वर गूँजने लगे।
+
+प्रांगण काँप उठा।
+
+अग्नि और ऊँची हो गई।
+
+---
+
+फिर—
+
+एक पात्र लाया गया।
+
+पानी से भरा हुआ।
+
+---
+
+वह कोई साधारण पानी नहीं था…
+
+वह एक प्रतीक था—
+
+व्यक्तिगत अहंकार के अंत का…
+और एक नई पहचान का—
+
+भाईचारे का।
+
+---
+
+पहला योद्धा आगे बढ़ा।
+
+उसने पात्र को उठाया…
+एक घूँट लिया…
+
+और फिर—
+
+दूसरे को थमा दिया।
+
+---
+
+एक-एक कर…
+
+हर योद्धा ने उसी पात्र से पानी पिया।
+
+अब वे अलग-अलग व्यक्ति नहीं थे…
+
+अब वे एक थे।
+
+---
+
+वह बालक भी आगे बढ़ा।
+
+उसके हाथ थोड़े काँप रहे थे।
+
+उसने पात्र उठाया।
+
+पानी को देखा…
+
+फिर—
+
+एक घूँट लिया।
+
+---
+
+उस क्षण—
+
+उसका भय खत्म हो गया।
+
+अब वह अकेला नहीं था।
+
+---
+
+अचानक—
+
+नगाड़ा बजा।
+
+---
+
+“समय आ गया है!”
+
+---
+
+अग्नि की लपटें हवा में उठीं।
+
+योद्धाओं ने अपनी तलवारें उठाईं।
+
+“हर हर महादेव!”
+
+---
+
+अगले ही क्षण—
+
+किले के द्वार खुले।
+
+---
+
+और फिर—
+
+धावा।
+
+---
+
+घोड़े गरजे।
+
+तलवारें चमकीं।
+
+दुश्मन सामने था।
+
+---
+
+युद्ध शुरू हुआ।
+
+लेकिन इस बार—
+
+कोई डगमगाया नहीं।
+
+कोई पीछे नहीं हटा।
+
+---
+
+वह बालक—
+
+अब योद्धा—
+
+सबसे आगे था।
+
+उसकी आँखों में अब डर नहीं था…
+
+सिर्फ़ एक संकल्प।
+
+---
+
+उसके पास एक साथी गिरा।
+
+उसने उसे देखा—
+
+और फिर—
+
+और भी प्रचंड होकर लड़ा।
+
+क्योंकि अब—
+
+वह केवल अपने लिए नहीं लड़ रहा था।
+
+---
+
+युद्ध भयानक था।
+
+खून बहा।
+
+चीखें गूँजीं।
+
+लेकिन—
+
+वह पंक्ति नहीं टूटी।
+
+---
+
+अंततः—
+
+दुश्मन पीछे हट गया।
+
+---
+
+वह खड़ा था।
+
+उसकी साँसें भारी थीं।
+
+उसका शरीर घावों से भरा था।
+
+उसने चारों ओर देखा—
+
+उसके साथी…
+
+कुछ खड़े थे…
+
+कुछ नहीं।
+
+---
+
+वह धीरे-धीरे अग्नि के पास लौटा।
+
+अब वह बुझ चुकी थी…
+
+लेकिन उसकी गर्मी अब भी थी।
+
+---
+
+उसने जमीन को छुआ।
+
+“हमने वचन निभाया…” उसने कहा।
+
+---
+
+वर्षों बाद…
+
+वह स्वयं एक वृद्ध सरदार था।
+
+उसके सामने नए योद्धा खड़े थे।
+
+वही अग्नि… वही ध्वज…
+
+---
+
+एक युवा ने पूछा,
+“क्या यह वचन सच में इतना महत्वपूर्ण है?”
+
+वह मुस्कुराया।
+
+“युद्ध तलवार से जीते जाते हैं…” उसने कहा,
+“लेकिन तलवार उठाने की ताकत… यहाँ से आती है।”
+
+उसने अपने हृदय पर हाथ रखा।
+
+---
+
+आज भी…
+
+उन प्राचीन किलों में…
+
+जब अग्नि जलती है…
+
+तो वह केवल प्रकाश नहीं देती…
+
+वह एक वचन को जीवित रखती है।
+
+---
+
+वह वचन—
+
+जो योद्धाओं को भाई बनाता है…
+
+जो डर को शक्ति में बदल देता है…
+
+और जो कहता है—
+
+“हम साथ हैं…”
+
+---
+
+और जब योद्धा सच में साथ होते हैं—
+
+तो कोई भी शक्ति…
+
+उन्हें तोड़ नहीं सकती।
+`
     ],
-    coverImage: { src: '/images/legends/war-oath.jpg', alt: 'Warriors gathered around a fire for a solemn oath.' }
+    coverImage: { src: '/images/dynasties/seals/hada-bundi-kota-seal.png', alt: 'Warriors gathered around a fire for a solemn oath.' }
   },
   {
     id: 'defense-of-kumbhalgarh',
@@ -1245,11 +31971,345 @@ export const allLegends: Legend[] = [
     era: '16th Century',
     location: 'Kumbhalgarh',
     story: [
-      'Kumbhalgarh, with its massive walls and strategic location, was the ultimate refuge of the Mewar rulers. It is said to have been captured only once, and that too because the water supply was poisoned.',
-      'During the Mughal sieges, the fort held out against overwhelming numbers, its defenders using the rugged terrain and the deep forests of the Aravallis to their advantage.',
-      'The defense of Kumbhalgarh is a symbol of the Sisodia commitment to their independence, a stone witness to a spirit that refused to be caged.'
+      `कुंभलगढ़…
+अरावली की उन विशाल भुजाओं में लिपटा हुआ वह दुर्ग, जिसकी दीवारें पहाड़ों से भी लंबी… और जिसका मौन—तलवारों की गर्जना से भी अधिक प्रचंड था।
+कहा जाता था—अगर मेवाड़ की आत्मा कहीं पत्थरों में बसती है… तो वह कुंभलगढ़ में है।
+
+यह केवल एक किला नहीं था…
+यह शरण था…
+यह संकल्प था…
+और यह वह अंतिम स्थान था—जहाँ हार भी सिर झुकाकर प्रवेश नहीं कर सकती थी।
+
+---
+
+उसी दुर्ग की दीवारों के भीतर एक बालक का जन्म हुआ।
+
+जब उसने पहली बार आँखें खोलीं—तो उसने पत्थर नहीं देखे…
+उसने देखा—एक दुनिया, जो दीवारों के भीतर भी असीम थी।
+
+उसका पिता—सिसोदिया वंश का एक सरदार—उसे दीवार पर ले गया।
+
+नीचे—घने जंगल…
+दूर—पहाड़ों की श्रृंखला…
+
+“यह हमारा अंतिम घर है,” उसने कहा।
+
+बालक ने पूछा,
+“क्या इसे कोई जीत सकता है?”
+
+पिता कुछ क्षण चुप रहा…
+फिर बोला,
+“केवल तभी… जब हम खुद टूट जाएँ।”
+
+---
+
+उसका बचपन इस दुर्ग की गहराइयों में बीता।
+
+वह हर दीवार… हर मार्ग… हर छिपे हुए रास्ते को जानता था।
+
+कुंभलगढ़ केवल ऊँचा नहीं था—
+वह जटिल था।
+
+उसके भीतर रास्ते मुड़ते थे…
+दरवाजे एक-दूसरे से जुड़े थे…
+और हर स्थान—एक रक्षा था।
+
+उसके गुरु ने कहा,
+“यह किला केवल पत्थरों से नहीं… संकल्प से बना है।”
+
+बालक ने हर शब्द को अपने भीतर उतार लिया।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और उसी समय तूफ़ान आया।
+
+मुगल सेना…
+
+असंख्य…
+
+तोपें… घोड़े… पैदल सैनिक…
+
+उन्होंने कुंभलगढ़ को घेर लिया।
+
+---
+
+घेरा शुरू हुआ।
+
+तोपें गरजने लगीं।
+
+दीवारों पर वार।
+
+धूल उड़ने लगी।
+
+लेकिन—
+
+दीवारें खड़ी रहीं।
+
+---
+
+पहला हमला—
+
+सीधा।
+
+दुश्मन चढ़ाई करने लगा।
+
+लेकिन—
+
+यह चढ़ाई आसान नहीं थी।
+
+संकरी… लंबी… खतरनाक…
+
+ऊपर से तीरों की बारिश।
+
+पत्थर गिराए गए।
+
+दुश्मन गिरने लगा।
+
+पहला प्रयास विफल।
+
+---
+
+दूसरा हमला—
+
+जंगलों के रास्ते।
+
+उन्होंने सोचा—पीछे से घुसेंगे।
+
+लेकिन—
+
+जंगल उनका नहीं था।
+
+---
+
+सिसोदिया योद्धा छाया बन गए।
+
+एक वार…
+और फिर गायब…
+
+दूसरा वार…
+और फिर खामोशी…
+
+दुश्मन परेशान हो गया।
+
+“वे कहाँ हैं?” एक सेनापति चिल्लाया।
+
+लेकिन—
+
+कोई जवाब नहीं।
+
+---
+
+दिन बीतते गए।
+
+घेरा लंबा खिंच गया।
+
+महीने बीतने लगे।
+
+---
+
+किले के भीतर—
+
+जीवन चल रहा था।
+
+भोजन सीमित…
+पानी बचाकर…
+
+लेकिन—
+
+मन अडिग।
+
+---
+
+एक सैनिक बोला,
+“सरदार… वे बहुत अधिक हैं…”
+
+वह शांत रहा।
+
+“वे बाहर हैं…” उसने कहा,
+“और हम… भीतर हैं।”
+
+---
+
+लेकिन एक दिन—
+
+कुछ बदल गया।
+
+---
+
+पानी…
+
+जिस पर किला निर्भर था…
+
+वह दूषित हो गया।
+
+---
+
+एक सैनिक दौड़ता हुआ आया—
+
+“पानी… ज़हर…”
+
+सन्नाटा छा गया।
+
+---
+
+वह चुप खड़ा था।
+
+उसकी आँखों में पहली बार एक अलग भाव आया—
+
+चिंता नहीं…
+
+स्वीकार।
+
+---
+
+“अब… समय आ गया है,” उसने कहा।
+
+---
+
+उसने अपने योद्धाओं को इकट्ठा किया।
+
+“हम यहाँ बंद होकर नहीं मरेंगे,” उसने कहा,
+“हम बाहर जाएँगे… और लड़ेंगे।”
+
+---
+
+रात—
+
+किले के द्वार खुले।
+
+---
+
+और फिर—
+
+अंतिम धावा।
+
+---
+
+सिसोदिया योद्धा बाहर निकले।
+
+घोड़ों की टापें गूँजीं।
+
+“हर हर महादेव!”
+
+---
+
+वे सीधे दुश्मन की सेना पर टूट पड़े।
+
+यह युद्ध जीतने के लिए नहीं था—
+
+यह संकल्प दिखाने के लिए था।
+
+---
+
+तलवारें टकराईं।
+
+चिंगारियाँ उड़ीं।
+
+खून बहा।
+
+---
+
+वह सबसे आगे था।
+
+उसकी तलवार लगातार चल रही थी।
+
+उसकी साँसें भारी थीं।
+
+एक मुगल सेनापति उसके सामने आया।
+
+“अब तुम्हारा किला गिर चुका है!” वह गरजा।
+
+उसने शांत स्वर में कहा,
+“किला… नहीं… आत्मा।”
+
+और उसकी तलवार ने वार किया।
+
+---
+
+युद्ध भयानक था।
+
+एक-एक कर योद्धा गिरते गए।
+
+लेकिन—
+
+कोई पीछे नहीं हटा।
+
+---
+
+अंततः—
+
+कुंभलगढ़ खाली हुआ।
+
+लेकिन—
+
+वह टूटा नहीं।
+
+---
+
+वर्षों बाद—
+
+फिर से वही दीवारें खड़ी थीं।
+
+फिर से वही ध्वज।
+
+---
+
+कुंभलगढ़ फिर जीवित था।
+
+---
+
+वह अंतिम क्षण—
+
+जब वह घुटनों पर गिरा…
+
+उसने आखिरी बार दीवारों की ओर देखा।
+
+“हम… कभी बंद नहीं होंगे…” उसने कहा।
+
+और उसकी आँखें बंद हो गईं।
+
+---
+
+आज भी कुंभलगढ़ वैसे ही खड़ा है—
+
+लंबा… विशाल… अजेय…
+
+उसकी दीवारें दूर तक फैली हैं—मानो धरती को बाँध रही हों।
+
+---
+
+जब हवा उन पत्थरों से टकराती है—
+
+तो ऐसा लगता है जैसे कोई आवाज़ गूँज रही हो—
+
+घेरों की…
+धैर्य की…
+और उस संकल्प की…
+
+जो कहता है—
+
+“हमें कैद नहीं किया जा सकता…”
+
+---
+
+कुंभलगढ़…
+
+आज भी यह सिखाता है—
+
+कि हार केवल दीवारों की नहीं होती…
+
+वह तब होती है—
+
+जब आत्मा झुक जाए।
+
+और यहाँ—
+
+आत्मा कभी नहीं झुकी।
+`
     ],
-    coverImage: { src: '/images/legends/kumbhalgarh-walls.jpg', alt: 'The massive walls of Kumbhalgarh winding through the hills.' }
+    coverImage: { src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'The massive walls of Kumbhalgarh winding through the hills.' }
   },
   {
     id: 'defense-of-mehrangarh',
@@ -1259,11 +32319,327 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Jodhpur',
     story: [
-      'Mehrangarh Fort, perched on its high rocky ridge, has withstood numerous sieges from neighboring Rajput states and imperial forces. Its walls bear the scars of cannonballs that failed to breach its heart.',
-      'The defenders of Mehrangarh were known for their expert use of the fort’s height and its complex gate system to trap and repel invaders.',
-      'The fort stands today as a testament to the Rathore mastery of defensive architecture and their unwavering resolve to protect their capital.'
+      `मेहरानगढ़…
+नीले नगर के ऊपर उठता हुआ वह पत्थर का शेर…
+जो आकाश को छूता था और धरती को चुनौती देता था।
+ऊँची चट्टानों पर बैठा… मानो स्वयं पर्वत ने तलवार उठा ली हो।
+
+उसकी दीवारों पर आज भी निशान हैं—तोपों के…
+हर एक निशान एक कहानी है—एक प्रयास… जो विफल हुआ।
+
+क्योंकि मेहरानगढ़ केवल किला नहीं था…
+वह संकल्प था।
+
+---
+
+उसी किले की ऊँचाई पर एक बालक का जन्म हुआ।
+
+जब उसने पहली बार आँखें खोलीं—तो नीचे नीला शहर फैला था…
+और ऊपर—असीम आकाश।
+
+उसका पिता—राठौड़ सरदार—उसे बुर्ज पर ले गया।
+
+“यह हमारा घर है,” उसने कहा।
+
+बालक ने नीचे देखा—गहरी खाई… संकरी चढ़ाई… ऊँची दीवारें।
+
+“कोई इसे ले नहीं सकता,” उसने मासूमियत से कहा।
+
+पिता मुस्कुराया।
+
+“कोई कोशिश करेगा…” उसने कहा,
+“और तब… हम दिखाएँगे… कि यह क्यों अजेय है।”
+
+---
+
+उसका बचपन उसी किले की भूलभुलैया में बीता।
+
+वह हर दरवाजे को पहचानता…
+हर मोड़ को याद करता…
+और हर गुप्त रास्ते को समझता।
+
+मेहरानगढ़ के द्वार सीधे नहीं थे—
+वे मुड़ते थे… घूमते थे…
+ताकि दुश्मन अंदर आकर भी भटक जाए।
+
+उसके गुरु ने कहा,
+“यह किला तलवार से नहीं… दिमाग से लड़ता है।”
+
+बालक ने हर शब्द को अपने भीतर उतार लिया।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और उसी समय खतरा आया।
+
+एक विशाल सेना मेहरानगढ़ की ओर बढ़ रही थी।
+
+तोपें… घोड़े… पैदल सैनिक…
+
+उनका लक्ष्य स्पष्ट था—
+
+जोधपुर को झुकाना।
+
+---
+
+घेरा शुरू हुआ।
+
+किले को चारों ओर से घेर लिया गया।
+
+तोपें गरजने लगीं।
+
+दीवारों पर वार।
+
+पत्थर काँपने लगे—
+
+लेकिन टूटे नहीं।
+
+---
+
+पहला हमला—
+
+सीधा।
+
+दुश्मन चढ़ाई करने लगा।
+
+लेकिन—
+
+यह चढ़ाई आसान नहीं थी।
+
+संकरी… खतरनाक… लंबी…
+
+ऊपर से तीरों की बारिश।
+
+पत्थर गिराए गए।
+
+दुश्मन गिरने लगा।
+
+पहला प्रयास विफल।
+
+---
+
+दूसरा हमला—
+
+और चालाक।
+
+उन्होंने द्वार तोड़ने की कोशिश की।
+
+भारी हथौड़े…
+तोपों के गोले…
+
+लेकिन—
+
+द्वार मुड़ते थे।
+
+हर मोड़ पर एक नया जाल।
+
+---
+
+जैसे ही वे अंदर घुसे—
+
+दरवाजे बंद।
+
+रास्ते घेर लिए गए।
+
+और फिर—
+
+“जोहार!”
+
+---
+
+अंदर ही युद्ध।
+
+तंग गलियाँ…
+ऊँची दीवारें…
+
+दुश्मन फँस गया।
+
+न आगे… न पीछे…
+
+---
+
+वह सबसे आगे था।
+
+उसकी तलवार लगातार चल रही थी।
+
+उसकी साँसें तेज़ थीं।
+
+एक दुश्मन सेनापति उसके सामने आया।
+
+“तुम्हारा किला गिर जाएगा!” वह गरजा।
+
+उसने शांत स्वर में कहा,
+“यह पत्थर नहीं… यह हमारी आत्मा है।”
+
+और उसकी तलवार ने वार किया।
+
+---
+
+दूसरा प्रयास भी विफल।
+
+---
+
+लेकिन तीसरा युद्ध—
+
+सबसे भयानक।
+
+---
+
+तोपें लगातार गरजने लगीं।
+
+दीवारों पर निशान पड़ने लगे।
+
+कुछ हिस्से कमजोर हुए।
+
+---
+
+एक सैनिक बोला,
+“वे अंदर आ सकते हैं!”
+
+वह शांत रहा।
+
+“तो हम उन्हें यहीं खत्म करेंगे,” उसने कहा।
+
+---
+
+सुबह—
+
+दीवार का एक हिस्सा टूट गया।
+
+दुश्मन भीतर घुस आया।
+
+---
+
+उन्हें लगा—अब जीत निश्चित है।
+
+लेकिन—
+
+वे नहीं जानते थे—
+
+कि यह किला अभी जिंदा है।
+
+---
+
+हर मोड़ पर हमला।
+
+हर गली में जाल।
+
+ऊपर से वार…
+नीचे से तलवार…
+
+---
+
+तलवारें टकराईं।
+
+चिंगारियाँ उड़ीं।
+
+चीखें गूँजीं।
+
+---
+
+वह बीच में था।
+
+उसकी साँसें भारी थीं।
+
+उसकी तलवार खून से भीग चुकी थी।
+
+---
+
+युद्ध अपने चरम पर था।
+
+घंटों तक संघर्ष चला।
+
+फिर—
+
+एक क्षण आया।
+
+जब दुश्मन की पंक्तियाँ टूटने लगीं।
+
+वे भागने लगे।
+
+कुछ गिर पड़े… कुछ फँस गए…
+
+घेरा टूट गया।
+
+---
+
+मेहरानगढ़ बच गया।
+
+---
+
+वह बुर्ज पर खड़ा था।
+
+नीचे पूरा मैदान खाली।
+
+हवा तेज़ चल रही थी।
+
+उसकी साँसें भारी थीं।
+
+उसका शरीर घावों से भरा था।
+
+उसने दीवार को छुआ।
+
+“हमने… इसे थामे रखा…” उसने कहा।
+
+---
+
+लेकिन उसके घाव गहरे थे।
+
+वह धीरे-धीरे घुटनों पर गिर पड़ा।
+
+उसकी तलवार हाथ से छूट गई।
+
+उसकी आँखें बंद हो गईं।
+
+---
+
+आज भी मेहरानगढ़ वैसे ही खड़ा है—
+
+ऊँचा… विशाल… अजेय…
+
+उसकी दीवारों पर अब भी वे निशान हैं—
+
+जो बताते हैं—
+
+कि कितनी बार उसे तोड़ने की कोशिश हुई…
+
+और हर बार—
+
+वह खड़ा रहा।
+
+---
+
+जब हवा उन चट्टानों से टकराती है—
+
+तो ऐसा लगता है जैसे कोई आवाज़ गूँज रही हो—
+
+तोपों की…
+तलवारों की…
+और उस संकल्प की…
+
+जो कहता है—
+
+“हम झुकेंगे नहीं…”
+
+---
+
+मेहरानगढ़…
+
+आज भी यह सिखाता है—
+
+कि जब आत्मा अडिग हो…
+
+तो पत्थर भी अजेय बन जाते हैं।
+
+और वही—
+
+एक किले को…
+
+इतिहास बना देता है।
+`
     ],
-    coverImage: { src: '/images/legends/mehrangarh-bastions.jpg', alt: 'The imposing bastions of Mehrangarh Fort at sunset.' }
+    coverImage: { src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'The imposing bastions of Mehrangarh Fort at sunset.' }
   },
   {
     id: 'defense-of-junagarh',
@@ -1273,11 +32649,346 @@ export const allLegends: Legend[] = [
     era: '16th Century',
     location: 'Bikaner',
     story: [
-      'Unlike many other Rajput forts, Junagarh was built on the plains. Its strength lay in its massive moats, its thick walls, and the strategic brilliance of its Rathore defenders.',
-      'The fort was never captured, despite several attempts by neighboring states and Mughal factions. It served as a center of power and a refuge for the Bikaner rulers for centuries.',
-      'The defense of Junagarh is a reminder that strategic planning and a committed garrison can make even a plain-level fort impregnable.'
+      `जूनागढ़…
+रेत के समतल विस्तार के बीच खड़ा वह किला, जो किसी पहाड़ी पर नहीं था…
+कोई ऊँचाई नहीं… कोई प्राकृतिक ढाल नहीं…
+
+और फिर भी—अजेय।
+
+जहाँ अन्य किले पर्वतों की गोद में सुरक्षित थे…
+वहाँ जूनागढ़ खुली धरती पर खड़ा था—जैसे युद्ध को चुनौती देता हुआ।
+
+---
+
+इसी किले की दीवारों के भीतर एक बालक का जन्म हुआ।
+
+उस दिन न कोई पर्वत उसकी रक्षा कर रहा था…
+न कोई गहरी घाटी…
+
+बस चारों ओर खुला मैदान।
+
+उसके पिता—राठौड़ सरदार—उसे दीवार पर ले गए।
+
+“देखो,” उन्होंने कहा।
+
+बालक ने दूर तक फैले मैदान को देखा।
+
+“यहाँ कुछ भी छिपा नहीं है…”
+
+पिता मुस्कुराए।
+
+“यही हमारी ताकत है,” उन्होंने कहा,
+“जो छिपा नहीं… उसे हराया भी नहीं जा सकता… अगर वह तैयार हो।”
+
+बालक ने सिर झुका लिया।
+
+उसने समझ लिया—यह किला तलवार से नहीं… बुद्धि से जीता जाएगा।
+
+---
+
+उसका बचपन दीवारों के भीतर बीता।
+
+वह खाइयों को देखता…
+पानी से भरे गहरे गड्ढे…
+मोटी दीवारें…
+और हर दरवाजे के पीछे छिपी रणनीति।
+
+उसके गुरु ने कहा,
+“यहाँ हर पत्थर… एक योजना है।”
+
+बालक ने हर मार्ग, हर मोड़ को याद किया।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और उसी समय खतरा आया।
+
+एक विशाल सेना जूनागढ़ की ओर बढ़ रही थी।
+
+उन्हें लगा—
+
+यह समतल किला है…
+
+आसानी से गिर जाएगा।
+
+---
+
+घेरा शुरू हुआ।
+
+किले को चारों ओर से घेर लिया गया।
+
+तोपें लाई गईं।
+
+धूल उड़ने लगी।
+
+---
+
+पहला हमला—
+
+सीधा।
+
+दुश्मन आगे बढ़ा।
+
+लेकिन—
+
+खाई।
+
+गहरी… पानी से भरी।
+
+घोड़े रुक गए।
+
+सैनिक ठिठक गए।
+
+---
+
+ऊपर से—
+
+तीरों की बारिश।
+
+गरम तेल।
+
+पत्थर।
+
+पहला प्रयास विफल।
+
+---
+
+दुश्मन चौंक गया।
+
+“यह इतना आसान नहीं है…” एक सेनापति बोला।
+
+---
+
+दूसरा हमला—
+
+और चालाक।
+
+उन्होंने पुल बनाने की कोशिश की।
+
+लकड़ियाँ… रस्सियाँ…
+
+धीरे-धीरे खाई पार करने की तैयारी।
+
+---
+
+वह दीवार पर खड़ा देख रहा था।
+
+उसने संकेत दिया।
+
+और—
+
+अचानक—
+
+आग।
+
+पुल जल उठे।
+
+सैनिक पीछे हटे।
+
+चीखें गूँजीं।
+
+---
+
+दूसरा प्रयास भी विफल।
+
+---
+
+लेकिन तीसरा युद्ध—
+
+सबसे भयानक।
+
+---
+
+दुश्मन ने पूरी ताकत झोंक दी।
+
+तोपें लगातार गरजने लगीं।
+
+दीवारों पर वार।
+
+कुछ हिस्से कमजोर होने लगे।
+
+---
+
+एक सैनिक बोला,
+“वे अंदर आ सकते हैं!”
+
+वह शांत रहा।
+
+“तो हम उन्हें अंदर ही खत्म करेंगे,” उसने कहा।
+
+---
+
+रात—
+
+उसने योजना बनाई।
+
+छोटे-छोटे दल…
+
+किले के भीतर…
+
+हर गली… हर मोड़…
+
+जाल।
+
+---
+
+सुबह—
+
+दीवार का एक हिस्सा टूट गया।
+
+दुश्मन भीतर घुस आया।
+
+---
+
+उन्हें लगा—अब जीत निश्चित है।
+
+लेकिन—
+
+वे नहीं जानते थे—
+
+कि वे जाल में आ चुके हैं।
+
+---
+
+तंग रास्ते…
+
+मुड़ते हुए गलियारे…
+
+अचानक बंद होने वाले दरवाजे…
+
+---
+
+और फिर—
+
+“जोहार!”
+
+---
+
+हर दिशा से हमला।
+
+ऊपर से…
+किनारों से…
+
+तलवारें टकराईं।
+
+खून बहा।
+
+दुश्मन फँस गया।
+
+न आगे… न पीछे…
+
+---
+
+वह सबसे आगे था।
+
+उसकी तलवार लगातार चल रही थी।
+
+उसकी साँसें तेज़ थीं।
+
+एक दुश्मन सेनापति उसके सामने आया।
+
+“तुम्हारा किला गिर चुका है!” वह गरजा।
+
+उसने शांत स्वर में कहा,
+“जूनागढ़… खड़ा है।”
+
+और उसकी तलवार ने वार किया।
+
+---
+
+युद्ध अपने चरम पर था।
+
+घंटों तक संघर्ष चला।
+
+फिर—
+
+एक क्षण आया।
+
+जब दुश्मन की पंक्तियाँ टूटने लगीं।
+
+वे भागने लगे।
+
+कुछ गिर पड़े… कुछ फँस गए…
+
+घेरा टूट गया।
+
+---
+
+जूनागढ़ बच गया।
+
+---
+
+वह दीवार पर खड़ा था।
+
+नीचे खाली मैदान।
+
+हवा चल रही थी।
+
+उसकी साँसें भारी थीं।
+
+उसका शरीर घावों से भरा था।
+
+उसने दीवार को छुआ।
+
+“हमने… इसे बचा लिया…” उसने कहा।
+
+---
+
+लेकिन उसके घाव गहरे थे।
+
+वह धीरे-धीरे घुटनों पर गिर पड़ा।
+
+उसकी तलवार हाथ से छूट गई।
+
+उसकी आँखें बंद हो गईं।
+
+---
+
+आज भी जूनागढ़ वैसे ही खड़ा है—
+
+समतल भूमि पर…
+लेकिन अडिग।
+
+उसकी खाइयाँ… उसकी दीवारें…
+उसकी रणनीति…
+
+सब अब भी जीवित हैं।
+
+---
+
+जब हवा उन पत्थरों से टकराती है—
+
+तो ऐसा लगता है जैसे कोई आवाज़ गूँज रही हो—
+
+रणनीति की…
+धैर्य की…
+और उस बुद्धि की…
+
+जिसने बिना पहाड़ के भी…
+
+किले को अजेय बना दिया।
+
+---
+
+जूनागढ़…
+
+आज भी यह सिखाता है—
+
+कि शक्ति केवल ऊँचाई में नहीं होती…
+
+वह उस समझ में होती है—
+
+जो हर कमजोरी को…
+
+ताकत बना दे।
+
+और वही—
+
+सच्ची विजय होती है।
+`
     ],
-    coverImage: { src: '/images/legends/junagarh-fort.jpg', alt: 'The intricate carvings and strong walls of Junagarh Fort.' }
+    coverImage: { src: '/images/dynasties/places/bikaner-rathore-main.jpg', alt: 'The intricate carvings and strong walls of Junagarh Fort.' }
   },
   {
     id: 'battle-of-mandalgarh',
@@ -1287,11 +32998,333 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Mandalgarh, Mewar',
     story: [
-      'Mandalgarh was a strategic gateway to Mewar, and its control was often contested between the Rajputs and the Sultanates of Malwa and Delhi.',
-      'This battle saw a brilliant display of mountain warfare, where the Rajput forces used the narrow passes and the high ridges to neutralize the enemy’s numerical advantage.',
-      'The victory at Mandalgarh secured the eastern frontier of Mewar, proving once again that the Aravallis were the kingdom’s greatest ally.'
+      `मांडलगढ़…
+मेवाड़ का वह पूर्वी द्वार, जहाँ से होकर आने वाला हर शत्रु पहले इसी पत्थर से टकराता था।
+ऊँची पहाड़ियों के बीच बसा, संकरे दर्रों से घिरा, और दूर तक फैली घाटियों पर नजर रखता हुआ—यह केवल एक किला नहीं था… यह एक चेतावनी था।
+
+जो यहाँ हार गया… वह मेवाड़ के भीतर कभी नहीं घुस सकता था।
+
+---
+
+इसी किले की तलहटी में एक बालक का जन्म हुआ।
+
+न कोई महल…
+न कोई उत्सव…
+
+बस पहाड़ियों से टकराती हवा… और दूर कहीं तलवारों की चमक।
+
+उसका पिता—एक राजपूत सरदार—उसे पहली बार दर्रे के किनारे ले गया।
+
+नीचे गहरी घाटी…
+ऊपर संकरी पगडंडी…
+
+“देखो,” उसने कहा,
+“यहाँ एक कदम भी गलत हुआ… तो अंत निश्चित है।”
+
+बालक ने नीचे झाँका।
+
+उसकी साँसें तेज़ हो गईं।
+
+लेकिन उसकी आँखों में डर नहीं था—
+
+सिर्फ़ समझ।
+
+---
+
+उसका बचपन इन पहाड़ियों में बीता।
+
+वह चट्टानों पर चढ़ता…
+दर्रों के हर मोड़ को याद करता…
+और सबसे महत्वपूर्ण—धैर्य सीखता।
+
+उसके गुरु ने कहा,
+“यहाँ युद्ध तलवार से नहीं… स्थान से जीता जाता है।”
+
+बालक ने सिर झुका लिया।
+
+उसने समझ लिया—
+
+यह भूमि ही उसका हथियार है।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और उसी समय खतरा आया।
+
+मालवा और दिल्ली की सेनाएँ…
+भारी संख्या में…
+मांडलगढ़ की ओर बढ़ रही थीं।
+
+उनका लक्ष्य स्पष्ट था—
+
+इस द्वार को तोड़ना।
+
+---
+
+दरबार में सन्नाटा था।
+
+एक सरदार बोला,
+“वे हमसे कई गुना अधिक हैं…”
+
+दूसरा बोला,
+“सीधा युद्ध… आत्मघाती होगा…”
+
+वह उठ खड़ा हुआ।
+
+“तो हम सीधा युद्ध नहीं करेंगे,” उसने कहा।
+
+---
+
+उसने पहाड़ियों की ओर देखा।
+
+“हम उन्हें वहीं हराएँगे… जहाँ वे कमजोर हैं।”
+
+---
+
+पहला युद्ध—
+
+दर्रों में।
+
+---
+
+दुश्मन सेना संकरे रास्तों से आगे बढ़ रही थी।
+
+लंबी पंक्ति…
+धीमी चाल…
+
+ऊपर—राजपूत योद्धा छिपे हुए।
+
+---
+
+वह सबसे ऊपर खड़ा था।
+
+“अभी नहीं…” उसने फुसफुसाया।
+
+दुश्मन और भीतर आया…
+
+और फिर—
+
+“अब!”
+
+---
+
+तीरों की बारिश।
+
+ऊपर से पत्थर।
+
+घोड़े फिसले।
+
+सैनिक गिरे।
+
+चीखें घाटियों में गूँज उठीं।
+
+पहला हमला वहीं टूट गया।
+
+---
+
+लेकिन दुश्मन रुका नहीं।
+
+दूसरा युद्ध—
+
+और भी सावधानी से।
+
+---
+
+इस बार वे धीरे-धीरे बढ़े।
+
+ढाल आगे… कदम संतुलित…
+
+---
+
+उसने अपनी सेना को बाँट दिया।
+
+कुछ ऊपर…
+कुछ पीछे…
+कुछ किनारों पर।
+
+---
+
+जैसे ही दुश्मन आगे बढ़ा—
+
+चारों ओर से हमला।
+
+“हर हर महादेव!”
+
+तलवारें टकराईं।
+
+चिंगारियाँ उड़ीं।
+
+दुश्मन फिर फँस गया।
+
+---
+
+दूसरा प्रयास भी विफल।
+
+---
+
+लेकिन तीसरा युद्ध—
+
+निर्णायक।
+
+---
+
+दुश्मन ने पूरी ताकत झोंक दी।
+
+तोपें लाई गईं।
+
+चट्टानों पर गोलों की आवाज़ गूँजने लगी।
+
+कुछ रास्ते टूटने लगे।
+
+---
+
+एक सैनिक बोला,
+“वे रास्ता बना रहे हैं!”
+
+वह शांत रहा।
+
+“तो हम उन्हें यहीं रोकेंगे,” उसने कहा।
+
+---
+
+उसने अपनी सेना को देखा।
+
+थके हुए… घायल… लेकिन अडिग।
+
+वह आगे बढ़ा।
+
+“आज… मांडलगढ़ नहीं गिरेगा,” उसने कहा।
+
+---
+
+नगाड़े बजे।
+
+दुश्मन आगे बढ़ा।
+
+---
+
+और फिर—
+
+अंतिम घात।
+
+---
+
+ऊपर से पत्थरों का सैलाब।
+
+तीरों की वर्षा।
+
+और फिर—
+
+धावा।
+
+---
+
+राजपूत योद्धा टूट पड़े।
+
+संकीर्ण रास्तों में हर वार घातक था।
+
+कोई पीछे नहीं हट सकता था।
+
+---
+
+वह सबसे आगे था।
+
+उसकी तलवार लगातार चल रही थी।
+
+उसकी साँसें भारी थीं।
+
+एक दुश्मन सेनापति उसके सामने आया।
+
+“तुम हमें रोक नहीं सकते!” वह गरजा।
+
+उसने शांत स्वर में कहा,
+“यह अरावली है… यहाँ संख्या नहीं… स्थान जीतता है।”
+
+और उसकी तलवार ने वार किया।
+
+---
+
+युद्ध अपने चरम पर था।
+
+घंटों तक संघर्ष चला।
+
+हर मोड़ पर लड़ाई।
+
+हर कदम पर खून।
+
+---
+
+फिर—
+
+एक क्षण आया।
+
+जब दुश्मन की पंक्तियाँ टूटने लगीं।
+
+वे पीछे हटने लगे।
+
+कुछ भागे… कुछ गिर पड़े…
+
+मांडलगढ़ बच गया।
+
+---
+
+वह चट्टान के किनारे खड़ा था।
+
+नीचे दुश्मन पीछे हट रहा था।
+
+हवा तेज़ चल रही थी।
+
+उसकी साँसें भारी थीं।
+
+उसका शरीर घावों से भरा था।
+
+उसने पत्थर को छुआ।
+
+“हमने… इसे थामे रखा…” उसने कहा।
+
+---
+
+लेकिन उसके घाव गहरे थे।
+
+वह धीरे-धीरे घुटनों पर गिर पड़ा।
+
+उसकी तलवार हाथ से छूट गई।
+
+उसकी आँखें बंद हो गईं।
+
+---
+
+आज भी मांडलगढ़ वैसे ही खड़ा है—
+
+ऊँचा… अडिग… अजेय…
+
+उसकी पहाड़ियों में आज भी वह कहानी गूँजती है—
+
+घात की…
+रणनीति की…
+और उस समझ की…
+
+जिसने संख्या को हराकर—
+
+विजय हासिल की।
+
+---
+
+मांडलगढ़…
+
+आज भी यह सिखाता है—
+
+कि जब भूमि तुम्हारे साथ हो…
+
+तो तुम कभी अकेले नहीं होते।
+
+और वही—
+
+सबसे बड़ी शक्ति होती है।
+`
     ],
-    coverImage: { src: '/images/legends/mandalgarh.jpg', alt: 'The historic fort of Mandalgarh overlooking the valley.' }
+    coverImage: { src: '/images/dynasties/places/mewar.jpg', alt: 'The historic fort of Mandalgarh overlooking the valley.' }
   },
   {
     id: 'battle-of-bayana',
@@ -1301,11 +33334,313 @@ export const allLegends: Legend[] = [
     era: '1527 AD',
     location: 'Bayana, Eastern Rajasthan',
     story: [
-      'In the lead-up to the Battle of Khanwa, the Rajput forces under Rana Sanga achieved a significant victory over the Mughal vanguard at Bayana.',
-      'The victory was so decisive that it created a sense of dread among Babur’s troops, who had heard legends of the Rajput’s ferocity in close combat.',
-      'Bayana remains a symbol of the peak of Rajput military power under Rana Sanga, a moment when the dream of a unified Rajputana seemed within reach.'
+      `खानवा से पहले…
+जब निर्णायक तूफ़ान अभी उठना बाकी था…
+तब एक ऐसी गर्जना हुई थी—जिसने पूरे मैदान को हिला दिया था।
+
+वह था—बयाना।
+
+---
+
+बयाना का किला…
+ऊँचाई पर बैठा हुआ… चारों ओर फैले मैदानों को देखता हुआ।
+यह केवल एक स्थान नहीं था—यह उस युद्ध का द्वार था, जो आगे आने वाला था।
+
+और उस द्वार पर खड़ा था—एक नाम, जो स्वयं एक सेना था—
+राणा सांगा।
+
+---
+
+उस समय राजपुताना केवल भूमि नहीं था…
+वह एक स्वप्न था—एकता का, स्वतंत्रता का।
+
+और उस स्वप्न को आकार दे रहा था—एक घायल लेकिन अडिग योद्धा।
+
+राणा सांगा…
+
+जिसके शरीर पर घाव थे…
+लेकिन आत्मा—अजेय।
+
+---
+
+उसी समय एक युवा योद्धा उसकी सेना में खड़ा था।
+
+उसने राणा को पहली बार देखा।
+
+एक आँख पर पट्टी…
+शरीर पर घावों के निशान…
+
+लेकिन जब वह खड़ा हुआ—
+
+तो पूरी सभा मौन हो गई।
+
+“यह केवल युद्ध नहीं है,” राणा ने कहा,
+“यह भविष्य का निर्णय है।”
+
+---
+
+बाबर की सेना आगे बढ़ रही थी।
+
+उसकी अग्रिम टुकड़ी—बयाना के पास डेरा डाले हुए।
+
+उन्हें लगा—राजपूतों को रोका जा सकता है।
+
+लेकिन—
+
+वे नहीं जानते थे—
+
+कि वे किससे टकराने वाले हैं।
+
+---
+
+सुबह—
+
+मैदान शांत था।
+
+हल्की हवा…
+धूल की परत…
+
+और दूर—
+
+राणा की सेना।
+
+---
+
+राठौड़… सिसोदिया… चौहान…
+सभी एक साथ।
+
+यह केवल एक सेना नहीं थी—
+
+यह एक स्वप्न था—जो तलवार बन चुका था।
+
+---
+
+राणा अपने घोड़े पर सवार था।
+
+उसने अपनी सेना की ओर देखा।
+
+“आज… हम उन्हें दिखाएँगे… कि राजपूत क्या होता है,” उसने कहा।
+
+---
+
+नगाड़े बजे।
+
+“हर हर महादेव!”
+
+और फिर—
+
+धावा।
+
+---
+
+घोड़े गरजे।
+
+रेत उड़ने लगी।
+
+राजपूत सेना बिजली की तरह टूट पड़ी।
+
+---
+
+बाबर की अग्रिम टुकड़ी तैयार नहीं थी।
+
+उन्हें उम्मीद नहीं थी—
+
+इतनी तेज़… इतनी प्रचंड आक्रमण की।
+
+---
+
+पहला टकराव—
+
+भयानक।
+
+तलवारें टकराईं।
+
+भाले गड़े।
+
+चीखें गूँजीं।
+
+---
+
+वह युवा योद्धा भी आगे बढ़ा।
+
+उसकी साँसें तेज़ थीं।
+
+उसके सामने एक मुगल सैनिक आया।
+
+“तुम्हें रोका जाएगा!” वह चिल्लाया।
+
+उसने जवाब नहीं दिया—
+
+बस तलवार चलाई।
+
+---
+
+राजपूतों का आक्रमण रुक नहीं रहा था।
+
+हर वार—घातक।
+
+हर धक्का—विनाशकारी।
+
+---
+
+राणा सांगा सबसे आगे था।
+
+उसकी तलवार लगातार चल रही थी।
+
+उसकी आँखों में आग थी।
+
+एक मुगल अधिकारी उसके सामने आया।
+
+“तुम हमें हरा नहीं सकते!” वह गरजा।
+
+राणा ने उसकी ओर देखा—
+
+और कहा,
+“हम पहले ही जीत चुके हैं।”
+
+और उसकी तलवार ने वार किया।
+
+---
+
+युद्ध अपने चरम पर था।
+
+धूल… खून… और गर्जना।
+
+---
+
+बाबर की सेना टूटने लगी।
+
+उनकी पंक्तियाँ बिखर गईं।
+
+वे पीछे हटने लगे।
+
+कुछ भागे… कुछ गिर पड़े…
+
+---
+
+बयाना जीत लिया गया।
+
+---
+
+मैदान अब शांत था।
+
+लेकिन हवा में अब भी वह गर्जना गूँज रही थी।
+
+---
+
+वह युवा योद्धा खड़ा था।
+
+उसकी साँसें भारी थीं।
+
+उसका शरीर खून से भीगा हुआ था।
+
+उसने राणा की ओर देखा।
+
+---
+
+राणा घोड़े से उतरा।
+
+उसने चारों ओर देखा—
+
+और फिर—
+
+धीरे से कहा,
+“यह शुरुआत है…”
+
+---
+
+लेकिन इस जीत की गूँज दूर तक पहुँची।
+
+बाबर के शिविर में—
+
+भय फैल गया।
+
+“राजपूत…” एक सैनिक फुसफुसाया,
+“वे रुकते नहीं…”
+
+---
+
+रात—
+
+मुगल शिविर में सन्नाटा था।
+
+डर…
+अनिश्चितता…
+
+वे अब जानते थे—
+
+कि यह युद्ध आसान नहीं होगा।
+
+---
+
+उधर—
+
+राजपूत शिविर में उत्साह था।
+
+लेकिन राणा शांत था।
+
+वह जानता था—
+
+असली युद्ध अभी बाकी है।
+
+---
+
+वह एक चट्टान पर बैठा था।
+
+उसने दूर देखा—
+
+जहाँ खानवा था।
+
+उसकी आँखों में एक सपना था—
+
+एक एकीकृत राजपुताना का।
+
+---
+
+लेकिन उसके शरीर के घाव…
+
+उसे याद दिला रहे थे—
+
+कि हर सपना…
+
+खून माँगता है।
+
+---
+
+आज भी बयाना का मैदान खामोश है।
+
+लेकिन अगर ध्यान से सुना जाए—
+
+तो वहाँ अब भी वह गर्जना गूँजती है—
+
+घोड़ों की…
+तलवारों की…
+और उस क्षण की…
+
+जब राजपूत शक्ति अपने चरम पर थी।
+
+---
+
+बयाना…
+
+आज भी यह सिखाता है—
+
+कि कभी-कभी…
+
+जीत केवल एक युद्ध की नहीं होती…
+
+वह एक युग की घोषणा होती है।
+
+और उस दिन—
+
+राजपूतों ने घोषणा कर दी थी—
+
+कि वे झुकेंगे नहीं।
+
+कभी नहीं।
+`
     ],
-    coverImage: { src: '/images/legends/bayana-fort.jpg', alt: 'The ancient ruins of the fort at Bayana.' }
+    coverImage: { src: '/images/dynasties/places/tomar-delhi-gwalior-main.JPG', alt: 'The ancient ruins of the fort at Bayana.' }
   },
   {
     id: 'defense-of-nagaur',
@@ -1315,11 +33650,366 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Nagaur',
     story: [
-      'Nagaur, with its strategic location on the trade routes, was a frequent target of invasion. Its defenders were known for their resilience and their ability to endure long sieges.',
-      'The fort’s unique water-harvesting systems allowed the garrison to hold out even when the surrounding desert was parched.',
-      'The defense of Nagaur is a story of the practical wisdom and the martial discipline that allowed the Rajput states to thrive in a harsh environment.'
+      `नागौर…
+रेत के उस विस्तृत मैदान के बीच खड़ा हुआ एक ऐसा किला, जहाँ हर दिशा से आने वाले रास्ते एक ही जगह पर आकर रुकते थे।
+व्यापार की धड़कन यहीं से गुजरती थी—ऊँटों के काफिले, मसालों की खुशबू, रेशम की चमक… और उसी के साथ—लालच की नजरें।
+
+जो नागौर को पकड़ लेता… वह मार्गों को पकड़ लेता।
+और जो मार्गों को पकड़ लेता… वह धन और शक्ति दोनों का स्वामी बन जाता।
+
+इसलिए… नागौर हमेशा निशाने पर रहा।
+
+---
+
+इसी किले की दीवारों के भीतर एक बालक का जन्म हुआ।
+
+उस दिन आसमान में धूल तैर रही थी…
+और दूर क्षितिज पर काफिले की घंटियाँ बज रही थीं।
+
+उसका पिता—किले का एक अनुभवी रक्षक—उसे गोद में लेकर दीवार पर ले गया।
+
+“देखो,” उसने कहा।
+
+बालक ने नीचे देखा—रेत, रास्ते, और दूर तक फैले काफिले।
+
+“ये सब यहाँ से गुजरते हैं,” पिता बोला,
+“और अगर हम यहाँ गिर गए… तो सब कुछ बिखर जाएगा।”
+
+बालक ने सिर झुका लिया।
+
+उसकी आँखों में एक जिम्मेदारी उतर आई।
+
+---
+
+उसका बचपन केवल युद्ध सीखने में नहीं… जीना सीखने में बीता।
+
+नागौर का युद्ध केवल तलवारों से नहीं जीता जाता था…
+यहाँ पानी ही सबसे बड़ा हथियार था।
+
+वह किले के भीतर बने गहरे कुओं को देखता…
+जलाशयों को समझता…
+कैसे बारिश का हर कतरा बचाया जाता है…
+
+उसके गुरु ने कहा,
+“जो पानी को संभाल ले… वही किला संभाल सकता है।”
+
+बालक ने हर शब्द को अपने भीतर उतार लिया।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और उसी समय खतरा आया।
+
+एक विशाल सेना नागौर की ओर बढ़ रही थी।
+
+उनका लक्ष्य स्पष्ट था—
+इस किले को घेरना… और उसे झुकाना।
+
+---
+
+घेरा शुरू हुआ।
+
+किले को चारों ओर से घेर लिया गया।
+
+दिन बीतने लगे।
+
+धूप बढ़ती गई।
+
+रेत तपने लगी।
+
+बाहर—पानी नहीं था।
+
+अंदर—
+
+सन्नाटा।
+
+---
+
+एक सैनिक बोला,
+“सरदार… वे हमें प्यास से हराना चाहते हैं…”
+
+वह मुस्कुराया।
+
+“तो उन्हें इंतजार करना पड़ेगा,” उसने कहा।
+
+---
+
+पहला हमला—
+
+तोपों से।
+
+दीवारों पर वार।
+
+धूल उड़ने लगी।
+
+लेकिन—
+
+किला अडिग रहा।
+
+---
+
+दूसरा हमला—
+
+सीढ़ियों से।
+
+दुश्मन ऊपर चढ़ने लगा।
+
+लेकिन—
+
+ऊपर से तीर।
+
+गरम तेल।
+
+पत्थर।
+
+हर प्रयास विफल।
+
+---
+
+लेकिन असली युद्ध अब शुरू हुआ।
+
+घेरा लंबा खिंच गया।
+
+दिन… हफ्ते… महीने…
+
+---
+
+किले के भीतर—
+
+पानी अब भी था।
+
+सावधानी से बाँटा जा रहा था।
+
+हर बूंद का हिसाब।
+
+---
+
+बाहर—
+
+दुश्मन थकने लगा।
+
+उनके पास पानी नहीं था।
+
+उनकी सेना कमजोर होने लगी।
+
+---
+
+एक रात—
+
+वह किले की दीवार पर खड़ा था।
+
+उसने नीचे दुश्मन का शिविर देखा।
+
+थका हुआ… बिखरा हुआ…
+
+उसने निर्णय लिया।
+
+“अब… हम वार करेंगे।”
+
+---
+
+रात गहरी थी।
+
+किले के द्वार धीरे-धीरे खुले।
+
+छोटे-छोटे दल बाहर निकले।
+
+रेत पर… बिना आवाज़ के…
+
+---
+
+दुश्मन सो रहा था।
+
+उन्हें लगा—घेरा काम कर रहा है।
+
+लेकिन—
+
+वे नहीं जानते थे—
+
+कि नागौर अभी जीवित है।
+
+---
+
+एक इशारा।
+
+और—
+
+“जोहार!”
+
+अचानक हमला।
+
+तंबू जल उठे।
+
+घोड़े बेकाबू।
+
+चीखें गूँज उठीं।
+
+---
+
+राठौड़ योद्धा हर दिशा में फैल गए।
+
+रसद पर हमला।
+
+पानी के मटके तोड़े गए।
+
+दुश्मन और कमजोर हो गया।
+
+---
+
+कुछ ही पलों में—
+
+वे वापस।
+
+किले के भीतर।
+
+---
+
+यह केवल हमला नहीं था—
+
+यह संदेश था—
+
+“हम अभी खत्म नहीं हुए हैं।”
+
+---
+
+अगले दिन—
+
+दुश्मन टूटने लगा।
+
+उनकी पंक्तियाँ कमजोर।
+
+उनका मनोबल गिर चुका था।
+
+---
+
+फिर—
+
+अंतिम हमला।
+
+---
+
+दुश्मन ने आखिरी प्रयास किया।
+
+पूरी ताकत से।
+
+लेकिन—
+
+अब देर हो चुकी थी।
+
+---
+
+किले के द्वार खुले।
+
+राठौड़ योद्धा बाहर निकले।
+
+सीधे धावा।
+
+---
+
+तलवारें टकराईं।
+
+रेत में खून बहा।
+
+चीखें गूँजीं।
+
+---
+
+वह सबसे आगे था।
+
+उसकी तलवार लगातार चल रही थी।
+
+एक दुश्मन सेनापति उसके सामने आया।
+
+“तुम भूख से मर जाओगे!” वह चिल्लाया।
+
+उसने शांत स्वर में कहा,
+“हमने प्यास को भी हरा दिया है।”
+
+और उसकी तलवार ने वार किया।
+
+---
+
+युद्ध अपने चरम पर था।
+
+फिर—
+
+एक क्षण आया।
+
+जब दुश्मन की पंक्तियाँ टूटने लगीं।
+
+वे भागने लगे।
+
+कुछ गिर पड़े… कुछ रेत में खो गए…
+
+घेरा टूट गया।
+
+नागौर बच गया।
+
+---
+
+वह किले की दीवार पर खड़ा था।
+
+नीचे खाली मैदान।
+
+हवा गर्म थी।
+
+उसकी साँसें भारी थीं।
+
+उसका शरीर घावों से भरा था।
+
+उसने कुएँ से पानी की एक बूंद ली।
+
+“हमने… इसे बचा लिया…” उसने कहा।
+
+---
+
+लेकिन उसके घाव गहरे थे।
+
+वह धीरे-धीरे घुटनों पर गिर पड़ा।
+
+उसकी तलवार हाथ से छूट गई।
+
+उसकी आँखें बंद हो गईं।
+
+---
+
+आज भी नागौर का किला वैसे ही खड़ा है—
+
+मजबूत… अडिग… और बुद्धिमान।
+
+उसकी दीवारों में केवल शक्ति नहीं…
+
+समझ भी छिपी है।
+
+---
+
+जब हवा उन पत्थरों से टकराती है—
+
+तो ऐसा लगता है जैसे कोई आवाज़ गूँज रही हो—
+
+घेराबंदी की…
+धैर्य की…
+और उस ज्ञान की…
+
+जिसने मरुस्थल में भी…
+
+जीत संभव बना दी।
+
+नागौर…
+
+आज भी यह सिखाता है—
+
+कि युद्ध केवल तलवार से नहीं…
+
+समझ और संयम से भी जीते जाते हैं।
+
+और जो दोनों को साध ले—
+
+वह कभी हारता नहीं।
+`
     ],
-    coverImage: { src: '/images/legends/nagaur-fort.jpg', alt: 'The elegant and strong walls of Nagaur Fort.' }
+    coverImage: { src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'The elegant and strong walls of Nagaur Fort.' }
   },
   {
     id: 'defense-of-mount-abu',
@@ -1329,11 +34019,300 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Mount Abu',
     story: [
-      'Mount Abu, with its sacred temples and strategic height, was a vital position for the Deora Chauhans. Its defense involved complex mountain warfare and hit-and-run tactics.',
-      'The defenders used the narrow winding paths and the thick forests to ambush invading forces, turning the mountain into a natural fortress.',
-      'The defense of Mount Abu was not just about territory, but about protecting one of the most spiritual landscapes of Rajputana.'
+      `आबू…
+अरावली की ऊँचाइयों पर बैठा वह पवित्र शिखर, जहाँ बादल धरती को छूते थे… और मंदिरों की घंटियाँ हवा में घुलकर देवताओं तक पहुँचती थीं।
+यह केवल एक पर्वत नहीं था—यह आस्था था… यह शक्ति था… और यह वह स्थान था जहाँ तलवार और श्रद्धा साथ-साथ खड़ी थीं।
+
+जो आबू को थामता… वह केवल भूमि नहीं… आत्मा की रक्षा करता था।
+
+---
+
+इसी पर्वत की तलहटी में एक बालक का जन्म हुआ।
+
+जब उसका जन्म हुआ… तब दूर मंदिरों में घंटियाँ बज रही थीं।
+जैसे स्वयं देवभूमि ने उसे स्वीकार किया हो।
+
+उसका पिता—देओरा चौहान—इस पवित्र भूमि का रक्षक था।
+
+एक दिन वह उसे एक ऊँचे शिखर पर ले गया।
+
+नीचे फैले जंगल…
+घुमावदार पगडंडियाँ…
+और दूर मंदिरों के शिखर।
+
+“यह केवल युद्धभूमि नहीं है,” पिता ने कहा,
+“यह देवभूमि है… और इसे बचाना हमारा धर्म है।”
+
+बालक ने सिर झुका लिया।
+
+उसकी आँखों में अब केवल युद्ध नहीं… श्रद्धा भी थी।
+
+---
+
+उसका बचपन कठिन था।
+
+वह पहाड़ियों पर चढ़ता…
+घने जंगलों में रास्ते ढूँढता…
+और हर मोड़, हर छाया को पहचानता।
+
+उसके गुरु ने कहा,
+“यहाँ युद्ध तलवार से नहीं… धैर्य और छाया से जीता जाता है।”
+
+बालक ने हर शब्द अपने भीतर उतार लिया।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और उसी समय खतरा आया।
+
+एक विशाल सेना आबू की ओर बढ़ रही थी।
+
+उनका लक्ष्य स्पष्ट था—
+इस ऊँचाई को अपने अधीन करना।
+
+उन्हें लगा—यह केवल एक पहाड़ है…
+
+लेकिन—
+
+वे नहीं जानते थे—
+
+यह पहाड़ खुद एक योद्धा है।
+
+---
+
+पहला संघर्ष दर्रों में हुआ।
+
+दुश्मन संकरे रास्तों से ऊपर चढ़ रहा था।
+
+लंबी पंक्ति…
+धीमी चाल…
+
+और ऊपर—
+
+चौहान योद्धा छाया की तरह छिपे हुए।
+
+वह सबसे ऊपर खड़ा था।
+
+“अभी नहीं…” उसने फुसफुसाया।
+
+दुश्मन और भीतर आया…
+
+और फिर—
+
+“अब!”
+
+तीरों की बारिश।
+
+ऊपर से पत्थर।
+
+चीखें गूँज उठीं।
+
+पहला हमला वहीं टूट गया।
+
+---
+
+लेकिन दुश्मन रुका नहीं।
+
+दूसरा युद्ध जंगलों में हुआ।
+
+इस बार वे सावधानी से बढ़े।
+
+ढाल आगे… कदम धीरे…
+
+लेकिन—
+
+जंगल उनका नहीं था।
+
+---
+
+चौहान योद्धा छाया बन गए।
+
+एक वार…
+और फिर गायब।
+
+दूसरा वार…
+और फिर खामोशी।
+
+दुश्मन परेशान हो गया।
+
+“वे कहाँ हैं?” एक सेनापति चिल्लाया।
+
+लेकिन—
+
+कोई जवाब नहीं।
+
+---
+
+रात—
+
+और भी भयानक।
+
+घने जंगल में…
+
+अचानक—
+
+“जोहार!”
+
+हमला।
+
+तंबू जल उठे।
+
+घोड़े बेकाबू।
+
+दुश्मन डरने लगा।
+
+---
+
+लेकिन तीसरा और अंतिम युद्ध सबसे निर्णायक था।
+
+दुश्मन ने पूरी ताकत झोंक दी।
+
+वे सीधे मंदिरों की ओर बढ़ रहे थे।
+
+---
+
+वह शिखर पर खड़ा था।
+
+उसने नीचे देखा—
+
+मंदिर…
+ध्वज…
+और वह भूमि—जिसे बचाना था।
+
+उसकी आँखों में आग थी।
+
+“आज… हम केवल भूमि नहीं… आस्था बचाएँगे,” उसने कहा।
+
+---
+
+नगाड़े बजे।
+
+दुश्मन आगे बढ़ा।
+
+और फिर—
+
+अंतिम घात।
+
+---
+
+घुमावदार रास्तों में—
+
+ऊपर से हमला।
+
+किनारों से धावा।
+
+नीचे से घुड़सवार।
+
+हर दिशा से युद्ध।
+
+---
+
+तलवारें टकराईं।
+
+चिंगारियाँ उड़ीं।
+
+घाटियाँ गूँज उठीं।
+
+---
+
+वह सबसे आगे था।
+
+उसकी तलवार लगातार चल रही थी।
+
+उसकी साँसें भारी थीं।
+
+एक दुश्मन सेनापति उसके सामने आया।
+
+“यह पहाड़ अब हमारा है!” वह गरजा।
+
+उसने शांत स्वर में कहा,
+“यह पहाड़… किसी का नहीं… यह हमारी आस्था है।”
+
+और उसकी तलवार ने वार किया।
+
+---
+
+युद्ध अपने चरम पर था।
+
+घंटों तक संघर्ष चला।
+
+हर मोड़ पर लड़ाई।
+
+हर कदम पर खून।
+
+लेकिन—
+
+एक क्षण आया।
+
+जब दुश्मन की पंक्तियाँ टूटने लगीं।
+
+वे पीछे हटने लगे।
+
+कुछ भागे… कुछ गिर पड़े…
+
+आबू बच गया।
+
+---
+
+वह मंदिर के सामने खड़ा था।
+
+घंटियाँ बज रही थीं।
+
+हवा ठंडी थी।
+
+उसकी साँसें भारी थीं।
+
+उसका शरीर घावों से भरा था।
+
+उसने आँखें बंद कीं।
+
+“हमने… इसे बचा लिया…” उसने कहा।
+
+---
+
+लेकिन उसके घाव गहरे थे।
+
+वह धीरे-धीरे घुटनों पर गिर पड़ा।
+
+उसकी तलवार हाथ से छूट गई।
+
+उसकी आँखें बंद हो गईं।
+
+---
+
+आज भी आबू वैसे ही खड़ा है—
+
+ऊँचा… पवित्र… अडिग…
+
+जब हवा मंदिरों की घंटियों से टकराती है—
+
+तो ऐसा लगता है जैसे कोई आवाज़ गूँज रही हो—
+
+घात की…
+श्रद्धा की…
+और उस युद्ध की…
+
+जो केवल भूमि के लिए नहीं…
+
+आस्था के लिए लड़ा गया।
+
+आबू…
+
+आज भी यह सिखाता है—
+
+कि कुछ युद्ध केवल जीतने के लिए नहीं होते…
+
+वे बचाने के लिए होते हैं।
+
+और जब आस्था दांव पर हो—
+
+तो योद्धा…
+
+अजेय हो जाता है।
+`
     ],
-    coverImage: { src: '/images/legends/mount-abu.jpg', alt: 'The misty peaks and ancient temples of Mount Abu.' }
+    coverImage: { src: '/images/dynasties/places/solanki-chaulukya-main.jpg', alt: 'The misty peaks and ancient temples of Mount Abu.' }
   },
   {
     id: 'defense-of-sirohi',
@@ -1343,11 +34322,320 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Sirohi',
     story: [
-      'The state of Sirohi, though small, provided some of the most determined resistance against the expansionist designs of neighboring states and imperial powers.',
-      'The Deora Chauhans were known for their fierce independence and their skill in defending their rugged, hilly terrain.',
-      'The defense of Sirohi is a reminder that the size of a kingdom does not determine the strength of its spirit.'
+      `सिरोही…
+अरावली की उन कठोर, पथरीली भुजाओं में छिपा हुआ एक छोटा सा राज्य…
+लेकिन उसकी आत्मा—किसी विशाल साम्राज्य से भी बड़ी।
+
+यहाँ न अनंत मैदान थे…
+न विशाल नगर…
+
+बस चट्टानें… खाइयाँ… और संकरी पगडंडियाँ—जहाँ हर कदम मौत और जीवन के बीच का अंतर तय करता था।
+
+और इन्हीं पहाड़ियों के बीच… जन्मी थी वह जिद—
+जो सिरोही को सिरोही बनाती थी।
+
+---
+
+एक ऐसी ही ऊँची चट्टान के नीचे बसे छोटे से दुर्ग में एक बालक का जन्म हुआ।
+
+न कोई शाही धूमधाम…
+न कोई राजसी घोषणा…
+
+बस हवा की गूँज… और तलवारों की चमक।
+
+उसका पिता—देओरा चौहान—एक सरदार था।
+
+उसने बालक को उठाकर कहा,
+“हमारा राज्य छोटा है… लेकिन हमारा सिर कभी झुकेगा नहीं।”
+
+बालक की आँखें चमक उठीं।
+
+---
+
+उसका बचपन खेल में नहीं… संघर्ष में बीता।
+
+वह पहाड़ियों पर चढ़ना सीखता…
+संकीर्ण दर्रों में दौड़ना…
+और सबसे महत्वपूर्ण—हर चट्टान को पहचानना।
+
+उसके गुरु ने कहा,
+“यह भूमि हमारी ढाल है… और हमारा हथियार भी।”
+
+बालक ने सिर झुका लिया।
+
+उसकी आँखों में अब एक समझ थी—
+कि सिरोही को तलवार से नहीं… भूमि से बचाया जाएगा।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और उसी समय खतरा आया।
+
+एक पड़ोसी राज्य की सेना…
+संख्या में विशाल…
+शक्ति में प्रबल…
+
+सिरोही की ओर बढ़ रही थी।
+
+उनका लक्ष्य स्पष्ट था—
+इस छोटे राज्य को अपने अधीन करना।
+
+---
+
+दरबार में सन्नाटा था।
+
+एक सरदार बोला,
+“वे हमसे कई गुना अधिक हैं…”
+
+दूसरा बोला,
+“सीधा युद्ध… विनाश होगा…”
+
+वह उठ खड़ा हुआ।
+
+“तो हम सीधा युद्ध नहीं करेंगे,” उसने कहा।
+
+---
+
+उसने पहाड़ियों की ओर देखा।
+
+“हम उन्हें यहाँ लाएँगे… जहाँ वे कमजोर हैं।”
+
+---
+
+पहला युद्ध…
+
+सीधा नहीं…
+छाया में।
+
+---
+
+दुश्मन सेना आगे बढ़ रही थी।
+
+उन्हें लगा—यह आसान होगा।
+
+लेकिन जैसे ही वे संकरे दर्रे में पहुँचे—
+
+ऊपर से तीर।
+
+चट्टानें लुढ़कीं।
+
+चीखें गूँज उठीं।
+
+---
+
+“घात!” एक सेनापति चिल्लाया।
+
+लेकिन—
+
+दुश्मन समझ ही नहीं पाया—
+
+हमला कहाँ से हो रहा है।
+
+---
+
+सिरोही के योद्धा छाया की तरह थे।
+
+वार करते… और गायब हो जाते।
+
+---
+
+पहला प्रयास विफल।
+
+---
+
+लेकिन दुश्मन रुका नहीं।
+
+दूसरा युद्ध—और भी भयानक।
+
+इस बार वे सावधानी से बढ़े।
+
+ढाल आगे… कदम धीरे…
+
+---
+
+उसने अपनी सेना को बाँट दिया।
+
+कुछ ऊपर…
+कुछ पीछे…
+कुछ किनारों पर।
+
+---
+
+जैसे ही दुश्मन आगे बढ़ा—
+
+चारों ओर से हमला।
+
+“हर हर महादेव!”
+
+तलवारें टकराईं।
+
+खून बहा।
+
+दुश्मन फिर फँस गया।
+
+न आगे… न पीछे…
+
+---
+
+दूसरा प्रयास भी विफल।
+
+---
+
+लेकिन तीसरा युद्ध—
+
+निर्णायक।
+
+इस बार दुश्मन पूरी ताकत से आया।
+
+वे किसी भी कीमत पर सिरोही को तोड़ना चाहते थे।
+
+---
+
+वह एक ऊँची चट्टान पर खड़ा था।
+
+उसने अपने सैनिकों को देखा।
+
+थके हुए… घायल… लेकिन अडिग।
+
+“आज… हम उन्हें यहीं रोकेंगे,” उसने कहा।
+
+---
+
+नगाड़े बजे।
+
+दुश्मन आगे बढ़ा।
+
+तोपें गरजीं।
+
+चट्टानें काँपीं।
+
+---
+
+लेकिन—
+
+सिरोही झुका नहीं।
+
+---
+
+जैसे ही दुश्मन संकरे रास्ते में पहुँचा—
+
+अंतिम घात।
+
+---
+
+ऊपर से पत्थरों का सैलाब।
+
+तीरों की बारिश।
+
+और फिर—
+
+धावा।
+
+---
+
+सिरोही के योद्धा टूट पड़े।
+
+तलवारें टकराईं।
+
+चीखें गूँजीं।
+
+घाटियाँ गूँज उठीं।
+
+---
+
+वह सबसे आगे था।
+
+उसकी तलवार लगातार चल रही थी।
+
+उसकी साँसें भारी थीं।
+
+एक दुश्मन सेनापति उसके सामने आया।
+
+“तुम बच नहीं सकते!” वह गरजा।
+
+उसने शांत स्वर में कहा,
+“सिरोही… झुकना नहीं जानता।”
+
+और उसकी तलवार ने वार किया।
+
+---
+
+युद्ध अपने चरम पर था।
+
+घंटों तक संघर्ष चला।
+
+फिर—
+
+एक क्षण आया।
+
+जब दुश्मन की पंक्तियाँ टूटने लगीं।
+
+वे पीछे हटने लगे।
+
+कुछ भागे… कुछ गिर पड़े…
+
+सिरोही बच गया।
+
+---
+
+वह चट्टान के किनारे खड़ा था।
+
+नीचे दुश्मन पीछे हट रहा था।
+
+हवा तेज़ चल रही थी।
+
+उसकी साँसें भारी थीं।
+
+उसका शरीर घावों से भरा था।
+
+उसने पत्थर को छुआ।
+
+“हमने… इसे थामे रखा…” उसने कहा।
+
+---
+
+लेकिन उसके घाव गहरे थे।
+
+वह धीरे-धीरे घुटनों पर गिर पड़ा।
+
+उसकी तलवार हाथ से छूट गई।
+
+उसकी आँखें बंद हो गईं।
+
+---
+
+आज भी सिरोही की पहाड़ियाँ वैसे ही खड़ी हैं—
+
+कठोर… अडिग… अजेय…
+
+जब हवा उन चट्टानों से टकराती है—
+
+तो ऐसा लगता है जैसे कोई आवाज़ गूँज रही हो—
+
+घात की…
+तलवारों की…
+और उस जिद की…
+
+जो कहती है—
+
+“राज्य छोटा हो सकता है…
+लेकिन उसका आत्मबल—अनंत होता है।”
+
+सिरोही…
+
+आज भी यह सिखाता है—
+
+कि शक्ति संख्या में नहीं होती…
+
+वह उस संकल्प में होती है—
+
+जो कहता है—
+
+“हम झुकेंगे नहीं…”
+`
     ],
-    coverImage: { src: '/images/legends/sirohi-hills.jpg', alt: 'The rugged landscape of the Sirohi region.' }
+    coverImage: { src: '/images/dynasties/places/solanki-chaulukya-main.jpg', alt: 'The rugged landscape of the Sirohi region.' }
   },
   {
     id: 'rajput-regiment-tales',
@@ -1357,11 +34645,319 @@ export const allLegends: Legend[] = [
     era: '20th to 21st Century',
     location: 'Global Battlefields',
     story: [
-      'The Rajput Regiment and the Rajputana Rifles carry the centuries-old martial tradition of the region into the modern era.',
-      'From the trenches of the World Wars to the high-altitude borders of today, their tales are filled with acts of extraordinary courage and sacrifice.',
-      'Their legacy proves that while the weapons and the uniforms have changed, the core values of honor, duty, and courage remain the same.'
+      `समय बदल चुका था…
+किलों की दीवारें अब इतिहास बन चुकी थीं…
+घोड़ों की टापों की जगह अब बूटों की ठक-ठक गूँजती थी…
+तलवारों की जगह बंदूकें थीं…
+लेकिन एक चीज़ नहीं बदली थी—
+वह ज्वाला… जो पीढ़ियों से जलती आ रही थी।
+
+---
+
+राजपुताना की धरती पर…
+जहाँ कभी रणभेरी बजती थी…
+अब एक नई पुकार गूँज रही थी—
+
+“कदम बढ़ाओ!”
+
+और उसी पुकार के साथ जन्म हुआ—
+उन सैनिकों का… जो पुराने रक्त की विरासत लेकर… नए युग के युद्ध में उतरने वाले थे।
+
+---
+
+एक छोटे से गाँव में…
+जहाँ दीवारों पर अब भी तलवारें टंगी थीं…
+एक बालक खड़ा था।
+
+उसके दादा ने हल्दीघाटी की कहानियाँ सुनाई थीं…
+उसके पिता ने सीमा पर लड़ाई लड़ी थी…
+
+और अब—
+
+उसकी बारी थी।
+
+“क्या तुम तैयार हो?” उसके पिता ने पूछा।
+
+बालक ने सिर उठाया।
+
+“हमेशा।”
+
+---
+
+उसने वर्दी पहनी।
+
+अब वह कोई किले का योद्धा नहीं था…
+
+वह एक सैनिक था—
+राजपूत रेजिमेंट का।
+
+---
+
+पहला युद्ध…
+लेकिन यह रणभूमि वैसी नहीं थी।
+
+यहाँ न कोई किला था…
+न कोई पहाड़ी दर्रा…
+
+यह था—
+
+एक खाई…
+कीचड़…
+और चारों ओर धुआँ।
+
+---
+
+“आगे बढ़ो!” आदेश गूँजा।
+
+वह और उसके साथी खाई से बाहर निकले।
+
+गोलियाँ चल रही थीं।
+
+धुआँ… आग… चीखें…
+
+यह युद्ध अलग था—
+
+लेकिन डर वही था…
+और साहस भी।
+
+---
+
+उसने अपने साथी को गिरते देखा।
+
+“रुको मत!” उसने चिल्लाया।
+
+और फिर—
+
+वह आगे बढ़ा।
+
+---
+
+गोलियाँ उसके पास से गुजर रही थीं।
+
+उसकी साँसें तेज़ थीं।
+
+लेकिन—
+
+वह रुका नहीं।
+
+क्योंकि उसके भीतर वह आवाज़ गूँज रही थी—
+
+“पीछे मत हटो।”
+
+---
+
+उसने दुश्मन की पंक्ति तक पहुँचकर हमला किया।
+
+हाथों में बंदूक थी…
+लेकिन दिल में वही तलवार।
+
+---
+
+युद्ध खत्म हुआ।
+
+वह खड़ा था…
+
+घायल…
+थका हुआ…
+
+लेकिन—
+
+विजयी।
+
+---
+
+वर्षों बाद…
+
+एक और युद्ध।
+
+लेकिन इस बार—
+
+ऊँचाई पर।
+
+बर्फ…
+ठंडी हवा…
+और हर साँस एक संघर्ष।
+
+---
+
+वह अपने साथियों के साथ एक पहाड़ी पर चढ़ रहा था।
+
+नीचे गहरी खाई…
+ऊपर दुश्मन।
+
+“ठंड से मर जाएँगे…” एक सैनिक बोला।
+
+वह मुस्कुराया—
+
+“हम राजपूत हैं… हम हार से नहीं… ठंड से भी नहीं डरते।”
+
+---
+
+रात—
+
+वे चुपचाप आगे बढ़े।
+
+बर्फ में कदमों की आवाज़ भी सुनाई देती थी।
+
+हर कदम सोच-समझकर।
+
+---
+
+और फिर—
+
+“धावा!”
+
+---
+
+गोलियाँ चलीं।
+
+बर्फ लाल हो गई।
+
+तलवारें नहीं थीं…
+लेकिन वही जज्बा था।
+
+---
+
+वह सबसे आगे था।
+
+उसकी उँगलियाँ ठंड से सुन्न थीं…
+
+लेकिन उसका संकल्प—
+
+अडिग।
+
+---
+
+एक दुश्मन सैनिक उसके सामने आया।
+
+“तुम यहाँ क्यों लड़ रहे हो?” उसने पूछा।
+
+उसने उत्तर दिया—
+
+“क्योंकि यह मेरी धरती है।”
+
+और उसने वार किया।
+
+---
+
+युद्ध खत्म हुआ।
+
+पहाड़ी अब उनके नियंत्रण में थी।
+
+---
+
+वह बर्फ पर बैठा था।
+
+उसकी साँसें भारी थीं।
+
+उसने दूर देखा—
+
+जहाँ सूरज उग रहा था।
+
+---
+
+उसके पास एक युवा सैनिक आया।
+
+“सर… क्या हम वही हैं… जो पहले थे?”
+
+वह मुस्कुराया।
+
+“हथियार बदल गए हैं…” उसने कहा,
+“लेकिन हम नहीं बदले।”
+
+---
+
+आज भी…
+
+राजपूत रेजिमेंट…
+राजपुताना राइफल्स…
+
+सीमाओं पर खड़ी हैं।
+
+---
+
+न कोई किला…
+न कोई रथ…
+
+लेकिन वही ज्वाला।
+
+---
+
+जब बूट जमीन पर पड़ते हैं—
+
+तो ऐसा लगता है जैसे इतिहास चल रहा हो।
+
+जब बंदूक उठती है—
+
+तो उसमें तलवार की चमक दिखाई देती है।
+
+---
+
+उनकी आँखों में वही आग है—
+
+जो कभी अरावली में जली थी…
+जो कभी मरुस्थल में धधकी थी…
+
+---
+
+और जब युद्ध होता है—
+
+तो वे केवल लड़ते नहीं…
+
+वे उस विरासत को निभाते हैं—
+
+जो सदियों से चली आ रही है।
+
+---
+
+एक सैनिक…
+सीमा पर खड़ा…
+
+हवा तेज़…
+
+रात गहरी…
+
+---
+
+वह दूर देखता है—
+
+और धीरे से कहता है—
+
+“हम अब भी खड़े हैं…”
+
+---
+
+और यही…
+
+सबसे बड़ी कहानी है।
+
+---
+
+राजपूत रेजिमेंट…
+राजपुताना राइफल्स…
+
+आज भी यह सिखाती हैं—
+
+कि समय बदल सकता है…
+
+युद्ध बदल सकता है…
+
+लेकिन—
+
+सम्मान…
+कर्तव्य…
+और साहस…
+
+कभी नहीं बदलते।
+
+और जब तक यह ज्वाला जलती रहेगी—
+
+इतिहास…
+
+जिंदा रहेगा।
+`
     ],
-    coverImage: { src: '/images/legends/rajput-regiment.jpg', alt: 'Modern Rajput soldiers on parade.' }
+    coverImage: { src: '/images/dynasties/prithviraj-chauhan.jpg', alt: 'Modern Rajput soldiers on parade.' }
   },
   {
     id: 'rajput-victory-procession',
@@ -1371,11 +34967,284 @@ export const allLegends: Legend[] = [
     era: 'Timeless',
     location: 'City Streets',
     story: [
-      'The victory procession was a grand affair, where the returning warriors were greeted with flowers, music, and the cheers of the people.',
-      'The captured banners of the enemy were displayed, and the ruler would offer thanks at the state shrine. It was a moment of collective celebration and a reinforcement of the bond between the ruler and his subjects.',
-      'These processions were not just about vanity, but about acknowledging the shared sacrifice that had secured the victory.'
+      `धूल अब भी हवा में तैर रही थी…
+लेकिन इस बार वह युद्ध की नहीं—विजय की धूल थी।
+रणभूमि से लौटते हुए घोड़ों की टापों में अब थकान थी… पर उनके भीतर एक गर्व भी था—एक ऐसी चमक, जो केवल जीवित बचने से नहीं… जीतकर लौटने से आती है।
+
+---
+
+किले के द्वार खुले थे।
+
+ऊँचे… विशाल… स्वागत के लिए तैयार।
+
+और उनके बाहर—पूरा नगर खड़ा था।
+
+महिलाएँ… बच्चे… वृद्ध…
+हर कोई उसी मार्ग की ओर देख रहा था—जहाँ से वे लौटने वाले थे।
+
+---
+
+सबसे आगे एक बालक खड़ा था।
+
+उसकी आँखें चमक रही थीं।
+
+उसने कभी युद्ध नहीं देखा था…
+लेकिन उसने उसके बारे में सुना था—खून, तलवारें, धावा…
+
+और आज—
+
+वह उन योद्धाओं को देखने वाला था…
+जो उस सब से गुजरकर लौट रहे थे।
+
+---
+
+दूर से नगाड़े बजे।
+
+धीरे… फिर तेज़…
+
+“वे आ रहे हैं!”
+
+एक आवाज़ उठी।
+
+और फिर—
+
+घोड़ों की टापें।
+
+---
+
+सबसे पहले धूल का गुबार दिखाई दिया।
+
+फिर—
+
+ध्वज।
+
+फिर—
+
+तलवारों की चमक।
+
+और फिर—
+
+वे।
+
+---
+
+राठौड़ और राजपूत योद्धा…
+घोड़ों पर सवार…
+थके हुए… घायल… लेकिन अडिग।
+
+उनकी आँखों में वह आग अब भी थी…
+लेकिन उसमें एक शांति भी थी।
+
+---
+
+जैसे ही वे द्वार के पास पहुँचे—
+
+फूलों की वर्षा शुरू हो गई।
+
+महिलाओं ने आरती उतारी।
+
+बच्चे चिल्लाए—
+
+“जोहार!”
+
+---
+
+वह बालक आगे बढ़ा।
+
+उसने एक योद्धा को देखा—जिसके कंधे पर पट्टी बंधी थी।
+
+“क्या आप जीते?” उसने पूछा।
+
+योद्धा ने हल्की मुस्कान के साथ कहा—
+
+“हम सब जीते।”
+
+---
+
+जुलूस आगे बढ़ा।
+
+नगर की गलियों से…
+
+हर घर के सामने दीप जल रहे थे।
+
+हर छत पर लोग खड़े थे।
+
+संगीत गूँज रहा था—
+
+नगाड़े… शंख… वीणा…
+
+---
+
+सबसे आगे—
+
+शासक।
+
+उसका चेहरा शांत था…
+लेकिन उसकी आँखों में वह गहराई थी—जो केवल युद्ध देखने के बाद आती है।
+
+उसके पीछे—
+
+दुश्मन के ध्वज।
+
+गिरे हुए… झुके हुए…
+
+यह केवल विजय का प्रतीक नहीं था—
+
+यह स्मरण था—
+
+कि यह जीत आसान नहीं थी।
+
+---
+
+जुलूस राज्य मंदिर की ओर बढ़ा।
+
+पत्थरों से बना वह प्राचीन स्थान—जहाँ हर युद्ध के बाद सिर झुकाए जाते थे।
+
+शासक घोड़े से उतरा।
+
+उसने अपनी तलवार नीचे रखी।
+
+और मंदिर की सीढ़ियों पर चढ़ गया।
+
+---
+
+अंदर—
+
+दीप जल रहे थे।
+
+घंटियाँ बज रही थीं।
+
+उसने आँखें बंद कीं।
+
+“यह विजय… केवल हमारी नहीं,” उसने धीमे से कहा,
+“यह उन सबकी है… जो लौटे नहीं।”
+
+---
+
+बाहर—
+
+सैनिक खड़े थे।
+
+उनके बीच खाली स्थान भी थे…
+
+जहाँ कुछ लोग होने चाहिए थे—
+
+लेकिन नहीं थे।
+
+---
+
+एक वृद्ध माँ भीड़ में खड़ी थी।
+
+उसकी आँखें दरवाज़े पर टिकी थीं।
+
+वह किसी को ढूँढ रही थी।
+
+लेकिन—
+
+कोई नहीं आया।
+
+---
+
+एक सैनिक उसके पास आया।
+
+उसने कुछ नहीं कहा…
+
+बस अपनी तलवार आगे बढ़ाई।
+
+वह समझ गई।
+
+उसने तलवार को छुआ।
+
+उसकी आँखों में आँसू थे—
+
+लेकिन उनमें गर्व भी था।
+
+---
+
+जुलूस आगे बढ़ता रहा।
+
+लेकिन अब उसमें केवल उत्सव नहीं था…
+
+उसमें स्मृति थी… बलिदान था…
+
+और एक गहरा संबंध—
+
+राजा और उसके लोगों के बीच।
+
+---
+
+रात गहरी हो गई।
+
+दीप अब भी जल रहे थे।
+
+संगीत धीमा पड़ गया था।
+
+लेकिन किले के भीतर—
+
+योद्धा अपने घावों के साथ बैठे थे।
+
+कोई हँस रहा था…
+कोई चुप था…
+
+लेकिन हर कोई जानता था—
+
+यह जीत केवल उनकी नहीं थी।
+
+---
+
+वह बालक अब भी खड़ा था।
+
+उसने आकाश की ओर देखा।
+
+फिर किले की ओर।
+
+और फिर—
+
+धीरे से कहा—
+
+“एक दिन… मैं भी लौटूँगा…”
+
+---
+
+आज भी उन किलों के भीतर…
+
+जब विजय का जुलूस निकलता है—
+
+तो केवल फूल नहीं बरसते…
+
+बरसती हैं कहानियाँ…
+
+उनकी…
+जो लौटे…
+
+और उन की भी…
+
+जो नहीं लौटे।
+
+---
+
+विजय जुलूस…
+
+आज भी यह सिखाता है—
+
+कि जीत केवल तलवार की नहीं होती…
+
+वह हर उस हाथ की होती है—
+
+जिसने इंतज़ार किया…
+जिसने सहा…
+और जिसने विश्वास नहीं छोड़ा।
+
+और यही—
+
+एक राज्य को…
+
+केवल शक्तिशाली नहीं…
+
+अमर बनाता है।
+`
     ],
-    coverImage: { src: '/images/legends/victory-procession.jpg', alt: 'A colorful and grand victory parade through a city gate.' }
+    coverImage: { src: '/images/dynasties/gallery/vijay-stambha.jpg', alt: 'A colorful and grand victory parade through a city gate.' }
   },
   {
     id: 'rajput-signal-fires',
@@ -1385,11 +35254,305 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Hilltop Bastions',
     story: [
-      'A network of signal fires was maintained on the highest peaks and fort ramparts across Rajputana. A single fire could warn a whole region of an approaching invasion within minutes.',
-      'The watchmen on these lonely posts were the first to see the danger and the first to sound the alarm, their vigilance being the kingdom’s early warning system.',
-      'The signal fires are a symbol of the interconnectedness of the Rajput states and their shared commitment to the defense of their land.'
+      `अरावली की चोटियाँ…
+जहाँ हवा भी ठहरकर चलती है, जहाँ से दूर-दूर तक फैला राजपुताना एक खुली आँख की तरह दिखता है।
+और उन्हीं ऊँचाइयों पर… रात के अंधेरे में जलती थीं—अग्नि की लपटें।
+
+एक नहीं…
+दूसरी… तीसरी…
+और देखते ही देखते—पूरा आकाश चेतावनी बन जाता था।
+
+ये केवल आग नहीं थीं…
+ये जीवन और विनाश के बीच की पहली दीवार थीं।
+
+---
+
+एक ऐसी ही चोटी पर, जहाँ चारों ओर केवल पत्थर और हवा थी, एक बालक का जन्म हुआ।
+
+न कोई गाँव…
+न कोई किला…
+
+बस एक प्रहरी-स्थान—जहाँ से दूर तक सब कुछ दिखता था।
+
+उसका पिता वहाँ का अग्नि-प्रहरी था।
+
+हर रात… वह आकाश और धरती के बीच खड़ा रहता—आँखें क्षितिज पर टिकी हुई।
+
+एक दिन बालक ने पूछा,
+“पिता… आप यहाँ अकेले क्यों रहते हैं?”
+
+उसने दूर पहाड़ियों की ओर इशारा किया।
+
+“क्योंकि बेटा… अगर मैंने आग जला दी… तो पूरा राज्य जाग जाएगा।”
+
+बालक चुप हो गया।
+
+उसे समझ नहीं आया—लेकिन वह जान गया—यह काम साधारण नहीं है।
+
+---
+
+उसका बचपन उस ऊँचाई पर बीता।
+
+वह हवा की दिशा पढ़ता…
+दूर उठती धूल को पहचानता…
+और रात में अंधेरे के भीतर भी हलचल देखना सीखता।
+
+उसके गुरु—जो उसका पिता ही था—ने कहा,
+“प्रहरी वह नहीं जो केवल देखता है…
+प्रहरी वह है जो समय से पहले समझता है।”
+
+बालक ने सिर झुका लिया।
+
+उसकी आँखें अब दूर तक देखने लगी थीं।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और अब वह स्वयं उस चोटी का रक्षक था।
+
+नीचे राज्य शांत था।
+
+गाँवों में लोग सो रहे थे…
+किलों में दीप जल रहे थे…
+
+लेकिन—
+
+शांति हमेशा स्थायी नहीं होती।
+
+---
+
+एक रात—
+
+हवा में कुछ अलग था।
+
+वह चट्टान पर खड़ा था।
+
+उसने दूर क्षितिज की ओर देखा।
+
+हल्की सी धूल उठ रही थी।
+
+बहुत दूर…
+
+लेकिन—
+
+वह समझ गया।
+
+“सेना…” उसने फुसफुसाया।
+
+---
+
+उसने तुरंत लकड़ियों के ढेर की ओर देखा।
+
+हाथ काँप नहीं रहे थे।
+
+साँसें स्थिर।
+
+एक चिंगारी…
+
+और फिर—
+
+अग्नि।
+
+---
+
+लपट उठी।
+
+अंधेरे को चीरती हुई।
+
+और फिर—
+
+दूर… दूसरी चोटी पर…
+
+एक और अग्नि।
+
+फिर तीसरी।
+
+फिर चौथी।
+
+कुछ ही क्षणों में—
+
+पूरा आकाश चेतावनी बन गया।
+
+---
+
+नीचे—
+
+किलों में नगाड़े बजे।
+
+“सतर्क!”
+
+सैनिक जाग उठे।
+
+घोड़े तैयार हुए।
+
+तलवारें उठीं।
+
+---
+
+लेकिन दुश्मन को यह नहीं पता था—
+
+कि उनकी चाल छिपी नहीं रही।
+
+---
+
+वह चोटी पर खड़ा था।
+
+आग जल रही थी।
+
+उसकी आँखें अब भी क्षितिज पर थीं।
+
+“वे आ रहे हैं…” उसने कहा।
+
+---
+
+कुछ ही दिनों में—
+
+युद्ध शुरू हो गया।
+
+दुश्मन ने सोचा था—वे अचानक हमला करेंगे।
+
+लेकिन—
+
+राजपूत तैयार थे।
+
+---
+
+पहला संघर्ष मैदान में हुआ।
+
+राठौड़ और मेवाड़ी सेना तैयार थी।
+
+“धावा!”
+
+घोड़े गरजे।
+
+तलवारें टकराईं।
+
+दुश्मन चौंक गया।
+
+उनकी योजना विफल हो चुकी थी।
+
+---
+
+युद्ध भयानक था।
+
+खून बहा।
+
+चीखें गूँजीं।
+
+लेकिन—
+
+राज्य तैयार था।
+
+और यही उनकी सबसे बड़ी ताकत थी।
+
+---
+
+कई दिन बाद—
+
+दुश्मन पीछे हट गया।
+
+आक्रमण विफल।
+
+---
+
+वह चोटी पर अब भी खड़ा था।
+
+आग बुझ चुकी थी।
+
+लेकिन उसकी आँखों में अब भी वही सतर्कता थी।
+
+एक सैनिक उसके पास आया।
+
+“तुम्हारी आग ने हमें बचा लिया,” उसने कहा।
+
+वह मुस्कुराया।
+
+“मैंने केवल देखा…” उसने कहा,
+“राज्य ने लड़ाई लड़ी।”
+
+---
+
+लेकिन उस रात—
+
+जब वह फिर पहरा दे रहा था—
+
+हवा तेज़ थी।
+
+आकाश साफ़।
+
+उसने दूर देखा—
+
+और एक क्षण के लिए—
+
+उसकी आँखें बंद हुईं।
+
+---
+
+वह थक चुका था।
+
+वर्षों की चौकसी…
+नींद रहित रातें…
+
+उसका शरीर अब साथ नहीं दे रहा था।
+
+---
+
+वह धीरे-धीरे बैठ गया।
+
+उसकी नजर अब भी क्षितिज पर थी।
+
+“जब तक… आग जलती रहे…” उसने धीमे से कहा।
+
+और फिर—
+
+वह स्थिर हो गया।
+
+---
+
+आज भी अरावली की उन चोटियों पर…
+
+कभी-कभी…
+
+रात में…
+
+लोग कहते हैं—उन्हें दूर कहीं एक हल्की सी रोशनी दिखती है।
+
+कोई अग्नि…
+जो बुझती नहीं…
+
+---
+
+वह केवल एक संकेत नहीं था।
+
+वह एक वचन था—
+
+कि कोई न कोई…
+
+हर समय…
+
+देख रहा है।
+
+सतर्क है।
+
+---
+
+अग्नि-संकेत…
+
+आज भी यह सिखाते हैं—
+
+कि युद्ध केवल तलवार से नहीं जीते जाते…
+
+वे समय से पहले देख लेने से जीते जाते हैं।
+
+और कभी-कभी—
+
+एक छोटी सी लौ…
+
+पूरे राज्य को बचा सकती है।
+`
     ],
-    coverImage: { src: '/images/legends/signal-fires.jpg', alt: 'A bright fire burning on a high mountain peak at night.' }
+    coverImage: { src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'A bright fire burning on a high mountain peak at night.' }
   },
   {
     id: 'rajput-war-council',
@@ -1399,11 +35562,257 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Fortress Chambers',
     story: [
-      'The war council was where the ruler, his advisors, and his clan chiefs would meet to discuss strategy and tactics. It was a space for open debate and collective decision-making.',
-      'The council emphasized the democratic nature of the Rajput clan system, where every chief had a voice and a stake in the outcome.',
-      'The decisions taken in these councils were the foundation of the brilliant military campaigns and the legendary defenses that defined Rajput history.'
+      `रात गहरी थी…
+किले की दीवारों के बाहर अंधकार फैला हुआ था, और भीतर—दीयों की लौ काँप रही थी।
+दूर कहीं पहरेदार की आवाज़ गूँजती थी—“सतर्क रहो…”
+
+लेकिन उस रात असली युद्ध दीवारों के बाहर नहीं…
+उस सभा कक्ष के भीतर लड़ा जा रहा था।
+
+---
+
+यह था—युद्ध परिषद।
+
+पत्थरों से बना वह विशाल कक्ष, जहाँ न तलवारें टकराती थीं… न घोड़े दौड़ते थे…
+लेकिन जहाँ लिए गए निर्णय… हजारों तलवारों की दिशा तय करते थे।
+
+---
+
+इसी कक्ष के बाहर एक बालक खड़ा था।
+
+उसके भीतर जिज्ञासा थी।
+
+दरवाज़े बंद थे… लेकिन भीतर से आवाज़ें आ रही थीं—
+
+कभी धीमी…
+कभी तीखी…
+कभी गर्जना जैसी।
+
+उसने अपने पिता से पूछा,
+“अंदर क्या हो रहा है?”
+
+उसके पिता—एक सरदार—ने कहा,
+“वहीं तय होता है… कि हम कैसे लड़ेंगे… और कैसे जिएँगे।”
+
+बालक ने दरवाज़े को छुआ।
+
+वह समझ नहीं पा रहा था…
+लेकिन वह जानता था—यह स्थान महत्वपूर्ण है।
+
+---
+
+वर्षों बाद…
+
+वही बालक अब उस सभा कक्ष के भीतर खड़ा था।
+
+अब वह केवल सुनने वाला नहीं था…
+अब उसकी भी आवाज़ थी।
+
+---
+
+सभा कक्ष विशाल था।
+
+बीच में एक ऊँचा आसन—जहाँ शासक बैठता था।
+चारों ओर—कुलीन सरदार, सेनापति, और कबीले के प्रमुख।
+
+कोई एक नहीं बोल रहा था…
+सब बोल रहे थे।
+
+---
+
+“सीधा युद्ध करेंगे!” एक सरदार गरजा।
+
+“नहीं… दुश्मन संख्या में अधिक है,” दूसरे ने कहा।
+
+“तो क्या हम पीछे हट जाएँ?” तीसरा बोला।
+
+“पीछे हटना… कमजोरी नहीं, रणनीति हो सकती है,” एक वृद्ध ने धीमे स्वर में कहा।
+
+---
+
+वह खड़ा सुन रहा था।
+
+यह कोई आदेश देने का स्थान नहीं था…
+
+यह विचारों का रणभूमि था।
+
+---
+
+शासक शांत बैठा था।
+
+वह सबकी बातें सुन रहा था।
+
+कोई जल्दी नहीं…
+कोई अधीरता नहीं…
+
+क्योंकि यहाँ हर आवाज़ महत्वपूर्ण थी।
+
+---
+
+एक युवा सरदार उठा।
+
+“हम पहाड़ियों में घात लगाकर वार करेंगे,” उसने कहा,
+“सीधे युद्ध में हम हार सकते हैं… लेकिन वहाँ… हम जीत सकते हैं।”
+
+कुछ लोग सहमत हुए…
+कुछ ने विरोध किया।
+
+“यह जोखिम भरा है!” एक सेनापति बोला।
+
+“हर युद्ध जोखिम है,” युवा ने उत्तर दिया।
+
+---
+
+वातावरण गरम हो गया।
+
+स्वर ऊँचे होने लगे।
+
+लेकिन—
+
+कोई चुप नहीं कराया गया।
+
+कोई रोका नहीं गया।
+
+क्योंकि यहाँ…
+
+हर व्यक्ति का अधिकार था—बोलने का।
+
+---
+
+शासक ने हाथ उठाया।
+
+सन्नाटा।
+
+---
+
+“हम सभी योद्धा हैं,” उसने कहा,
+“लेकिन हर योद्धा की दृष्टि अलग होती है। और वही हमारी शक्ति है।”
+
+उसने एक-एक की ओर देखा।
+
+“अगर हम केवल एक ही तरह से सोचेंगे… तो हम हार जाएंगे।”
+
+---
+
+फिर उसने निर्णय लिया।
+
+“हम घात करेंगे… लेकिन साथ ही मुख्य सेना तैयार रहेगी। अगर योजना असफल हुई… तो हम सीधे युद्ध करेंगे।”
+
+सभा में सन्नाटा छा गया।
+
+फिर—
+
+धीरे-धीरे…
+
+सिर झुकने लगे।
+
+सहमति।
+
+---
+
+उसने अपनी तलवार उठाई।
+
+“यह निर्णय… अब केवल मेरा नहीं है,” उसने कहा,
+“यह हम सबका है।”
+
+---
+
+सभा समाप्त हुई।
+
+लेकिन—
+
+युद्ध शुरू हो चुका था।
+
+---
+
+अगले दिन—
+
+योजना लागू हुई।
+
+घात लगा…
+
+दुश्मन फँसा…
+
+और फिर—
+
+“हर हर महादेव!”
+
+धावा।
+
+---
+
+तलवारें टकराईं।
+
+चीखें गूँजीं।
+
+रणभूमि जल उठी।
+
+लेकिन—
+
+वह जीत केवल तलवारों की नहीं थी…
+
+वह उस सभा कक्ष की जीत थी।
+
+---
+
+वर्षों बाद…
+
+वही बालक—अब एक वृद्ध सरदार—फिर उस कक्ष में बैठा था।
+
+अब उसके सामने नए योद्धा थे।
+
+नए प्रश्न…
+नए युद्ध…
+
+---
+
+एक युवा ने पूछा,
+“सरदार… यहाँ इतना वाद-विवाद क्यों होता है?”
+
+वह मुस्कुराया।
+
+“क्योंकि बेटा… युद्ध केवल तलवार से नहीं जीते जाते…
+वे पहले यहाँ जीते जाते हैं…”
+
+उसने अपनी उँगली अपने माथे पर रखी।
+
+“…और फिर यहाँ,” उसने तलवार की ओर इशारा किया।
+
+---
+
+आज भी उन प्राचीन किलों के भीतर ऐसे कक्ष खामोश खड़े हैं।
+
+पत्थर वही हैं…
+दीवारें वही…
+
+लेकिन अगर ध्यान से सुना जाए—
+
+तो वहाँ अब भी आवाज़ें गूँजती हैं—
+
+वाद-विवाद की…
+निर्णयों की…
+और उस समझ की…
+
+जिसने राजपूत इतिहास को गढ़ा।
+
+युद्ध परिषद…
+
+आज भी यह सिखाती है—
+
+कि सबसे बड़ी जीत…
+
+तलवार उठाने से पहले…
+
+विचारों में होती है।
+
+और जब निर्णय सबका हो—
+
+तो युद्ध भी…
+
+सबका बन जाता है।
+`
     ],
-    coverImage: { src: '/images/legends/war-oath.jpg', alt: 'Warriors gathered around a fire for a solemn oath.' }
+    coverImage: { src: '/images/dynasties/seals/hada-bundi-kota-seal.png', alt: 'Warriors gathered around a fire for a solemn oath.' }
   },
   {
     id: 'defense-thar-caravan-routes',
@@ -1413,11 +35822,351 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Thar Desert',
     story: [
-      'The caravan routes of the Thar were the vital arteries of trade, carrying silk, spices, and precious metals. Their defense was a constant struggle for the Bhati and Rathore clans.',
-      'This legend celebrates the desert scouts and the light cavalry who patrolled the vast wastes, ensuring that the merchant caravans reached their destination safely.',
-      'The story is a tribute to the unseen guardians of the desert economy, whose vigilance kept the markets of Rajputana and beyond thriving.'
+      `थार की राहें…
+रेत के उस अनंत समुद्र में खिंची हुई अदृश्य नसें, जिनसे व्यापार की धड़कन बहती थी—रेशम, मसाले, चाँदी, सोना… और दूर-दूर के नगरों की उम्मीदें।
+दिन में ये राहें तपती थीं, रात में ठंडी हो जाती थीं… लेकिन इन पर चलना हमेशा एक जोखिम था।
+
+क्योंकि जहाँ धन चलता है… वहाँ खतरा भी चलता है।
+
+और इन राहों पर—भाटी और राठौड़ योद्धा केवल सैनिक नहीं थे…
+वे उस धड़कन के रक्षक थे, जो पूरे राजपुताना को जीवित रखती थी।
+
+---
+
+इन्हीं रास्तों के किनारे, एक छोटे से पड़ाव पर, एक बालक का जन्म हुआ।
+
+उसके चारों ओर ऊँटों की घंटियाँ बज रही थीं…
+व्यापारी अपने सामान बाँध रहे थे…
+और दूर क्षितिज पर रेत का विस्तार था।
+
+उसका पिता एक “मार्ग-रक्षक” था—एक ऐसा योद्धा जो किसी किले में नहीं रहता था…
+बल्कि रेत में चलता था।
+
+एक दिन बालक ने पूछा,
+“पिता… हम किसी किले की रक्षा क्यों नहीं करते?”
+
+उसके पिता ने मुस्कुराकर कहा,
+“क्योंकि बेटा… ये रास्ते ही असली किले हैं। अगर ये टूट गए… तो सब कुछ टूट जाएगा।”
+
+---
+
+उसका बचपन सफर में बीता।
+
+वह काफिलों के साथ चलता…
+ऊँटों की चाल समझता…
+और हर रास्ते को याद करता।
+
+रेत के टीलों के बीच छिपे हुए रास्ते…
+कहाँ पानी मिलेगा…
+कहाँ खतरा है…
+
+उसके गुरु ने कहा,
+“मरुस्थल में आँखों से नहीं… अनुभव से देखा जाता है।”
+
+बालक ने सिर झुका लिया।
+
+वह अब रेत को पढ़ना सीख रहा था।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और अब इन मार्गों की रक्षा उसकी जिम्मेदारी थी।
+
+उधर लुटेरों और दुश्मन सेनाओं की नजर इन काफिलों पर थी।
+
+वे जानते थे—यहाँ धन चलता है… और जहाँ धन है… वहाँ अवसर है।
+
+---
+
+पहला संघर्ष अचानक हुआ।
+
+एक काफिला धीरे-धीरे आगे बढ़ रहा था।
+
+ऊँटों पर लदा माल…
+व्यापारी…
+रक्षक…
+
+और अचानक—
+
+रेत के पीछे से हमला।
+
+“हमले!”
+
+लुटेरे टूट पड़े।
+
+लेकिन—
+
+वे तैयार थे।
+
+---
+
+वह अपने दल के साथ सामने आया।
+
+“घेरा बनाओ!” उसने आदेश दिया।
+
+ऊँटों को बीच में लाया गया।
+
+चारों ओर योद्धा।
+
+---
+
+तलवारें टकराईं।
+
+रेत उड़ने लगी।
+
+चीखें गूँजीं।
+
+वह सबसे आगे था।
+
+उसकी तलवार सटीक थी।
+
+कुछ ही समय में—
+
+लुटेरे पीछे हट गए।
+
+पहला संघर्ष जीत लिया गया।
+
+---
+
+लेकिन यह केवल शुरुआत थी।
+
+कुछ दिनों बाद—
+
+एक बड़ा खतरा।
+
+इस बार—
+
+एक संगठित सेना।
+
+वे सीधे मार्ग को काटना चाहते थे।
+
+---
+
+उसने अपने दल को देखा।
+
+संख्या कम…
+लेकिन गति तेज़।
+
+“हम सीधे नहीं लड़ेंगे,” उसने कहा,
+“हम उन्हें भटकाएँगे।”
+
+---
+
+उन्होंने काफिले को सुरक्षित मार्ग पर भेजा।
+
+और खुद—
+
+दुश्मन के पीछे लग गए।
+
+---
+
+दूसरा युद्ध शुरू हुआ।
+
+दिन भर—
+
+वे दुश्मन को परेशान करते रहे।
+
+छोटे-छोटे हमले…
+रसद पर वार…
+
+दुश्मन थकने लगा।
+
+---
+
+रात—
+
+और हमला।
+
+“जोहार!”
+
+तंबू जल उठे।
+
+घोड़े बेकाबू।
+
+दुश्मन समझ नहीं पाया—वे कहाँ हैं।
+
+---
+
+तीसरे दिन—
+
+दुश्मन कमजोर हो चुका था।
+
+और तभी—
+
+अंतिम धावा।
+
+---
+
+राठौड़ और भाटी योद्धा टूट पड़े।
+
+तेज़… सटीक… घातक।
+
+दुश्मन की पंक्तियाँ टूट गईं।
+
+वे भागने लगे।
+
+मार्ग सुरक्षित हो गया।
+
+---
+
+लेकिन सबसे कठिन युद्ध अभी बाकी था।
+
+एक विशाल काफिला…
+
+बहुत धन…
+
+और उसी समय—
+
+एक बड़ी सेना रास्ते में।
+
+---
+
+वह अपने दल के साथ खड़ा था।
+
+“अगर ये काफिला नहीं पहुँचा…” एक व्यापारी बोला,
+“तो सब खत्म हो जाएगा…”
+
+वह शांत रहा।
+
+“तो हम इसे पहुँचाएँगे,” उसने कहा।
+
+---
+
+उसने योजना बनाई।
+
+काफिला आगे…
+रक्षक चारों ओर…
+
+और खुद—
+
+पीछे।
+
+---
+
+दुश्मन ने हमला किया।
+
+लेकिन—
+
+वे सीधे काफिले तक नहीं पहुँच पाए।
+
+हर बार—
+
+एक छोटा दल उन्हें रोकता।
+
+फिर दूसरा…
+
+फिर तीसरा…
+
+---
+
+वह खुद सबसे पीछे था।
+
+उसकी तलवार लगातार चल रही थी।
+
+उसकी साँसें भारी थीं।
+
+एक दुश्मन सेनापति उसके सामने आया।
+
+“तुम इसे बचा नहीं सकते!” वह चिल्लाया।
+
+उसने शांत स्वर में कहा,
+“यह मार्ग… हमारे खून से चलता है।”
+
+और उसकी तलवार ने वार किया।
+
+---
+
+युद्ध लंबा चला।
+
+धीरे-धीरे—
+
+काफिला दूर निकल गया।
+
+सुरक्षित।
+
+---
+
+लेकिन—
+
+वह और उसके साथी अब घिर चुके थे।
+
+संख्या कम…
+
+दुश्मन अधिक…
+
+---
+
+उसने अपने साथियों की ओर देखा।
+
+कोई पीछे नहीं हटा।
+
+“यहीं… रोकेंगे,” उसने कहा।
+
+---
+
+अंतिम संघर्ष।
+
+रेत उड़ने लगी।
+
+तलवारें टकराईं।
+
+चीखें गूँजीं।
+
+एक-एक कर उसके साथी गिरते गए।
+
+लेकिन—
+
+दुश्मन आगे नहीं बढ़ पाया।
+
+---
+
+वह घुटनों पर गिर चुका था।
+
+उसकी साँसें टूट रही थीं।
+
+उसने दूर देखा—
+
+काफिला… अब सुरक्षित था।
+
+उसके चेहरे पर मुस्कान आई।
+
+“हमने… रास्ता बचा लिया…” उसने कहा।
+
+और उसकी आँखें बंद हो गईं।
+
+---
+
+आज भी थार के रास्तों पर काफिले चलते हैं।
+
+ऊँटों की घंटियाँ बजती हैं।
+
+रेत उड़ती है।
+
+लेकिन अगर ध्यान से सुना जाए—
+
+तो उसमें एक कहानी गूँजती है—
+
+उन योद्धाओं की…
+
+जो किसी किले में नहीं रहते थे…
+
+लेकिन पूरे राज्य को जीवित रखते थे।
+
+थार के मार्ग…
+
+आज भी यह सिखाते हैं—
+
+कि हर महान राज्य के पीछे…
+
+कुछ अनदेखे रक्षक होते हैं…
+
+जो बिना नाम के…
+
+इतिहास लिख जाते हैं।
+`
     ],
-    coverImage: { src: '/images/legends/caravan-defense.jpg', alt: 'A desert patrol watching over a distant camel caravan.' }
+    coverImage: { src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'A desert patrol watching over a distant camel caravan.' }
   },
   {
     id: 'rajput-camel-charge',
@@ -1427,11 +36176,288 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Western Marwar',
     story: [
-      'While the horse was the primary mount of the Rajput warrior, the camel was a formidable engine of war in the deep sands of the Thar.',
-      'This legend recounts a massive camel cavalry charge that broke an invading army’s flank, proving that the endurance and height of the camel could be as effective as the speed of the horse.',
-      'The charge remains a symbol of the Rajput adaptability to their environment, turning the "ship of the desert" into a lethal force on the battlefield.'
+      `थार…
+रेत का वह अनंत सागर, जहाँ लहरें पानी की नहीं—टीलों की होती हैं।
+जहाँ घोड़े भी थक जाते हैं… जहाँ हवा भी दिशा बदल देती है… और जहाँ युद्ध केवल शक्ति से नहीं, सहनशक्ति से जीता जाता है।
+
+यहीं… इसी मरुस्थल में जन्मी थी एक अलग सेना—
+ऊँटों की सेना।
+
+धीमी… ऊँची… लेकिन जब चलती—तो तूफ़ान बन जाती।
+
+---
+
+रेत के बीच बसे एक छोटे से डेरे में एक बालक का जन्म हुआ।
+
+उसके चारों ओर घोड़े नहीं… ऊँट खड़े थे।
+
+उनकी लंबी गर्दनें… धीमी चाल… और आँखों में एक अजीब सी स्थिरता।
+
+उसका पिता एक मरु-सेनापति था—जो जानता था कि इस भूमि में केवल घोड़े से युद्ध नहीं जीता जा सकता।
+
+एक दिन बालक ने पूछा,
+“पिता… हम घोड़े की जगह ऊँट क्यों रखते हैं?”
+
+उसके पिता ने मुस्कुराकर कहा,
+“क्योंकि बेटा… घोड़ा तूफ़ान है… लेकिन ऊँट—मरुस्थल है। और जो मरुस्थल बन गया… उसे कोई हरा नहीं सकता।”
+
+बालक चुप हो गया।
+
+उसने ऊँट की पीठ पर हाथ फेरा।
+
+वह समझ रहा था—यह युद्ध अलग होगा।
+
+---
+
+उसका बचपन कठोर था।
+
+वह ऊँट की पीठ पर बैठकर संतुलन बनाना सीखता…
+रेत में लंबी दूरी तय करना सीखता…
+और सबसे महत्वपूर्ण—थकान के पार जीना सीखता।
+
+ऊँट की चाल अलग थी—धीमी… लेकिन निरंतर।
+
+उसके गुरु ने कहा,
+“जब दुश्मन थक जाएगा… तब तुम शुरू करोगे।”
+
+बालक ने सिर झुका लिया।
+
+उसकी आँखों में अब धैर्य था।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और उसी समय खतरा आया।
+
+एक विशाल सेना मरुस्थल में प्रवेश कर चुकी थी।
+
+वे घोड़ों पर थे… तेज़… शक्तिशाली…
+
+उन्हें लगा—वे जल्दी ही जीत जाएंगे।
+
+लेकिन—
+
+वे थार को नहीं जानते थे।
+
+---
+
+वह अपने ऊँट-दल के साथ एक ऊँचे टीले पर खड़ा था।
+
+उसने नीचे दुश्मन को देखा।
+
+“वे जल्दी थकेंगे,” उसने कहा।
+
+“और तब?” एक योद्धा ने पूछा।
+
+वह मुस्कुराया।
+
+“तब… हम धावा करेंगे।”
+
+---
+
+पहला संघर्ष सीधे युद्ध का नहीं था।
+
+दिन भर—
+
+दुश्मन चलता रहा।
+
+धूप… गर्मी… प्यास…
+
+उनके घोड़े थकने लगे।
+
+सैनिक कमजोर होने लगे।
+
+---
+
+रात—
+
+राठौड़ योद्धा ऊँटों पर सवार होकर आगे बढ़े।
+
+धीरे… चुपचाप…
+
+उन्होंने दुश्मन की रसद पर हमला किया।
+
+पानी के मटके तोड़े।
+
+अनाज जलाया।
+
+और फिर—
+
+गायब।
+
+---
+
+दूसरे दिन—
+
+दुश्मन और कमजोर।
+
+घोड़े थके हुए…
+सैनिक परेशान…
+
+“ये लोग कहाँ हैं?” एक सेनापति चिल्लाया।
+
+कोई जवाब नहीं।
+
+---
+
+तीसरे दिन—
+
+वह क्षण आ गया।
+
+वह अपने दल के साथ खड़ा था।
+
+ऊँट तैयार थे।
+
+उनकी आँखों में वही स्थिरता।
+
+“आज…” उसने कहा,
+“मरुस्थल खुद धावा करेगा।”
+
+---
+
+नगाड़े नहीं बजे।
+
+बस—
+
+“हर हर महादेव!”
+
+और फिर—
+
+ऊँटों का धावा।
+
+---
+
+यह दृश्य अलग था।
+
+घोड़े की तेज़ी नहीं…
+
+लेकिन—
+
+ऊँचाई…
+भय…
+और एक अजीब सी शक्ति।
+
+ऊँटों की लंबी चाल ने रफ्तार पकड़ ली।
+
+रेत उड़ने लगी।
+
+दुश्मन चौंक गया।
+
+“ये क्या है?!” एक सैनिक चिल्लाया।
+
+---
+
+ऊँट सीधे उनकी पंक्तियों की ओर बढ़े।
+
+उनकी ऊँचाई ने योद्धाओं को ऊपर से वार करने का लाभ दिया।
+
+तलवारें नीचे गिरीं।
+
+भाले ऊपर से गड़े।
+
+दुश्मन की पंक्तियाँ टूटने लगीं।
+
+---
+
+वह सबसे आगे था।
+
+उसका ऊँट ऊँचा था… अडिग।
+
+उसकी तलवार बिजली की तरह चल रही थी।
+
+एक दुश्मन सेनापति उसके सामने आया।
+
+“तुम्हारी गति धीमी है!” वह चिल्लाया।
+
+उसने शांत स्वर में कहा,
+“लेकिन हमारी सहनशक्ति… अंतहीन है।”
+
+और उसकी तलवार ने वार किया।
+
+---
+
+युद्ध अपने चरम पर था।
+
+ऊँटों की टकराहट…
+तलवारों की चमक…
+चीखों की गूँज…
+
+दुश्मन अब संभल नहीं पा रहा था।
+
+उनके घोड़े घबराने लगे।
+
+उनकी पंक्तियाँ टूट गईं।
+
+---
+
+और फिर—
+
+अंतिम धावा।
+
+पूरा ऊँट-दल एक साथ टूटा।
+
+रेत का तूफ़ान उठा।
+
+दुश्मन भागने लगा।
+
+कुछ गिर पड़े…
+कुछ रेत में खो गए…
+
+युद्ध समाप्त हुआ।
+
+---
+
+वह अपने ऊँट से उतरा।
+
+उसकी साँसें भारी थीं।
+
+उसका शरीर घावों से भरा था।
+
+उसने अपने ऊँट के सिर पर हाथ फेरा।
+
+“आज… तूफ़ान तू था…” उसने कहा।
+
+---
+
+लेकिन उसके घाव गहरे थे।
+
+वह धीरे-धीरे घुटनों पर गिर पड़ा।
+
+उसकी तलवार हाथ से छूट गई।
+
+उसकी आँखें बंद हो गईं।
+
+---
+
+आज भी थार के टीलों पर जब हवा चलती है—
+
+तो ऐसा लगता है जैसे कोई धावा हो रहा हो।
+
+ऊँटों की चाल…
+रेत की लहरें…
+और एक गूँज—
+
+जो कहती है—
+
+“युद्ध केवल ताकत से नहीं… समझ से जीता जाता है।”
+
+ऊँटों का वह धावा…
+
+आज भी यह सिखाता है—
+
+कि जो अपनी भूमि के अनुसार बदल जाता है…
+
+वही अजेय बन जाता है।
+
+और कभी-कभी—
+
+धीमी चाल ही…
+
+सबसे घातक होती है।
+`
     ],
-    coverImage: { src: '/images/legends/camel-charge.jpg', alt: 'Camel-mounted warriors charging through a sandstorm.' }
+    coverImage: { src: '/images/dynasties/places/bikaner-rathore-main.jpg', alt: 'Camel-mounted warriors charging through a sandstorm.' }
   },
   {
     id: 'battle-luni-river',
@@ -1441,11 +36467,301 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Luni River Banks, Marwar',
     story: [
-      'The Luni River was a strategic barrier in the desert wars. This battle saw a fierce struggle for control of the river’s crossings, vital for movement and water.',
-      'The Rathore defenders used the treacherous, shifting banks to trap the invading forces, leading to a decisive victory that secured the heart of Marwar.',
-      'The legend of the Luni River is a story of how the landscape itself could be turned into a weapon in the hands of those who knew it best.'
+      `लूणी…
+मरुस्थल की वह नदी, जो कभी शांत बहती हुई जीवन देती थी… और कभी अपने बदलते किनारों में मृत्यु छिपाए बैठी रहती थी।
+यह कोई साधारण धारा नहीं थी—यह मरुस्थल की चाल थी… एक ऐसा जाल, जिसे केवल वही समझ सकता था जिसने उसकी रेत में साँस ली हो।
+
+और इसी लूणी के किनारों पर तय हुआ था—मारवाड़ का भविष्य।
+
+---
+
+उसी नदी के पास एक छोटे से ग्राम में एक बालक का जन्म हुआ।
+
+न कोई महल…
+न कोई राजसी ध्वज…
+
+बस बहती हुई नदी… और उसके किनारे बैठा उसका पिता—एक राठौड़ योद्धा।
+
+उसने बालक को अपनी गोद में लेकर कहा,
+“यह लूणी… हमें जीवन देती है… और दुश्मनों को मौत।”
+
+बालक ने नदी की ओर देखा।
+
+उसे कुछ समझ नहीं आया…
+लेकिन उसकी आँखों में एक जिज्ञासा थी।
+
+---
+
+उसका बचपन उसी नदी के साथ बीता।
+
+वह पानी के किनारों पर दौड़ता…
+रेत में धँसते पैरों को संभालना सीखता…
+और सबसे महत्वपूर्ण—लूणी के स्वभाव को समझता।
+
+कभी वह शांत…
+कभी अचानक गहरी…
+कभी किनारे बदलते हुए…
+
+उसके गुरु ने कहा,
+“यह नदी दोस्त भी है… और दुश्मन भी। जो इसे समझ गया… वह युद्ध जीत गया।”
+
+बालक ने सिर झुका लिया।
+
+उसकी आँखों में अब एक अलग चमक थी।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और उसी समय खतरा आया।
+
+एक विशाल सेना मारवाड़ की ओर बढ़ रही थी।
+
+उनका लक्ष्य स्पष्ट था—
+
+लूणी को पार करना… और भीतर तक घुस जाना।
+
+---
+
+वह अपने सैनिकों के साथ नदी के किनारे खड़ा था।
+
+उसने पानी को देखा…
+रेत को छुआ…
+
+और फिर मुस्कुराया।
+
+“वे नहीं जानते… कि वे कहाँ आ रहे हैं,” उसने कहा।
+
+---
+
+पहला संघर्ष सुबह हुआ।
+
+दुश्मन ने नदी पार करने की कोशिश की।
+
+घोड़े पानी में उतरे…
+
+लेकिन—
+
+किनारे फिसलन भरे थे।
+
+रेत धँसने लगी।
+
+कुछ घोड़े फिसले…
+कुछ सैनिक गिर पड़े…
+
+और तभी—
+
+“अब!”
+
+तीरों की बारिश।
+
+ऊपर से हमला।
+
+दुश्मन बीच में फँस गया।
+
+पानी… रेत… और तीर…
+
+पहला प्रयास वहीं टूट गया।
+
+---
+
+लेकिन दुश्मन रुका नहीं।
+
+उन्होंने दूसरी जगह से पार करने की कोशिश की।
+
+इस बार वे सावधानी से आए।
+
+लेकिन—
+
+लूणी की चाल बदल चुकी थी।
+
+---
+
+उसने अपनी सेना को बाँट दिया।
+
+कुछ ऊपर ऊँचाई पर…
+कुछ किनारों पर छिपे हुए…
+
+---
+
+दूसरा युद्ध शुरू हुआ।
+
+दुश्मन नदी पार कर चुका था—
+
+लेकिन जैसे ही वे किनारे पर पहुँचे—
+
+रेत धँस गई।
+
+घोड़े फँस गए।
+
+सैनिक गिर पड़े।
+
+और तभी—
+
+“हर हर महादेव!”
+
+चारों ओर से हमला।
+
+तलवारें टकराईं।
+
+चीखें गूँजीं।
+
+दुश्मन फँस चुका था।
+
+न आगे… न पीछे…
+
+कुछ ही समय में—
+
+वे पीछे हटने लगे।
+
+---
+
+लेकिन तीसरा और अंतिम युद्ध सबसे भयानक था।
+
+इस बार दुश्मन ने पूरी ताकत झोंक दी।
+
+वे किसी भी कीमत पर नदी पार करना चाहते थे।
+
+---
+
+वह नदी के किनारे खड़ा था।
+
+उसने अपने सैनिकों को देखा।
+
+थके हुए… लेकिन अडिग।
+
+वह आगे बढ़ा।
+
+“आज… हम उन्हें यहीं रोकेंगे,” उसने कहा।
+
+---
+
+नगाड़े बजे।
+
+दुश्मन आगे बढ़ा।
+
+घोड़े पानी में उतरे।
+
+सैनिक चढ़ने लगे।
+
+---
+
+और तभी—
+
+लूणी ने अपना रूप बदल लिया।
+
+रेत खिसकी।
+
+पानी तेज़ हुआ।
+
+घोड़े डगमगाए।
+
+और उसी क्षण—
+
+“धावा!”
+
+---
+
+राठौड़ योद्धा टूट पड़े।
+
+ऊपर से… किनारों से…
+
+हर दिशा से हमला।
+
+दुश्मन पूरी तरह फँस चुका था।
+
+---
+
+वह सबसे आगे था।
+
+उसकी तलवार लगातार चल रही थी।
+
+उसकी साँसें भारी थीं।
+
+एक दुश्मन सेनापति उसके सामने आया।
+
+“तुम हमें रोक नहीं सकते!” वह गरजा।
+
+उसने शांत स्वर में कहा,
+“यह लूणी है… यहाँ हम नहीं… यह धरती लड़ती है।”
+
+और उसकी तलवार ने वार किया।
+
+---
+
+युद्ध अपने चरम पर था।
+
+पानी लाल हो चुका था।
+
+रेत खून से भीग चुकी थी।
+
+घंटों तक संघर्ष चला।
+
+फिर—
+
+एक क्षण आया।
+
+जब दुश्मन की पंक्तियाँ टूटने लगीं।
+
+वे भागने लगे।
+
+कुछ पानी में बह गए…
+कुछ रेत में धँस गए…
+
+लूणी जीत गई।
+
+---
+
+वह नदी के किनारे खड़ा था।
+
+उसकी साँसें भारी थीं।
+
+उसका शरीर घावों से भरा था।
+
+उसने पानी को छुआ।
+
+“हमने… इसे बचा लिया…” उसने कहा।
+
+---
+
+लेकिन उसके घाव गहरे थे।
+
+वह धीरे-धीरे घुटनों पर गिर पड़ा।
+
+उसकी तलवार हाथ से छूट गई।
+
+उसकी आँखें बंद हो गईं।
+
+---
+
+आज भी लूणी नदी बहती है।
+
+कभी शांत… कभी उग्र…
+
+लेकिन उसकी हर लहर में एक कहानी छिपी है—
+
+उस युद्ध की…
+उस चाल की…
+और उस समझ की…
+
+जिसने एक नदी को…
+
+एक हथियार बना दिया।
+
+लूणी…
+
+आज भी यह सिखाती है—
+
+कि जब तुम अपनी भूमि को समझ लेते हो…
+
+तो तुम्हें तलवार की जरूरत भी कम पड़ती है।
+
+क्योंकि तब—
+
+धरती खुद तुम्हारे लिए लड़ती है।
+`
     ],
-    coverImage: { src: '/images/legends/luni-battle.jpg', alt: 'Warriors fighting on the sandy banks of a desert river.' }
+    coverImage: { src: '/images/dynasties/places/bikaner-rathore-main.jpg', alt: 'Warriors fighting on the sandy banks of a desert river.' }
   },
   {
     id: 'defense-pokhran-fort',
@@ -1455,11 +36771,336 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Pokhran',
     story: [
-      'Pokhran Fort, located in the deep desert, was a vital outpost for the Rathores. Its defense involved enduring extreme heat and scarce resources while fending off repeated attacks.',
-      'The legend tells of a garrison that held the fort for months, their resolve as unyielding as the red sandstone walls that sheltered them.',
-      'Pokhran remains a symbol of the tenacity of the desert warrior, who could survive and fight where others would perish.'
+      `पोखरण…
+मरुस्थल के उस गहरे हिस्से में खड़ा, जहाँ धरती खुद आग बन जाती है और हवा साँसों को चीरती हुई गुजरती है।
+यहाँ जीवन कोई सहज प्रवाह नहीं… यह हर क्षण एक संघर्ष है।
+
+और इसी संघर्ष के बीच खड़ा था—पोखरण का किला।
+लाल बलुआ पत्थर से बना… तपती धूप में जलता हुआ… लेकिन भीतर से उतना ही ठंडा और अडिग जितना उसके रक्षक।
+
+---
+
+उसी किले की दीवारों के भीतर एक बालक का जन्म हुआ।
+
+उस दिन आसमान साफ़ था…
+लेकिन हवा में तपिश इतनी थी कि जैसे सूरज खुद धरती पर उतर आया हो।
+
+उसके पिता उस किले के एक सरदार थे।
+
+उन्होंने बालक को गोद में उठाकर कहा,
+“यह भूमि आसान नहीं है… लेकिन जो इसे अपना ले… उसे कोई हरा नहीं सकता।”
+
+---
+
+उसका बचपन कठोर था।
+
+यहाँ न हरे-भरे खेत थे…
+न ठंडी छाया…
+
+बस रेत… गर्मी… और प्यास।
+
+वह बचपन से ही सीख गया—पानी की हर बूंद की कीमत क्या होती है।
+कैसे दिन की धूप से बचना है… और कैसे रात की ठंड में जीना है।
+
+घोड़े की सवारी रेत पर अलग होती थी—हर कदम फिसल सकता था।
+
+उसके गुरु ने कहा,
+“मरुस्थल में जो टिक गया… वही योद्धा है। यहाँ लड़ाई तलवार से पहले सहनशक्ति जीतती है।”
+
+बालक ने सिर झुका लिया।
+
+उसकी आँखों में अब धैर्य था।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और उसी समय खतरा आ गया।
+
+एक विशाल सेना पोखरण की ओर बढ़ रही थी।
+
+उन्हें लगा—यह एक दूरस्थ किला है… आसानी से गिर जाएगा।
+
+लेकिन—
+
+वे नहीं जानते थे—
+
+यह किला केवल पत्थर नहीं… संकल्प है।
+
+---
+
+घेरा शुरू हुआ।
+
+किले को चारों ओर से घेर लिया गया।
+
+दिन बीतने लगे।
+
+धूप बढ़ती गई।
+
+पानी कम होने लगा।
+
+भोजन घटने लगा।
+
+एक सैनिक बोला,
+“सरदार… पानी खत्म हो रहा है…”
+
+वह शांत रहा।
+
+“हम खत्म नहीं होंगे,” उसने कहा।
+
+---
+
+पहला हमला सीधा था।
+
+दुश्मन ने सीढ़ियाँ लगाईं।
+
+तोपें गरजीं।
+
+लेकिन—
+
+ऊपर से तीरों की बारिश।
+
+गरम रेत उंडेली गई।
+
+चट्टानें गिराई गईं।
+
+दुश्मन पीछे हट गया।
+
+---
+
+लेकिन असली युद्ध अब शुरू हुआ।
+
+घेरा लंबा खिंच गया।
+
+दिन… हफ्ते… महीने…
+
+हर दिन एक परीक्षा।
+
+हर रात एक संघर्ष।
+
+---
+
+किले के भीतर—
+
+पानी बाँटा जाता।
+
+भोजन सीमित।
+
+लेकिन—
+
+कोई शिकायत नहीं।
+
+---
+
+रात के समय वह दीवारों पर चलता।
+
+हर प्रहरी से पूछता—
+
+“थके हो?”
+
+उत्तर आता—
+
+“नहीं।”
+
+लेकिन वह जानता था—
+
+थकान है… कमजोरी है…
+
+फिर भी—
+
+कोई झुकेगा नहीं।
+
+---
+
+एक रात उसने निर्णय लिया।
+
+“हम केवल सहेंगे नहीं… हम वार करेंगे,” उसने कहा।
+
+---
+
+छोटे-छोटे दल…
+
+रात के अंधेरे में…
+
+किले से बाहर निकले।
+
+रेत पर… बिना आवाज़ के…
+
+वे दुश्मन के शिविर तक पहुँचे।
+
+---
+
+एक इशारा।
+
+और—
+
+“जोहार!”
+
+अचानक हमला।
+
+तंबू जल उठे।
+
+घोड़े बेकाबू।
+
+चीखें गूँज उठीं।
+
+कुछ ही पलों में—
+
+वे वापस।
+
+---
+
+यह केवल हमला नहीं था—
+
+यह संदेश था—
+
+“हम अभी जिंदा हैं।”
+
+---
+
+दुश्मन परेशान होने लगा।
+
+हर रात… एक नया हमला।
+
+हर दिन… और कमजोरी।
+
+उनकी नींद गायब…
+उनका मनोबल टूट चुका था।
+
+---
+
+लेकिन अंतिम युद्ध अभी बाकी था।
+
+दुश्मन ने पूरी ताकत झोंक दी।
+
+तोपें लगातार गरजने लगीं।
+
+दीवारों में दरारें पड़ने लगीं।
+
+एक हिस्सा टूट गया।
+
+“वे अंदर आ रहे हैं!” एक सैनिक चिल्लाया।
+
+---
+
+वह तुरंत वहाँ पहुँचा।
+
+उसने तलवार निकाली।
+
+“अब… अंतिम युद्ध!”
+
+---
+
+किले के भीतर रणभूमि बन गई।
+
+तंग रास्ते…
+पत्थर की दीवारें…
+
+तलवारें टकराईं।
+
+खून बहा।
+
+चीखें गूँजीं।
+
+वह सबसे आगे था।
+
+उसकी तलवार लगातार चल रही थी।
+
+उसकी साँसें भारी थीं।
+
+लेकिन उसकी आँखों में आग थी।
+
+---
+
+एक दुश्मन सेनापति उसके सामने आया।
+
+“तुम खत्म हो चुके हो!” वह गरजा।
+
+उसने शांत स्वर में कहा,
+“पोखरण… अभी खड़ा है।”
+
+और उसकी तलवार ने वार किया।
+
+---
+
+युद्ध अपने चरम पर था।
+
+घंटों तक संघर्ष चला।
+
+लेकिन—
+
+एक क्षण आया।
+
+जब दुश्मन की पंक्तियाँ टूटने लगीं।
+
+वे पीछे हटने लगे।
+
+कुछ भागे… कुछ गिर पड़े…
+
+घेरा टूट गया।
+
+---
+
+पोखरण बच गया।
+
+---
+
+वह किले की दीवार पर खड़ा था।
+
+नीचे खाली मैदान।
+
+हवा गर्म थी।
+
+उसकी साँसें भारी थीं।
+
+उसका शरीर घावों से भरा था।
+
+उसने लाल पत्थर को छुआ।
+
+“हमने… इसे बचा लिया…” उसने कहा।
+
+---
+
+लेकिन उसके घाव गहरे थे।
+
+वह धीरे-धीरे घुटनों पर गिर पड़ा।
+
+उसकी तलवार हाथ से छूट गई।
+
+उसकी आँखें बंद हो गईं।
+
+---
+
+आज भी पोखरण का किला वैसे ही खड़ा है—
+
+लाल… तपता हुआ… अडिग…
+
+उसकी दीवारों में आज भी वह कहानी गूँजती है—
+
+प्यास की…
+धैर्य की…
+और उस संकल्प की…
+
+जो कहता है—
+
+“हम टूट सकते हैं… लेकिन झुकेंगे नहीं।”
+
+पोखरण…
+
+आज भी यह सिखाता है—
+
+कि सच्चा योद्धा वह नहीं…
+
+जो केवल लड़ता है…
+
+बल्कि वह…
+
+जो सबसे कठिन परिस्थितियों में भी…
+
+जीवित रहकर लड़ता है।
+`
     ],
-    coverImage: { src: '/images/legends/pokhran-fort.jpg', alt: 'The strong red sandstone walls of Pokhran Fort.' }
+    coverImage: { src: '/images/dynasties/places/bikaner-rathore-main.jpg', alt: 'The strong red sandstone walls of Pokhran Fort.' }
   },
   {
     id: 'siege-barmer',
@@ -1469,11 +37110,351 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Barmer',
     story: [
-      'Barmer, on the western edge of the Thar, was a gateway for invasions from the west. Its defense was a critical part of the overall security of Rajputana.',
-      'This legend recounts the story of a siege where the defenders used the surrounding dunes to launch devastating night raids on the enemy camp.',
-      'The defense of Barmer is a testament to the skill of the desert warriors in using the terrain to turn a defensive position into an offensive one.'
+      `बाड़मेर…
+थार के पश्चिमी किनारे पर खड़ा वह द्वार, जहाँ से हर आक्रमण सबसे पहले टकराता था।
+यह केवल एक किला नहीं था—यह मरुस्थल का प्रहरी था…
+रेत के अनंत समुद्र के बीच एक पत्थर, जो हर तूफ़ान को चुनौती देता था।
+
+यहाँ हवा भी अलग चलती थी—तीखी, गर्म, और चेतावनी देती हुई।
+और जो इस भूमि को नहीं समझता… वह यहाँ जीवित नहीं रहता।
+
+---
+
+इसी बाड़मेर की दीवारों के भीतर एक बालक का जन्म हुआ।
+
+न कोई शाही उत्सव…
+न कोई धूमधाम…
+
+बस रेत की सरसराहट… और दूर कहीं प्रहरी की पुकार—
+
+“सतर्क रहो!”
+
+उसका पिता इस किले का रक्षक था—एक ऐसा योद्धा, जिसने जीवनभर केवल एक ही काम किया था—पश्चिम से आने वाले हर खतरे को रोकना।
+
+एक दिन बालक ने पूछा,
+“पिता… यह जगह इतनी महत्वपूर्ण क्यों है?”
+
+उसके पिता ने दूर क्षितिज की ओर इशारा किया—जहाँ रेत और आकाश एक हो जाते थे।
+
+“क्योंकि बेटा… हर आक्रमण वहीं से आता है… और अगर हम यहाँ टूट गए… तो सब कुछ टूट जाएगा।”
+
+उस दिन बालक ने समझ लिया—यह किला केवल पत्थर नहीं… एक जिम्मेदारी है।
+
+---
+
+उसका बचपन कठोर था।
+
+तपती धूप…
+प्यास…
+और हर समय चौकसी।
+
+वह टीलों पर दौड़ता…
+रेत में घोड़े को नियंत्रित करना सीखता…
+और रात में बिना आवाज़ के चलना।
+
+उसके गुरु ने कहा,
+“मरुस्थल में जो दिन में लड़ता है… वह मूर्ख है। असली युद्ध रात में होता है।”
+
+बालक ने सिर झुका लिया।
+
+उसकी आँखों में अब अंधेरे की समझ थी।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और उसी समय खतरा आ गया।
+
+पश्चिम से एक विशाल सेना बाड़मेर की ओर बढ़ रही थी।
+
+वे संख्या में अधिक थे…
+उनके पास संसाधन थे…
+
+उन्हें लगा—यह एक छोटा किला है… जल्दी ही गिर जाएगा।
+
+---
+
+घेरा शुरू हुआ।
+
+किले को चारों ओर से घेर लिया गया।
+
+दिन बीतने लगे।
+
+पानी कम… भोजन सीमित…
+
+लेकिन—
+
+मन?
+
+अडिग।
+
+---
+
+एक सैनिक बोला,
+“सरदार… वे बहुत अधिक हैं…”
+
+वह शांत खड़ा रहा।
+
+“वे दिन में लड़ते हैं…” उसने कहा,
+“हम रात में लड़ेंगे।”
+
+---
+
+उसने अपनी योजना बनाई।
+
+छोटे-छोटे दल…
+रात के समय…
+और हर बार—एक अलग दिशा से हमला।
+
+---
+
+पहली रात—
+
+आसमान साफ़ था।
+
+चाँद आधा था।
+
+दुश्मन का शिविर शांत था।
+
+और फिर—
+
+रेत हिली।
+
+छाया चली।
+
+राठौड़ योद्धा टीलों के पीछे से आगे बढ़े।
+
+एक इशारा।
+
+और—
+
+“जोहार!”
+
+अचानक हमला।
+
+तंबू जल उठे।
+
+घोड़े बेकाबू।
+
+चीखें गूँज उठीं।
+
+कुछ ही पलों में—
+
+वे वापस।
+
+दुश्मन समझ ही नहीं पाया—क्या हुआ।
+
+---
+
+दूसरी रात—
+
+और भी तेज़ हमला।
+
+इस बार—
+
+रसद पर वार।
+
+अनाज जलाया गया।
+
+पानी के मटके तोड़े गए।
+
+दुश्मन कमजोर होने लगा।
+
+---
+
+तीसरी रात—
+
+और भी भयानक।
+
+इस बार—
+
+तोपों पर हमला।
+
+राठौड़ योद्धा सीधे घेराबंदी के यंत्रों पर टूट पड़े।
+
+तोपें गिरा दी गईं।
+
+मीनारें जला दी गईं।
+
+---
+
+दुश्मन अब घबरा चुका था।
+
+“ये लोग हर जगह हैं!” एक सेनापति चिल्लाया।
+
+लेकिन—
+
+वे कहीं भी नहीं थे।
+
+बस रात में आते… और गायब हो जाते।
+
+---
+
+दिन बीतते गए।
+
+हर रात एक नया हमला।
+
+हर दिन दुश्मन कमजोर।
+
+उनकी नींद गायब…
+उनका मनोबल टूट चुका था।
+
+---
+
+लेकिन अंतिम युद्ध अभी बाकी था।
+
+दुश्मन ने तय किया—
+
+अब वे पूरा बल लगाकर किले पर हमला करेंगे।
+
+---
+
+वह दीवार पर खड़ा था।
+
+उसने अपने योद्धाओं को देखा।
+
+थके हुए… लेकिन तैयार।
+
+“आज… हम उन्हें खत्म करेंगे,” उसने कहा।
+
+---
+
+नगाड़े बजे।
+
+दुश्मन आगे बढ़ा।
+
+तोपें गरजीं।
+
+सीढ़ियाँ लगाई गईं।
+
+लेकिन—
+
+इस बार कुछ अलग था।
+
+---
+
+जैसे ही दुश्मन किले के पास पहुँचा—
+
+पीछे से हमला।
+
+राठौड़ योद्धा—जो रात में बाहर निकल चुके थे—अब पीछे से टूट पड़े।
+
+दुश्मन बीच में फँस गया।
+
+आगे—किला।
+पीछे—धावा।
+
+---
+
+“हर हर महादेव!”
+
+चीखें गूँज उठीं।
+
+तलवारें टकराईं।
+
+रेत में खून बहा।
+
+पूरा मैदान एक भयानक युद्धभूमि बन गया।
+
+---
+
+वह सबसे आगे था।
+
+उसकी तलवार लगातार चल रही थी।
+
+उसकी साँसें तेज़ थीं।
+
+एक दुश्मन सेनापति उसके सामने आया।
+
+“तुम बच नहीं सकते!” वह गरजा।
+
+उसने शांत स्वर में कहा,
+“यह मरुस्थल… हमें बचाता है।”
+
+और उसकी तलवार ने वार किया।
+
+सेनापति गिर पड़ा।
+
+---
+
+युद्ध अपने चरम पर था।
+
+घंटों तक संघर्ष चला।
+
+फिर—
+
+एक क्षण आया।
+
+जब दुश्मन की पंक्तियाँ टूटने लगीं।
+
+वे भागने लगे।
+
+कुछ गिर पड़े… कुछ रेत में खो गए…
+
+घेरा टूट गया।
+
+बाड़मेर बच गया।
+
+---
+
+युद्ध समाप्त हुआ।
+
+वह किले की दीवार पर खड़ा था।
+
+नीचे खाली मैदान।
+
+हवा तेज़ चल रही थी।
+
+उसकी साँसें भारी थीं।
+
+उसका शरीर घावों से भरा था।
+
+उसने रेत को छुआ।
+
+“हमने… इसे बचा लिया…” उसने कहा।
+
+---
+
+लेकिन उसके घाव गहरे थे।
+
+वह धीरे-धीरे घुटनों पर गिर पड़ा।
+
+उसकी तलवार हाथ से छूट गई।
+
+उसकी आँखें बंद हो गईं।
+
+---
+
+आज भी बाड़मेर की रेत वैसे ही उड़ती है।
+
+टीलों पर हवा वैसे ही चलती है।
+
+लेकिन अगर ध्यान से सुना जाए—
+
+तो उसमें एक कहानी गूँजती है—
+
+रात के धावों की…
+तलवारों की…
+और उस युद्ध की…
+
+जो दिन में नहीं…
+
+अंधेरे में जीता गया।
+
+बाड़मेर…
+
+आज भी यह सिखाता है—
+
+कि जब योद्धा अपनी भूमि को समझ ले…
+
+तो रक्षा भी हमला बन जाती है।
+
+और यही—
+
+मरुस्थल की सबसे बड़ी शक्ति है।
+`
     ],
-    coverImage: { src: '/images/legends/barmer-siege.jpg', alt: 'The high fort of Barmer silhouetted against a desert sunset.' }
+    coverImage: { src: '/images/dynasties/places/bikaner-rathore-main.jpg', alt: 'The high fort of Barmer silhouetted against a desert sunset.' }
   },
   {
     id: 'desert-stand-rathores',
@@ -1483,11 +37464,345 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Marwar Desert',
     story: [
-      'This legend tells of a small group of Rathore warriors who were cornered in the deep desert by a much larger force. Refusing to surrender, they made a final stand among the dunes.',
-      'Their sacrifice delayed the enemy’s advance long enough for the main army to regroup, proving that even a small force can change the course of a war.',
-      'The "Desert Stand" is a story of the absolute commitment of the Rajput warrior to his duty, regardless of the odds.'
+      `मरुस्थल…
+जहाँ क्षितिज भी झुकता हुआ लगता है, जहाँ रेत के हर कण में तपिश है… और जहाँ जीवन खुद एक युद्ध है।
+
+यही वह भूमि थी… जहाँ कभी-कभी युद्ध तलवारों से नहीं, बल्कि संकल्प से जीते जाते थे।
+
+और उसी मरुस्थल के बीच जन्मी थी वह कहानी…
+जिसे लोग आज भी “अंतिम धावा” नहीं…
+“मरुस्थल का प्रण” कहते हैं।
+
+---
+
+रेत के ऊँचे-नीचे टीलों के बीच एक छोटा सा डेरा था।
+वहीं एक बालक का जन्म हुआ—राठौड़ कुल में।
+
+उसके जन्म के समय कोई नगाड़ा नहीं बजा…
+बस हवा की तीखी सरसराहट थी… और दूर कहीं ऊँटों की धीमी चाल।
+
+उसका पिता एक मरु-योद्धा था।
+
+उसने बालक को गोद में उठाकर कहा,
+“यह रेत… हमें जीना सिखाती है… और मरना भी।”
+
+---
+
+उसका बचपन कठोर था।
+
+न हरे-भरे खेत…
+न ठंडी छाँव…
+
+बस तपती रेत… और अंतहीन आकाश।
+
+वह घोड़े पर नहीं… पहले ऊँट पर बैठना सीखता।
+पानी की हर बूंद का महत्व समझता।
+और सबसे बड़ी बात—थकान के पार जीना सीखता।
+
+उसके गुरु ने कहा,
+“मरुस्थल में युद्ध तलवार से नहीं… सहनशक्ति से जीता जाता है।”
+
+बालक ने सिर झुका लिया।
+
+उसकी आँखों में अब एक शांत, लेकिन अडिग ज्वाला थी।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और उसी समय युद्ध की आहट आई।
+
+एक बड़ी सेना मरुस्थल के भीतर बढ़ रही थी।
+
+उनका लक्ष्य स्पष्ट था—मुख्य राठौड़ सेना को तोड़ना।
+
+लेकिन—
+
+उनके रास्ते में एक छोटा दल खड़ा था।
+
+---
+
+वह अपने साथियों के साथ एक ऊँचे टीले पर खड़ा था।
+
+संख्या—बहुत कम।
+
+सामने—हजारों की सेना।
+
+एक योद्धा बोला,
+“सरदार… हम घिर चुके हैं…”
+
+वह शांत रहा।
+
+उसने दूर क्षितिज की ओर देखा।
+
+“मुख्य सेना को समय चाहिए,” उसने कहा,
+“और वह समय… हम देंगे।”
+
+---
+
+सन्नाटा छा गया।
+
+सभी ने एक-दूसरे की ओर देखा।
+
+कोई भय नहीं…
+कोई संदेह नहीं…
+
+सिर्फ़ एक समझ—
+
+यह अंतिम युद्ध है।
+
+---
+
+उसने अपनी तलवार निकाली।
+
+रेत पर गाड़ दी।
+
+“जो पीछे हटना चाहता है… अभी जा सकता है,” उसने कहा।
+
+कोई नहीं हिला।
+
+एक योद्धा मुस्कुराया,
+“सरदार… हम मरुस्थल में जन्मे हैं… यहाँ से भागना नहीं जानते।”
+
+वह मुस्कुराया।
+
+“तो फिर… आज इतिहास लिखते हैं।”
+
+---
+
+दूर… दुश्मन की सेना बढ़ रही थी।
+
+धूल का विशाल गुबार।
+
+घोड़े… पैदल सैनिक…
+
+वे आत्मविश्वास से भरे थे।
+
+उन्हें लगा—यह एक आसान जीत होगी।
+
+---
+
+वह अपने दल को देख रहा था।
+
+कम संख्या… लेकिन अडिग।
+
+“पहला वार हम करेंगे,” उसने कहा।
+
+---
+
+नगाड़े नहीं बजे।
+
+बस—
+
+“हर हर महादेव!”
+
+और फिर—
+
+धावा।
+
+---
+
+राठौड़ योद्धा टीलों से नीचे उतरे।
+
+घोड़े गरजे।
+
+तलवारें चमकीं।
+
+वे सीधे दुश्मन की पंक्तियों में घुस गए।
+
+यह आत्मघाती था—
+
+लेकिन यही उनका संकल्प था।
+
+---
+
+पहला टकराव भयानक था।
+
+तलवारें टकराईं।
+
+भाले गड़े।
+
+घोड़े भिड़े।
+
+चीखें गूँजीं।
+
+लेकिन—
+
+दुश्मन की पंक्तियाँ हिल गईं।
+
+उन्हें उम्मीद नहीं थी—
+
+कि इतने कम लोग इतना प्रचंड वार करेंगे।
+
+---
+
+वह सबसे आगे था।
+
+उसकी तलवार बिजली की तरह चल रही थी।
+
+हर वार… घातक।
+
+एक दुश्मन सेनापति उसके सामने आया।
+
+“समर्पण करो!” वह चिल्लाया।
+
+उसने हँसते हुए कहा,
+“मरुस्थल… झुकना नहीं सिखाता।”
+
+और उसकी तलवार ने वार किया।
+
+---
+
+युद्ध चलता रहा।
+
+एक-एक कर उसके साथी गिरने लगे।
+
+खून रेत में समाने लगा।
+
+लेकिन—
+
+कोई पीछे नहीं हटा।
+
+---
+
+दूसरा धावा।
+
+अब संख्या और कम।
+
+लेकिन संकल्प—
+
+और भी प्रचंड।
+
+वे फिर टूट पड़े।
+
+दुश्मन पीछे हटने लगा।
+
+समय बीत रहा था।
+
+और यही उनका उद्देश्य था।
+
+---
+
+अब अंतिम क्षण।
+
+वह अकेला नहीं था—लेकिन बहुत कम बचे थे।
+
+उसकी साँसें भारी थीं।
+
+उसका शरीर घावों से भरा था।
+
+उसने अपने साथियों की ओर देखा।
+
+सब खड़े थे।
+
+अडिग।
+
+---
+
+“अंतिम धावा,” उसने कहा।
+
+---
+
+और फिर—
+
+वे आखिरी बार टूट पड़े।
+
+चीख—
+
+“जोहार!”
+
+रेत उड़ने लगी।
+
+घोड़े गरजे।
+
+तलवारें चमकीं।
+
+यह अब युद्ध नहीं था—
+
+यह संकल्प का विस्फोट था।
+
+---
+
+एक-एक कर सब गिरते गए।
+
+लेकिन दुश्मन आगे नहीं बढ़ पाया।
+
+वे रुक गए।
+
+उन्हें समय लग गया—
+
+और वही समय…
+
+मुख्य सेना को मिल गया।
+
+---
+
+वह घुटनों पर गिर चुका था।
+
+उसकी तलवार अब भी उसके हाथ में थी।
+
+उसने दूर देखा—
+
+रेत… आकाश… और क्षितिज…
+
+उसके चेहरे पर एक हल्की मुस्कान आई।
+
+“हमने… समय दे दिया…” उसने कहा।
+
+और फिर—
+
+उसकी आँखें बंद हो गईं।
+
+---
+
+जब दुश्मन आगे बढ़ा—
+
+तो उसे केवल रेत मिली… और शरीर…
+
+लेकिन—
+
+मुख्य सेना अब तैयार थी।
+
+युद्ध का रुख बदल चुका था।
+
+---
+
+आज भी मरुस्थल के टीलों पर जब हवा चलती है—
+
+तो रेत ऐसे उठती है जैसे कोई धावा हो रहा हो।
+
+वहाँ कोई स्मारक नहीं…
+
+कोई पत्थर नहीं…
+
+लेकिन—
+
+हर कण में एक कहानी है।
+
+कुछ योद्धाओं की…
+
+जिन्होंने जीतने के लिए नहीं…
+
+बल्कि बचाने के लिए…
+
+अपनी अंतिम साँस तक लड़ाई लड़ी।
+
+मरुस्थल का वह अंतिम मोर्चा…
+
+आज भी यह सिखाता है—
+
+कि संख्या नहीं…
+
+संकल्प युद्ध का परिणाम तय करता है।
+
+और कभी-कभी—
+
+कुछ लोगों का बलिदान…
+
+पूरे इतिहास की दिशा बदल देता है।
+`
     ],
-    coverImage: { src: '/images/legends/rathore-stand.jpg', alt: 'A few warriors standing firm on a high sand dune.' }
+    coverImage: { src: '/images/dynasties/places/bikaner-rathore-main.jpg', alt: 'A few warriors standing firm on a high sand dune.' }
   },
   {
     id: 'aravalli-mountain-ambush',
@@ -1497,11 +37812,279 @@ export const allLegends: Legend[] = [
     era: '16th Century',
     location: 'Aravalli Hills',
     story: [
-      'The Aravallis provided the perfect terrain for guerrilla warfare. This legend celebrates the mountain ambush, where Rajput forces would trap invading armies in narrow passes.',
-      'The story follows a master tactician who used a simple signal to unleash a rain of arrows and boulders on a Mughal detachment, turning a retreat into a victory.',
-      'The mountain ambush is a symbol of the Rajput mastery of their environment and their ability to use it to neutralize the enemy’s superior numbers.'
+      `अरावली…
+पत्थरों की वह अनंत दीवार, जहाँ हर मोड़ एक रहस्य था… हर घाटी एक जाल… और हर खामोशी के भीतर छिपा होता था मृत्यु का इंतज़ार।
+
+यहाँ युद्ध नगाड़ों से नहीं शुरू होते थे…
+यहाँ युद्ध तब शुरू होते थे जब दुश्मन को लगता था—अब सब सुरक्षित है।
+
+---
+
+उसी अरावली की एक गहरी घाटी में, जहाँ सूरज भी आधा ही उतर पाता था, एक बालक का जन्म हुआ।
+
+न कोई राजसी उत्सव…
+न कोई शंखनाद…
+
+बस हवा की सरसराहट… और दूर कहीं चट्टानों से टकराती आवाज़।
+
+उसका पिता कोई बड़ा सेनापति नहीं था…
+वह एक छाया था—सीमा का रक्षक, जो दिखता नहीं था, लेकिन हर जगह मौजूद रहता था।
+
+एक दिन बालक ने पूछा,
+“पिता… हम सामने से क्यों नहीं लड़ते?”
+
+उसके पिता ने चट्टान की ओर इशारा किया—
+
+“क्योंकि बेटा… जब दुश्मन तुमसे बड़ा हो… तो तुम उसे वहाँ मारते हो जहाँ वह कमजोर हो… और जब वह मजबूत हो… तो उसे रास्ता देते हो… ताकि वह जाल में खुद चले आए।”
+
+बालक चुप हो गया।
+
+उसने समझ लिया—यह युद्ध अलग है।
+
+---
+
+उसका बचपन तलवार से पहले चट्टानों के बीच बीता।
+
+वह संकरी पगडंडियों पर दौड़ता…
+ऊँचाई और गहराई का संतुलन सीखता…
+और सबसे महत्वपूर्ण—खामोशी में चलना सीखता।
+
+उसके गुरु ने कहा,
+“घात… वह युद्ध है… जहाँ दुश्मन लड़ने से पहले ही हार जाता है।”
+
+बालक ने सिर झुका लिया।
+
+उसकी आँखों में अब एक अलग चमक थी।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और अब अरावली की छाया उसका घर थी।
+
+उधर एक मुगल टुकड़ी पहाड़ियों में प्रवेश कर चुकी थी।
+
+वे एक बड़ी सेना से अलग होकर आगे बढ़ रहे थे—उन्हें लगा, यह रास्ता आसान है।
+
+लेकिन—
+
+यही उनकी भूल थी।
+
+---
+
+वह एक ऊँची चट्टान पर खड़ा था।
+
+नीचे संकरा दर्रा था—इतना तंग कि दो पंक्तियाँ भी साथ न चल सकें।
+
+उसने अपने योद्धाओं को चारों ओर तैनात किया।
+
+ऊपर—तीरंदाज़।
+किनारों पर—पत्थर लुढ़काने वाले।
+और पीछे—घुड़सवार, जो अंतिम वार करेंगे।
+
+एक सैनिक ने धीरे से पूछा,
+“संकेत क्या होगा?”
+
+वह मुस्कुराया।
+
+“बस एक आवाज़… और फिर… कोई आवाज़ नहीं।”
+
+---
+
+दुश्मन आगे बढ़ रहा था।
+
+उनकी पंक्ति लंबी थी…
+घोड़े थके हुए…
+सैनिक सतर्क… लेकिन आत्मविश्वासी।
+
+उन्हें लगा—कोई खतरा नहीं।
+
+---
+
+वह ऊपर खड़ा देख रहा था।
+
+उसकी साँसें शांत थीं।
+
+उसकी आँखें हर हरकत पर थीं।
+
+“अभी नहीं…” उसने खुद से कहा।
+
+दुश्मन और भीतर आया…
+
+अब वे सबसे संकरे हिस्से में थे।
+
+न आगे जाने की जगह…
+न पीछे मुड़ने की।
+
+---
+
+उसने अपनी उँगलियाँ उठाईं…
+
+एक छोटा सा संकेत।
+
+और फिर—
+
+एक हल्की सी सीटी।
+
+---
+
+और उसी क्षण—
+
+आसमान टूट पड़ा।
+
+तीरों की बारिश।
+
+चट्टानों का सैलाब।
+
+चीखें घाटी में गूँज उठीं।
+
+घोड़े बेकाबू हो गए।
+
+सैनिक एक-दूसरे से टकराने लगे।
+
+कोई समझ ही नहीं पाया—क्या हो रहा है।
+
+---
+
+“हमले!” एक मुगल सैनिक चिल्लाया।
+
+लेकिन हमला कहाँ से था—कोई नहीं जानता था।
+
+ऊपर से…
+किनारों से…
+हर दिशा से…
+
+मौत।
+
+---
+
+वह नीचे कूद पड़ा।
+
+“अब!” उसने गरजकर कहा।
+
+और उसके साथ—
+
+घुड़सवार दल टूट पड़ा।
+
+---
+
+तलवारें टकराईं।
+
+खून पत्थरों पर बहा।
+
+संकीर्ण दर्रे में हर वार घातक था।
+
+दुश्मन फँस चुका था।
+
+न भाग सकते थे…
+न लड़ सकते थे…
+
+---
+
+एक मुगल अधिकारी उसके सामने आया।
+
+“तुम कायर हो!” वह चिल्लाया,
+“छिपकर वार करते हो!”
+
+वह शांत रहा।
+
+“यह अरावली है…” उसने कहा,
+“यहाँ बुद्धि… ताकत से बड़ी होती है।”
+
+और उसकी तलवार ने वार किया।
+
+अधिकारी गिर पड़ा।
+
+---
+
+युद्ध कुछ ही समय में समाप्त हो गया।
+
+जो बच गए… वे भागने लगे।
+
+घाटी फिर शांत हो गई।
+
+---
+
+लेकिन कहानी यहीं खत्म नहीं हुई।
+
+दूर… दूसरी दिशा में…
+
+मुगल सेना का मुख्य भाग आगे बढ़ रहा था।
+
+उन्हें खबर मिली—
+
+“हमारी टुकड़ी पर हमला हुआ है!”
+
+उन्होंने तुरंत पीछे हटने का निर्णय लिया।
+
+उन्हें लगा—वे घिर सकते हैं।
+
+और इस तरह—
+
+एक पीछे हटती हुई सेना…
+
+एक जीत में बदल गई।
+
+---
+
+वह चट्टान पर बैठा था।
+
+उसकी साँसें भारी थीं।
+
+उसकी तलवार खून से भीगी हुई थी।
+
+उसने नीचे देखा—
+
+घाटी… अब शांत थी।
+
+“हमने… उन्हें रास्ता दिखाया…” उसने धीमे से कहा।
+
+---
+
+लेकिन उसके कंधे पर गहरा घाव था।
+
+वह धीरे-धीरे पीछे झुका।
+
+उसकी आँखें बंद होने लगीं।
+
+उसने आखिरी बार आकाश की ओर देखा—
+
+जहाँ बादल चट्टानों को छू रहे थे।
+
+और फिर—
+
+वह स्थिर हो गया।
+
+---
+
+आज भी अरावली की घाटियाँ वैसे ही खड़ी हैं—
+
+संकरी… रहस्यमय… अजेय…
+
+जब हवा वहाँ से गुजरती है—
+
+तो ऐसा लगता है जैसे कोई संकेत दे रहा हो—
+
+एक हल्की सी सीटी…
+
+और फिर—
+
+तूफान।
+
+अरावली का घात…
+
+आज भी यह सिखाता है—
+
+कि जब तुम अपनी भूमि को समझ लेते हो…
+
+तो तुम दुश्मन को लड़ने का मौका भी नहीं देते।
+
+और यही—
+
+एक सच्चे योद्धा की सबसे बड़ी जीत होती है।
+`
     ],
-    coverImage: { src: '/images/legends/mountain-ambush.jpg', alt: 'Warriors hidden among the rocks of a steep mountain pass.' }
+    coverImage: { src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Warriors hidden among the rocks of a steep mountain pass.' }
   },
   {
     id: 'night-assault-gogunda',
@@ -1511,11 +38094,278 @@ export const allLegends: Legend[] = [
     era: '1576 AD',
     location: 'Gogunda, Mewar',
     story: [
-      'After the Battle of Haldighati, the Mughals occupied Gogunda. This legend tells of a daring night assault by Maharana Pratap’s forces to reclaim the town.',
-      'Moving in absolute silence, the Rajput warriors infiltrated the camp and neutralized the guards before the alarm could be sounded. The surprise was so complete that the garrison fled in panic.',
-      'The night assault of Gogunda is a story of the courage and the precision that allowed the Rajput resistance to continue even after major defeats.'
+      `हल्दीघाटी के बाद…
+जब धूल बैठ चुकी थी, जब रणभूमि की गर्जना धीरे-धीरे खामोशी में बदल गई थी—तब एक नई लड़ाई शुरू हुई थी।
+यह वह लड़ाई थी जो खुले मैदान में नहीं, बल्कि छाया में लड़ी जाती है…
+जहाँ तलवार से पहले धैर्य चलता है… और गर्जना से पहले सन्नाटा।
+
+गोगुंदा…
+मेवाड़ का वह नगर, जो कभी महाराणा की उपस्थिति से जीवित था—अब पराई सेना के कब्जे में था।
+मुगल शिविर वहाँ फैला हुआ था… तंबुओं की कतारें, पहरेदारों की चाल, और हर कोने में घमंड की गंध।
+
+लेकिन वे एक बात भूल गए थे—
+
+मेवाड़ हार सकता है… झुक नहीं सकता।
+
+---
+
+अरावली की छाया में, एक चट्टान के पीछे, महाराणा प्रताप खड़े थे।
+
+उनकी आँखें गोगुंदा की ओर टिकी थीं।
+
+रात गहरी हो रही थी।
+
+चाँद बादलों में छिपा हुआ था।
+
+उनके साथ उनके विश्वस्त योद्धा खड़े थे—थके हुए, घायल, लेकिन आँखों में वही आग।
+
+एक सरदार ने धीमे स्वर में पूछा,
+“महाराणा… क्या हम फिर से सीधा युद्ध करेंगे?”
+
+प्रताप ने सिर हिलाया।
+
+“नहीं,” उनकी आवाज़ धीमी लेकिन कठोर थी,
+“आज हम छाया बनेंगे… और वार करेंगे… जब वे सोच भी न सकें।”
+
+---
+
+योजना स्पष्ट थी।
+
+छोटे-छोटे दल…
+पूर्ण मौन…
+और एक ही लक्ष्य—
+
+गोगुंदा को वापस लेना।
+
+---
+
+रात का तीसरा पहर।
+
+हवा ठंडी थी।
+
+पत्तों की हल्की सरसराहट… और दूर कहीं एक प्रहरी की थकी हुई चाल।
+
+मुगल शिविर शांत था।
+
+उन्हें लगा—युद्ध समाप्त हो चुका है।
+
+लेकिन…
+
+युद्ध कभी समाप्त नहीं हुआ था।
+
+---
+
+और फिर—
+
+छाया चलने लगी।
+
+राजपूत योद्धा धीरे-धीरे आगे बढ़े।
+
+न कोई आवाज़…
+न कोई संकेत…
+
+सिर्फ़ कदम… जो धरती पर भी निशान नहीं छोड़ रहे थे।
+
+---
+
+पहला पहरेदार…
+
+उसने कुछ सुना…
+
+लेकिन तब तक—
+
+एक तलवार उसकी गर्दन पर थी।
+
+वह बिना आवाज़ के गिर पड़ा।
+
+---
+
+दूसरा…
+
+तीसरा…
+
+हर प्रहरी…
+एक-एक करके…
+
+खामोशी में समाप्त।
+
+---
+
+अब शिविर के भीतर रास्ता खुल चुका था।
+
+प्रताप ने अपने योद्धाओं की ओर देखा।
+
+एक इशारा।
+
+और फिर—
+
+“जोहार!”
+
+लेकिन यह गर्जना भी दबे स्वर में थी—एक ऐसी गर्जना, जो केवल दुश्मन के लिए मौत का संकेत थी।
+
+---
+
+अचानक—
+
+हर दिशा से हमला।
+
+तंबुओं के भीतर सोते सैनिक जाग भी नहीं पाए—
+
+कि तलवारें उन पर टूट पड़ीं।
+
+घोड़े बेकाबू हो गए।
+
+आग फैलने लगी।
+
+चीखें उठीं—
+
+“हमला!”
+
+लेकिन तब तक बहुत देर हो चुकी थी।
+
+---
+
+प्रताप स्वयं सबसे आगे थे।
+
+उनकी तलवार अंधेरे में चमक रही थी।
+
+हर वार सटीक…
+हर वार घातक…
+
+एक मुगल सेनापति बाहर भागता हुआ आया।
+
+“कौन है?!” वह चिल्लाया।
+
+प्रताप उसकी ओर बढ़े।
+
+“मेवाड़…” उन्होंने धीमे से कहा।
+
+और उनकी तलवार ने वार किया।
+
+सेनापति गिर पड़ा।
+
+---
+
+अब शिविर में अराजकता फैल चुकी थी।
+
+कोई दिशा नहीं…
+कोई आदेश नहीं…
+
+सैनिक भागने लगे।
+
+कुछ बिना हथियार…
+कुछ बिना समझे कि हमला कहाँ से हुआ।
+
+---
+
+राजपूत योद्धा हर दिशा में फैल गए।
+
+वे तंबुओं को गिरा रहे थे…
+रसद पर कब्जा कर रहे थे…
+और हर उस स्थान को तोड़ रहे थे—जो दुश्मन को ताकत देता था।
+
+---
+
+कुछ ही समय में—
+
+पूरा शिविर बिखर चुका था।
+
+मुगल सेना… जो दिन में इतनी शक्तिशाली लगती थी…
+
+अब रात में भाग रही थी।
+
+---
+
+गोगुंदा… वापस ले लिया गया।
+
+---
+
+सुबह—
+
+पहली किरण जब पहाड़ियों पर पड़ी—
+
+तो गोगुंदा फिर से शांत था।
+
+लेकिन अब वह पराया नहीं था।
+
+प्रताप किले की दीवार पर खड़े थे।
+
+उनकी साँसें भारी थीं।
+
+उनके चेहरे पर थकान थी…
+
+लेकिन आँखों में—
+
+संतोष।
+
+एक सरदार उनके पास आया।
+
+“महाराणा… हमने इसे वापस ले लिया।”
+
+प्रताप ने धीरे से सिर हिलाया।
+
+“युद्ध अभी खत्म नहीं हुआ…” उन्होंने कहा,
+“लेकिन हमने उन्हें याद दिला दिया… कि मेवाड़ अब भी जीवित है।”
+
+---
+
+लेकिन उस रात की कीमत भी थी।
+
+कई योद्धा… जो उनके साथ आए थे…
+
+अब वापस नहीं लौटे।
+
+प्रताप ने नीचे देखा—
+
+उनके शरीर…
+उनकी तलवारें…
+
+और उनके चेहरे—
+
+जो अब भी गर्व से भरे थे।
+
+---
+
+प्रताप ने अपनी तलवार को जमीन में गाड़ा।
+
+“तुमने… इसे संभव बनाया…” उन्होंने धीमे से कहा।
+
+---
+
+आज भी गोगुंदा की रातें वैसी ही होती हैं।
+
+खामोश… गहरी… रहस्यमय…
+
+लेकिन अगर ध्यान से सुना जाए—
+
+तो उस रात की आवाज़ अब भी गूँजती है—
+
+कदमों की…
+तलवारों की…
+और उस गर्जना की…
+
+जो अंधेरे में जन्मी थी…
+
+और जिसने हार के बाद भी…
+
+युद्ध को जिंदा रखा।
+
+गोगुंदा…
+
+आज भी यह सिखाता है—
+
+कि पराजय अंत नहीं होती…
+
+अगर साहस और संकल्प जीवित हों।
+
+और कभी-कभी—
+
+सबसे बड़ी जीत…
+
+खामोशी में हासिल होती है।
+`
     ],
-    coverImage: { src: '/images/legends/gogunda-night.jpg', alt: 'Shadowy figures moving through a moonlit mountain town.' }
+    coverImage: { src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Shadowy figures moving through a moonlit mountain town.' }
   },
   {
     id: 'defense-kumbhalgarh-passes',
@@ -1525,11 +38375,304 @@ export const allLegends: Legend[] = [
     era: '16th Century',
     location: 'Kumbhalgarh Region',
     story: [
-      'The passes leading to Kumbhalgarh were the most critical defensive positions in Mewar. This legend celebrates the warriors who held these narrow defiles against all odds.',
-      'Using hit-and-run tactics and mountain fortifications, they turned the approaches to the fort into a graveyard for invading armies.',
-      'The defense of the passes is a story of the importance of geography in the survival of a kingdom and the skill of the warriors who guarded it.'
+      `कुंभलगढ़ के दर्रे…
+वे संकरे, घुमावदार रास्ते जो पहाड़ों की छाती को चीरते हुए उस महान दुर्ग तक पहुँचते थे।
+यही वे स्थान थे जहाँ युद्ध मैदानों की तरह नहीं गरजते थे… यहाँ युद्ध फँसते थे, टूटते थे, और चुपचाप खत्म हो जाते थे।
+
+जो इन दर्रों को पार कर लेता—वह कुंभलगढ़ तक पहुँच सकता था।
+और जो कुंभलगढ़ तक पहुँच जाता… वह मेवाड़ की आत्मा को चुनौती दे सकता था।
+
+इसलिए… इन दर्रों पर खड़े योद्धा केवल सैनिक नहीं थे—वे पूरी सभ्यता के प्रहरी थे।
+
+---
+
+इन्हीं दर्रों के पास एक छोटे से चौकी-ग्राम में एक बालक का जन्म हुआ।
+
+न कोई महल…
+न कोई शाही उत्सव…
+
+बस पत्थरों की गंध… और हवा की तेज़ आवाज़।
+
+उसका पिता इन दर्रों का रक्षक था।
+
+हर दिन… वह संकरी पगडंडियों पर घूमता, हर मोड़ को देखता, हर आवाज़ को सुनता।
+
+एक दिन बालक ने पूछा,
+“पिता… यह रास्ता इतना महत्वपूर्ण क्यों है?”
+
+उसके पिता ने नीचे गहरी खाई की ओर इशारा किया।
+
+“क्योंकि बेटा… यहाँ एक आदमी… हजार को रोक सकता है।”
+
+बालक की आँखों में चमक आ गई।
+
+---
+
+उसका बचपन इन दर्रों में बीता।
+
+वह पत्थरों पर दौड़ता…
+घुमावदार रास्तों को याद करता…
+और हर छिपे हुए मोड़ को पहचानता।
+
+उसके गुरु ने कहा,
+“यहाँ तलवार से ज्यादा जरूरी है—समय और स्थान।”
+
+“कैसे?” बालक ने पूछा।
+
+“क्योंकि यहाँ सही समय पर किया गया एक वार… पूरी सेना को रोक सकता है।”
+
+बालक ने सिर झुका लिया।
+
+वह समझ रहा था—यह भूमि ही उसका सबसे बड़ा हथियार है।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और अब उन दर्रों की रक्षा उसकी जिम्मेदारी थी।
+
+उधर एक विशाल सेना कुंभलगढ़ की ओर बढ़ रही थी।
+
+वे संख्या में बहुत अधिक थे।
+
+तोपें… घोड़े… पैदल सैनिक…
+
+उन्हें लगा—यह केवल रास्ते हैं… जिन्हें पार किया जा सकता है।
+
+लेकिन वे नहीं जानते थे—
+
+ये रास्ते जाल हैं।
+
+---
+
+पहला संघर्ष सुबह हुआ।
+
+दुश्मन दर्रे में प्रवेश कर रहा था।
+
+लंबी पंक्ति… संकरे रास्ते…
+
+ऊपर—चट्टानों पर—राजपूत योद्धा छिपे हुए थे।
+
+वह सबसे ऊपर खड़ा था।
+
+“अभी नहीं…” उसने अपने सैनिकों को रोका।
+
+दुश्मन और भीतर आया…
+
+और जब वे सबसे संकरे हिस्से में पहुँचे—
+
+“अब!”
+
+तीरों की बारिश।
+
+ऊपर से पत्थर गिरे।
+
+घोड़े फिसले।
+
+सैनिक एक-दूसरे से टकराए।
+
+चीखें घाटियों में गूँज उठीं।
+
+पहला हमला वहीं टूट गया।
+
+---
+
+लेकिन दुश्मन रुका नहीं।
+
+उन्होंने दूसरी कोशिश की।
+
+इस बार वे सावधानी से बढ़े।
+
+धीरे-धीरे… ढाल के साथ…
+
+---
+
+उसने अपनी रणनीति बदली।
+
+“हम केवल ऊपर से नहीं… हर दिशा से वार करेंगे,” उसने कहा।
+
+---
+
+दूसरा युद्ध शुरू हुआ।
+
+दुश्मन आगे बढ़ रहा था।
+
+और अचानक—
+
+पीछे से हमला।
+
+“जोहार!”
+
+दुश्मन चौंक गया।
+
+ऊपर से तीर…
+नीचे से तलवार…
+
+चारों ओर से वार।
+
+वे फँस चुके थे।
+
+न आगे… न पीछे…
+
+कुछ ही समय में—
+
+वे पीछे हटने लगे।
+
+---
+
+लेकिन तीसरा और अंतिम युद्ध सबसे भयानक था।
+
+इस बार दुश्मन ने पूरी ताकत झोंक दी।
+
+वे किसी भी कीमत पर दर्रे पार करना चाहते थे।
+
+तोपें लाई गईं।
+
+चट्टानों पर गोलों की आवाज़ गूँजने लगी।
+
+कुछ हिस्से टूटने लगे।
+
+एक सैनिक बोला,
+“वे रास्ता बना रहे हैं!”
+
+वह शांत रहा।
+
+“तो हम उन्हें यहीं खत्म करेंगे,” उसने कहा।
+
+---
+
+उसने अपनी सेना को अंतिम बार देखा।
+
+थके हुए… घायल… लेकिन अडिग।
+
+वह आगे बढ़ा।
+
+“आज… हम पीछे नहीं हटेंगे,” उसने कहा,
+“आज… ये दर्रे या तो हमारे रहेंगे… या फिर कोई नहीं रहेगा।”
+
+---
+
+नगाड़े बजे।
+
+और फिर—
+
+अंतिम संघर्ष।
+
+दुश्मन पूरी ताकत से आगे बढ़ा।
+
+वे चढ़ते गए…
+
+और फिर—
+
+“हर हर महादेव!”
+
+राजपूत योद्धा टूट पड़े।
+
+तलवारें टकराईं।
+
+चिंगारियाँ उड़ीं।
+
+संकीर्ण रास्तों में हर वार घातक था।
+
+कोई पीछे नहीं हट सकता था।
+
+---
+
+वह सबसे आगे था।
+
+उसकी तलवार लगातार चल रही थी।
+
+उसकी साँसें भारी थीं।
+
+लेकिन उसकी आँखों में आग थी।
+
+एक दुश्मन सेनापति उसके सामने आया।
+
+“तुम हमें रोक नहीं सकते!” वह गरजा।
+
+उसने शांत स्वर में कहा,
+“ये दर्रे… हमें रोकना सिखाते हैं।”
+
+और उसकी तलवार ने वार किया।
+
+सेनापति गिर पड़ा।
+
+---
+
+युद्ध अपने चरम पर था।
+
+घंटों तक संघर्ष चला।
+
+हर मोड़ पर लड़ाई।
+
+हर कदम पर खून।
+
+लेकिन—
+
+एक क्षण आया।
+
+जब दुश्मन की पंक्तियाँ टूटने लगीं।
+
+वे पीछे हटने लगे।
+
+कुछ भागे… कुछ गिर पड़े…
+
+दर्रे बच गए।
+
+---
+
+युद्ध समाप्त हुआ।
+
+वह चट्टान के किनारे खड़ा था।
+
+नीचे घाटी में सन्नाटा था।
+
+हवा तेज़ चल रही थी।
+
+उसकी साँसें भारी थीं।
+
+उसका शरीर घावों से भरा था।
+
+उसने आखिरी बार उस रास्ते को देखा—
+
+जो अब भी अडिग खड़ा था।
+
+“हमने… इसे थामे रखा…” उसने कहा।
+
+और फिर—
+
+वह धीरे-धीरे नीचे गिर पड़ा।
+
+उसकी आँखें बंद हो गईं।
+
+---
+
+आज भी कुंभलगढ़ के दर्रे वैसे ही खड़े हैं।
+
+संकरे… घुमावदार… खतरनाक…
+
+और जब हवा वहाँ से गुजरती है—
+
+तो ऐसा लगता है जैसे कोई आवाज़ गूँज रही हो—
+
+तलवारों की…
+घोड़ों की…
+और उस युद्ध की…
+
+जो संख्या से नहीं…
+
+साहस और समझ से जीता गया।
+
+कुंभलगढ़ के दर्रे…
+
+आज भी यह सिखाते हैं—
+
+कि जब भूमि तुम्हारे साथ हो…
+
+तो तुम अजेय हो जाते हो।
+`
     ],
-    coverImage: { src: '/images/legends/kumbhalgarh-pass.jpg', alt: 'A narrow, winding path through the rugged Aravalli hills.' }
+    coverImage: { src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'A narrow, winding path through the rugged Aravalli hills.' }
   },
   {
     id: 'battle-banas-valley',
@@ -1539,11 +38682,271 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Banas River Valley',
     story: [
-      'The Banas River valley was the agricultural heart of Mewar. This battle was a fierce struggle for control of this vital resource.',
-      'The Rajput forces used the river’s course and the surrounding hills to launch a series of devastating attacks on the invading army, eventually driving them from the valley.',
-      'The legend of the Banas Valley is a story of the importance of protecting the land that feeds the people and the courage of those who fought for it.'
+      `बनास की घाटी…
+जहाँ नदी केवल बहती नहीं थी—वह जीवन देती थी।
+उसके किनारों पर लहलहाते खेत, हरे-भरे विस्तार, और दूर तक फैली उपजाऊ धरती… यह मेवाड़ की नसों में दौड़ता रक्त था।
+
+और जो इस घाटी को थाम लेता… वह भूख और समृद्धि दोनों का स्वामी बन जाता।
+
+---
+
+उसी घाटी के किनारे एक बालक का जन्म हुआ।
+
+न कोई राजसी वैभव…
+न कोई शाही घोषणा…
+
+बस नदी की धीमी कलकल… और खेतों में काम करते लोगों की आवाज़।
+
+उसका पिता किसान था…
+लेकिन जब खतरा आता—वह योद्धा बन जाता।
+
+एक दिन बालक ने पूछा,
+“पिता… यह नदी इतनी महत्वपूर्ण क्यों है?”
+
+उसके पिता ने पानी की एक मुट्ठी उठाकर कहा,
+“क्योंकि बेटा… यही हमें जीवित रखती है। और जो हमें जीवित रखे… उसकी रक्षा करना ही हमारा धर्म है।”
+
+उस दिन से बालक की आँखों में एक उद्देश्य जन्मा।
+
+---
+
+उसका बचपन खेतों और रणभूमि के बीच बीता।
+
+सुबह—हल और मिट्टी।
+शाम—घोड़ा और तलवार।
+
+वह जानता था—एक दिन उसे इस घाटी के लिए खड़ा होना पड़ेगा।
+
+उसके गुरु ने कहा,
+“घाटी का युद्ध अलग होता है… यहाँ नदी भी लड़ती है… और पहाड़ भी।”
+
+बालक ने सिर झुका लिया।
+
+वह समझ रहा था—यह भूमि उसका हथियार है।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और उसी समय खतरा आ गया।
+
+एक विशाल सेना बनास की घाटी की ओर बढ़ रही थी।
+
+उनकी नजरें इस उपजाऊ भूमि पर थीं।
+
+---
+
+पहला युद्ध सुबह हुआ।
+
+दुश्मन नदी पार करने की कोशिश कर रहा था।
+
+पानी तेज़ बह रहा था।
+
+किनारे फिसलन भरे थे।
+
+वह ऊपर पहाड़ी पर खड़ा था।
+
+“अभी नहीं…” उसने अपने तीरंदाज़ों को रोका।
+
+दुश्मन आधा पार कर चुका था—
+
+और तभी—
+
+“अब!”
+
+तीरों की बारिश।
+
+घोड़े फिसले।
+
+सैनिक बहने लगे।
+
+चीखें नदी में गूँज उठीं।
+
+पहला हमला वहीं टूट गया।
+
+---
+
+लेकिन दुश्मन रुका नहीं।
+
+उन्होंने दूसरी जगह से पार करने की कोशिश की।
+
+इस बार वे सावधानी से आए।
+
+लेकिन घाटी उन्हें पहचानती थी।
+
+---
+
+उसने अपनी सेना को बाँट दिया।
+
+कुछ ऊपर पहाड़ियों पर…
+कुछ नदी के किनारे…
+
+---
+
+दूसरा युद्ध शुरू हुआ।
+
+दुश्मन आगे बढ़ रहा था।
+
+और अचानक—
+
+ऊपर से हमला।
+
+“हर हर महादेव!”
+
+चट्टानों के पीछे से योद्धा निकले।
+
+नीचे से घुड़सवार टूट पड़े।
+
+दुश्मन फँस गया।
+
+नदी एक ओर… पहाड़ दूसरी ओर…
+
+कोई रास्ता नहीं।
+
+कुछ ही समय में—
+
+दुश्मन पीछे हट गया।
+
+---
+
+लेकिन तीसरा और अंतिम युद्ध सबसे भयानक था।
+
+इस बार दुश्मन पूरी ताकत से आया।
+
+वे घाटी को हर हाल में जीतना चाहते थे।
+
+---
+
+उसने अपनी सेना को देखा।
+
+थके हुए चेहरे…
+लेकिन आँखों में वही ज्वाला।
+
+वह आगे बढ़ा।
+
+“आज… हम केवल लड़ेंगे नहीं… हम इस भूमि को बचाएँगे,” उसने कहा।
+
+---
+
+नगाड़े बजे।
+
+घोड़े हिनहिनाए।
+
+और फिर—
+
+अंतिम संघर्ष।
+
+दुश्मन नदी पार कर चुका था।
+
+अब युद्ध घाटी के भीतर था।
+
+खेतों के बीच…
+पानी के किनारे…
+
+तलवारें टकराईं।
+
+खून मिट्टी में मिला।
+
+नदी लाल होने लगी।
+
+---
+
+वह बीचों-बीच था।
+
+उसकी साँसें तेज़ थीं।
+
+उसकी तलवार लगातार चल रही थी।
+
+एक दुश्मन सेनापति उसके सामने आया।
+
+“यह घाटी अब हमारी है!” वह चिल्लाया।
+
+उसने शांत स्वर में कहा,
+“यह घाटी… हमें जीवन देती है… इसे कोई छीन नहीं सकता।”
+
+और उसकी तलवार ने वार किया।
+
+सेनापति गिर पड़ा।
+
+---
+
+युद्ध अपने चरम पर था।
+
+घंटों तक संघर्ष चला।
+
+हर दिशा में लड़ाई।
+
+हर कदम पर खून।
+
+लेकिन—
+
+एक क्षण आया।
+
+जब दुश्मन की पंक्तियाँ टूटने लगीं।
+
+वे पीछे हटने लगे।
+
+कुछ भागे… कुछ गिर पड़े…
+
+बनास की घाटी बच गई।
+
+---
+
+युद्ध समाप्त हुआ।
+
+वह नदी के किनारे खड़ा था।
+
+पानी बह रहा था…
+लेकिन अब उसमें खून मिला हुआ था।
+
+उसने झुककर पानी को छुआ।
+
+उसकी आँखों में संतोष था।
+
+“हमने… इसे बचा लिया…” उसने कहा।
+
+---
+
+लेकिन उसके घाव गहरे थे।
+
+वह धीरे-धीरे घुटनों पर गिर पड़ा।
+
+उसकी तलवार उसके हाथ से छूट गई।
+
+उसने आखिरी बार घाटी की ओर देखा—
+
+खेत… नदी… जीवन…
+
+और फिर—
+
+उसकी आँखें बंद हो गईं।
+
+---
+
+आज भी बनास की घाटी हरी-भरी है।
+
+नदी बहती है।
+
+फसलें लहराती हैं।
+
+और हवा में एक कहानी गूँजती है—
+
+उस युद्ध की…
+उस बलिदान की…
+और उस प्रेम की…
+
+जो एक योद्धा को अपनी भूमि के लिए सब कुछ देने को मजबूर कर देता है।
+
+बनास…
+
+आज भी यह सिखाता है—
+
+कि जो भूमि हमें जीवन देती है…
+
+उसकी रक्षा ही सबसे बड़ा धर्म है।
+`
     ],
-    coverImage: { src: '/images/legends/banas-valley.jpg', alt: 'A wide river valley surrounded by distant hills.' }
+    coverImage: { src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'A wide river valley surrounded by distant hills.' }
   },
   {
     id: 'siege-break-kumbhalgarh',
@@ -1553,11 +38956,291 @@ export const allLegends: Legend[] = [
     era: '16th Century',
     location: 'Kumbhalgarh',
     story: [
-      'This legend tells of a daring sortie by the Kumbhalgarh garrison to break a long-standing siege. Moving in the dead of night, they attacked the enemy’s weakest point.',
-      'The surprise and the ferocity of the attack caused chaos in the besieging army, allowing the garrison to capture vital supplies and destroy the enemy’s siege engines.',
-      'The siege break is a symbol of the proactive nature of the Rajput defense, where the best way to protect the fort was to strike the enemy.'
+      `कुंभलगढ़…
+अरावली की विशाल भुजाओं में जकड़ा हुआ वह दुर्ग, जिसकी दीवारें पर्वतों की तरह लंबी और अडिग थीं।
+कहा जाता था—अगर कोई किला केवल पत्थरों से नहीं, बल्कि संकल्प से बना है… तो वह कुंभलगढ़ है।
+
+लेकिन उस रात… उन दीवारों के भीतर केवल पत्थर नहीं थे—भूख थी, थकान थी, और एक ऐसा घेरा था जो महीनों से साँसें रोक रहा था।
+
+---
+
+कुंभलगढ़ की उसी दीवारों के भीतर एक बालक ने जन्म लिया था—जिसका जीवन किले की छाया में ही बीता।
+
+उसने बचपन से ही यही देखा—ऊँची दीवारें, संकरी गलियाँ, और दूर क्षितिज पर हर समय मंडराता खतरा।
+
+उसके पिता किले के एक प्रमुख सरदार थे।
+
+एक दिन वे उसे दीवार पर ले गए।
+
+नीचे… दूर-दूर तक फैला मैदान… और उसमें दुश्मन के शिविर।
+
+“देख रहे हो?” पिता ने पूछा।
+
+“हाँ…”
+
+“याद रखना… किले में रहकर केवल इंतजार करना… हार की शुरुआत है।”
+
+बालक ने चौंककर पूछा,
+“तो क्या करना चाहिए?”
+
+पिता ने धीरे से कहा,
+“वार करना… जब दुश्मन सोच भी न सके।”
+
+उस दिन से उसकी आँखों में एक नई समझ जन्मी।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और उसी समय वह घेरा शुरू हुआ जिसने कुंभलगढ़ को जकड़ लिया।
+
+दुश्मन की सेना चारों ओर फैल चुकी थी।
+
+तोपें… शिविर… घेराबंदी…
+
+दिन बीतते गए।
+
+भोजन कम होने लगा।
+
+पानी सीमित हो गया।
+
+एक सैनिक बोला,
+“सरदार… कब तक?”
+
+वह शांत खड़ा रहा।
+
+“जब तक हम केवल बचाव करते रहेंगे… तब तक वे जीतते रहेंगे,” उसने कहा।
+
+---
+
+उसने एक योजना बनाई।
+
+“हम बाहर निकलेंगे,” उसने कहा।
+
+सैनिक चौंक गए।
+
+“किले से बाहर?”
+
+वह मुस्कुराया।
+
+“हाँ… और वहीं वार करेंगे… जहाँ उन्हें सबसे कम उम्मीद होगी।”
+
+---
+
+रात गहरी थी।
+
+आसमान में बादल छाए थे।
+
+चाँद छिपा हुआ था।
+
+पूरा किला खामोश था।
+
+और उसी खामोशी में—
+
+कुंभलगढ़ के द्वार धीरे-धीरे खुले।
+
+छोटे-छोटे दल बाहर निकले।
+
+कोई शोर नहीं…
+कोई आवाज़ नहीं…
+
+सिर्फ़ कदम… जो पत्थरों पर भी गूँज नहीं रहे थे।
+
+---
+
+वे दुश्मन के शिविर की ओर बढ़े।
+
+उसने पहले ही कमजोर स्थान चुन लिया था—जहाँ पहरा कम था, जहाँ थकान ज्यादा थी।
+
+वह आगे बढ़ा।
+
+एक इशारा।
+
+और—
+
+पहला वार।
+
+पहरेदार गिरा।
+
+फिर दूसरा।
+
+और फिर—
+
+“जोहार!”
+
+पूरा हमला शुरू।
+
+---
+
+तंबू जल उठे।
+
+घोड़े बेकाबू हो गए।
+
+तोपों के पास अफरा-तफरी मच गई।
+
+दुश्मन नींद से जाग भी नहीं पाया कि तलवारें उस पर टूट पड़ीं।
+
+वह सबसे आगे था।
+
+उसकी तलवार बिजली की तरह चल रही थी।
+
+हर वार… सटीक।
+
+हर वार… घातक।
+
+---
+
+“क्या हो रहा है?” एक सेनापति चिल्लाया।
+
+लेकिन जवाब देने वाला कोई नहीं था।
+
+चारों ओर आग… चीखें… और अंधेरा।
+
+---
+
+उसने अपने योद्धाओं को संकेत दिया—
+
+“रसद!”
+
+कुछ दल सीधे दुश्मन के भंडार पर टूट पड़े।
+
+अनाज… पानी… हथियार…
+
+सब कब्जे में लिया गया।
+
+दूसरे दलों ने घेराबंदी के यंत्रों को नष्ट करना शुरू कर दिया।
+
+तोपें गिरा दी गईं।
+
+मीनारें जला दी गईं।
+
+---
+
+दुश्मन अब संभलने की कोशिश कर रहा था।
+
+वे इकट्ठा होने लगे।
+
+“उन्हें घेरो!” आदेश गूँजा।
+
+---
+
+लेकिन वह पहले ही तैयार था।
+
+“अब… लौटो!” उसने कहा।
+
+---
+
+जैसे ही हमला शुरू हुआ था… उसी तेजी से—
+
+वे वापस मुड़े।
+
+घोड़ों पर सवार…
+तेज़… सटीक…
+
+वे किले की ओर दौड़े।
+
+दुश्मन पीछा करता रहा—
+
+लेकिन देर हो चुकी थी।
+
+---
+
+कुंभलगढ़ के द्वार फिर खुले।
+
+और फिर—
+
+बंद।
+
+दुश्मन बाहर रह गया।
+
+---
+
+सुबह—
+
+किले की दीवारों पर फिर वही दृश्य था।
+
+लेकिन अब…
+
+दुश्मन का शिविर बिखरा हुआ था।
+
+उनकी रसद कम थी…
+उनकी ताकत टूट चुकी थी।
+
+---
+
+कुछ ही दिनों में—
+
+घेरा कमजोर पड़ने लगा।
+
+और फिर—
+
+एक दिन…
+
+वे चले गए।
+
+कुंभलगढ़ बच गया।
+
+---
+
+वह दीवार पर खड़ा था।
+
+उसकी साँसें भारी थीं।
+
+उसका शरीर घावों से भरा था।
+
+उसने नीचे देखा—
+
+खाली मैदान।
+
+उसकी आँखों में संतोष था।
+
+“हमने… इंतजार नहीं किया…” उसने कहा,
+“हमने वार किया।”
+
+---
+
+लेकिन उसके घाव गहरे थे।
+
+वह धीरे-धीरे नीचे बैठ गया।
+
+उसकी तलवार उसके हाथ से छूट गई।
+
+उसने आखिरी बार किले की ओर देखा—
+
+वह अब भी अडिग खड़ा था।
+
+“यह… जीवित रहेगा…” उसने कहा।
+
+और उसकी आँखें बंद हो गईं।
+
+---
+
+आज भी कुंभलगढ़ की दीवारें खड़ी हैं—
+
+लंबी… विशाल… अजेय…
+
+लेकिन वे केवल रक्षा की कहानी नहीं कहतीं…
+
+वे उस रात की भी कहानी कहती हैं—
+
+जब रक्षक दीवारों के पीछे नहीं छिपे…
+
+बल्कि बाहर निकलकर…
+
+युद्ध को बदल दिया।
+
+कुंभलगढ़…
+
+आज भी यह सिखाता है—
+
+कि सबसे मजबूत रक्षा…
+
+वह होती है…
+
+जो समय आने पर हमला करना जानती है।
+`
     ],
-    coverImage: { src: '/images/legends/siege-break.jpg', alt: 'Warriors charging from a fort gate into an enemy camp.' }
+    coverImage: { src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Warriors charging from a fort gate into an enemy camp.' }
   },
   {
     id: 'stand-amet',
@@ -1567,11 +39250,335 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Amet, Mewar',
     story: [
-      'Amet was a strategic outpost that faced the first brunt of many invasions. This legend celebrates the garrison that refused to retreat, even when outnumbered ten to one.',
-      'Their stand bought the time needed for the main army to mobilize, proving that the courage of a few can save a kingdom.',
-      'The stand of Amet is a story of the unglamorous but essential work of the frontier outposts in the defense of Rajputana.'
+      `आमेट…
+मेवाड़ की सीमा पर खड़ा वह छोटा सा किला, जिसे दूर से देखने पर कोई विशेष महत्व नहीं दिखता था—पर जो भी उसकी दीवारों तक पहुँचता… उसे समझ आ जाता कि यह केवल पत्थरों का ढेर नहीं, बल्कि एक जीवित ढाल है।
+
+यह वह स्थान था जहाँ युद्ध की पहली आहट सुनाई देती थी…
+जहाँ हर सुबह यह तय करती थी कि अगली रात कौन जीवित रहेगा।
+
+---
+
+इसी आमेट की दीवारों के भीतर एक बालक का जन्म हुआ।
+
+न कोई शाही उत्सव…
+न कोई नगाड़ा…
+
+बस प्रहरी की आवाज़—
+“सतर्क रहो!”
+
+उसका पिता उस चौकी का सेनापति था—एक ऐसा योद्धा, जिसने जीवनभर केवल एक ही काम किया था—सीमा को थामे रखना।
+
+एक दिन बालक ने पूछा,
+“पिता… हम हमेशा यहाँ क्यों रहते हैं? यहाँ तो हर समय खतरा है।”
+
+उसके पिता ने दीवार की ओर देखते हुए कहा,
+“क्योंकि बेटा… अगर हम यहाँ नहीं खड़े होंगे… तो दुश्मन वहाँ पहुँच जाएगा जहाँ लोग चैन से सोते हैं।”
+
+उस दिन बालक समझ गया—यह जीवन आसान नहीं है।
+
+---
+
+उसका बचपन खेल में नहीं… चौकसी में बीता।
+
+वह किले की दीवारों पर दौड़ता…
+दूर तक फैले मैदानों को देखता…
+और हर धूल के गुबार को पढ़ना सीखता।
+
+उसके गुरु ने कहा,
+“आमेट का योद्धा जीतने के लिए नहीं लड़ता… वह समय खरीदने के लिए लड़ता है।”
+
+बालक ने पूछा,
+“समय इतना महत्वपूर्ण क्यों है?”
+
+गुरु ने उत्तर दिया,
+“क्योंकि कभी-कभी कुछ घंटे… एक पूरे राज्य को बचा लेते हैं।”
+
+उस दिन उसकी आँखों में एक नया संकल्प जन्मा।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और अब आमेट की रक्षा उसकी जिम्मेदारी थी।
+
+उधर उत्तर से खतरा बढ़ रहा था।
+
+एक दिन सुबह प्रहरी दौड़ता हुआ आया—
+
+“सरदार! एक विशाल सेना हमारी ओर बढ़ रही है!”
+
+वह तुरंत बुर्ज पर पहुँचा।
+
+दूर… धूल का एक विशाल बादल उठ रहा था।
+
+हजारों सैनिक।
+
+उसने गहरी साँस ली।
+
+“संख्या?” उसने पूछा।
+
+“हमसे दस गुना अधिक।”
+
+कुछ पल के लिए सन्नाटा।
+
+फिर उसने शांत स्वर में कहा—
+“तो हम दस गुना ज्यादा देर तक टिकेंगे।”
+
+---
+
+किले के भीतर तैयारी शुरू हो गई।
+
+तीरंदाज़ दीवारों पर तैनात।
+गेट मजबूत किया गया।
+हर सैनिक अपने स्थान पर।
+
+उसने अपने योद्धाओं को इकट्ठा किया।
+
+“हम जीतने के लिए नहीं लड़ रहे,” उसने कहा,
+“हम रोकने के लिए लड़ रहे हैं।”
+
+एक सैनिक बोला,
+“कितनी देर तक?”
+
+वह मुस्कुराया—
+“जब तक हमारी साँसें हैं।”
+
+---
+
+दुश्मन किले के सामने आ पहुँचा।
+
+एक सेनापति आगे बढ़ा।
+
+“समर्पण करो! तुम्हें जीवित छोड़ दिया जाएगा!”
+
+वह दीवार पर खड़ा रहा।
+
+“यह आमेट है…” उसने कहा,
+“यहाँ समर्पण नहीं होता।”
+
+और फिर—
+
+पहला तीर छोड़ा गया।
+
+---
+
+युद्ध शुरू हुआ।
+
+तोपें गरजीं।
+
+दीवारों पर पत्थर टूटने लगे।
+
+दुश्मन ने सीढ़ियाँ लगाईं।
+
+लेकिन—
+
+ऊपर से तीरों की बारिश।
+
+गरम तेल।
+
+पत्थर।
+
+हर प्रयास विफल।
+
+“जोहार!”
+
+चीखें गूँज उठीं।
+
+घंटों तक संघर्ष चला।
+
+सूरज सिर पर था।
+
+गर्मी बढ़ती जा रही थी।
+
+लेकिन कोई पीछे नहीं हटा।
+
+---
+
+दोपहर के बाद—
+
+दीवार का एक हिस्सा टूट गया।
+
+“वे अंदर आ रहे हैं!” एक सैनिक चिल्लाया।
+
+वह तुरंत वहाँ पहुँचा।
+
+उसने तलवार निकाली।
+
+“अब… भीतर का युद्ध!”
+
+---
+
+किले के भीतर ही रणभूमि बन गई।
+
+तंग गलियाँ…
+
+पत्थर की दीवारें…
+
+तलवारें टकराईं।
+
+खून बहा।
+
+चीखें गूँजीं।
+
+वह सबसे आगे था।
+
+उसकी तलवार हर वार में आग लिए हुए थी।
+
+एक दुश्मन सेनापति उसके सामने आया।
+
+“तुम हार चुके हो!” वह चिल्लाया।
+
+उसने शांत स्वर में कहा,
+“आमेट अभी खड़ा है।”
+
+और उसकी तलवार ने वार किया।
+
+---
+
+लेकिन दुश्मन की संख्या बहुत अधिक थी।
+
+धीरे-धीरे दबाव बढ़ने लगा।
+
+सैनिक थकने लगे।
+
+घाव गहरे हो गए।
+
+एक सरदार उसके पास आया—
+“सरदार… अब पीछे हटना चाहिए…”
+
+वह कुछ पल चुप रहा।
+
+फिर सिर हिलाया।
+
+“पीछे हटना… मतलब उन्हें रास्ता देना,” उसने कहा,
+“और आज… हम रास्ता नहीं देंगे।”
+
+---
+
+उसने गेट की ओर देखा।
+
+फिर अपने घोड़े पर चढ़ा।
+
+“अंतिम धावा।”
+
+---
+
+गेट खोला गया।
+
+और फिर—
+
+राठौड़ योद्धा किले से बाहर निकले।
+
+सीधे दुश्मन की सेना पर टूट पड़े।
+
+यह आत्मघाती था।
+
+लेकिन यही उनका संकल्प था।
+
+दुश्मन चौंक गया।
+
+घोड़े गरजे।
+
+तलवारें बरसीं।
+
+वह सबसे आगे था।
+
+उसकी तलवार खून से भीग चुकी थी।
+
+हर वार के साथ वह और आगे बढ़ता गया।
+
+---
+
+लेकिन फिर—
+
+एक भाला उसके सीने में धँस गया।
+
+वह रुक गया।
+
+घोड़ा भी ठहर गया।
+
+चारों ओर युद्ध चल रहा था।
+
+उसने नीचे देखा… खून बह रहा था।
+
+फिर भी…
+
+उसने तलवार उठाई।
+
+“आमेट… नहीं गिरेगा…” उसने फुसफुसाया।
+
+और फिर—
+
+उसने आखिरी वार किया।
+
+---
+
+उसी क्षण—
+
+दूर से नगाड़ों की आवाज़ आई।
+
+मुख्य सेना आ चुकी थी।
+
+राठौड़ों की बड़ी सेना मैदान में उतर चुकी थी।
+
+दुश्मन घबरा गया।
+
+उनकी पंक्तियाँ टूटने लगीं।
+
+वे पीछे हटने लगे।
+
+आमेट बच गया।
+
+---
+
+युद्ध समाप्त हुआ।
+
+वह जमीन पर गिर चुका था।
+
+उसके साथी उसके पास आए।
+
+“सरदार…”
+
+उसने मुश्किल से आँखें खोलीं।
+
+दूर… उसने अपने किले को देखा।
+
+अब भी खड़ा था।
+
+उसने हल्की मुस्कान के साथ कहा—
+
+“हमने… समय खरीद लिया…”
+
+और उसकी साँसें थम गईं।
+
+---
+
+आज भी आमेट की दीवारें खामोश खड़ी हैं।
+
+वे चमकती नहीं… वे गूँजती भी नहीं…
+
+लेकिन अगर ध्यान से सुना जाए—
+
+तो उनमें एक कहानी छिपी है—
+
+कुछ योद्धाओं की…
+
+जिन्होंने जीतने के लिए नहीं…
+
+बल्कि बचाने के लिए लड़ाई लड़ी।
+
+आमेट…
+
+आज भी यह सिखाता है—
+
+कि इतिहास केवल बड़ी जीतों से नहीं बनता…
+
+कभी-कभी कुछ लोगों के बलिदान से…
+
+पूरा राज्य बच जाता है।
+`
     ],
-    coverImage: { src: '/images/legends/amet-stand.jpg', alt: 'A small stone fort on a high ridge overlooking a plain.' }
+    coverImage: { src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'A small stone fort on a high ridge overlooking a plain.' }
   },
   {
     id: 'resistance-idar',
@@ -1581,11 +39588,304 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Idar, Southern Aravallis',
     story: [
-      'The state of Idar, under its Rathore rulers, was a center of resistance against the Sultanates of Gujarat. Its defense involved constant warfare in the rugged southern Aravallis.',
-      'The legend tells of the many times the Idar fort was besieged and the many times its defenders refused to surrender, their spirit as hard as the granite hills themselves.',
-      'The resistance of Idar is a reminder that the Rajput spirit of independence was strong in every corner of the region.'
+      `इडर…
+दक्षिणी अरावली की उन कठोर, काले पत्थरों की गोद में बसा वह राज्य, जहाँ हर चट्टान जैसे किसी योद्धा की तरह खड़ी थी—अडिग, कठोर, और अजेय।
+यह कोई साधारण रियासत नहीं थी… यह विद्रोह की ज्वाला थी, जो बार-बार बुझाने की कोशिशों के बावजूद हर बार और भड़क उठती थी।
+
+इडर का किला…
+ग्रेनाइट की विशाल चट्टानों पर टिका हुआ—मानो धरती ने स्वयं एक योद्धा गढ़ दिया हो।
+
+और उसी किले की दीवारों के भीतर जन्मा था वह…
+जिसके लिए झुकना शब्द ही नहीं था।
+
+---
+
+उसका जन्म किसी उत्सव के बीच नहीं… बल्कि एक घेराबंदी के साये में हुआ।
+
+किले के बाहर दुश्मन की सेना डेरा डाले थी…
+और भीतर एक नवजात ने पहली साँस ली।
+
+उसके पिता—राठौड़ शासक—ने उसे देखते हुए कहा,
+“यह बच्चा शांति में नहीं… संघर्ष में पलेगा।”
+
+---
+
+बचपन से ही उसका जीवन युद्ध की तैयारी था।
+
+वह खिलौनों से नहीं खेला…
+उसने पत्थरों के बीच दौड़ना सीखा…
+संकीर्ण रास्तों पर संतुलन बनाना…
+और सबसे बढ़कर—घेराबंदी में जीना।
+
+उसके गुरु ने कहा,
+“इडर का योद्धा तलवार से पहले धैर्य सीखता है… क्योंकि यहाँ युद्ध जल्दी खत्म नहीं होते।”
+
+वह चुपचाप सुनता रहा।
+
+उसकी आँखों में एक ठंडी ज्वाला थी।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और उसी समय खतरे ने फिर सिर उठाया।
+
+गुजरात की सल्तनत की सेना…
+भारी संख्या में…
+तोपों और घोड़ों के साथ…
+इडर की ओर बढ़ रही थी।
+
+उनका लक्ष्य स्पष्ट था—
+
+इस विद्रोही किले को झुकाना।
+
+---
+
+पहला घेरा शुरू हुआ।
+
+किले को चारों ओर से घेर लिया गया।
+
+रसद के रास्ते बंद।
+
+तोपें गरजने लगीं।
+
+दीवारों पर वार होने लगे।
+
+एक सैनिक बोला,
+“सरदार… वे बहुत अधिक हैं…”
+
+वह शांत खड़ा रहा।
+
+“वे बाहर हैं…” उसने कहा,
+“और हम… अंदर हैं।”
+
+---
+
+पहला हमला सीधा था।
+
+दुश्मन ने चढ़ाई शुरू की।
+
+लेकिन इडर की चट्टानें सीधी नहीं थीं—वे टेढ़ी-मेढ़ी, खतरनाक थीं।
+
+ऊपर से तीरों की बारिश।
+
+चट्टानें लुढ़काई गईं।
+
+दुश्मन गिरने लगे।
+
+चीखें घाटियों में गूँज उठीं।
+
+पहला हमला विफल।
+
+---
+
+लेकिन दुश्मन ने हार नहीं मानी।
+
+दूसरा घेरा और भी लंबा था।
+
+दिन बीतते गए।
+
+पानी कम… भोजन कम…
+
+लेकिन मनोबल?
+
+अडिग।
+
+---
+
+रात के समय वह किले की दीवारों पर चलता।
+
+हर प्रहरी से पूछता—
+
+“थके हो?”
+
+उत्तर आता—
+
+“नहीं।”
+
+लेकिन वह जानता था—
+
+थकान है… दर्द है…
+
+फिर भी—
+
+कोई झुकेगा नहीं।
+
+---
+
+एक रात उसने निर्णय लिया।
+
+“हम केवल रक्षा नहीं करेंगे… हम वार करेंगे।”
+
+उसने कुछ योद्धाओं को चुना।
+
+रात के अंधेरे में—
+
+वे किले से बाहर निकले।
+
+चट्टानों के बीच… छाया की तरह।
+
+दुश्मन का शिविर सामने था।
+
+एक इशारा—
+
+और—
+
+“जोहार!”
+
+अचानक हमला।
+
+तंबू जल उठे।
+
+घोड़े बेकाबू।
+
+चीखें गूँज उठीं।
+
+कुछ ही पलों में—
+
+वे वापस।
+
+यह संदेश था—
+
+“हम अभी जिंदा हैं।”
+
+---
+
+तीसरा युद्ध सबसे भयानक था।
+
+दुश्मन ने पूरी ताकत झोंक दी।
+
+तोपें लगातार गरज रही थीं।
+
+दीवारों में दरारें पड़ने लगीं।
+
+एक हिस्सा टूट गया।
+
+“वे अंदर आ रहे हैं!” एक सैनिक चिल्लाया।
+
+---
+
+वह तुरंत वहाँ पहुँचा।
+
+उसने देखा—दुश्मन भीतर घुस रहा है।
+
+उसने तलवार निकाली।
+
+“अब… अंतिम युद्ध!”
+
+---
+
+किले के भीतर ही रणभूमि बन गई।
+
+तंग रास्ते… चट्टानों के बीच…
+
+हर मोड़ पर लड़ाई।
+
+हर कदम पर मौत।
+
+वह सबसे आगे था।
+
+उसकी तलवार लगातार चल रही थी।
+
+उसकी साँसें तेज़ थीं।
+
+लेकिन उसकी आँखों में डर नहीं था।
+
+एक दुश्मन सेनापति उसके सामने आया।
+
+“झुक जाओ!” वह गरजा।
+
+उसने हँसते हुए कहा,
+“इडर… झुकना नहीं जानता।”
+
+और उसकी तलवार ने वार किया।
+
+सेनापति गिर पड़ा।
+
+---
+
+युद्ध अपने चरम पर था।
+
+घंटों तक संघर्ष चला।
+
+खून पत्थरों पर बहता रहा।
+
+लेकिन—
+
+किला अब भी खड़ा था।
+
+---
+
+और फिर—
+
+एक क्षण आया।
+
+जब दुश्मन की पंक्तियाँ टूटने लगीं।
+
+वे पीछे हटने लगे।
+
+कुछ भागे… कुछ गिर पड़े…
+
+घेरा टूट गया।
+
+इडर बच गया।
+
+---
+
+वह किले की सबसे ऊँची चट्टान पर खड़ा था।
+
+नीचे दुश्मन पीछे हट रहा था।
+
+हवा तेज़ चल रही थी।
+
+उसकी साँसें भारी थीं।
+
+उसका शरीर घावों से भरा था।
+
+उसने पत्थर को छुआ।
+
+“हमने… इसे बचा लिया…” उसने कहा।
+
+---
+
+लेकिन उसके घाव गहरे थे।
+
+वह धीरे-धीरे घुटनों पर गिर पड़ा।
+
+उसकी तलवार हाथ से छूट गई।
+
+उसकी आँखें बंद हो गईं।
+
+---
+
+आज भी इडर की चट्टानें वैसे ही खड़ी हैं—
+
+कठोर… अडिग… अजेय…
+
+जब हवा उन पत्थरों से टकराती है—
+
+तो ऐसा लगता है जैसे कोई आवाज़ गूँज रही हो—
+
+विद्रोह की…
+तलवारों की…
+और उस आत्मा की…
+
+जो कभी झुकती नहीं।
+
+इडर…
+
+आज भी यह सिखाता है—
+
+कि स्वतंत्रता केवल एक शब्द नहीं…
+
+वह एक जिद है—
+
+जो हर पत्थर में, हर योद्धा में…
+
+जीवित रहती है।
+`
     ],
-    coverImage: { src: '/images/legends/idar-fort.jpg', alt: 'The dramatic cliffs and strong walls of Idar Fort.' }
+    coverImage: { src: '/images/dynasties/seals/solanki-chaulukya-seal.png', alt: 'The dramatic cliffs and strong walls of Idar Fort.' }
   },
   {
     id: 'siege-sirohi-fort',
@@ -1595,11 +39895,297 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Sirohi',
     story: [
-      'Sirohi Fort was the key to the defense of Mount Abu and the surrounding region. Its siege was a test of the endurance and the skill of the Deora Chauhans.',
-      'The legend recounts how the defenders used the fort’s unique design to trap and repel multiple assaults, eventually forcing the enemy to retreat.',
-      'The siege of Sirohi Fort is a story of the importance of strategic fortifications in the defense of a kingdom.'
+      `सिरोही का किला…
+अरावली की बाहों में जकड़ा हुआ वह पत्थरीला प्रहरी, जो केवल दीवारों से नहीं, बल्कि बुद्धि और धैर्य से बना था।
+ऊँचाइयों पर टिका हुआ, संकरे मार्गों से घिरा, और भीतर से इस तरह रचा गया कि हर कदम एक जाल बन जाए—यह किला जीतना तलवार से अधिक समझ का खेल था।
+
+और इसी किले पर टूट पड़ा था एक ऐसा घेरा… जिसने देओरा चौहानों की सहनशक्ति को आग में तपाया।
+
+---
+
+किले की दीवारों के भीतर एक बालक का जन्म हुआ।
+
+उस दिन आसमान साफ़ था, लेकिन हवा में एक अजीब सी बेचैनी थी—जैसे भविष्य पहले ही चेतावनी दे रहा हो।
+
+उसका पिता इस किले का रक्षक था।
+
+एक दिन वह उसे किले की ऊँची बुर्ज पर ले गया।
+
+“नीचे देखो,” उसने कहा।
+
+बालक ने देखा—घुमावदार रास्ते, संकरी चढ़ाई, और दूर तक फैली पहाड़ियाँ।
+
+“यह केवल किला नहीं है,” पिता ने कहा,
+“यह जाल है… जो दुश्मन को अंदर आने देता है… और फिर उसे बाहर नहीं निकलने देता।”
+
+बालक की आँखों में चमक आ गई।
+
+---
+
+उसका बचपन इन दीवारों के बीच बीता।
+
+वह हर गली, हर मोड़, हर छिपे हुए रास्ते को पहचानता था।
+
+किले के भीतर ऐसे मार्ग थे जो अचानक बंद हो जाते थे… ऐसे दरवाजे जो दुश्मन को फँसा सकते थे… और ऐसे स्थान जहाँ से ऊपर से वार किया जा सकता था।
+
+उसके गुरु ने कहा,
+“यहाँ युद्ध तलवार से नहीं… किले की आत्मा से जीता जाता है।”
+
+बालक ने हर शब्द अपने भीतर उतार लिया।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और उसी समय खतरा आ गया।
+
+एक विशाल सेना सिरोही की ओर बढ़ रही थी।
+
+वे संख्या में बहुत अधिक थे।
+
+तोपें… घोड़े… पैदल सैनिक…
+
+उनका लक्ष्य स्पष्ट था—किले को तोड़ना।
+
+---
+
+घेरा शुरू हुआ।
+
+दुश्मन ने किले को चारों ओर से घेर लिया।
+
+रसद के रास्ते बंद कर दिए गए।
+
+तोपें गरजने लगीं।
+
+दीवारों पर वार होने लगे।
+
+किले के भीतर तनाव बढ़ गया।
+
+एक सैनिक बोला,
+“सरदार… वे बहुत अधिक हैं…”
+
+वह शांत खड़ा रहा।
+
+“किला हमारे साथ है,” उसने कहा।
+
+---
+
+पहला हमला सीधा था।
+
+दुश्मन ने सीढ़ियाँ लगाईं।
+
+दीवारों पर चढ़ने की कोशिश की।
+
+लेकिन—
+
+ऊपर से तीरों की बारिश।
+
+गरम तेल।
+
+पत्थर।
+
+हर प्रयास विफल।
+
+---
+
+दूसरा हमला और चालाक था।
+
+उन्होंने एक गुप्त रास्ता खोज लिया।
+
+रात के समय—
+
+वे किले के भीतर घुस आए।
+
+लेकिन—
+
+यह वही था… जिसका इंतजार था।
+
+---
+
+उसने अपने सैनिकों को पहले ही तैयार कर रखा था।
+
+जैसे ही दुश्मन भीतर आया—
+
+दरवाजे बंद।
+
+रास्ते घेर लिए गए।
+
+और फिर—
+
+“जोहार!”
+
+अंदर ही युद्ध शुरू।
+
+तंग गलियाँ… अंधेरे मोड़…
+
+दुश्मन फँस चुका था।
+
+न आगे… न पीछे…
+
+तलवारें टकराईं।
+
+चीखें गूँजीं।
+
+कुछ ही समय में—
+
+वे खत्म।
+
+---
+
+दुश्मन चौंक गया।
+
+“यह किला… जिंदा है,” एक सेनापति बोला।
+
+---
+
+लेकिन उन्होंने हार नहीं मानी।
+
+तीसरा हमला सबसे भयानक था।
+
+तोपें लगातार गरज रही थीं।
+
+दीवारों में दरारें पड़ने लगीं।
+
+एक हिस्सा टूट गया।
+
+“वे अंदर आ रहे हैं!” एक सैनिक चिल्लाया।
+
+---
+
+वह तुरंत वहाँ पहुँचा।
+
+उसने देखा—दुश्मन भीतर घुस रहा है।
+
+उसने तलवार निकाली।
+
+“अब… अंतिम रक्षा!”
+
+---
+
+किले के भीतर ही रणभूमि बन गई।
+
+घुमावदार रास्ते…
+
+अचानक मोड़…
+
+छिपे हुए दरवाजे…
+
+हर जगह जाल।
+
+दुश्मन अंदर आया… और फिर फँस गया।
+
+ऊपर से वार…
+नीचे से हमला…
+
+हर दिशा से मौत।
+
+---
+
+वह सबसे आगे था।
+
+उसकी तलवार लगातार चल रही थी।
+
+उसकी साँसें तेज़ थीं।
+
+लेकिन उसकी आँखों में डर नहीं था।
+
+एक दुश्मन सेनापति उसके सामने आया।
+
+“तुम बच नहीं सकते!” वह गरजा।
+
+उसने शांत स्वर में कहा,
+“यह किला… हमें बचाता है।”
+
+और उसकी तलवार ने वार किया।
+
+सेनापति गिर पड़ा।
+
+---
+
+युद्ध अपने चरम पर था।
+
+घंटों तक संघर्ष चला।
+
+खून पत्थरों पर बह रहा था।
+
+लेकिन—
+
+किला अभी भी खड़ा था।
+
+---
+
+और फिर—
+
+एक क्षण आया।
+
+जब दुश्मन की पंक्तियाँ टूटने लगीं।
+
+वे पीछे हटने लगे।
+
+कुछ भागे… कुछ गिर पड़े…
+
+घेरा टूट गया।
+
+सिरोही बच गया।
+
+---
+
+युद्ध समाप्त हुआ।
+
+वह किले की बुर्ज पर खड़ा था।
+
+नीचे दुश्मन पीछे हट रहा था।
+
+हवा तेज़ चल रही थी।
+
+उसकी साँसें भारी थीं।
+
+उसका शरीर घावों से भरा था।
+
+उसने किले की दीवार को छुआ।
+
+“हमने… इसे बचा लिया…” उसने कहा।
+
+और फिर—
+
+वह घुटनों पर गिर पड़ा।
+
+उसकी तलवार हाथ से छूट गई।
+
+उसकी आँखें बंद हो गईं।
+
+---
+
+आज भी सिरोही का किला वैसे ही खड़ा है—
+
+मजबूत… अडिग… अजेय…
+
+उसकी दीवारों में आज भी वह बुद्धि छिपी है…
+
+वह रणनीति… वह साहस…
+
+जब हवा उन पत्थरों से टकराती है—
+
+तो ऐसा लगता है जैसे कोई आवाज़ गूँज रही हो—
+
+तलवारों की…
+घेरों की…
+और उस युद्ध की…
+
+जो केवल ताकत से नहीं…
+
+समझ से जीता गया।
+
+सिरोही…
+
+आज भी यह सिखाता है—
+
+कि एक किला केवल पत्थरों से नहीं…
+
+उसमें बसने वाली आत्मा से अजेय बनता है।
+`
     ],
-    coverImage: { src: '/images/legends/sirohi-fort.jpg', alt: 'The strong walls of Sirohi Fort under a clear blue sky.' }
+    coverImage: { src: '/images/dynasties/seals/solanki-chaulukya-seal.png', alt: 'The strong walls of Sirohi Fort under a clear blue sky.' }
   },
   {
     id: 'battle-abu-pass',
@@ -1609,11 +40195,304 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Abu Pass, Sirohi',
     story: [
-      'The pass leading to Mount Abu was a strategic choke point. This battle saw a fierce struggle for control of this vital route.',
-      'The Rajput forces used the narrow, winding paths to their advantage, neutralizing the enemy’s superior numbers and securing the mountain.',
-      'The legend of the Abu Pass is a story of how the landscape can be the greatest ally of a determined defender.'
+      `आबू का दर्रा…
+वह संकरा, घुमावदार मार्ग जहाँ से होकर ही पर्वत का शिखर छुआ जा सकता था।
+ऊपर उठता हुआ पत्थर, नीचे गहरी खाई, और बीच में बस एक पतली सी पगडंडी—इतनी संकरी कि एक समय में दो घोड़े भी साथ न चल सकें।
+
+यही था वह स्थान… जहाँ संख्या का गर्व टूटता था, और साहस की असली परीक्षा होती थी।
+
+---
+
+उसी दर्रे के पास एक छोटे से प्रहरी-ग्राम में एक बालक का जन्म हुआ।
+
+न कोई शाही वैभव…
+न कोई उत्सव…
+
+बस हवा की तेज़ गूंज… और दूर कहीं चट्टानों से टकराती आवाज़।
+
+उसका पिता उस दर्रे का रक्षक था।
+
+हर दिन… हर रात… वह उसी संकरे मार्ग पर निगाह रखता।
+
+एक दिन बालक ने पूछा,
+“पिता… यह रास्ता इतना महत्वपूर्ण क्यों है?”
+
+पिता ने नीचे घाटी की ओर इशारा किया।
+
+“क्योंकि बेटा… जो इस दर्रे को पकड़ लेता है… वही आबू को पकड़ लेता है। और जो आबू को पकड़ लेता है… वह पूरे क्षेत्र को देख सकता है।”
+
+बालक की आँखों में चमक आ गई।
+
+---
+
+उसका बचपन उस दर्रे पर ही बीता।
+
+वह संकरी पगडंडियों पर दौड़ता…
+घुमावदार रास्तों को याद करता…
+और हर पत्थर, हर मोड़ को पहचानता।
+
+उसके गुरु ने उसे एक दिन रोककर कहा,
+“यहाँ तलवार से ज्यादा जरूरी है—सही जगह खड़ा होना।”
+
+“कैसे?” बालक ने पूछा।
+
+“क्योंकि यहाँ एक आदमी… सौ को रोक सकता है।”
+
+बालक ने सिर झुका लिया।
+
+उस दिन से उसने हर मोड़ को हथियार की तरह देखना शुरू किया।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और अब उस दर्रे की रक्षा उसकी जिम्मेदारी थी।
+
+उधर, एक विशाल सेना उस मार्ग की ओर बढ़ रही थी।
+
+वे संख्या में बहुत अधिक थे।
+
+घोड़े… हाथी… तोपें…
+
+उन्हें लगा—यह एक छोटा रास्ता है… जल्दी ही पार कर लेंगे।
+
+लेकिन वे नहीं जानते थे—
+
+कि यह रास्ता खुद एक योद्धा है।
+
+---
+
+पहला संघर्ष सुबह हुआ।
+
+दुश्मन दर्रे में प्रवेश कर रहा था।
+
+संकरे रास्ते में उनकी लंबी पंक्ति बन गई।
+
+ऊपर—चट्टानों पर—राठौड़ और राजपूत योद्धा छिपे हुए थे।
+
+वह सबसे ऊपर खड़ा था।
+
+“अभी नहीं…” उसने अपने तीरंदाज़ों को रोका।
+
+दुश्मन और भीतर आया…
+
+और जैसे ही वे सबसे संकरे मोड़ पर पहुँचे—
+
+“अब!”
+
+तीरों की बारिश।
+
+ऊपर से पत्थर गिरे।
+
+चीखें गूँज उठीं।
+
+सैनिक एक-दूसरे से टकराने लगे।
+
+पीछे हटने की जगह नहीं… आगे बढ़ने का रास्ता बंद।
+
+पहला हमला वहीं रुक गया।
+
+---
+
+लेकिन दुश्मन ने हार नहीं मानी।
+
+उन्होंने दूसरी कोशिश की।
+
+इस बार वे सावधानी से बढ़े।
+
+ढाल आगे… कदम धीरे…
+
+लेकिन दर्रा उनके लिए फिर भी अनजान था।
+
+---
+
+उसने अपनी रणनीति बदली।
+
+“हम केवल ऊपर से नहीं… नीचे से भी वार करेंगे,” उसने कहा।
+
+उसने कुछ योद्धाओं को नीचे घाटी में भेजा।
+
+---
+
+दूसरा युद्ध शुरू हुआ।
+
+दुश्मन ऊपर बढ़ रहा था।
+
+और अचानक—
+
+नीचे से हमला।
+
+“जोहार!”
+
+दुश्मन चौंक गया।
+
+ऊपर से तीर… नीचे से तलवार…
+
+चारों ओर से वार।
+
+संकीर्ण रास्ते में वे कुछ कर नहीं पाए।
+
+एक सैनिक चिल्लाया,
+“हम फँस गए हैं!”
+
+वह मुस्कुराया।
+
+“यही तो दर्रे की ताकत है।”
+
+दूसरा हमला भी विफल हुआ।
+
+---
+
+लेकिन तीसरा और अंतिम युद्ध सबसे भयानक था।
+
+इस बार दुश्मन ने पूरी ताकत झोंक दी।
+
+वे किसी भी कीमत पर दर्रा पार करना चाहते थे।
+
+तोपें लाई गईं।
+
+चट्टानों पर गोलों की आवाज़ गूँजने लगी।
+
+कुछ हिस्से टूटने लगे।
+
+“वे रास्ता बना रहे हैं!” एक सैनिक बोला।
+
+वह शांत रहा।
+
+“तो हम उन्हें यहीं रोकेंगे,” उसने कहा।
+
+---
+
+उसने अपनी सेना को अंतिम बार देखा।
+
+थके हुए… लेकिन दृढ़।
+
+वह आगे बढ़ा।
+
+“आज… हम पीछे नहीं हटेंगे,” उसने कहा,
+“आज… यह दर्रा हमारा रहेगा… या हम नहीं रहेंगे।”
+
+---
+
+नगाड़े बजे।
+
+और फिर—
+
+अंतिम संघर्ष।
+
+दुश्मन पूरी ताकत से आगे बढ़ा।
+
+वे चढ़ते गए…
+
+चट्टानों पर… पगडंडियों पर…
+
+और फिर—
+
+“हर हर महादेव!”
+
+राठौड़ और राजपूत योद्धा टूट पड़े।
+
+तलवारें टकराईं।
+
+चिंगारियाँ उड़ीं।
+
+घाटियों में चीखें गूँज उठीं।
+
+संकीर्ण रास्ते में हर वार घातक था।
+
+कोई पीछे नहीं हट सकता था।
+
+वह सबसे आगे था।
+
+उसकी तलवार लगातार चल रही थी।
+
+एक दुश्मन सेनापति उसके सामने आया।
+
+“तुम हमें रोक नहीं सकते!” वह गरजा।
+
+उसने शांत स्वर में कहा,
+“यह दर्रा… हमें रोकना सिखाता है।”
+
+और उसकी तलवार ने वार किया।
+
+सेनापति गिर पड़ा।
+
+---
+
+युद्ध अपने चरम पर था।
+
+घंटों तक संघर्ष चला।
+
+हर मोड़ पर लड़ाई।
+
+हर कदम पर खून।
+
+लेकिन—
+
+एक क्षण आया।
+
+जब दुश्मन की पंक्तियाँ टूटने लगीं।
+
+वे पीछे हटने लगे।
+
+कुछ भागे… कुछ गिर पड़े…
+
+दर्रा बच गया।
+
+---
+
+युद्ध समाप्त हुआ।
+
+वह चट्टान के किनारे खड़ा था।
+
+नीचे घाटी में सन्नाटा था।
+
+हवा तेज़ चल रही थी।
+
+उसकी साँसें भारी थीं।
+
+उसका शरीर घावों से भरा था।
+
+उसने आखिरी बार उस संकरे रास्ते को देखा—
+
+जो अब भी अडिग खड़ा था।
+
+“हमने… इसे थामे रखा…” उसने कहा।
+
+और फिर—
+
+वह धीरे-धीरे नीचे गिर पड़ा।
+
+उसकी आँखें बंद हो गईं।
+
+---
+
+आज भी आबू का वह दर्रा वैसे ही खड़ा है।
+
+संकरी पगडंडी… घुमावदार रास्ते…
+
+और जब हवा वहाँ से गुजरती है—
+
+तो ऐसा लगता है जैसे कोई आवाज़ गूँज रही हो—
+
+तलवारों की…
+घोड़ों की…
+और उस युद्ध की…
+
+जो संख्या से नहीं…
+
+साहस और समझ से जीता गया।
+
+आबू का दर्रा…
+
+आज भी यह सिखाता है—
+
+कि जब भूमि तुम्हारे साथ हो…
+
+तो तुम कभी हार नहीं सकते।
+`
     ],
-    coverImage: { src: '/images/legends/abu-pass.jpg', alt: 'A narrow, winding path through high mountain cliffs.' }
+    coverImage: { src: '/images/dynasties/seals/solanki-chaulukya-seal.png', alt: 'A narrow, winding path through high mountain cliffs.' }
   },
   {
     id: 'defense-chandravati',
@@ -1623,11 +40502,329 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Chandravati, Sirohi',
     story: [
-      'Chandravati was once a major capital and a center of culture. Its defense against invading forces was a critical part of the history of the region.',
-      'The legend tells of the many times the city’s walls were tested and the many times its defenders stood firm, their spirit as enduring as the ancient stones themselves.',
-      'The defense of Chandravati is a story of the importance of protecting the centers of culture and history from the ravages of war.'
+      `चंद्रावती…
+वह नगरी जहाँ पत्थर केवल दीवारें नहीं थे—वे इतिहास थे, कला थे, और सभ्यता की सांस थे।
+यह कोई साधारण नगर नहीं था… यह मेवाड़ की आत्मा का एक अंश था, जहाँ मंदिरों की घंटियाँ और शास्त्रों की ध्वनि मिलकर एक ऐसी दुनिया रचती थीं, जिसे तलवार से नहीं… संरक्षण से जीवित रखा जाता है।
+
+लेकिन इतिहास की हर रोशनी के पीछे एक छाया होती है…
+और चंद्रावती की उस चमक पर भी बार-बार अंधेरा छाने आया।
+
+---
+
+इसी नगरी में एक बालक का जन्म हुआ।
+
+उसके जन्म के समय मंदिरों में घंटियाँ बजीं…
+जैसे स्वयं देवताओं ने उसे आशीर्वाद दिया हो।
+
+उसका पिता कोई साधारण व्यक्ति नहीं था—वह नगर का रक्षक था… एक ऐसा योद्धा जो तलवार के साथ-साथ इस नगरी की आत्मा को भी समझता था।
+
+एक दिन पिता उसे लेकर एक प्राचीन मंदिर के सामने खड़ा हुआ।
+
+पत्थरों पर उकेरी गई मूर्तियाँ… समय की मार के बावजूद अडिग खड़ी थीं।
+
+“देख रहे हो?” पिता ने पूछा।
+
+“हाँ…”
+
+“ये केवल पत्थर नहीं हैं… ये हमारी पहचान हैं। अगर ये टूट गए… तो हम भी टूट जाएंगे।”
+
+उस दिन बालक ने समझ लिया—उसका युद्ध केवल भूमि के लिए नहीं होगा… वह इतिहास के लिए होगा।
+
+---
+
+उसका बचपन तलवार और शास्त्र दोनों के बीच बीता।
+
+सुबह वह अभ्यास करता—तलवार, धनुष, घुड़सवारी…
+और शाम को वह मंदिरों में बैठकर उन कहानियों को सुनता—जो इस नगरी ने सदियों से संजोकर रखी थीं।
+
+उसके गुरु ने कहा,
+“चंद्रावती का योद्धा केवल लड़ता नहीं… वह बचाता है।”
+
+बालक ने सिर झुका लिया।
+
+उसकी आँखों में अब एक अलग ज्वाला थी—एक ऐसी ज्वाला, जो विनाश नहीं… संरक्षण चाहती थी।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और अब चंद्रावती की रक्षा उसकी जिम्मेदारी थी।
+
+उधर बाहरी शक्तियाँ इस नगरी की ओर बढ़ रही थीं।
+
+उनके लिए यह केवल एक नगर था—लूटने के लिए, जीतने के लिए।
+
+लेकिन उसके लिए—
+
+यह सब कुछ था।
+
+---
+
+पहला आक्रमण सुबह हुआ।
+
+दूर से धूल का गुबार उठा।
+
+दुश्मन की सेना नगर की ओर बढ़ रही थी।
+
+दीवारों पर प्रहरी खड़े हो गए।
+
+घंटियाँ बज उठीं।
+
+लोग मंदिरों में प्रार्थना करने लगे।
+
+वह दीवार पर खड़ा था।
+
+उसने नीचे देखा—हजारों सैनिक।
+
+उसने गहरी साँस ली।
+
+“आज… हम केवल दीवार नहीं बचाएँगे… हम अपनी पहचान बचाएँगे,” उसने कहा।
+
+---
+
+युद्ध शुरू हुआ।
+
+तोपें गरजीं।
+
+दीवारों पर पत्थर टूटने लगे।
+
+दुश्मन ने सीढ़ियाँ लगाईं।
+
+लेकिन चंद्रावती के रक्षक तैयार थे।
+
+ऊपर से तीरों की बारिश।
+
+गरम तेल उंडेला गया।
+
+हर सीढ़ी को धकेल दिया गया।
+
+“हर हर महादेव!”
+
+चीखें गूँज उठीं।
+
+घंटों तक यह चलता रहा।
+
+सूरज सिर पर था।
+
+गर्मी बढ़ रही थी।
+
+लेकिन कोई पीछे नहीं हटा।
+
+पहला हमला विफल हुआ।
+
+---
+
+लेकिन दुश्मन रुका नहीं।
+
+कुछ ही समय बाद—
+
+दूसरा आक्रमण।
+
+इस बार उन्होंने नगर को घेर लिया।
+
+रसद के रास्ते बंद कर दिए गए।
+
+दिन बीतने लगे।
+
+पानी कम होने लगा।
+
+भोजन घटने लगा।
+
+नगर में चिंता फैल गई।
+
+एक वृद्ध उसके पास आया।
+
+“बेटा… कब तक?”
+
+वह कुछ क्षण चुप रहा।
+
+फिर बोला,
+“जब तक ये दीवारें खड़ी हैं… हम भी खड़े रहेंगे।”
+
+---
+
+रात के समय वह दीवारों पर घूमता।
+
+हर प्रहरी के पास जाता।
+
+“डरते हो?” वह पूछता।
+
+सैनिक सिर हिलाते।
+
+“नहीं।”
+
+लेकिन वह जानता था—डर है।
+
+फिर भी—
+
+कोई पीछे नहीं हटेगा।
+
+---
+
+एक रात उसने निर्णय लिया।
+
+“हम केवल सहेंगे नहीं… हम वार करेंगे,” उसने कहा।
+
+उसने अपने कुछ योद्धाओं को चुना।
+
+रात के अंधेरे में—
+
+वे चुपचाप किले से बाहर निकले।
+
+दुश्मन का शिविर सामने था।
+
+एक इशारा।
+
+और—
+
+“जोहार!”
+
+अचानक हमला।
+
+तंबू जल उठे।
+
+घोड़े बेकाबू हो गए।
+
+चीखें गूँज उठीं।
+
+कुछ ही पलों में—
+
+वे वापस लौट आए।
+
+यह केवल एक हमला नहीं था—
+
+यह संदेश था।
+
+“हम अभी जिंदा हैं।”
+
+---
+
+लेकिन तीसरा और अंतिम युद्ध सबसे भयानक था।
+
+दुश्मन ने पूरी ताकत झोंक दी।
+
+तोपें लगातार गरज रही थीं।
+
+दीवारों में दरारें पड़ने लगीं।
+
+और फिर—
+
+एक हिस्सा टूट गया।
+
+“वे अंदर आ रहे हैं!” एक सैनिक चिल्लाया।
+
+वह तुरंत वहाँ पहुँचा।
+
+उसने देखा—दुश्मन भीतर घुस रहा था।
+
+उसने अपनी तलवार निकाली।
+
+“अब… अंतिम रक्षा!”
+
+---
+
+नगर के भीतर ही युद्ध शुरू हुआ।
+
+तंग गलियाँ… मंदिरों के आँगन…
+
+तलवारें टकराईं।
+
+खून बहा।
+
+चीखें गूँजीं।
+
+वह सबसे आगे था।
+
+उसकी तलवार हर वार में क्रोध और संकल्प लिए हुए थी।
+
+एक दुश्मन सैनिक मंदिर की ओर बढ़ा।
+
+उसने उसे रोका।
+
+“यह स्थान… तुम्हारे लिए नहीं है,” उसने कहा।
+
+और उसकी तलवार ने वार किया।
+
+---
+
+युद्ध भयानक था।
+
+हर कदम पर संघर्ष।
+
+हर मोड़ पर मृत्यु।
+
+लेकिन—
+
+कोई पीछे नहीं हटा।
+
+---
+
+और फिर—
+
+एक क्षण आया।
+
+जब दुश्मन की पंक्तियाँ टूटने लगीं।
+
+वे पीछे हटने लगे।
+
+कुछ भागे… कुछ गिर पड़े…
+
+चंद्रावती बच गई।
+
+---
+
+युद्ध समाप्त हुआ।
+
+वह मंदिर के सामने खड़ा था।
+
+उसकी साँसें भारी थीं।
+
+उसका शरीर घावों से भरा था।
+
+उसने चारों ओर देखा—
+
+मंदिर अब भी खड़े थे।
+
+दीवारें अब भी अडिग थीं।
+
+उसकी आँखों में संतोष था।
+
+“हमने… इन्हें बचा लिया…” उसने कहा।
+
+और फिर—
+
+वह धीरे-धीरे नीचे गिर पड़ा।
+
+उसकी आँखें बंद हो गईं।
+
+---
+
+आज भी चंद्रावती के खंडहर खड़े हैं।
+
+पत्थर टूटे हैं… लेकिन आत्मा नहीं।
+
+जब हवा उन प्राचीन दीवारों से टकराती है—
+
+तो ऐसा लगता है जैसे कोई आवाज़ लौट रही हो—
+
+घंटियों की…
+तलवारों की…
+और उस संकल्प की…
+
+जो कहता है—
+
+“सभ्यता केवल बनती नहीं… बचाई भी जाती है।”
+
+चंद्रावती…
+
+आज भी यह सिखाती है—
+
+कि जो अपनी संस्कृति की रक्षा करता है…
+
+वही इतिहास में अमर होता है।
+`
     ],
-    coverImage: { src: '/images/legends/chandravati.jpg', alt: 'The ancient ruins of the city of Chandravati.' }
+    coverImage: { src: '/images/dynasties/seals/solanki-chaulukya-seal.png', alt: 'The ancient ruins of the city of Chandravati.' }
   },
   {
     id: 'campaign-abu-plateau',
@@ -1637,11 +40834,337 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Mount Abu Plateau',
     story: [
-      'The plateau of Mount Abu was a strategic prize, offering a panoramic view of the surrounding plains. Its control was often contested in the desert wars.',
-      'This legend recounts a brilliant campaign by the Deora Chauhans to reclaim the plateau from an invading force, using a combination of stealth and mountain warfare.',
-      'The campaign is a symbol of the Rajput ability to adapt to the most challenging environments and turn them into a tactical advantage.'
+      `अरावली की शृंखला का वह मुकुट… आबू का पठार।
+जहाँ खड़े होकर दूर-दूर तक फैले मैदान ऐसे दिखते थे जैसे कोई खुली किताब हो—हर पंक्ति साफ़, हर चाल दिखाई देती हुई।
+जो इस ऊँचाई का स्वामी होता, वही नीचे की धरती का भाग्य लिखता।
+
+और इसी कारण… आबू केवल एक स्थान नहीं था—वह युद्ध का निर्णायक बिंदु था।
+
+---
+
+उस पठार की तलहटी में, जहाँ पहाड़ धीरे-धीरे उठना शुरू करते हैं, वहीं एक बालक का जन्म हुआ—देओरा चौहानों के वंश में।
+
+जन्म के समय ही बादल गरजे… जैसे आकाश ने स्वयं इस योद्धा का स्वागत किया हो।
+
+उसके पिता ने उसे पहली बार गोद में लेकर कहा,
+“यह केवल हमारा पुत्र नहीं… यह आबू का रक्षक है।”
+
+---
+
+बचपन से ही उसका जीवन कठिन था।
+
+वह समतल भूमि पर नहीं, चट्टानों पर दौड़ता था।
+उसके पैरों ने पहले संतुलन सीखा, फिर गति।
+
+घोड़े पर बैठना यहाँ अलग था—यहाँ दौड़ना नहीं, संभलकर चलना जरूरी था।
+एक गलत कदम… और सीधा गहरी खाई।
+
+उसके गुरु ने उसे एक संकरी पगडंडी पर खड़ा करके कहा,
+“यहाँ तलवार से पहले पैर चलते हैं… अगर पैर डगमगाए, तो तलवार भी गिर जाती है।”
+
+बालक ने चुपचाप सिर झुका लिया।
+
+उसकी आँखों में एक दृढ़ता थी—वह पहाड़ से हारने वाला नहीं था।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और उसी समय खबर आई।
+
+आबू का पठार दुश्मन के कब्जे में चला गया था।
+
+एक विशाल सेना ने अचानक आकर इस ऊँचाई पर अधिकार कर लिया था।
+अब वे नीचे के मैदानों पर नज़र रख सकते थे… और किसी भी समय हमला कर सकते थे।
+
+दरबार में सन्नाटा छा गया।
+
+“अगर आबू नहीं मिला…” एक सरदार बोला,
+“तो हम हर युद्ध हारेंगे, उससे पहले कि वह शुरू हो।”
+
+वह धीरे से उठा।
+
+“तो हम उसे वापस लेंगे,” उसकी आवाज़ गूँजी।
+
+---
+
+लेकिन यह कोई साधारण युद्ध नहीं था।
+
+आबू को तलवार से नहीं… छाया से जीता जा सकता था।
+
+उसने अपनी सेना को देखा।
+
+“हम संख्या में कम हैं… लेकिन यह पहाड़ हमारा है,” उसने कहा।
+
+उसने योजना बनाई—छोटे-छोटे दल… रात के समय… बिना शोर।
+
+---
+
+रात गहरी थी।
+
+बादलों ने चाँद को ढक लिया था।
+
+और उसी अंधेरे में—
+
+देओरा चौहान योद्धा चट्टानों पर चढ़ने लगे।
+
+हाथों से… पैरों से… बिना आवाज़ के।
+
+कोई रास्ता नहीं… बस पत्थर।
+
+एक फिसलन… और अंत।
+
+लेकिन कोई नहीं रुका।
+
+---
+
+पहला हमला एक चौकी पर हुआ।
+
+एक तीर…
+
+फिर दूसरा…
+
+पहरेदार गिर पड़े।
+
+कोई आवाज़ नहीं।
+
+कोई चेतावनी नहीं।
+
+बस—खामोशी।
+
+---
+
+अगले दिन—
+
+दुश्मन को कुछ अजीब लगा।
+
+उनकी एक चौकी गायब थी।
+
+लेकिन वे समझ नहीं पाए।
+
+---
+
+फिर—
+
+दूसरा हमला।
+
+रसद का एक दल संकरी पगडंडी से गुजर रहा था।
+
+अचानक—
+
+ऊपर से पत्थर गिरे।
+
+फिर—
+
+“हर हर महादेव!”
+
+छाया से योद्धा निकले।
+
+तेज़… सटीक… निर्दयी।
+
+कुछ ही पलों में सब खत्म।
+
+और फिर—
+
+वे गायब।
+
+---
+
+दुश्मन की बेचैनी बढ़ने लगी।
+
+“वे कहाँ हैं?” सेनापति गरजा।
+
+लेकिन कोई जवाब नहीं।
+
+हर दिन… हर रात…
+
+छोटे-छोटे वार।
+
+नींद गायब।
+
+भोजन कम।
+
+डर बढ़ता गया।
+
+---
+
+वह एक ऊँची चट्टान पर खड़ा था।
+
+नीचे दुश्मन का मुख्य शिविर दिख रहा था।
+
+उसकी आँखें शांत थीं।
+
+“आज रात… अंत होगा,” उसने कहा।
+
+---
+
+रात फिर गहरी हुई।
+
+और फिर—
+
+छाया चलने लगी।
+
+धीरे… सावधानी से…
+
+हर कदम सोच-समझकर।
+
+वे शिविर के पास पहुँचे।
+
+पहरेदार थे… लेकिन थके हुए।
+
+एक इशारा।
+
+और—
+
+पहला वार।
+
+पहरेदार गिरा।
+
+फिर दूसरा।
+
+और फिर—
+
+“जोहार!”
+
+पूरा हमला शुरू।
+
+तंबू जल उठे।
+
+घोड़े बेकाबू हो गए।
+
+चीखें गूँज उठीं।
+
+वह सबसे आगे था।
+
+उसकी तलवार बिजली की तरह चल रही थी।
+
+हर वार सटीक।
+
+हर वार घातक।
+
+दुश्मन समझ ही नहीं पाया—क्या हो रहा है।
+
+कुछ ही पलों में—
+
+शिविर अस्त-व्यस्त।
+
+---
+
+लेकिन अंतिम युद्ध अभी बाकी था।
+
+सुबह—
+
+दुश्मन ने पूरी ताकत से जवाब दिया।
+
+वे खुले में नहीं… चट्टानों पर लड़े।
+
+संकीर्ण रास्ते… खतरनाक मोड़…
+
+हर कदम मौत के साथ।
+
+---
+
+वह अपनी सेना के साथ आगे बढ़ा।
+
+“आज… हम उन्हें यहाँ से निकालेंगे,” उसने कहा।
+
+---
+
+युद्ध शुरू हुआ।
+
+तलवारें टकराईं।
+
+चिंगारियाँ उड़ीं।
+
+घाटियों में चीखें गूँज उठीं।
+
+ऊपर से पत्थर… नीचे से वार…
+
+पूरा पठार जल उठा।
+
+वह बीच में था।
+
+उसकी साँसें भारी थीं।
+
+उसकी तलवार खून से भीग चुकी थी।
+
+एक दुश्मन सेनापति उसके सामने आया।
+
+“तुम इसे वापस नहीं ले सकते!” वह गरजा।
+
+उसने शांत स्वर में कहा,
+“यह पहाड़… हमारा है।”
+
+और उसकी तलवार ने वार किया।
+
+सेनापति गिर पड़ा।
+
+---
+
+युद्ध अपने चरम पर था।
+
+फिर—
+
+एक क्षण आया।
+
+जब दुश्मन की पंक्तियाँ टूट गईं।
+
+वे पीछे हटने लगे।
+
+कुछ भागे… कुछ गिर पड़े…
+
+आबू वापस ले लिया गया।
+
+---
+
+वह ऊँचाई पर खड़ा था।
+
+नीचे पूरा मरुस्थल दिख रहा था।
+
+हवा तेज़ चल रही थी।
+
+उसने गहरी साँस ली।
+
+लेकिन उसके घाव गहरे थे।
+
+वह घुटनों पर गिर पड़ा।
+
+उसकी तलवार हाथ से छूट गई।
+
+उसने आखिरी बार आकाश की ओर देखा।
+
+“हमने… इसे वापस ले लिया…” उसने कहा।
+
+और उसकी आँखें बंद हो गईं।
+
+---
+
+आज भी आबू का पठार वैसे ही खड़ा है—
+
+ऊँचा… अडिग… अजेय…
+
+जब हवा चट्टानों से टकराती है—
+
+तो ऐसा लगता है जैसे कोई आवाज़ गूँज रही हो—
+
+छाया की…
+तलवारों की…
+और उस युद्ध की…
+
+जो दिखता नहीं…
+
+लेकिन इतिहास बदल देता है।
+
+आबू…
+
+आज भी यह सिखाता है—
+
+कि सबसे कठिन भूमि…
+
+सबसे बड़ा हथियार बन सकती है।
+`
     ],
-    coverImage: { src: '/images/legends/abu-plateau.jpg', alt: 'The wide, rocky plateau of Mount Abu under a starry sky.' }
+    coverImage: { src: '/images/dynasties/seals/solanki-chaulukya-seal.png', alt: 'The wide, rocky plateau of Mount Abu under a starry sky.' }
   },
   {
     id: 'border-war-mewar',
@@ -1651,11 +41174,355 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Mewar Borders',
     story: [
-      'The borders of Mewar were in a constant state of flux, contested by neighboring states and imperial powers. This legend celebrates the frontier guards who held the line.',
-      'The story follows a series of skirmishes and raids where the Rajput forces used their knowledge of the terrain to outmaneuver much larger forces.',
-      'The border wars are a story of the importance of vigilance and the courage of those who live on the edges of a kingdom.'
+      `मेवाड़ की सीमाएँ…
+वे कोई खिंची हुई रेखाएँ नहीं थीं—वे हर दिन बदलती थीं, हर रात फिर से लिखी जाती थीं।
+जहाँ राजमहलों की शांति समाप्त होती थी, वहीं से शुरू होता था असली युद्ध—सीमा का युद्ध।
+
+यहाँ न कोई जय-जयकार थी, न कोई विजय उत्सव।
+यहाँ केवल चौकसी थी… और हर क्षण मृत्यु की आहट।
+
+---
+
+उन्हीं सीमाओं के किनारे, एक छोटी सी चौकी पर, एक बालक का जन्म हुआ।
+
+कोई शाही ध्वज नहीं लहरा रहा था।
+बस एक पत्थर की मीनार… और उसके ऊपर खड़ा एक प्रहरी।
+
+उसका पिता वही प्रहरी था।
+
+हर रात वह बालक अपने पिता को देखता—ऊँचाई पर खड़े, दूर अंधेरे में झाँकते हुए।
+
+एक दिन उसने पूछा,
+“पिता… आप हर समय जागते क्यों रहते हैं?”
+
+उसके पिता ने बिना नज़र हटाए कहा,
+“क्योंकि बेटा… सीमा सोती नहीं। अगर हम सो गए… तो दुश्मन जाग जाएगा।”
+
+उस दिन बालक ने समझ लिया—यह जीवन आराम का नहीं है।
+
+---
+
+उसका बचपन तलवार के साथ नहीं… सतर्कता के साथ बीता।
+
+उसे सिखाया गया कि हवा की दिशा से आने वाले खतरे को कैसे पहचाना जाता है…
+रेत पर पड़े पदचिन्हों से कितने लोग गुजरे हैं…
+और रात के सन्नाटे में भी कौन सी आहट खतरा है।
+
+घुड़सवारी उसके लिए केवल कौशल नहीं थी—वह उसकी आँखें थी।
+
+वह टीलों, घाटियों और पगडंडियों पर दौड़ता…
+हर रास्ता उसकी स्मृति में बस गया।
+
+उसके गुरु ने कहा,
+“सीमा का योद्धा तलवार से नहीं… समझ और गति से जीतता है।”
+
+वह मुस्कुराया।
+
+उसे पता था—वह छाया बनेगा।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और अब सीमा उसकी जिम्मेदारी थी।
+
+उधर मेवाड़ के चारों ओर से खतरे बढ़ रहे थे।
+
+पड़ोसी राज्य… साम्राज्य…
+हर कोई इन सीमाओं को तोड़ना चाहता था।
+
+लेकिन यहाँ युद्ध कभी सीधा नहीं होता।
+
+यह छापामार होता था… अचानक… और घातक।
+
+---
+
+पहला बड़ा संघर्ष एक ठंडी सुबह हुआ।
+
+एक प्रहरी दौड़ता हुआ आया—
+
+“सरदार! पश्चिम दिशा से सेना बढ़ रही है!”
+
+वह तुरंत ऊँचाई पर चढ़ा।
+
+दूर… धूल का गुबार।
+
+“संख्या?” उसने पूछा।
+
+“हमसे कई गुना अधिक।”
+
+वह कुछ क्षण चुप रहा।
+
+फिर बोला,
+“तो हम उन्हें सीधे नहीं रोकेंगे… हम उन्हें भटकाएँगे।”
+
+---
+
+उसने अपनी सेना को छोटे-छोटे दलों में बाँट दिया।
+
+“सीधे युद्ध नहीं,” उसने आदेश दिया,
+“उन्हें थकाओ… उन्हें उलझाओ… और फिर वार करो।”
+
+---
+
+दुश्मन आगे बढ़ा।
+
+उन्हें लगा—वे आसानी से सीमा पार कर लेंगे।
+
+लेकिन जैसे-जैसे वे आगे बढ़े…
+
+रास्ते बदलने लगे।
+
+पानी के स्रोत गायब हो गए।
+
+और फिर—
+
+पहला हमला।
+
+एक छोटी टुकड़ी अचानक उनके किनारे पर टूटी।
+
+“हर हर महादेव!”
+
+तलवारें चमकीं।
+
+कुछ ही पलों में हमला खत्म।
+
+और राठौड़-मेवाड़ी योद्धा गायब।
+
+दुश्मन समझ नहीं पाया।
+
+---
+
+फिर दूसरा हमला।
+
+फिर तीसरा।
+
+हर बार अलग दिशा से।
+
+हर बार अचानक।
+
+एक सैनिक घबराकर चिल्लाया,
+“ये लोग दिखते नहीं… बस वार करते हैं!”
+
+वह मुस्कुराया।
+
+यही उसकी रणनीति थी।
+
+धीरे-धीरे दुश्मन थकने लगा।
+
+और फिर—
+
+अंतिम धावा।
+
+इस बार सभी दल एक साथ टूट पड़े।
+
+घोड़े गरजे।
+
+तलवारें टकराईं।
+
+दुश्मन की पंक्तियाँ टूट गईं।
+
+पहला संघर्ष जीत लिया गया।
+
+---
+
+लेकिन सीमा पर शांति कभी नहीं रहती।
+
+कुछ महीनों बाद—
+
+दूसरा आक्रमण।
+
+इस बार दुश्मन रात में आया।
+
+चुपचाप…
+
+लेकिन सीमा के प्रहरी सोते नहीं।
+
+जैसे ही हल्की आहट हुई—
+
+“सतर्क!”
+
+घंटियाँ बज उठीं।
+
+वह तुरंत घोड़े पर सवार हुआ।
+
+“उन्हें अंदर आने दो,” उसने कहा।
+
+सैनिक चौंक गए।
+
+“क्या?”
+
+“हाँ… और फिर उन्हें घेरो।”
+
+---
+
+दुश्मन अंदर आया।
+
+उन्हें लगा—वे सफल हो गए।
+
+लेकिन जैसे ही वे भीतर पहुँचे—
+
+चारों ओर से मशालें जल उठीं।
+
+और फिर—
+
+“जोहार!”
+
+घेरा।
+
+चारों दिशाओं से हमला।
+
+दुश्मन फँस चुका था।
+
+तलवारें टकराईं।
+
+चीखें गूँजीं।
+
+कुछ ही समय में—
+
+सब खत्म।
+
+दूसरा युद्ध भी जीत लिया गया।
+
+---
+
+लेकिन तीसरा युद्ध सबसे कठिन था।
+
+इस बार दुश्मन ने पूरी ताकत झोंक दी।
+
+वे सीधे सीमा को तोड़ना चाहते थे।
+
+खुला मैदान।
+
+कोई छुपने की जगह नहीं।
+
+उसने अपनी सेना को देखा।
+
+कम संख्या… लेकिन दृढ़।
+
+वह आगे बढ़ा।
+
+“आज… हम केवल रक्षा नहीं करेंगे,” उसने कहा,
+“आज हम उन्हें सिखाएँगे कि सीमा क्या होती है।”
+
+---
+
+नगाड़े बजे।
+
+घोड़े तैयार हुए।
+
+और फिर—
+
+धावा।
+
+राठौड़ और मेवाड़ी सेना सीधे दुश्मन की ओर दौड़ी।
+
+यह आत्मघाती लग रहा था।
+
+लेकिन यह एक चाल थी।
+
+जैसे ही दुश्मन ने अपनी पंक्तियाँ कसीं—
+
+राठौड़ सेना दो भागों में बँट गई।
+
+बीच में खाली स्थान।
+
+और उसी क्षण—
+
+पीछे से छिपी टुकड़ी ने हमला कर दिया।
+
+दुश्मन भ्रमित।
+
+चारों ओर से वार।
+
+कोई दिशा नहीं… कोई बचाव नहीं।
+
+वह बीच में था।
+
+उसकी तलवार लगातार चल रही थी।
+
+लेकिन तभी—
+
+एक भाला उसके सीने में आ लगा।
+
+वह रुक गया।
+
+घोड़ा भी ठहर गया।
+
+चारों ओर युद्ध चल रहा था।
+
+उसने नीचे देखा… खून बह रहा था।
+
+फिर भी…
+
+उसने मुस्कुराया।
+
+“सीमा… बची रहे…” उसने धीमे से कहा।
+
+---
+
+और फिर—
+
+उसने आखिरी बार तलवार उठाई।
+
+एक अंतिम वार।
+
+दुश्मन सेनापति गिर पड़ा।
+
+और उसी क्षण—
+
+राठौड़ों का अंतिम धावा।
+
+दुश्मन की सेना टूट गई।
+
+वे भागने लगे।
+
+सीमा बच गई।
+
+---
+
+युद्ध समाप्त हुआ।
+
+वह घोड़े से नीचे गिर पड़ा।
+
+उसके साथी उसके पास आए।
+
+“सरदार…”
+
+उसने मुश्किल से आँखें खोलीं।
+
+दूर… सीमा की ओर देखा।
+
+अब भी सुरक्षित।
+
+“हमने… इसे थामे रखा…” उसने कहा।
+
+और उसकी साँसें थम गईं।
+
+---
+
+आज भी मेवाड़ की सीमाओं पर जब हवा चलती है—
+
+तो ऐसा लगता है जैसे कोई देख रहा हो।
+
+हर टीले पर… हर पगडंडी पर…
+
+एक अदृश्य प्रहरी खड़ा है।
+
+यह कोई भव्य विजय की कहानी नहीं है।
+
+यह उन लोगों की कहानी है—
+
+जो कभी इतिहास में नहीं लिखे गए…
+
+लेकिन जिनकी वजह से इतिहास बना।
+
+मेवाड़ की सीमाएँ…
+
+आज भी उसी चौकसी, उसी बलिदान, और उसी अदृश्य साहस की गवाही देती हैं।
+`
     ],
-    coverImage: { src: '/images/legends/mewar-border.jpg', alt: 'A lone guard on a high ridge overlooking a disputed border.' }
+    coverImage: { src: '/images/dynasties/places/mewar.jpg', alt: 'A lone guard on a high ridge overlooking a disputed border.' }
   },
   {
     id: 'defense-dungarpur',
@@ -1665,11 +41532,288 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Dungarpur',
     story: [
-      'Dungarpur, with its unique location among the hills, was a natural fortress. Its defense involved a combination of hill fortifications and mountain warfare.',
-      'The legend tells of a garrison that held the city against multiple assaults, their resolve as unyielding as the hills that sheltered them.',
-      'The defense of Dungarpur is a story of the importance of terrain in the survival of a kingdom and the skill of the warriors who guarded it.'
+      `डूंगरपुर…
+पहाड़ियों के बीच बसा वह नगर, जहाँ धरती खुद दीवार बन जाती थी और आकाश प्रहरी।
+यह कोई साधारण राज्य नहीं था—यह प्रकृति का गढ़ था।
+चारों ओर उठती पहाड़ियाँ, संकरी घाटियाँ, घने वन… और उनके बीच छिपा हुआ एक ऐसा नगर, जिसे जीतना तलवार से अधिक धैर्य और समझ का काम था।
+
+लेकिन जहाँ सुरक्षा होती है… वहीं लालच भी जन्म लेता है।
+
+---
+
+डूंगरपुर की उन्हीं पहाड़ियों के बीच एक बालक का जन्म हुआ।
+
+नगाड़ों की आवाज़ पहाड़ियों से टकराकर गूँज उठी…
+जैसे स्वयं धरती ने उसके आगमन की घोषणा की हो।
+
+उसका जन्म किसी विलासिता में नहीं, बल्कि युद्ध की तैयारी में हुआ था।
+
+उसके पिता किले के एक प्रमुख सेनापति थे—एक ऐसा योद्धा जिसने अपना जीवन इन पहाड़ियों की रक्षा में बिताया था।
+
+एक दिन बालक अपने पिता के साथ ऊँची चट्टान पर खड़ा था।
+
+नीचे गहरी घाटी थी।
+
+“डर लगता है?” पिता ने पूछा।
+
+बालक ने नीचे देखा… और शांत स्वर में कहा,
+“नहीं।”
+
+पिता मुस्कुराए,
+“अच्छा… क्योंकि यहाँ डरने वाला… जीवित नहीं रहता।”
+
+---
+
+उसका बचपन खेल में नहीं… चढ़ाई में बीता।
+
+वह चट्टानों पर दौड़ता, खाइयों के किनारे संतुलन बनाता, और संकीर्ण रास्तों पर तलवार चलाना सीखता।
+
+उसके गुरु ने कहा,
+“डूंगरपुर का योद्धा मैदान में नहीं… पहाड़ में जन्म लेता है।”
+
+उसने सीखा—ऊँचाई का उपयोग कैसे किया जाता है, दुश्मन को संकरी घाटियों में कैसे फँसाया जाता है, और कब वार करना सबसे घातक होता है।
+
+वह धीरे-धीरे पहाड़ का हिस्सा बन गया।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और अब डूंगरपुर की रक्षा उसकी जिम्मेदारी थी।
+
+उधर बाहरी शक्तियाँ इस प्राकृतिक किले को तोड़ना चाहती थीं।
+
+क्योंकि अगर यह गिरता… तो पूरा क्षेत्र खुल जाता।
+
+---
+
+पहला हमला अचानक हुआ।
+
+दुश्मन घाटी से ऊपर चढ़ने लगा।
+
+उनकी संख्या बहुत अधिक थी।
+
+लेकिन रास्ता संकरा था।
+
+वह ऊपर खड़ा देख रहा था।
+
+“अभी नहीं…” उसने अपने तीरंदाज़ों को रोका।
+
+दुश्मन और ऊपर आया…
+
+और जब वे सबसे कठिन हिस्से में पहुँचे—
+
+“अब!”
+
+तीरों की बारिश।
+
+ऊपर से चट्टानें लुढ़काई गईं।
+
+घाटी चीखों से भर गई।
+
+दुश्मन नीचे गिरने लगे।
+
+कुछ पीछे हटे… कुछ वहीं खत्म हो गए।
+
+पहला हमला विफल हुआ।
+
+---
+
+लेकिन दुश्मन ने हार नहीं मानी।
+
+दूसरे दिन उन्होंने दूसरी दिशा से हमला किया।
+
+इस बार वे रात के अंधेरे में चढ़े।
+
+चुपचाप…
+
+लेकिन पहाड़ सोता नहीं।
+
+एक प्रहरी ने हल्की सी आहट सुनी।
+
+“सतर्क!”
+
+घंटियाँ बज उठीं।
+
+वह तुरंत जाग गया।
+
+“वे पीछे से आ रहे हैं,” उसने कहा।
+
+---
+
+रात का युद्ध शुरू हुआ।
+
+मशालों की रोशनी… चट्टानों की छाया…
+
+तलवारें टकराईं।
+
+संकीर्ण रास्तों में लड़ाई और भी भयानक थी।
+
+एक गलत कदम… और सीधा खाई में गिरना।
+
+वह सबसे आगे था।
+
+उसकी तलवार हर वार में सटीक थी।
+
+एक दुश्मन सैनिक उस पर झपटा—लेकिन उसने उसे धक्का दिया।
+
+सैनिक संतुलन खो बैठा… और अंधेरे में गिर गया।
+
+उसकी चीख घाटी में गूँजती रही…
+
+फिर सन्नाटा।
+
+“यह डूंगरपुर है,” उसने कहा,
+“यहाँ हर कदम मौत के साथ खेल है।”
+
+दूसरा हमला भी विफल हुआ।
+
+---
+
+लेकिन तीसरा और अंतिम युद्ध सबसे भयानक था।
+
+इस बार दुश्मन पूरी तैयारी के साथ आया।
+
+उन्होंने कई दिशाओं से एक साथ हमला किया।
+
+तोपें घाटी में गरज रही थीं।
+
+दीवारों पर दरारें पड़ने लगीं।
+
+एक सैनिक बोला,
+“वे हमें तोड़ देंगे…”
+
+वह शांत रहा।
+
+“तो हम उन्हें यहीं रोकेंगे,” उसने कहा।
+
+---
+
+उसने अपनी रणनीति बदली।
+
+“दीवारों पर मत रुको,” उसने आदेश दिया,
+“नीचे उतर जाओ… और उन्हें वहीं रोको।”
+
+यह जोखिम भरा था।
+
+लेकिन यही एक रास्ता था।
+
+---
+
+राठौड़ और मेवाड़ी योद्धा पहाड़ से नीचे उतरे।
+
+छोटे-छोटे दलों में।
+
+छाया की तरह।
+
+दुश्मन चढ़ रहा था—उन्हें उम्मीद नहीं थी कि ऊपर वाले नीचे आएंगे।
+
+और फिर—
+
+“हर हर महादेव!”
+
+धावा।
+
+चट्टानों के बीच अचानक हमला।
+
+दुश्मन चौंक गया।
+
+संकीर्ण रास्तों में वे अपनी संख्या का लाभ नहीं ले पाए।
+
+हर मोड़ पर एक नया हमला।
+
+हर चट्टान के पीछे एक योद्धा।
+
+वह खुद बीच में था।
+
+उसकी साँसें तेज़ थीं।
+
+उसकी तलवार लगातार चल रही थी।
+
+लेकिन दुश्मन भी पूरी ताकत से लड़ रहा था।
+
+एक भारी वार उसके सीने पर पड़ा।
+
+वह डगमगाया।
+
+फिर भी…
+
+वह रुका नहीं।
+
+“यह नगर नहीं गिरेगा!” वह गरजा।
+
+और फिर—
+
+अंतिम संघर्ष।
+
+ऊपर से तीर… नीचे से तलवार…
+
+पूरा पहाड़ युद्धभूमि बन गया।
+
+घंटों तक यह चलता रहा।
+
+फिर—
+
+एक क्षण आया।
+
+जब दुश्मन की पंक्तियाँ टूटने लगीं।
+
+वे पीछे हटने लगे।
+
+कुछ भागे… कुछ गिर पड़े…
+
+डूंगरपुर बच गया।
+
+---
+
+युद्ध समाप्त हुआ।
+
+वह धीरे-धीरे ऊपर चढ़ा।
+
+किले की दीवार पर खड़ा हुआ।
+
+नीचे घाटी में सन्नाटा था।
+
+उसने गहरी साँस ली।
+
+लेकिन उसके घाव गहरे थे।
+
+वह घुटनों पर गिर पड़ा।
+
+उसकी तलवार हाथ से छूट गई।
+
+उसने आखिरी बार पहाड़ियों की ओर देखा।
+
+“हमने… इसे बचा लिया…” उसने धीमे से कहा।
+
+और उसकी आँखें बंद हो गईं।
+
+---
+
+आज भी डूंगरपुर की पहाड़ियाँ वैसे ही खड़ी हैं।
+
+अडिग… अचल… अजेय…
+
+जब हवा घाटियों में गूँजती है—
+
+तो ऐसा लगता है जैसे कोई आवाज़ लौट रही हो—
+
+तलवारों की…
+चीखों की…
+और उस संकल्प की—
+
+जो कभी टूटता नहीं।
+
+डूंगरपुर…
+
+आज भी यह सिखाता है—
+
+कि जब धरती खुद किला बन जाए…
+
+तो उसे जीतना असंभव हो जाता है।
+`
     ],
-    coverImage: { src: '/images/legends/dungarpur-hills.jpg', alt: 'The city of Dungarpur nestled among high hills.' }
+    coverImage: { src: '/images/dynasties/places/mewar.jpg', alt: 'The city of Dungarpur nestled among high hills.' }
   },
   {
     id: 'stand-banswara',
@@ -1679,11 +41823,344 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Banswara',
     story: [
-      'Banswara was a strategic gateway to the southern reaches of Rajputana. Its defense was a critical part of the overall security of the region.',
-      'This legend recounts the story of a stand where the defenders used the surrounding forests to launch devastating surprise attacks on the invading army.',
-      'The stand of Banswara is a testament to the skill of the Rajput warriors in using the natural environment to turn a defensive position into an offensive one.'
+      `बांसवाड़ा…
+दक्षिण की ओर खुलता वह द्वार, जहाँ से राजपुताना की धरती साँस लेती थी।
+घने वन, गहरी घाटियाँ, और उनमें छिपी अनगिनत पगडंडियाँ—यह कोई साधारण सीमा नहीं थी… यह एक भूलभुलैया थी, जहाँ अनजान कदम अक्सर आखिरी साबित होते थे।
+
+यहीं, इस हरे अंधकार के बीच, एक किला खड़ा था—न पत्थरों की ऊँचाई में सबसे विशाल, न सोने-चाँदी में सबसे समृद्ध…
+लेकिन उसकी अहमियत इतनी थी कि अगर यह गिर जाता, तो दक्षिण से आने वाला हर तूफ़ान सीधे राजपुताना के हृदय में घुस जाता।
+
+---
+
+इसी भूमि पर एक बालक का जन्म हुआ।
+
+नगाड़े नहीं बजे…
+घोड़ों की टापें नहीं गूँजी…
+बस जंगल की गहराई में पत्तों की सरसराहट थी।
+
+उसका पिता कोई दरबारी सेनापति नहीं था—वह सीमा का रक्षक था… एक ऐसा योद्धा जो जंगल की भाषा समझता था।
+
+एक दिन बालक ने पूछा,
+“पिता… यह जंगल इतना खामोश क्यों है?”
+
+उसके पिता ने धीरे से कहा,
+“क्योंकि बेटा… यहाँ हर आवाज़ का मतलब होता है… और हर खामोशी में खतरा छिपा होता है।”
+
+उस दिन से बालक ने सुनना सीखा—देखना नहीं, सुनना।
+
+---
+
+उसका बचपन पेड़ों के बीच बीता।
+
+वह तलवार चलाने से पहले छाया में चलना सीखता।
+घोड़े पर बैठने से पहले पगडंडियों को पहचानता।
+उसने सीखा कि पत्तों की हलचल से कितने लोग गुजर रहे हैं, और हवा की दिशा से दुश्मन कहाँ छिपा है।
+
+उसके गुरु ने एक दिन कहा,
+“बांसवाड़ा का योद्धा सामने से नहीं लड़ता… वह दुश्मन को खुद उसके रास्ते में फँसाता है।”
+
+बालक ने सिर हिलाया।
+
+वह अब जंगल का हिस्सा बन चुका था।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और अब बांसवाड़ा की रक्षा उसकी जिम्मेदारी थी।
+
+उधर दक्षिण से एक विशाल सेना बढ़ रही थी।
+
+उन्हें लगा—यह जंगल उन्हें रोक नहीं पाएगा।
+
+वे भारी संख्या में थे… उनके पास हथियार थे… घोड़े थे…
+
+लेकिन एक चीज़ नहीं थी—
+
+जंगल की समझ।
+
+---
+
+पहला संघर्ष सीधा युद्ध नहीं था।
+
+दुश्मन जंगल में प्रवेश कर रहा था।
+
+घने पेड़… अंधेरा… अनजान रास्ते…
+
+और फिर—
+
+पहला हमला।
+
+एक तीर आया…
+फिर दूसरा…
+
+एक सैनिक गिरा।
+
+“हमले!” चीख गूँजी।
+
+लेकिन हमला करने वाला कोई नहीं दिखा।
+
+कुछ ही पलों में—
+
+सब शांत।
+
+दुश्मन भ्रमित।
+
+---
+
+अगले दिन—
+
+उनकी रसद का एक दल आगे बढ़ रहा था।
+
+अचानक—
+
+पेड़ों के पीछे से योद्धा निकले।
+
+“जोहार!”
+
+तेज़ हमला।
+
+कुछ ही पलों में सब खत्म।
+
+और फिर—
+
+वे गायब।
+
+जैसे जंगल ने उन्हें निगल लिया हो।
+
+---
+
+दुश्मन की हालत खराब होने लगी।
+
+हर समय डर… हर समय आशंका…
+
+“वे कहाँ हैं?” एक सेनापति चिल्लाया।
+
+लेकिन कोई जवाब नहीं।
+
+---
+
+वह अपने दल के साथ जंगल में घूम रहा था।
+
+उसकी आँखें हर दिशा में थीं।
+
+“अब समय है,” उसने कहा,
+“मुख्य शिविर पर हमला।”
+
+उसके साथी चौंके।
+
+“यह जोखिम भरा है।”
+
+वह मुस्कुराया,
+“यही तो हमारी ताकत है।”
+
+---
+
+रात गहरी हुई।
+
+जंगल और भी घना हो गया।
+
+चाँद की रोशनी भी पेड़ों के बीच खो गई।
+
+और फिर—
+
+छाया चलने लगी।
+
+वे धीरे-धीरे नीचे उतरे।
+
+दुश्मन का शिविर सामने था।
+
+पहरेदार थे… लेकिन थके हुए।
+
+एक इशारा।
+
+और—
+
+पहला वार।
+
+पहरेदार गिरा।
+
+फिर दूसरा।
+
+और फिर—
+
+“जोहार!”
+
+पूरा हमला शुरू।
+
+तंबू जल उठे।
+
+घोड़े बेकाबू हो गए।
+
+चीखें गूँज उठीं।
+
+दुश्मन समझ ही नहीं पाया—हमला कहाँ से हुआ।
+
+वह खुद सबसे आगे था।
+
+उसकी तलवार चुपचाप चल रही थी।
+
+हर वार—सटीक।
+
+हर वार—घातक।
+
+कुछ ही पलों में—
+
+वे वापस जंगल में।
+
+दुश्मन पीछे भागा…
+
+लेकिन कुछ नहीं मिला।
+
+सिर्फ अंधेरा।
+
+---
+
+दिन बीतते गए।
+
+हमले बढ़ते गए।
+
+दुश्मन कमजोर होता गया।
+
+उनकी संख्या अब भी अधिक थी…
+
+लेकिन उनका मनोबल टूट चुका था।
+
+---
+
+लेकिन अंतिम युद्ध अभी बाकी था।
+
+दुश्मन ने तय किया—
+
+अब वे पूरी ताकत से आगे बढ़ेंगे।
+
+वे जंगल के भीतर गहराई तक घुस आए।
+
+यही उनकी सबसे बड़ी भूल थी।
+
+---
+
+उसने अपनी सेना को चारों ओर फैला दिया।
+
+पेड़ों के पीछे… ऊँचाइयों पर… पगडंडियों पर…
+
+दुश्मन आगे बढ़ रहा था।
+
+धीरे… सावधानी से…
+
+लेकिन—
+
+वे फँस चुके थे।
+
+---
+
+संकेत मिला।
+
+और फिर—
+
+चारों ओर से हमला।
+
+“हर हर महादेव!”
+
+पेड़ों के बीच से योद्धा टूट पड़े।
+
+ऊपर से तीर… नीचे से तलवार…
+
+दुश्मन घिर चुका था।
+
+न आगे… न पीछे…
+
+चीखें जंगल में गूँज उठीं।
+
+वह बीच में था।
+
+उसकी साँसें तेज़ थीं।
+
+उसकी तलवार लगातार चल रही थी।
+
+लेकिन दुश्मन भी पूरी ताकत से लड़ रहा था।
+
+एक वार उसके कंधे पर पड़ा।
+
+वह डगमगाया।
+
+फिर भी…
+
+वह रुका नहीं।
+
+“यह जंगल… हमारा है!” वह गरजा।
+
+और फिर—
+
+अंतिम संघर्ष।
+
+घंटों तक युद्ध चलता रहा।
+
+फिर—
+
+एक क्षण आया।
+
+जब दुश्मन की पंक्तियाँ टूट गईं।
+
+वे भागने लगे।
+
+जंगल फिर शांत हो गया।
+
+---
+
+युद्ध समाप्त हुआ।
+
+वह एक पेड़ के सहारे खड़ा था।
+
+उसकी साँसें भारी थीं।
+
+उसका शरीर घावों से भरा था।
+
+उसने चारों ओर देखा—
+
+जंगल… वही खामोश… वही अडिग…
+
+उसने धीमे से कहा,
+“हमने… इसे बचा लिया…”
+
+और फिर—
+
+वह धीरे-धीरे नीचे बैठ गया।
+
+उसकी आँखें बंद हो गईं।
+
+---
+
+आज भी बांसवाड़ा के जंगल वैसे ही खड़े हैं।
+
+घने… रहस्यमय… अजेय…
+
+जब हवा पत्तों से टकराती है—
+
+तो लगता है जैसे कोई फुसफुसा रहा हो—
+
+कदमों की…
+तलवारों की…
+और उस युद्ध की…
+
+जो दिखाई नहीं देता…
+
+लेकिन जीतता है।
+
+बांसवाड़ा…
+
+आज भी यह सिखाता है—
+
+कि जब प्रकृति तुम्हारे साथ हो…
+
+तो तुम रक्षा नहीं करते…
+
+तुम हमला करते हो।
+
+और यही—एक सच्चे योद्धा की पहचान है।
+`
     ],
-    coverImage: { src: '/images/legends/banswara-forest.jpg', alt: 'A thick forest at the edge of a wide plain.' }
+    coverImage: { src: '/images/dynasties/places/mewar.jpg', alt: 'A thick forest at the edge of a wide plain.' }
   },
   {
     id: 'battle-bhilwara-plains',
@@ -1693,11 +42170,309 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Bhilwara Plains',
     story: [
-      'The plains of Bhilwara were the agricultural heart of Mewar. This battle was a fierce struggle for control of this vital resource.',
-      'The Rajput forces used the wide, open spaces to launch a series of devastating cavalry charges, eventually driving the invading army from the plains.',
-      'The legend of the Bhilwara Plains is a story of the importance of protecting the land that feeds the people and the courage of those who fought for it.'
+      `भीलवाड़ा के मैदान…
+जहाँ धरती केवल रेत नहीं थी—वह अन्न थी, जीवन था, और मेवाड़ की धड़कन थी।
+यहाँ खेत लहराते थे, जैसे हर फसल एक वचन हो—कि यह भूमि अपने लोगों को जीवित रखेगी।
+
+और यही कारण था कि इस भूमि पर तलवारें बार-बार उठती थीं।
+क्योंकि जो भी इन मैदानों को जीतता… वह भूख और जीवन दोनों पर अधिकार पा लेता।
+
+---
+
+एक किसान के घर जन्मा वह बालक…
+जिसकी हथेली में पहली बार तलवार नहीं, मिट्टी आई थी।
+
+उसकी माँ ने उसे गोद में लेकर कहा,
+“यह धरती हमारी माँ है… और एक दिन तू इसकी रक्षा करेगा।”
+
+उसका पिता खेत में हल चलाता था…
+लेकिन उसके कंधे पर तलवार भी रहती थी।
+
+एक दिन बालक ने पूछा,
+“पिता… हम खेत में काम करते हैं… फिर लड़ते क्यों हैं?”
+
+पिता ने मिट्टी को हाथ में लेकर कहा,
+“क्योंकि बेटा… यह मिट्टी ही हमें जीने देती है… और इसे बचाना ही हमारा धर्म है।”
+
+उस दिन से बालक ने समझ लिया—यह युद्ध भूमि के लिए होगा।
+
+---
+
+बचपन से ही उसका जीवन दो दिशाओं में बहता रहा।
+
+सुबह—खेतों में मेहनत।
+शाम—घुड़सवारी और तलवार का अभ्यास।
+
+वह जानता था—एक दिन उसे इस धरती के लिए खड़ा होना पड़ेगा।
+
+उसके गुरु ने कहा,
+“मैदानों का युद्ध तेज़ होता है… और घातक भी। यहाँ जो पहले टूटता है… वही हारता है।”
+
+बालक ने सिर झुका लिया।
+
+उसकी आँखों में अब एक उद्देश्य था।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और अब भीलवाड़ा के मैदान उसकी जिम्मेदारी थे।
+
+उधर, एक विशाल सेना इन मैदानों की ओर बढ़ रही थी।
+
+उन्हें पता था—यह केवल भूमि नहीं… यह अन्न है… जीवन है।
+
+---
+
+पहला युद्ध सुबह हुआ।
+
+दूर से धूल का गुबार उठता दिखाई दिया।
+
+दुश्मन की सेना आगे बढ़ रही थी।
+
+संख्या में अधिक… हथियारों से लैस…
+
+उसने अपने घुड़सवारों को देखा।
+
+कम संख्या… लेकिन दृढ़।
+
+“आज… हम अपनी धरती के लिए लड़ेंगे,” उसने कहा।
+
+---
+
+नगाड़े बजे।
+
+घोड़े दौड़े।
+
+और फिर—
+
+पहला धावा।
+
+राठौड़ और मेवाड़ी घुड़सवार सीधे दुश्मन की ओर टूट पड़े।
+
+धरती काँपी।
+
+खेतों के बीच धूल उठी।
+
+तलवारें टकराईं।
+
+भाले गड़े।
+
+दुश्मन चौंक गया।
+
+उन्हें उम्मीद नहीं थी कि किसान ऐसे योद्धा बन सकते हैं।
+
+वह सबसे आगे था।
+
+उसकी तलवार हर वार में सटीक थी।
+
+कुछ ही पलों में दुश्मन की पहली पंक्ति टूट गई।
+
+पहला युद्ध जीत लिया गया।
+
+---
+
+लेकिन दुश्मन पीछे नहीं हटा।
+
+वे और बड़ी सेना लेकर लौटे।
+
+इस बार उन्होंने मैदान में अपनी पंक्तियाँ मजबूत कर लीं।
+
+तोपें आगे… पैदल सेना पीछे…
+
+“वे तैयार हैं,” एक योद्धा बोला।
+
+वह मुस्कुराया।
+
+“तो हम उन्हें तैयार होने का मौका नहीं देंगे।”
+
+---
+
+उसने अपनी सेना को तीन भागों में बाँटा।
+
+“पहला धावा केवल भ्रम होगा,” उसने कहा,
+“असली वार बाद में।”
+
+युद्ध शुरू हुआ।
+
+पहला दल सीधे टकराया।
+
+दुश्मन ने पूरी ताकत वहीं लगा दी।
+
+और तभी—
+
+दूसरा दल किनारे से टूटा।
+
+तीसरा पीछे से।
+
+चारों ओर से हमला।
+
+दुश्मन भ्रमित हो गया।
+
+“ये हर दिशा से आ रहे हैं!” एक सैनिक चिल्लाया।
+
+वह हँसा।
+
+“क्योंकि यह हमारी धरती है।”
+
+दूसरा युद्ध भी जीत लिया गया।
+
+---
+
+लेकिन तीसरा और अंतिम युद्ध सबसे कठिन था।
+
+इस बार दुश्मन ने सब कुछ दाँव पर लगा दिया।
+
+वे पूरे मैदान को जीतना चाहते थे।
+
+यह निर्णायक संघर्ष था।
+
+---
+
+उसने अपनी सेना को देखा।
+
+थके हुए चेहरे…
+लेकिन आँखों में वही ज्वाला।
+
+वह आगे बढ़ा।
+
+“आज… हम केवल लड़ेंगे नहीं… हम अपनी धरती को बचाएँगे,” उसने कहा।
+
+---
+
+नगाड़े बजे।
+
+घोड़े हिनहिनाए।
+
+और फिर—
+
+अंतिम धावा।
+
+हजारों घोड़े एक साथ दौड़े।
+
+धरती काँपी।
+
+खेतों की मिट्टी उड़ने लगी।
+
+दुश्मन की सेना सामने थी।
+
+तोपें गरजीं।
+
+गोलियाँ चलीं।
+
+कुछ योद्धा गिरे…
+
+लेकिन—
+
+कोई नहीं रुका।
+
+राठौड़ और मेवाड़ी सेना सीधे उनकी पंक्तियों में घुस गई।
+
+तलवारें टकराईं।
+
+चीखें गूँजीं।
+
+पूरा मैदान एक भयंकर युद्धभूमि बन गया।
+
+वह बीचों-बीच था।
+
+उसकी साँसें भारी थीं।
+
+उसकी तलवार खून से भीग चुकी थी।
+
+एक दुश्मन सेनापति उसके सामने आया।
+
+“यह भूमि अब हमारी है!” वह चिल्लाया।
+
+उसने शांत स्वर में कहा,
+“यह भूमि… हमें जन्म देती है… इसे कोई छीन नहीं सकता।”
+
+और उसकी तलवार ने वार किया।
+
+सेनापति गिर पड़ा।
+
+लेकिन उसी क्षण—
+
+एक भाला उसके सीने में लगा।
+
+वह डगमगाया।
+
+घोड़ा भी रुक गया।
+
+चारों ओर युद्ध चल रहा था।
+
+उसने नीचे देखा… खून बह रहा था।
+
+फिर भी…
+
+उसने अपनी तलवार उठाई।
+
+“धावा… मत रोकना…” उसने कहा।
+
+और फिर—
+
+उसने आखिरी बार अपने घोड़े को आगे बढ़ाया।
+
+एक अंतिम वार।
+
+और फिर—
+
+वह गिर पड़ा।
+
+---
+
+लेकिन धावा नहीं रुका।
+
+उसकी सेना आगे बढ़ती रही।
+
+और अंततः—
+
+दुश्मन की पंक्तियाँ टूट गईं।
+
+वे भागने लगे।
+
+भीलवाड़ा बच गया।
+
+---
+
+युद्ध समाप्त हुआ।
+
+धूल बैठ गई।
+
+खामोशी छा गई।
+
+उसका शरीर मैदान पर पड़ा था।
+
+उसके हाथ में अब भी मिट्टी थी।
+
+जैसे वह उसे छोड़ना नहीं चाहता था।
+
+---
+
+आज भी भीलवाड़ा के मैदान हरे-भरे हैं।
+
+फसलें लहराती हैं।
+
+और हवा में एक कहानी गूँजती है—
+
+उस युद्ध की…
+
+उस बलिदान की…
+
+और उस प्रेम की—
+
+जो एक योद्धा को अपनी भूमि के लिए मरने तक मजबूर कर देता है।
+
+भीलवाड़ा…
+
+आज भी यह सिखाता है—
+
+कि जो भूमि हमें जीवन देती है…
+
+उसकी रक्षा करना ही सबसे बड़ा धर्म है।
+`
     ],
-    coverImage: { src: '/images/legends/bhilwara-plains.jpg', alt: 'A wide, fertile plain under a clear blue sky.' }
+    coverImage: { src: '/images/dynasties/places/mewar.jpg', alt: 'A wide, fertile plain under a clear blue sky.' }
   },
   {
     id: 'defense-chappan-region',
@@ -1707,11 +42482,338 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Chappan, Mewar',
     story: [
-      'The Chappan region, with its fifty-six villages, was a vital part of the kingdom of Mewar. Its defense involved a combination of village militias and light cavalry.',
-      'The legend tells of the many times the region was raided and the many times its people stood together to repel the invaders, their spirit as enduring as the land itself.',
-      'The defense of the Chappan region is a story of the importance of community and the courage of those who protect their homes and their neighbors.'
+      `छप्पन…
+मेवाड़ की धरती का वह टुकड़ा, जहाँ पचपन नहीं… पूरे छप्पन गाँव साँस लेते थे—एक साथ, एक धड़कन में।
+यह कोई एक किला नहीं था, न कोई एक सेना… यह एक जीवित शरीर था, जिसमें हर गाँव एक नस था, हर खेत एक जीवन, और हर घर एक किला।
+
+यहाँ युद्ध केवल सैनिक नहीं लड़ते थे…
+यहाँ युद्ध पूरा समाज लड़ता था।
+
+---
+
+एक छोटे से गाँव में, जहाँ मिट्टी की खुशबू हवा में घुली रहती थी, वहीं एक बालक का जन्म हुआ।
+
+उसके घर के बाहर कोई शाही ध्वज नहीं लहरा रहा था…
+बस हल की रेखाएँ थीं, और दूर कहीं घोड़े की टाप की आवाज़।
+
+उसका पिता कोई राजा नहीं था…
+वह एक किसान था… और जब जरूरत पड़ती—एक योद्धा।
+
+एक दिन बालक ने पूछा,
+“पिता… आप खेत में काम करते हैं… फिर तलवार क्यों रखते हैं?”
+
+उसके पिता ने हल को जमीन में गाड़ते हुए कहा,
+“क्योंकि बेटा… यह धरती तभी हमारी रहती है… जब हम उसे बचा सकें।”
+
+उस दिन से बालक समझ गया—यहाँ हर हाथ तलवार उठाने के लिए भी बना है।
+
+---
+
+बचपन से ही उसका जीवन दो हिस्सों में बँटा था।
+
+सुबह—खेत।
+शाम—अभ्यास।
+
+वह हल भी चलाता… और तलवार भी।
+
+घोड़े पर बैठता… और फिर बैलों के साथ चलता।
+
+उसके गुरु ने एक दिन कहा,
+“छप्पन का योद्धा अलग होता है… वह केवल लड़ता नहीं… वह जीता है, बनाता है, और बचाता है।”
+
+बालक ने सिर हिलाया।
+
+वह धीरे-धीरे समझ रहा था—यह केवल युद्ध नहीं, यह जीवन है।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और अब गाँवों की रक्षा उसकी जिम्मेदारी थी।
+
+छप्पन क्षेत्र समृद्ध था।
+खेत हरे थे… पानी था… और यही कारण था कि दुश्मन बार-बार यहाँ आता था।
+
+पहला हमला अचानक हुआ।
+
+सुबह का समय था।
+
+लोग खेतों में थे।
+
+अचानक—
+
+“हमला!”
+
+घंटियाँ बज उठीं।
+
+महिलाएँ बच्चों को घरों में ले गईं।
+
+पुरुषों ने हल छोड़ा… और तलवार उठा ली।
+
+वह घोड़े पर सवार होकर आगे बढ़ा।
+
+“सब गाँव तैयार रहें!” उसने आदेश दिया।
+
+---
+
+दुश्मन तेजी से आगे बढ़ रहा था।
+
+उन्हें लगा—यहाँ कोई संगठित सेना नहीं होगी।
+
+लेकिन वे गलत थे।
+
+हर गाँव एक मोर्चा था।
+
+जैसे ही दुश्मन एक गाँव में घुसा—
+
+घरों के पीछे से योद्धा निकले।
+
+छतों से तीर चले।
+
+गली-गली में लड़ाई शुरू हो गई।
+
+“जोहार!”
+
+चीखें गूँज उठीं।
+
+वह सबसे आगे था।
+
+उसकी तलवार हर वार में सटीक थी।
+
+लेकिन यह केवल युद्ध नहीं था—
+
+यह घर की रक्षा थी।
+
+कुछ ही समय में दुश्मन पीछे हटने लगा।
+
+पहला हमला विफल हुआ।
+
+---
+
+लेकिन यह केवल शुरुआत थी।
+
+कुछ महीनों बाद—
+
+दूसरा आक्रमण।
+
+इस बार दुश्मन और भी बड़ी सेना लेकर आया।
+
+उन्होंने सोचा—एक-एक गाँव को तोड़ देंगे।
+
+लेकिन छप्पन एक था।
+
+---
+
+उसने योजना बनाई।
+
+“हम उन्हें अलग-अलग नहीं… एक साथ हराएँगे,” उसने कहा।
+
+उसने संदेश भेजे—
+
+हर गाँव से घुड़सवार बुलाए गए।
+
+हल्की घुड़सवार सेना तैयार हुई।
+
+---
+
+युद्ध मैदान में हुआ।
+
+खुला क्षेत्र।
+
+दुश्मन संख्या में अधिक था।
+
+लेकिन छप्पन के योद्धा एक साथ खड़े थे।
+
+“आज… हम अपने लिए नहीं… एक-दूसरे के लिए लड़ेंगे,” उसने कहा।
+
+नगाड़े बजे।
+
+घोड़े दौड़े।
+
+और फिर—
+
+धावा।
+
+हल्की घुड़सवार सेना तेजी से आगे बढ़ी।
+
+वे सीधे टकराए नहीं…
+
+वे घूमे… काटे… और हट गए।
+
+फिर दूसरी दिशा से हमला।
+
+दुश्मन भ्रमित हो गया।
+
+“ये हर जगह हैं!” एक सैनिक चिल्लाया।
+
+वह मुस्कुराया।
+
+यही उसकी योजना थी।
+
+धीरे-धीरे दुश्मन कमजोर पड़ने लगा।
+
+और फिर—
+
+अंतिम हमला।
+
+इस बार पूरा दल एक साथ टूटा।
+
+घोड़े गरजे।
+
+तलवारें बरसीं।
+
+दुश्मन की पंक्तियाँ टूट गईं।
+
+दूसरा युद्ध जीत लिया गया।
+
+---
+
+लेकिन तीसरा और अंतिम युद्ध सबसे कठिन था।
+
+इस बार दुश्मन ने सब कुछ दाँव पर लगा दिया।
+
+उन्होंने पूरे क्षेत्र को घेर लिया।
+
+गाँवों के बीच संपर्क तोड़ दिया।
+
+“अब वे हमें अलग-अलग मारेंगे,” एक योद्धा बोला।
+
+वह शांत रहा।
+
+“तो हम उन्हें जोड़कर हराएँगे,” उसने कहा।
+
+---
+
+उसने एक साहसी योजना बनाई।
+
+रात के समय—
+
+छोटे-छोटे दल गाँवों से निकले।
+
+जंगलों और खेतों के रास्ते।
+
+धीरे-धीरे—
+
+वे एक जगह इकट्ठा हुए।
+
+दुश्मन को पता भी नहीं चला।
+
+---
+
+सुबह—
+
+जब दुश्मन आगे बढ़ा—
+
+उसे सामने एक विशाल दल दिखाई दिया।
+
+छप्पन के योद्धा… एक साथ।
+
+“यह कैसे…?” एक सेनापति चिल्लाया।
+
+लेकिन अब देर हो चुकी थी।
+
+---
+
+अंतिम युद्ध शुरू हुआ।
+
+नगाड़े बजे।
+
+“हर हर महादेव!”
+
+घोड़े दौड़े।
+
+तलवारें टकराईं।
+
+पूरा मैदान गूँज उठा।
+
+यह अब तक का सबसे बड़ा संघर्ष था।
+
+हर गाँव… हर योद्धा…
+
+सब एक साथ।
+
+वह बीचों-बीच था।
+
+उसकी साँसें तेज़ थीं।
+
+उसकी तलवार लगातार चल रही थी।
+
+लेकिन दुश्मन भी पूरी ताकत से लड़ रहा था।
+
+एक वार उसके सीने में लगा।
+
+वह डगमगाया।
+
+लेकिन रुका नहीं।
+
+“छप्पन… एक है…” उसने गरजकर कहा।
+
+और फिर—
+
+उसने आखिरी बार तलवार उठाई।
+
+एक अंतिम वार।
+
+दुश्मन सेनापति गिर पड़ा।
+
+और उसी क्षण—
+
+छप्पन का अंतिम धावा।
+
+दुश्मन की सेना टूट गई।
+
+वे भागने लगे।
+
+---
+
+युद्ध समाप्त हुआ।
+
+वह जमीन पर गिर चुका था।
+
+उसके साथी उसके पास आए।
+
+“सरदार…”
+
+उसने मुश्किल से आँखें खोलीं।
+
+चारों ओर… गाँवों के लोग खड़े थे।
+
+सभी एक साथ।
+
+उसने मुस्कुराया।
+
+“हम… एक हैं…” उसने धीमे से कहा।
+
+और उसकी साँसें थम गईं।
+
+---
+
+आज भी छप्पन क्षेत्र के गाँव वैसे ही खड़े हैं।
+
+हर घर… हर खेत…
+
+उस एकता की कहानी कहता है।
+
+यह केवल युद्ध की कहानी नहीं है।
+
+यह उस शक्ति की कहानी है—
+
+जो तब जन्म लेती है…
+
+जब लोग केवल अपने लिए नहीं…
+
+एक-दूसरे के लिए लड़ते हैं।
+
+छप्पन…
+
+आज भी यह सिखाता है—
+
+कि जब समुदाय एक हो जाए…
+
+तो कोई भी दुश्मन उसे तोड़ नहीं सकता।
+`
     ],
-    coverImage: { src: '/images/legends/chappan-region.jpg', alt: 'A group of small villages nestled among the hills.' }
+    coverImage: { src: '/images/dynasties/places/mewar.jpg', alt: 'A group of small villages nestled among the hills.' }
   },
   {
     id: 'guerrilla-hills',
@@ -1721,11 +42823,371 @@ export const allLegends: Legend[] = [
     era: '16th Century',
     location: 'Aravalli Hills',
     story: [
-      'The Aravallis provided the perfect terrain for guerrilla warfare. This legend celebrates the hit-and-run tactics used by Rajput forces to harass and demoralize invading armies.',
-      'The story follows a group of warriors who moved like shadows through the hills, attacking supply lines and isolated outposts before vanishing back into the forest.',
-      'The hill guerrilla is a symbol of the Rajput ability to adapt to their environment and use it to neutralize the enemy’s superior numbers.'
+      `अरावली…
+पत्थरों की वह अनंत शृंखला, जो धरती की रीढ़ की तरह उत्तर से दक्षिण तक फैली हुई थी।
+यहाँ युद्ध मैदानों की तरह नहीं गरजते थे… यहाँ युद्ध फुसफुसाते थे।
+यहाँ तलवारें खुले में नहीं चमकती थीं… वे छाया में चलती थीं।
+
+और इसी छाया में जन्म लेती थी—गुरिल्ला युद्ध की वह कला, जिसने कई विशाल सेनाओं को घुटनों पर ला दिया।
+
+---
+
+अरावली की एक गहरी घाटी में, जहाँ घने वृक्षों के बीच सूरज की रोशनी भी पूरी तरह नहीं पहुँच पाती थी, वहीं एक बालक का जन्म हुआ।
+
+न कोई नगाड़ा… न कोई उत्सव…
+बस जंगल की खामोशी… और दूर कहीं एक शिकारी पक्षी की पुकार।
+
+उसका पिता कोई राजा नहीं था…
+वह एक छाया था—एक ऐसा योद्धा, जो दिखता नहीं था, लेकिन हर जगह मौजूद रहता था।
+
+एक दिन बालक ने पूछा,
+“पिता… आप दुश्मनों से खुलकर क्यों नहीं लड़ते?”
+
+उसके पिता ने मुस्कुराते हुए कहा,
+“क्योंकि बेटा… जब दुश्मन ताकत में बड़ा हो… तो उसे उसकी ही ताकत से हराया जाता है।”
+
+“कैसे?”
+
+“उसे थकाकर… उसे डराकर… और उसे कभी चैन से सोने न देकर।”
+
+उस दिन से बालक ने समझ लिया—उसका युद्ध अलग होगा।
+
+---
+
+उसका बचपन तलवार के साथ नहीं… जंगल के साथ बीता।
+
+वह पेड़ों पर चढ़ना सीखता…
+पत्थरों के बीच बिना आवाज़ किए चलना सीखता…
+हवा की दिशा, पत्तों की सरसराहट, और जानवरों की हलचल से खतरे को पहचानना सीखता।
+
+उसके गुरु ने एक दिन कहा,
+“गुरिल्ला योद्धा वह नहीं होता जो सबसे तेज़ वार करता है…
+वह होता है जो सबसे सही समय पर वार करता है।”
+
+बालक ने सिर हिलाया।
+
+वह धीरे-धीरे जंगल का हिस्सा बनता जा रहा था।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और अब अरावली की छाया उसका घर थी।
+
+उधर, मैदानों में एक विशाल सेना ने प्रवेश किया था।
+वे भारी संख्या में थे… उनके पास तोपें थीं… घोड़े थे…
+
+लेकिन एक चीज़ नहीं थी—
+
+अरावली की समझ।
+
+---
+
+पहला हमला सीधे युद्ध का नहीं था।
+
+रात का समय था।
+
+दुश्मन का शिविर शांत था।
+
+अचानक—
+
+एक तीर आया।
+
+फिर दूसरा।
+
+फिर तीसरा।
+
+“हमले!”
+
+चीखें गूँज उठीं।
+
+लेकिन हमला करने वाले दिखे नहीं।
+
+कुछ ही पलों में—
+
+सब कुछ शांत।
+
+दुश्मन भ्रमित हो गया।
+
+“वे कहाँ हैं?” एक सैनिक चिल्लाया।
+
+कोई जवाब नहीं।
+
+---
+
+अगले दिन—
+
+रसद का एक दल घाटी से गुजर रहा था।
+
+अचानक—
+
+ऊपर से पत्थर गिरे।
+
+फिर—
+
+“हर हर महादेव!”
+
+छाया से योद्धा निकले।
+
+तेज़ वार… सटीक वार…
+
+कुछ ही पलों में हमला खत्म।
+
+रसद नष्ट।
+
+और फिर—
+
+वे गायब।
+
+जैसे कभी थे ही नहीं।
+
+---
+
+दुश्मन की हालत खराब होने लगी।
+
+न खाना ठीक से पहुँच रहा था…
+न आराम मिल रहा था…
+
+हर समय डर।
+
+हर समय आशंका।
+
+“ये लोग सामने क्यों नहीं आते?” एक सेनापति गरजा।
+
+लेकिन उसे समझ नहीं आया—
+
+कि यही उनकी सबसे बड़ी ताकत थी।
+
+---
+
+वह अपने दल के साथ पहाड़ियों में घूम रहा था।
+
+उसकी आँखें हर दिशा में थीं।
+
+“आज रात… मुख्य शिविर पर हमला,” उसने कहा।
+
+उसके साथी चौंके।
+
+“वह बहुत जोखिम भरा है।”
+
+वह मुस्कुराया,
+“जोखिम ही हमारी ताकत है।”
+
+---
+
+रात गहरी हुई।
+
+आसमान में बादल थे।
+
+चाँद छिपा हुआ था।
+
+सब कुछ अंधेरे में डूबा हुआ।
+
+और फिर—
+
+छाया चलने लगी।
+
+वे धीरे-धीरे नीचे उतरे।
+
+दुश्मन का शिविर सामने था।
+
+पहरेदार थे… लेकिन उनींदे।
+
+एक इशारा।
+
+और—
+
+पहला वार।
+
+पहरेदार गिरा।
+
+फिर दूसरा।
+
+फिर तीसरा।
+
+और फिर—
+
+“जोहार!”
+
+पूरा हमला शुरू।
+
+तंबू जल उठे।
+
+घोड़े बेकाबू हो गए।
+
+चीखें गूँज उठीं।
+
+दुश्मन समझ ही नहीं पाया—हमला कहाँ से हुआ।
+
+वह खुद सबसे आगे था।
+
+उसकी तलवार चुपचाप चल रही थी।
+
+कोई शोर नहीं…
+केवल मौत।
+
+कुछ ही पलों में—
+
+वे वापस पहाड़ियों में।
+
+दुश्मन पीछे भागा…
+
+लेकिन कुछ नहीं मिला।
+
+सिर्फ अंधेरा।
+
+---
+
+दिन बीतते गए।
+
+हमले बढ़ते गए।
+
+दुश्मन कमजोर होता गया।
+
+उनकी संख्या अब भी अधिक थी…
+
+लेकिन उनका मनोबल टूट चुका था।
+
+एक सैनिक ने डरते हुए कहा,
+“ये लोग इंसान नहीं… ये भूत हैं…”
+
+---
+
+लेकिन अंतिम युद्ध अभी बाकी था।
+
+दुश्मन ने तय किया—
+
+अब वे पहाड़ियों में घुसेंगे।
+
+वे सीधे अरावली में चढ़ आए।
+
+यह वही गलती थी…
+
+जिसका इंतजार था।
+
+---
+
+उसने अपनी सेना को ऊँचाइयों पर तैनात किया।
+
+संकीर्ण रास्ते… खड़ी चढ़ाई…
+
+दुश्मन ऊपर बढ़ रहा था।
+
+धीरे… सावधानी से…
+
+लेकिन—
+
+वे अनजान थे।
+
+और यही उनकी कमजोरी थी।
+
+---
+
+जैसे ही वे सबसे संकरे हिस्से में पहुँचे—
+
+संकेत मिला।
+
+और फिर—
+
+आसमान टूट पड़ा।
+
+पत्थर गिरे।
+
+तीर बरसे।
+
+और फिर—
+
+“हर हर महादेव!”
+
+चारों ओर से हमला।
+
+दुश्मन फँस चुका था।
+
+न आगे… न पीछे…
+
+चीखें घाटियों में गूँज उठीं।
+
+वह सबसे ऊपर खड़ा था।
+
+उसकी आँखों में एक ठंडी चमक थी।
+
+“यही है अरावली,” उसने कहा,
+“यहाँ संख्या नहीं… समझ जीतती है।”
+
+---
+
+युद्ध भयानक था।
+
+दुश्मन ने पूरी ताकत झोंक दी।
+
+लेकिन हर कदम पर उन्हें रोक दिया गया।
+
+हर मोड़ पर एक नया हमला।
+
+हर चट्टान के पीछे एक योद्धा।
+
+और फिर—
+
+एक क्षण आया।
+
+जब दुश्मन की पंक्तियाँ टूट गईं।
+
+वे भागने लगे।
+
+अरावली फिर शांत हो गई।
+
+---
+
+युद्ध समाप्त हुआ।
+
+वह चट्टान पर बैठा था।
+
+उसकी साँसें भारी थीं।
+
+उसकी तलवार खून से भीगी हुई थी।
+
+उसने नीचे घाटी की ओर देखा।
+
+खामोशी।
+
+फिर उसने आँखें बंद कीं।
+
+“हमने… उन्हें सिखा दिया…” उसने धीरे से कहा।
+
+लेकिन उसके घाव गहरे थे।
+
+वह धीरे-धीरे नीचे झुका…
+
+और वहीं स्थिर हो गया।
+
+---
+
+आज भी अरावली की पहाड़ियों में जब हवा चलती है—
+
+तो पत्तों की सरसराहट में एक आवाज़ सुनाई देती है।
+
+हल्की… लेकिन स्पष्ट—
+
+कदमों की…
+
+छाया की…
+
+और उस युद्ध की—
+
+जो दिखता नहीं…
+
+लेकिन जीतता है।
+
+अरावली की गुरिल्ला लड़ाई…
+
+आज भी यह सिखाती है—
+
+कि जब धरती तुम्हारा साथ देती है…
+
+तो कोई भी सेना तुम्हें हरा नहीं सकती।
+`
     ],
-    coverImage: { src: '/images/legends/hill-guerrilla.jpg', alt: 'A group of warriors moving silently through a thick forest.' }
+    coverImage: { src: '/images/dynasties/places/mewar.jpg', alt: 'A group of warriors moving silently through a thick forest.' }
   },
   {
     id: 'cavalry-plains',
@@ -1735,11 +43197,358 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Central Rajputana',
     story: [
-      'While the hills were for guerrilla warfare, the plains were the domain of the heavy cavalry. This legend celebrates the thunderous charges that broke enemy lines.',
-      'The story follows a massive cavalry charge where the speed and the power of the Marwari horses overwhelmed the enemy, proving that the Rajput warrior was as deadly on the plains as he was in the hills.',
-      'The cavalry of the plains is a symbol of the martial prowess and the equestrian culture of Rajputana.'
+      `मैदान…
+जहाँ धरती खुली होती है, आकाश दूर तक झुका हुआ लगता है, और जहाँ युद्ध छुपकर नहीं… गरजकर लड़ा जाता है।
+
+अगर पहाड़ों में तलवार छाया बनकर चलती है…
+तो मैदानों में वही तलवार बिजली बन जाती है।
+
+और इस बिजली का नाम था—राठौड़ों का अश्वदल।
+
+---
+
+राजपुताना के एक विशाल दुर्ग के भीतर, जहाँ दीवारों से टकराकर घोड़ों की टापें गूँजती थीं, वहीं एक बालक का जन्म हुआ।
+
+उसकी पहली आवाज़ भी ऐसी थी जैसे रणभूमि में नगाड़ा बजा हो।
+
+उसके जन्म के साथ ही अस्तबल में खड़े घोड़े बेचैन हो उठे—मानो वे जान गए हों कि उनका स्वामी आ चुका है।
+
+उसके पिता एक महान घुड़सवार सेनापति थे।
+उन्होंने बालक को गोद में उठाकर कहा,
+“तू तलवार से नहीं… अपने घोड़े से पहचाना जाएगा।”
+
+---
+
+बचपन से ही उसका जीवन घोड़ों के बीच बीता।
+
+जहाँ दूसरे बालक तलवार उठाना सीखते थे, वह पहले घोड़े की चाल समझता था।
+उसने सीखा—घोड़े की साँस कब तेज़ होती है, उसका डर कब बढ़ता है, और कब वह तूफ़ान बन सकता है।
+
+पाँच वर्ष की आयु में उसे पहली बार एक मारवाड़ी घोड़े पर बैठाया गया।
+
+घोड़ा उछला… दौड़ा… और बालक गिर पड़ा।
+
+लेकिन वह रोया नहीं।
+
+वह उठा… फिर चढ़ा… और इस बार उसने लगाम कसकर पकड़ी।
+
+उसके गुरु मुस्कुराए,
+“यही है अश्वारोही… जो गिरकर भी दौड़ना सीखता है।”
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और उसकी पहचान अब केवल एक योद्धा की नहीं, बल्कि एक घुड़सवार सेनापति की थी।
+
+उसकी सेना… उसके घोड़े… उसकी गति—
+
+यह सब मिलकर एक ही चीज़ बनते थे—धावा।
+
+उधर राजपुताना के मैदानों में खतरा बढ़ रहा था।
+
+एक विशाल सेना—भारी पैदल सैनिकों और तोपों के साथ—मैदानों की ओर बढ़ रही थी।
+
+दरबार में चिंता थी।
+
+“वे संख्या में बहुत अधिक हैं,” एक सरदार बोला,
+“और उनके पास तोपें भी हैं।”
+
+वह शांत खड़ा रहा।
+
+फिर धीरे से बोला,
+“तो हम उन्हें सोचने का मौका नहीं देंगे।”
+
+---
+
+उसने अपनी सेना को मैदान में उतारा।
+
+सूरज उग रहा था।
+
+धूल हल्की-हल्की उड़ रही थी।
+
+उसने अपने घुड़सवारों को देखा—हर एक तैयार, हर एक उत्साहित।
+
+“आज…” उसने कहा,
+“हम दिखाएँगे कि मैदान किसका है।”
+
+---
+
+पहला युद्ध शुरू हुआ।
+
+दुश्मन ने अपनी पंक्तियाँ सजा लीं।
+
+तोपें तैयार थीं।
+
+पैदल सैनिक आगे बढ़ रहे थे।
+
+लेकिन उन्होंने जो नहीं देखा—
+
+वह था धूल का वह गुबार… जो धीरे-धीरे बढ़ रहा था।
+
+फिर—
+
+नगाड़े बजे।
+
+और राठौड़ों का धावा शुरू हुआ।
+
+हजारों घोड़े एक साथ दौड़े।
+
+धरती काँप उठी।
+
+आसमान धूल से भर गया।
+
+“जोहार!”
+
+घोड़ों की टापें… तलवारों की चमक… और एक साथ उठती गर्जना—
+
+यह कोई सेना नहीं थी…
+
+यह तूफ़ान था।
+
+दुश्मन ने तोपें चलाईं।
+
+गोलियाँ चलीं।
+
+कुछ घोड़े गिरे… कुछ योद्धा भी…
+
+लेकिन गति नहीं रुकी।
+
+राठौड़ सेना सीधे उनकी पंक्तियों में घुस गई।
+
+तलवारें टकराईं।
+
+भाले गड़े।
+
+दुश्मन की पंक्तियाँ टूटने लगीं।
+
+वह सबसे आगे था।
+
+उसकी तलवार बिजली की तरह चल रही थी।
+
+हर वार… सटीक।
+
+हर वार… घातक।
+
+कुछ ही पलों में दुश्मन की पहली पंक्ति टूट गई।
+
+पहला युद्ध जीत लिया गया।
+
+---
+
+लेकिन असली परीक्षा अभी बाकी थी।
+
+दूसरे युद्ध में दुश्मन तैयार था।
+
+उन्होंने अपनी पंक्तियाँ और मजबूत कर ली थीं।
+
+घोड़े के सामने भाले, पीछे तोपें…
+
+“वे हमें रोकना चाहते हैं,” एक सैनिक बोला।
+
+वह मुस्कुराया।
+
+“तो हम उन्हें तोड़ देंगे।”
+
+---
+
+इस बार उसने रणनीति बदली।
+
+उसने अपनी सेना को तीन भागों में बाँटा।
+
+“पहला धावा केवल भ्रम होगा,” उसने कहा,
+“असली वार बाद में होगा।”
+
+युद्ध शुरू हुआ।
+
+पहला दल सीधे दुश्मन पर टूटा।
+
+दुश्मन ने पूरी ताकत वहीं लगा दी।
+
+और तभी—
+
+दूसरा दल उनके किनारे से आया।
+
+तीसरा पीछे से।
+
+चारों ओर से घुड़सवार।
+
+दुश्मन घिर चुका था।
+
+“ये हर दिशा से आ रहे हैं!” एक सेनापति चिल्लाया।
+
+वह हँसा।
+
+“क्योंकि मैदान हमारा है।”
+
+कुछ ही समय में दुश्मन की सेना टूट गई।
+
+दूसरा युद्ध भी जीत लिया गया।
+
+---
+
+अब अंतिम युद्ध शेष था।
+
+यह निर्णायक था।
+
+दुश्मन ने अपनी सारी ताकत झोंक दी थी।
+
+मैदान विशाल था।
+
+कोई छुपने की जगह नहीं।
+
+केवल गति… और शक्ति।
+
+उसने अपनी सेना को देखा।
+
+थके हुए… लेकिन तैयार।
+
+वह आगे बढ़ा।
+
+“आज…” उसने कहा,
+“हम इतिहास नहीं पढ़ेंगे… हम उसे लिखेंगे।”
+
+---
+
+नगाड़े बजे।
+
+घोड़े हिनहिनाए।
+
+और फिर—
+
+अंतिम धावा।
+
+हजारों घोड़े एक साथ दौड़े।
+
+धरती काँपी।
+
+आसमान धूल से भर गया।
+
+यह अब तक का सबसे बड़ा धावा था।
+
+दुश्मन तैयार था।
+
+तोपें गरजीं।
+
+गोलियाँ चलीं।
+
+घोड़े गिरे।
+
+लेकिन—
+
+कोई नहीं रुका।
+
+राठौड़ सेना सीधे उनकी पंक्तियों में घुस गई।
+
+यह टक्कर भयानक थी।
+
+तलवारें टकराईं।
+
+घोड़े भिड़े।
+
+चीखें गूँजीं।
+
+पूरा मैदान एक भयंकर युद्धभूमि बन गया।
+
+वह बीचों-बीच था।
+
+उसकी साँसें भारी थीं।
+
+उसकी तलवार खून से भीग चुकी थी।
+
+एक दुश्मन सेनापति उसके सामने आया।
+
+“तुम्हारा अंत यहीं है!” वह गरजा।
+
+उसने शांत स्वर में कहा,
+“अंत… नहीं… आरंभ।”
+
+और उसकी तलवार ने वार किया।
+
+सेनापति गिर पड़ा।
+
+लेकिन उसी क्षण—
+
+एक भाला उसके सीने में आ लगा।
+
+वह रुक गया।
+
+घोड़ा भी थम गया।
+
+चारों ओर युद्ध चल रहा था।
+
+उसने नीचे देखा… खून बह रहा था।
+
+फिर भी…
+
+उसने अपनी तलवार उठाई।
+
+“धावा… मत रोकना…” उसने कहा।
+
+और फिर—
+
+उसने आखिरी बार अपने घोड़े को आगे बढ़ाया।
+
+एक अंतिम वार।
+
+और फिर—
+
+वह गिर पड़ा।
+
+---
+
+लेकिन धावा नहीं रुका।
+
+उसकी सेना आगे बढ़ती रही।
+
+और अंततः—
+
+दुश्मन की पंक्तियाँ टूट गईं।
+
+वे भागने लगे।
+
+मैदान जीत लिया गया।
+
+---
+
+युद्ध समाप्त हुआ।
+
+धूल बैठ गई।
+
+खामोशी छा गई।
+
+उसका शरीर मैदान पर पड़ा था।
+
+उसके घोड़े ने उसके पास खड़े होकर हिनहिनाया।
+
+सैनिक उसके पास आए।
+
+“सरदार…”
+
+लेकिन अब वह नहीं था।
+
+---
+
+आज भी राजपुताना के मैदानों में जब हवा चलती है—
+
+तो लगता है जैसे घोड़ों की टापें गूँज रही हों।
+
+वह केवल एक युद्ध नहीं था।
+
+वह एक घोषणा थी—
+
+कि राजपूत केवल पहाड़ों में ही नहीं…
+
+मैदानों में भी तूफ़ान बनते हैं।
+
+और राठौड़ों का धावा…
+
+आज भी इतिहास की धरती पर गूँजता है—
+
+एक अमर गर्जना की तरह।
+`
     ],
-    coverImage: { src: '/images/legends/plains-cavalry.jpg', alt: 'A massive group of cavalry charging across a wide plain.' }
+    coverImage: { src: '/images/dynasties/rulers/rana-sanga.jpg', alt: 'A massive group of cavalry charging across a wide plain.' }
   },
   {
     id: 'siege-badnor',
@@ -1749,11 +43558,354 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Badnor, Mewar',
     story: [
-      'Badnor was a strategic outpost that faced the first brunt of many invasions from the north. Its defense was a critical part of the overall security of Mewar.',
-      'The legend tells of a garrison that held the fort for months, their resolve as unyielding as the stone walls that sheltered them.',
-      'The defense of Badnor is a story of the importance of frontier outposts in the survival of a kingdom and the skill of the warriors who guarded it.'
+      `बदनौर…
+मेवाड़ के उत्तर का वह पत्थरीला प्रहरी, जहाँ से हर आने वाले तूफ़ान की पहली आहट सुनाई देती थी।
+यह कोई भव्य राजधानी नहीं थी… न ही यहाँ सोने-चाँदी से सजे महल थे।
+यहाँ केवल दीवारें थीं—मोटी, ठंडी, और कठोर… ठीक वैसे ही जैसे उन लोगों के हृदय, जो इन्हें बचाने के लिए जीते थे।
+
+यही वह स्थान था, जहाँ हर आक्रमण सबसे पहले टकराता था।
+और अगर बदनौर गिरता… तो मेवाड़ का द्वार खुल जाता।
+
+---
+
+उस किले की छाया में एक बालक ने जन्म लिया।
+
+कोई उत्सव नहीं… कोई शोर नहीं… बस प्रहरी की गूँजती आवाज़—
+“सतर्क रहो!”
+
+उसका पिता इस किले का एक साधारण सैनिक था—लेकिन उसकी आँखों में वह गर्व था, जो केवल सीमाओं पर खड़े लोगों में होता है।
+
+एक दिन बालक ने पूछा,
+“पिता… हम यहाँ क्यों रहते हैं? यहाँ तो हर समय खतरा है।”
+
+उसके पिता ने मुस्कुराकर कहा,
+“क्योंकि बेटा… अगर हम यहाँ नहीं होंगे, तो खतरा वहाँ पहुँच जाएगा… जहाँ लोग चैन से सोते हैं।”
+
+उस दिन से बालक समझ गया—उसका जीवन आसान नहीं होगा।
+
+---
+
+उसका बचपन खेल में नहीं, तैयारी में बीता।
+
+सुबह होते ही वह किले की दीवारों पर दौड़ता।
+पत्थरों की खुरदरी सतह पर संतुलन बनाना, तीर चलाना, तलवार घुमाना—सब कुछ उसने यहीं सीखा।
+
+लेकिन सबसे महत्वपूर्ण चीज़ जो उसने सीखी—वह थी धैर्य।
+
+“बदनौर का युद्ध एक दिन में नहीं जीतते,” उसके गुरु ने कहा,
+“यह महीनों चलता है… और जीतता वही है जो टूटता नहीं।”
+
+बालक ने सिर हिलाया।
+
+वह जानता था—यहाँ हर साँस एक परीक्षा है।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और अब बदनौर की रक्षा उसकी जिम्मेदारी थी।
+
+उधर उत्तर से खतरा बढ़ रहा था।
+
+एक दिन सुबह-सुबह प्रहरी दौड़ता हुआ आया—
+
+“सरदार! उत्तर दिशा से विशाल सेना बढ़ रही है!”
+
+वह तुरंत बुर्ज पर चढ़ा।
+
+दूर… धूल का एक विशाल बादल उठ रहा था।
+
+हजारों सैनिक… भारी तोपें… घुड़सवार…
+
+उसने गहरी साँस ली।
+
+“वे यहाँ रुकेंगे नहीं,” उसने कहा,
+“वे हमें तोड़कर आगे बढ़ना चाहते हैं।”
+
+---
+
+पहला हमला उसी दिन शुरू हुआ।
+
+तोपें गरजीं।
+
+दीवारों पर पत्थर टूटने लगे।
+
+दुश्मन ने सीढ़ियाँ लगाईं।
+
+लेकिन बदनौर के सैनिक तैयार थे।
+
+ऊपर से तीरों की बारिश।
+गरम तेल उंडेला गया।
+हर सीढ़ी को धकेल दिया गया।
+
+“जोहार!”
+
+चीखें गूँज उठीं।
+
+घंटों तक यह संघर्ष चलता रहा।
+
+सूरज सिर पर था… गर्मी बढ़ती जा रही थी…
+
+लेकिन कोई पीछे नहीं हटा।
+
+पहला हमला विफल हुआ।
+
+---
+
+लेकिन यह केवल शुरुआत थी।
+
+दुश्मन ने किले को घेर लिया।
+
+रसद के रास्ते बंद कर दिए गए।
+
+दिन बीतने लगे।
+
+पानी कम होने लगा।
+
+अनाज घटने लगा।
+
+एक सैनिक ने धीरे से कहा,
+“सरदार… कब तक?”
+
+वह शांत खड़ा रहा।
+
+“जब तक हमारी साँसें हैं,” उसने उत्तर दिया।
+
+---
+
+दूसरा चरण—घेरा।
+
+महीनों तक यह चलता रहा।
+
+किले के भीतर जीवन कठिन होता गया।
+
+पानी की हर बूंद कीमती थी।
+
+भोजन बाँटकर खाया जाता।
+
+लेकिन हिम्मत नहीं टूटी।
+
+रात के समय वह दीवारों पर घूमता—हर प्रहरी के पास जाता।
+
+“डरते हो?” वह पूछता।
+
+सैनिक सिर हिलाते,
+“नहीं, सरदार।”
+
+और वह मुस्कुरा देता।
+
+---
+
+एक रात उसने अपने विश्वस्त योद्धाओं को बुलाया।
+
+“हम केवल रक्षा नहीं करेंगे,” उसने कहा,
+“हम उन्हें चोट पहुँचाएँगे।”
+
+उसने एक योजना बनाई।
+
+रात के अंधेरे में—छोटे-छोटे दलों में—कुछ योद्धा किले से बाहर निकले।
+
+चुपचाप… बिना आवाज़ के…
+
+वे दुश्मन के शिविर तक पहुँचे।
+
+और फिर—
+
+“जोहार!”
+
+अचानक हमला।
+
+तंबू जल उठे।
+
+घोड़े बेकाबू हो गए।
+
+दुश्मन नींद से जाग भी नहीं पाया कि तलवारें उस पर टूट पड़ीं।
+
+कुछ ही पलों में राठौड़ वापस किले में लौट आए।
+
+यह केवल एक हमला नहीं था—यह संदेश था।
+
+“हम अभी जिंदा हैं।”
+
+---
+
+लेकिन तीसरा और अंतिम चरण सबसे भयानक था।
+
+दुश्मन ने पूरी ताकत झोंक दी।
+
+तोपें लगातार गरज रही थीं।
+
+दीवारों में दरारें पड़ने लगीं।
+
+एक दिन—
+
+दीवार का एक हिस्सा टूट गया।
+
+“वे अंदर आ रहे हैं!” एक सैनिक चिल्लाया।
+
+वह तुरंत वहाँ पहुँचा।
+
+उसने देखा—दुश्मन भीतर घुस रहा था।
+
+उसने अपनी तलवार निकाली।
+
+“अब… अंतिम युद्ध!”
+
+किले के भीतर ही रणभूमि बन गई।
+
+तंग गलियाँ… पत्थर की दीवारें…
+
+तलवारें टकराईं।
+
+खून बहा।
+
+चीखें गूँजीं।
+
+वह सबसे आगे था।
+
+उसकी साँसें तेज़ थीं।
+
+उसकी तलवार लगातार चल रही थी।
+
+एक दुश्मन सेनापति उसके सामने आया।
+
+“तुम खत्म हो चुके हो!” वह चिल्लाया।
+
+उसने शांत स्वर में कहा,
+“बदनौर… अभी खड़ा है।”
+
+और उसकी तलवार ने वार किया।
+
+सेनापति गिर पड़ा।
+
+लेकिन दुश्मन की संख्या बहुत अधिक थी।
+
+धीरे-धीरे किले के भीतर दबाव बढ़ने लगा।
+
+---
+
+उसने चारों ओर देखा।
+
+सैनिक थक चुके थे।
+
+घाव गहरे थे।
+
+लेकिन आँखों में वही ज्वाला।
+
+वह आगे बढ़ा।
+
+“यह आखिरी क्षण है,” उसने कहा,
+“और यहीं इतिहास लिखा जाएगा।”
+
+उसने गेट की ओर देखा।
+
+फिर अपने घोड़े पर चढ़ा।
+
+“धावा।”
+
+गेट खोला गया।
+
+और फिर—
+
+राठौड़ घुड़सवार किले से बाहर निकले।
+
+सीधे दुश्मन की सेना पर टूट पड़े।
+
+यह आत्मघाती था।
+
+लेकिन यही उनका संकल्प था।
+
+दुश्मन चौंक गया।
+
+घोड़े गरजे।
+
+तलवारें बरसीं।
+
+वह सबसे आगे था।
+
+उसकी तलवार खून से भीग चुकी थी।
+
+लेकिन फिर—
+
+एक भारी वार उसके सीने पर पड़ा।
+
+वह डगमगाया।
+
+घोड़ा भी रुक गया।
+
+चारों ओर युद्ध चल रहा था।
+
+उसने नीचे देखा—खून बह रहा था।
+
+फिर भी…
+
+उसने अपनी तलवार उठाई।
+
+“बदनौर… नहीं गिरेगा…” उसने फुसफुसाया।
+
+और फिर—
+
+उसने आखिरी वार किया।
+
+---
+
+उसी क्षण—
+
+दूर से नगाड़ों की आवाज़ आई।
+
+मेवाड़ की मुख्य सेना आ चुकी थी।
+
+दुश्मन घबरा गया।
+
+उनकी पंक्तियाँ टूटने लगीं।
+
+वे भागने लगे।
+
+बदनौर बच गया।
+
+---
+
+युद्ध समाप्त हुआ।
+
+वह जमीन पर गिर चुका था।
+
+उसके साथी उसके पास आए।
+
+“सरदार…”
+
+उसने मुश्किल से आँखें खोलीं।
+
+दूर… उसने अपने किले को देखा।
+
+अब भी खड़ा था।
+
+“हमने… समय खरीद लिया…” उसने धीमे से कहा।
+
+और उसकी साँसें थम गईं।
+
+---
+
+आज भी बदनौर का किला वैसे ही खड़ा है।
+
+मजबूत… अडिग… अचल।
+
+उसकी दीवारें आज भी उन महीनों की गवाही देती हैं—
+जब कुछ लोगों ने भूख, प्यास, और मृत्यु के सामने झुकने से इनकार कर दिया।
+
+यह कोई चमकदार विजय नहीं थी।
+
+यह वह कहानी है—
+
+जहाँ कुछ लोगों ने समय खरीदा…
+
+और उस समय ने एक पूरे राज्य को बचा लिया।
+
+बदनौर…
+
+आज भी उस अदृश्य बलिदान की प्रतिमा बनकर खड़ा है।
+`
     ],
-    coverImage: { src: '/images/legends/badnor-fort.jpg', alt: 'The strong stone walls of Badnor Fort on a high ridge.' }
+    coverImage: { src: '/images/dynasties/rulers/rana-sanga.jpg', alt: 'The strong stone walls of Badnor Fort on a high ridge.' }
   },
   {
     id: 'defense-begun-fort',
@@ -1763,11 +43915,299 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Begun, Mewar',
     story: [
-      'Begun Fort, located in the rugged eastern hills of Mewar, was a natural fortress. Its defense involved a combination of hill fortifications and mountain warfare.',
-      'The legend tells of a garrison that held the fort against multiple assaults, their resolve as unyielding as the hills that sheltered them.',
-      'The defense of Begun Fort is a story of the importance of terrain in the survival of a kingdom and the skill of the warriors who guarded it.'
+      `मेवाड़ की पूर्वी पहाड़ियों में, जहाँ धरती अचानक उठती है और आकाश को छूने लगती है, वहीं पत्थरों के बीच छिपा था—बेगूं का किला।
+यह किला केवल दीवारों और बुर्जों का ढाँचा नहीं था… यह स्वयं पहाड़ था।
+उसकी चट्टानें इतनी कठोर थीं कि तलवारें उन पर वार करते-करते थक जाएँ, और उसके रास्ते इतने संकरे कि एक समय में बस एक ही योद्धा गुजर सके।
+
+यहाँ युद्ध मैदानों में नहीं लड़े जाते थे… यहाँ युद्ध ऊँचाइयों पर, खाइयों में, और चट्टानों के बीच लड़े जाते थे।
+
+और इसी किले की रक्षा के लिए जन्मा था एक योद्धा… जो पहाड़ों जितना अडिग था।
+
+---
+
+उसका जन्म किसी शाही महल में नहीं, बल्कि उसी किले की दीवारों के भीतर हुआ था।
+उसकी पहली सांस में ही ठंडी पहाड़ी हवा घुली हुई थी, और पहली आवाज़ जो उसने सुनी—वह थी प्रहरी की पुकार।
+
+उसकी माँ ने उसे गोद में लेते हुए कहा,
+“तू इस किले का बेटा है… और एक दिन इसकी ढाल बनेगा।”
+
+बचपन से ही उसका खेल अलग था।
+
+जहाँ अन्य बालक मैदानों में दौड़ते थे, वह चट्टानों पर चढ़ता था।
+जहाँ दूसरे तलवार पकड़ना सीखते थे, वह पहले संतुलन सीखता था—संकीर्ण पगडंडियों पर, खड़ी ढलानों पर।
+
+उसके गुरु ने एक दिन उसे एक ऊँची चट्टान के किनारे खड़ा किया।
+
+नीचे गहरी खाई थी।
+
+“डर लगता है?” गुरु ने पूछा।
+
+बालक ने नीचे देखा… फिर सिर हिलाया,
+“नहीं।”
+
+गुरु मुस्कुराया,
+“अच्छा… क्योंकि यहाँ डरने वाला… जीवित नहीं रहता।”
+
+उस दिन से उसका प्रशिक्षण और कठिन हो गया।
+
+पहाड़ों में दौड़ना, चट्टानों पर लड़ना, कम जगह में तलवार चलाना—वह धीरे-धीरे पहाड़ का हिस्सा बन गया।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और अब बेगूं की रक्षा उसकी जिम्मेदारी थी।
+
+उधर मेवाड़ की सीमाओं पर दबाव बढ़ रहा था।
+पूर्व से आने वाली सेनाएँ इन पहाड़ियों को पार करना चाहती थीं—क्योंकि बेगूं का किला टूट गया… तो पूरा रास्ता खुल जाता।
+
+एक दिन सुबह-सुबह प्रहरी दौड़ता हुआ आया।
+
+“सरदार! नीचे घाटी में सेना दिखाई दे रही है!”
+
+वह तुरंत बुर्ज पर पहुँचा।
+
+नीचे… घाटी में… हजारों सैनिक जमा थे।
+
+घोड़े, हाथी, तोपें…
+
+उसने गहरी साँस ली।
+
+“वे ऊपर चढ़ेंगे,” उसने कहा,
+“और हम उन्हें गिराएँगे।”
+
+---
+
+पहला हमला दोपहर में हुआ।
+
+दुश्मन ने घाटी से ऊपर चढ़ना शुरू किया।
+
+संकीर्ण रास्ते… खड़ी चढ़ाई…
+
+लेकिन वे संख्या में बहुत अधिक थे।
+
+ऊपर किले की दीवारों पर तीरंदाज़ तैयार खड़े थे।
+
+“अभी नहीं…” उसने हाथ उठाकर रोका।
+
+दुश्मन और ऊपर आया…
+
+और ऊपर…
+
+जब वे सबसे संकरे हिस्से में पहुँचे—
+
+“अब!”
+
+तीरों की बारिश शुरू हो गई।
+
+पत्थर लुढ़काए गए।
+
+चट्टानें गिराई गईं।
+
+नीचे चढ़ते हुए सैनिकों में अफरा-तफरी मच गई।
+
+कुछ गिर पड़े… कुछ पीछे हटे… लेकिन पीछे भी भीड़ थी।
+
+चीखें घाटी में गूँज उठीं।
+
+वह ऊपर खड़ा देख रहा था।
+
+“यही पहाड़ की ताकत है,” उसने कहा।
+
+पहला हमला विफल हो गया।
+
+---
+
+लेकिन दुश्मन ने हार नहीं मानी।
+
+दूसरे दिन उन्होंने दूसरी दिशा से हमला किया।
+
+इस बार वे रात के अंधेरे में चढ़े।
+
+चुपचाप… बिना शोर के…
+
+लेकिन पहाड़ सोता नहीं।
+
+एक प्रहरी ने हल्की सी आहट सुनी।
+
+“सतर्क!”
+
+घंटियाँ बज उठीं।
+
+वह तुरंत जाग गया।
+
+“वे पीछे से आ रहे हैं,” उसने कहा।
+
+उसने तुरंत अपनी सेना को उस दिशा में भेजा।
+
+रात का युद्ध शुरू हुआ।
+
+मशालों की रोशनी… चट्टानों की छाया…
+
+तलवारें टकराईं।
+
+संकीर्ण रास्तों में लड़ाई और भी भयानक थी।
+
+एक बार में केवल दो-तीन लोग ही लड़ सकते थे।
+
+वह खुद सबसे आगे था।
+
+उसकी तलवार हर वार में सटीक थी।
+
+एक दुश्मन सैनिक ने उस पर हमला किया—लेकिन उसने उसे धक्का दिया।
+
+सैनिक संतुलन खो बैठा… और खाई में गिर गया।
+
+नीचे से उसकी चीख गूँजी… और फिर सन्नाटा।
+
+“यह मैदान नहीं है,” उसने कहा,
+“यह पहाड़ है… यहाँ हर गलती मौत है।”
+
+दूसरा हमला भी विफल हो गया।
+
+---
+
+लेकिन तीसरा और अंतिम युद्ध सबसे कठिन था।
+
+इस बार दुश्मन पूरी तैयारी के साथ आया।
+
+उन्होंने कई दिशाओं से एक साथ हमला किया।
+
+घाटी में तोपें गरजीं।
+
+दीवारों पर दरारें पड़ने लगीं।
+
+“वे हमें तोड़ देंगे,” एक सैनिक बोला।
+
+वह शांत था।
+
+“तो हम टूटेंगे नहीं… हम बदलेंगे,” उसने कहा।
+
+उसने अपनी रणनीति बदली।
+
+“दीवारों पर मत रुको,” उसने आदेश दिया,
+“नीचे उतर जाओ… और उन्हें वहीं रोको।”
+
+यह जोखिम भरा था।
+
+लेकिन यही एक रास्ता था।
+
+---
+
+राठौड़ और मेवाड़ी योद्धा पहाड़ से नीचे उतरे।
+
+छोटे-छोटे दलों में।
+
+छाया की तरह।
+
+दुश्मन चढ़ रहा था—उन्हें उम्मीद नहीं थी कि ऊपर वाले नीचे आएंगे।
+
+और फिर—
+
+“हर हर महादेव!”
+
+धावा।
+
+चट्टानों के बीच अचानक हमला।
+
+दुश्मन चौंक गया।
+
+संकीर्ण रास्तों में वे अपनी संख्या का लाभ नहीं ले पाए।
+
+हर मोड़ पर एक नया हमला।
+
+हर चट्टान के पीछे एक योद्धा।
+
+वह खुद बीच में था।
+
+उसकी साँसें तेज़ थीं।
+
+उसकी तलवार लगातार चल रही थी।
+
+लेकिन दुश्मन भी अब पूरी ताकत से लड़ रहा था।
+
+एक भारी वार उसके कंधे पर पड़ा।
+
+वह डगमगाया।
+
+फिर भी…
+
+वह रुका नहीं।
+
+“यह किला नहीं गिरेगा!” वह गरजा।
+
+और फिर…
+
+अंतिम संघर्ष।
+
+ऊपर से तीर… नीचे से तलवारें…
+
+पूरा पहाड़ युद्धभूमि बन गया।
+
+घंटों तक यह चलता रहा।
+
+फिर…
+
+एक क्षण आया।
+
+जब दुश्मन की पंक्तियाँ टूटने लगीं।
+
+वे पीछे हटने लगे।
+
+कुछ भागे… कुछ गिर पड़े…
+
+बेगूं बच गया।
+
+---
+
+युद्ध समाप्त हुआ।
+
+वह धीरे-धीरे ऊपर चढ़ा।
+
+किले की दीवार पर खड़ा हुआ।
+
+नीचे घाटी में सन्नाटा था।
+
+उसने गहरी साँस ली।
+
+लेकिन उसके घाव गहरे थे।
+
+वह घुटनों पर गिर पड़ा।
+
+उसकी तलवार हाथ से छूट गई।
+
+उसने आखिरी बार पहाड़ों की ओर देखा।
+
+“हमने… इन्हें बचा लिया…” उसने धीमे से कहा।
+
+और उसकी आँखें बंद हो गईं।
+
+---
+
+आज भी बेगूं के पहाड़ वैसे ही खड़े हैं।
+
+अडिग… अचल… अजेय।
+
+जब हवा चट्टानों से टकराती है, तो ऐसा लगता है जैसे कोई आवाज़ गूँज रही हो—
+
+तलवारों की…
+चीखों की…
+और उस एक वचन की—
+
+“हम नहीं झुकेंगे।”
+
+बेगूं का किला केवल पत्थरों का ढाँचा नहीं है।
+
+यह उस जिद की निशानी है—
+
+जो पहाड़ों से भी कठोर होती है।
+
+और उन योद्धाओं की…
+
+जो स्वयं पहाड़ बन जाते हैं।
+`
     ],
-    coverImage: { src: '/images/legends/begun-fort.jpg', alt: 'The high ramparts of Begun Fort overlooking a deep valley.' }
+    coverImage: { src: '/images/dynasties/rulers/rana-sanga.jpg', alt: 'The high ramparts of Begun Fort overlooking a deep valley.' }
   },
   {
     id: 'stand-banera',
@@ -1777,11 +44217,315 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Banera, Mewar',
     story: [
-      'Banera was a strategic outpost that faced the first brunt of many invasions. This legend celebrates the garrison that refused to retreat, even when outnumbered ten to one.',
-      'Their stand bought the time needed for the main army to mobilize, proving that the courage of a few can save a kingdom.',
-      'The stand at Banera is a story of the unglamorous but essential work of the frontier outposts in the defense of Rajputana.'
+      `बनेरा…
+रेत और पत्थरों के बीच खड़ा वह किला, जो देखने में भले ही छोटा था, लेकिन उसके कंधों पर पूरे राज्य की साँस टिकी हुई थी। यह वह स्थान था जहाँ युद्ध की पहली आहट सुनाई देती थी—जहाँ हर धूल का गुबार एक संभावित तूफ़ान होता था।
+
+राजपुताना की सीमाओं पर बने ऐसे ही चौकियों में से एक था बनेरा—एक अग्रिम चौकी, जहाँ पीछे हटने का अर्थ केवल हार नहीं, बल्कि पूरे राज्य का द्वार खोल देना था।
+
+---
+
+उस किले की दीवारों के भीतर एक बालक का जन्म हुआ था।
+ना कोई शाही शान, ना कोई भव्य उत्सव—बस तलवारों की खनक और प्रहरी की पुकार।
+
+उसका पिता उस चौकी का सेनापति था।
+
+जन्म के कुछ ही दिनों बाद, उसे पहली बार किले की दीवारों पर लाया गया। दूर तक फैले मैदान… और उससे भी दूर, अनजान दिशा, जहाँ से हर समय खतरा आ सकता था।
+
+उसके पिता ने उसे गोद में उठाकर कहा,
+“याद रखना… यहाँ जन्म लेने वाला हर व्यक्ति किले की दीवार होता है।”
+
+बचपन खेल में नहीं, तैयारी में बीता।
+
+जहाँ दूसरे बच्चे महलों में नाचते-गाते थे, वह किले की बुर्जों पर दौड़ता था।
+उसने तलवार चलाने से पहले निगरानी करना सीखा।
+घोड़े पर बैठने से पहले उसने धूल के गुबार को पढ़ना सीखा।
+
+उसके गुरु ने कहा,
+“बनेरा का योद्धा जीतने के लिए नहीं लड़ता… वह समय खरीदने के लिए लड़ता है।”
+
+बालक ने पूछा,
+“समय?”
+
+“हाँ… क्योंकि कभी-कभी कुछ घंटे… एक पूरे राज्य को बचा लेते हैं।”
+
+उस दिन से उसकी आँखों में एक अलग चमक आ गई।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और अब बनेरा की रक्षा उसकी जिम्मेदारी थी।
+
+राज्य के भीतर शांति थी, लेकिन सीमा पर तूफ़ान उठ रहा था।
+
+एक दिन सुबह-सुबह प्रहरी दौड़ता हुआ आया।
+
+“सरदार! उत्तर दिशा से भारी सेना बढ़ रही है!”
+
+वह तुरंत किले की सबसे ऊँची बुर्ज पर चढ़ा।
+
+दूर… धूल का एक विशाल गुबार उठ रहा था।
+सैकड़ों नहीं… हजारों सैनिक।
+
+उसने गहरी साँस ली।
+
+“संख्या?” उसने पूछा।
+
+“हमसे दस गुना अधिक।”
+
+कुछ क्षणों के लिए सन्नाटा छा गया।
+
+फिर उसने धीरे से कहा,
+“तो हम दस गुना ज्यादा देर तक टिकेंगे।”
+
+---
+
+किले के भीतर तुरंत तैयारी शुरू हो गई।
+
+दीवारों पर तीरंदाज़ तैनात किए गए।
+गेट के सामने भारी लकड़ियाँ और पत्थर जमा किए गए।
+घुड़सवारों को भीतर ही तैयार रखा गया—अंतिम धावे के लिए।
+
+उसने अपने सैनिकों को इकट्ठा किया।
+
+“सुनो,” उसकी आवाज़ गूँजी,
+“हम जीतने के लिए नहीं लड़ रहे… हम रोकने के लिए लड़ रहे हैं।”
+
+एक सैनिक ने पूछा,
+“कितनी देर तक?”
+
+वह मुस्कुराया,
+“जब तक पीछे से हमारी सेना नहीं आ जाती… या जब तक हमारी साँसें हैं।”
+
+कोई डर नहीं था।
+
+सिर्फ़ एक दृढ़ता।
+
+---
+
+दुश्मन की सेना किले के सामने आ पहुँची।
+
+उनकी संख्या देखकर धरती काँपती सी लग रही थी।
+
+एक सेनापति आगे बढ़ा और गरजा,
+“समर्पण करो! तुम्हें जीवित छोड़ दिया जाएगा!”
+
+वह दीवार पर खड़ा रहा।
+
+उसने नीचे देखा… और शांत स्वर में कहा,
+“यह बनेरा है… यहाँ समर्पण नहीं होता।”
+
+और फिर—
+
+पहला तीर छोड़ा गया।
+
+युद्ध शुरू हो चुका था।
+
+---
+
+दुश्मन ने हमला किया।
+
+सीढ़ियाँ लगाई गईं।
+तोपें गरजीं।
+दीवारों पर पत्थर टूटने लगे।
+
+लेकिन बनेरा के सैनिक पीछे नहीं हटे।
+
+ऊपर से तीरों की बारिश।
+गरम तेल उंडेला गया।
+हर सीढ़ी को धकेल दिया गया।
+
+“जोहार!”
+
+चीखें गूँजीं।
+
+दुश्मन बार-बार चढ़ने की कोशिश करता… और हर बार नीचे गिरा दिया जाता।
+
+घंटों तक यह चलता रहा।
+
+सूरज सिर पर चढ़ गया।
+
+गर्मी बढ़ती गई।
+
+लेकिन लड़ाई रुकी नहीं।
+
+---
+
+दोपहर के बाद किले की दीवारों का एक हिस्सा टूट गया।
+
+“वे अंदर आ रहे हैं!” एक सैनिक चिल्लाया।
+
+वह तुरंत वहाँ पहुँचा।
+
+उसने देखा—दुश्मन भीतर घुस रहा था।
+
+उसने अपनी तलवार निकाली।
+
+“अब… भीतर का युद्ध!”
+
+घुड़सवार आगे बढ़े।
+
+तलवारें टकराईं।
+
+किले के भीतर ही रणभूमि बन गई।
+
+तंग गलियाँ… पत्थर की दीवारें… और उनमें गूँजती चीखें।
+
+वह सबसे आगे था।
+
+हर वार में क्रोध था… हर वार में संकल्प।
+
+एक दुश्मन सेनापति उसके सामने आया।
+
+“तुम हार चुके हो!” वह चिल्लाया।
+
+उसने हँसते हुए कहा,
+“बनेरा में हार… आखिरी साँस के साथ आती है।”
+
+और उसकी तलवार ने वार किया।
+
+सेनापति गिर पड़ा।
+
+लेकिन दुश्मन की संख्या बहुत अधिक थी।
+
+धीरे-धीरे किले के भीतर दबाव बढ़ने लगा।
+
+---
+
+शाम होते-होते स्थिति गंभीर हो गई।
+
+सैनिक थक चुके थे।
+घाव गहरे थे।
+
+एक सरदार उसके पास आया,
+“सरदार… अब पीछे हटना चाहिए…”
+
+वह कुछ पल चुप रहा।
+
+फिर उसने सिर हिलाया।
+
+“पीछे हटना… मतलब उन्हें रास्ता देना,” उसने कहा,
+“और आज… हम रास्ता नहीं देंगे।”
+
+उसने किले के द्वार की ओर देखा।
+
+फिर अपने घोड़े पर चढ़ा।
+
+“अंतिम धावा,” उसने कहा।
+
+सैनिकों की आँखों में चमक आ गई।
+
+“जोहार राठौड़!”
+
+गेट खोला गया।
+
+और फिर—
+
+धावा।
+
+किले के भीतर से बाहर निकलते हुए राठौड़ घुड़सवार सीधे दुश्मन की सेना पर टूट पड़े।
+
+यह आत्मघाती था।
+
+लेकिन यही उनकी ताकत थी।
+
+दुश्मन चौंक गया।
+
+उन्हें उम्मीद नहीं थी कि इतने कम सैनिक ऐसा हमला करेंगे।
+
+घोड़े गरजे।
+तलवारें बरसीं।
+
+वह सबसे आगे था।
+
+उसकी तलवार खून से भीग चुकी थी।
+
+हर वार के साथ वह और आगे बढ़ता गया।
+
+लेकिन फिर—
+
+एक भाला उसके सीने में धँस गया।
+
+वह रुक गया।
+
+घोड़ा भी थम गया।
+
+चारों ओर युद्ध चल रहा था।
+
+उसने नीचे देखा… खून बह रहा था।
+
+फिर भी…
+
+उसने अपनी तलवार उठाई।
+
+“बनेरा… नहीं गिरेगा…” उसने फुसफुसाया।
+
+और फिर—
+
+उसने आखिरी वार किया।
+
+दुश्मन सेनापति गिर पड़ा।
+
+---
+
+उसी क्षण—
+
+दूर से नगाड़ों की आवाज़ आई।
+
+मुख्य सेना आ चुकी थी।
+
+राठौड़ों की बड़ी सेना मैदान में उतर चुकी थी।
+
+दुश्मन घबरा गया।
+
+उनकी पंक्तियाँ टूटने लगीं।
+
+वे पीछे हटने लगे।
+
+बनेरा बच गया।
+
+---
+
+युद्ध समाप्त हुआ।
+
+वह जमीन पर गिर चुका था।
+
+उसके साथी उसके पास आए।
+
+“सरदार…”
+
+उसने मुश्किल से आँखें खोलीं।
+
+दूर… उसने अपने झंडे को लहराते देखा।
+
+“हमने… समय खरीद लिया…” उसने धीमे से कहा।
+
+और उसकी साँसें थम गईं।
+
+---
+
+आज भी बनेरा के किले की दीवारें खामोश खड़ी हैं।
+
+लेकिन अगर ध्यान से सुना जाए—
+
+तो उनमें आज भी तलवारों की खनक, घोड़ों की टाप, और एक आवाज़ गूँजती है—
+
+“हम जीतने के लिए नहीं… बचाने के लिए लड़ते हैं।”
+
+बनेरा की कहानी चमकदार नहीं है।
+
+यह कोई भव्य विजय नहीं है।
+
+यह वह कहानी है…
+
+जहाँ कुछ लोगों ने अपनी जान देकर…
+
+पूरे राज्य को जीवित रखा।
+
+और यही—राजपुताना की असली ताकत थी।
+`
     ],
-    coverImage: { src: '/images/legends/banera-fort.jpg', alt: 'A small stone fort on a high ridge overlooking a plain.' }
+    coverImage: { src: '/images/dynasties/rulers/rana-sanga.jpg', alt: 'A small stone fort on a high ridge overlooking a plain.' }
   },
   {
     id: 'border-war-marwar',
@@ -1791,11 +44535,344 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Marwar Borders',
     story: [
-      'The borders of Marwar were in a constant state of flux, contested by neighboring states and imperial powers. This legend celebrates the frontier guards who held the line.',
-      'The story follows a series of skirmishes and raids where the Rathore forces used their knowledge of the desert to outmaneuver much larger forces.',
-      'The border wars of Marwar are a story of the importance of vigilance and the courage of those who live on the edges of a desert kingdom.'
+      `मारवाड़ की सीमाएँ कभी स्थिर नहीं थीं।
+वे रेखाएँ नहीं थीं… वे साँस लेती थीं, बदलती थीं, टूटती थीं और फिर तलवार की धार से दोबारा खींची जाती थीं।
+
+जहाँ राजमहलों की सुरक्षा समाप्त होती थी, वहीं से असली युद्ध शुरू होता था—सीमा पर।
+वहीं, जहाँ हर दिन यह तय होता था कि अगली सुबह यह भूमि किसकी होगी।
+
+---
+
+रेत के उस किनारे पर, जहाँ दूर-दूर तक कोई किला नहीं था, कोई महल नहीं था—बस कुछ चौकियाँ थीं, ऊँचे टीलों पर बनी हुई—वहीं एक बालक ने जन्म लिया।
+
+वह राजमहल में नहीं पला था।
+वह सीमा पर पला था—जहाँ रातें ठंडी और खामोश होती थीं, लेकिन हर खामोशी के पीछे खतरा छिपा होता था।
+
+उसका पिता एक सीमा प्रहरी था।
+
+हर रात वह बालक अपने पिता को ऊँचे टीले पर खड़ा देखता—आँखें दूर क्षितिज पर गड़ी हुई।
+
+एक रात उसने पूछा,
+“पिता… आप हर रात यहाँ क्यों खड़े रहते हैं?”
+
+उसके पिता ने बिना नज़र हटाए कहा,
+“क्योंकि बेटा… सीमा सोती नहीं। और अगर हम सो गए… तो दुश्मन जाग जाएगा।”
+
+उस रात बालक ने भी वही देखा—दूर कहीं धूल का एक हल्का सा गुबार।
+
+और उसी क्षण उसने समझ लिया—यह जीवन आराम का नहीं, चौकसी का है।
+
+---
+
+उसका बचपन तलवार की छाया में नहीं, बल्कि निगरानी की आदत में बीता।
+
+उसे सिखाया गया कि हवा की दिशा कैसे पढ़ी जाती है, रेत के निशानों से कितनी सेना गुजरी है, और रात के सन्नाटे में भी कैसे खतरे को पहचाना जाता है।
+
+घुड़सवारी उसके लिए केवल कौशल नहीं थी—वह उसका अस्त्र था।
+
+मारवाड़ी घोड़े पर बैठकर वह घंटों तक सीमा के टीलों पर दौड़ता।
+हर रास्ता, हर मोड़, हर छुपा हुआ रास्ता—वह सब उसकी स्मृति में बस गया।
+
+उसके गुरु ने एक दिन कहा,
+“सीमा का योद्धा तलवार से नहीं… बुद्धि और गति से जीतता है।”
+
+और वह मुस्कुरा दिया।
+
+---
+
+समय के साथ वह युवा हुआ—और सीमा की जिम्मेदारी उसके कंधों पर आ गई।
+
+मारवाड़ के चारों ओर से खतरे मंडरा रहे थे।
+कभी पड़ोसी राज्य हमला करते, कभी साम्राज्य की विशाल सेनाएँ सीमा को लाँघने की कोशिश करतीं।
+
+लेकिन सीमा पर युद्ध कभी सीधा नहीं होता।
+
+वह छाया की तरह होता है—आता है, वार करता है, और गायब हो जाता है।
+
+---
+
+पहला बड़ा संघर्ष एक ठंडी सुबह हुआ।
+
+प्रहरी ने दौड़ते हुए आकर कहा,
+“सरदार! उत्तर दिशा से सेना बढ़ रही है!”
+
+वह तुरंत टीले पर चढ़ा।
+
+दूर… रेत के पार… एक विशाल धूल का गुबार उठ रहा था।
+
+“संख्या?” उसने पूछा।
+
+“हमसे कई गुना अधिक।”
+
+कुछ पल के लिए सन्नाटा छा गया।
+
+फिर उसने धीरे से कहा,
+“तो हम उन्हें मैदान में नहीं… रेत में हराएँगे।”
+
+उसने अपनी सेना को छोटे-छोटे दलों में बाँट दिया।
+
+“सीधा युद्ध नहीं,” उसने आदेश दिया,
+“उन्हें रास्ता भटकाओ… उन्हें थकाओ… और फिर वार करो।”
+
+---
+
+दुश्मन आगे बढ़ा।
+
+उन्हें लगा कि वे आसानी से सीमा पार कर लेंगे।
+
+लेकिन जैसे-जैसे वे आगे बढ़े… रास्ते बदलने लगे।
+
+पानी के स्रोत गायब हो गए।
+
+रास्ते धुंधले हो गए।
+
+और फिर…
+
+पहला हमला हुआ।
+
+एक छोटी टुकड़ी अचानक उनके किनारे पर टूटी।
+
+“जोहार!”
+
+तलवारें चमकीं।
+
+कुछ ही पलों में हमला खत्म—और राठौड़ गायब।
+
+दुश्मन समझ नहीं पाया।
+
+फिर दूसरा हमला।
+
+फिर तीसरा।
+
+हर बार अलग दिशा से।
+
+हर बार अचानक।
+
+एक सैनिक घबराकर चिल्लाया,
+“ये लोग दिखते नहीं… बस वार करते हैं!”
+
+वह मुस्कुराया।
+
+यही उसकी रणनीति थी।
+
+दुश्मन को थका दो… तोड़ दो… और फिर खत्म कर दो।
+
+कुछ ही दिनों में दुश्मन की सेना कमजोर पड़ गई।
+
+और फिर…
+
+अंतिम धावा।
+
+इस बार राठौड़ पूरी शक्ति के साथ टूट पड़े।
+
+घोड़े गरजे।
+
+तलवारें बरसीं।
+
+दुश्मन की पंक्तियाँ टूट गईं।
+
+पहला संघर्ष जीत लिया गया।
+
+---
+
+लेकिन सीमा पर शांति कभी स्थायी नहीं होती।
+
+कुछ ही महीनों बाद… दूसरा खतरा।
+
+इस बार हमला रात में हुआ।
+
+दुश्मन ने सोचा—अंधेरे में वे चौकियों को चकमा दे देंगे।
+
+लेकिन सीमा के प्रहरी सोते नहीं।
+
+जैसे ही हल्की सी आहट हुई—
+
+“सतर्क!”
+
+घंटियाँ बज उठीं।
+
+वह तुरंत घोड़े पर सवार हुआ।
+
+“सब दल अपने-अपने स्थान पर!” उसने आदेश दिया।
+
+इस बार उसकी रणनीति अलग थी।
+
+“हम उन्हें अंदर आने देंगे,” उसने कहा,
+“और फिर चारों ओर से घेरेंगे।”
+
+दुश्मन चुपचाप आगे बढ़ा।
+
+उन्हें लगा—वे सफल हो गए।
+
+लेकिन जैसे ही वे भीतर पहुँचे—
+
+चारों ओर से मशालें जल उठीं।
+
+और फिर…
+
+“जोहार राठौड़!”
+
+घेरा।
+
+दुश्मन फँस चुका था।
+
+चारों दिशाओं से हमला।
+
+तलवारें टकराईं।
+
+चीखें गूँजीं।
+
+अंधेरे में आग की लपटें और खून की चमक—पूरा दृश्य भयानक हो गया।
+
+वह खुद सबसे आगे था।
+
+उसने एक के बाद एक वार किए।
+
+कोई भी उसके सामने टिक नहीं पाया।
+
+कुछ ही समय में दुश्मन की सेना खत्म हो गई।
+
+---
+
+लेकिन तीसरा युद्ध सबसे कठिन था।
+
+इस बार दुश्मन ने पूरी ताकत झोंक दी।
+
+वे सीधे सीमा को तोड़ना चाहते थे।
+
+दिन का समय था।
+
+खुला मैदान।
+
+कोई छुपने की जगह नहीं।
+
+उसने अपनी सेना को देखा।
+
+संख्या कम थी।
+
+लेकिन आँखों में वही ज्वाला।
+
+वह आगे बढ़ा।
+
+“आज… हम केवल रक्षा नहीं करेंगे,” उसने कहा,
+“आज हम उन्हें सिखाएँगे कि सीमा क्या होती है।”
+
+नगाड़े बजे।
+
+घोड़े तैयार हुए।
+
+और फिर…
+
+धावा।
+
+राठौड़ सेना सीधी दुश्मन की ओर दौड़ी।
+
+यह आत्मघाती लग रहा था।
+
+लेकिन यह एक चाल थी।
+
+जैसे ही दुश्मन ने अपनी पंक्तियाँ कसीं—
+
+राठौड़ अचानक दो भागों में बँट गए।
+
+दुश्मन के बीच एक खाली जगह बन गई।
+
+और उसी क्षण…
+
+पीछे से छिपी हुई टुकड़ी ने हमला कर दिया।
+
+दुश्मन पूरी तरह भ्रमित हो गया।
+
+चारों ओर से वार।
+
+कोई दिशा नहीं… कोई बचाव नहीं।
+
+वह बीच में घुस चुका था।
+
+उसकी तलवार बिजली की तरह चल रही थी।
+
+लेकिन तभी—
+
+एक भाला उसके सीने में आ लगा।
+
+वह रुक गया।
+
+घोड़ा भी ठिठक गया।
+
+चारों ओर युद्ध चल रहा था।
+
+लेकिन उसके लिए समय थम गया।
+
+उसने नीचे देखा—खून बह रहा था।
+
+फिर भी…
+
+वह मुस्कुराया।
+
+“सीमा… बची रहे…” उसने धीमे से कहा।
+
+और फिर…
+
+उसने आखिरी बार अपनी तलवार उठाई।
+
+एक अंतिम वार।
+
+दुश्मन सेनापति गिर पड़ा।
+
+और उसी क्षण—
+
+राठौड़ों का अंतिम धावा।
+
+दुश्मन की सेना टूट गई।
+
+वे भागने लगे।
+
+सीमा बच गई।
+
+---
+
+युद्ध समाप्त हुआ।
+
+वह घोड़े से नीचे गिर पड़ा।
+
+उसके साथी उसके पास दौड़े।
+
+“सरदार!”
+
+लेकिन अब बहुत देर हो चुकी थी।
+
+उसने आखिरी बार आसमान की ओर देखा।
+
+रेत पर हवा चल रही थी।
+
+“सीमा… अब सुरक्षित है…” उसने फुसफुसाया।
+
+और उसकी आँखें बंद हो गईं।
+
+---
+
+आज भी मारवाड़ की सीमाओं पर जब हवा चलती है—
+
+तो ऐसा लगता है जैसे कोई देख रहा हो।
+
+हर टीले पर, हर चौकी पर…
+
+एक अदृश्य प्रहरी खड़ा है।
+
+यह केवल युद्धों की कहानी नहीं है।
+
+यह उन लोगों की कहानी है—
+
+जो महलों में नहीं रहते…
+
+लेकिन जिनकी वजह से महल खड़े रहते हैं।
+
+और मारवाड़ की सीमाएँ…
+
+आज भी उसी चौकसी, उसी बलिदान, और उसी अदृश्य साहस की गवाही देती हैं।
+`
     ],
-    coverImage: { src: '/images/legends/marwar-border.jpg', alt: 'A lone guard on a high dune overlooking a disputed border.' }
+    coverImage: { src: '/images/dynasties/places/bikaner-rathore-main.jpg', alt: 'A lone guard on a high dune overlooking a disputed border.' }
   },
   {
     id: 'rathore-desert-campaign',
@@ -1805,11 +44882,289 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Marwar Desert',
     story: [
-      'The Rathore desert campaign was a long and grinding struggle to secure the heart of the Thar. It involved constant warfare in the most challenging environment.',
-      'This legend recounts the many times the Rathore forces had to endure extreme heat and scarce resources while fending off repeated attacks from neighboring states.',
-      'The desert campaign is a symbol of the Rathore tenacity and their ability to thrive where others would perish.'
+      `थार…
+जहाँ सूरज केवल उगता नहीं, बल्कि धरती को जलाता है। जहाँ हवा भी आग की तरह चुभती है, और जहाँ हर कदम पर जीवन और मृत्यु के बीच की दूरी बस एक साँस जितनी रह जाती है।
+
+यहीं, इस निर्दयी मरुस्थल के हृदय में, राठौड़ों ने अपना साम्राज्य गढ़ा था।
+
+लेकिन उसे बनाए रखना… वह एक अंतहीन युद्ध था।
+
+---
+
+राजमहल की ऊँची दीवारों के भीतर भी उस गर्मी की लपट महसूस होती थी। उस दिन एक बालक का जन्म हुआ—और उसके साथ ही जैसे एक और युद्ध की शुरुआत लिख दी गई।
+
+उसके जन्म के समय ही बुजुर्गों ने कहा,
+“यह बालक तलवार से नहीं… सहनशक्ति से इतिहास लिखेगा।”
+
+बचपन से ही उसे आराम नहीं मिला।
+
+सुबह की पहली किरण के साथ उसे बाहर लाया जाता—जहाँ रेत तप रही होती। नंगे पाँव दौड़ना, धूप में खड़े रहना, बिना पानी के घंटों तक अभ्यास करना—यह सब उसकी शिक्षा का हिस्सा था।
+
+उसके गुरु ने एक दिन उसकी आँखों में देखते हुए कहा,
+“थार में युद्ध तलवार से नहीं… धैर्य से जीता जाता है। यहाँ दुश्मन से पहले प्रकृति तुम्हें परखेगी।”
+
+बालक ने बिना झिझक जवाब दिया,
+“तो मैं पहले प्रकृति को हराऊँगा।”
+
+उस दिन से उसका प्रशिक्षण और कठोर हो गया।
+
+घोड़े की पीठ पर घंटों तक बैठना, दूर-दूर तक बिना रुके दौड़ना, कम पानी में जीवित रहना—वह धीरे-धीरे थार का हिस्सा बनता जा रहा था।
+
+---
+
+समय बीता।
+
+वह युवा हुआ—और उसके साथ ही मारवाड़ पर संकट भी गहराने लगा।
+
+चारों ओर से शत्रु थे। हर पड़ोसी राज्य थार के इस हृदय को अपने अधिकार में लेना चाहता था।
+
+लेकिन यह कोई एक युद्ध नहीं था।
+
+यह एक अभियान था—एक ऐसा संघर्ष जो वर्षों तक चला।
+
+राठौड़ों का “मरुस्थलीय अभियान”।
+
+---
+
+पहला आक्रमण अचानक हुआ।
+
+दूर से धूल का गुबार उठा। दुश्मन की सेना तेजी से बढ़ रही थी—उन्हें लगा कि गर्मी और प्यास ही राठौड़ों को कमजोर कर देगी।
+
+दरबार में चिंता थी।
+
+“हम उनके सामने टिक नहीं पाएंगे,” एक सरदार बोला,
+“हमारे पास पानी कम है, रसद कम है…”
+
+लेकिन वह शांत खड़ा रहा।
+
+“हमारे पास थार है,” उसने धीरे से कहा,
+“और थार हमारा साथ देता है।”
+
+उसने अपनी सेना को छोटे-छोटे दलों में बाँट दिया।
+
+“सीधी लड़ाई नहीं,” उसने आदेश दिया,
+“उन्हें थकाओ… उन्हें भटकाओ… और फिर वार करो।”
+
+पहला युद्ध शुरू हुआ—लेकिन यह पारंपरिक युद्ध नहीं था।
+
+दिन के समय राठौड़ गायब हो जाते।
+
+दुश्मन धूप में भटकता रहता—पानी खत्म होने लगता, घोड़े थक जाते।
+
+और फिर…
+
+शाम होते ही—
+
+“जोहार!”
+
+राठौड़ अचानक हमला करते।
+
+तेज, सटीक, और निर्दयी।
+
+कुछ ही पलों में वे दुश्मन की पंक्तियों को तोड़ देते और फिर अंधेरे में गायब हो जाते।
+
+दुश्मन समझ ही नहीं पाया—वह किससे लड़ रहा है।
+
+एक सैनिक चिल्लाया,
+“ये लोग नहीं हैं… ये मरुस्थल की आत्माएँ हैं!”
+
+पहला चरण राठौड़ों की जीत के साथ समाप्त हुआ।
+
+---
+
+लेकिन यह अंत नहीं था।
+
+कुछ महीनों बाद दूसरा आक्रमण हुआ—इस बार और भी बड़ा, और भी संगठित।
+
+दुश्मन ने अपनी रणनीति बदल दी।
+
+उन्होंने जल स्रोतों पर कब्जा कर लिया।
+
+“अब वे हमें प्यास से मारेंगे,” एक योद्धा बोला।
+
+लेकिन उसने मुस्कुराते हुए कहा,
+“प्यास… राठौड़ों को नहीं मारती। प्यास उन्हें और खतरनाक बना देती है।”
+
+उसने एक साहसी योजना बनाई।
+
+रात के समय उसने अपनी सेना को दुश्मन के जल स्रोतों की ओर भेजा।
+
+छोटे-छोटे दल… बिना शोर के… छाया की तरह।
+
+जैसे ही वे पहुँचे—
+
+धावा।
+
+तीरों की बारिश, तलवारों की चमक, और चीखों का तूफान।
+
+दुश्मन के पहरेदार कुछ समझ पाते उससे पहले ही मारे गए।
+
+जल स्रोत फिर से राठौड़ों के कब्जे में आ गए।
+
+सुबह जब दुश्मन उठा—
+
+उन्हें समझ आया कि अब वे खुद प्यासे हैं।
+
+उस दिन का युद्ध भीषण था।
+
+दुश्मन ने पूरी ताकत से हमला किया।
+
+राठौड़ भी पीछे नहीं हटे।
+
+वह खुद सबसे आगे था।
+
+उसकी तलवार सूरज की रोशनी में चमक रही थी।
+
+हर वार के साथ एक दुश्मन गिरता।
+
+लेकिन गर्मी… वह असली दुश्मन थी।
+
+सैनिक गिर रहे थे—प्यास से, थकान से।
+
+फिर भी…
+
+कोई पीछे नहीं हटा।
+
+शाम तक दुश्मन की सेना टूट चुकी थी।
+
+दूसरा चरण भी जीत लिया गया।
+
+---
+
+अब अंतिम संघर्ष शेष था।
+
+वर्षों का यह अभियान अपने निर्णायक मोड़ पर था।
+
+दुश्मन ने अपनी सारी ताकत झोंक दी थी।
+
+यह केवल एक युद्ध नहीं था—
+
+यह अस्तित्व की लड़ाई थी।
+
+थार के बीचों-बीच, जहाँ केवल रेत थी… और कुछ नहीं।
+
+उसने अपनी सेना को देखा।
+
+थके हुए चेहरे… झुलसी हुई त्वचा… लेकिन आँखों में वही ज्वाला।
+
+वह आगे बढ़ा।
+
+“आज… हम केवल दुश्मन से नहीं लड़ेंगे,” उसने कहा,
+“आज हम इस मरुस्थल से भी लड़ेंगे… और साबित करेंगे कि हम इसके स्वामी हैं।”
+
+नगाड़े बजे।
+
+घोड़े हिनहिनाए।
+
+और फिर—
+
+अंतिम धावा।
+
+हजारों घोड़े एक साथ दौड़े।
+
+रेत का तूफान उठा।
+
+आसमान धुंधला हो गया।
+
+दुश्मन की सेना सामने थी—तैयार, लेकिन डरी हुई।
+
+राठौड़ों का धावा सीधा उनके केंद्र पर पड़ा।
+
+तलवारें टकराईं।
+
+भाले गड़े।
+
+घोड़े टकराए।
+
+पूरा मैदान एक भयंकर युद्ध में बदल गया।
+
+वह बीचों-बीच था।
+
+उसकी साँसें भारी थीं।
+
+उसका शरीर थक चुका था—लेकिन उसकी आत्मा नहीं।
+
+एक दुश्मन सेनापति उसके सामने आया।
+
+“तुम हार जाओगे!” वह गरजा।
+
+उसने हँसते हुए कहा,
+“थार में… राठौड़ हारते नहीं… बस मिट जाते हैं।”
+
+और उसकी तलवार ने वार किया।
+
+युद्ध अपने चरम पर था।
+
+हर दिशा में संघर्ष।
+
+हर दिशा में मौत।
+
+लेकिन फिर—
+
+एक क्षण आया।
+
+जब दुश्मन की पंक्तियाँ डगमगाईं।
+
+और फिर टूट गईं।
+
+वे भागने लगे।
+
+थार फिर से राठौड़ों का हो गया।
+
+---
+
+युद्ध समाप्त हुआ।
+
+रेत पर खून के निशान थे।
+
+हवा में धूल थी।
+
+और एक गहरी खामोशी।
+
+वह खड़ा था—लेकिन मुश्किल से।
+
+उसका शरीर घावों से भरा था।
+
+उसने चारों ओर देखा—अपने गिरे हुए साथियों को।
+
+उसकी आँखों में पहली बार थकान झलकी।
+
+“हमने… थार को बचा लिया…” उसने धीमे से कहा।
+
+फिर…
+
+उसके घुटने झुक गए।
+
+वह रेत पर गिर पड़ा।
+
+उसकी साँसें धीरे-धीरे थम गईं।
+
+---
+
+लेकिन कहानी यहीं खत्म नहीं हुई।
+
+आज भी थार की रेत में जब हवा चलती है—
+
+तो ऐसा लगता है जैसे कोई फुसफुसा रहा हो।
+
+घोड़ों की टापें… तलवारों की खनक… और वह एक आवाज—
+
+“जोहार राठौड़!”
+
+यह केवल एक अभियान नहीं था।
+
+यह एक प्रतीक था—
+
+कि जहाँ और लोग मर जाते हैं…
+
+वहाँ राठौड़ जीते हैं।
+
+और थार…
+
+आज भी उस जिद, उस सहनशक्ति, और उस अमर साहस की गवाही देता है।
+`
     ],
-    coverImage: { src: '/images/legends/desert-campaign.jpg', alt: 'A group of warriors moving through a vast sand desert.' }
+    coverImage: { src: '/images/dynasties/places/bikaner-rathore-main.jpg', alt: 'A group of warriors moving through a vast sand desert.' }
   },
   {
     id: 'defense-didwana',
@@ -1819,11 +45174,287 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Didwana, Marwar',
     story: [
-      'Didwana, with its salt-rich plains, was a vital part of the desert economy. Its defense involved a combination of hill fortifications and light cavalry.',
-      'The legend tells of the many times the city was raided and the many times its people stood together to repel the invaders, their spirit as enduring as the salt itself.',
-      'The defense of Didwana is a story of the importance of protecting the resources that sustain a kingdom and the courage of those who fought for them.'
+      `थार के हृदय में, जहाँ धरती की नसों में नमक बहता था, वहाँ बसा था डीडवाना। यह कोई साधारण नगर नहीं था—यह मारवाड़ की सांस था, उसकी अर्थव्यवस्था की धड़कन। दूर-दूर तक फैले सफेद नमक के मैदान, जैसे धरती ने अपने घावों को उजागर कर दिया हो। सूरज की किरणें जब उन पर पड़तीं, तो पूरी धरती चकाचौंध से भर जाती—एक ऐसी चमक, जो आँखों को चुभती थी, पर साम्राज्यों को ललचाती थी।
+
+नमक… वह साधारण वस्तु नहीं थी। वह जीवन था, व्यापार था, और शक्ति का स्रोत था। और जहाँ शक्ति होती है, वहाँ युद्ध अवश्य आता है।
+
+इसी डीडवाना की रक्षा के लिए एक योद्धा का जन्म हुआ था।
+
+---
+
+उस रात आकाश में बादल नहीं थे। तारे ऐसे चमक रहे थे जैसे वे किसी महान घटना के साक्षी बनने को तैयार हों। राजमहल में हलचल थी—एक उत्तराधिकारी का जन्म हुआ था।
+
+उसकी पहली साँस के साथ ही जैसे हवा में एक अलग सी गंध घुल गई—एक ऐसी गंध, जिसमें रेत, पसीना और रक्त का वादा था।
+
+बचपन से ही उसका जीवन आराम का नहीं था। जहाँ अन्य राजकुमार रेशमी वस्त्रों में खेलते, वहाँ उसे धूप में तपती रेत पर दौड़ाया जाता। उसके पैरों में छाले पड़ते, लेकिन वह रुकता नहीं।
+
+पहली बार जब उसने नमक के मैदान देखे, तो उसकी आँखें सिकुड़ गईं। चमक इतनी तेज़ थी कि उसे अपनी पलकें झपकानी पड़ीं।
+
+उसके गुरु ने कहा,
+“यह केवल नमक नहीं है… यह हमारी ताकत है। और ताकत की रक्षा तलवार से होती है।”
+
+उस दिन से उसने केवल तलवार नहीं, बल्कि उस भूमि को भी समझना शुरू किया। डीडवाना के चारों ओर छोटी-छोटी पहाड़ियाँ थीं, जिन पर किले बने थे। नीचे फैले मैदानों में हल्की घुड़सवार सेना तेजी से घूम सकती थी।
+
+वह समझ गया—यही इस भूमि की असली ताकत है।
+
+---
+
+समय बीता। वह युवा हुआ।
+
+उसकी आँखों में अब बचपन की जिज्ञासा नहीं, बल्कि एक ठंडी दृढ़ता थी। उसकी तलवार की धार तेज़ थी, पर उसकी बुद्धि उससे भी अधिक तेज़।
+
+उधर, डीडवाना की समृद्धि ने दूर-दूर के शासकों का ध्यान आकर्षित कर लिया था। नमक के मैदानों पर अधिकार का मतलब था व्यापार पर नियंत्रण—और व्यापार पर नियंत्रण का मतलब था शक्ति।
+
+पहला आक्रमण अचानक हुआ।
+
+सुबह का समय था। नगर के लोग अपने काम में लगे थे कि अचानक दूर से धूल का गुबार उठता दिखाई दिया।
+
+“दुश्मन!” एक प्रहरी चिल्लाया।
+
+घंटियाँ बज उठीं। लोग अपने घरों से बाहर निकल आए।
+
+वह तुरंत किले की दीवार पर पहुँचा।
+
+उसने मैदान को देखा—दुश्मन की सेना तेजी से बढ़ रही थी।
+
+“घुड़सवार तैयार करो,” उसने आदेश दिया,
+“और पहाड़ियों पर तीरंदाज़ तैनात करो।”
+
+उसकी योजना स्पष्ट थी—मैदान में गति से हमला, और ऊँचाई से समर्थन।
+
+पहला युद्ध शुरू हुआ।
+
+राठौड़ घुड़सवारों ने मैदान में उतरते ही धावा बोल दिया।
+
+“जोहार!”
+
+घोड़े बिजली की तरह दौड़े। तलवारें चमकीं।
+
+दुश्मन को उम्मीद नहीं थी कि इतनी जल्दी जवाब मिलेगा।
+
+ऊपर से तीरों की बारिश शुरू हो गई।
+
+नीचे घुड़सवार दुश्मन की पंक्तियों में घुस चुके थे।
+
+वह खुद सबसे आगे था।
+
+उसकी तलवार ने पहला वार किया—और एक सैनिक गिर पड़ा।
+
+फिर दूसरा, फिर तीसरा…
+
+लेकिन यह केवल वीरता नहीं थी—यह संतुलन था।
+
+जब दुश्मन आगे बढ़ने की कोशिश करता, तो पहाड़ियों से तीर उसे रोकते। जब वह पीछे हटता, तो घुड़सवार उस पर टूट पड़ते।
+
+कुछ ही घंटों में दुश्मन पीछे हटने लगा।
+
+डीडवाना बच गया।
+
+---
+
+लेकिन यह केवल शुरुआत थी।
+
+कुछ महीनों बाद, दुश्मन और भी बड़ी सेना लेकर लौटा।
+
+इस बार उन्होंने सीधे हमला नहीं किया।
+
+उन्होंने नगर को चारों ओर से घेर लिया।
+
+रसद के रास्ते बंद कर दिए।
+
+“वे हमें भूखा मारना चाहते हैं,” एक सरदार बोला।
+
+नगर में चिंता फैल गई।
+
+लेकिन वह शांत था।
+
+“डीडवाना केवल तलवार से नहीं… सहनशक्ति से भी बचता है,” उसने कहा।
+
+दिन बीतते गए। पानी कम होने लगा। भोजन घटने लगा।
+
+लेकिन लोगों की हिम्मत नहीं टूटी।
+
+एक रात उसने अपने विश्वस्त योद्धाओं को बुलाया।
+
+“हम इंतजार नहीं करेंगे,” उसने कहा,
+“हम हमला करेंगे… रात में।”
+
+उसने एक साहसी योजना बनाई।
+
+छोटे-छोटे दलों में घुड़सवारों को बाँट दिया गया। हर दल अलग दिशा से दुश्मन के शिविर में घुसेगा।
+
+रात गहरी हुई।
+
+और फिर…
+
+छाया की तरह राठौड़ निकल पड़े।
+
+कोई शोर नहीं… केवल घोड़ों की हल्की टाप।
+
+जैसे ही वे दुश्मन के शिविर के पास पहुँचे—
+
+“अब!”
+
+एक साथ चारों ओर से हमला हुआ।
+
+दुश्मन नींद से जाग भी नहीं पाया कि तलवारें उस पर टूट पड़ीं।
+
+“जोहार!”
+
+चीखें गूँज उठीं।
+
+तंबू जलने लगे।
+
+घोड़े बेकाबू हो गए।
+
+वह खुद दुश्मन के मुख्य शिविर में घुस गया।
+
+एक सेनापति उसके सामने आया।
+
+“तुमने हमें घेर रखा है!” वह चिल्लाया।
+
+उसने हँसते हुए कहा,
+“घेरा… अब तुम्हारे चारों ओर है।”
+
+और उसकी तलवार ने वार किया।
+
+रात का वह हमला निर्णायक था।
+
+दुश्मन की सेना टूट गई।
+
+घेरा समाप्त हो गया।
+
+---
+
+लेकिन तीसरा और अंतिम युद्ध सबसे भयानक था।
+
+इस बार दुश्मन ने पूरी तैयारी के साथ आक्रमण किया।
+
+उनके पास भारी सेना थी।
+
+और वे सीधे नमक के मैदानों की ओर बढ़े।
+
+वह समझ गया—अगर ये मैदान गए, तो सब कुछ खत्म।
+
+उसने अपनी सेना को इकट्ठा किया।
+
+“आज हम केवल अपने लिए नहीं लड़ रहे,” उसने कहा,
+“आज हम उस नमक के लिए लड़ रहे हैं, जो हमारी रगों में बहता है।”
+
+नगाड़े बजे।
+
+घोड़े तैयार हुए।
+
+और फिर…
+
+धावा।
+
+नमक के सफेद मैदानों पर जब हजारों घोड़े दौड़े, तो ऐसा लगा जैसे धरती खुद काँप रही हो।
+
+धूल और नमक का मिश्रण हवा में उड़ने लगा।
+
+दुश्मन की पंक्तियाँ स्पष्ट दिखाई दे रही थीं।
+
+वह सीधे उनके केंद्र की ओर बढ़ा।
+
+तोपें गरजीं।
+
+गोलियाँ चलीं।
+
+लेकिन गति को कोई रोक नहीं पाया।
+
+राठौड़ घुड़सवार उनकी पंक्तियों में घुस गए।
+
+तलवारें टकराईं।
+
+खून सफेद नमक पर गिरा—और लाल लकीरें बन गईं।
+
+पूरा मैदान एक भयंकर युद्धभूमि बन गया।
+
+वह बीचों-बीच था।
+
+उसकी साँसें तेज़ थीं।
+
+उसकी तलवार लगातार चल रही थी।
+
+लेकिन अचानक—
+
+एक वार उसके कंधे पर लगा।
+
+वह डगमगाया।
+
+घोड़ा भी लड़खड़ा गया।
+
+वह जमीन पर गिर पड़ा।
+
+चारों ओर दुश्मन घिर आए।
+
+एक पल के लिए सब कुछ शांत हो गया।
+
+फिर…
+
+“जोहार राठौड़!”
+
+उसके साथी टूट पड़े।
+
+उन्होंने उसे उठाया।
+
+और फिर…
+
+एक अंतिम धावा।
+
+यह धावा सब कुछ बदल गया।
+
+दुश्मन की सेना टूट गई।
+
+वे भागने लगे।
+
+नमक के मैदान बच गए।
+
+---
+
+युद्ध समाप्त हुआ।
+
+वह धीरे-धीरे खड़ा हुआ।
+
+उसके शरीर से खून बह रहा था।
+
+उसने चारों ओर देखा—सफेद मैदान, अब लाल हो चुके थे।
+
+उसकी आँखों में एक संतोष था।
+
+“डीडवाना… सुरक्षित है…” उसने धीमे से कहा।
+
+लेकिन उसके घाव गहरे थे।
+
+वह घुटनों पर गिर पड़ा।
+
+उसकी तलवार उसके हाथ से छूट गई।
+
+और फिर…
+
+उसकी साँसें थम गईं।
+
+---
+
+आज भी डीडवाना के नमक के मैदान वैसे ही चमकते हैं।
+
+हवा जब चलती है, तो लगता है जैसे घोड़ों की टापें सुनाई दे रही हों।
+
+यह केवल एक नगर की रक्षा की कहानी नहीं थी।
+
+यह उस आत्मा की कहानी थी, जो हर बार टूटकर भी खड़ी हो जाती है।
+
+जैसे नमक…
+
+जो हर घाव में चुभता है, लेकिन उसे भरता भी है।
+
+और डीडवाना…
+
+आज भी उसी जिद, उसी साहस, और उसी बलिदान की गवाही देता है।
+`
     ],
-    coverImage: { src: '/images/legends/didwana.jpg', alt: 'A wide, salt-covered plain under a clear blue sky.' }
+    coverImage: { src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'A wide, salt-covered plain under a clear blue sky.' }
   },
   {
     id: 'battle-nagaur-plains',
@@ -1833,11 +45464,264 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Nagaur Plains',
     story: [
-      'The plains of Nagaur were a strategic prize, offering a panoramic view of the surrounding desert. Their control was often contested in the desert wars.',
-      'This battle saw a massive display of cavalry warfare, where the Rathore forces used the wide, open spaces to launch a series of devastating charges, eventually driving the invading army from the plains.',
-      'The legend of the Nagaur Plains is a story of the importance of protecting the heart of the kingdom and the courage of those who fought for it.'
+      `नागौर के मैदान…
+जहाँ रेत सिर्फ़ रेत नहीं थी, बल्कि सत्ता का दर्पण थी। जो इन मैदानों पर खड़ा होता, वह पूरे मरुस्थल को अपनी मुट्ठी में देख सकता था। दूर-दूर तक फैली समतल धरती, जहाँ हर हलचल दिखाई देती थी—हर घोड़े की टाप, हर धूल का गुबार, हर आने वाला तूफ़ान।
+
+यही कारण था कि नागौर केवल एक स्थान नहीं था… वह मारवाड़ का हृदय था।
+
+और इसी हृदय की रक्षा के लिए एक योद्धा का जन्म हुआ था।
+
+---
+
+मारवाड़ के राजमहल में उस रात उत्सव था। शंख बज रहे थे, दीप जल रहे थे, और रानियों के कक्षों में मंगल गीत गूँज रहे थे। एक राजकुमार का जन्म हुआ था—ऐसा बालक, जिसकी पहली चीख भी तलवार की खनक जैसी थी।
+
+उसके जन्म के साथ ही ज्योतिषियों ने कहा था,
+“यह बालक रणभूमि का भाग्य बदल देगा… इसकी पहचान इसकी गति होगी।”
+
+बचपन से ही उसमें कुछ अलग था। जहाँ दूसरे बच्चे खेलते थे, वह घोड़ों के बीच समय बिताता था। मारवाड़ी घोड़े भी उसे पहचानते थे—उनके मुड़े हुए कान जैसे उसकी हर बात समझते थे।
+
+पाँच वर्ष की आयु में ही उसे पहली बार घोड़े पर बैठाया गया। गिरा, उठा, फिर गिरा… लेकिन हर बार उसकी आँखों में और अधिक जिद चमक उठती।
+
+उसके गुरु ने एक दिन उसकी कलाई पकड़कर कहा,
+“तलवार चलाना सीखना आसान है… लेकिन युद्ध जीतना मुश्किल। युद्ध जीतता है वह, जो मैदान को पढ़ता है।”
+
+बालक ने नागौर के मैदानों की ओर देखा—वह समतल, खुला विस्तार… और उसके भीतर कुछ जाग उठा।
+
+---
+
+समय के साथ वह युवा हुआ। अब उसकी पहचान एक तेज़तर्रार योद्धा के रूप में होने लगी। उसकी घुड़सवारी ऐसी थी कि हवा भी पीछे छूट जाए। तलवार इतनी तेज़ कि आँखें उसका पीछा न कर सकें।
+
+उधर मारवाड़ की राजनीति उबल रही थी। उत्तर से आने वाली शक्तियाँ लगातार नागौर की ओर बढ़ रही थीं। जो भी नागौर को जीत लेता, वह पूरे क्षेत्र की नसों पर हाथ रख लेता।
+
+दरबार में तनाव था।
+
+एक दिन दूत दौड़ता हुआ आया,
+“महाराज! एक विशाल सेना नागौर की ओर बढ़ रही है। हजारों घुड़सवार, पैदल सेना, और तोपें भी साथ हैं!”
+
+सभा में खामोशी छा गई।
+
+तभी वह उठा।
+
+उसकी आँखों में वही पुरानी आग थी।
+
+“नागौर खोया… तो मारवाड़ का दिल रुक जाएगा,” उसने कहा,
+“और जब दिल पर वार होता है… तो राठौड़ जवाब नहीं देते… धावा बोलते हैं।”
+
+---
+
+पहला युद्ध नागौर के बाहरी मैदानों में हुआ।
+
+सुबह का समय था। सूरज अभी पूरी तरह निकला भी नहीं था कि धूल का गुबार दूर से उठता दिखाई दिया। दुश्मन की सेना आगे बढ़ रही थी—संगठित, विशाल, और आत्मविश्वास से भरी।
+
+राठौड़ों की सेना संख्या में कम थी, लेकिन उनकी आँखों में भय नहीं था।
+
+उसने अपनी सेना को तीन भागों में बाँटा।
+
+“हम सीधी लड़ाई नहीं लड़ेंगे,” उसने कहा,
+“हम उन्हें तोड़ेंगे… धीरे-धीरे… हर दिशा से।”
+
+पहला दल सामने से टकराया।
+
+“हर हर महादेव!”
+“जोहार राठौड़!”
+
+घोड़ों की टापों से धरती काँप उठी।
+
+तलवारें टकराईं, भाले आर-पार हुए, और चीखों ने आसमान को चीर दिया।
+
+लेकिन असली खेल अभी बाकी था।
+
+जैसे ही दुश्मन ने अपनी पूरी ताकत सामने झोंकी, दूसरा दल उनके दाएँ किनारे पर टूट पड़ा। तीसरा दल पीछे से आया—उनकी पंक्तियों को काटता हुआ।
+
+दुश्मन भ्रमित हो गया।
+
+“ये हर तरफ से कैसे आ रहे हैं?” एक सेनापति चिल्लाया।
+
+वह मुस्कुराया।
+
+यह युद्ध नहीं था… यह शिकार था।
+
+कुछ ही घंटों में दुश्मन पीछे हटने लगा।
+
+पहला धावा सफल था।
+
+---
+
+लेकिन असली परीक्षा अभी बाकी थी।
+
+कुछ सप्ताह बाद दुश्मन और भी बड़ी सेना लेकर लौटा। इस बार वे पूरी तैयारी के साथ आए थे। उन्होंने नागौर के मैदानों को घेर लिया था—चारों ओर से।
+
+राठौड़ों के पास पीछे हटने का कोई रास्ता नहीं था।
+
+दरबार में कई सरदारों ने कहा,
+“हमें किले में बंद हो जाना चाहिए… इंतजार करना चाहिए।”
+
+लेकिन उसने सिर हिलाया।
+
+“नागौर के मैदानों में बंद होकर नहीं… खुलकर लड़ा जाता है,” उसने दृढ़ स्वर में कहा।
+
+उसने एक नई योजना बनाई।
+
+रात के अंधेरे में उसने अपनी सेना को छोटे-छोटे दलों में बाँट दिया। हर दल अलग दिशा में फैल गया—जैसे रेत में बिखरी चिंगारियाँ।
+
+सुबह होते ही दुश्मन ने देखा—मैदान खाली है।
+
+“क्या वे भाग गए?” एक सैनिक ने पूछा।
+
+लेकिन तभी…
+
+चारों दिशाओं से घोड़ों की टापें गूँज उठीं।
+
+राठौड़ों ने चारों ओर से धावा बोल दिया।
+
+यह कोई साधारण हमला नहीं था—यह गति का तूफ़ान था।
+
+घोड़े इतनी तेजी से दौड़े कि धूल का बादल आसमान तक उठ गया। दुश्मन कुछ समझ पाता, उससे पहले उनकी पंक्तियाँ टूटने लगीं।
+
+वह सबसे आगे था।
+
+उसने सीधे दुश्मन के मुख्य दल पर हमला किया।
+
+तलवारें चमकीं। खून बहा। चीखें गूँजीं।
+
+एक दुश्मन सेनापति उसके सामने आया।
+
+“तुम्हारा अंत यहीं है!” वह गरजा।
+
+उसने घोड़े को रोका, और शांत स्वर में कहा,
+“यह नागौर है… यहाँ अंत नहीं… इतिहास लिखा जाता है।”
+
+अगले ही पल उसकी तलवार ने हवा को चीरते हुए वार किया—और सेनापति गिर पड़ा।
+
+दूसरा युद्ध भी राठौड़ों की विजय के साथ समाप्त हुआ।
+
+लेकिन कीमत भारी थी।
+
+मैदान खून से लाल हो चुका था।
+
+---
+
+अब अंतिम युद्ध शेष था।
+
+दुश्मन ने अपनी सारी ताकत झोंक दी थी। यह निर्णायक संघर्ष था।
+
+नागौर के खुले मैदान… जहाँ कोई छिपने की जगह नहीं थी।
+
+उसने अपनी सेना को देखा।
+
+थके हुए चेहरे, घायल शरीर… लेकिन आँखों में वही ज्वाला।
+
+वह आगे बढ़ा।
+
+“आज… हम केवल जीतने के लिए नहीं लड़ेंगे,” उसने कहा,
+“आज हम यह तय करेंगे कि नागौर किसका है… हमेशा के लिए।”
+
+नगाड़े बजे।
+
+घोड़े हिनहिनाए।
+
+और फिर…
+
+धावा।
+
+हजारों घोड़े एक साथ दौड़े।
+
+धरती काँपी।
+
+आसमान धूल से भर गया।
+
+यह राठौड़ों का सबसे बड़ा धावा था।
+
+दुश्मन ने तोपें चलाईं, तीर छोड़े… लेकिन गति को कोई रोक नहीं पाया।
+
+राठौड़ सेना सीधी उनकी पंक्तियों में घुस गई।
+
+तलवारें बरसीं। भाले गड़े। घोड़े टकराए।
+
+पूरा मैदान एक भयंकर युद्धभूमि बन गया।
+
+वह बीचों-बीच था।
+
+उसकी तलवार अब खून से भीगी हुई थी।
+
+हर वार के साथ एक दुश्मन गिरता।
+
+लेकिन अचानक…
+
+एक तोप का गोला उसके पास फटा।
+
+उसका घोड़ा लड़खड़ा गया।
+
+वह जमीन पर गिर पड़ा।
+
+चारों ओर दुश्मन घिर आए।
+
+एक पल के लिए समय थम गया।
+
+लेकिन तभी…
+
+“जोहार राठौड़!”
+
+उसके साथी तूफ़ान की तरह टूट पड़े।
+
+उन्होंने उसे उठाया।
+
+और फिर…
+
+एक अंतिम धावा।
+
+यह धावा निर्णायक था।
+
+दुश्मन की सेना टूट गई।
+
+वे भागने लगे।
+
+नागौर बच गया।
+
+---
+
+युद्ध समाप्त हुआ।
+
+मैदान पर खामोशी छा गई।
+
+वह धीरे-धीरे उठा।
+
+उसकी साँसें भारी थीं।
+
+उसने चारों ओर देखा—अपने गिरे हुए साथियों को।
+
+उसकी आँखों में पहली बार दर्द झलका।
+
+“नागौर… अब सुरक्षित है…” उसने धीमे से कहा।
+
+लेकिन उसके घाव गहरे थे।
+
+कुछ ही क्षणों बाद वह घुटनों पर गिर पड़ा।
+
+उसकी तलवार उसके हाथ से छूट गई।
+
+उसने आखिरी बार मैदान की ओर देखा—वह मैदान, जिसके लिए उसने सब कुछ दे दिया था।
+
+और फिर…
+
+उसकी आँखें बंद हो गईं।
+
+---
+
+आज भी नागौर के मैदानों में जब हवा चलती है, तो लगता है जैसे घोड़ों की टापें गूँज रही हों।
+
+वह केवल एक युद्ध नहीं था।
+
+वह एक घोषणा थी—
+
+कि मारवाड़ का हृदय कभी नहीं झुकेगा।
+
+और राठौड़ों का धावा…
+
+सिर्फ़ एक हमला नहीं, बल्कि एक विरासत है—जो हर पीढ़ी को याद दिलाती है कि खुले मैदानों में लड़ने वालों का साहस ही इतिहास बनाता है।
+`
     ],
-    coverImage: { src: '/images/legends/nagaur-plains.jpg', alt: 'A wide, sandy plain under a clear blue sky.' }
+    coverImage: { src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'A wide, sandy plain under a clear blue sky.' }
   },
   {
     id: 'rathore-charge-marwar',
@@ -1847,11 +45731,162 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Central Marwar',
     story: [
-      'The Rathore charge was a thing of legend, feared by all who faced it. It involved a massive, synchronized rush of Marwari horses, their ears curved in focused intent.',
-      'This legend celebrates a charge that broke an imperial army’s line, proving that the speed and the power of the Rathore cavalry could overcome any obstacle.',
-      'The Rathore charge is a symbol of the martial prowess and the equestrian culture of Marwar.'
+      `मरुस्थल की रात थी। थार की रेत पर चाँदनी ऐसे बिखरी थी मानो धरती ने चाँदी की चादर ओढ़ ली हो। दूर कहीं नगाड़ों की धीमी आवाज़ गूँज रही थी—एक ऐसी धड़कन, जो आने वाले तूफ़ान का संकेत दे रही थी। यह कोई साधारण युद्ध नहीं था। यह वह क्षण था जब राठौड़ों की पहचान, उनका स्वाभिमान, और उनकी तलवारों की चमक इतिहास में आग की लकीर खींचने वाली थी।
+
+मारवाड़ की धरती पर जन्म लेना ही अपने आप में एक शपथ था। उस वंश में जन्मा हर बालक तलवार की छाया में पला करता था। उसी वंश में एक बालक का जन्म हुआ—जिसकी आँखों में बचपन से ही अग्नि थी, और जिसकी सांसों में रणभूमि की गंध बसती थी। महलों के भीतर जहाँ रेशमी पर्दे लहराते थे, वहीं आँगन में तलवारों की टकराहट गूँजती थी।
+
+बचपन से ही उसे घोड़े की पीठ पर बैठना सिखाया गया। मारवाड़ी घोड़े—उनके मुड़े हुए कान, तेज़ चाल और अटूट निष्ठा—उसके सबसे पहले साथी बने। जैसे ही वह पाँच वर्ष का हुआ, उसे लकड़ी की तलवार थमा दी गई। हर सुबह सूरज के साथ उठना, रेत पर दौड़ना, घुड़सवारी करना और फिर तलवारबाज़ी का अभ्यास—यह उसकी दिनचर्या थी।
+
+एक दिन उसके गुरु ने उससे कहा,
+“याद रखो, राठौड़ की ताकत केवल उसकी तलवार नहीं, बल्कि उसका धावा है… वो धावा जो दुश्मन के दिल में डर बनकर उतरता है।”
+
+बालक ने बिना कुछ कहे सिर झुका दिया, लेकिन उसकी आँखों में एक वादा था—एक ऐसा वादा, जो आने वाले समय में पूरी दुनिया को सुनाई देने वाला था।
+
+समय बीतता गया। मारवाड़ की राजनीति उथल-पुथल से भरी हुई थी। उत्तर से साम्राज्य की सेनाएँ लगातार बढ़ती जा रही थीं। हर सीमा पर दबाव था, हर किले पर खतरा मंडरा रहा था। दरबार में रणनीतियाँ बनतीं, दूत आते-जाते, और हर दिन एक नए संघर्ष की खबर लेकर आता।
+
+जब वह युवा हुआ, तो उसकी पहचान केवल एक राजकुमार के रूप में नहीं, बल्कि एक योद्धा के रूप में होने लगी। उसकी तलवार की गति, उसकी घुड़सवारी की निपुणता, और सबसे बढ़कर—उसकी रणनीतिक सोच—उसे बाकी सभी से अलग बनाती थी।
+
+एक दिन दरबार में खबर आई—एक विशाल साम्राज्य की सेना, हजारों सैनिकों और भारी तोपखाने के साथ मारवाड़ की ओर बढ़ रही है। उनके सामने राठौड़ों की सेना संख्या में कम थी, लेकिन उनकी आँखों में वही ज्वाला थी जो सदियों से उनके रक्त में दौड़ती आई थी।
+
+सभा में सन्नाटा था। तभी वह उठा।
+
+“हम संख्या में कम हैं… लेकिन हम राठौड़ हैं,” उसकी आवाज़ गूँजी, “और जब राठौड़ धावा बोलते हैं… तो इतिहास बदलता है।”
+
+उसकी योजना सरल थी, लेकिन साहसी। वह जानता था कि सीधी टक्कर में वे टिक नहीं पाएंगे। इसलिए उसने मरुस्थल को ही अपना हथियार बनाने का निश्चय किया।
+
+पहला युद्ध भोर से ठीक पहले शुरू हुआ।
+
+रेत के टीलों के पीछे छिपी राठौड़ों की सेना ने अचानक हमला किया। जैसे ही सूरज की पहली किरण निकली, दुश्मन की पंक्तियों पर धूल का तूफ़ान टूट पड़ा। सैकड़ों मारवाड़ी घोड़े—उनके कान आगे की ओर मुड़े हुए, आँखों में आग—एक साथ दौड़े।
+
+“हर हर महादेव!”
+“जोहार राठौड़!”
+
+युद्ध का मैदान गरज उठा।
+
+घोड़ों की टापों से धरती काँप रही थी। तलवारें चमक रही थीं। धूल, खून और चीखों का ऐसा संगम बना कि समय भी जैसे थम गया हो।
+
+उसने अपने घोड़े को आगे बढ़ाया और सीधे दुश्मन के केंद्र पर हमला किया। उसकी तलवार बिजली की तरह चमकी—एक वार, फिर दूसरा, और हर वार के साथ एक सैनिक गिरता गया।
+
+लेकिन यह केवल वीरता नहीं थी—यह रणनीति थी।
+
+उसने अपनी सेना को तीन भागों में बाँटा था। जब पहला धावा दुश्मन को भ्रमित कर रहा था, तब दूसरा दल उनके किनारों पर टूट पड़ा। तीसरा दल पीछे से आकर उनकी रसद और तोपखाने पर हमला कर रहा था।
+
+दुश्मन की पंक्तियाँ डगमगाने लगीं।
+
+एक सैनिक चिल्लाया, “ये इंसान नहीं हैं… ये तूफ़ान हैं!”
+
+पहला युद्ध राठौड़ों की जीत के साथ समाप्त हुआ, लेकिन यह केवल शुरुआत थी।
+
+कुछ महीनों बाद, दूसरा युद्ध और भी भीषण था।
+
+इस बार दुश्मन तैयार था। उन्होंने अपने शिविर को मजबूत किलेबंदी से घेर लिया था। चारों ओर खाई, ऊँचे बुरुज, और भारी तोपें।
+
+दरबार में कई सरदारों ने कहा, “सीधे हमला करना आत्महत्या होगा।”
+
+लेकिन उसने मुस्कुराते हुए कहा,
+“जब राठौड़ धावा बोलते हैं… तो किले भी रास्ता दे देते हैं।”
+
+रात के अंधेरे में उसने अपनी सेना को छोटे-छोटे दलों में बाँट दिया। कुछ दल चुपचाप खाई पार कर अंदर घुसे, जबकि मुख्य सेना ने सामने से हमला किया।
+
+जैसे ही तोपें गरजीं, राठौड़ों का धावा फिर से शुरू हुआ।
+
+घोड़ों की टापें, तलवारों की टकराहट, और सैनिकों की गर्जना—पूरा युद्धक्षेत्र एक भयंकर नृत्य में बदल गया।
+
+वह खुद सबसे आगे था।
+
+एक दुश्मन सेनापति उसके सामने आया। दोनों की तलवारें टकराईं। चिंगारियाँ उड़ीं।
+
+“तुम्हारा अंत आज यहीं होगा!” सेनापति गरजा।
+
+उसने शांत स्वर में उत्तर दिया,
+“राठौड़ का अंत रणभूमि में नहीं… उसकी शुरुआत होती है।”
+
+अगले ही क्षण उसकी तलवार ने दुश्मन के सेनापति को चीर दिया।
+
+दूसरा युद्ध भी विजय में समाप्त हुआ, लेकिन इसकी कीमत भारी थी। उसके कई साथी, बचपन के मित्र, रणभूमि में गिर चुके थे।
+
+रात को वह अकेला बैठा था। उसके हाथ खून से सने थे, लेकिन उसकी आँखों में आँसू नहीं थे—सिर्फ़ एक कठोर संकल्प था।
+
+“जब तक एक भी राठौड़ जिंदा है… यह धरती झुकेगी नहीं।”
+
+समय बीता, और फिर आया अंतिम युद्ध।
+
+यह वह युद्ध था, जिसने राठौड़ धावे को अमर बना दिया।
+
+दुश्मन इस बार पहले से कहीं अधिक शक्तिशाली था। हजारों सैनिक, सैकड़ों हाथी, और अनगिनत तोपें।
+
+मैदान खुला था—चारों ओर सिर्फ़ रेत।
+
+उसने अपनी सेना को देखा। हर सैनिक उसकी ओर देख रहा था—उनकी आँखों में विश्वास था।
+
+वह आगे बढ़ा और बोला,
+“आज हम संख्या से नहीं… अपने धावे से जीतेंगे। याद रखो—हमारी गति ही हमारी ताकत है।”
+
+और फिर… वह क्षण आया।
+
+नगाड़े बजे।
+
+घोड़े दौड़े।
+
+और राठौड़ों का धावा शुरू हुआ।
+
+यह कोई साधारण हमला नहीं था—यह एक सुनामी थी।
+
+हजारों घोड़े एक साथ दौड़े, उनकी टापों से धरती काँप उठी। धूल का बादल आसमान तक उठ गया।
+
+दुश्मन की पंक्तियाँ पहले ही पल में टूटने लगीं।
+
+उसने अपने घोड़े को और तेज़ दौड़ाया—सीधे दुश्मन के केंद्र की ओर।
+
+तोपें गरजीं, गोलियाँ चलीं, लेकिन राठौड़ों की गति को कोई रोक नहीं पाया।
+
+वह दुश्मन की पंक्तियों को चीरता हुआ आगे बढ़ा। उसकी तलवार खून से लाल हो चुकी थी।
+
+चारों ओर सिर्फ़ चीखें, टकराहट, और मौत का नृत्य।
+
+एक क्षण ऐसा आया जब वह दुश्मन के बीचों-बीच अकेला रह गया। चारों ओर से सैनिक उसे घेरने लगे।
+
+लेकिन तभी…
+
+एक गर्जना हुई।
+
+“जोहार राठौड़!”
+
+और उसके साथी तूफ़ान की तरह आ पहुँचे।
+
+उन्होंने उसे घेर लिया और फिर एक साथ अंतिम धावा बोला।
+
+दुश्मन की सेना पूरी तरह टूट गई।
+
+यह जीत केवल एक युद्ध की नहीं थी—यह एक परंपरा की जीत थी।
+
+युद्ध के बाद वह मैदान पर खड़ा था। चारों ओर शव, टूटी तलवारें, और खामोशी।
+
+उसने आसमान की ओर देखा।
+
+उसकी साँसें भारी थीं, लेकिन उसकी आँखों में संतोष था।
+
+धीरे-धीरे उसकी पकड़ ढीली हुई, और वह घोड़े से नीचे गिर पड़ा।
+
+उसका अंतिम क्षण आ चुका था।
+
+उसने धीमे स्वर में कहा,
+“राठौड़… कभी हारते नहीं…”
+
+और उसकी आँखें हमेशा के लिए बंद हो गईं।
+
+लेकिन कहानी यहीं खत्म नहीं हुई।
+
+आज भी जब मारवाड़ की रेत पर हवा चलती है, तो ऐसा लगता है मानो घोड़ों की टापें सुनाई दे रही हों।
+
+राठौड़ धावा—सिर्फ़ एक युद्धकला नहीं, बल्कि एक विरासत बन गया।
+
+एक ऐसा प्रतीक, जो बताता है कि जब साहस, रणनीति और आत्मबल एक साथ आते हैं… तो कोई भी शक्ति उन्हें रोक नहीं सकती।
+
+और इतिहास के पन्नों में… राठौड़ों का वह धावा आज भी गूंजता है—एक अमर गर्जना की तरह।
+`
     ],
-    coverImage: { src: '/images/legends/rathore-charge.jpg', alt: 'A massive group of Rathore cavalry charging across the dunes.' }
+    coverImage: { src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'A massive group of Rathore cavalry charging across the dunes.' }
   },
   {
     id: 'defense-merta-fort',
@@ -1861,11 +45896,650 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Merta, Marwar',
     story: [
-      'Merta Fort was a strategic outpost that faced the first brunt of many invasions from the north. Its defense was a critical part of the overall security of Marwar.',
-      'The legend tells of a garrison that held the fort for months, their resolve as unyielding as the stone walls that sheltered them.',
-      'The defense of Merta Fort is a story of the importance of frontier outposts in the survival of a kingdom and the skill of the warriors who guarded it.'
+      `उत्तर से आती हवा उस दिन भारी थी—मानो अपने साथ किसी अनदेखे तूफ़ान की आहट लेकर चल रही हो। अरावली की दूर की रेखाएँ धुंधली थीं, और उनके बीच, समतल धरती पर उभरा एक किला—मेड़ता—अपनी साँस रोके खड़ा था।
+
+यह वह चौकी थी—
+
+जहाँ हर आक्रमण सबसे पहले टकराता था।
+
+जहाँ हर खतरा—
+
+सबसे पहले महसूस होता था।
+
+---
+
+भोर से पहले की उस नीली घड़ी में, किले की प्राचीर पर एक युवा सेनापति खड़ा था।
+
+उसकी आँखें उत्तर की ओर थीं।
+
+---
+
+“धूल…” उसने धीरे से कहा।
+
+---
+
+एक प्रहरी दौड़ता हुआ आया।
+
+---
+
+“सेना आ रही है।”
+
+---
+
+सन्नाटा।
+
+---
+
+पीछे खड़े सैनिकों ने एक-दूसरे की ओर देखा।
+
+---
+
+“कितने?” किसी ने पूछा।
+
+---
+
+उत्तर आया—
+
+“बहुत।”
+
+---
+
+और उस एक शब्द में—
+
+सब कुछ समा गया।
+
+---
+
+उसका जन्म भी इसी किले की छाया में हुआ था।
+
+---
+
+बचपन में—
+
+वह इन दीवारों के बीच खेला था।
+
+---
+
+इन पत्थरों को छूकर बड़ा हुआ था।
+
+---
+
+और हर दिन—
+
+एक बात सुनता आया था—
+
+---
+
+“यह सीमा है…”
+
+---
+
+“और यह कभी नहीं टूटनी चाहिए।”
+
+---
+
+उसके पिता—
+
+इसी प्राचीर पर गिरे थे।
+
+---
+
+और वही—
+
+उसकी पहली शिक्षा थी।
+
+---
+
+समय बदला।
+
+---
+
+वह अब—
+
+रक्षक था।
+
+---
+
+और आज—
+
+वह वही करने वाला था—
+
+जो उससे पहले कई कर चुके थे।
+
+---
+
+संदेश आया—
+
+---
+
+“मुख्य सेना दूर है।”
+
+---
+
+“हमें समय चाहिए।”
+
+---
+
+उसने सिर हिलाया।
+
+---
+
+“हम देंगे।”
+
+---
+
+बस इतना ही।
+
+---
+
+कोई और प्रश्न नहीं।
+
+---
+
+कोई और विकल्प नहीं।
+
+---
+
+पहला चरण।
+
+---
+
+दुश्मन किले के सामने आ खड़ा हुआ।
+
+---
+
+घोड़े।
+
+तोपें।
+
+---
+
+संख्या—
+
+दस गुना।
+
+---
+
+“समर्पण करो!” उनका सेनापति चिल्लाया।
+
+---
+
+प्राचीर पर—
+
+मौन।
+
+---
+
+फिर—
+
+एक आवाज़।
+
+---
+
+“यह मेड़ता है…”
+
+---
+
+“यहाँ समर्पण नहीं होता।”
+
+---
+
+पहला हमला।
+
+---
+
+तोपें गरजीं।
+
+---
+
+धड़ाम!
+
+---
+
+दीवार काँपी।
+
+---
+
+लेकिन गिरी नहीं।
+
+---
+
+सीढ़ियाँ दीवारों से टकराईं।
+
+---
+
+“तैयार!”
+
+---
+
+ऊपर से—
+
+तीर।
+
+---
+
+पत्थर।
+
+---
+
+उबलता तेल।
+
+---
+
+चीखें गूँजीं।
+
+---
+
+पहला प्रयास विफल।
+
+---
+
+दूसरा।
+
+---
+
+तीसरा।
+
+---
+
+हर बार—
+
+वही परिणाम।
+
+---
+
+लेकिन घेराबंदी—
+
+अब शुरू हो चुकी थी।
+
+---
+
+दिन बीते।
+
+---
+
+पानी—
+
+कम।
+
+---
+
+भोजन—
+
+लगभग समाप्त।
+
+---
+
+लेकिन मन—
+
+अब भी अडिग।
+
+---
+
+“हम टिकेंगे,” सेनापति ने कहा।
+
+---
+
+“जब तक समय पूरा नहीं होता।”
+
+---
+
+रातें लंबी थीं।
+
+---
+
+लेकिन हर रात—
+
+छोटे हमले।
+
+---
+
+द्वार खुलते।
+
+---
+
+घुड़सवार निकलते।
+
+---
+
+रसद पर वार।
+
+---
+
+और लौट आते।
+
+---
+
+दुश्मन परेशान।
+
+---
+
+“ये खत्म क्यों नहीं होते?” एक सैनिक चिल्लाया।
+
+---
+
+उत्तर—
+
+उनकी जिद में था।
+
+---
+
+दूसरा चरण।
+
+---
+
+महीनों बीत गए।
+
+---
+
+दुश्मन थक चुका था।
+
+---
+
+लेकिन अब—
+
+अंतिम प्रयास।
+
+---
+
+“आज खत्म करो!” उनका सेनापति गरजा।
+
+---
+
+तोपें गरजीं।
+
+---
+
+धड़ाम!
+
+---
+
+दीवार काँपी।
+
+---
+
+एक हिस्सा टूट गया।
+
+---
+
+“वे अंदर आ रहे हैं!” एक सैनिक चिल्लाया।
+
+---
+
+सेनापति आगे बढ़ा।
+
+---
+
+उसकी आँखों में—
+
+अब केवल एक बात थी।
+
+---
+
+“यहीं…”
+
+---
+
+“हम रुकेंगे।”
+
+---
+
+“हर हर महादेव!”
+
+---
+
+और फिर—
+
+युद्ध।
+
+---
+
+हर गली—
+
+रणभूमि।
+
+---
+
+हर मोड़—
+
+संघर्ष।
+
+---
+
+एक-एक कर—
+
+सैनिक गिरते गए।
+
+---
+
+लेकिन हर गिरने वाला—
+
+दूसरे को आगे बढ़ा रहा था।
+
+---
+
+सेनापति—
+
+सबसे आगे।
+
+---
+
+एक वार—
+
+उसके कंधे पर।
+
+---
+
+दूसरा—
+
+सीने में।
+
+---
+
+खून बहा।
+
+---
+
+लेकिन वह रुका नहीं।
+
+---
+
+“जब तक हम हैं…”
+
+---
+
+“यह किला खड़ा है!”
+
+---
+
+उसकी गर्जना—
+
+दीवारों से टकराकर गूँज उठी।
+
+---
+
+अंतिम क्षण।
+
+---
+
+सिर्फ कुछ ही बचे।
+
+---
+
+थके हुए।
+
+घायल।
+
+---
+
+लेकिन अब भी—
+
+खड़े।
+
+---
+
+और तभी—
+
+दूर से—
+
+घोड़ों की टाप।
+
+---
+
+नई सेना।
+
+---
+
+मुख्य सेना आ चुकी थी।
+
+---
+
+दुश्मन चौंका।
+
+---
+
+“वे आ गए!” एक सैनिक चिल्लाया।
+
+---
+
+और उसी क्षण—
+
+मेड़ता के बचे हुए योद्धा टूट पड़े।
+
+---
+
+अंतिम प्रहार।
+
+---
+
+दुश्मन—
+
+टूट गया।
+
+---
+
+भाग गया।
+
+---
+
+शाम।
+
+---
+
+किला—
+
+शांत।
+
+---
+
+प्राचीर पर—
+
+कुछ शव।
+
+---
+
+और उनके बीच—
+
+वह सेनापति।
+
+---
+
+उसकी आँखें बंद।
+
+---
+
+लेकिन चेहरे पर—
+
+शांति।
+
+---
+
+उसने अपना वचन निभा दिया था।
+
+---
+
+समय—
+
+दे दिया गया था।
+
+---
+
+मारवाड़—
+
+बच गया।
+
+---
+
+समय बीतता गया।
+
+---
+
+कोई नाम नहीं।
+
+---
+
+कोई स्मारक नहीं।
+
+---
+
+लेकिन मेड़ता—
+
+आज भी खड़ा है।
+
+---
+
+उसकी दीवारों में—
+
+एक कहानी है।
+
+---
+
+उन कुछ लोगों की—
+
+जिन्होंने सब कुछ दे दिया।
+
+---
+
+मेड़ता—
+
+एक किला नहीं।
+
+---
+
+एक सीमा।
+
+---
+
+एक बलिदान।
+
+---
+
+एक स्मरण—
+
+कि हर महान राज्य के पीछे—
+
+---
+
+कुछ छोटे किले होते हैं…
+
+---
+
+जो चुपचाप—
+
+उसकी रक्षा करते हैं।
+
+---
+
+और जब वे खड़े रहते हैं—
+
+---
+
+तो पूरा साम्राज्य—
+
+अडिग रहता है।
+`
     ],
-    coverImage: { src: '/images/legends/merta-fort.jpg', alt: 'The strong stone walls of Merta Fort on a high ridge.' }
+    coverImage: { src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'The strong stone walls of Merta Fort on a high ridge.' }
   },
   {
     id: 'stand-sojat',
@@ -1875,11 +46549,634 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Sojat, Marwar',
     story: [
-      'Sojat was a strategic outpost that faced the first brunt of many invasions. This legend celebrates the garrison that refused to retreat, even when outnumbered ten to one.',
-      'Their stand bought the time needed for the main army to mobilize, proving that the courage of a few can save a kingdom.',
-      'The stand at Sojat is a story of the unglamorous but essential work of the frontier outposts in the defense of Rajputana.'
+      `रेगिस्तान और पहाड़ियों के बीच, जहाँ अरावली की टूटती धारें थार की रेत से मिलती हैं, वहाँ एक छोटा-सा किला खड़ा था—
+
+सोजत।
+
+न कोई विशाल राजधानी, न कोई भव्य महल।
+
+बस—
+
+एक चौकी।
+
+एक सीमा।
+
+एक पहरा।
+
+---
+
+लेकिन इतिहास अक्सर वहीं लिखा जाता है—
+
+जहाँ कोई देखने नहीं जाता।
+
+---
+
+भोर से पहले की वह ठंडी घड़ी थी।
+
+आकाश गहरा नीला।
+
+हवा स्थिर।
+
+---
+
+प्राचीर पर एक युवक खड़ा था।
+
+उसकी आँखें दूर क्षितिज को पढ़ रही थीं।
+
+---
+
+“कुछ आ रहा है…” उसने धीमे स्वर में कहा।
+
+---
+
+पीछे खड़े सैनिकों ने उसकी ओर देखा।
+
+---
+
+“कितने?” एक ने पूछा।
+
+---
+
+युवक ने धूल की उठती रेखा को देखा।
+
+---
+
+“बहुत।”
+
+---
+
+सन्नाटा।
+
+---
+
+फिर—
+
+एक हल्की मुस्कान।
+
+---
+
+“तो आज… हम गिने जाएँगे।”
+
+---
+
+उसका जन्म भी यहीं हुआ था।
+
+---
+
+सोजत की उसी धूल में—
+
+जहाँ हर बच्चा खेलते-खेलते युद्ध सीखता है।
+
+---
+
+उसके पिता—
+
+इसी प्राचीर पर गिरे थे।
+
+---
+
+और वही—
+
+उसकी पहली शिक्षा थी।
+
+---
+
+“पीछे मत हटना।”
+
+---
+
+समय बदला।
+
+---
+
+वह अब—
+
+रक्षक था।
+
+---
+
+और आज—
+
+वह वही करने वाला था—
+
+जो उससे पहले कई कर चुके थे।
+
+---
+
+संदेश आया—
+
+---
+
+“मुख्य सेना दूर है।”
+
+---
+
+“हमें समय चाहिए।”
+
+---
+
+उसने सिर हिलाया।
+
+---
+
+“हम देंगे।”
+
+---
+
+बस इतना ही।
+
+---
+
+कोई बड़ी सेना नहीं।
+
+कोई सहायता नहीं।
+
+---
+
+केवल—
+
+एक किला।
+
+---
+
+और कुछ योद्धा।
+
+---
+
+पहला चरण।
+
+---
+
+दुश्मन आगे बढ़ा।
+
+---
+
+संख्या—
+
+दस गुना।
+
+---
+
+“समर्पण करो!” उनका सेनापति चिल्लाया।
+
+---
+
+प्राचीर पर—
+
+मौन।
+
+---
+
+फिर—
+
+एक आवाज़।
+
+---
+
+“यह सोजत है…”
+
+---
+
+“यहाँ समर्पण नहीं होता।”
+
+---
+
+पहला हमला।
+
+---
+
+सीढ़ियाँ दीवारों से टकराईं।
+
+---
+
+“तैयार!”
+
+---
+
+ऊपर से—
+
+तीर।
+
+---
+
+पत्थर।
+
+---
+
+उबलता तेल।
+
+---
+
+चीखें।
+
+---
+
+पहला प्रयास विफल।
+
+---
+
+दूसरा।
+
+---
+
+तीसरा।
+
+---
+
+हर बार—
+
+वही परिणाम।
+
+---
+
+लेकिन संख्या—
+
+कम नहीं हो रही थी।
+
+---
+
+दूसरा चरण।
+
+---
+
+घेराबंदी।
+
+---
+
+दिन बीते।
+
+---
+
+पानी—
+
+कम।
+
+---
+
+भोजन—
+
+लगभग समाप्त।
+
+---
+
+लेकिन मन—
+
+अब भी अडिग।
+
+---
+
+“हम टिकेंगे,” युवक ने कहा।
+
+---
+
+“जब तक वे आ नहीं जाते।”
+
+---
+
+रात।
+
+---
+
+शांति।
+
+---
+
+फिर—
+
+छोटे हमले।
+
+---
+
+द्वार खुलते।
+
+---
+
+घुड़सवार निकलते।
+
+---
+
+तेज़ वार।
+
+---
+
+और लौट आते।
+
+---
+
+दुश्मन परेशान।
+
+---
+
+“ये लोग खत्म क्यों नहीं होते?” एक सैनिक चिल्लाया।
+
+---
+
+उत्तर—
+
+उनकी जिद में था।
+
+---
+
+तीसरा चरण।
+
+---
+
+अंतिम दिन।
+
+---
+
+दुश्मन ने पूरी शक्ति झोंक दी।
+
+---
+
+“आज खत्म करो!” उनका सेनापति गरजा।
+
+---
+
+तोपें गरजीं।
+
+---
+
+धड़ाम!
+
+---
+
+दीवार काँपी।
+
+---
+
+एक हिस्सा टूट गया।
+
+---
+
+“वे अंदर आ रहे हैं!” एक सैनिक चिल्लाया।
+
+---
+
+युवक आगे बढ़ा।
+
+---
+
+उसकी आँखों में—
+
+अब कोई संदेह नहीं था।
+
+---
+
+“यहीं…”
+
+---
+
+“हम रुकेंगे।”
+
+---
+
+“हर हर महादेव!”
+
+---
+
+और फिर—
+
+युद्ध।
+
+---
+
+हर गली—
+
+रणभूमि।
+
+---
+
+हर कदम—
+
+संघर्ष।
+
+---
+
+एक-एक कर—
+
+सैनिक गिरते गए।
+
+---
+
+लेकिन हर गिरने वाला—
+
+दूसरे को आगे बढ़ा रहा था।
+
+---
+
+युवक—
+
+सबसे आगे।
+
+---
+
+एक वार—
+
+उसके कंधे पर।
+
+---
+
+दूसरा—
+
+सीने में।
+
+---
+
+खून बहा।
+
+---
+
+लेकिन वह रुका नहीं।
+
+---
+
+“जब तक हम हैं…”
+
+---
+
+“यह किला खड़ा है!”
+
+---
+
+अंतिम क्षण।
+
+---
+
+सिर्फ कुछ ही बचे।
+
+---
+
+थके हुए।
+
+घायल।
+
+---
+
+लेकिन अब भी—
+
+खड़े।
+
+---
+
+और तभी—
+
+दूर से—
+
+घोड़ों की टाप।
+
+---
+
+नई सेना।
+
+---
+
+मुख्य सेना आ चुकी थी।
+
+---
+
+दुश्मन चौंका।
+
+---
+
+“वे आ गए!” एक सैनिक चिल्लाया।
+
+---
+
+और उसी क्षण—
+
+सोजत के बचे हुए योद्धा टूट पड़े।
+
+---
+
+अंतिम प्रहार।
+
+---
+
+दुश्मन—
+
+टूट गया।
+
+---
+
+भाग गया।
+
+---
+
+शाम।
+
+---
+
+किला—
+
+शांत।
+
+---
+
+प्राचीर पर—
+
+कुछ शव।
+
+---
+
+और उनके बीच—
+
+वह युवक।
+
+---
+
+उसकी आँखें बंद।
+
+---
+
+लेकिन चेहरे पर—
+
+शांति।
+
+---
+
+उसने अपना वचन निभा दिया था।
+
+---
+
+समय—
+
+दे दिया गया था।
+
+---
+
+राज्य—
+
+बच गया।
+
+---
+
+समय बीतता गया।
+
+---
+
+कोई नाम नहीं।
+
+---
+
+कोई स्मारक नहीं।
+
+---
+
+लेकिन सोजत—
+
+आज भी खड़ा है।
+
+---
+
+उसकी दीवारों में—
+
+एक कहानी है।
+
+---
+
+उन कुछ लोगों की—
+
+जिन्होंने सब कुछ दे दिया।
+
+---
+
+सोजत—
+
+एक चौकी नहीं।
+
+---
+
+एक बलिदान।
+
+---
+
+एक स्मरण—
+
+कि कभी-कभी…
+
+इतिहास बड़े युद्धों से नहीं—
+
+---
+
+छोटे किलों से बचता है।
+
+---
+
+और उन किलों में—
+
+कुछ गिने-चुने लोग—
+
+पूरे राज्य का भार उठाए खड़े होते हैं।
+
+---
+
+और वही—
+
+राजपूताना की असली आत्मा है।
+`
     ],
-    coverImage: { src: '/images/legends/sojat-fort.jpg', alt: 'A small stone fort on a high ridge overlooking a plain.' }
+    coverImage: { src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'A small stone fort on a high ridge overlooking a plain.' }
   },
   {
     id: 'siege-pali',
@@ -1889,11 +47186,602 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Pali, Marwar',
     story: [
-      'Pali was a major center of trade and commerce in Marwar. Its defense against invading forces was a critical part of the history of the region.',
-      'The legend tells of the many times the city’s walls were tested and the many times its defenders stood firm, their spirit as enduring as the ancient stones themselves.',
-      'The defense of Pali is a story of the importance of protecting the centers of trade and culture from the ravages of war.'
+      `सूरज अभी क्षितिज से ऊपर चढ़ ही रहा था, जब पाली की गलियों में हलचल शुरू हो चुकी थी। व्यापारी अपने गोदाम खोल रहे थे, ऊँटों की घंटियाँ बज रही थीं, और हवा में मसालों, कपड़ों और धातु की मिली-जुली गंध तैर रही थी।
+
+पाली—
+
+मारवाड़ का धड़कता हुआ बाज़ार।
+
+---
+
+यह केवल एक शहर नहीं था।
+
+यह व्यापार की नस थी।
+
+जहाँ से धन बहता था—
+
+और जहाँ से शक्ति जन्म लेती थी।
+
+---
+
+लेकिन हर धड़कन—
+
+खतरे में होती है।
+
+---
+
+शहर की प्राचीर पर एक युवक खड़ा था।
+
+उसकी आँखें नीचे नहीं—
+
+दूर थीं।
+
+क्षितिज पर।
+
+---
+
+“कुछ आ रहा है,” उसने कहा।
+
+---
+
+उसके पीछे—सरदार, व्यापारी, सैनिक।
+
+---
+
+“सेना?” किसी ने पूछा।
+
+---
+
+उसने सिर हिलाया।
+
+---
+
+“और बड़ी।”
+
+---
+
+सन्नाटा।
+
+---
+
+एक वृद्ध व्यापारी आगे आया।
+
+---
+
+“अगर पाली गिरा…”
+
+---
+
+उसने वाक्य पूरा नहीं किया।
+
+---
+
+क्योंकि सब जानते थे।
+
+---
+
+मारवाड़ की साँस रुक जाएगी।
+
+---
+
+वह युवक—
+
+राठौड़ रक्त।
+
+---
+
+उसका जन्म भी इन्हीं गलियों में हुआ था।
+
+---
+
+जहाँ उसने व्यापार सीखा।
+
+---
+
+और साथ ही—
+
+तलवार भी।
+
+---
+
+“धन और रक्षा…” उसके पिता ने कहा था,
+
+“दोनों साथ चलते हैं।”
+
+---
+
+और आज—
+
+वह दोनों को बचाने वाला था।
+
+---
+
+सभा लगी।
+
+---
+
+“हम संख्या में कम हैं,” एक सरदार बोला।
+
+---
+
+“और वे… अधिक।”
+
+---
+
+युवक ने दीवार को छुआ।
+
+---
+
+“लेकिन हम यहाँ के हैं।”
+
+---
+
+पहला चरण।
+
+---
+
+दुश्मन शहर के बाहर पहुँचा।
+
+---
+
+धूल।
+
+घोड़े।
+
+तोपें।
+
+---
+
+“समर्पण करो!” उनका सेनापति चिल्लाया।
+
+---
+
+प्राचीर पर—
+
+मौन।
+
+---
+
+फिर—
+
+एक आवाज़।
+
+---
+
+“यह पाली है…”
+
+---
+
+“यहाँ व्यापार बंद हो सकता है…”
+
+---
+
+“सम्मान नहीं।”
+
+---
+
+पहला हमला।
+
+---
+
+सीढ़ियाँ दीवारों से टकराईं।
+
+---
+
+“तैयार!”
+
+---
+
+ऊपर से—
+
+तीर।
+
+---
+
+पत्थर।
+
+---
+
+उबलता तेल।
+
+---
+
+चीखें गूँजीं।
+
+---
+
+पहला प्रयास विफल।
+
+---
+
+दूसरा।
+
+---
+
+तीसरा।
+
+---
+
+हर बार—
+
+वही परिणाम।
+
+---
+
+लेकिन घेराबंदी—
+
+अब शुरू हो चुकी थी।
+
+---
+
+दिन बीते।
+
+---
+
+बाज़ार—
+
+शांत।
+
+---
+
+दुकानें बंद।
+
+---
+
+लेकिन लोग—
+
+एकजुट।
+
+---
+
+“हम सब लड़ेंगे,” एक व्यापारी बोला।
+
+---
+
+“यह हमारा घर है।”
+
+---
+
+रात।
+
+---
+
+किले के भीतर—
+
+रणनीति।
+
+---
+
+“हम टिकेंगे…” युवक ने कहा,
+
+“और उन्हें थकाएँगे।”
+
+---
+
+छोटे हमले।
+
+---
+
+द्वार खुलते।
+
+---
+
+घुड़सवार निकलते।
+
+---
+
+रसद पर वार।
+
+---
+
+और लौट आते।
+
+---
+
+दुश्मन परेशान।
+
+---
+
+“ये खत्म क्यों नहीं होते?” एक सैनिक चिल्लाया।
+
+---
+
+उत्तर—
+
+उनकी जिद में था।
+
+---
+
+तीसरा चरण।
+
+---
+
+महीनों बीत गए।
+
+---
+
+दुश्मन थक चुका था।
+
+---
+
+लेकिन अब—
+
+अंतिम प्रयास।
+
+---
+
+“आज खत्म करो!” उनका सेनापति गरजा।
+
+---
+
+तोपें गरजीं।
+
+---
+
+धड़ाम!
+
+---
+
+दीवार काँपी।
+
+---
+
+एक हिस्सा टूट गया।
+
+---
+
+“वे अंदर आ रहे हैं!” एक सैनिक चिल्लाया।
+
+---
+
+युवक आगे बढ़ा।
+
+---
+
+उसकी आँखों में—
+
+अब केवल एक बात थी।
+
+---
+
+“यहीं…”
+
+---
+
+“हम रुकेंगे।”
+
+---
+
+तलवारें टकराईं।
+
+---
+
+गली-गली—
+
+युद्ध।
+
+---
+
+हर घर—
+
+एक किला।
+
+---
+
+स्त्रियाँ—
+
+पत्थर फेंक रही थीं।
+
+---
+
+बच्चे—
+
+पानी ला रहे थे।
+
+---
+
+पूरा शहर—
+
+योद्धा बन चुका था।
+
+---
+
+एक-एक कर—
+
+दुश्मन आगे बढ़ा।
+
+---
+
+और गिरता गया।
+
+---
+
+युवक—
+
+सबसे आगे।
+
+---
+
+एक वार—
+
+उसके कंधे पर।
+
+---
+
+दूसरा—
+
+सीने में।
+
+---
+
+खून बहा।
+
+---
+
+लेकिन वह रुका नहीं।
+
+---
+
+“यह हमारा है!” उसकी गर्जना गूँजी।
+
+---
+
+और वही—
+
+सबकी आवाज़ बन गई।
+
+---
+
+अंतिम क्षण।
+
+---
+
+दुश्मन की पंक्ति टूटी।
+
+---
+
+उनका सेनापति गिरा।
+
+---
+
+और धीरे-धीरे—
+
+वे पीछे हटने लगे।
+
+---
+
+विजय।
+
+---
+
+पाली—
+
+अब भी खड़ा।
+
+---
+
+शाम।
+
+---
+
+बाज़ार फिर खुला।
+
+---
+
+धीरे-धीरे।
+
+---
+
+लोग बाहर आए।
+
+---
+
+दीप जले।
+
+---
+
+युवक प्राचीर पर बैठा था।
+
+---
+
+उसने नीचे देखा।
+
+---
+
+वही गलियाँ।
+
+---
+
+वही लोग।
+
+---
+
+और फिर—
+
+आकाश की ओर।
+
+---
+
+“हमने…” उसने धीरे से कहा,
+
+“तुझे बचा लिया।”
+
+---
+
+उसकी आँखें बंद हो गईं।
+
+---
+
+लेकिन शहर—
+
+जीवित रहा।
+
+---
+
+व्यापार—
+
+फिर चला।
+
+---
+
+धन—
+
+फिर बहा।
+
+---
+
+और मारवाड़—
+
+साँस लेता रहा।
+
+---
+
+समय बीतता गया।
+
+---
+
+लेकिन पाली—
+
+आज भी खड़ा है।
+
+---
+
+उसकी दीवारों में—
+
+एक कहानी है।
+
+---
+
+उन लोगों की—
+
+जिन्होंने केवल व्यापार नहीं बचाया—
+
+---
+
+अपनी संस्कृति बचाई।
+
+---
+
+पाली—
+
+एक नगर नहीं।
+
+---
+
+एक धड़कन।
+
+---
+
+और जब तक वह धड़कन है—
+
+---
+
+मारवाड़—
+
+जीवित है।
+`
     ],
-    coverImage: { src: '/images/legends/pali.jpg', alt: 'The high walls of the city of Pali under a clear blue sky.' }
+    coverImage: { src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'The high walls of the city of Pali under a clear blue sky.' }
   },
   {
     id: 'battle-bikaner-sands',
@@ -1903,11 +47791,582 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Bikaner Desert',
     story: [
-      'The sands of Bikaner were a strategic prize, offering a panoramic view of the northern Thar. Their control was often contested in the desert wars.',
-      'This battle saw a massive display of camel cavalry warfare, where the Rathore forces used the wide, open spaces to launch a series of devastating charges, eventually driving the invading army from the sands.',
-      'The legend of the Bikaner Sands is a story of the importance of protecting the heart of the northern kingdom and the courage of those who fought for it.'
+      `थार के उत्तर में, जहाँ रेत के टीले क्षितिज तक उठते-गिरते हैं और हर दिशा एक जैसी लगती है, वहाँ एक ऐसी भूमि थी—जो देखने में खाली थी, पर वास्तव में शक्ति से भरी हुई।
+
+बीकानेर की रेत।
+
+---
+
+यह केवल रेत नहीं थी।
+
+यह दृष्टि थी।
+
+यह नियंत्रण था।
+
+जो इसे देख सकता था—
+
+वह पूरे उत्तर को देख सकता था।
+
+---
+
+सूरज उगते ही वह रेत आग बन जाती थी।
+
+और उसी आग में—
+
+एक बालक खड़ा था।
+
+---
+
+उसकी आँखें दूर तक फैली रेत को पढ़ रही थीं।
+
+---
+
+“यह सब हमारा है?” उसने पूछा।
+
+---
+
+उसके पिता—एक राठौड़ सेनापति—ने सिर हिलाया।
+
+---
+
+“हाँ…”
+
+---
+
+“लेकिन इसे हर दिन जीतना पड़ता है।”
+
+---
+
+बालक ने मुट्ठी में रेत भरी।
+
+---
+
+वह फिसल गई।
+
+---
+
+“यह टिकती क्यों नहीं?” उसने पूछा।
+
+---
+
+पिता मुस्कुराए।
+
+---
+
+“क्योंकि इसे पकड़कर नहीं…”
+
+---
+
+“संभालकर रखा जाता है।”
+
+---
+
+वह बालक—
+
+समय के साथ—
+
+उसी रेत का रक्षक बना।
+
+---
+
+उसका प्रशिक्षण अलग था।
+
+---
+
+घोड़े नहीं—
+
+ऊँट।
+
+---
+
+लंबी यात्राएँ।
+
+---
+
+तपती धूप।
+
+---
+
+और वह कला—
+
+जिसे हर कोई नहीं समझता।
+
+---
+
+“ऊँट धीमा नहीं है,” उसके गुरु ने कहा,
+
+“वह सही समय का इंतज़ार करता है।”
+
+---
+
+उसने सीखा—
+
+कैसे खुली रेत को युद्ध में बदलना है।
+
+---
+
+कैसे दूरी को हथियार बनाना है।
+
+---
+
+और कैसे—
+
+दुश्मन को भ्रमित करना है।
+
+---
+
+समय बदला।
+
+---
+
+बीकानेर की रेत—
+
+फिर चुनौती बनी।
+
+---
+
+दुश्मन आया।
+
+---
+
+विशाल सेना।
+
+---
+
+घोड़े।
+
+तोपें।
+
+---
+
+“वे हमें कुचल देंगे,” एक सैनिक बोला।
+
+---
+
+सेनापति—वही बालक—अब मुस्कुराया।
+
+---
+
+“अगर हम उनके तरीके से लड़ेंगे…”
+
+---
+
+“तो हाँ।”
+
+---
+
+उसने अपनी सेना की ओर देखा।
+
+---
+
+ऊँट सवार।
+
+---
+
+“लेकिन हम अपने तरीके से लड़ेंगे।”
+
+---
+
+पहला चरण।
+
+---
+
+दुश्मन आगे बढ़ा।
+
+---
+
+मैदान खुला।
+
+---
+
+“उन्हें आने दो,” उनका सेनापति बोला।
+
+---
+
+राजपूत पीछे हटे।
+
+---
+
+धीरे-धीरे।
+
+---
+
+“वे भाग रहे हैं!” एक सैनिक हँसा।
+
+---
+
+लेकिन यह—
+
+रणनीति थी।
+
+---
+
+दूसरा चरण।
+
+---
+
+दुश्मन आगे बढ़ता गया।
+
+---
+
+रेत—
+
+और गहरी।
+
+---
+
+गर्मी—
+
+और तेज।
+
+---
+
+उनके घोड़े थकने लगे।
+
+---
+
+“पानी…” एक सैनिक बोला।
+
+---
+
+लेकिन पानी—
+
+दूर था।
+
+---
+
+और तभी—
+
+पहला हमला।
+
+---
+
+दूर से—
+
+ऊँट सवार।
+
+---
+
+तेज़।
+
+---
+
+सटीक।
+
+---
+
+तीर।
+
+---
+
+और फिर—
+
+गायब।
+
+---
+
+“ये क्या था?” एक सैनिक चिल्लाया।
+
+---
+
+उत्तर—
+
+रेत में खो गया।
+
+---
+
+दूसरा हमला।
+
+---
+
+इस बार—
+
+दूसरी दिशा से।
+
+---
+
+फिर—
+
+गायब।
+
+---
+
+दुश्मन भ्रमित।
+
+---
+
+“ये सामने क्यों नहीं आते?” उनका सेनापति गरजा।
+
+---
+
+तीसरा चरण।
+
+---
+
+अब—
+
+निर्णायक दिन।
+
+---
+
+सेनापति ने अपनी सेना को इकट्ठा किया।
+
+---
+
+“आज…” उसने कहा,
+
+“हम उन्हें दिखाएँगे—रेत कैसे लड़ती है।”
+
+---
+
+“हर हर महादेव!”
+
+---
+
+और फिर—
+
+ऊँट सवार दौड़े।
+
+---
+
+धड़… धड़… धड़…
+
+---
+
+यह आवाज़—
+
+घोड़ों से अलग थी।
+
+---
+
+भारी।
+
+गहरी।
+
+---
+
+जैसे रेत खुद चल रही हो।
+
+---
+
+दुश्मन चौंक गया।
+
+---
+
+“यह क्या है?” एक सैनिक चिल्लाया।
+
+---
+
+और फिर—
+
+पहली टक्कर।
+
+---
+
+ऊँट—
+
+सीधे उनकी पंक्ति में।
+
+---
+
+तलवारें टकराईं।
+
+---
+
+तीर चले।
+
+---
+
+धूल का तूफान।
+
+---
+
+यह युद्ध—
+
+खुला था।
+
+---
+
+और यही—
+
+उनकी शक्ति थी।
+
+---
+
+ऊँट सवार—
+
+दाएँ-बाएँ घूमते।
+
+---
+
+वार करते।
+
+---
+
+और निकल जाते।
+
+---
+
+दुश्मन—
+
+स्थिर।
+
+---
+
+और धीरे-धीरे—
+
+टूटने लगा।
+
+---
+
+“हम संभाल नहीं पा रहे!” एक अधिकारी चिल्लाया।
+
+---
+
+सेनापति आगे बढ़ा।
+
+---
+
+उसकी तलवार—
+
+सूरज की रोशनी में चमक रही थी।
+
+---
+
+“आगे!” उसकी गर्जना गूँजी।
+
+---
+
+और वही—
+
+अंत था।
+
+---
+
+एक-एक कर—
+
+दुश्मन गिरता गया।
+
+---
+
+अंततः—
+
+वे भागे।
+
+---
+
+रेत—
+
+फिर शांत।
+
+---
+
+लेकिन अब—
+
+वह जीत की साक्षी थी।
+
+---
+
+सेनापति खड़ा था।
+
+---
+
+उसने चारों ओर देखा।
+
+---
+
+ऊँट।
+
+योद्धा।
+
+---
+
+और वही रेत—
+
+जो अब भी बह रही थी।
+
+---
+
+उसने झुककर—
+
+मुट्ठी में रेत भरी।
+
+---
+
+इस बार—
+
+वह रुकी।
+
+---
+
+“हमने…” उसने धीरे से कहा,
+
+“तुझे संभाल लिया।”
+
+---
+
+समय बीतता गया।
+
+---
+
+बीकानेर—
+
+खड़ा रहा।
+
+---
+
+रेत—
+
+अब भी वहीं है।
+
+---
+
+लेकिन उसकी हर लहर में—
+
+एक कहानी है।
+
+---
+
+उन ऊँट सवारों की—
+
+जिन्होंने खुली भूमि को—
+
+अपने पक्ष में मोड़ दिया।
+
+---
+
+बीकानेर की रेत—
+
+एक स्थान नहीं।
+
+---
+
+एक युद्ध।
+
+---
+
+एक रणनीति।
+
+---
+
+और एक प्रमाण—
+
+कि जो इस रेत को समझ ले—
+
+---
+
+वह इसे जीत लेता है।
+
+---
+
+और जो इसे जीत ले—
+
+---
+
+वह अजेय हो जाता है।
+`
     ],
-    coverImage: { src: '/images/legends/bikaner-sands.jpg', alt: 'A wide, sandy plain under a clear blue sky.' }
+    coverImage: { src: '/images/dynasties/places/bikaner-rathore-main.jpg', alt: 'A wide, sandy plain under a clear blue sky.' }
   },
   {
     id: 'defense-kolayat',
@@ -1917,11 +48376,526 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Kolayat, Bikaner',
     story: [
-      'Kolayat, with its sacred lake and strategic location, was a vital position for the Bikaner Rathores. Its defense involved complex desert warfare and hit-and-run tactics.',
-      'The defenders used the surrounding dunes and the scarce water resources to their advantage, neutralizing the enemy’s superior numbers and securing the oasis.',
-      'The defense of Kolayat was not just about territory, but about protecting one of the most spiritual landscapes of the northern Thar.'
+      `थार के उस हिस्से में, जहाँ रेत का समंदर अचानक एक शांत झील के आगे झुक जाता है, वहाँ कोलायत था—एक विराम, एक आस्था, और एक रणनीति।
+
+सूरज उगते ही झील का पानी सोने जैसा चमक उठता था, और उसके चारों ओर फैली रेत मानो उस प्रकाश को अपने भीतर समेट लेती थी। यह केवल एक तीर्थ नहीं था—
+
+यह जीवन था।
+
+और जीवन की रक्षा—
+
+हमेशा युद्ध माँगती है।
+
+---
+
+उसी झील के किनारे एक बालक खड़ा था।
+
+उसके हाथ में पानी था—और उसकी आँखों में एक प्रश्न।
+
+---
+
+“यह इतना महत्वपूर्ण क्यों है?” उसने पूछा।
+
+---
+
+उसके पिता—एक राठौड़ योद्धा—ने झील की ओर देखा।
+
+---
+
+“क्योंकि यहाँ पानी है…”
+
+---
+
+फिर उन्होंने उसकी ओर देखा—
+
+“और जहाँ पानी होता है… वहाँ युद्ध होता है।”
+
+---
+
+वह बालक—
+
+समय के साथ—
+
+उस झील का रक्षक बना।
+
+---
+
+उसका बचपन रेत और जल के बीच बीता।
+
+---
+
+उसने सीखा—
+
+कैसे पानी छिपाना है।
+
+कैसे दुश्मन को प्यासा रखना है।
+
+---
+
+“युद्ध तलवार से पहले शुरू होता है,” उसके गुरु ने कहा,
+
+“और प्यास से पहले खत्म होता है।”
+
+---
+
+समय बदला।
+
+---
+
+कोलायत की शांति—
+
+दूर तक प्रसिद्ध हो गई।
+
+---
+
+और वही—
+
+लालच बन गई।
+
+---
+
+एक दिन—
+
+क्षितिज पर धूल उठी।
+
+---
+
+सेना।
+
+---
+
+विशाल।
+
+---
+
+“वे झील के लिए आए हैं,” एक प्रहरी बोला।
+
+---
+
+सभा में—
+
+सन्नाटा।
+
+---
+
+“हम कम हैं,” एक सरदार बोला।
+
+---
+
+रक्षक—अब सेनापति—शांत था।
+
+---
+
+उसने झील की ओर देखा।
+
+---
+
+फिर—
+
+रेत की ओर।
+
+---
+
+“हम कम नहीं हैं…”
+
+---
+
+“हम सही जगह पर हैं।”
+
+---
+
+पहला चरण।
+
+---
+
+दुश्मन आगे बढ़ा।
+
+---
+
+सीधे झील की ओर।
+
+---
+
+“जल्दी करो!” उनका सेनापति चिल्लाया।
+
+---
+
+लेकिन उन्हें पता नहीं था—
+
+कि रेत भी लड़ती है।
+
+---
+
+पहला हमला—
+
+रात में।
+
+---
+
+राजपूत दल—
+
+छाया बनकर निकले।
+
+---
+
+रसद पर वार।
+
+---
+
+पानी के मटके तोड़े।
+
+---
+
+और फिर—
+
+गायब।
+
+---
+
+“ये कहाँ से आए?” एक सैनिक चिल्लाया।
+
+---
+
+उत्तर—
+
+हर दिशा में था।
+
+---
+
+दूसरा दिन।
+
+---
+
+दुश्मन आगे बढ़ा।
+
+---
+
+प्यास—
+
+बढ़ रही थी।
+
+---
+
+“पानी कहाँ है?” एक ने पूछा।
+
+---
+
+लेकिन झील—
+
+दूर थी।
+
+---
+
+और रास्ते—
+
+जाल।
+
+---
+
+कुछ दल—
+
+गलत दिशा में भेजे गए।
+
+---
+
+कुछ—
+
+रेत में भटक गए।
+
+---
+
+“हम रास्ता खो चुके हैं!” एक सैनिक चिल्लाया।
+
+---
+
+और यही—
+
+रणनीति थी।
+
+---
+
+दूसरा चरण।
+
+---
+
+अब—
+
+झील के पास।
+
+---
+
+दुश्मन थका हुआ।
+
+---
+
+कमज़ोर।
+
+---
+
+“अब…” सेनापति ने कहा।
+
+---
+
+राजपूत दल—
+
+चारों ओर से निकले।
+
+---
+
+“हर हर महादेव!”
+
+---
+
+आवाज़—
+
+रेगिस्तान में गूँज उठी।
+
+---
+
+घोड़े दौड़े।
+
+---
+
+धूल उठी।
+
+---
+
+तलवारें टकराईं।
+
+---
+
+दुश्मन—
+
+तैयार नहीं था।
+
+---
+
+उनकी पंक्तियाँ टूट गईं।
+
+---
+
+लेकिन वे अभी भी अधिक थे।
+
+---
+
+तीसरा चरण।
+
+---
+
+निर्णायक युद्ध।
+
+---
+
+मैदान—
+
+झील के किनारे।
+
+---
+
+रक्षक आगे बढ़ा।
+
+---
+
+उसकी आँखों में—
+
+शांति।
+
+---
+
+“यह केवल भूमि नहीं है…”
+
+---
+
+“यह आस्था है।”
+
+---
+
+“और इसे कोई नहीं ले जाएगा।”
+
+---
+
+“हर हर महादेव!”
+
+---
+
+और फिर—
+
+अंतिम आक्रमण।
+
+---
+
+घोड़े दौड़े।
+
+---
+
+तलवारें चमकीं।
+
+---
+
+पानी के किनारे—
+
+खून मिला।
+
+---
+
+यह युद्ध—
+
+केवल जीत का नहीं था।
+
+---
+
+यह रक्षा का था।
+
+---
+
+एक-एक कर—
+
+दुश्मन गिरता गया।
+
+---
+
+उनका सेनापति—
+
+गिरा।
+
+---
+
+और फिर—
+
+वे टूट गए।
+
+---
+
+भाग गए।
+
+---
+
+शाम हुई।
+
+---
+
+झील—
+
+फिर शांत।
+
+---
+
+पानी—
+
+स्वच्छ।
+
+---
+
+जैसे कुछ हुआ ही नहीं।
+
+---
+
+रक्षक किनारे पर खड़ा था।
+
+---
+
+उसने पानी को छुआ।
+
+---
+
+“हमने…” उसने धीरे से कहा,
+
+“तुझे बचा लिया।”
+
+---
+
+उसकी आँखों में—
+
+थकान थी।
+
+---
+
+लेकिन संतोष भी।
+
+---
+
+समय बीतता गया।
+
+---
+
+कोलायत—
+
+आज भी है।
+
+---
+
+झील—
+
+अब भी चमकती है।
+
+---
+
+लोग—
+
+अब भी आते हैं।
+
+---
+
+प्रार्थना करते हैं।
+
+---
+
+लेकिन उस पानी के नीचे—
+
+एक कहानी है।
+
+---
+
+उन योद्धाओं की—
+
+जिन्होंने केवल भूमि नहीं बचाई—
+
+---
+
+आस्था बचाई।
+
+---
+
+कोलायत—
+
+एक स्थान नहीं।
+
+---
+
+एक संतुलन।
+
+---
+
+रेत और जल का।
+
+---
+
+युद्ध और शांति का।
+
+---
+
+और उस संतुलन को बचाने वाले—
+
+आज भी हवा में गूँजते हैं।
+
+---
+
+जब भी कोई उस झील के पास खड़ा होता है—
+
+---
+
+तो उसे महसूस होता है—
+
+---
+
+कि यह शांति…
+
+---
+
+किसी की तलवार से मिली है।
+`
     ],
-    coverImage: { src: '/images/legends/kolayat.jpg', alt: 'A beautiful desert oasis with a sacred lake.' }
+    coverImage: { src: '/images/dynasties/places/bikaner-rathore-main.jpg', alt: 'A beautiful desert oasis with a sacred lake.' }
   },
   {
     id: 'desert-march-bikaner',
@@ -1931,11 +48905,566 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Bikaner Desert',
     story: [
-      'The desert march was a grueling test of the endurance and the discipline of the Bikaner forces. It involved moving large units across the trackless Thar under extreme conditions.',
-      'This legend recounts a massive march that caught an invading army by surprise, proving that the Rajput warrior could thrive and fight where others would perish.',
-      'The desert march is a symbol of the Bikaner Rathore tenacity and their ability to use the desert’s own power as a tactical advantage.'
+      `रात अभी पूरी तरह ढली नहीं थी। आकाश में तारे ठिठुरते हुए चमक रहे थे और थार की रेत ठंडी साँस ले रही थी—जैसे दिन की आग के बाद अब वह खुद को समेट रही हो।
+
+और उसी ठंडी रात में—
+
+एक सेना चल रही थी।
+
+चुपचाप।
+
+अदृश्य।
+
+---
+
+बीकानेर के राठौड़।
+
+---
+
+उनके घोड़े रेत को काटते हुए आगे बढ़ रहे थे, लेकिन कोई आवाज़ नहीं थी—न नगाड़ा, न गर्जना।
+
+केवल—
+
+अनुशासन।
+
+---
+
+उस दल के आगे एक सेनापति चल रहा था।
+
+उसकी आँखें अंधेरे में भी रास्ता पढ़ रही थीं।
+
+---
+
+“रुकना मत,” उसने धीमे स्वर में कहा।
+
+---
+
+पीछे से आवाज़ आई—
+
+“पानी…”
+
+---
+
+सेनापति ने पीछे मुड़कर देखा।
+
+---
+
+थके हुए चेहरे।
+
+सूखे होंठ।
+
+---
+
+लेकिन उसने सिर हिलाया।
+
+---
+
+“अभी नहीं।”
+
+---
+
+उसका जन्म इसी रेत में हुआ था।
+
+---
+
+बचपन से—
+
+उसने सीखा था—
+
+कि रेगिस्तान किसी को माफ़ नहीं करता।
+
+---
+
+“अगर तुम कमजोर पड़े…” उसके पिता ने कहा था,
+
+“तो यह तुम्हें निगल जाएगा।”
+
+---
+
+और आज—
+
+वह उसी रेगिस्तान को अपना हथियार बनाने वाला था।
+
+---
+
+समय कठिन था।
+
+---
+
+दुश्मन बीकानेर की ओर बढ़ रहा था।
+
+---
+
+संख्या में अधिक।
+
+---
+
+हथियारों में भारी।
+
+---
+
+“हम सीधे लड़ नहीं सकते,” एक सरदार ने कहा।
+
+---
+
+सेनापति ने रेत उठाकर अपनी मुट्ठी में ली।
+
+---
+
+“तो हम सीधे लड़ेंगे ही नहीं।”
+
+---
+
+उसने अपनी योजना बताई।
+
+---
+
+“हम उन्हें वहाँ मारेंगे…”
+
+---
+
+“जहाँ वे सोच भी नहीं सकते।”
+
+---
+
+और इसके लिए—
+
+उन्हें पार करना था—
+
+थार।
+
+---
+
+वह थार—
+
+जहाँ रास्ते नहीं होते।
+
+जहाँ दिशा नहीं होती।
+
+जहाँ केवल—
+
+सहनशक्ति होती है।
+
+---
+
+पहला दिन।
+
+---
+
+सूरज उगा।
+
+---
+
+और उसके साथ—
+
+आग।
+
+---
+
+रेत तपने लगी।
+
+---
+
+घोड़े धीमे पड़ने लगे।
+
+---
+
+“पानी…” एक सैनिक फिर बोला।
+
+---
+
+सेनापति ने अपनी मशक से एक बूंद निकाली।
+
+---
+
+“बस इतना,” उसने कहा।
+
+---
+
+और खुद—
+
+कुछ नहीं पिया।
+
+---
+
+दूसरा दिन।
+
+---
+
+हवा चली।
+
+---
+
+रेत उठी।
+
+---
+
+आँधी।
+
+---
+
+कुछ भी दिखाई नहीं दे रहा था।
+
+---
+
+“हम रास्ता खो चुके हैं!” एक सैनिक चिल्लाया।
+
+---
+
+सेनापति रुका।
+
+---
+
+उसने आँखें बंद कीं।
+
+---
+
+हवा को महसूस किया।
+
+---
+
+और फिर—
+
+एक दिशा में इशारा किया।
+
+---
+
+“उधर।”
+
+---
+
+किसी ने सवाल नहीं किया।
+
+---
+
+क्योंकि वह—
+
+इस भूमि को जानता था।
+
+---
+
+तीसरा दिन।
+
+---
+
+थकान—
+
+अब शरीर में नहीं—
+
+आत्मा में उतर चुकी थी।
+
+---
+
+कुछ घोड़े गिर गए।
+
+---
+
+कुछ सैनिक—
+
+उठ नहीं पाए।
+
+---
+
+“उन्हें छोड़ दो,” एक ने कहा।
+
+---
+
+सेनापति रुका।
+
+---
+
+उसने गिरे हुए योद्धा को देखा।
+
+---
+
+फिर—
+
+आकाश की ओर।
+
+---
+
+“हम उन्हें छोड़ नहीं रहे…”
+
+---
+
+“वे हमारे साथ ही रहेंगे।”
+
+---
+
+और वह आगे बढ़ा।
+
+---
+
+रात।
+
+---
+
+अंततः—
+
+वे पहुँचे।
+
+---
+
+दूर—
+
+दुश्मन का शिविर।
+
+---
+
+वे निश्चिंत थे।
+
+---
+
+“रेगिस्तान उन्हें मार देगा,” उनका सेनापति बोला था।
+
+---
+
+लेकिन रेगिस्तान—
+
+उनका साथी बन चुका था।
+
+---
+
+“तैयार,” बीकानेर का सेनापति फुसफुसाया।
+
+---
+
+“आज…”
+
+---
+
+“हम उन्हें सिखाएँगे—यह भूमि किसकी है।”
+
+---
+
+“हर हर महादेव!”
+
+---
+
+और फिर—
+
+तूफान।
+
+---
+
+घोड़े दौड़े।
+
+---
+
+धूल उठी।
+
+---
+
+दुश्मन चौंक गया।
+
+---
+
+“ये कहाँ से आए?” एक सैनिक चिल्लाया।
+
+---
+
+उत्तर—
+
+रेत में था।
+
+---
+
+पहली टक्कर—
+
+भीषण।
+
+---
+
+तलवारें टकराईं।
+
+---
+
+चीखें।
+
+---
+
+अराजकता।
+
+---
+
+दुश्मन—
+
+तैयार नहीं था।
+
+---
+
+उनकी पंक्तियाँ टूट गईं।
+
+---
+
+बीकानेर के योद्धा—
+
+थके हुए थे।
+
+---
+
+लेकिन उनकी आँखों में—
+
+अग्नि थी।
+
+---
+
+“आगे!” सेनापति गरजा।
+
+---
+
+और वे बढ़ते गए।
+
+---
+
+एक-एक कर—
+
+दुश्मन गिरता गया।
+
+---
+
+कुछ ही समय में—
+
+शिविर टूट गया।
+
+---
+
+“भागो!” एक सैनिक चिल्लाया।
+
+---
+
+और वही—
+
+अंत था।
+
+---
+
+सुबह हुई।
+
+---
+
+सूरज फिर उगा।
+
+---
+
+लेकिन इस बार—
+
+रेत पर कुछ और था।
+
+---
+
+विजय।
+
+---
+
+सेनापति खड़ा था।
+
+---
+
+उसने चारों ओर देखा।
+
+---
+
+थके हुए योद्धा।
+
+---
+
+गिरे हुए साथी।
+
+---
+
+और वही रेत—
+
+जो अब शांत थी।
+
+---
+
+उसने झुककर—
+
+एक मुट्ठी रेत उठाई।
+
+---
+
+“तूने…” उसने धीरे से कहा,
+
+“हमें रास्ता दिया।”
+
+---
+
+समय बीतता गया।
+
+---
+
+लेकिन यह कथा—
+
+जीवित रही।
+
+---
+
+बीकानेर की सेना—
+
+अब केवल योद्धा नहीं थी।
+
+---
+
+वे—
+
+रेगिस्तान के स्वामी थे।
+
+---
+
+आज भी—
+
+जब थार में कोई कारवाँ रास्ता खो देता है—
+
+---
+
+तो लोग कहते हैं—
+
+---
+
+“उन राठौड़ों को याद करो…”
+
+---
+
+“जो वहाँ गए थे…”
+
+---
+
+“जहाँ कोई नहीं जाता।”
+
+---
+
+मरु-यात्रा—
+
+एक युद्ध नहीं।
+
+---
+
+एक परीक्षा।
+
+---
+
+और उस परीक्षा ने साबित किया—
+
+---
+
+कि जो इस रेत को अपना बना ले—
+
+---
+
+वह अजेय हो जाता है।
+
+---
+
+क्योंकि तब—
+
+रेगिस्तान भी—
+
+उसके साथ लड़ता है।
+`
     ],
-    coverImage: { src: '/images/legends/desert-march.jpg', alt: 'A group of warriors moving through a vast sand desert.' }
+    coverImage: { src: '/images/dynasties/places/bikaner-rathore-main.jpg', alt: 'A group of warriors moving through a vast sand desert.' }
   },
   {
     id: 'stand-churu',
@@ -1945,11 +49474,620 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Churu, Shekhawati',
     story: [
-      'This legend tells of a small group of warriors who were cornered in the town of Churu by a much larger force. Refusing to surrender, they made a final stand on the ramparts.',
-      'Their sacrifice delayed the enemy’s advance long enough for the main army to regroup, proving that even a small force can change the course of a war.',
-      'The stand of Churu is a story of the absolute commitment of the Rajput warrior to his duty, regardless of the odds.'
+     `रेगिस्तान की उस रात में, जब हवा भी ठहर-सी जाती है और दूर तक फैली रेत किसी मृत सागर की तरह शांत दिखती है, चूरू का किला अंधेरे में खड़ा था—छोटा, थका हुआ, लेकिन अब भी अडिग।
+
+उसकी प्राचीरों पर मशालें जल रही थीं।
+
+और उन मशालों की लौ में—
+
+कुछ चेहरे चमक रहे थे।
+
+कम।
+
+लेकिन दृढ़।
+
+---
+
+“वे आ गए हैं…”
+
+एक प्रहरी की आवाज़ गूँजी।
+
+---
+
+सबने नीचे देखा।
+
+क्षितिज पर—
+
+अग्नि की रेखाएँ।
+
+---
+
+दुश्मन।
+
+---
+
+संख्या—
+
+असंख्य।
+
+---
+
+और यहाँ—
+
+कुछ मुट्ठीभर योद्धा।
+
+---
+
+सन्नाटा।
+
+---
+
+फिर—
+
+उनमें से एक आगे बढ़ा।
+
+---
+
+उसकी आँखों में भय नहीं था।
+
+---
+
+केवल—
+
+स्वीकार।
+
+---
+
+“तो यही है…” उसने कहा,
+
+“हमारा दिन।”
+
+---
+
+उसका जन्म भी इसी भूमि पर हुआ था।
+
+---
+
+रेत में खेलते हुए।
+
+---
+
+तलवार पकड़ना सीखते हुए।
+
+---
+
+और एक बात—
+
+हर दिन सुनते हुए—
+
+---
+
+“पीछे मत हटना।”
+
+---
+
+उसके पिता—
+
+इसी प्राचीर पर गिरे थे।
+
+---
+
+और आज—
+
+वह उसी स्थान पर खड़ा था।
+
+---
+
+समय बदल गया था।
+
+---
+
+दुश्मन बड़ा था।
+
+---
+
+राज्य—
+
+दूर।
+
+---
+
+“मुख्य सेना कहाँ है?” एक युवक ने पूछा।
+
+---
+
+उत्तर आया—
+
+---
+
+“आ रही है…”
+
+---
+
+लेकिन कब?
+
+---
+
+कोई नहीं जानता था।
+
+---
+
+“तो हम उन्हें समय देंगे,” उस नेता ने कहा।
+
+---
+
+किसी ने विरोध नहीं किया।
+
+---
+
+क्योंकि सब जानते थे—
+
+इसका अर्थ क्या है।
+
+---
+
+पहला हमला।
+
+---
+
+दुश्मन आगे बढ़ा।
+
+---
+
+“समर्पण करो!” उनका सेनापति चिल्लाया।
+
+---
+
+प्राचीर पर—
+
+मौन।
+
+---
+
+फिर—
+
+एक आवाज़।
+
+---
+
+“यह चूरू है…”
+
+---
+
+“यहाँ समर्पण नहीं होता।”
+
+---
+
+पहली टक्कर।
+
+---
+
+सीढ़ियाँ दीवारों से टकराईं।
+
+---
+
+“तैयार!”
+
+---
+
+ऊपर से—
+
+तीर।
+
+---
+
+पत्थर।
+
+---
+
+चीखें।
+
+---
+
+पहला प्रयास विफल।
+
+---
+
+दूसरा।
+
+---
+
+तीसरा।
+
+---
+
+हर बार—
+
+वही परिणाम।
+
+---
+
+लेकिन संख्या—
+
+कम नहीं हो रही थी।
+
+---
+
+दूसरा चरण।
+
+---
+
+घेराबंदी।
+
+---
+
+दिन बीते।
+
+---
+
+पानी—
+
+कम।
+
+---
+
+भोजन—
+
+लगभग समाप्त।
+
+---
+
+लेकिन मन—
+
+अब भी अडिग।
+
+---
+
+“हम टिकेंगे,” नेता ने कहा।
+
+---
+
+“जब तक वे आ नहीं जाते।”
+
+---
+
+रात।
+
+---
+
+शांति।
+
+---
+
+फिर—
+
+छोटे हमले।
+
+---
+
+द्वार खुलते।
+
+---
+
+घुड़सवार निकलते।
+
+---
+
+तेज़ वार।
+
+---
+
+और लौट आते।
+
+---
+
+दुश्मन परेशान।
+
+---
+
+“ये लोग खत्म क्यों नहीं होते?” एक सैनिक चिल्लाया।
+
+---
+
+उत्तर—
+
+उनकी जिद में था।
+
+---
+
+तीसरा चरण।
+
+---
+
+अंतिम दिन।
+
+---
+
+दुश्मन ने पूरी शक्ति झोंक दी।
+
+---
+
+“आज खत्म करो!” उनका सेनापति गरजा।
+
+---
+
+तोपें गरजीं।
+
+---
+
+धड़ाम!
+
+---
+
+दीवार काँपी।
+
+---
+
+एक हिस्सा टूट गया।
+
+---
+
+“वे अंदर आ रहे हैं!” एक सैनिक चिल्लाया।
+
+---
+
+नेता आगे बढ़ा।
+
+---
+
+उसने तलवार उठाई।
+
+---
+
+“अब…”
+
+---
+
+“कोई पीछे नहीं हटेगा।”
+
+---
+
+“हर हर महादेव!”
+
+---
+
+और फिर—
+
+युद्ध।
+
+---
+
+हर गली—
+
+रणभूमि।
+
+---
+
+हर घर—
+
+एक किला।
+
+---
+
+योद्धा गिरते गए।
+
+---
+
+लेकिन हर गिरने वाला—
+
+दूसरे को आगे बढ़ा रहा था।
+
+---
+
+नेता—
+
+सबसे आगे।
+
+---
+
+एक वार—
+
+उसके कंधे पर।
+
+---
+
+दूसरा—
+
+सीने में।
+
+---
+
+खून बहा।
+
+---
+
+लेकिन वह रुका नहीं।
+
+---
+
+“जब तक हम हैं…”
+
+---
+
+“यह किला खड़ा है!”
+
+---
+
+उसकी आवाज़—
+
+गूँज उठी।
+
+---
+
+अंतिम क्षण।
+
+---
+
+सिर्फ कुछ ही बचे।
+
+---
+
+थके हुए।
+
+घायल।
+
+---
+
+लेकिन अब भी—
+
+खड़े।
+
+---
+
+और तभी—
+
+दूर से—
+
+घोड़ों की टाप।
+
+---
+
+नई सेना।
+
+---
+
+मुख्य सेना आ चुकी थी।
+
+---
+
+दुश्मन चौंका।
+
+---
+
+“वे आ गए!” एक सैनिक चिल्लाया।
+
+---
+
+और उसी क्षण—
+
+चूरू के बचे हुए योद्धा टूट पड़े।
+
+---
+
+अंतिम प्रहार।
+
+---
+
+दुश्मन—
+
+टूट गया।
+
+---
+
+भाग गया।
+
+---
+
+शाम।
+
+---
+
+किला—
+
+शांत।
+
+---
+
+प्राचीर पर—
+
+कुछ शव।
+
+---
+
+और उनके बीच—
+
+वह नेता।
+
+---
+
+उसकी आँखें बंद।
+
+---
+
+लेकिन चेहरे पर—
+
+मुस्कान।
+
+---
+
+उसने अपना वचन निभा दिया था।
+
+---
+
+समय—
+
+दे दिया गया था।
+
+---
+
+राज्य—
+
+बच गया।
+
+---
+
+समय बीतता गया।
+
+---
+
+कोई नाम नहीं।
+
+---
+
+कोई स्मारक नहीं।
+
+---
+
+लेकिन चूरू—
+
+आज भी खड़ा है।
+
+---
+
+उसकी दीवारों में—
+
+एक कहानी है।
+
+---
+
+उन कुछ लोगों की—
+
+जिन्होंने सब कुछ दे दिया।
+
+---
+
+चूरू—
+
+एक नगर नहीं।
+
+---
+
+एक बलिदान।
+
+---
+
+एक प्रमाण—
+
+कि कभी-कभी…
+
+इतिहास बदलने के लिए—
+
+---
+
+हजारों नहीं—
+
+---
+
+बस कुछ लोग ही काफी होते हैं।
+
+---
+
+और वही—
+
+राजपूताना की आत्मा है।
+`
     ],
-    coverImage: { src: '/images/legends/churu-stand.jpg', alt: 'A few warriors standing firm on a high fort wall.' }
+    coverImage: { src: '/images/dynasties/places/bikaner-rathore-main.jpg', alt: 'A few warriors standing firm on a high fort wall.' }
   },
   {
     id: 'border-defense-shekhawati',
@@ -1959,11 +50097,598 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Shekhawati Borders',
     story: [
-      'The borders of Shekhawati were in a constant state of flux, contested by neighboring states and imperial powers. This legend celebrates the frontier guards who held the line.',
-      'The story follows a series of skirmishes and raids where the Shekhawat forces used their knowledge of the terrain to outmaneuver much larger forces.',
-      'The border defense of Shekhawati is a story of the importance of vigilance and the courage of those who live on the edges of the northern heartland.'
+      `रेगिस्तान की उस सीमा पर, जहाँ रेत और पत्थर एक-दूसरे में घुल जाते हैं और हर दिशा एक जैसी लगती है, वहाँ कोई दीवार नहीं थी—न कोई ऊँचा किला, न कोई विशाल द्वार।
+
+फिर भी—
+
+वहीं खिंची थी एक रेखा।
+
+शेखावाटी की सीमा।
+
+---
+
+वह रेखा नक्शों पर नहीं थी।
+
+वह रेखा तलवारों से बनी थी।
+
+और उसे बचाने वाले—
+
+किसी इतिहास में दर्ज नहीं थे।
+
+---
+
+भोर की हल्की नीली रोशनी में, एक प्रहरी ऊँचे टीले पर खड़ा था।
+
+उसकी आँखें दूर तक फैली रेत को पढ़ रही थीं।
+
+---
+
+उसके पीछे—
+
+कुछ घुड़सवार।
+
+कम।
+
+लेकिन सजग।
+
+---
+
+“कुछ हलचल है,” उसने धीरे से कहा।
+
+---
+
+दूसरे ने पूछा—
+
+“कहाँ?”
+
+---
+
+उसने क्षितिज की ओर इशारा किया।
+
+---
+
+“वहाँ… जहाँ हवा स्थिर नहीं है।”
+
+---
+
+यह वही था जो उन्हें सिखाया गया था।
+
+---
+
+“दुश्मन दिखाई नहीं देता,” उनके बुज़ुर्ग ने कहा था,
+
+“वह महसूस होता है।”
+
+---
+
+वह प्रहरी—
+
+बचपन से यही करता आया था।
+
+---
+
+घोड़े की पीठ पर—
+
+दिन और रात।
+
+---
+
+पगडंडियाँ—
+
+उसकी स्मृति में।
+
+---
+
+रेत के निशान—
+
+उसकी भाषा।
+
+---
+
+वह जानता था—
+
+कौन सा कदम किसका है।
+
+---
+
+और आज—
+
+वह जान गया था—
+
+युद्ध आने वाला है।
+
+---
+
+संदेश भेजा गया।
+
+---
+
+“सीमा पर हलचल है।”
+
+---
+
+उत्तर आया—
+
+---
+
+“रोककर रखो।”
+
+---
+
+बस इतना ही।
+
+---
+
+कोई बड़ी सेना नहीं।
+
+कोई सहायता नहीं।
+
+---
+
+केवल—
+
+“रोककर रखो।”
+
+---
+
+पहला संघर्ष।
+
+---
+
+छोटा दल—
+
+सीमा पार करता हुआ।
+
+---
+
+“रुको!” प्रहरी गरजा।
+
+---
+
+दुश्मन हँसा।
+
+---
+
+“तुम कितने हो?”
+
+---
+
+उत्तर—
+
+तलवार में मिला।
+
+---
+
+घोड़े दौड़े।
+
+---
+
+धूल उठी।
+
+---
+
+पहली टक्कर—
+
+तेज़।
+
+---
+
+कुछ ही क्षणों में—
+
+संघर्ष समाप्त।
+
+---
+
+दुश्मन पीछे हटा।
+
+---
+
+लेकिन यह शुरुआत थी।
+
+---
+
+दूसरा चरण।
+
+---
+
+रात।
+
+---
+
+दूर—
+
+आग की लपटें।
+
+---
+
+“वे फिर आएँगे,” एक सैनिक बोला।
+
+---
+
+प्रहरी ने सिर हिलाया।
+
+---
+
+“और हम फिर यहीं होंगे।”
+
+---
+
+रात के अंधेरे में—
+
+घात लगाया गया।
+
+---
+
+दुश्मन बढ़ा।
+
+---
+
+उन्हें लगा—
+
+कोई नहीं है।
+
+---
+
+और तभी—
+
+चारों ओर से—
+
+आक्रमण।
+
+---
+
+“हर हर महादेव!”
+
+---
+
+आवाज़—
+
+रेगिस्तान में गूँज उठी।
+
+---
+
+घोड़े—
+
+तेज़।
+
+---
+
+तलवारें—
+
+सटीक।
+
+---
+
+दुश्मन—
+
+भ्रमित।
+
+---
+
+“ये कितने हैं?” एक सैनिक चिल्लाया।
+
+---
+
+उत्तर—
+
+हर दिशा से आ रहा था।
+
+---
+
+और फिर—
+
+वे गायब।
+
+---
+
+तीसरा चरण।
+
+---
+
+अब—
+
+बड़ा आक्रमण।
+
+---
+
+सेना विशाल।
+
+---
+
+“अब वे हमें कुचल देंगे,” एक युवा बोला।
+
+---
+
+प्रहरी मुस्कुराया।
+
+---
+
+“अगर हम मैदान में खड़े रहे…”
+
+---
+
+“तो हाँ।”
+
+---
+
+उसने अपनी सेना को बाँटा।
+
+---
+
+छोटे दल।
+
+---
+
+तेज़ गति।
+
+---
+
+“हम हवा बनेंगे,” उसने कहा।
+
+---
+
+दुश्मन आगे बढ़ा।
+
+---
+
+लेकिन हर मोड़—
+
+एक हमला।
+
+---
+
+हर रात—
+
+एक वार।
+
+---
+
+हर दिन—
+
+एक गायब छाया।
+
+---
+
+उनकी रसद कटने लगी।
+
+---
+
+घोड़े थकने लगे।
+
+---
+
+मन—
+
+टूटने लगा।
+
+---
+
+“वे सामने क्यों नहीं आते?” उनका सेनापति गरजा।
+
+---
+
+उत्तर—
+
+रेत में था।
+
+---
+
+अंतिम संघर्ष।
+
+---
+
+दुश्मन थक चुका था।
+
+---
+
+लेकिन अब—
+
+उन्होंने अंतिम प्रयास किया।
+
+---
+
+“आज खत्म करो!” आदेश आया।
+
+---
+
+मैदान—
+
+खुला।
+
+---
+
+प्रहरी आगे बढ़ा।
+
+---
+
+उसकी आँखों में—
+
+शांति।
+
+---
+
+“आज…” उसने कहा,
+
+“हम उन्हें याद दिलाएँगे…”
+
+---
+
+“यह सीमा है।”
+
+---
+
+“और यह नहीं टूटेगी।”
+
+---
+
+“हर हर महादेव!”
+
+---
+
+आक्रमण।
+
+---
+
+घोड़े दौड़े।
+
+---
+
+धूल का तूफान।
+
+---
+
+पहली टक्कर—
+
+भीषण।
+
+---
+
+दुश्मन अधिक था।
+
+---
+
+लेकिन—
+
+उनका मन कमजोर।
+
+---
+
+प्रहरी—
+
+सबसे आगे।
+
+---
+
+एक वार—
+
+दूसरा—
+
+तीसरा—
+
+---
+
+उसकी चाल—
+
+अडिग।
+
+---
+
+और धीरे-धीरे—
+
+दुश्मन पीछे हटने लगा।
+
+---
+
+“हम हार रहे हैं!” एक सैनिक चिल्लाया।
+
+---
+
+और वही—
+
+सत्य बन गया।
+
+---
+
+कुछ ही समय में—
+
+वे भागे।
+
+---
+
+सीमा—
+
+फिर शांत।
+
+---
+
+प्रहरी—
+
+टीले पर खड़ा था।
+
+---
+
+उसने दूर देखा।
+
+---
+
+कोई नहीं।
+
+---
+
+सिर्फ हवा।
+
+---
+
+उसने अपनी तलवार नीचे की।
+
+---
+
+“हमने…” उसने धीरे से कहा,
+
+“रेखा बचा ली।”
+
+---
+
+समय बीतता गया।
+
+---
+
+कोई नाम नहीं।
+
+कोई स्मारक नहीं।
+
+---
+
+लेकिन सीमा—
+
+अब भी वहीं है।
+
+---
+
+और उस रेखा पर—
+
+आज भी कुछ लोग खड़े हैं।
+
+---
+
+जिन्हें कोई नहीं जानता।
+
+---
+
+लेकिन जिनके बिना—
+
+कुछ भी सुरक्षित नहीं।
+
+---
+
+शेखावाटी की सीमा—
+
+एक स्थान नहीं।
+
+---
+
+एक जिम्मेदारी।
+
+---
+
+एक पहरा।
+
+---
+
+और एक कहानी—
+
+उन लोगों की—
+
+जो हमेशा किनारे पर खड़े रहे…
+
+---
+
+ताकि बाकी दुनिया—
+
+शांत रह सके।
+`
     ],
-    coverImage: { src: '/images/legends/shekhawati-border.jpg', alt: 'A lone guard on a high ridge overlooking a disputed border.' }
+    coverImage: { src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'A lone guard on a high ridge overlooking a disputed border.' }
   },
   {
     id: 'siege-fatehpur-shekhawati',
@@ -1973,11 +50698,598 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Fatehpur, Shekhawati',
     story: [
-      'Fatehpur was a strategic gateway to the northern trade routes. Its defense was a critical part of the overall security of Shekhawati.',
-      'The legend tells of a garrison that held the city for months, their resolve as unyielding as the stone walls that sheltered them.',
-      'The defense of Fatehpur is a story of the importance of strategic cities in the survival of a kingdom and the skill of the warriors who guarded it.'
+      `रेगिस्तान के उस हिस्से में, जहाँ व्यापार की राहें रेत पर खिंची अदृश्य रेखाओं की तरह दूर-दूर तक जाती थीं, एक नगर खड़ा था—
+
+फतेहपुर।
+
+न कोई विशाल पर्वत, न कोई गहरी नदी—
+
+लेकिन फिर भी—
+
+एक द्वार।
+
+उत्तर की ओर जाने वाला द्वार।
+
+और उस द्वार की रक्षा करना—
+
+सिर्फ एक नगर नहीं—
+
+पूरे शेखावाटी को बचाना था।
+
+---
+
+सुबह की पहली रोशनी में, फतेहपुर की दीवारें पीली चमक रही थीं। किले की प्राचीर पर एक युवक खड़ा था—उसकी आँखें दूर क्षितिज पर जमी हुई थीं, जहाँ व्यापारिक कारवाँ कभी शांति से गुजरते थे।
+
+आज…
+
+वहाँ धूल थी।
+
+और उस धूल में—
+
+युद्ध।
+
+---
+
+उसका जन्म इसी नगर में हुआ था।
+
+उसने बचपन में इन गलियों में दौड़ना सीखा।
+
+इन दीवारों पर चढ़ना।
+
+और इन रास्तों को समझना।
+
+---
+
+“यह केवल शहर नहीं है,” उसके पिता ने कहा था,
+
+“यह रास्ता है।”
+
+---
+
+“और जो रास्ता खो देता है…”
+
+---
+
+“वह सब कुछ खो देता है।”
+
+---
+
+वह समझ गया था।
+
+---
+
+उसकी शिक्षा कठोर थी।
+
+---
+
+तलवार।
+
+घोड़ा।
+
+रणनीति।
+
+---
+
+लेकिन सबसे अधिक—
+
+धैर्य।
+
+---
+
+“युद्ध केवल लड़ना नहीं है,” उसके गुरु ने कहा,
+
+“युद्ध रोकना है।”
+
+---
+
+और आज—
+
+वह वही करने वाला था।
+
+---
+
+संदेश आया—
+
+---
+
+“उत्तर से सेना आ रही है।”
+
+---
+
+संख्या—
+
+अधिक।
+
+---
+
+हथियार—
+
+भारी।
+
+---
+
+“वे फतेहपुर के लिए आए हैं,” एक प्रहरी बोला।
+
+---
+
+सभा में—
+
+सन्नाटा।
+
+---
+
+“अगर यह गिरा…” एक वृद्ध बोला,
+
+“तो शेखावाटी खुल जाएगी।”
+
+---
+
+युवक—अब रक्षक—खड़ा हुआ।
+
+---
+
+उसने दीवारों की ओर देखा।
+
+---
+
+फिर—
+
+क्षितिज की ओर।
+
+---
+
+“तो यह नहीं गिरेगा।”
+
+---
+
+पहला चरण।
+
+---
+
+दुश्मन शहर के बाहर पहुँचा।
+
+---
+
+“समर्पण करो!” उनका सेनापति चिल्लाया।
+
+---
+
+प्राचीर पर—
+
+मौन।
+
+---
+
+फिर—
+
+एक आवाज़।
+
+---
+
+“यह फतेहपुर है…”
+
+---
+
+“यहाँ द्वार खुलते नहीं—बंद रहते हैं।”
+
+---
+
+पहला हमला।
+
+---
+
+दुश्मन आगे बढ़ा।
+
+---
+
+सीढ़ियाँ।
+
+रस्सियाँ।
+
+---
+
+“तैयार!”
+
+---
+
+ऊपर से—
+
+तीर।
+
+---
+
+पत्थर।
+
+---
+
+चीखें।
+
+---
+
+पहला प्रयास विफल।
+
+---
+
+दूसरा।
+
+---
+
+तीसरा।
+
+---
+
+हर बार—
+
+वही परिणाम।
+
+---
+
+लेकिन घेराबंदी—
+
+अब शुरू हो चुकी थी।
+
+---
+
+दिन बीते।
+
+---
+
+पानी—
+
+कम।
+
+---
+
+भोजन—
+
+सीमित।
+
+---
+
+लेकिन मन—
+
+अडिग।
+
+---
+
+“हम टिकेंगे,” रक्षक ने कहा।
+
+---
+
+“जब तक वे थक नहीं जाते।”
+
+---
+
+रातें लंबी थीं।
+
+---
+
+लेकिन हर रात—
+
+छोटे हमले।
+
+---
+
+द्वार खुलते।
+
+---
+
+घुड़सवार निकलते।
+
+---
+
+रसद पर वार।
+
+---
+
+और लौट आते।
+
+---
+
+दुश्मन परेशान।
+
+---
+
+“ये लोग खत्म क्यों नहीं होते?” एक सैनिक चिल्लाया।
+
+---
+
+उत्तर—
+
+उनकी जिद में था।
+
+---
+
+तीसरा चरण।
+
+---
+
+महीनों बीत गए।
+
+---
+
+दुश्मन थक चुका था।
+
+---
+
+लेकिन अब—
+
+अंतिम प्रयास।
+
+---
+
+“सब कुछ झोंक दो!” उनका सेनापति गरजा।
+
+---
+
+तोपें लाई गईं।
+
+---
+
+धड़ाम!
+
+---
+
+दीवार काँपी।
+
+---
+
+एक हिस्सा टूट गया।
+
+---
+
+“वे अंदर आ रहे हैं!” एक सैनिक चिल्लाया।
+
+---
+
+रक्षक आगे बढ़ा।
+
+---
+
+उसकी आँखों में—
+
+अब केवल एक बात थी।
+
+---
+
+“यहीं अंत होगा।”
+
+---
+
+तलवारें टकराईं।
+
+---
+
+हर गली—
+
+रणभूमि।
+
+---
+
+हर घर—
+
+एक किला।
+
+---
+
+स्त्रियाँ—
+
+पत्थर फेंक रही थीं।
+
+---
+
+बच्चे—
+
+पानी ला रहे थे।
+
+---
+
+पूरा नगर—
+
+युद्ध में था।
+
+---
+
+एक-एक कर—
+
+दुश्मन आगे बढ़ा।
+
+---
+
+और फिर—
+
+गिरता गया।
+
+---
+
+रक्षक—
+
+सबसे आगे।
+
+---
+
+एक वार—
+
+उसके कंधे पर।
+
+---
+
+दूसरा—
+
+सीने में।
+
+---
+
+खून बहा।
+
+---
+
+लेकिन वह रुका नहीं।
+
+---
+
+“यह रास्ता बंद है!” उसकी गर्जना गूँजी।
+
+---
+
+और वही—
+
+सबकी आवाज़ बन गई।
+
+---
+
+अंतिम क्षण।
+
+---
+
+दुश्मन की पंक्ति टूटी।
+
+---
+
+उनका सेनापति गिरा।
+
+---
+
+और धीरे-धीरे—
+
+वे पीछे हटने लगे।
+
+---
+
+विजय।
+
+---
+
+फतेहपुर—
+
+अब भी खड़ा।
+
+---
+
+शाम।
+
+---
+
+नगर शांत।
+
+---
+
+दीवारों पर दीप जले।
+
+---
+
+रक्षक प्राचीर पर बैठा था।
+
+---
+
+उसने नीचे देखा।
+
+---
+
+गली।
+
+लोग।
+
+---
+
+और फिर—
+
+क्षितिज की ओर।
+
+---
+
+“हमने…” उसने धीरे से कहा,
+
+“द्वार बंद रखा।”
+
+---
+
+उसकी आँखें बंद हो गईं।
+
+---
+
+लेकिन नगर—
+
+जीवित रहा।
+
+---
+
+व्यापार—
+
+फिर चला।
+
+---
+
+कारवाँ—
+
+फिर आए।
+
+---
+
+और शेखावाटी—
+
+सुरक्षित रही।
+
+---
+
+समय बीतता गया।
+
+---
+
+लेकिन फतेहपुर—
+
+आज भी खड़ा है।
+
+---
+
+उसकी दीवारों में—
+
+एक कहानी है।
+
+---
+
+कि कभी-कभी…
+
+सबसे बड़ा युद्ध—
+
+एक द्वार की रक्षा का होता है।
+
+---
+
+और जो उस द्वार को बचा ले—
+
+---
+
+वह पूरे राज्य को बचा लेता है।
+
+---
+
+फतेहपुर—
+
+एक नगर नहीं।
+
+---
+
+एक कुंजी।
+
+---
+
+जो बंद रही—
+
+तो सब सुरक्षित रहा।
+
+---
+
+और जब तक उसकी कहानी जीवित है—
+
+---
+
+राजपूताना की आत्मा—
+
+अडिग है।
+`
     ],
-    coverImage: { src: '/images/legends/fatehpur-siege.jpg', alt: 'The strong stone walls of Fatehpur under a clear blue sky.' }
+    coverImage: { src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'The strong stone walls of Fatehpur under a clear blue sky.' }
   },
   {
     id: 'stand-jhunjhunu',
@@ -1987,11 +51299,600 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Jhunjhunu, Shekhawati',
     story: [
-      'Jhunjhunu was a strategic outpost that faced the first brunt of many invasions. This legend celebrates the garrison that refused to retreat, even when outnumbered ten to one.',
-      'Their stand bought the time needed for the main army to mobilize, proving that the courage of a few can save a kingdom.',
-      'The stand of Jhunjhunu is a story of the unglamorous but essential work of the frontier outposts in the defense of Rajputana.'
+      `मरुभूमि की उस सीमा पर, जहाँ रेत का रंग सांझ के साथ रक्त जैसा गहरा हो जाता था, एक छोटा-सा किला खड़ा था—ऊँचा नहीं, भव्य नहीं, लेकिन अडिग।
+
+झुंझुनू।
+
+राजपूताना की सीमा का पहला प्रहरी।
+
+---
+
+यह वह स्थान था जहाँ इतिहास हमेशा पहले टकराता था।
+
+जहाँ हर आक्रमण की पहली चोट पड़ती थी।
+
+जहाँ वीरता… गूँजती नहीं थी—
+
+बस निभाई जाती थी।
+
+---
+
+उस सुबह, जब हवा में धूल थी और क्षितिज पर कुछ हलचल, एक युवा सैनिक प्राचीर पर खड़ा था।
+
+उसकी आँखें दूर देख रही थीं।
+
+---
+
+“कुछ आ रहा है,” उसने कहा।
+
+---
+
+उसके पीछे—एक छोटा-सा दल।
+
+---
+
+कम संख्या।
+
+---
+
+लेकिन उनकी आँखों में—
+
+कोई भय नहीं।
+
+---
+
+“कितने हैं?” एक ने पूछा।
+
+---
+
+युवक ने धूल की रेखा को देखा।
+
+---
+
+“बहुत,” उसने उत्तर दिया।
+
+---
+
+सन्नाटा।
+
+---
+
+फिर—
+
+एक हल्की मुस्कान।
+
+---
+
+“तो हम भी कम नहीं हैं।”
+
+---
+
+उसका जन्म इसी सीमा पर हुआ था।
+
+---
+
+बचपन से—
+
+उसने देखा था—
+
+कैसे हर दिन एक युद्ध है।
+
+---
+
+कैसे हर रात—
+
+एक पहरा।
+
+---
+
+उसके पिता—
+
+यहीं मरे थे।
+
+---
+
+प्राचीर पर।
+
+---
+
+तलवार हाथ में।
+
+---
+
+और वही—
+
+उसकी पहली शिक्षा थी।
+
+---
+
+“पीछे मत हटना,” पिता की आवाज़ अब भी उसके भीतर गूँजती थी।
+
+---
+
+समय बदला।
+
+---
+
+वह अब—
+
+रक्षक था।
+
+---
+
+और आज—
+
+वह वही करने वाला था—
+
+जो उससे पहले कई कर चुके थे।
+
+---
+
+संदेश आया—
+
+---
+
+“मुख्य सेना तैयार नहीं है।”
+
+---
+
+“हमें समय चाहिए।”
+
+---
+
+उसने सिर हिलाया।
+
+---
+
+“हम देंगे।”
+
+---
+
+पहला चरण।
+
+---
+
+दुश्मन आगे बढ़ा।
+
+---
+
+संख्या में—
+
+दस गुना।
+
+---
+
+“समर्पण करो!” उनका सेनापति चिल्लाया।
+
+---
+
+प्राचीर पर—
+
+सन्नाटा।
+
+---
+
+फिर—
+
+एक आवाज़।
+
+---
+
+“यह झुंझुनू है…”
+
+---
+
+“यहाँ समर्पण नहीं होता।”
+
+---
+
+पहला हमला।
+
+---
+
+दुश्मन दीवारों की ओर बढ़ा।
+
+---
+
+“तैयार!”
+
+---
+
+ऊपर से—
+
+तीर।
+
+---
+
+पत्थर।
+
+---
+
+उबलता तेल।
+
+---
+
+चीखें गूँजीं।
+
+---
+
+पहला प्रयास विफल।
+
+---
+
+दूसरा।
+
+---
+
+तीसरा।
+
+---
+
+हर बार—
+
+वही परिणाम।
+
+---
+
+लेकिन संख्या—
+
+कम नहीं हो रही थी।
+
+---
+
+दूसरा चरण।
+
+---
+
+रात।
+
+---
+
+दुश्मन ने घेर लिया।
+
+---
+
+“वे भूखे हैं,” एक सैनिक बोला।
+
+---
+
+“और थके हुए भी…”
+
+---
+
+लेकिन किले के भीतर—
+
+एक शांति थी।
+
+---
+
+“हम टिकेंगे,” रक्षक ने कहा।
+
+---
+
+“जब तक समय पूरा नहीं होता।”
+
+---
+
+रात के अंधेरे में—
+
+छोटे हमले।
+
+---
+
+द्वार खुलते—
+
+घुड़सवार निकलते—
+
+रसद पर वार—
+
+और लौट आते।
+
+---
+
+दुश्मन भ्रमित।
+
+---
+
+“ये कितने हैं?” एक ने पूछा।
+
+---
+
+उत्तर—
+
+अज्ञात।
+
+---
+
+तीसरा चरण।
+
+---
+
+अंतिम दिन।
+
+---
+
+दुश्मन ने पूरी शक्ति झोंक दी।
+
+---
+
+“आज खत्म करो!” उनका सेनापति गरजा।
+
+---
+
+तोपें।
+
+---
+
+धड़ाम!
+
+---
+
+दीवार काँपी।
+
+---
+
+एक हिस्सा टूट गया।
+
+---
+
+“वे अंदर आ रहे हैं!” एक सैनिक चिल्लाया।
+
+---
+
+रक्षक आगे बढ़ा।
+
+---
+
+उसकी आँखों में—
+
+अब कोई संदेह नहीं था।
+
+---
+
+“यहीं…” उसने कहा,
+
+“हम रुकेंगे।”
+
+---
+
+तलवारें टकराईं।
+
+---
+
+हर गली—
+
+रणभूमि।
+
+---
+
+हर कदम—
+
+संघर्ष।
+
+---
+
+एक-एक कर—
+
+सैनिक गिरते गए।
+
+---
+
+लेकिन हर गिरने वाला—
+
+दूसरे को आगे बढ़ा रहा था।
+
+---
+
+“पीछे मत हटो!” उसकी गर्जना गूँजी।
+
+---
+
+एक वार—
+
+उसके कंधे पर।
+
+---
+
+खून बहा।
+
+---
+
+लेकिन वह रुका नहीं।
+
+---
+
+“जब तक हम खड़े हैं…”
+
+---
+
+“यह किला खड़ा है!”
+
+---
+
+अंतिम क्षण।
+
+---
+
+सिर्फ कुछ ही बचे।
+
+---
+
+थके हुए।
+
+घायल।
+
+---
+
+लेकिन अब भी—
+
+खड़े।
+
+---
+
+और तभी—
+
+दूर से एक आवाज़।
+
+---
+
+घोड़ों की टाप।
+
+---
+
+नई सेना।
+
+---
+
+मुख्य सेना आ चुकी थी।
+
+---
+
+दुश्मन चौंका।
+
+---
+
+“वे आ गए!” एक सैनिक चिल्लाया।
+
+---
+
+और उसी क्षण—
+
+झुंझुनू के बचे हुए योद्धा टूट पड़े।
+
+---
+
+अंतिम प्रहार।
+
+---
+
+दुश्मन—
+
+टूट गया।
+
+---
+
+भाग गया।
+
+---
+
+शाम।
+
+---
+
+किला—
+
+शांत।
+
+---
+
+प्राचीर पर—
+
+वह रक्षक बैठा था।
+
+---
+
+उसकी साँसें भारी।
+
+---
+
+उसने नीचे देखा।
+
+---
+
+रेत।
+
+खून।
+
+---
+
+और फिर—
+
+आकाश की ओर।
+
+---
+
+“हमने…” उसने धीरे से कहा,
+
+“समय दे दिया।”
+
+---
+
+उसकी आँखें बंद हो गईं।
+
+---
+
+लेकिन किला—
+
+खड़ा रहा।
+
+---
+
+राज्य—
+
+बच गया।
+
+---
+
+समय बीतता गया।
+
+---
+
+लोग बदले।
+
+---
+
+लेकिन झुंझुनू—
+
+आज भी खड़ा है।
+
+---
+
+उसकी दीवारों में—
+
+कोई भव्यता नहीं।
+
+---
+
+लेकिन एक कहानी है।
+
+---
+
+उन कुछ लोगों की—
+
+जिन्होंने सब कुछ रोक लिया।
+
+---
+
+झुंझुनू—
+
+एक सीमा नहीं।
+
+---
+
+एक बलिदान।
+
+---
+
+एक स्मरण—
+
+कि कभी-कभी…
+
+इतिहास बड़े युद्धों से नहीं—
+
+---
+
+छोटे किलों से बचता है।
+
+---
+
+और उन किलों में—
+
+कुछ गिने-चुने लोग—
+
+पूरे राज्य का भार उठाए खड़े होते हैं।
+`
     ],
-    coverImage: { src: '/images/legends/jhunjhunu-fort.jpg', alt: 'A small stone fort on a high ridge overlooking a plain.' }
+    coverImage: { src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'A small stone fort on a high ridge overlooking a plain.' }
   },
   {
     id: 'defense-jaigarh',
@@ -2001,11 +51902,558 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Jaigarh, Amber',
     story: [
-      'Jaigarh Fort, perched on the "Hill of Eagles," was the ultimate defensive position for the Kachwahas of Amber. Its defense involved the use of massive cannons and strategic height.',
-      'The legend tells of the many times the fort’s walls were tested and the many times its defenders stood firm, their spirit as unyielding as the iron cannons they manned.',
-      'The defense of Jaigarh is a symbol of the Kachwaha mastery of military technology and their unwavering resolve to protect their capital.'
+      `अरावली की ऊँचाइयों पर, जहाँ हवा पतली हो जाती है और दृष्टि दूर-दूर तक फैल जाती है, वहाँ एक किला खड़ा था—बाज़ की तरह, जो अपने शिकार पर नज़र रखता है।
+
+जयगढ़।
+
+“गरुड़ की पहाड़ी” पर बैठा हुआ—
+
+आमेर का अंतिम प्रहरी।
+
+---
+
+नीचे—आमेर का महल, जीवन, और राज्य की धड़कन।
+
+ऊपर—जयगढ़।
+
+शांत।
+
+लेकिन तैयार।
+
+---
+
+उस सुबह, जब सूरज की पहली किरणें पहाड़ियों को छू रही थीं, एक बालक प्राचीर पर खड़ा था।
+
+उसकी आँखें नीचे घाटियों में थीं।
+
+---
+
+“इतना ऊँचा क्यों बनाया इसे?” उसने पूछा।
+
+---
+
+उसके साथ खड़े थे उसके पिता—तोपखाने के अधीक्षक।
+
+---
+
+उन्होंने मुस्कुराकर उत्तर दिया—
+
+“ताकि दुश्मन हमें देख सके…”
+
+“और डर जाए।”
+
+---
+
+बालक ने पहली बार उन विशाल तोपों को देखा।
+
+---
+
+लोहे की देह।
+
+भारी।
+
+स्थिर।
+
+---
+
+“ये…” उसने धीरे से कहा,
+
+“कितनी दूर तक मार सकती हैं?”
+
+---
+
+पिता ने क्षितिज की ओर इशारा किया।
+
+---
+
+“जहाँ तक तुम्हारी आँखें जाती हैं…”
+
+“और उससे भी आगे।”
+
+---
+
+वह बालक—
+
+समय के साथ—
+
+जयगढ़ का रक्षक बना।
+
+---
+
+उसका बचपन तलवार और तोप—दोनों के बीच बीता।
+
+---
+
+“यह किला केवल दीवार नहीं है,” उसके गुरु ने कहा,
+
+“यह शक्ति है।”
+
+---
+
+उसने सीखा—
+
+कैसे ऊँचाई को हथियार बनाना है।
+
+कैसे तोपों की दिशा तय करनी है।
+
+---
+
+और कैसे—
+
+दुश्मन को पास आने से पहले ही तोड़ देना है।
+
+---
+
+समय बदला।
+
+---
+
+आमेर समृद्ध हुआ।
+
+---
+
+और वही समृद्धि—
+
+आँखों में चुभने लगी।
+
+---
+
+एक दिन—
+
+प्रहरी दौड़ा।
+
+---
+
+“सेना आ रही है!”
+
+---
+
+धूल—
+
+क्षितिज पर।
+
+---
+
+घोड़े।
+
+तोपें।
+
+---
+
+“वे नीचे मैदान में रुकेंगे,” एक सरदार बोला।
+
+---
+
+रक्षक—अब सेनापति—प्राचीर पर खड़ा था।
+
+---
+
+उसने नीचे देखा।
+
+---
+
+फिर—
+
+अपनी तोपों की ओर।
+
+---
+
+“उन्हें आने दो,” उसने कहा।
+
+---
+
+पहला दिन।
+
+---
+
+दुश्मन ने शिविर लगाया।
+
+---
+
+वे आश्वस्त थे।
+
+---
+
+“ऊपर का किला कुछ नहीं कर सकता,” उनका सेनापति बोला।
+
+---
+
+रात बीती।
+
+---
+
+सुबह—
+
+संकेत मिला।
+
+---
+
+“अब।”
+
+---
+
+तोपें गरजीं।
+
+---
+
+धड़ाम!
+
+---
+
+पहला गोला—
+
+सीधा शिविर में।
+
+---
+
+अराजकता।
+
+---
+
+“यह कहाँ से आया?” एक सैनिक चिल्लाया।
+
+---
+
+दूसरा गोला।
+
+---
+
+तीसरा।
+
+---
+
+शिविर टूटने लगा।
+
+---
+
+दुश्मन चौंक गया।
+
+---
+
+“ऊपर से!” किसी ने चिल्लाया।
+
+---
+
+लेकिन तब तक—
+
+बहुत देर हो चुकी थी।
+
+---
+
+दूसरा चरण।
+
+---
+
+दुश्मन ने चढ़ाई का प्रयास किया।
+
+---
+
+“पहाड़ी पर चढ़ो!” आदेश आया।
+
+---
+
+वे ऊपर बढ़ने लगे।
+
+---
+
+लेकिन रास्ते—
+
+संकरे।
+
+खतरनाक।
+
+---
+
+ऊपर—
+
+राजपूत तैयार।
+
+---
+
+“अब!” सेनापति गरजा।
+
+---
+
+पत्थर गिरे।
+
+---
+
+तीर बरसे।
+
+---
+
+और फिर—
+
+तलवारें।
+
+---
+
+घोड़े फिसले।
+
+---
+
+दुश्मन—
+
+फँस गया।
+
+---
+
+और धीरे-धीरे—
+
+पीछे हट गया।
+
+---
+
+तीसरा चरण।
+
+---
+
+अब—
+
+निर्णायक हमला।
+
+---
+
+दुश्मन ने अपनी पूरी शक्ति झोंक दी।
+
+---
+
+“आज खत्म करो!” उनका सेनापति बोला।
+
+---
+
+तोपें—
+
+मैदान में सजाईं गईं।
+
+---
+
+वे ऊपर निशाना साधने लगे।
+
+---
+
+पहला गोला।
+
+---
+
+दीवार काँपी।
+
+---
+
+लेकिन गिरी नहीं।
+
+---
+
+“फिर से!” वह चिल्लाया।
+
+---
+
+लेकिन उसी क्षण—
+
+जयगढ़ की तोपें गरजीं।
+
+---
+
+धड़ाम!
+
+---
+
+एक-एक कर—
+
+दुश्मन की तोपें नष्ट होने लगीं।
+
+---
+
+“वे हमें ऊपर से मार रहे हैं!” एक सैनिक चिल्लाया।
+
+---
+
+और यही—
+
+जयगढ़ की शक्ति थी।
+
+---
+
+ऊँचाई।
+
+---
+
+रणनीति।
+
+---
+
+और लोहे की गर्जना।
+
+---
+
+अंतिम क्षण।
+
+---
+
+सेनापति आगे बढ़ा।
+
+---
+
+“द्वार खोलो,” उसने कहा।
+
+---
+
+सब चौंके।
+
+---
+
+“हम नीचे लड़ेंगे।”
+
+---
+
+द्वार खुले।
+
+---
+
+राजपूत नीचे उतरे।
+
+---
+
+“हर हर महादेव!”
+
+---
+
+घोड़े दौड़े।
+
+---
+
+तलवारें टकराईं।
+
+---
+
+धूल का तूफान।
+
+---
+
+यह अंतिम प्रहार था।
+
+---
+
+दुश्मन—
+
+पहले ही टूट चुका था।
+
+---
+
+अब—
+
+वह बिखर गया।
+
+---
+
+कुछ ही समय में—
+
+वे भागे।
+
+---
+
+जयगढ़—
+
+अडिग।
+
+---
+
+शाम।
+
+---
+
+सूरज ढल रहा था।
+
+---
+
+किले की प्राचीर पर—
+
+रक्षक खड़ा था।
+
+---
+
+उसने नीचे देखा।
+
+---
+
+मैदान—
+
+शांत।
+
+---
+
+फिर—
+
+तोप को छुआ।
+
+---
+
+“तुमने…” उसने कहा,
+
+“अपना काम किया।”
+
+---
+
+समय बीतता गया।
+
+---
+
+राज्य बदले।
+
+---
+
+लेकिन जयगढ़—
+
+आज भी खड़ा है।
+
+---
+
+उसकी तोपें—
+
+अब भी मौन हैं।
+
+---
+
+लेकिन उनकी गूँज—
+
+अब भी जीवित है।
+
+---
+
+जयगढ़—
+
+एक किला नहीं।
+
+---
+
+एक शक्ति।
+
+---
+
+एक चेतावनी—
+
+कि जब ऊँचाई, तकनीक और साहस—
+
+एक हो जाएँ—
+
+---
+
+तो कोई भी शक्ति—
+
+तुम्हें झुका नहीं सकती।
+
+---
+
+और जब तक जयगढ़ खड़ा है—
+
+---
+
+आमेर की साँस—
+
+सुरक्षित है।
+`
     ],
-    coverImage: { src: '/images/legends/jaigarh-walls.jpg', alt: 'The massive walls and cannons of Jaigarh Fort.' }
+    coverImage: { src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'The massive walls and cannons of Jaigarh Fort.' }
   },
   {
     id: 'stand-nahargarh',
@@ -2015,11 +52463,569 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Nahargarh, Jaipur',
     story: [
-      'Nahargarh Fort, built on the edge of the Aravalli hills, offered a panoramic view of the Jaipur plains. Its defense was a critical part of the security of the capital.',
-      'The legend tells of the many times the fort’s garrison had to fend off probes and raids from neighboring states and imperial factions.',
-      'The stand of Nahargarh is a reminder that even the most beautiful palaces had to be defended with the same courage and discipline as the most remote desert forts.'
+      `अरावली की कगार पर, जहाँ पहाड़ अचानक ढलान बनकर नीचे जयपुर के मैदानों को सौंप देते हैं, वहाँ एक किला खड़ा था—शांत, सुंदर, और दूर तक देखने वाला।
+
+नाहरगढ़।
+
+---
+
+दिन में वह एक प्रहरी जैसा दिखता था—राजधानी पर दृष्टि रखता हुआ।
+रात में… वह छाया बन जाता था—अदृश्य, लेकिन जागता हुआ।
+
+---
+
+उस सुबह, जब सूरज अभी पूरी तरह उगा नहीं था, एक बालक किले की प्राचीर पर खड़ा था।
+
+उसकी आँखें नीचे फैले जयपुर को देख रही थीं।
+
+महल।
+
+बाज़ार।
+
+जीवन।
+
+---
+
+उसके साथ खड़े थे उसके गुरु—एक अनुभवी योद्धा।
+
+---
+
+“यह सुंदर है…” बालक ने कहा।
+
+---
+
+गुरु ने सिर हिलाया।
+
+---
+
+“हाँ,” उन्होंने कहा,
+
+“और इसलिए… यह सबसे अधिक खतरे में है।”
+
+---
+
+बालक ने उनकी ओर देखा।
+
+---
+
+“क्यों?”
+
+---
+
+“क्योंकि जो सुंदर होता है…” गुरु बोले,
+
+“उसे हर कोई अपना बनाना चाहता है।”
+
+---
+
+वह बालक—
+
+समय के साथ—
+
+नाहरगढ़ का रक्षक बना।
+
+---
+
+उसका बचपन तलवार और रणनीति के बीच बीता।
+
+---
+
+लेकिन नाहरगढ़ अलग था।
+
+---
+
+यह रेगिस्तान का किला नहीं था।
+
+यह पहाड़ का प्रहरी था।
+
+---
+
+“यहाँ युद्ध दिखाई देता है…” उसके गुरु ने कहा,
+
+“और जो दिखता है… उसे रोका जा सकता है।”
+
+---
+
+उसने सीखा—
+
+कैसे दूर से आती धूल को पढ़ना है।
+
+कैसे रात की हलचल को समझना है।
+
+---
+
+और कैसे—
+
+हमले से पहले ही उसे तोड़ देना है।
+
+---
+
+समय बदला।
+
+---
+
+जयपुर समृद्ध हुआ।
+
+---
+
+और उसी समृद्धि ने—
+
+लालच को जन्म दिया।
+
+---
+
+एक दिन—
+
+प्रहरी दौड़ता हुआ आया।
+
+---
+
+“दूर… धूल उठ रही है!”
+
+---
+
+रक्षक प्राचीर पर पहुँचा।
+
+---
+
+उसने नीचे देखा।
+
+---
+
+घोड़े।
+
+सैनिक।
+
+---
+
+“छापा,” उसने कहा।
+
+---
+
+पहला हमला—
+
+छोटा था।
+
+---
+
+दुश्मन ने सोचा—
+
+वे अचानक आकर हमला करेंगे।
+
+---
+
+लेकिन नाहरगढ़—
+
+सोता नहीं था।
+
+---
+
+“तैयार!” रक्षक गरजा।
+
+---
+
+ऊपर से—
+
+तीर।
+
+---
+
+नीचे—
+
+घोड़ों की टाप।
+
+---
+
+दुश्मन चौंक गया।
+
+---
+
+“उन्हें कैसे पता?” एक सैनिक चिल्लाया।
+
+---
+
+उत्तर—
+
+किले की आँखों में था।
+
+---
+
+दूसरा हमला—
+
+रात में।
+
+---
+
+अंधेरा।
+
+---
+
+शिविर शांत।
+
+---
+
+दुश्मन धीरे-धीरे आगे बढ़ा।
+
+---
+
+लेकिन किले के भीतर—
+
+हर कोई जाग रहा था।
+
+---
+
+“वे आएँगे,” रक्षक ने कहा था।
+
+---
+
+और वे आए।
+
+---
+
+लेकिन जैसे ही वे पास पहुँचे—
+
+---
+
+नगाड़ा बजा।
+
+---
+
+“घात!”
+
+---
+
+और फिर—
+
+तलवारें चमकीं।
+
+---
+
+अंधेरे में—
+
+चीखें।
+
+---
+
+दुश्मन फिर पीछे हटा।
+
+---
+
+तीसरा हमला—
+
+सबसे बड़ा।
+
+---
+
+इस बार—
+
+सेना विशाल थी।
+
+---
+
+“आज हम इसे तोड़ देंगे,” उनका सेनापति बोला।
+
+---
+
+तोपें लाई गईं।
+
+---
+
+मैदान में पंक्तियाँ सजीं।
+
+---
+
+रक्षक प्राचीर पर खड़ा था।
+
+---
+
+उसने नीचे देखा।
+
+---
+
+फिर—
+
+जयपुर की ओर।
+
+---
+
+“यह केवल किला नहीं है…” उसने कहा,
+
+“यह राजधानी की ढाल है।”
+
+---
+
+तोपें गरजीं।
+
+---
+
+धड़ाम!
+
+---
+
+दीवार काँपी।
+
+---
+
+लेकिन गिरी नहीं।
+
+---
+
+“फिर से!” दुश्मन चिल्लाया।
+
+---
+
+धड़ाम!
+
+धड़ाम!
+
+---
+
+लेकिन नाहरगढ़—
+
+अडिग।
+
+---
+
+फिर—
+
+दुश्मन आगे बढ़ा।
+
+---
+
+“चढ़ाई करो!”
+
+---
+
+वे पहाड़ी चढ़ने लगे।
+
+---
+
+लेकिन रास्ते—
+
+कठिन।
+
+---
+
+संकरे।
+
+---
+
+ऊपर—
+
+राजपूत तैयार।
+
+---
+
+“अब!” रक्षक गरजा।
+
+---
+
+पत्थर गिरे।
+
+---
+
+तीर बरसे।
+
+---
+
+घोड़े फिसले।
+
+---
+
+दुश्मन—
+
+रुक गया।
+
+---
+
+और फिर—
+
+अंतिम आक्रमण।
+
+---
+
+किले के द्वार खुले।
+
+---
+
+राजपूत नीचे टूट पड़े।
+
+---
+
+“हर हर महादेव!”
+
+---
+
+घोड़े दौड़े।
+
+---
+
+तलवारें टकराईं।
+
+---
+
+धूल का तूफान।
+
+---
+
+रक्षक सबसे आगे था।
+
+---
+
+एक दुश्मन—
+
+उसकी ओर बढ़ा।
+
+---
+
+उसने वार रोका।
+
+---
+
+और एक ही प्रहार में—
+
+उसे गिरा दिया।
+
+---
+
+“यह हमारी भूमि है!” उसकी गर्जना गूँजी।
+
+---
+
+और वही—
+
+सबकी आवाज़ बन गई।
+
+---
+
+कुछ ही समय में—
+
+दुश्मन पीछे हट गया।
+
+---
+
+नाहरगढ़—
+
+फिर शांत।
+
+---
+
+शाम हुई।
+
+---
+
+किले की दीवारों पर—
+
+दीप जले।
+
+---
+
+जयपुर नीचे—
+
+चमक रहा था।
+
+---
+
+रक्षक प्राचीर पर खड़ा था।
+
+---
+
+उसने शहर को देखा।
+
+---
+
+फिर—
+
+आकाश की ओर।
+
+---
+
+“हमने…” उसने धीरे से कहा,
+
+“तुझे सुरक्षित रखा।”
+
+---
+
+लेकिन उसकी आँखों में—
+
+एक समझ थी।
+
+---
+
+यह कभी समाप्त नहीं होगा।
+
+---
+
+हर दिन—
+
+हर रात—
+
+यह पहरा जारी रहेगा।
+
+---
+
+समय बीतता गया।
+
+---
+
+राजा बदले।
+
+---
+
+शहर बढ़ा।
+
+---
+
+लेकिन नाहरगढ़—
+
+आज भी वहीं है।
+
+---
+
+खड़ा।
+
+देखता हुआ।
+
+---
+
+और उसकी दीवारों में—
+
+एक कहानी है।
+
+---
+
+कि सुंदरता—
+
+केवल देखने के लिए नहीं होती।
+
+---
+
+उसे बचाना पड़ता है।
+
+---
+
+नाहरगढ़—
+
+एक किला नहीं।
+
+---
+
+एक प्रहरी।
+
+---
+
+जो आज भी कहता है—
+
+---
+
+“जब तक मैं खड़ा हूँ…”
+
+---
+
+“जयपुर सुरक्षित है।”
+`
     ],
-    coverImage: { src: '/images/legends/nahargarh-fort.jpg', alt: 'The elegant and strong walls of Nahargarh Fort at night.' }
+    coverImage: { src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'The elegant and strong walls of Nahargarh Fort at night.' }
   },
   {
     id: 'battle-amber-plains',
@@ -2029,11 +53035,560 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Amber Plains',
     story: [
-      'The plains surrounding Amber were the strategic heart of the Kachwaha kingdom. This battle was a fierce struggle for control of this vital area.',
-      'The Rajput forces used the surrounding hills to launch a series of devastating attacks on the invading army, eventually driving them from the plains.',
-      'The legend of the Amber Plains is a story of the importance of protecting the heart of the kingdom and the courage of those who fought for it.'
+      `आमेर की पहाड़ियों के नीचे फैले वे मैदान उस दिन असामान्य रूप से शांत थे। हवा स्थिर थी, और धूप पत्थरों से टकराकर ऐसी चमक रही थी मानो धरती ने स्वयं अपनी साँस रोक ली हो।
+
+यह वही भूमि थी—
+
+जहाँ से कछवाहा शक्ति उठी थी।
+
+जहाँ से उनका राज्य साँस लेता था।
+
+और आज—
+
+वहीं पर उसका निर्णय होना था।
+
+---
+
+आमेर के किले की ऊँची प्राचीर पर एक युवक खड़ा था।
+
+उसकी दृष्टि नीचे मैदान पर थी—
+
+जहाँ धूल की एक लंबी रेखा बढ़ रही थी।
+
+---
+
+दुश्मन।
+
+---
+
+उसके पीछे—
+
+उसकी सेना।
+
+---
+
+कम।
+
+लेकिन अडिग।
+
+---
+
+“वे मैदान चाहते हैं,” एक सरदार ने कहा।
+
+---
+
+युवक—जो अब सेनापति था—धीरे से मुस्कुराया।
+
+---
+
+“तो हम उन्हें मैदान नहीं देंगे…”
+
+---
+
+उसने पीछे मुड़कर पहाड़ियों की ओर देखा।
+
+---
+
+“हम उन्हें पहाड़ देंगे।”
+
+---
+
+उसका जन्म इसी भूमि पर हुआ था।
+
+---
+
+बचपन में—
+
+वह इन्हीं पहाड़ियों में दौड़ा था।
+
+---
+
+इन घाटियों में छिपा था।
+
+---
+
+इन रास्तों को पढ़ा था।
+
+---
+
+“जो भूमि को समझता है…”
+
+उसके गुरु ने कहा था,
+
+“वह कभी पराजित नहीं होता।”
+
+---
+
+और आज—
+
+वह उस शिक्षा को युद्ध में बदलने वाला था।
+
+---
+
+राजनीतिक समय अशांत था।
+
+---
+
+कछवाहा शक्ति बढ़ रही थी।
+
+---
+
+और हर शक्ति—
+
+इसे रोकना चाहती थी।
+
+---
+
+“अगर यह मैदान गया…” एक वृद्ध बोला,
+
+“तो आमेर का हृदय रुक जाएगा।”
+
+---
+
+युवक ने उसकी ओर देखा।
+
+---
+
+“तो यह नहीं जाएगा।”
+
+---
+
+पहला चरण।
+
+---
+
+दुश्मन मैदान में उतरा।
+
+---
+
+पंक्तियाँ सजी हुई।
+
+---
+
+तोपें तैयार।
+
+---
+
+“उन्हें आने दो,” उनका सेनापति बोला।
+
+---
+
+लेकिन कोई नहीं आया।
+
+---
+
+सन्नाटा।
+
+---
+
+फिर—
+
+अचानक—
+
+ऊपर से तीर।
+
+---
+
+“क्या—?” एक सैनिक चिल्लाया।
+
+---
+
+पहाड़ियों से—
+
+राजपूत प्रकट हुए।
+
+---
+
+छोटे दल।
+
+---
+
+तेज़।
+
+---
+
+घात।
+
+---
+
+कुछ ही क्षणों में—
+
+वे हमला कर चुके थे।
+
+---
+
+और फिर—
+
+गायब।
+
+---
+
+“वे कहाँ गए?” एक अधिकारी ने पूछा।
+
+---
+
+उत्तर—
+
+हर दिशा में था।
+
+---
+
+दूसरा चरण।
+
+---
+
+दुश्मन आगे बढ़ा।
+
+---
+
+“पहाड़ियों पर कब्जा करो!” आदेश आया।
+
+---
+
+वे चढ़ने लगे।
+
+---
+
+लेकिन रास्ते—
+
+संकरे।
+
+---
+
+खतरनाक।
+
+---
+
+ऊपर—
+
+राजपूत प्रतीक्षा कर रहे थे।
+
+---
+
+“अब!” उसकी आवाज़ गूँजी।
+
+---
+
+पत्थर गिरे।
+
+---
+
+तीर बरसे।
+
+---
+
+घोड़े फिसले।
+
+---
+
+दुश्मन—
+
+फँस गया।
+
+---
+
+और फिर—
+
+तलवारें।
+
+---
+
+चीखें।
+
+---
+
+धूल।
+
+---
+
+यह युद्ध—
+
+सामने नहीं था।
+
+---
+
+यह हर दिशा में था।
+
+---
+
+तीसरा चरण।
+
+---
+
+अब—
+
+निर्णायक दिन।
+
+---
+
+दुश्मन ने अपनी पूरी सेना मैदान में उतारी।
+
+---
+
+“आज हम इसे खत्म करेंगे,” उनका सेनापति बोला।
+
+---
+
+मैदान—
+
+खुला।
+
+---
+
+दोनों सेनाएँ आमने-सामने।
+
+---
+
+इस बार—
+
+कोई छिपाव नहीं।
+
+---
+
+युवक आगे बढ़ा।
+
+---
+
+उसकी तलवार—
+
+सूरज की रोशनी में चमक रही थी।
+
+---
+
+“आज…” उसने कहा,
+
+“हम केवल भूमि के लिए नहीं लड़ रहे…”
+
+---
+
+“हम अपने हृदय के लिए लड़ रहे हैं।”
+
+---
+
+“हर हर महादेव!”
+
+---
+
+और फिर—
+
+आक्रमण।
+
+---
+
+घोड़े दौड़े।
+
+---
+
+धड़… धड़… धड़…
+
+---
+
+धरती काँप उठी।
+
+---
+
+पहली टक्कर—
+
+भीषण।
+
+---
+
+तलवारें टकराईं।
+
+---
+
+धूल का तूफान।
+
+---
+
+दुश्मन अधिक था।
+
+---
+
+धीरे-धीरे—
+
+राजपूत पीछे हटने लगे।
+
+---
+
+“पीछे मत हटो!” वह गरजा।
+
+---
+
+लेकिन स्थिति कठिन थी।
+
+---
+
+तभी—
+
+उसने संकेत दिया।
+
+---
+
+पीछे हटती सेना—
+
+अचानक मुड़ी।
+
+---
+
+और उसी क्षण—
+
+पहाड़ियों से छिपे हुए दल टूट पड़े।
+
+---
+
+घेराव।
+
+---
+
+दुश्मन—
+
+चारों ओर से घिर गया।
+
+---
+
+“हम फँस गए!” एक सैनिक चिल्लाया।
+
+---
+
+लेकिन अब—
+
+बहुत देर हो चुकी थी।
+
+---
+
+युद्ध पलट गया।
+
+---
+
+एक-एक कर—
+
+दुश्मन गिरता गया।
+
+---
+
+अंततः—
+
+वे भागे।
+
+---
+
+मैदान—
+
+फिर शांत।
+
+---
+
+लेकिन अब—
+
+वह पहले जैसा नहीं था।
+
+---
+
+वह एक कहानी बन चुका था।
+
+---
+
+शाम।
+
+---
+
+आमेर के किले पर दीप जले।
+
+---
+
+लोगों ने राहत की साँस ली।
+
+---
+
+युवक प्राचीर पर खड़ा था।
+
+---
+
+उसने नीचे देखा।
+
+---
+
+वही मैदान।
+
+---
+
+वही पहाड़।
+
+---
+
+लेकिन अब—
+
+वह सुरक्षित था।
+
+---
+
+“हमने…” उसने धीरे से कहा,
+
+“अपने हृदय को बचा लिया।”
+
+---
+
+समय बीतता गया।
+
+---
+
+राज्य बढ़ा।
+
+---
+
+आमेर से जयपुर तक—
+
+कथा फैली।
+
+---
+
+आमेर के मैदान—
+
+एक प्रतीक बन गए।
+
+---
+
+एक स्मरण—
+
+कि जब जड़ें सुरक्षित हों—
+
+---
+
+तो वृक्ष अजेय होता है।
+
+---
+
+आज भी—
+
+जब उन मैदानों पर हवा चलती है—
+
+---
+
+तो उसमें एक गूँज होती है।
+
+---
+
+घोड़ों की टाप।
+
+---
+
+योद्धाओं की गर्जना।
+
+---
+
+और एक आवाज़—
+
+---
+
+“यह हमारा है…”
+
+---
+
+“और हम इसे कभी नहीं छोड़ेंगे।”
+`
     ],
-    coverImage: { src: '/images/legends/amber-plains.jpg', alt: 'A wide plain surrounded by high, rocky hills.' }
+    coverImage: { src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'A wide plain surrounded by high, rocky hills.' }
   },
   {
     id: 'defense-jamwa-ramgarh',
@@ -2043,11 +53598,509 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Jamwa Ramgarh, Amber',
     story: [
-      'Jamwa Ramgarh was one of the earliest capitals of the Kachwahas. Its defense against invading forces was a critical part of the early history of the dynasty.',
-      'The legend tells of the many times the city’s walls were tested and the many times its defenders stood firm, their spirit as enduring as the ancient stones themselves.',
-      'The defense of Jamwa Ramgarh is a story of the importance of protecting the roots of a dynasty from the ravages of war.'
-    ],
-    coverImage: { src: '/images/legends/jamwa-ramgarh.jpg', alt: 'The ancient ruins of the fort at Jamwa Ramgarh.' }
+      `अरावली की घाटियों के बीच, जहाँ पत्थर समय से भी पुराने लगते थे और हवा अपने साथ प्राचीन गूँज लेकर चलती थी—वहाँ एक नगर बसा था।
+
+जमवा रामगढ़।
+
+कछवाहा वंश की पहली साँसों में से एक।
+
+एक ऐसा स्थान… जहाँ केवल दीवारें नहीं थीं—
+
+जड़ें थीं।
+
+---
+
+भोर की धुंध में, उस नगर की प्राचीर पर एक बालक खड़ा था।
+
+उसकी आँखें दूर पहाड़ियों को देख रही थीं।
+
+उसके साथ खड़े थे उसके पिता—एक योद्धा, एक रक्षक।
+
+---
+
+“यह केवल किला नहीं है,” पिता ने कहा,
+
+“यह हमारी शुरुआत है।”
+
+---
+
+बालक ने पत्थरों को छुआ।
+
+---
+
+“और अगर यह टूट जाए?” उसने पूछा।
+
+---
+
+पिता ने तलवार की मूठ पकड़ी।
+
+---
+
+“तो हम फिर से बनाएँगे…”
+
+“लेकिन पहले—हम इसे टूटने नहीं देंगे।”
+
+---
+
+वही बालक—
+
+समय के साथ—
+
+उस नगर का प्रहरी बना।
+
+---
+
+उसका बचपन युद्ध की तैयारी में बीता।
+
+---
+
+घोड़े की पीठ—
+
+उसका विद्यालय।
+
+---
+
+तलवार—
+
+उसकी भाषा।
+
+---
+
+और ये पहाड़—
+
+उसके गुरु।
+
+---
+
+“हर पत्थर को पहचानो,” उसके शिक्षक ने कहा,
+
+“क्योंकि यही तुम्हें बचाएँगे।”
+
+---
+
+उसने सीखा—
+
+कैसे दीवारों के पीछे छिपना है।
+
+कैसे संकरी घाटियों को जाल बनाना है।
+
+कैसे कम संख्या में भी—
+
+अजेय रहना है।
+
+---
+
+समय बदला।
+
+---
+
+संदेश आया—
+
+दुश्मन आ रहा है।
+
+---
+
+सेना विशाल।
+
+---
+
+घोड़े।
+
+तोपें।
+
+रसद।
+
+---
+
+“वे रामगढ़ के लिए आए हैं,” एक प्रहरी बोला।
+
+---
+
+दरबार में—
+
+तनाव।
+
+---
+
+“अगर यह गिरा…” एक सरदार बोला,
+
+“तो हमारी जड़ कट जाएगी।”
+
+---
+
+प्रहरी—अब सेनापति—खड़ा हुआ।
+
+---
+
+उसने चारों ओर देखा।
+
+---
+
+दीवारें।
+
+पहाड़।
+
+आकाश।
+
+---
+
+“तो हम इसे गिरने नहीं देंगे।”
+
+---
+
+पहला युद्ध—
+
+घाटियों में।
+
+---
+
+“हम सामने नहीं लड़ेंगे,” उसने कहा।
+
+---
+
+उसने अपने सैनिकों को बाँटा।
+
+---
+
+छोटे दल।
+
+---
+
+घात।
+
+---
+
+रात का हमला।
+
+---
+
+पहली रात—
+
+दुश्मन शिविर में।
+
+---
+
+अचानक—
+
+तीर।
+
+---
+
+घोड़े बेकाबू।
+
+---
+
+“कौन है?” एक चिल्लाया।
+
+---
+
+उत्तर—
+
+अंधेरे में खो गया।
+
+---
+
+कुछ ही क्षणों में—
+
+अराजकता।
+
+---
+
+और हमलावर—
+
+गायब।
+
+---
+
+दूसरा दिन।
+
+---
+
+दुश्मन आगे बढ़ा।
+
+---
+
+घाटी संकरी।
+
+---
+
+ऊपर—
+
+राजपूत छिपे हुए।
+
+---
+
+“अब!” उसकी आवाज़ गूँजी।
+
+---
+
+पत्थर गिरे।
+
+---
+
+तीर बरसे।
+
+---
+
+दुश्मन फँस गया।
+
+---
+
+और फिर—
+
+दोनों ओर से हमला।
+
+---
+
+“हर हर महादेव!”
+
+---
+
+घाटी गूँज उठी।
+
+---
+
+धूल।
+
+खून।
+
+---
+
+दुश्मन पीछे हट गया।
+
+---
+
+लेकिन यह अंत नहीं था।
+
+---
+
+तीसरा युद्ध—
+
+किले के द्वार पर।
+
+---
+
+अब—
+
+सीधा हमला।
+
+---
+
+तोपें गरजीं।
+
+---
+
+दीवार काँपी।
+
+---
+
+एक हिस्सा टूट गया।
+
+---
+
+“वे अंदर आ रहे हैं!” एक सैनिक चिल्लाया।
+
+---
+
+सेनापति आगे बढ़ा।
+
+---
+
+“यहीं रोकेंगे!”
+
+---
+
+तलवारें टकराईं।
+
+---
+
+घोड़े भिड़े।
+
+---
+
+हर गली—
+
+एक रणभूमि।
+
+---
+
+हर मोड़—
+
+एक संघर्ष।
+
+---
+
+एक-एक कर—
+
+योद्धा गिरते गए।
+
+---
+
+लेकिन हर गिरने वाला—
+
+दूसरे को आगे बढ़ा रहा था।
+
+---
+
+“पीछे मत हटो!” उसकी गर्जना गूँजी।
+
+---
+
+एक भाला—
+
+उसके कंधे में धँसा।
+
+---
+
+वह डगमगाया।
+
+---
+
+लेकिन रुका नहीं।
+
+---
+
+“यह हमारा घर है!”
+
+---
+
+और वही—
+
+सबकी आवाज़ बन गई।
+
+---
+
+अंतिम क्षण।
+
+---
+
+दुश्मन की पंक्ति टूटी।
+
+---
+
+उनका सेनापति गिरा।
+
+---
+
+और धीरे-धीरे—
+
+वे पीछे हटने लगे।
+
+---
+
+विजय।
+
+---
+
+रामगढ़—
+
+अब भी खड़ा।
+
+---
+
+सेनापति प्राचीर पर चढ़ा।
+
+---
+
+उसने नीचे देखा।
+
+---
+
+धूल।
+
+खून।
+
+---
+
+और फिर—
+
+पत्थरों को छुआ।
+
+---
+
+“हमने…” उसने धीरे से कहा,
+
+“तुझे बचा लिया।”
+
+---
+
+लेकिन उसकी आँखों में—
+
+एक और बात थी।
+
+---
+
+यह केवल एक युद्ध नहीं था।
+
+---
+
+यह एक जड़ थी—
+
+जो बची रही।
+
+---
+
+समय बीतता गया।
+
+---
+
+राज्य बदले।
+
+ध्वज बदले।
+
+---
+
+लेकिन जमवा रामगढ़—
+
+आज भी खड़ा है।
+
+---
+
+उसकी दीवारों में—
+
+वही कहानी है।
+
+---
+
+उन योद्धाओं की—
+
+जिन्होंने केवल एक नगर नहीं बचाया—
+
+---
+
+एक वंश बचाया।
+
+---
+
+रामगढ़—
+
+एक स्थान नहीं।
+
+---
+
+एक नींव।
+
+---
+
+एक स्मृति।
+
+---
+
+और एक चेतावनी—
+
+कि जो अपनी जड़ों की रक्षा करता है—
+
+---
+
+वह कभी गिरता नहीं।
+
+---
+
+क्योंकि उसकी जड़ें—
+
+पत्थरों से भी गहरी होती हैं।
+` ],
+    coverImage: { src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'The ancient ruins of the fort at Jamwa Ramgarh.' }
   },
   {
     id: 'charge-kachwahas',
@@ -2057,11 +54110,544 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Central Rajputana',
     story: [
-      'The Kachwaha charge was a formidable force on the battlefields of Rajputana and beyond. It involved a massive, synchronized rush of heavy cavalry, their banners flying high.',
-      'This legend celebrates a charge that broke an imperial army’s line, proving that the Kachwaha warrior was a master of the open-field battle.',
-      'The Kachwaha charge is a symbol of the martial prowess and the equestrian culture of Amber and Jaipur.'
+      `भोर की पहली किरण अभी क्षितिज से उभरी ही थी कि आमेर की पहाड़ियों के नीचे धूल की एक लंबी रेखा उठने लगी। हवा में लोहे की गंध थी, घोड़ों की सांसें भाप बनकर उठ रही थीं, और उस धुंधलके में—केसरिया पताकाएँ धीरे-धीरे खुल रही थीं।
+
+यह कोई साधारण सुबह नहीं थी।
+
+यह वह क्षण था—
+
+जब धरती अपनी धड़कन रोक लेती है।
+
+---
+
+आमेर के महल की ऊँची छतों के बीच एक बालक खड़ा था।
+
+उसकी आँखें नीचे मैदान पर थीं, जहाँ घोड़े अभ्यास कर रहे थे।
+
+उसके पिता—एक कछवाहा सरदार—ने उसके कंधे पर हाथ रखा।
+
+“देख रहे हो?” उन्होंने पूछा।
+
+---
+
+बालक ने सिर हिलाया।
+
+---
+
+“यह केवल दौड़ नहीं है,” पिता बोले,
+
+“यह प्रहार है।”
+
+---
+
+बालक ने पहली बार देखा—
+
+कैसे सैकड़ों घोड़े एक साथ मुड़ते हैं।
+
+कैसे उनकी चाल एक हो जाती है।
+
+कैसे उनकी गति—
+
+तूफान बन जाती है।
+
+---
+
+“एक दिन…” पिता ने कहा,
+
+“तुम इस तूफान के आगे चलोगे।”
+
+---
+
+और वही दिन—
+
+उसके भीतर जन्म ले चुका था।
+
+---
+
+बचपन से ही—
+
+उसका प्रशिक्षण अलग था।
+
+---
+
+तलवार के साथ-साथ—
+
+घोड़े के साथ।
+
+---
+
+“घोड़ा तुम्हारा हथियार नहीं है,” उसके गुरु ने कहा,
+
+“वह तुम्हारा विस्तार है।”
+
+---
+
+उसने सीखा—
+
+कैसे घोड़े की सांस को समझना है।
+
+कैसे उसकी चाल में अपनी लय मिलानी है।
+
+---
+
+धीरे-धीरे—
+
+वह केवल सवार नहीं रहा।
+
+---
+
+वह—
+
+अश्व और योद्धा—
+
+दोनों का संगम बन गया।
+
+---
+
+समय बदला।
+
+---
+
+राजनीतिक वातावरण उथल-पुथल से भरा था।
+
+---
+
+साम्राज्य विस्तार कर रहे थे।
+
+सीमाएँ बदल रही थीं।
+
+---
+
+और कछवाहा—
+
+अपनी पहचान बना रहे थे।
+
+---
+
+एक दिन—
+
+संदेश आया।
+
+---
+
+“दुश्मन मैदान में खड़ा है।”
+
+---
+
+सेना विशाल थी।
+
+---
+
+हाथी।
+
+तोपें।
+
+पंक्तियाँ—
+
+संगठित।
+
+---
+
+“वे हमें तोड़ देंगे,” एक सरदार ने कहा।
+
+---
+
+युवा—जो अब सेनापति था—मुस्कुराया।
+
+---
+
+“वे हमें समझते नहीं हैं।”
+
+---
+
+उसने अपने योद्धाओं की ओर देखा।
+
+---
+
+“आज…” उसने कहा,
+
+“हम उन्हें दिखाएँगे—कछवाहा प्रहार क्या होता है।”
+
+---
+
+रणनीति सरल थी—
+
+लेकिन घातक।
+
+---
+
+सीधा आक्रमण।
+
+---
+
+लेकिन—
+
+एक साथ।
+
+---
+
+एक लय में।
+
+---
+
+“जब मैं संकेत दूँ…” उसने कहा,
+
+“तो कोई नहीं रुकेगा।”
+
+---
+
+“कोई पीछे नहीं हटेगा।”
+
+---
+
+“हम टूटेंगे… या उन्हें तोड़ेंगे।”
+
+---
+
+सन्नाटा।
+
+---
+
+फिर—
+
+एक स्वर।
+
+---
+
+“हर हर महादेव!”
+
+---
+
+और वही—
+
+सबकी आवाज़ बन गया।
+
+---
+
+मैदान।
+
+---
+
+दोनों सेनाएँ आमने-सामने।
+
+---
+
+दुश्मन स्थिर।
+
+---
+
+“उन्हें आने दो,” उनका सेनापति बोला।
+
+---
+
+कछवाहा सेना—
+
+धीरे-धीरे आगे बढ़ी।
+
+---
+
+फिर—
+
+तेज।
+
+---
+
+और फिर—
+
+दौड़।
+
+---
+
+धड़… धड़… धड़…
+
+---
+
+घोड़ों की टाप—
+
+धरती को हिला रही थी।
+
+---
+
+पताकाएँ—
+
+हवा में लहरा रही थीं।
+
+---
+
+सूरज—
+
+उन पर चमक रहा था।
+
+---
+
+यह केवल आक्रमण नहीं था—
+
+यह एक गर्जना थी।
+
+---
+
+दुश्मन की पंक्ति—
+
+क्षण भर के लिए डगमगाई।
+
+---
+
+“रुको!” उनका सेनापति चिल्लाया।
+
+---
+
+लेकिन अब—
+
+बहुत देर हो चुकी थी।
+
+---
+
+पहली टक्कर।
+
+---
+
+भीषण।
+
+---
+
+घोड़े भिड़े।
+
+---
+
+तलवारें टकराईं।
+
+---
+
+धूल का तूफान उठ खड़ा हुआ।
+
+---
+
+सेनापति सबसे आगे था।
+
+---
+
+उसकी तलवार—
+
+बिजली की तरह।
+
+---
+
+एक वार—
+
+दूसरा—
+
+तीसरा—
+
+---
+
+उसके पीछे—
+
+पूरा तूफान।
+
+---
+
+दुश्मन की पहली पंक्ति—
+
+टूट गई।
+
+---
+
+“पंक्ति संभालो!” एक अधिकारी चिल्लाया।
+
+---
+
+लेकिन दूसरी टक्कर—
+
+और भी तेज।
+
+---
+
+कछवाहा प्रहार—
+
+अब अपनी पूरी गति पर था।
+
+---
+
+घोड़े—
+
+रुक नहीं रहे थे।
+
+---
+
+तलवारें—
+
+थक नहीं रही थीं।
+
+---
+
+और धीरे-धीरे—
+
+दुश्मन की पूरी पंक्ति बिखरने लगी।
+
+---
+
+“हम हार रहे हैं!” एक सैनिक चिल्लाया।
+
+---
+
+और वही—
+
+सत्य बन गया।
+
+---
+
+कुछ ही समय में—
+
+मैदान बदल गया।
+
+---
+
+जहाँ एक संगठित सेना थी—
+
+अब अराजकता थी।
+
+---
+
+कछवाहा—
+
+अब भी आगे बढ़ रहे थे।
+
+---
+
+जब तक—
+
+सब समाप्त नहीं हुआ।
+
+---
+
+शाम हुई।
+
+---
+
+धूल बैठ गई।
+
+---
+
+घोड़े थक चुके थे।
+
+---
+
+लेकिन उनकी आँखों में—
+
+अब भी वही ज्वाला।
+
+---
+
+सेनापति खड़ा था।
+
+---
+
+उसने पीछे मुड़कर देखा।
+
+---
+
+उसके योद्धा।
+
+---
+
+उसका तूफान।
+
+---
+
+“हमने…” उसने धीरे से कहा,
+
+“उन्हें दिखा दिया।”
+
+---
+
+लेकिन उसकी आँखों में—
+
+एक और बात थी।
+
+---
+
+यह केवल एक जीत नहीं थी।
+
+---
+
+यह एक पहचान थी।
+
+---
+
+समय बीतता गया।
+
+---
+
+आमेर से जयपुर तक—
+
+यह कथा फैल गई।
+
+---
+
+कछवाहा प्रहार—
+
+एक नाम बन गया।
+
+---
+
+एक भय।
+
+---
+
+एक सम्मान।
+
+---
+
+आज भी—
+
+जब घोड़े एक साथ दौड़ते हैं—
+
+---
+
+जब पताकाएँ हवा में लहराती हैं—
+
+---
+
+तो लगता है—
+
+मानो वही गर्जना फिर लौट आई हो।
+
+---
+
+कछवाहा प्रहार।
+
+---
+
+एक युद्ध नहीं।
+
+---
+
+एक कला।
+
+---
+
+एक लय।
+
+---
+
+और एक शक्ति—
+
+जो सिखाती है—
+
+---
+
+कि जब मन, घोड़ा और तलवार—
+
+एक हो जाएँ—
+
+---
+
+तो कोई भी सेना—
+
+तुम्हें रोक नहीं सकती।
+`
     ],
-    coverImage: { src: '/images/legends/kachwaha-charge.jpg', alt: 'A massive group of Kachwaha cavalry charging across a wide plain.' }
+    coverImage: { src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'A massive group of Kachwaha cavalry charging across a wide plain.' }
   },
   {
     id: 'siege-sambhar',
@@ -2071,11 +54657,530 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Sambhar',
     story: [
-      'Sambhar, with its massive salt lake, was a vital strategic and economic prize. Its defense was a constant struggle for the Chauhan and later Kachwaha clans.',
-      'The legend tells of a garrison that held the city for months, their resolve as unyielding as the salt-encrusted shores that surrounded them.',
-      'The defense of Sambhar is a story of the importance of protecting the resources that sustain a kingdom and the courage of those who fought for them.'
+      `सांभर की झील उस दिन शांत नहीं थी।
+
+उसकी सफ़ेद सतह पर सूरज की किरणें चुभ रही थीं—जैसे हजारों तलवारें एक साथ चमक रही हों। नमक की परतें हवा में घुलकर एक कड़वा स्वाद फैला रही थीं… और उसी स्वाद में एक युद्ध की गंध थी।
+
+क्योंकि यह केवल झील नहीं थी।
+
+यह शक्ति थी।
+
+धन था।
+
+राज्य की धड़कन।
+
+---
+
+उस भूमि पर—जहाँ हर कण नमक से चमकता था—एक बालक खड़ा था।
+
+उसकी आँखों में वही चमक थी।
+
+उसके पीछे—किले की दीवारें।
+
+उसके सामने—अनंत सफ़ेद विस्तार।
+
+---
+
+“यह हमारी है,” उसके पिता ने कहा।
+
+---
+
+बालक ने पूछा—
+
+“और अगर कोई इसे छीनने आए?”
+
+---
+
+पिता ने तलवार उठाई।
+
+---
+
+“तो हम उसे रोकेंगे।”
+
+---
+
+वही बालक—
+
+समय के साथ—
+
+उस किले का रक्षक बना।
+
+---
+
+चौहान रक्त।
+
+फिर कछवाहा ध्वज।
+
+---
+
+लेकिन भूमि—
+
+वही।
+
+---
+
+उसकी शिक्षा केवल युद्ध की नहीं थी।
+
+---
+
+उसे सिखाया गया—
+
+कैसे नमक की परत पढ़नी है।
+
+कहाँ जमीन कठोर है।
+
+कहाँ दलदल।
+
+---
+
+“यह झील हमारी ढाल है,” उसके गुरु ने कहा।
+
+---
+
+“और हमारा जाल भी।”
+
+---
+
+समय बदला।
+
+---
+
+संदेश आया—
+
+दुश्मन आ रहा है।
+
+---
+
+सेना विशाल।
+
+---
+
+घोड़े।
+
+तोपें।
+
+रसद।
+
+---
+
+“वे सांभर के लिए आए हैं,” एक प्रहरी बोला।
+
+---
+
+दरबार में—
+
+तनाव।
+
+---
+
+“हम घिर सकते हैं,” एक सरदार ने कहा।
+
+---
+
+रक्षक खड़ा हुआ।
+
+---
+
+उसने झील की ओर देखा।
+
+---
+
+फिर—
+
+किले की दीवारों की ओर।
+
+---
+
+“तो हम उन्हें यहीं रोकेंगे।”
+
+---
+
+पहला चरण।
+
+---
+
+दुश्मन आगे बढ़ा।
+
+---
+
+झील के किनारे।
+
+---
+
+“सीधे चलो!” उनका सेनापति चिल्लाया।
+
+---
+
+लेकिन उन्हें पता नहीं था—
+
+कि यह भूमि धोखा देती है।
+
+---
+
+घोड़े—
+
+फिसले।
+
+---
+
+कुछ धँस गए।
+
+---
+
+“यह क्या है?” एक सैनिक चिल्लाया।
+
+---
+
+और उसी क्षण—
+
+ऊपर से तीर बरसे।
+
+---
+
+चीखें।
+
+अराजकता।
+
+---
+
+पहला हमला विफल।
+
+---
+
+दूसरा चरण।
+
+---
+
+अब—
+
+घेराबंदी।
+
+---
+
+किला चारों ओर से घिर गया।
+
+---
+
+दिन बीते।
+
+---
+
+पानी सीमित।
+
+---
+
+भोजन कम।
+
+---
+
+लेकिन किले के भीतर—
+
+एक शांति थी।
+
+---
+
+“हम टिकेंगे,” रक्षक ने कहा।
+
+---
+
+“जब तक वे थक नहीं जाते।”
+
+---
+
+रातें लंबी थीं।
+
+---
+
+लेकिन हर रात—
+
+छोटे हमले।
+
+---
+
+किले के द्वार खुलते—
+
+और फिर बंद।
+
+---
+
+घुड़सवार निकलते—
+
+रसद पर वार करते—
+
+और लौट आते।
+
+---
+
+दुश्मन चौंक गया।
+
+---
+
+“वे भूखे हैं…” एक ने कहा।
+
+---
+
+“फिर भी लड़ रहे हैं…”
+
+---
+
+तीसरा चरण।
+
+---
+
+महीनों बीत गए।
+
+---
+
+दुश्मन थक चुका था।
+
+---
+
+“अब अंतिम हमला,” उनका सेनापति बोला।
+
+---
+
+तोपें सजाई गईं।
+
+---
+
+धड़ाम!
+
+---
+
+दीवार काँपी।
+
+---
+
+एक हिस्सा टूट गया।
+
+---
+
+“वे अंदर आ रहे हैं!” एक सैनिक चिल्लाया।
+
+---
+
+रक्षक आगे बढ़ा।
+
+---
+
+उसकी आँखों में—
+
+अब कोई संदेह नहीं था।
+
+---
+
+“यहीं…” उसने कहा,
+
+“अंत होगा।”
+
+---
+
+तलवारें टकराईं।
+
+---
+
+घोड़े भिड़े।
+
+---
+
+धूल और नमक—
+
+एक हो गए।
+
+---
+
+यह युद्ध—
+
+केवल भूमि के लिए नहीं था।
+
+---
+
+यह अस्तित्व का था।
+
+---
+
+एक-एक कर—
+
+योद्धा गिरते गए।
+
+---
+
+लेकिन हर गिरने वाला—
+
+दूसरे को आगे बढ़ा रहा था।
+
+---
+
+“पीछे मत हटो!” रक्षक गरजा।
+
+---
+
+एक भाला—
+
+उसके कंधे में धँसा।
+
+---
+
+वह डगमगाया।
+
+---
+
+लेकिन रुका नहीं।
+
+---
+
+“यह हमारी झील है!” उसकी आवाज़ गूँजी।
+
+---
+
+और वही—
+
+सबकी आवाज़ बन गई।
+
+---
+
+अंतिम क्षण।
+
+---
+
+दुश्मन की पंक्ति टूट गई।
+
+---
+
+उनका सेनापति गिरा।
+
+---
+
+और धीरे-धीरे—
+
+वे पीछे हटने लगे।
+
+---
+
+“वे भाग रहे हैं!” एक सैनिक चिल्लाया।
+
+---
+
+सांभर—
+
+बच गया।
+
+---
+
+किला—
+
+अब भी खड़ा।
+
+---
+
+रक्षक—
+
+घुटनों पर।
+
+---
+
+उसने झील की ओर देखा।
+
+---
+
+सफेद।
+
+शांत।
+
+---
+
+जैसे कुछ हुआ ही नहीं।
+
+---
+
+उसने मुस्कुराया।
+
+---
+
+“हमने…” उसने धीरे से कहा,
+
+“तुझे बचा लिया।”
+
+---
+
+और फिर—
+
+उसकी आँखें बंद हो गईं।
+
+---
+
+सूरज उग चुका था।
+
+---
+
+नमक—
+
+फिर चमक रहा था।
+
+---
+
+समय बीतता गया।
+
+---
+
+राज्य बदले।
+
+ध्वज बदले।
+
+---
+
+लेकिन सांभर—
+
+अब भी वहीं है।
+
+---
+
+उसकी सफेदी में—
+
+आज भी एक कहानी है।
+
+---
+
+उन लोगों की—
+
+जिन्होंने भूख, प्यास, और मृत्यु के सामने खड़े होकर कहा—
+
+---
+
+“यह हमारा है।”
+
+---
+
+“और हम इसे नहीं छोड़ेंगे।”
+
+---
+
+सांभर—
+
+एक झील नहीं।
+
+---
+
+एक शपथ।
+
+---
+
+जो हर पीढ़ी को याद दिलाती है—
+
+---
+
+कि जो अपने संसाधन की रक्षा करता है—
+
+---
+
+वह केवल भूमि नहीं—
+
+---
+
+पूरा भविष्य बचाता है।
+`
     ],
-    coverImage: { src: '/images/legends/sambhar-siege.jpg', alt: 'The white shores of the Sambhar Salt Lake under a desert sun.' }
+    coverImage: { src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'The white shores of the Sambhar Salt Lake under a desert sun.' }
   },
   {
     id: 'defense-salt-lake',
@@ -2085,11 +55190,544 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Sambhar Region',
     story: [
-      'The salt lake of Sambhar was a source of great wealth and power. Its defense involved a combination of hill fortifications and light cavalry.',
-      'The legend tells of the many times the region was raided and the many times its people stood together to repel the invaders, their spirit as enduring as the salt itself.',
-      'The defense of the salt lake is a story of the importance of community and the courage of those who protect the resources that sustain their way of life.'
+      `सांभर की झील उस सुबह सफ़ेद नहीं, चाँदी जैसी चमक रही थी—मानो धरती ने अपना हृदय बाहर रख दिया हो। नमक की परतें सूरज की पहली किरणों में झिलमिला उठीं, और हवा में एक तीखा स्वाद था—जीवन का, श्रम का, और उस संपदा का जिसे बचाने के लिए रक्त बहाया जाना तय था।
+
+झील के चारों ओर छोटी-छोटी पहाड़ियाँ थीं—अरावली की टूटती कगारें, जिन पर किले उगे थे। वे ऊँचे नहीं थे, पर पर्याप्त थे—देखने के लिए, चेताने के लिए, और रोकने के लिए।
+
+क्योंकि यह केवल पानी नहीं था।
+
+यह धन था।
+
+यह शक्ति थी।
+
+और जो इसे पा लेता—
+
+वह झुकता नहीं।
+
+---
+
+उसी भूमि पर एक बालक बड़ा हो रहा था।
+
+उसके पैरों में नमक की किरचें चुभती थीं, लेकिन वह रोता नहीं था। उसकी आँखों में उस चमक का प्रतिबिंब था जो झील से उठकर आकाश में जाती थी।
+
+उसके पिता—झील के रक्षक—ने उसे पहली बार उस सफ़ेद विस्तार के किनारे खड़ा किया।
+
+“यह हमारी धरोहर है,” उन्होंने कहा।
+
+“और यह कभी अकेली नहीं रहती… इसके पीछे हमेशा कोई आता है।”
+
+बालक ने दूर देखा।
+
+क्षितिज पर कुछ नहीं था।
+
+लेकिन उसके भीतर—
+
+एक चेतावनी उतर गई।
+
+---
+
+बचपन से ही उसका प्रशिक्षण अलग था।
+
+वह केवल तलवार नहीं सीख रहा था।
+
+वह भूमि पढ़ रहा था।
+
+हवा की दिशा, नमक की परत की कठोरता, घोड़ों के लिए सुरक्षित पगडंडियाँ, और उन जगहों का ज्ञान जहाँ से दुश्मन छिपकर आ सकता था।
+
+“युद्ध मैदान में नहीं जीता जाता,” उसके गुरु ने कहा,
+
+“युद्ध उस दिन जीत लिया जाता है… जब तुम जानते हो कि दुश्मन कहाँ से आएगा।”
+
+---
+
+समय बदला।
+
+झील की चमक दूर-दूर तक पहुँच चुकी थी।
+
+और उसी चमक ने—
+
+लालच को जन्म दिया।
+
+---
+
+एक दिन—
+
+धूल उठी।
+
+---
+
+दूर से—
+
+एक सेना बढ़ रही थी।
+
+घोड़े।
+
+रसद।
+
+लुटेरे।
+
+---
+
+“वे झील के लिए आए हैं,” एक प्रहरी ने कहा।
+
+---
+
+सभा बुलाई गई।
+
+---
+
+“हम कम हैं,” एक सरदार बोला।
+
+---
+
+“लेकिन हम यहाँ के हैं,” युवक—जो अब रक्षक बन चुका था—ने उत्तर दिया।
+
+---
+
+उसने झील की ओर देखा।
+
+---
+
+“और यह… हमारे साथ है।”
+
+---
+
+पहला युद्ध—
+
+सीधा नहीं।
+
+---
+
+उसने अपनी सेना को बाँटा।
+
+---
+
+हल्की घुड़सवार टुकड़ियाँ।
+
+---
+
+“हम उन्हें थकाएँगे,” उसने कहा।
+
+---
+
+रात।
+
+---
+
+दुश्मन शिविर में।
+
+---
+
+शांति।
+
+---
+
+और फिर—
+
+पहला हमला।
+
+---
+
+घोड़ों की तेज टाप।
+
+---
+
+तीर।
+
+---
+
+कुछ ही क्षणों में—
+
+अराजकता।
+
+---
+
+“कौन है?” एक सैनिक चिल्लाया।
+
+---
+
+लेकिन हमलावर—
+
+गायब।
+
+---
+
+दूसरी रात।
+
+---
+
+फिर वही।
+
+---
+
+तीसरी।
+
+---
+
+अब—
+
+दुश्मन थक चुका था।
+
+---
+
+“ये सामने क्यों नहीं आते?” एक सेनापति गरजा।
+
+---
+
+उत्तर—
+
+रेत और नमक के बीच छिपा था।
+
+---
+
+दूसरा चरण।
+
+---
+
+अब—
+
+झील के पास।
+
+---
+
+दुश्मन आगे बढ़ा।
+
+---
+
+लेकिन उसे पता नहीं था—
+
+कि जमीन बदल चुकी है।
+
+---
+
+नमक की परत—
+
+कहीं कठोर।
+
+कहीं दलदली।
+
+---
+
+“आगे बढ़ो!” आदेश आया।
+
+---
+
+घोड़े फिसले।
+
+---
+
+कुछ धँस गए।
+
+---
+
+“यह क्या है?” एक चिल्लाया।
+
+---
+
+और तभी—
+
+ऊपर पहाड़ियों से—
+
+तीर बरसे।
+
+---
+
+नीचे—
+
+घोड़े बेकाबू।
+
+---
+
+दुश्मन—
+
+फँस चुका था।
+
+---
+
+“अब!” रक्षक गरजा।
+
+---
+
+और फिर—
+
+राजपूत टूट पड़े।
+
+---
+
+“हर हर महादेव!”
+
+---
+
+धूल।
+
+नमक।
+
+खून।
+
+---
+
+यह युद्ध—
+
+भूमि के साथ मिलकर लड़ा जा रहा था।
+
+---
+
+तीसरा चरण—
+
+निर्णायक।
+
+---
+
+दुश्मन ने अपनी पूरी शक्ति झोंक दी।
+
+---
+
+“आज खत्म करो,” उनका सेनापति बोला।
+
+---
+
+मैदान खुला था।
+
+---
+
+दोनों सेनाएँ आमने-सामने।
+
+---
+
+रक्षक आगे बढ़ा।
+
+---
+
+उसकी आँखों में—
+
+शांत अग्नि।
+
+---
+
+“आज…” उसने कहा,
+
+“हम केवल झील के लिए नहीं लड़ रहे…”
+
+---
+
+“हम अपने अस्तित्व के लिए लड़ रहे हैं।”
+
+---
+
+“हर हर महादेव!”
+
+---
+
+और फिर—
+
+आक्रमण।
+
+---
+
+घोड़े दौड़े।
+
+---
+
+तलवारें टकराईं।
+
+---
+
+पहली टक्कर—
+
+भीषण।
+
+---
+
+दुश्मन अधिक था।
+
+---
+
+राजपूत—
+
+कम।
+
+---
+
+धीरे-धीरे—
+
+वे पीछे हटने लगे।
+
+---
+
+तभी—
+
+उसने संकेत दिया।
+
+---
+
+पीछे हटते हुए दल—
+
+अचानक मुड़े।
+
+---
+
+और उसी क्षण—
+
+दोनों ओर से छिपे हुए घुड़सवार टूट पड़े।
+
+---
+
+घेराव।
+
+---
+
+दुश्मन—
+
+चारों ओर से घिर गया।
+
+---
+
+“हम फँस गए!” एक सैनिक चिल्लाया।
+
+---
+
+लेकिन अब—
+
+बहुत देर हो चुकी थी।
+
+---
+
+युद्ध पलट गया।
+
+---
+
+एक-एक कर—
+
+दुश्मन गिरता गया।
+
+---
+
+अंततः—
+
+वे भागे।
+
+---
+
+सांभर—
+
+बच गया।
+
+---
+
+शाम हुई।
+
+---
+
+झील फिर शांत।
+
+---
+
+सफेद।
+
+---
+
+जैसे कुछ हुआ ही नहीं।
+
+---
+
+लेकिन उस शांति के नीचे—
+
+एक कहानी थी।
+
+---
+
+रक्षक प्राचीर पर खड़ा था।
+
+---
+
+उसने झील को देखा।
+
+---
+
+“हमने…” उसने धीरे से कहा,
+
+“तुझे बचा लिया।”
+
+---
+
+लेकिन वह जानता था—
+
+यह अंत नहीं।
+
+---
+
+यह फिर होगा।
+
+---
+
+और हर बार—
+
+उन्हें खड़ा होना होगा।
+
+---
+
+समय बीतता गया।
+
+---
+
+लोग बदले।
+
+राजा बदले।
+
+---
+
+लेकिन सांभर—
+
+अब भी चमकता है।
+
+---
+
+और उसकी उस चमक में—
+
+आज भी एक संदेश है।
+
+---
+
+कि जो अपने संसाधन की रक्षा करता है—
+
+---
+
+वह केवल भूमि नहीं बचाता—
+
+---
+
+वह अपना भविष्य बचाता है।
+
+---
+
+सांभर—
+
+एक झील नहीं।
+
+---
+
+एक जीवन।
+
+---
+
+और वह जीवन—
+
+उन लोगों के कारण है—
+
+---
+
+जिन्होंने साथ खड़े होकर कहा—
+
+---
+
+“यह हमारा है…”
+
+---
+
+“और हम इसे जाने नहीं देंगे।”
+`
     ],
-    coverImage: { src: '/images/legends/salt-lake-defense.jpg', alt: 'A desert patrol watching over the white shores of a salt lake.' }
+    coverImage: { src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'A desert patrol watching over the white shores of a salt lake.' }
   },
   {
     id: 'battle-dausa',
@@ -2099,11 +55737,546 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Dausa',
     story: [
-      'Dausa was the first capital of the Kachwahas in Rajputana. This battle was a fierce struggle for control of this vital area during the early expansion of the dynasty.',
-      'The Rajput forces used the surrounding hills to launch a series of devastating attacks on the invading forces, eventually driving them from the heartland.',
-      'The legend of Dausa is a story of the importance of protecting the roots of a kingdom and the courage of those who fought for it.'
+      `अरावली की बाहों में बसा दौसा उस समय केवल एक नगर नहीं था—वह एक शुरुआत था। कछवाहा वंश की पहली साँस, पहली धड़कन, पहली जड़। सुबह की पहली किरण जब पहाड़ियों की धार पर फिसलती, तो किले की दीवारें सुनहरी हो उठतीं—जैसे यह भूमि स्वयं अपने स्वामियों को पहचानती हो।
+
+लेकिन उसी सुबह, हवा में कुछ और भी था।
+
+दूर क्षितिज पर धूल उठी।
+
+और वह धूल… शांति का संकेत नहीं थी।
+
+---
+
+दौसा के प्राचीर पर एक युवा खड़ा था।
+
+उसकी आँखें स्थिर थीं।
+
+उसके पीछे खड़े थे उसके लोग—थके हुए, लेकिन झुके नहीं।
+
+---
+
+“वे आ रहे हैं,” एक प्रहरी ने कहा।
+
+---
+
+युवा ने सिर हिलाया।
+
+---
+
+“तो हम भी तैयार हैं,” उसने उत्तर दिया।
+
+---
+
+उसका जन्म इसी भूमि पर हुआ था।
+
+उसने बचपन से ही इन पहाड़ियों में दौड़ना सीखा था।
+
+इन घाटियों में छिपना।
+
+इन रास्तों को पढ़ना।
+
+---
+
+“यह भूमि तुम्हारी तलवार से अधिक शक्तिशाली है,” उसके पिता ने कहा था।
+
+---
+
+और आज—
+
+वह उसी शक्ति को आज़माने वाला था।
+
+---
+
+राजनीतिक समय कठिन था।
+
+कछवाहा वंश अभी स्थापित हो रहा था।
+
+दुश्मन हर ओर थे।
+
+पड़ोसी शक्तियाँ—
+
+और दूर से आती सेनाएँ—
+
+सब इस भूमि को छीनना चाहते थे।
+
+---
+
+“अगर दौसा गया…” एक सरदार ने कहा,
+
+“तो सब कुछ चला जाएगा।”
+
+---
+
+युवा ने उसकी ओर देखा।
+
+---
+
+“तो फिर दौसा नहीं जाएगा।”
+
+---
+
+पहला युद्ध—
+
+मैदान में नहीं।
+
+---
+
+पहाड़ियों में।
+
+---
+
+“हम सामने नहीं लड़ेंगे,” उसने कहा।
+
+---
+
+उसने अपनी सेना को छोटे-छोटे दलों में बाँटा।
+
+---
+
+“हम छाया बनेंगे।”
+
+---
+
+रात हुई।
+
+---
+
+दुश्मन शिविर लगा चुका था।
+
+---
+
+वे निश्चिंत थे।
+
+---
+
+“ये लोग भाग गए,” एक सैनिक हँसा।
+
+---
+
+लेकिन उसी रात—
+
+पहला हमला हुआ।
+
+---
+
+ऊपर से—
+
+तीर।
+
+---
+
+नीचे—
+
+घोड़ों की हलचल।
+
+---
+
+“कौन है?” एक चिल्लाया।
+
+---
+
+उत्तर—
+
+अंधेरे में खो गया।
+
+---
+
+कुछ ही क्षणों में—
+
+कई सैनिक गिर चुके थे।
+
+---
+
+और हमलावर—
+
+गायब।
+
+---
+
+“ये कहाँ गए?” एक ने पूछा।
+
+---
+
+कोई उत्तर नहीं।
+
+---
+
+दूसरा दिन।
+
+---
+
+दुश्मन आगे बढ़ा।
+
+---
+
+लेकिन हर मोड़—
+
+एक जाल था।
+
+---
+
+संकरी घाटी।
+
+---
+
+ऊपर—
+
+राजपूत छिपे हुए।
+
+---
+
+“अब!” उसकी आवाज़ गूँजी।
+
+---
+
+पत्थर गिरे।
+
+---
+
+तीर बरसे।
+
+---
+
+घोड़े फिसले।
+
+---
+
+दुश्मन फँस चुका था।
+
+---
+
+और फिर—
+
+दोनों ओर से आक्रमण।
+
+---
+
+“हर हर महादेव!”
+
+---
+
+घाटी गूँज उठी।
+
+---
+
+धूल।
+
+खून।
+
+अराजकता।
+
+---
+
+कुछ ही समय में—
+
+दुश्मन टूट गया।
+
+---
+
+लेकिन यह अंत नहीं था।
+
+---
+
+तीसरा युद्ध—
+
+निर्णायक।
+
+---
+
+दुश्मन ने अपनी पूरी सेना जुटाई।
+
+---
+
+“आज हम इसे खत्म करेंगे,” उनका सेनापति बोला।
+
+---
+
+दौसा के बाहर—
+
+मैदान तैयार था।
+
+---
+
+इस बार—
+
+सीधा युद्ध।
+
+---
+
+राजपूत सेना—
+
+कम।
+
+---
+
+लेकिन उनकी आँखों में—
+
+अग्नि।
+
+---
+
+युवा आगे बढ़ा।
+
+---
+
+“आज…” उसने कहा,
+
+“हम केवल भूमि के लिए नहीं लड़ रहे…”
+
+---
+
+“हम अपने अस्तित्व के लिए लड़ रहे हैं।”
+
+---
+
+“हर हर महादेव!”
+
+---
+
+और फिर—
+
+आक्रमण।
+
+---
+
+घोड़े दौड़े।
+
+---
+
+तलवारें टकराईं।
+
+---
+
+पहली टक्कर—
+
+भीषण।
+
+---
+
+दुश्मन अधिक था।
+
+---
+
+धीरे-धीरे—
+
+राजपूत पीछे हटने लगे।
+
+---
+
+“पीछे मत हटो!” युवा गरजा।
+
+---
+
+लेकिन स्थिति कठिन थी।
+
+---
+
+तभी—
+
+उसने अंतिम निर्णय लिया।
+
+---
+
+“मेरे पीछे आओ!”
+
+---
+
+वह सीधे—
+
+दुश्मन के केंद्र में घुस गया।
+
+---
+
+यह आत्मघाती था।
+
+---
+
+लेकिन वही—
+
+रणनीति थी।
+
+---
+
+दुश्मन चौंक गया।
+
+---
+
+उनकी पंक्ति टूट गई।
+
+---
+
+और उसी क्षण—
+
+पीछे से छिपे हुए दल टूट पड़े।
+
+---
+
+घेराव।
+
+---
+
+दुश्मन अब चारों ओर से घिर चुका था।
+
+---
+
+“हम फँस गए!” एक चिल्लाया।
+
+---
+
+लेकिन अब—
+
+बहुत देर हो चुकी थी।
+
+---
+
+युद्ध पलट गया।
+
+---
+
+एक-एक कर—
+
+दुश्मन गिरता गया।
+
+---
+
+अंततः—
+
+वे भागे।
+
+---
+
+दौसा—
+
+बच गया।
+
+---
+
+शाम हुई।
+
+---
+
+किले की दीवारों पर—
+
+दीप जले।
+
+---
+
+लोगों ने राहत की साँस ली।
+
+---
+
+युवा प्राचीर पर खड़ा था।
+
+---
+
+उसने नीचे देखा।
+
+---
+
+खून।
+
+धूल।
+
+घोड़े।
+
+---
+
+और फिर—
+
+आकाश की ओर।
+
+---
+
+“हमने…” उसने धीरे से कहा,
+
+“अपनी जड़ बचा ली।”
+
+---
+
+लेकिन उसकी आँखों में—
+
+थकान थी।
+
+---
+
+और एक समझ—
+
+कि यह अंत नहीं।
+
+---
+
+यह शुरुआत है।
+
+---
+
+समय बीतता गया।
+
+---
+
+दौसा—
+
+कछवाहा वंश की जड़ बना रहा।
+
+---
+
+वहीं से—
+
+उनकी शक्ति बढ़ी।
+
+---
+
+उनकी पहचान बनी।
+
+---
+
+आज भी—
+
+जब दौसा की पहाड़ियों पर हवा चलती है—
+
+---
+
+तो उसमें एक कहानी होती है।
+
+---
+
+उन योद्धाओं की—
+
+जिन्होंने केवल एक नगर नहीं बचाया—
+
+---
+
+एक वंश बचाया।
+
+---
+
+दौसा—
+
+एक स्थान नहीं।
+
+---
+
+एक नींव।
+
+---
+
+और वह नींव—
+
+आज भी अडिग है।
+
+---
+
+क्योंकि उसे—
+
+खून से सींचा गया था।
+
+---
+
+और खून से सींची गई जड़ें—
+
+कभी सूखती नहीं।
+`
     ],
-    coverImage: { src: '/images/legends/dausa-battle.jpg', alt: 'Warriors fighting in a narrow mountain valley.' }
+    coverImage: { src: '/images/dynasties/places/amber-kachwaha-main.jpg', alt: 'Warriors fighting in a narrow mountain valley.' }
   },
   {
     id: 'siege-bundi-taragarh',
@@ -2113,11 +56286,524 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Bundi',
     story: [
-      'Taragarh Fort in Bundi, with its complex design and strategic location, was a natural fortress. Its defense involved the use of massive cannons and the rugged terrain of the Aravallis.',
-      'The legend tells of the many times the fort’s walls were tested and the many times its defenders stood firm, their spirit as unyielding as the stone walls that sheltered them.',
-      'The defense of Taragarh is a symbol of the Hada Rajput mastery of defensive architecture and their unwavering resolve to protect their capital.'
+      `अरावली की ऊबड़-खाबड़ पहाड़ियों के बीच, जहाँ चट्टानें आकाश को चीरती हुई उठती हैं और घाटियाँ अंधकार को अपने भीतर समेट लेती हैं—वहाँ एक किला खड़ा था।
+
+ऊँचा।
+
+अडिग।
+
+और चुनौती देता हुआ।
+
+---
+
+तारागढ़।
+
+---
+
+बूँदी का मुकुट।
+
+पत्थरों से बना हुआ… लेकिन आत्मा से जीवित।
+
+---
+
+जब पहली बार उस किले की नींव रखी गई—
+
+तब यह केवल एक दुर्ग नहीं था।
+
+यह एक घोषणा थी।
+
+---
+
+“हम यहाँ रहेंगे,” एक हाड़ा शासक ने कहा,
+
+“और हमें कोई हटा नहीं सकेगा।”
+
+---
+
+उस दिन, पत्थरों पर हथौड़े नहीं पड़े—
+
+प्रतिज्ञाएँ पड़ीं।
+
+---
+
+बचपन में—
+
+वही शासक, जो आगे चलकर इस किले का रक्षक बना—
+
+इन दीवारों के बीच खेला था।
+
+---
+
+उसने सीखा—
+
+कैसे हर मोड़ एक रक्षा है।
+
+कैसे हर ऊँचाई एक लाभ।
+
+---
+
+“किला केवल दीवारों से नहीं बनता,” उसके गुरु ने कहा,
+
+“यह सोच से बनता है।”
+
+---
+
+और उसने वही सीखा।
+
+---
+
+उसकी आँखें—
+
+हर दरार को पहचानती थीं।
+
+---
+
+उसके कदम—
+
+हर गुप्त मार्ग को जानते थे।
+
+---
+
+समय बदला।
+
+---
+
+दूर—
+
+धूल उठी।
+
+---
+
+दुश्मन आ रहा था।
+
+---
+
+तोपें।
+
+हाथी।
+
+हजारों सैनिक।
+
+---
+
+“वे तारागढ़ को तोड़ देंगे,” एक दरबारी ने कहा।
+
+---
+
+शासक प्राचीर पर खड़ा था।
+
+---
+
+उसने नीचे देखा।
+
+---
+
+फिर—
+
+आकाश की ओर।
+
+---
+
+“यह किला…” उसने कहा,
+
+“टूटने के लिए नहीं बना है।”
+
+---
+
+पहला दिन।
+
+---
+
+तोपें गरजीं।
+
+---
+
+धड़ाम!
+
+---
+
+दीवार काँपी।
+
+---
+
+लेकिन गिरी नहीं।
+
+---
+
+“फिर से!” दुश्मन का सेनापति चिल्लाया।
+
+---
+
+धड़ाम!
+
+धड़ाम!
+
+---
+
+लेकिन हर बार—
+
+वही परिणाम।
+
+---
+
+दीवार—
+
+अडिग।
+
+---
+
+दूसरा दिन।
+
+---
+
+दुश्मन ने ऊपर चढ़ने की कोशिश की।
+
+---
+
+संकरी पगडंडियाँ।
+
+खतरनाक ढलान।
+
+---
+
+“अब!” शासक गरजा।
+
+---
+
+ऊपर से—
+
+पत्थर गिरे।
+
+---
+
+उबलता तेल।
+
+---
+
+तीर।
+
+---
+
+चीखें गूँजीं।
+
+---
+
+वे पीछे हट गए।
+
+---
+
+तीसरा दिन।
+
+---
+
+दुश्मन ने नई योजना बनाई।
+
+---
+
+“रात में हमला करेंगे,” उन्होंने कहा।
+
+---
+
+अंधेरा छा गया।
+
+---
+
+शिविर शांत।
+
+---
+
+लेकिन किले के भीतर—
+
+सब जाग रहे थे।
+
+---
+
+“वे आएँगे,” शासक ने कहा।
+
+---
+
+और वे आए।
+
+---
+
+चुपचाप।
+
+---
+
+लेकिन तारागढ़—
+
+सोता नहीं था।
+
+---
+
+“घात!” एक प्रहरी चिल्लाया।
+
+---
+
+तुरंत—
+
+नगाड़ा बजा।
+
+---
+
+किला जाग उठा।
+
+---
+
+“तैयार!”
+
+---
+
+तलवारें खिंचीं।
+
+---
+
+और फिर—
+
+रात का युद्ध।
+
+---
+
+अंधेरे में—
+
+केवल आवाज़ें।
+
+---
+
+टकराहट।
+
+चीखें।
+
+---
+
+शासक स्वयं आगे था।
+
+---
+
+एक दुश्मन—
+
+उसकी ओर बढ़ा।
+
+---
+
+उसने वार रोका।
+
+---
+
+और एक ही प्रहार में—
+
+उसे गिरा दिया।
+
+---
+
+“यह हमारा घर है!” उसकी आवाज़ गूँजी।
+
+---
+
+और वही—
+
+हर योद्धा की आवाज़ बन गई।
+
+---
+
+दिन बीतते गए।
+
+---
+
+दुश्मन थकने लगा।
+
+---
+
+लेकिन किला—
+
+अब भी खड़ा था।
+
+---
+
+अंतिम दिन।
+
+---
+
+निर्णायक हमला।
+
+---
+
+“सब कुछ झोंक दो!” सेनापति चिल्लाया।
+
+---
+
+तोपें।
+
+घोड़े।
+
+सैनिक।
+
+---
+
+सब एक साथ।
+
+---
+
+किला काँप उठा।
+
+---
+
+लेकिन टूटा नहीं।
+
+---
+
+शासक ने अपनी तलवार उठाई।
+
+---
+
+“आज…” उसने कहा,
+
+“हम केवल रक्षा नहीं करेंगे…”
+
+“हम उन्हें याद दिलाएँगे—यह तारागढ़ है।”
+
+---
+
+और फिर—
+
+द्वार खुले।
+
+---
+
+राजपूत बाहर टूट पड़े।
+
+---
+
+“हर हर महादेव!”
+
+---
+
+घोड़े दौड़े।
+
+---
+
+तलवारें चमकीं।
+
+---
+
+धूल का तूफान।
+
+---
+
+यह आक्रमण अप्रत्याशित था।
+
+---
+
+दुश्मन चौंक गया।
+
+---
+
+उनकी पंक्तियाँ टूट गईं।
+
+---
+
+और फिर—
+
+वे भागने लगे।
+
+---
+
+विजय।
+
+---
+
+तारागढ़—
+
+अभी भी अडिग।
+
+---
+
+शासक प्राचीर पर खड़ा था।
+
+---
+
+उसने नीचे देखा।
+
+---
+
+फिर—
+
+दीवार को छुआ।
+
+---
+
+“तुमने…” उसने धीरे से कहा,
+
+“अपना वचन निभाया।”
+
+---
+
+समय बीतता गया।
+
+---
+
+राजा बदले।
+
+युद्ध बदले।
+
+---
+
+लेकिन तारागढ़—
+
+आज भी खड़ा है।
+
+---
+
+उसकी दीवारों में—
+
+वही जिद है।
+
+---
+
+वही साहस।
+
+---
+
+और वही कहानी—
+
+जो कहती है—
+
+---
+
+कि कुछ किले—
+
+पत्थरों से नहीं टूटते।
+
+---
+
+वे केवल…
+
+कहानियों में और मजबूत होते जाते हैं।
+
+---
+
+तारागढ़—
+
+एक दुर्ग नहीं।
+
+---
+
+एक चेतावनी।
+
+---
+
+कि जब भूमि, पत्थर और मन—
+
+एक हो जाएँ—
+
+---
+
+तो कोई शक्ति—
+
+उन्हें झुका नहीं सकती।
+`
     ],
-    coverImage: { src: '/images/legends/bundi-taragarh.jpg', alt: 'The dramatic ramparts of Taragarh Fort at Bundi.' }
+    coverImage: { src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'The dramatic ramparts of Taragarh Fort at Bundi.' }
   },
   {
     id: 'kota-hada-campaign',
@@ -2127,11 +56813,594 @@ export const allLegends: Legend[] = [
     era: '17th Century',
     location: 'Kota',
     story: [
-      'The separation of Kota from Bundi and its rise as an independent Hada state was marked by a series of military campaigns. The Hada warriors of Kota were known for their fierce independence and their skill in defending their rugged terrain.',
-      'The legend tells of the early rulers of Kota who fought against neighboring states and imperial factions to secure their autonomy, their spirit as strong as the flow of the Chambal River.',
-      'The Kota Hada campaign is a story of the importance of determination and the courage of those who seek to forge their own destiny.'
+      `चंबल की धारा उस समय और भी प्रचंड लगती थी—मानो वह स्वयं इतिहास का रक्त बहा रही हो। उसके किनारों पर खड़ी चट्टानें, गहरी खाइयाँ, और घने जंगल… यह कोई साधारण भूमि नहीं थी। यह एक चुनौती थी।
+
+और उसी चुनौती के बीच जन्म ले रहा था—
+
+एक नया राज्य।
+
+कोटा।
+
+---
+
+लेकिन हर राज्य की तरह—
+
+यह भी किसी कागज़ पर नहीं बना।
+
+यह तलवारों से लिखा गया।
+
+---
+
+बूँदी की छाया में—
+
+एक बालक बड़ा हो रहा था।
+
+हाड़ा वंश का।
+
+---
+
+उसकी आँखों में केवल सपने नहीं थे—
+
+अधिकार था।
+
+---
+
+जब उसने पहली बार चंबल को देखा—
+
+तो वह ठहर गया।
+
+---
+
+“यह नदी…” उसने कहा,
+
+“यह किसी की नहीं है।”
+
+---
+
+उसके गुरु ने उत्तर दिया—
+
+“और जो इसे अपना बना ले…”
+
+“वह किसी का नहीं रहता।”
+
+---
+
+वह समझ गया।
+
+---
+
+बचपन से ही—
+
+उसका प्रशिक्षण कठोर था।
+
+---
+
+घोड़े की पीठ—
+
+उसका घर।
+
+---
+
+तलवार—
+
+उसकी भाषा।
+
+---
+
+और पहाड़—
+
+उसके शिक्षक।
+
+---
+
+वह गिरा।
+
+घायल हुआ।
+
+---
+
+लेकिन हर बार—
+
+और मजबूत हुआ।
+
+---
+
+समय बदला।
+
+---
+
+राजनीतिक तनाव बढ़ा।
+
+---
+
+बूँदी के भीतर—
+
+असंतोष।
+
+---
+
+पड़ोसी राज्य—
+
+आँखें गड़ाए हुए।
+
+---
+
+और दूर—
+
+मुग़ल शक्ति।
+
+---
+
+हर दिशा से दबाव।
+
+---
+
+“हमें झुकना होगा,” एक दरबारी ने कहा।
+
+---
+
+“या टूटना होगा,” दूसरे ने जोड़ा।
+
+---
+
+तभी—
+
+वह युवक आगे बढ़ा।
+
+---
+
+“या… अलग होना होगा,” उसने कहा।
+
+---
+
+सन्नाटा।
+
+---
+
+यह केवल शब्द नहीं थे।
+
+---
+
+यह विद्रोह था।
+
+---
+
+और उसी क्षण—
+
+कोटा की कहानी शुरू हुई।
+
+---
+
+पहला युद्ध—
+
+अपने ही लोगों के खिलाफ।
+
+---
+
+कठिन।
+
+---
+
+भावनात्मक।
+
+---
+
+“हम एक ही रक्त हैं!” एक सैनिक चिल्लाया।
+
+---
+
+उसने उत्तर दिया—
+
+“लेकिन हमारा भविष्य अलग है!”
+
+---
+
+तलवारें टकराईं।
+
+---
+
+भाई—
+
+भाई के सामने।
+
+---
+
+धूल।
+
+खून।
+
+आँसू।
+
+---
+
+लेकिन अंततः—
+
+वह जीता।
+
+---
+
+और कोटा—
+
+जन्मा।
+
+---
+
+लेकिन यह शुरुआत थी।
+
+---
+
+अब—
+
+हर कोई उसे परखना चाहता था।
+
+---
+
+दूसरा युद्ध—
+
+पड़ोसी राज्य।
+
+---
+
+मैदान संकरा था।
+
+---
+
+चंबल की खाई एक ओर।
+
+पहाड़ दूसरी ओर।
+
+---
+
+“वे संख्या में अधिक हैं,” एक सेनापति ने कहा।
+
+---
+
+उसने मुस्कुराकर उत्तर दिया—
+
+“तो हम उन्हें यहाँ लाएँगे।”
+
+---
+
+रणनीति।
+
+---
+
+उसने अपनी सेना को पीछे हटने का आदेश दिया।
+
+---
+
+दुश्मन आगे बढ़ा।
+
+---
+
+“वे भाग रहे हैं!” उन्होंने सोचा।
+
+---
+
+लेकिन जैसे ही वे संकरे मार्ग में पहुँचे—
+
+---
+
+“अब!” उसकी आवाज़ गूँजी।
+
+---
+
+ऊपर से—
+
+पत्थर गिरे।
+
+---
+
+दोनों ओर से—
+
+घोड़े टूट पड़े।
+
+---
+
+दुश्मन फँस चुका था।
+
+---
+
+कुछ ही समय में—
+
+सब समाप्त।
+
+---
+
+तीसरा युद्ध—
+
+सबसे बड़ा।
+
+---
+
+मुग़ल सेना।
+
+---
+
+विशाल।
+
+---
+
+तोपें।
+
+हाथी।
+
+---
+
+“यह कठिन होगा,” एक सरदार ने कहा।
+
+---
+
+उसने सिर हिलाया।
+
+---
+
+“इसलिए… हमें अलग सोचना होगा।”
+
+---
+
+उसने सीधे युद्ध नहीं चुना।
+
+---
+
+उसने छाया चुनी।
+
+---
+
+रात के हमले।
+
+---
+
+रसद पर वार।
+
+---
+
+छोटे दल।
+
+---
+
+तेज़ आक्रमण।
+
+---
+
+दुश्मन थकने लगा।
+
+---
+
+“ये सामने क्यों नहीं आते?” एक अधिकारी चिल्लाया।
+
+---
+
+उत्तर—
+
+कोटा की भूमि में छिपा था।
+
+---
+
+अंततः—
+
+निर्णायक दिन।
+
+---
+
+मैदान खुला था।
+
+---
+
+दोनों सेनाएँ आमने-सामने।
+
+---
+
+“आज…” उसने कहा,
+
+“हम केवल बचेंगे नहीं…”
+
+“हम साबित करेंगे—हम कौन हैं।”
+
+---
+
+“हर हर महादेव!”
+
+---
+
+और फिर—
+
+आक्रमण।
+
+---
+
+घोड़े दौड़े।
+
+---
+
+तलवारें टकराईं।
+
+---
+
+धूल का तूफान।
+
+---
+
+वह सबसे आगे था।
+
+---
+
+एक हाथी उसकी ओर बढ़ा।
+
+---
+
+उसने लगाम खींची।
+
+---
+
+और सीधे—
+
+उसकी ओर दौड़ा।
+
+---
+
+एक छलाँग।
+
+---
+
+तलवार—
+
+सीधी वार।
+
+---
+
+हाथी डगमगाया।
+
+---
+
+सेना चौंक गई।
+
+---
+
+“आगे!” उसकी गर्जना गूँजी।
+
+---
+
+और उसी क्षण—
+
+कोटा की सेना टूट पड़ी।
+
+---
+
+दुश्मन पीछे हट गया।
+
+---
+
+विजय।
+
+---
+
+कोटा—
+
+अब केवल एक विद्रोह नहीं था।
+
+---
+
+वह एक राज्य था।
+
+---
+
+एक पहचान।
+
+---
+
+एक गर्व।
+
+---
+
+लेकिन उसकी कीमत—
+
+भारी थी।
+
+---
+
+उसने अपने मित्र खोए।
+
+अपने लोग खोए।
+
+---
+
+एक रात—
+
+वह चंबल के किनारे खड़ा था।
+
+---
+
+पानी बह रहा था।
+
+---
+
+उसने उसमें अपना चेहरा देखा।
+
+---
+
+थका हुआ।
+
+घायल।
+
+---
+
+लेकिन उसकी आँखों में—
+
+अब भी वही ज्वाला।
+
+---
+
+“हमने…” उसने कहा,
+
+“अपना रास्ता बना लिया।”
+
+---
+
+समय बीतता गया।
+
+---
+
+राजा बदले।
+
+युद्ध बदले।
+
+---
+
+लेकिन कोटा—
+
+खड़ा रहा।
+
+---
+
+आज भी—
+
+जब चंबल बहती है—
+
+---
+
+तो उसकी धारा में—
+
+एक कहानी होती है।
+
+---
+
+उन योद्धाओं की—
+
+जिन्होंने छाया से निकलकर—
+
+अपनी पहचान बनाई।
+
+---
+
+कोटा—
+
+एक स्थान नहीं।
+
+---
+
+एक निर्णय।
+
+---
+
+एक विद्रोह।
+
+---
+
+और एक प्रमाण—
+
+कि जो अपनी राह चुनता है—
+
+---
+
+वह इतिहास नहीं पढ़ता।
+
+---
+
+वह इतिहास बनाता है।
+`
     ],
-    coverImage: { src: '/images/legends/kota-fort.jpg', alt: 'The high walls of Kota Fort overlooking the Chambal River.' }
+    coverImage: { src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'The high walls of Kota Fort overlooking the Chambal River.' }
   },
   {
     id: 'defense-gagron-fort',
@@ -2141,11 +57410,514 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Gagron, Jhalawar',
     story: [
-      'Gagron Fort, surrounded by water on three sides, was a natural fortress of great strategic importance. Its defense involved a combination of water-based and land-based warfare.',
-      'The legend tells of a garrison that held the fort against multiple assaults, their resolve as unyielding as the rock on which the fort was built.',
-      'The defense of Gagron Fort is a symbol of the Hada Rajput mastery of defensive architecture and their unwavering resolve to protect their land.'
+      `नदियों की गर्जना उस सुबह कुछ अलग थी।
+
+कालीसिंध और आहू—दो धाराएँ—गागरोन के चारों ओर ऐसे बह रही थीं जैसे प्रकृति ने स्वयं एक किले को अपने आँचल में छिपा लिया हो। पानी तीन ओर से, और चौथी ओर खड़ी चट्टान—यह कोई साधारण दुर्ग नहीं था।
+
+यह था—
+
+गागरोन।
+
+पत्थरों का नहीं… प्रतिज्ञा का किला।
+
+---
+
+उस दिन किले की प्राचीर पर एक बालक खड़ा था।
+
+उसकी आँखें दूर क्षितिज को देख रही थीं।
+
+उसके साथ खड़े थे उसके पिता—
+
+एक हाड़ा राजपूत।
+
+---
+
+“यह केवल दीवार नहीं है,” पिता ने कहा,
+
+“यह हमारी साँस है।”
+
+---
+
+बालक ने दीवार को छुआ।
+
+उसकी उँगलियों में ठंडा पत्थर था।
+
+---
+
+“और अगर यह गिर जाए?” उसने पूछा।
+
+---
+
+पिता मुस्कुराए।
+
+---
+
+“तो हम उसके साथ गिरेंगे।”
+
+---
+
+वही बालक—
+
+समय के साथ—
+
+उस किले का रक्षक बना।
+
+---
+
+उसकी शिक्षा—
+
+तलवार से पहले—
+
+किले की थी।
+
+---
+
+“हर दीवार एक उत्तर है,” उसके गुरु ने कहा,
+
+“और हर दरार… एक खतरा।”
+
+---
+
+उसने सीखा—
+
+कैसे पानी को हथियार बनाना है।
+
+कैसे संकरे रास्तों को जाल बनाना है।
+
+---
+
+और कैसे—
+
+कम संख्या में भी—
+
+अजेय रहना है।
+
+---
+
+समय बदला।
+
+---
+
+संदेश आया—
+
+दुश्मन आ रहा है।
+
+---
+
+सेना विशाल थी।
+
+---
+
+तोपें।
+
+घोड़े।
+
+नावें।
+
+---
+
+“वे पानी से आएँगे,” एक सैनिक ने कहा।
+
+---
+
+“और ज़मीन से भी,” दूसरे ने जोड़ा।
+
+---
+
+यह युद्ध—
+
+दो दिशाओं से था।
+
+---
+
+दरबार में—
+
+तनाव था।
+
+---
+
+“हम घिर चुके हैं,” एक सरदार बोला।
+
+---
+
+रक्षक—
+
+अब राजा बन चुका था।
+
+---
+
+उसने चारों ओर देखा।
+
+---
+
+दीवारें।
+
+पानी।
+
+आकाश।
+
+---
+
+“तो हम उन्हें यहीं रोकेंगे,” उसने कहा।
+
+---
+
+पहला दिन।
+
+---
+
+दुश्मन ने पानी से हमला किया।
+
+---
+
+नावें आगे बढ़ीं।
+
+---
+
+“तैयार!” रक्षक गरजा।
+
+---
+
+ऊपर से—
+
+तीर बरसे।
+
+---
+
+तेल डाला गया।
+
+---
+
+आग—
+
+पानी पर फैल गई।
+
+---
+
+नावें जलने लगीं।
+
+---
+
+चीखें गूँजीं।
+
+---
+
+पहला हमला विफल।
+
+---
+
+दूसरा दिन।
+
+---
+
+इस बार—
+
+ज़मीन से।
+
+---
+
+तोपें गरजीं।
+
+---
+
+दीवारें काँपीं।
+
+---
+
+एक हिस्सा टूट गया।
+
+---
+
+“वे अंदर आ रहे हैं!” एक सैनिक चिल्लाया।
+
+---
+
+रक्षक आगे बढ़ा।
+
+---
+
+“यहीं रोको उन्हें!”
+
+---
+
+तलवारें टकराईं।
+
+---
+
+घोड़े भिड़े।
+
+---
+
+धूल—
+
+और खून।
+
+---
+
+एक-एक कर—
+
+दुश्मन गिरता गया।
+
+---
+
+लेकिन उनकी संख्या—
+
+कम नहीं हो रही थी।
+
+---
+
+तीसरा दिन।
+
+---
+
+अब—
+
+दोनों ओर से हमला।
+
+---
+
+पानी और ज़मीन।
+
+---
+
+“अब क्या?” एक युवक ने पूछा।
+
+---
+
+रक्षक ने आँखें बंद कीं।
+
+---
+
+क्षण भर।
+
+---
+
+फिर—
+
+उसने आदेश दिया।
+
+---
+
+“पानी का मार्ग खोलो।”
+
+---
+
+गुप्त द्वार खुले।
+
+---
+
+नदी का बहाव—
+
+बढ़ा।
+
+---
+
+नावें—
+
+डगमगाने लगीं।
+
+---
+
+कुछ उलट गईं।
+
+---
+
+दुश्मन घबराया।
+
+---
+
+और उसी क्षण—
+
+रक्षक ने अंतिम आक्रमण किया।
+
+---
+
+“हर हर महादेव!”
+
+---
+
+उसकी आवाज़—
+
+नदियों की गर्जना से मिल गई।
+
+---
+
+घोड़े दौड़े।
+
+---
+
+तलवारें चमकीं।
+
+---
+
+वह सबसे आगे था।
+
+---
+
+एक वार—
+
+दूसरा—
+
+तीसरा—
+
+---
+
+उसकी चाल—
+
+बिजली।
+
+---
+
+दुश्मन टूटने लगा।
+
+---
+
+लेकिन तभी—
+
+एक तीर।
+
+---
+
+सीधा—
+
+उसके सीने में।
+
+---
+
+वह डगमगाया।
+
+---
+
+लेकिन गिरा नहीं।
+
+---
+
+“अभी नहीं…” उसने कहा।
+
+---
+
+और फिर—
+
+एक अंतिम वार।
+
+---
+
+दुश्मन का सेनापति गिरा।
+
+---
+
+सेना पीछे हट गई।
+
+---
+
+युद्ध समाप्त।
+
+---
+
+किला—
+
+अभी भी खड़ा था।
+
+---
+
+रक्षक—
+
+घुटनों पर आ गया।
+
+---
+
+उसने चारों ओर देखा।
+
+---
+
+दीवारें।
+
+पानी।
+
+आकाश।
+
+---
+
+सब—
+
+अभी भी वहीं थे।
+
+---
+
+उसने मुस्कुराया।
+
+---
+
+“हमने…” उसने फुसफुसाया,
+
+“निभाया।”
+
+---
+
+और फिर—
+
+उसकी आँखें बंद हो गईं।
+
+---
+
+सूरज उग चुका था।
+
+---
+
+गागरोन—
+
+अब भी अडिग।
+
+---
+
+आज भी—
+
+जब नदियाँ उसके चारों ओर बहती हैं—
+
+---
+
+तो उनकी आवाज़ में—
+
+एक कहानी होती है।
+
+---
+
+उन योद्धाओं की—
+
+जिन्होंने दो दिशाओं से लड़कर—
+
+तीसरी दिशा बनाई।
+
+---
+
+गागरोन—
+
+एक किला नहीं।
+
+---
+
+एक रणनीति।
+
+---
+
+एक जिद।
+
+---
+
+और एक स्मरण—
+
+कि जब भूमि और जल—
+
+तुम्हारे साथ हों—
+
+---
+
+तो कोई भी शक्ति—
+
+तुम्हें झुका नहीं सकती।
+`
     ],
-    coverImage: { src: '/images/legends/gagron-fort.jpg', alt: 'The majestic Gagron Fort surrounded by the Ahu and Kali Sindh rivers.' }
+    coverImage: { src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'The majestic Gagron Fort surrounded by the Ahu and Kali Sindh rivers.' }
   },
   {
     id: 'ballad-pabuji-horse-kesar',
@@ -2155,11 +57927,588 @@ export const allLegends: Legend[] = [
     era: '14th Century',
     location: 'Marwar',
     story: [
-      'Kesar Kalami was the legendary horse of Pabuji Rathore. This ballad celebrates the bond between the deity and his mare, who was said to possess magical speed and intelligence.',
-      'The story recounts how Kesar Kalami carried Pabuji through his most difficult trials and his final battle, her loyalty as enduring as the desert itself.',
-      'The ballad is a tribute to the importance of the horse in the folk traditions of Rajasthan and the spirit of loyalty that defines the Rajput legacy.'
+      `रेगिस्तान की उस साँझ में, जब सूरज रक्त की तरह क्षितिज में डूब रहा था और आकाश केसरिया हो उठा था, एक घोड़ी रेत पर खड़ी थी—अडिग, सतर्क, और जैसे किसी अदृश्य संकेत की प्रतीक्षा में।
+
+उसकी साँसें भारी नहीं थीं।
+
+उसकी आँखों में भय नहीं था।
+
+वह जानती थी—
+
+युद्ध आने वाला है।
+
+और वह अकेली नहीं लड़ेगी।
+
+---
+
+वह थी—
+
+केसर कालमी।
+
+पाबूजी राठौड़ की घोड़ी।
+
+लेकिन केवल घोड़ी नहीं।
+
+वह उनकी छाया थी।
+
+उनकी गति।
+
+उनका भाग्य।
+
+---
+
+जब पाबूजी का जन्म हुआ—
+
+तब आँगन में केवल एक बालक नहीं रोया था।
+
+वहाँ एक ध्वनि गूँजी थी—
+
+जो आने वाले समय का संकेत थी।
+
+---
+
+“यह बालक…” एक वृद्ध ने कहा,
+
+“अपनी कथा स्वयं लिखेगा।”
+
+---
+
+बचपन से ही—
+
+पाबूजी अलग थे।
+
+---
+
+उनकी आँखों में एक अजीब-सी चमक थी।
+
+जैसे वे केवल देख नहीं रहे हों—
+
+समझ रहे हों।
+
+---
+
+और उसी समय—
+
+एक और जन्म हुआ।
+
+---
+
+एक छोटी-सी बछिया।
+
+---
+
+उसकी चाल अलग थी।
+
+उसकी आँखों में—
+
+वही ज्वाला।
+
+---
+
+जब पहली बार पाबूजी ने उसे देखा—
+
+तो कुछ हुआ।
+
+---
+
+उन्होंने उसके माथे को छुआ।
+
+---
+
+और वह शांत हो गई।
+
+---
+
+“यह मेरी है,” उन्होंने कहा।
+
+---
+
+किसी ने विरोध नहीं किया।
+
+---
+
+क्योंकि वह केवल चयन नहीं था—
+
+वह बंधन था।
+
+---
+
+समय बीता।
+
+---
+
+पाबूजी बड़े हुए।
+
+---
+
+उनकी तलवार तेज हुई।
+
+उनकी प्रसिद्धि फैली।
+
+---
+
+और उनके साथ—
+
+केसर कालमी भी बढ़ी।
+
+---
+
+उसकी गति—
+
+अविश्वसनीय।
+
+---
+
+रेगिस्तान की रेत—
+
+उसके लिए बाधा नहीं थी।
+
+---
+
+वह उड़ती थी।
+
+---
+
+“यह घोड़ी नहीं है…” एक योद्धा ने कहा,
+
+“यह हवा है।”
+
+---
+
+पहला युद्ध—
+
+छोटा।
+
+---
+
+कुछ लुटेरे।
+
+---
+
+पाबूजी आगे बढ़े।
+
+---
+
+केसर कालमी ने संकेत समझा।
+
+---
+
+और फिर—
+
+वह दौड़ी।
+
+---
+
+इतनी तेज—
+
+कि धूल भी पीछे रह गई।
+
+---
+
+पहला वार—
+
+सटीक।
+
+---
+
+दूसरा—
+
+घातक।
+
+---
+
+कुछ ही क्षणों में—
+
+युद्ध समाप्त।
+
+---
+
+“यह कैसे संभव है?” एक ने पूछा।
+
+---
+
+उत्तर—
+
+उस घोड़ी की चाल में था।
+
+---
+
+दूसरा युद्ध—
+
+कठिन।
+
+---
+
+इस बार—
+
+दुश्मन अधिक था।
+
+---
+
+“हमें घेर लिया गया है!” एक सैनिक चिल्लाया।
+
+---
+
+पाबूजी ने चारों ओर देखा।
+
+---
+
+क्षण भर।
+
+---
+
+फिर—
+
+उन्होंने लगाम खींची।
+
+---
+
+केसर कालमी मुड़ी।
+
+---
+
+और सीधे—
+
+सबसे घने स्थान की ओर दौड़ी।
+
+---
+
+यह पागलपन था।
+
+---
+
+लेकिन वही—
+
+उनकी रणनीति थी।
+
+---
+
+दुश्मन चौंक गया।
+
+---
+
+“रोक लो!” एक ने चिल्लाया।
+
+---
+
+लेकिन तब तक—
+
+बहुत देर हो चुकी थी।
+
+---
+
+केसर कालमी—
+
+उनके बीच थी।
+
+---
+
+उसकी गति—
+
+उनकी पंक्तियाँ तोड़ रही थी।
+
+---
+
+पाबूजी की तलवार—
+
+रास्ता बना रही थी।
+
+---
+
+और फिर—
+
+वे निकल गए।
+
+---
+
+“वे भाग गए!” कोई चिल्लाया।
+
+---
+
+लेकिन सच—
+
+कुछ और था।
+
+---
+
+वे बचे थे।
+
+---
+
+तीसरा युद्ध—
+
+अंतिम।
+
+---
+
+वह वचन—
+
+जिसने सब कुछ बदल दिया।
+
+---
+
+देवल के पशु।
+
+---
+
+लुटेरे उन्हें ले गए थे।
+
+---
+
+“मैं उन्हें वापस लाऊँगा,” पाबूजी ने कहा।
+
+---
+
+और वह निकले।
+
+---
+
+केसर कालमी—
+
+उनके साथ।
+
+---
+
+युद्ध—
+
+भीषण था।
+
+---
+
+धूल।
+
+खून।
+
+चीखें।
+
+---
+
+पाबूजी के शरीर पर घाव पड़ने लगे।
+
+---
+
+एक भाला—
+
+सीने में।
+
+---
+
+एक तलवार—
+
+कंधे में।
+
+---
+
+लेकिन वे रुके नहीं।
+
+---
+
+“आगे!” उनकी आवाज़ गूँजी।
+
+---
+
+केसर कालमी—
+
+अब भी दौड़ रही थी।
+
+---
+
+उसकी साँसें तेज थीं।
+
+---
+
+लेकिन उसकी चाल—
+
+अभी भी स्थिर।
+
+---
+
+एक क्षण—
+
+वह डगमगाई।
+
+---
+
+लेकिन गिरी नहीं।
+
+---
+
+“बस थोड़ा और…” पाबूजी ने फुसफुसाया।
+
+---
+
+और फिर—
+
+अंतिम आक्रमण।
+
+---
+
+लुटेरे टूट गए।
+
+---
+
+पशु मुक्त।
+
+---
+
+लेकिन—
+
+कीमत।
+
+---
+
+पाबूजी—
+
+घायल।
+
+---
+
+गंभीर।
+
+---
+
+उन्होंने लगाम ढीली छोड़ी।
+
+---
+
+केसर कालमी रुक गई।
+
+---
+
+उसने पीछे मुड़कर देखा।
+
+---
+
+उसकी आँखों में—
+
+कुछ था।
+
+---
+
+जैसे वह समझ रही हो।
+
+---
+
+पाबूजी ने उसके माथे को छुआ।
+
+---
+
+“तूने…” उन्होंने धीरे से कहा,
+
+“अपना वचन निभाया।”
+
+---
+
+उसने कोई उत्तर नहीं दिया।
+
+---
+
+लेकिन वह वहीं खड़ी रही।
+
+---
+
+अडिग।
+
+---
+
+जब तक—
+
+उनकी साँसें थम नहीं गईं।
+
+---
+
+रेगिस्तान शांत हो गया।
+
+---
+
+लेकिन कहानी—
+
+जीवित रही।
+
+---
+
+आज भी—
+
+जब पाबूजी की कथा गाई जाती है—
+
+---
+
+तो केसर कालमी का नाम—
+
+साथ लिया जाता है।
+
+---
+
+क्योंकि वह केवल घोड़ी नहीं थी।
+
+---
+
+वह एक साथी थी।
+
+---
+
+एक योद्धा।
+
+---
+
+एक आत्मा—
+
+जो अंत तक साथ रही।
+
+---
+
+राजपूताना में—
+
+घोड़े केवल साधन नहीं होते।
+
+---
+
+वे बंधन होते हैं।
+
+---
+
+विश्वास।
+
+---
+
+और केसर कालमी—
+
+उस विश्वास का प्रतीक है।
+
+---
+
+आज भी—
+
+जब रेत पर कोई घोड़ा दौड़ता है—
+
+---
+
+तो उसकी टाप में—
+
+एक गूँज होती है।
+
+---
+
+केसर कालमी की।
+
+---
+
+और वह गूँज कहती है—
+
+---
+
+कि सच्ची निष्ठा…
+
+कभी नहीं टूटती।
+
+---
+
+वह अंत तक…
+
+साथ चलती है।
+`
     ],
-    coverImage: { src: '/images/legends/kesar-kalami.jpg', alt: 'Pabuji Rathore on his legendary black mare, Kesar Kalami.' }
+    coverImage: { src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'Pabuji Rathore on his legendary black mare, Kesar Kalami.' }
   },
   {
     id: 'ballad-tejaji-snake-blessing',
@@ -2169,11 +58518,562 @@ export const allLegends: Legend[] = [
     era: '11th Century',
     location: 'Shekhawati',
     story: [
-      'This ballad celebrates the divine blessing granted to Tejaji by the serpent he had vowed to return to. In recognition of his absolute commitment to his word, the snake granted him the power to protect others from snake bites.',
-      'The story is a powerful reminder of the Rajput belief that truth and integrity are the ultimate sources of divine protection.',
-      'Tejaji remains one of the most beloved folk deities of Rajasthan, his legend a symbol of the transformative power of a promise kept.'
+      `रेगिस्तान की वह दोपहर जलती हुई थी—आकाश आग उगल रहा था, और धरती अंगारों की तरह तप रही थी। हवा में धूल थी, और उस धूल में… एक कहानी।
+
+एक नाम।
+
+तेजाजी।
+
+---
+
+उसका जन्म उस भूमि पर हुआ था, जहाँ हर साँस के साथ एक वचन जन्म लेता है।
+
+जहाँ माँ lullaby में भी वीरता गाती है।
+
+जहाँ पिता बच्चे को गोद में लेकर तलवार की कसम सिखाता है।
+
+---
+
+जब तेजाजी ने पहली बार आँखें खोलीं—
+
+तब आँगन में केवल एक शिशु नहीं था।
+
+वहाँ एक भविष्य खड़ा था।
+
+---
+
+उसकी माँ ने उसके माथे को चूमा।
+
+“यह बालक…” उसने धीरे से कहा,
+
+“सिर्फ जिएगा नहीं…”
+
+“यह निभाएगा।”
+
+---
+
+बचपन से ही—
+
+तेजाजी अलग था।
+
+---
+
+वह झूठ नहीं बोलता था।
+
+वह पीछे नहीं हटता था।
+
+---
+
+एक बार—
+
+एक बच्चे ने उससे पूछा—
+
+“अगर वचन निभाने में जान चली जाए तो?”
+
+---
+
+तेजाजी ने बिना सोचे उत्तर दिया—
+
+“तो जान छोटी है।”
+
+---
+
+वह खेलता भी था—
+
+लेकिन उसके खेल में भी युद्ध था।
+
+---
+
+घोड़े पर बैठना—
+
+तलवार चलाना—
+
+तीर चलाना—
+
+---
+
+सब कुछ…
+
+मानो उसके भीतर पहले से लिखा हो।
+
+---
+
+समय बीता।
+
+---
+
+राज्य पर संकट आया।
+
+---
+
+लुटेरे बढ़ रहे थे।
+
+---
+
+गाँव जल रहे थे।
+
+---
+
+एक दिन—
+
+एक स्त्री दौड़ती हुई आई।
+
+---
+
+उसकी साँसें टूटी हुई।
+
+---
+
+“मेरे पशु…” उसने कहा,
+
+“उन्हें ले गए…”
+
+---
+
+तेजाजी खड़ा हुआ।
+
+---
+
+“किधर?” उसने पूछा।
+
+---
+
+और फिर—
+
+बिना एक पल गंवाए—
+
+वह निकल पड़ा।
+
+---
+
+रास्ता लंबा था।
+
+---
+
+रेत।
+
+काँटे।
+
+तपती हवा।
+
+---
+
+और उसी रास्ते में—
+
+वह क्षण आया।
+
+---
+
+साँप।
+
+---
+
+वह रास्ते में फैला था।
+
+उसकी आँखों में क्रोध।
+
+---
+
+“तू मुझे डँसने आया है?” तेजाजी ने पूछा।
+
+---
+
+“हाँ,” साँप ने जैसे फुफकारा।
+
+---
+
+तेजाजी रुका।
+
+---
+
+“अभी नहीं,” उसने कहा।
+
+---
+
+“क्यों?” साँप ने पूछा।
+
+---
+
+“क्योंकि मुझे एक वचन निभाना है।”
+
+---
+
+क्षण भर—
+
+दोनों चुप।
+
+---
+
+“क्या तू लौटेगा?” साँप ने पूछा।
+
+---
+
+तेजाजी की आँखों में कोई संदेह नहीं था।
+
+---
+
+“मैं लौटूँगा।”
+
+---
+
+और वह आगे बढ़ गया।
+
+---
+
+युद्ध—
+
+शुरू हो चुका था।
+
+---
+
+लुटेरे सामने थे।
+
+---
+
+संख्या में अधिक।
+
+हथियारों से लैस।
+
+---
+
+“तू अकेला है,” एक ने हँसकर कहा।
+
+---
+
+उत्तर—
+
+तलवार में मिला।
+
+---
+
+पहला वार—
+
+एक गिरा।
+
+---
+
+दूसरा—
+
+तीसरा—
+
+---
+
+घोड़ा दौड़ा।
+
+धूल उड़ी।
+
+---
+
+तेजाजी के शरीर पर घाव पड़ने लगे।
+
+---
+
+एक भाला—
+
+कंधे में।
+
+---
+
+एक तलवार—
+
+पैर में।
+
+---
+
+खून बह रहा था।
+
+---
+
+लेकिन वह रुका नहीं।
+
+---
+
+“पशु छोड़ दो!” उसकी गर्जना गूँजी।
+
+---
+
+अंततः—
+
+लुटेरे टूट गए।
+
+---
+
+पशु मुक्त हो गए।
+
+---
+
+युद्ध समाप्त।
+
+---
+
+लेकिन उसका शरीर—
+
+घावों से भरा था।
+
+---
+
+वह खड़ा था—
+
+लेकिन मुश्किल से।
+
+---
+
+उसने आसमान की ओर देखा।
+
+---
+
+और फिर—
+
+वह मुड़ा।
+
+---
+
+वापस।
+
+---
+
+उस स्थान की ओर।
+
+---
+
+जहाँ—
+
+साँप उसका इंतजार कर रहा था।
+
+---
+
+सूरज ढल रहा था।
+
+---
+
+रेगिस्तान ठंडा हो रहा था।
+
+---
+
+और वहाँ—
+
+वह साँप अब भी था।
+
+---
+
+“तू लौट आया,” उसने कहा।
+
+---
+
+उसकी आवाज़ में आश्चर्य था।
+
+---
+
+तेजाजी ने सिर हिलाया।
+
+---
+
+“मैंने वचन दिया था।”
+
+---
+
+साँप ने उसके शरीर को देखा।
+
+---
+
+हर जगह—
+
+घाव।
+
+---
+
+कोई स्थान नहीं—
+
+जहाँ वह डँस सके।
+
+---
+
+क्षण भर—
+
+वह चुप रहा।
+
+---
+
+“अब?” उसने पूछा।
+
+---
+
+तेजाजी ने कुछ नहीं कहा।
+
+---
+
+फिर—
+
+उसने अपनी जीभ बाहर निकाली।
+
+---
+
+“यहाँ,” उसने कहा।
+
+---
+
+समय रुक गया।
+
+---
+
+हवा थम गई।
+
+---
+
+साँप ने उसे देखा।
+
+---
+
+अब उसकी आँखों में क्रोध नहीं था।
+
+---
+
+सम्मान था।
+
+---
+
+और फिर—
+
+उसने डँसा।
+
+---
+
+क्षण भर—
+
+सब शांत।
+
+---
+
+तेजाजी की आँखें बंद हुईं।
+
+---
+
+लेकिन उसी क्षण—
+
+कुछ बदल गया।
+
+---
+
+साँप पीछे हटा।
+
+---
+
+उसने आकाश की ओर देखा।
+
+---
+
+और फिर—
+
+एक आवाज़ गूँजी।
+
+---
+
+“तूने वचन निभाया…”
+
+---
+
+“इसलिए—अब तू केवल योद्धा नहीं रहा।”
+
+---
+
+“तू रक्षक है।”
+
+---
+
+धरती काँपी।
+
+---
+
+आकाश चमका।
+
+---
+
+और तेजाजी—
+
+अब केवल मनुष्य नहीं रहे।
+
+---
+
+समय बीतता गया।
+
+---
+
+लेकिन उनकी कथा—
+
+जीवित रही।
+
+---
+
+गाँवों में—
+
+लोग उनका नाम लेते।
+
+---
+
+जब कोई साँप काटता—
+
+तो पुकार उठती—
+
+“तेजाजी!”
+
+---
+
+और विश्वास—
+
+जीवन बन जाता।
+
+---
+
+आज भी—
+
+जब रेगिस्तान की हवा चलती है—
+
+---
+
+तो उसमें एक कहानी होती है।
+
+---
+
+एक वचन की।
+
+---
+
+एक बलिदान की।
+
+---
+
+और उस शक्ति की—
+
+जो सत्य से जन्म लेती है।
+
+---
+
+तेजाजी—
+
+एक नाम नहीं।
+
+---
+
+एक प्रमाण।
+
+---
+
+कि जब वचन निभाया जाता है—
+
+---
+
+तो मनुष्य…
+
+देवता बन जाता है।
+
+---
+
+और वही—
+
+राजपूताना की सबसे बड़ी शक्ति है।
+`
     ],
-    coverImage: { src: '/images/legends/tejaji-blessing.jpg', alt: 'Tejaji receiving the divine blessing from the serpent.' }
+    coverImage: { src: '/images/dynasties/places/marwar-rathore-main.jpg', alt: 'Tejaji receiving the divine blessing from the serpent.' }
   },
   {
     id: 'legend-war-tilak',
@@ -2183,11 +59083,718 @@ export const allLegends: Legend[] = [
     era: 'Timeless',
     location: 'Battlefield',
     story: [
-      'The War Tilak was a sacred mark applied to the forehead of a warrior before he entered the battlefield. It was often applied by a sister, a mother, or a wife, signifying their blessing and their shared commitment to honor.',
-      'The tilak was a reminder of the warrior’s duty to his land and his ancestors, a mark of transition from the world of home to the world of the sword.',
-      'The legend of the war tilak is a story of the emotional and spiritual preparation that allowed the Rajput warrior to face the most daunting challenges with a calm, focused mind.'
+      `भोर से पहले का वह क्षण… जब आकाश अभी पूरी तरह उजला नहीं होता, और धरती किसी अनजाने निर्णय की प्रतीक्षा में ठहरी होती है—राजपूताना की उसी ठंडी हवा में एक दीपक जल रहा था।
+
+उस दीपक के सामने बैठी थी—
+
+एक स्त्री।
+
+उसकी आँखों में आँसू नहीं थे।
+
+सिर्फ… स्थिरता।
+
+और उसके सामने खड़ा था—
+
+एक योद्धा।
+
+उसका पुत्र।
+
+उसका भाई।
+
+उसका पति।
+
+या शायद—
+
+तीनों का एक संगम।
+
+---
+
+उस योद्धा का जन्म किसी साधारण घर में नहीं हुआ था।
+
+वह उस वंश में पैदा हुआ था, जहाँ पहली साँस के साथ ही तलवार की छाया सिर पर पड़ती थी।
+
+उसके पिता—
+
+एक योद्धा।
+
+उसके दादा—
+
+एक बलिदानी।
+
+और उसका नाम—
+
+उस इतिहास का उत्तराधिकारी।
+
+---
+
+बचपन से ही—
+
+उसके हाथों में खिलौने नहीं, लकड़ी की तलवार थी।
+
+उसकी पहली शिक्षा—
+
+लिखना नहीं, वार करना थी।
+
+---
+
+“तलवार उठाने से पहले सोचो,” उसके गुरु ने कहा था,
+
+“और उठाने के बाद… कभी मत रुको।”
+
+---
+
+वह गिरा।
+
+फिर उठा।
+
+फिर गिरा।
+
+फिर उठा।
+
+---
+
+उसके घाव—
+
+उसके शिक्षक थे।
+
+---
+
+धीरे-धीरे—
+
+उसकी चाल बदल गई।
+
+उसकी आँखों में—
+
+वह ठंडापन आ गया—
+
+जो केवल योद्धाओं में होता है।
+
+---
+
+समय बदला।
+
+राज्य पर संकट आया।
+
+---
+
+दुश्मन बढ़ रहा था।
+
+सीमाएँ टूट रही थीं।
+
+---
+
+दरबार में—
+
+तनाव था।
+
+---
+
+“हमें युद्ध करना होगा,” एक सरदार ने कहा।
+
+---
+
+“या फिर झुकना होगा,” दूसरे ने जोड़ा।
+
+---
+
+सन्नाटा।
+
+---
+
+तभी—
+
+वह युवक आगे बढ़ा।
+
+---
+
+“हम झुकेंगे नहीं,” उसने कहा।
+
+---
+
+उसकी आवाज़ में कोई संदेह नहीं था।
+
+---
+
+राजा ने उसकी ओर देखा।
+
+---
+
+“क्या तुम तैयार हो?” उन्होंने पूछा।
+
+---
+
+उसने सिर झुकाया।
+
+---
+
+“मैं जन्म से ही तैयार हूँ।”
+
+---
+
+और उसी क्षण—
+
+उसकी भूमिका बदल गई।
+
+---
+
+अब वह केवल एक युवक नहीं था।
+
+---
+
+वह—
+
+एक सेनापति था।
+
+---
+
+पहला युद्ध—
+
+मैदान खुला था।
+
+---
+
+धूल उड़ रही थी।
+
+---
+
+दोनों सेनाएँ आमने-सामने।
+
+---
+
+“आक्रमण!” उसकी आवाज़ गूँजी।
+
+---
+
+घोड़े दौड़े।
+
+---
+
+तलवारें टकराईं।
+
+---
+
+पहला वार—
+
+उसने किया।
+
+---
+
+एक सैनिक गिरा।
+
+---
+
+दूसरा—
+
+तीसरा—
+
+---
+
+उसकी चाल तेज थी।
+
+सटीक।
+
+---
+
+लेकिन दुश्मन—
+
+अधिक था।
+
+---
+
+धीरे-धीरे—
+
+उसकी सेना पीछे हटने लगी।
+
+---
+
+“पीछे मत हटो!” उसने चिल्लाया।
+
+---
+
+लेकिन भय—
+
+फैल चुका था।
+
+---
+
+तभी—
+
+उसने निर्णय लिया।
+
+---
+
+“पंक्ति तोड़ो!” उसने आदेश दिया।
+
+---
+
+वह सीधे दुश्मन के केंद्र में घुस गया।
+
+---
+
+एक जोखिम।
+
+---
+
+लेकिन वही—
+
+उसकी रणनीति थी।
+
+---
+
+दुश्मन चौंक गया।
+
+---
+
+उनकी पंक्ति टूट गई।
+
+---
+
+और उसी क्षण—
+
+उसकी सेना ने फिर से आक्रमण किया।
+
+---
+
+युद्ध पलट गया।
+
+---
+
+पहली जीत।
+
+---
+
+लेकिन कीमत—
+
+भारी।
+
+---
+
+उसने अपने मित्र को खो दिया।
+
+---
+
+उसका शरीर—
+
+उसके सामने पड़ा था।
+
+---
+
+“हम जीत गए…” किसी ने कहा।
+
+---
+
+लेकिन उसकी आँखों में—
+
+खालीपन था।
+
+---
+
+“यह जीत नहीं है…” उसने धीरे से कहा।
+
+---
+
+“यह शुरुआत है।”
+
+---
+
+दूसरा युद्ध—
+
+पहाड़ियों में।
+
+---
+
+इस बार—
+
+उसने सीधा आक्रमण नहीं किया।
+
+---
+
+“हम छाया बनेंगे,” उसने कहा।
+
+---
+
+उसने अपने सैनिकों को बाँटा।
+
+---
+
+छोटे दल।
+
+---
+
+घात।
+
+---
+
+रात का हमला।
+
+---
+
+पहले—
+
+रसद पर वार।
+
+---
+
+फिर—
+
+शिविर पर।
+
+---
+
+दुश्मन भ्रमित हो गया।
+
+---
+
+“वे कहाँ हैं?” एक सैनिक चिल्लाया।
+
+---
+
+उत्तर—
+
+कहीं नहीं।
+
+---
+
+और हर जगह।
+
+---
+
+यह युद्ध नहीं था—
+
+यह मनोविज्ञान था।
+
+---
+
+तीसरा युद्ध—
+
+निर्णायक।
+
+---
+
+किला घिर चुका था।
+
+---
+
+दीवारें टूट रही थीं।
+
+---
+
+अंदर—
+
+लोग भय में थे।
+
+---
+
+तभी—
+
+वह लौटा।
+
+---
+
+घायल।
+
+थका हुआ।
+
+---
+
+लेकिन उसकी आँखों में—
+
+अब भी वही ज्वाला।
+
+---
+
+“द्वार खोलो,” उसने कहा।
+
+---
+
+“हम बाहर लड़ेंगे।”
+
+---
+
+यह अंतिम निर्णय था।
+
+---
+
+भोर।
+
+---
+
+किले के भीतर—
+
+वह स्त्री खड़ी थी।
+
+---
+
+उसके हाथ में—
+
+चंदन और रक्त।
+
+---
+
+योद्धा उसके सामने झुका।
+
+---
+
+उसने उसकी ओर देखा।
+
+---
+
+“क्या तुम लौटोगे?” उसने पूछा।
+
+---
+
+कुछ क्षण—
+
+मौन।
+
+---
+
+फिर—
+
+वह मुस्कुराया।
+
+---
+
+“अगर नहीं लौटा…”
+
+---
+
+“तो कहानी बनकर लौटूँगा।”
+
+---
+
+उसने उसके माथे पर तिलक लगाया।
+
+---
+
+धीरे से।
+
+सम्मान के साथ।
+
+---
+
+“यह केवल आशीर्वाद नहीं है,” उसने कहा,
+
+“यह मेरा विश्वास है।”
+
+---
+
+तिलक—
+
+उसके माथे पर चमक उठा।
+
+---
+
+और उसी क्षण—
+
+वह बदल गया।
+
+---
+
+अब वह केवल मनुष्य नहीं था।
+
+---
+
+वह—
+
+एक प्रतिज्ञा था।
+
+---
+
+द्वार खुले।
+
+---
+
+“हर हर महादेव!”
+
+---
+
+और वह टूट पड़ा।
+
+---
+
+घोड़े दौड़े।
+
+---
+
+तलवारें टकराईं।
+
+---
+
+धूल का तूफान उठ खड़ा हुआ।
+
+---
+
+वह सबसे आगे था।
+
+---
+
+जहाँ सबसे अधिक खतरा—
+
+वहीं।
+
+---
+
+एक भाला—
+
+उसके सीने में धँसा।
+
+---
+
+वह डगमगाया।
+
+---
+
+लेकिन गिरा नहीं।
+
+---
+
+“अभी नहीं…” उसने कहा।
+
+---
+
+और फिर—
+
+एक अंतिम वार।
+
+---
+
+दुश्मन का सेनापति गिरा।
+
+---
+
+सेना टूट गई।
+
+---
+
+युद्ध समाप्त।
+
+---
+
+लेकिन वह—
+
+घुटनों पर आ गया।
+
+---
+
+उसकी साँसें भारी।
+
+---
+
+उसने अपने माथे को छुआ।
+
+---
+
+तिलक…
+
+अब भी वहाँ था।
+
+---
+
+वह मुस्कुराया।
+
+---
+
+और फिर—
+
+धीरे-धीरे—
+
+उसकी आँखें बंद हो गईं।
+
+---
+
+सूरज उग चुका था।
+
+---
+
+किले की दीवारों पर—
+
+विजय की गर्जना गूँज रही थी।
+
+---
+
+लेकिन उस आँगन में—
+
+वह स्त्री खड़ी थी।
+
+---
+
+उसकी आँखों में आँसू नहीं थे।
+
+---
+
+केवल गर्व।
+
+---
+
+आज भी—
+
+जब कोई योद्धा युद्ध पर जाता है—
+
+---
+
+तो उसके माथे पर तिलक लगाया जाता है।
+
+---
+
+वह केवल रंग नहीं होता।
+
+---
+
+वह एक स्मरण होता है।
+
+---
+
+घर का।
+
+परिवार का।
+
+पूर्वजों का।
+
+---
+
+और उस वचन का—
+
+जो उसे अजेय बनाता है।
+
+---
+
+युद्ध तिलक—
+
+एक निशान नहीं।
+
+---
+
+एक आत्मा।
+
+---
+
+जो कहती है—
+
+“अब तुम अकेले नहीं हो।”
+
+---
+
+और शायद—
+
+यही कारण है—
+
+कि वह योद्धा…
+
+मृत्यु से भी नहीं डरा।
+
+---
+
+क्योंकि उसके माथे पर—
+
+केवल तिलक नहीं था—
+
+---
+
+पूरा राजपूताना था।
+`
     ],
-    coverImage: { src: '/images/legends/war-tilak.jpg', alt: 'A warrior receiving a tilak on his forehead before battle.' }
+    coverImage: { src: '/images/dynasties/rulers/rana-sanga.jpg', alt: 'A warrior receiving a tilak on his forehead before battle.' }
   },
   {
     id: 'legend-war-feast',
@@ -2197,11 +59804,444 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Battlefield Camps',
     story: [
-      'The war feast was a solemn gathering where the warriors would share a final meal before a major battle. It was a moment of brotherhood and reflection, a way to reinforce the bonds that would be tested on the field.',
-      'The feast was often simple, but it was shared with a sense of shared purpose and mutual respect. It was a ritual of transition, where individual concerns were set aside for the collective honor of the clan.',
-      'The legend of the war feast is a story of the deep camaraderie and the shared values that defined the Rajput martial culture.'
+      `रात उतर चुकी थी, लेकिन किले के भीतर दीप बुझाए नहीं गए थे। आँगन में एक धीमी रोशनी फैली हुई थी—न उत्सव की, न शोक की… बल्कि एक ऐसी शांति की, जो केवल अंतिम निर्णय से पहले आती है।
+
+आकाश में तारे थे।
+
+और धरती पर—
+
+योद्धा।
+
+---
+
+प्रांगण के बीचों-बीच—
+
+एक लंबी पंक्ति में बैठे थे वे।
+
+तलवारें उनके पास रखी थीं।
+
+कवच बगल में।
+
+---
+
+और उनके सामने—
+
+एक साधारण भोजन।
+
+रोटियाँ।
+
+थोड़ा सा मांस।
+
+और पानी।
+
+---
+
+यह कोई दावत नहीं थी।
+
+यह—
+
+रण-भोज था।
+
+---
+
+एक वृद्ध सरदार उठा।
+
+उसने चारों ओर देखा।
+
+---
+
+“कल…” उसकी आवाज़ गूँजी,
+
+“हममें से कई… लौटकर नहीं आएँगे।”
+
+---
+
+कोई चौंका नहीं।
+
+कोई बोला नहीं।
+
+---
+
+क्योंकि यह सत्य था।
+
+---
+
+उसने आगे कहा—
+
+“लेकिन आज…”
+
+“हम साथ हैं।”
+
+---
+
+उसने एक रोटी उठाई।
+
+---
+
+“यह भोजन… केवल पेट भरने के लिए नहीं है।”
+
+---
+
+“यह हमें याद दिलाने के लिए है…”
+
+“कि हम अकेले नहीं हैं।”
+
+---
+
+उसने पहला कौर खाया।
+
+---
+
+और फिर—
+
+एक-एक कर—
+
+सबने खाना शुरू किया।
+
+---
+
+शांत।
+
+धीरे।
+
+---
+
+एक युवा योद्धा—
+
+अपने पास बैठे वृद्ध की ओर झुका।
+
+---
+
+“क्या आपको डर नहीं लगता?” उसने पूछा।
+
+---
+
+वृद्ध मुस्कुराया।
+
+---
+
+“लगता है,” उसने कहा।
+
+---
+
+“लेकिन उससे बड़ा है—हमारा वचन।”
+
+---
+
+दूसरी ओर—
+
+दो मित्र बैठे थे।
+
+---
+
+उन्होंने एक-दूसरे की ओर देखा।
+
+---
+
+“अगर मैं गिर गया…” एक ने कहा,
+
+“तो मेरी तलवार… तुम उठाना।”
+
+---
+
+दूसरे ने सिर हिलाया।
+
+---
+
+“और अगर मैं गिरा…” उसने उत्तर दिया,
+
+“तो तुम मेरी कहानी सुनाना।”
+
+---
+
+क्षण भर के लिए—
+
+दोनों हँसे।
+
+---
+
+और फिर—
+
+चुप हो गए।
+
+---
+
+सरदार ने अपने प्याले को उठाया।
+
+---
+
+“यह हमारे पूर्वजों के लिए,” उसने कहा।
+
+---
+
+सबने अपने प्याले उठाए।
+
+---
+
+“उनके लिए… जिन्होंने हमें यह भूमि दी।”
+
+---
+
+“और उनके लिए… जो कल इसे बचाएँगे।”
+
+---
+
+एक साथ—
+
+सबने पिया।
+
+---
+
+उस क्षण—
+
+कोई राजा नहीं था।
+
+कोई साधारण सैनिक नहीं।
+
+---
+
+सब—
+
+एक थे।
+
+---
+
+रात गहराती गई।
+
+---
+
+कहीं दूर—
+
+ढोल की धीमी आवाज़।
+
+---
+
+कहीं—
+
+घोड़ों की हलचल।
+
+---
+
+लेकिन आँगन में—
+
+अब भी वही शांति।
+
+---
+
+एक योद्धा उठा।
+
+---
+
+उसने अपनी तलवार उठाई।
+
+---
+
+और उसे अपने सामने रखकर—
+
+धीरे से बोला—
+
+“कल…”
+
+“हम मिलेंगे।”
+
+---
+
+किसी ने पूछा नहीं—
+
+कहाँ।
+
+---
+
+क्योंकि उत्तर—
+
+सब जानते थे।
+
+---
+
+भोर।
+
+---
+
+सूरज की पहली किरण।
+
+---
+
+किले के द्वार खुले।
+
+---
+
+घोड़े तैयार।
+
+---
+
+तलवारें चमक रही थीं।
+
+---
+
+वही योद्धा—
+
+जो कल साथ बैठे थे—
+
+अब पंक्ति में खड़े थे।
+
+---
+
+उनकी आँखों में अब शांति नहीं थी।
+
+---
+
+वहाँ—
+
+अग्नि थी।
+
+---
+
+“तैयार!” सरदार गरजा।
+
+---
+
+और फिर—
+
+वे आगे बढ़े।
+
+---
+
+युद्धभूमि—
+
+उनका इंतजार कर रही थी।
+
+---
+
+टकराव।
+
+---
+
+घोड़े दौड़े।
+
+तलवारें टकराईं।
+
+---
+
+लेकिन हर योद्धा—
+
+अकेला नहीं था।
+
+---
+
+उसे याद था—
+
+वह भोजन।
+
+---
+
+वह साथ बैठना।
+
+---
+
+वह वचन।
+
+---
+
+“हम साथ हैं!”
+
+---
+
+यह आवाज़—
+
+हर वार में थी।
+
+---
+
+घंटों बाद—
+
+जब धूल बैठी—
+
+---
+
+कुछ खड़े थे।
+
+---
+
+कुछ गिर चुके थे।
+
+---
+
+लेकिन जो बचे—
+
+उन्होंने एक-दूसरे की ओर देखा।
+
+---
+
+और समझ गए—
+
+वह भोजन…
+
+अंतिम नहीं था।
+
+---
+
+वह शुरुआत थी।
+
+---
+
+आज भी—
+
+जब किसी युद्ध से पहले—
+
+लोग साथ बैठते हैं—
+
+---
+
+तो वह केवल खाना नहीं होता।
+
+---
+
+वह एक बंधन होता है।
+
+---
+
+एक स्मृति।
+
+---
+
+एक प्रतिज्ञा—
+
+कि चाहे जो हो—
+
+हम साथ खड़े रहेंगे।
+
+---
+
+रण-भोज—
+
+एक परंपरा नहीं।
+
+---
+
+एक आत्मा।
+
+---
+
+जो हर योद्धा को याद दिलाती है—
+
+कि तलवार अकेले नहीं लड़ती।
+
+---
+
+उसके पीछे—
+
+भाईचारा होता है।
+
+सम्मान होता है।
+
+---
+
+और वही—
+
+राजपूताना की असली शक्ति थी।
+`
     ],
-    coverImage: { src: '/images/legends/war-feast.jpg', alt: 'A group of warriors sharing a simple meal around a campfire.' }
+    coverImage: { src: '/images/dynasties/rulers/rana-sanga.jpg', alt: 'A group of warriors sharing a simple meal around a campfire.' }
   },
   {
     id: 'legend-victory-fires',
@@ -2211,11 +60251,410 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Hilltop Bastions',
     story: [
-      'The victory fires were massive bonfires lit on the highest peaks and fort ramparts to signal a successful defense or a major battlefield victory.',
-      'The sight of these fires would trigger celebrations across the kingdom, a collective sigh of relief and a reaffirmation of the strength and the resolve of the people.',
-      'The victory fires are a symbol of the shared joy and the collective triumph that followed the successful defense of the land.'
+      `रात घिर चुकी थी।
+
+आकाश गहरा, काला, और अनंत—जैसे उसने अपने भीतर पूरे दिन का रक्त और धूल समेट लिया हो। अरावली की चोटियाँ अंधेरे में डूबी थीं, और किलों की प्राचीरें अब केवल परछाइयों की तरह दिख रही थीं।
+
+लेकिन उस रात—
+
+अंधेरा अकेला नहीं था।
+
+---
+
+दूर…
+
+सबसे ऊँची चोटी पर—
+
+एक चिंगारी जली।
+
+---
+
+छोटी।
+
+काँपती हुई।
+
+---
+
+फिर—
+
+वह बढ़ी।
+
+---
+
+लकड़ियाँ चटखीं।
+
+---
+
+और अचानक—
+
+आग उठ खड़ी हुई।
+
+---
+
+विजय की अग्नि।
+
+---
+
+किले के भीतर—
+
+एक प्रहरी ने उसे देखा।
+
+---
+
+उसकी आँखें फैल गईं।
+
+---
+
+“विजय…” उसने फुसफुसाया।
+
+---
+
+और फिर—
+
+उसकी आवाज़ गूँज उठी—
+
+“विजय! विजय!”
+
+---
+
+क्षण भर में—
+
+पूरा किला जाग गया।
+
+---
+
+लोग बाहर दौड़े।
+
+---
+
+उन्होंने आकाश की ओर देखा।
+
+---
+
+और वहाँ—
+
+वह आग जल रही थी।
+
+---
+
+प्रचंड।
+
+अडिग।
+
+---
+
+“हम जीत गए…” किसी ने कहा।
+
+---
+
+और उस एक वाक्य के साथ—
+
+भय समाप्त हो गया।
+
+---
+
+क्योंकि यह केवल एक आग नहीं थी।
+
+---
+
+यह एक संदेश था।
+
+---
+
+दूर-दूर तक—
+
+अन्य किलों पर—
+
+अन्य चोटियों पर—
+
+---
+
+एक-एक कर—
+
+अग्नियाँ जलने लगीं।
+
+---
+
+पहाड़ दर पहाड़—
+
+किला दर किला—
+
+---
+
+रेगिस्तान रोशन हो उठा।
+
+---
+
+जैसे धरती ने स्वयं—
+
+अपनी जीत का ऐलान कर दिया हो।
+
+---
+
+गाँवों में—
+
+लोगों ने वह आग देखी।
+
+---
+
+एक वृद्ध ने अपने पोते का हाथ पकड़ा।
+
+---
+
+“देखो,” उसने कहा,
+
+“हम सुरक्षित हैं।”
+
+---
+
+स्त्रियों ने दीप जलाए।
+
+---
+
+बच्चों ने हँसना शुरू किया।
+
+---
+
+ढोल बजने लगे।
+
+---
+
+लेकिन उस खुशी के पीछे—
+
+एक कहानी थी।
+
+---
+
+कुछ ही घंटों पहले—
+
+वही किला…
+
+मृत्यु के किनारे खड़ा था।
+
+---
+
+दीवारें टूट रही थीं।
+
+---
+
+दुश्मन भीतर घुस चुका था।
+
+---
+
+और योद्धा—
+
+अंतिम साँस तक लड़ रहे थे।
+
+---
+
+“पीछे मत हटो!” एक सरदार गरजा।
+
+---
+
+“यह हमारा घर है!”
+
+---
+
+तलवारें टकराईं।
+
+---
+
+घोड़े चीखे।
+
+---
+
+धूल और खून—
+
+एक हो गए।
+
+---
+
+एक योद्धा गिरा।
+
+---
+
+दूसरा—
+
+उसकी जगह खड़ा हो गया।
+
+---
+
+“जब तक हम हैं…” उसकी आवाज़ गूँजी,
+
+“कोई अंदर नहीं आएगा!”
+
+---
+
+और फिर—
+
+एक निर्णायक क्षण।
+
+---
+
+दुश्मन की पंक्ति टूटी।
+
+---
+
+उनका सेनापति गिरा।
+
+---
+
+और धीरे-धीरे—
+
+वे पीछे हटने लगे।
+
+---
+
+“वे भाग रहे हैं!” किसी ने चिल्लाया।
+
+---
+
+किले में—
+
+एक गर्जना उठी।
+
+---
+
+“विजय!”
+
+---
+
+लेकिन युद्ध अभी समाप्त नहीं था।
+
+---
+
+सरदार ने प्राचीर की ओर देखा।
+
+---
+
+“अग्नि जलाओ,” उसने आदेश दिया।
+
+---
+
+कुछ योद्धा ऊपर दौड़े।
+
+---
+
+लकड़ियाँ इकट्ठी की गईं।
+
+---
+
+और फिर—
+
+एक चिंगारी।
+
+---
+
+वही चिंगारी—
+
+जो अब पहाड़ों पर जल रही थी।
+
+---
+
+वह केवल संकेत नहीं था।
+
+---
+
+वह एक शपथ थी।
+
+---
+
+कि यह भूमि—
+
+अब भी अडिग है।
+
+---
+
+और यह शपथ—
+
+पूरे राज्य में फैल गई।
+
+---
+
+हर गाँव—
+
+हर किला—
+
+हर दिल—
+
+---
+
+उस आग से जुड़ गया।
+
+---
+
+आज भी—
+
+जब कहीं दूर पहाड़ियों पर आग जलती है—
+
+तो वह केवल प्रकाश नहीं देती।
+
+---
+
+वह एक स्मरण होती है।
+
+---
+
+कि हर विजय—
+
+केवल तलवार की नहीं होती।
+
+---
+
+वह होती है—
+
+उन सभी की—
+
+जिन्होंने प्रतीक्षा की।
+
+जिन्होंने प्रार्थना की।
+
+जिन्होंने विश्वास रखा।
+
+---
+
+विजय अग्नि—
+
+एक संकेत नहीं।
+
+---
+
+एक उत्सव।
+
+---
+
+एक सामूहिक साँस—
+
+जो कहती है—
+
+“हम बच गए…”
+
+---
+
+और उससे भी अधिक—
+
+“हम अब भी खड़े हैं।”
+
+---
+
+रेगिस्तान की उस रात में—
+
+जब आकाश और धरती एक हो गए थे—
+
+---
+
+वह आग—
+
+अब भी जल रही थी।
+
+---
+
+और उसकी लपटों में—
+
+इतिहास नाच रहा था।
+`
     ],
-    coverImage: { src: '/images/legends/victory-fires.jpg', alt: 'A massive bonfire burning on a high mountain peak at night.' }
+    coverImage: { src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'A massive bonfire burning on a high mountain peak at night.' }
   },
   {
     id: 'tale-desert-kings',
@@ -2225,11 +60664,440 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Thar Desert',
     story: [
-      'This legend celebrates the many rulers of the desert states who faced the constant challenges of their environment and the threats of invasion with a calm, deadly resolve.',
-      'The story recounts the many times they had to lead their people through extreme hardship, their spirit as enduring as the desert itself.',
-      'The "Desert Kings" are a symbol of the tenacity and the resilience of the Rajput leadership in the most challenging of circumstances.'
+      `रेगिस्तान कभी किसी का नहीं होता।
+
+वह किसी को शरण नहीं देता… और किसी पर दया नहीं करता।
+
+दिन में—वह अग्नि है।
+
+रात में—वह शून्य।
+
+और उन्हीं दोनों के बीच—
+
+कुछ लोग खड़े थे।
+
+राजा।
+
+मरु के राजा।
+
+---
+
+अरावली की छाया से लेकर थार के अनंत विस्तार तक—
+
+उनका राज्य फैला था।
+
+लेकिन यह कोई आसान भूमि नहीं थी।
+
+यहाँ पानी—सोने से भी अधिक मूल्यवान था।
+
+यहाँ हर साँस—संघर्ष थी।
+
+---
+
+और फिर भी—
+
+यहीं जन्मे थे वे।
+
+जिन्हें दुनिया जानती है—
+
+मरु नरेश।
+
+---
+
+एक सुबह—
+
+सूरज उगते ही—
+
+दरबार लगा।
+
+---
+
+लेकिन वहाँ उत्सव नहीं था।
+
+चिंता थी।
+
+---
+
+“कुएँ सूख रहे हैं,” एक मंत्री ने कहा।
+
+---
+
+“कारवां नहीं आ रहे,” दूसरे ने जोड़ा।
+
+---
+
+और फिर—
+
+सबसे भारी समाचार।
+
+---
+
+“सीमा पर दुश्मन है।”
+
+---
+
+सन्नाटा।
+
+---
+
+राजा सिंहासन पर बैठे थे।
+
+उनकी आँखों में थकान नहीं थी।
+
+केवल—
+
+दृढ़ता।
+
+---
+
+“तो…” उन्होंने धीरे से कहा,
+
+“हमें दो युद्ध लड़ने होंगे।”
+
+---
+
+“एक… प्रकृति से।”
+
+“और एक… शत्रु से।”
+
+---
+
+यह वही था—
+
+जो हर मरु राजा को करना पड़ता था।
+
+---
+
+दिन बीते।
+
+---
+
+पानी कम हो गया।
+
+---
+
+लोग थकने लगे।
+
+---
+
+लेकिन राजा—
+
+हर दिन प्राचीर पर खड़ा होता।
+
+---
+
+“हम झुकेंगे नहीं,” वह कहता।
+
+---
+
+और लोग—
+
+उसकी आँखों में विश्वास देखते।
+
+---
+
+पहला युद्ध—
+
+प्रकृति से।
+
+---
+
+तालाब खोदे गए।
+
+---
+
+पुराने कुएँ गहरे किए गए।
+
+---
+
+हर बूँद—
+
+संग्रहित।
+
+---
+
+“पानी बचाओ!” आदेश गूँजा।
+
+---
+
+और धीरे-धीरे—
+
+जीवन बचने लगा।
+
+---
+
+लेकिन तभी—
+
+दूसरा युद्ध।
+
+---
+
+दुश्मन बढ़ रहा था।
+
+---
+
+इस बार—
+
+संख्या में अधिक।
+
+---
+
+“हम सीधे नहीं लड़ सकते,” एक सेनापति ने कहा।
+
+---
+
+राजा ने सिर हिलाया।
+
+---
+
+“तो हम अपने तरीके से लड़ेंगे।”
+
+---
+
+रणनीति बनी।
+
+---
+
+रेत…
+
+उनका साथी।
+
+---
+
+रात—
+
+उनका आवरण।
+
+---
+
+पहला हमला—
+
+छोटा।
+
+---
+
+रसद पर।
+
+---
+
+दुश्मन चौंक गया।
+
+---
+
+“कौन थे वे?” उसने पूछा।
+
+---
+
+कोई उत्तर नहीं।
+
+---
+
+दूसरा हमला—
+
+और गहरा।
+
+---
+
+इस बार—
+
+उनके शिविर पर।
+
+---
+
+अराजकता फैल गई।
+
+---
+
+“ये सामने क्यों नहीं आते?” एक अधिकारी चिल्लाया।
+
+---
+
+उत्तर—
+
+रेगिस्तान में छिपा था।
+
+---
+
+तीसरा दिन।
+
+---
+
+दुश्मन थक चुका था।
+
+---
+
+पानी कम।
+
+मन टूट चुका।
+
+---
+
+और तभी—
+
+अंतिम आक्रमण।
+
+---
+
+राजा स्वयं आगे बढ़ा।
+
+---
+
+उसकी तलवार—
+
+सूरज की किरणों में चमक रही थी।
+
+---
+
+“आज…” उसने कहा,
+
+“हम केवल जीतेंगे नहीं…”
+
+“हम उन्हें याद दिलाएँगे—यह हमारी भूमि है।”
+
+---
+
+और फिर—
+
+घोड़े दौड़े।
+
+---
+
+तलवारें टकराईं।
+
+---
+
+रेत उड़ने लगी।
+
+---
+
+राजा बीच में था।
+
+---
+
+जहाँ सबसे अधिक खतरा—
+
+वहीं।
+
+---
+
+एक-एक कर—
+
+दुश्मन गिरता गया।
+
+---
+
+उनकी पंक्तियाँ टूट गईं।
+
+---
+
+और अंततः—
+
+वे पीछे हट गए।
+
+---
+
+रेगिस्तान फिर शांत हो गया।
+
+---
+
+लेकिन वह शांति—
+
+खाली नहीं थी।
+
+---
+
+उसमें एक कहानी थी।
+
+---
+
+मरु नरेश की।
+
+---
+
+जो केवल युद्ध नहीं जीतते थे—
+
+वे जीवन बचाते थे।
+
+---
+
+वे केवल शत्रु से नहीं लड़ते थे—
+
+वे प्रकृति से भी लड़ते थे।
+
+---
+
+समय बीतता गया।
+
+---
+
+राजा बदलते रहे।
+
+---
+
+लेकिन उनकी आत्मा—
+
+वही रही।
+
+---
+
+दृढ़।
+
+अडिग।
+
+---
+
+आज भी—
+
+जब थार में हवा चलती है—
+
+तो उसमें एक संदेश होता है।
+
+---
+
+कि यह भूमि कठिन है।
+
+---
+
+लेकिन जो इसे अपना बना ले—
+
+वह अजेय हो जाता है।
+
+---
+
+मरु नरेश—
+
+एक नाम नहीं।
+
+---
+
+एक प्रतीक।
+
+---
+
+सहनशीलता का।
+
+---
+
+संघर्ष का।
+
+---
+
+और उस अडिग विश्वास का—
+
+कि चाहे कितनी भी कठिनाई हो…
+
+---
+
+नेतृत्व कभी नहीं झुकता।
+
+---
+
+और वही—
+
+राजपूताना की सबसे बड़ी शक्ति थी।
+`
     ],
-    coverImage: { src: '/images/legends/desert-kings.jpg', alt: 'A Rajput ruler overlooking his desert kingdom.' }
+    coverImage: { src: '/images/dynasties/places/bikaner-rathore-main.jpg', alt: 'A Rajput ruler overlooking his desert kingdom.' }
   },
   {
     id: 'legend-desert-thunder',
@@ -2239,11 +61107,418 @@ export const allLegends: Legend[] = [
     era: 'Medieval',
     location: 'Thar Desert',
     story: [
-      'The "Desert Thunder" was the name given to the sound of a massive Rajput cavalry charge across the open sands. It was a sound that could be heard for miles, signaling the approach of a formidable force.',
-      'The legend celebrates the psychological impact of this sound on invading armies, who had never heard the like in their own lands.',
-      'The desert thunder is a symbol of the raw, primal energy of the Rajput spirit, a sound that transformed the silence of the desert into a roar of defiance.'
+      `रेगिस्तान उस सुबह असामान्य रूप से शांत था।
+
+हवा थमी हुई थी… जैसे वह भी किसी आने वाले क्षण की प्रतीक्षा कर रही हो। दूर-दूर तक फैली रेत—निर्जीव, स्थिर, और मौन—मानो एक विशाल रणभूमि बन चुकी थी, जहाँ अभी तक युद्ध शुरू नहीं हुआ था… लेकिन उसकी आहट हर कण में थी।
+
+और फिर—
+
+वह आवाज़ उठी।
+
+पहले धीमी।
+
+फिर गहरी।
+
+फिर… भयानक।
+
+---
+
+धड़… धड़… धड़…
+
+---
+
+रेत काँपने लगी।
+
+क्षितिज पर धूल उठी।
+
+और उस धूल के पीछे—
+
+आ रहा था—
+
+मरु गर्जन।
+
+---
+
+राजपूत अश्वदल।
+
+---
+
+सैकड़ों घोड़े—
+
+एक साथ।
+
+एक लय में।
+
+---
+
+उनकी टापें—
+
+रेगिस्तान की निस्तब्धता को चीर रही थीं।
+
+---
+
+आगे—
+
+उनका सरदार।
+
+उसकी तलवार उठी हुई।
+
+आँखों में अग्नि।
+
+---
+
+“आज…” उसने गर्जना की,
+
+“हम केवल लड़ेंगे नहीं…”
+
+“हम उन्हें डरा देंगे।”
+
+---
+
+उसके पीछे—
+
+योद्धा।
+
+---
+
+केसरिया बंधा हुआ।
+
+---
+
+हर चेहरा—
+
+मृत्यु से परे।
+
+---
+
+“हर हर महादेव!”
+
+---
+
+और फिर—
+
+वे दौड़े।
+
+---
+
+घोड़े तेज।
+
+और तेज।
+
+---
+
+रेत उड़ने लगी।
+
+---
+
+धड़… धड़… धड़…
+
+---
+
+वह आवाज़—
+
+अब केवल ध्वनि नहीं थी।
+
+---
+
+वह एक तूफान था।
+
+---
+
+दूर—
+
+दुश्मन सेना खड़ी थी।
+
+---
+
+उन्होंने वह आवाज़ सुनी।
+
+---
+
+“यह क्या है?” एक सैनिक ने पूछा।
+
+---
+
+दूसरे ने क्षितिज की ओर देखा।
+
+---
+
+“घोड़े…” उसने कहा।
+
+---
+
+“लेकिन इतने…?”
+
+---
+
+आवाज़ बढ़ती गई।
+
+---
+
+उनके दिल धड़कने लगे।
+
+---
+
+“पंक्ति बनाओ!” सेनापति चिल्लाया।
+
+---
+
+लेकिन आवाज़—
+
+और पास।
+
+---
+
+और भारी।
+
+---
+
+जैसे धरती खुद—
+
+उनकी ओर दौड़ रही हो।
+
+---
+
+“रुको!” एक सैनिक चिल्लाया।
+
+---
+
+लेकिन उनके पैरों ने साथ नहीं दिया।
+
+---
+
+क्योंकि यह केवल हमला नहीं था—
+
+यह भय था।
+
+---
+
+मरु गर्जन।
+
+---
+
+अचानक—
+
+वे सामने थे।
+
+---
+
+राजपूत अश्वदल—
+
+पूरी गति से।
+
+---
+
+तलवारें चमकती हुई।
+
+---
+
+आँखों में ज्वाला।
+
+---
+
+पहली टक्कर—
+
+भीषण।
+
+---
+
+घोड़े भिड़े।
+
+तलवारें टकराईं।
+
+---
+
+रेत का तूफान उठ खड़ा हुआ।
+
+---
+
+हर ओर—
+
+चीखें।
+
+धूल।
+
+खून।
+
+---
+
+सरदार सबसे आगे था।
+
+---
+
+उसकी तलवार—
+
+बिजली की तरह।
+
+---
+
+“आगे!” उसकी गर्जना गूँजी।
+
+---
+
+और पीछे—
+
+पूरा दल।
+
+---
+
+एक ही लय में।
+
+---
+
+एक ही उद्देश्य।
+
+---
+
+दुश्मन टूटने लगा।
+
+---
+
+उनकी पंक्तियाँ बिखर गईं।
+
+---
+
+“पीछे हटो!” सेनापति चिल्लाया।
+
+---
+
+लेकिन अब—
+
+बहुत देर हो चुकी थी।
+
+---
+
+मरु गर्जन—
+
+उनके बीच आ चुका था।
+
+---
+
+कुछ ही समय में—
+
+मैदान बदल गया।
+
+---
+
+जहाँ पहले एक सेना थी—
+
+अब वहाँ अराजकता थी।
+
+---
+
+राजपूत अश्वदल—
+
+धीरे-धीरे रुका।
+
+---
+
+उनकी साँसें भारी थीं।
+
+---
+
+लेकिन उनकी आँखों में—
+
+विजय थी।
+
+---
+
+रेत पर—
+
+घोड़ों के निशान।
+
+---
+
+और हवा में—
+
+अब भी वह गूँज।
+
+---
+
+धड़… धड़… धड़…
+
+---
+
+सरदार ने पीछे मुड़कर देखा।
+
+---
+
+उसने अपने योद्धाओं की ओर देखा।
+
+---
+
+और फिर—
+
+क्षितिज की ओर।
+
+---
+
+“याद रखो,” उसने कहा,
+
+“हमारी शक्ति केवल तलवार में नहीं…”
+
+---
+
+“हमारी शक्ति… इस आवाज़ में है।”
+
+---
+
+वह आवाज़—
+
+जो दिलों को हिला देती है।
+
+---
+
+जो युद्ध शुरू होने से पहले ही—
+
+विजय का संकेत दे देती है।
+
+---
+
+आज भी—
+
+जब रेगिस्तान में कहीं दूर—
+
+घोड़ों की टाप सुनाई देती है—
+
+---
+
+तो लगता है—
+
+मानो वही गर्जन फिर लौट आया हो।
+
+---
+
+मरु गर्जन।
+
+---
+
+एक ध्वनि—
+
+जो केवल सुनाई नहीं देती।
+
+---
+
+महसूस होती है।
+
+---
+
+और जो सिखाती है—
+
+कि कभी-कभी…
+
+विजय तलवार से पहले ही—
+
+मन में जीत ली जाती है।
+
+---
+
+और वही—
+
+राजपूताना की असली शक्ति थी।
+`
     ],
-    coverImage: { src: '/images/legends/desert-thunder.jpg', alt: 'A massive group of cavalry charging through a sandstorm.' }
+    coverImage: { src: '/images/dynasties/places/bikaner-rathore-main.jpg', alt: 'A massive group of cavalry charging through a sandstorm.' }
   },
   {
     id: 'legend-aravalli-thunder',
@@ -2253,10 +61528,429 @@ export const allLegends: Legend[] = [
     era: '16th Century',
     location: 'Aravalli Hills',
     story: [
-      'The "Aravalli Thunder" was the name given to the sound of a coordinated mountain ambush, where the shouts of the warriors and the crash of boulders would fill the narrow valleys.',
-      'The legend celebrates the fear that this sound would strike into the hearts of invading armies, who felt trapped and overwhelmed by the landscape itself.',
-      'The Aravalli thunder is a symbol of the Rajput mastery of their environment and their ability to use it to project a sense of overwhelming power.'
+      `अरावली की घाटियाँ उस सुबह शांत थीं—इतनी शांत कि हर पत्थर, हर झाड़ी, हर मोड़ जैसे किसी रहस्य को अपने भीतर दबाए बैठा हो। ऊपर आसमान साफ था, लेकिन नीचे… धरती साँस रोके खड़ी थी।
+
+क्योंकि आज—
+
+युद्ध तलवारों से नहीं,
+
+धरती से लड़ा जाना था।
+
+---
+
+ऊँचाई पर, एक संकरे दर्रे के किनारे—
+
+राजपूत योद्धा छिपे हुए थे।
+
+पत्थरों के पीछे।
+
+चट्टानों की ओट में।
+
+---
+
+उनकी साँसें धीमी थीं।
+
+आँखें नीचे जमी हुईं।
+
+---
+
+और बीच में—
+
+उनका सरदार खड़ा था।
+
+---
+
+“याद रखो,” उसने धीमे स्वर में कहा,
+
+“आज हम केवल वार नहीं करेंगे…”
+
+“आज हम… भय पैदा करेंगे।”
+
+---
+
+नीचे—
+
+दूर से धूल उठती दिखाई दी।
+
+---
+
+मुग़ल सेना।
+
+---
+
+लंबी कतार।
+
+घोड़े।
+
+रसद।
+
+तोपें।
+
+---
+
+वे आत्मविश्वास से भरे थे।
+
+---
+
+“यहाँ कुछ नहीं है,” एक सैनिक हँसते हुए बोला।
+
+---
+
+“बस पहाड़…”
+
+---
+
+लेकिन वही पहाड़—
+
+आज उनका शत्रु बनने वाले थे।
+
+---
+
+सेना दर्रे में प्रवेश कर गई।
+
+---
+
+रास्ता संकरा था।
+
+दोनों ओर—
+
+ऊँची चट्टानें।
+
+---
+
+ऊपर—
+
+मौन।
+
+---
+
+नीचे—
+
+अज्ञान।
+
+---
+
+सरदार ने हाथ उठाया।
+
+---
+
+संकेत।
+
+---
+
+सब तैयार।
+
+---
+
+क्षण भर के लिए—
+
+समय ठहर गया।
+
+---
+
+फिर—
+
+एक गर्जना।
+
+---
+
+“हर हर महादेव!”
+
+---
+
+और उसी क्षण—
+
+आकाश फट पड़ा।
+
+---
+
+चट्टानें गिरने लगीं।
+
+---
+
+विशाल पत्थर—
+
+गर्जना के साथ नीचे टूट पड़े।
+
+---
+
+धड़ाम!
+
+धड़ाम!
+
+---
+
+धरती काँप उठी।
+
+---
+
+“क्या हो रहा है?” एक सैनिक चिल्लाया।
+
+---
+
+लेकिन उत्तर—
+
+अराजकता में खो गया।
+
+---
+
+ऊपर से—
+
+तीर बरसने लगे।
+
+---
+
+नीचे—
+
+घोड़े बेकाबू।
+
+---
+
+रसद बिखर गई।
+
+---
+
+सेना—
+
+फँस चुकी थी।
+
+---
+
+और तभी—
+
+ऊपर से राजपूत टूट पड़े।
+
+---
+
+घोड़े नहीं—
+
+मानो बिजली गिर रही हो।
+
+---
+
+तलवारें चमकीं।
+
+चीखें गूँजीं।
+
+---
+
+यह युद्ध नहीं था—
+
+यह प्रलय था।
+
+---
+
+“पीछे हटो!” एक सेनापति चिल्लाया।
+
+---
+
+लेकिन पीछे—
+
+अब रास्ता नहीं था।
+
+---
+
+आगे—
+
+मृत्यु।
+
+---
+
+और चारों ओर—
+
+अरावली।
+
+---
+
+“यह जाल है!” किसी ने चिल्लाया।
+
+---
+
+लेकिन बहुत देर हो चुकी थी।
+
+---
+
+सरदार नीचे उतरा।
+
+---
+
+उसकी तलवार—
+
+खून से भीग चुकी थी।
+
+---
+
+“यही है…” उसने कहा,
+
+“अरावली का प्रहार।”
+
+---
+
+हर ओर—
+
+गर्जना।
+
+---
+
+योद्धाओं की।
+
+पत्थरों की।
+
+धरती की।
+
+---
+
+वह आवाज़—
+
+इतनी प्रचंड थी—
+
+कि दुश्मन के दिल काँप उठे।
+
+---
+
+कुछ भागने लगे।
+
+---
+
+कुछ गिर पड़े।
+
+---
+
+और कुछ—
+
+बस खड़े रह गए।
+
+---
+
+जैसे उनके पैरों ने साथ छोड़ दिया हो।
+
+---
+
+कुछ ही समय में—
+
+सब समाप्त।
+
+---
+
+धूल बैठने लगी।
+
+---
+
+घाटी फिर शांत हो गई।
+
+---
+
+लेकिन वह शांति—
+
+अब पहले जैसी नहीं थी।
+
+---
+
+वह एक कहानी से भरी थी।
+
+---
+
+मुग़ल सेना के बचे हुए सैनिक—
+
+पीछे हट रहे थे।
+
+---
+
+उनकी आँखों में—
+
+भय था।
+
+---
+
+“हमने क्या सुना था?” एक ने पूछा।
+
+---
+
+दूसरे ने काँपते हुए कहा—
+
+“वह… गरज थी…”
+
+---
+
+“अरावली की गरज…”
+
+---
+
+ऊपर—
+
+राजपूत योद्धा खड़े थे।
+
+---
+
+उन्होंने नीचे देखा।
+
+---
+
+और फिर—
+
+धीरे-धीरे गायब हो गए।
+
+---
+
+जैसे वे कभी थे ही नहीं।
+
+---
+
+आज भी—
+
+जब उन घाटियों में हवा चलती है—
+
+और कहीं दूर पत्थर गिरने की आवाज़ आती है—
+
+---
+
+तो ऐसा लगता है—
+
+मानो वही गरज फिर गूँज रही हो।
+
+---
+
+अरावली का गर्जन।
+
+---
+
+एक आवाज़—
+
+जो केवल कानों से नहीं—
+
+दिल से सुनी जाती है।
+
+---
+
+और जो सिखाती है—
+
+कि कभी-कभी…
+
+सबसे बड़ा हथियार—
+
+तलवार नहीं होता।
+
+---
+
+बल्कि—
+
+वह भूमि होती है—
+
+जिसे तुम अपने घर कहते हो।
+
+---
+
+और जब वह भूमि…
+
+तुम्हारे साथ लड़ती है—
+
+---
+
+तो कोई भी सेना…
+
+तुम्हें हरा नहीं सकती।
+`
     ],
-    coverImage: { src: '/images/legends/aravalli-thunder.jpg', alt: 'Warriors hidden among the rocks of a steep mountain pass, shouting in defiance.' }
+    coverImage: { src: '/images/dynasties/gallery/kumbhalgarh-fort.jpg', alt: 'Warriors hidden among the rocks of a steep mountain pass, shouting in defiance.' }
   }
 ];

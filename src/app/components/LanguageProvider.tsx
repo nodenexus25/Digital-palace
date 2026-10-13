@@ -29,12 +29,63 @@ export function LanguageProvider({ children, initialLanguage }: { children: Reac
  const [currentLanguage, setCurrentLanguage] = useState<Language>(initialLanguage ?? 'en');
  const [isSpeaking, setIsSpeaking] = useState(false);
  const [speechSynthesis, setSpeechSynthesis] = useState<SpeechSynthesis | null>(null);
+ // Track active browser utterance so we can reliably cancel and wire events
+ const activeUtteranceRef = React.useRef<SpeechSynthesisUtterance | null>(null);
+ // Chunk queue so very long text does not get cut off by browser TTS limits
+ const chunkQueueRef = React.useRef<string[]>([]);
+ const chunkIndexRef = React.useRef<number>(0);
+ const isInternalStopRef = React.useRef<boolean>(false);
+ // Ref holder so the recursive chunk-speaker can reference itself during
+ // its own useCallback construction (avoids access-before-declare)
+ const speakChunkRef = React.useRef<
+   ((synth: SpeechSynthesis, chunks: string[], idx: number, lang: Language) => void) | null
+ >(null);
 
  useEffect(() => {
  if (typeof window !== 'undefined') {
  setSpeechSynthesis(window.speechSynthesis);
  }
  }, []);
+
+ // Reliably stop any active TTS (both browser native and ElevenLabs)
+ const hardStop = React.useCallback(() => {
+   isInternalStopRef.current = true;
+   try {
+     elevenLabsService.stopSpeech();
+   } catch {
+     /* swallow */
+   }
+   try {
+     if (typeof window !== 'undefined' && window.speechSynthesis) {
+       window.speechSynthesis.cancel();
+     }
+   } catch {
+     /* swallow */
+   }
+   chunkQueueRef.current = [];
+   chunkIndexRef.current = 0;
+   activeUtteranceRef.current = null;
+   setIsSpeaking(false);
+ }, []);
+
+ // Clean up TTS on unmount / page hide to avoid dangling audio
+ useEffect(() => {
+   if (typeof window === 'undefined') return;
+   const stopOnUnload = () => hardStop();
+   window.addEventListener('beforeunload', stopOnUnload);
+   window.addEventListener('pagehide', stopOnUnload);
+   document.addEventListener('visibilitychange', () => {
+     if (document.visibilityState === 'hidden') {
+       // Do not keep narrating when tab goes hidden; user expects it to stop
+       hardStop();
+     }
+   });
+   return () => {
+     stopOnUnload();
+     window.removeEventListener('beforeunload', stopOnUnload);
+     window.removeEventListener('pagehide', stopOnUnload);
+   };
+ }, [hardStop]);
 
  const setLanguage = (lang: Language) => {
  setCurrentLanguage(lang);
@@ -54,80 +105,219 @@ export function LanguageProvider({ children, initialLanguage }: { children: Reac
   return content;
   };
 
+ // Split text into sentence-friendly chunks that never exceed the
+ // per-utterance size that causes browsers to truncate mid-sentence.
+ const splitIntoChunks = (src: string, maxLen = 220): string[] => {
+   if (!src) return [];
+   const sentences = src
+     .replace(/\s+/g, ' ')
+     .split(/(?<=[।.!?])\s+|\n{2,}/)
+     .map((s) => s.trim())
+     .filter(Boolean);
+   const chunks: string[] = [];
+   let buffer = '';
+   for (const sentence of sentences) {
+     if (!sentence) continue;
+     if ((buffer + ' ' + sentence).trim().length <= maxLen) {
+       buffer = (buffer + ' ' + sentence).trim();
+     } else {
+       if (buffer) chunks.push(buffer);
+       if (sentence.length <= maxLen) {
+         buffer = sentence;
+       } else {
+         // Extra long sentence - split by commas / phrases
+         const phrases = sentence.split(/(?<=[,;:])\s+/);
+         let subBuf = '';
+         for (const p of phrases) {
+           if ((subBuf + ' ' + p).trim().length <= maxLen) {
+             subBuf = (subBuf + ' ' + p).trim();
+           } else {
+             if (subBuf) chunks.push(subBuf);
+             // If a single phrase is still too long, force-split by length
+             let remaining = p;
+             while (remaining.length > maxLen) {
+               chunks.push(remaining.slice(0, maxLen));
+               remaining = remaining.slice(maxLen);
+             }
+             subBuf = remaining;
+           }
+         }
+         buffer = subBuf;
+       }
+     }
+   }
+   if (buffer) chunks.push(buffer);
+   return chunks;
+ };
+
+ // Speak a single chunk; schedule the next one when it ends.
+ const speakBrowserChunk = React.useCallback(
+   (synth: SpeechSynthesis, chunks: string[], idx: number, lang: Language) => {
+     if (idx >= chunks.length || isInternalStopRef.current) {
+       activeUtteranceRef.current = null;
+       setIsSpeaking(false);
+       return;
+     }
+     const textChunk = chunks[idx];
+     if (!textChunk) {
+       speakChunkRef.current?.(synth, chunks, idx + 1, lang);
+       return;
+     }
+     const utter = new SpeechSynthesisUtterance(textChunk);
+     utter.lang = lang === 'hi' ? 'hi-IN' : 'en-US';
+     utter.rate = lang === 'hi' ? 0.85 : 0.9;
+     utter.pitch = 1.0;
+     utter.volume = 1.0;
+     // Some browsers (esp. mobile) garbage-collect utterances mid-speech;
+     // keep a ref so the utterance stays alive.
+     activeUtteranceRef.current = utter;
+     utter.onstart = () => {
+       setIsSpeaking(true);
+     };
+     utter.onend = () => {
+       if (isInternalStopRef.current) {
+         activeUtteranceRef.current = null;
+         setIsSpeaking(false);
+         return;
+       }
+       chunkIndexRef.current = idx + 1;
+       // Tiny pause between chunks gives a natural paragraph break
+       window.setTimeout(() => {
+         speakChunkRef.current?.(synth, chunks, idx + 1, lang);
+       }, 120);
+     };
+     utter.onerror = (evt) => {
+       // interrupted / canceled are expected during stop; do not log
+       if (evt.error !== 'interrupted' && evt.error !== 'canceled') {
+         console.warn('TTS utterance error:', evt.error, 'for chunk idx', idx);
+       }
+       if (isInternalStopRef.current) {
+         activeUtteranceRef.current = null;
+         setIsSpeaking(false);
+         return;
+       }
+       // Try the next chunk to keep narration flowing
+       chunkIndexRef.current = idx + 1;
+       window.setTimeout(() => {
+         speakChunkRef.current?.(synth, chunks, idx + 1, lang);
+       }, 150);
+     };
+     utter.onpause = () => {
+       // Some browsers pause when the utterance is long; resume gently.
+       try { synth.resume(); } catch { /* noop */ }
+     };
+     try {
+       synth.speak(utter);
+       // Chrome bug: speak() sometimes stalls when tab is backgrounded;
+       // force a resume if nothing is playing in ~250ms.
+       window.setTimeout(() => {
+         try {
+           if (synth.paused && !isInternalStopRef.current) synth.resume();
+         } catch { /* noop */ }
+       }, 250);
+     } catch (err) {
+       console.warn('TTS speak() failed:', err);
+       setIsSpeaking(false);
+     }
+   },
+   []
+ );
+ // Expose function via mutable ref (outside render) so it can call itself recursively
+ useEffect(() => {
+   speakChunkRef.current = speakBrowserChunk;
+ }, [speakBrowserChunk]);
+
  // Enhanced storytelling text-to-speech functionality with ElevenLabs
  const speak = async (text: string) => {
- // Stop any ongoing speech
- elevenLabsService.stopSpeech();
- if (speechSynthesis) {
- speechSynthesis.cancel();
+ // Always stop existing playback first
+ hardStop();
+ // Reset stop flag before starting new playback
+ isInternalStopRef.current = false;
+
+ if (!text || typeof text !== 'string') {
+   setIsSpeaking(false);
+   return;
  }
  
  // Set speaking state immediately for instant UI feedback
  setIsSpeaking(true);
  
- // Enhanced text preprocessing for dramatic storytelling
+ // Enhanced text preprocessing for dramatic (but fluent) storytelling
  let storyText = text
  // Remove image placeholders and formatting
  .replace(/\[IMAGE_PLACEHOLDER:.*?\]/g, '')
- .replace(/\*\*(.*?)\*\*/g, '... $1 ...')
+ .replace(/\*\*(.*?)\*\*/g, '$1')
  .replace(/\*(.*?)\*/g, '$1')
- .replace(/\n\n/g, '... ')
- .replace(/\n/g, ' ')
- .replace(/\s+/g, ' ')
+ .replace(/^\s*[-*•]\s+/gm, '')
+ .replace(/\n{3,}/g, '\n\n')
+ .replace(/\t+/g, ' ')
  .trim();
  
- // Language-specific enhancements
+ // Language-specific light enhancements - keep pauses natural (avoid excessive "...")
  if (currentLanguage === 'hi') {
+ const alreadyHasIntro = /^(आइए|सुनिए|कहानी)/i.test(storyText);
+ if (!alreadyHasIntro && storyText.length < 5000) {
+   storyText = 'आइए सुनते हैं एक अद्भुत कहानी... ' + storyText;
+ }
  storyText = storyText
- .replace(/^/, 'आइए सुनते हैं एक अद्भुत कहानी... ')
  .replace(/युद्ध/g, 'महान युद्ध')
  .replace(/वीर/g, 'वीर योद्धा')
- .replace(/राजा/g, 'महान राजा')
- .replace(/रानी/g, 'सुंदर रानी')
  .replace(/महाराणा/g, 'महान महाराणा')
  .replace(/किला/g, 'अजेय किला')
- .replace(/प्रेम/g, 'दिव्य प्रेम')
  .replace(/बलिदान/g, 'महान बलिदान')
- .replace(/\।/g, '... ')
- .replace(/!/g, '! ...')
- .replace(/\?/g, '? ...');
+ .replace(/\।\s*\।+/g, '।')
+ .replace(/\s+/g, ' ')
+ .trim();
  } else {
- // English enhancements
+ const alreadyHasIntro = /^(let us|listen to|here is|the story)/i.test(storyText);
+ if (!alreadyHasIntro && storyText.length < 5000) {
+   storyText = 'Let us listen to a wonderful story... ' + storyText;
+ }
  storyText = storyText
- .replace(/^/, 'Let us listen to a wonderful story... ')
- .replace(/\./g, '... ')
- .replace(/!/g, '! ...')
- .replace(/\?/g, '? ...');
+ .replace(/\.{3,}/g, '. ')
+ .replace(/\s+/g, ' ')
+ .trim();
  }
 
  try {
- // Use ElevenLabs AI voices if API is configured
+ // Use ElevenLabs AI voices if API is configured (it handles long text natively)
  if (elevenLabsService.isApiConfigured()) {
  // Determine voice type based on content
- const femaleKeywords = ['rani', 'princess', 'queen', 'devi', 'padmini', 'karnavati', 'meera', 'bai', 'राजकुमारी', 'संयोगिता', 'माता'];
+ const femaleKeywords = ['rani', 'princess', 'queen', 'devi', 'padmini', 'karnavati', 'meera', 'bai', 'राजकुमारी', 'संयोगिता', 'माता', 'मीरा'];
  const hasFemaleContext = femaleKeywords.some(keyword => storyText.toLowerCase().includes(keyword.toLowerCase()));
  const voiceType = hasFemaleContext ? 'female' : 'male';
  
- // Start synthesis immediately without waiting
- elevenLabsService.speakText(storyText, voiceType)
- .then(() => setIsSpeaking(false))
+ elevenLabsService.speakText(storyText, voiceType, currentLanguage)
+ .then(() => {
+   if (!isInternalStopRef.current) setIsSpeaking(false);
+ })
  .catch((error) => {
- console.error('ElevenLabs synthesis failed:', error);
- setIsSpeaking(false);
+ console.error('ElevenLabs synthesis failed, falling back to browser TTS:', error);
+   // Fall back to browser chunked TTS if ElevenLabs fails
+   const synth = typeof window !== 'undefined' ? window.speechSynthesis : null;
+   if (synth) {
+     const chunks = splitIntoChunks(storyText);
+     chunkQueueRef.current = chunks;
+     chunkIndexRef.current = 0;
+     speakBrowserChunk(synth, chunks, 0, currentLanguage);
+   } else {
+     setIsSpeaking(false);
+   }
  });
+ } else if (typeof window !== 'undefined' && window.speechSynthesis) {
+   // Browser native TTS with chunking for fluent long-form playback
+   const chunks = splitIntoChunks(storyText);
+   if (!chunks.length) {
+     setIsSpeaking(false);
+     return;
+   }
+   chunkQueueRef.current = chunks;
+   chunkIndexRef.current = 0;
+   // Preload voices (some browsers are lazy about populating the list)
+   try { window.speechSynthesis.getVoices(); } catch { /* noop */ }
+   speakBrowserChunk(window.speechSynthesis, chunks, 0, currentLanguage);
  } else {
- const utterance = new SpeechSynthesisUtterance(storyText);
- utterance.lang = currentLanguage === 'hi' ? 'hi-IN' : 'en-US';
- utterance.rate = 0.8; // Slightly slower for storytelling
- utterance.pitch = 1.0;
- utterance.volume = 1.0;
- 
- utterance.onend = () => setIsSpeaking(false);
- utterance.onerror = () => setIsSpeaking(false);
- 
- if (speechSynthesis) {
- speechSynthesis.speak(utterance);
- }
+   setIsSpeaking(false);
  }
  } catch (error) {
  console.error('Speech synthesis failed:', error);
@@ -136,15 +326,7 @@ export function LanguageProvider({ children, initialLanguage }: { children: Reac
  };
 
  const stopSpeaking = () => {
- // Stop ElevenLabs audio
- elevenLabsService.stopSpeech();
- 
- // Stop browser speech synthesis
- if (speechSynthesis) {
- speechSynthesis.cancel();
- }
- 
- setIsSpeaking(false);
+   hardStop();
  };
 
  useEffect(() => {
@@ -155,6 +337,7 @@ export function LanguageProvider({ children, initialLanguage }: { children: Reac
   localStorage.setItem('language', currentLanguage);
  document.cookie = `rajputana-language=${currentLanguage}; path=/; max-age=${60 * 60 * 24 * 365}`;
  }
+      document.documentElement.lang = currentLanguage;
  }
  }, [currentLanguage]);
 

@@ -24,10 +24,10 @@ export default function ClientFooter() {
  <div>
  <h4 className="font-cinzel text-sm tracking-[0.2em] uppercase mb-3">{t('footer.quickLinks')}</h4>
  <ul className="space-y-2 text-sm font-cormorant text-ivory/80">
- <li>{t('nav.dynasties')}</li>
- <li>{t('nav.forts')}</li>
- <li>{t('nav.stories')}</li>
- <li>{t('nav.festivals')}</li>
+ <li><Link href="/dynasties" className="hover:text-gold">{t('nav.dynasties')}</Link></li>
+ <li><Link href="/forts" className="hover:text-gold">{t('nav.forts')}</Link></li>
+ <li><Link href="/stories" className="hover:text-gold">{t('nav.stories')}</Link></li>
+ <li><Link href="/festivals" className="hover:text-gold">{t('nav.festivals')}</Link></li>
  <li>
  <Link href="/blogs" className="hover:text-gold">
  {t('nav.blogs')}

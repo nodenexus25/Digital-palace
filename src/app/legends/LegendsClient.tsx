@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import type { Legend } from './page';
 import MediaGallery from '../components/MediaGallery';
 import LazyImage from '../components/LazyImage';
@@ -25,9 +25,30 @@ interface LegendsClientProps {
 
 export default function LegendsClient({ legends }: LegendsClientProps) {
  const [selectedLegend, setSelectedLegend] = useState<Legend | null>(null);
- const { speak, stopSpeaking, isSpeaking } = useLanguage();
+  const { speak, stopSpeaking, isSpeaking, t } = useLanguage();
  const [isListening, setIsListening] = useState(false);
  const [speakingId, setSpeakingId] = useState<string | null>(null);
+
+ const fallbackLegendImage = "/images/dynasties/rulers/default.jpg";
+ const resolveImageSrc = (src?: string) => {
+  if (!src) return fallbackLegendImage;
+  if (src.startsWith("/images/legends/")) return fallbackLegendImage;
+  return src;
+ };
+
+ const normalizedLegends = useMemo(() => {
+  return legends.map((legend) => ({
+   ...legend,
+   coverImage: {
+    ...legend.coverImage,
+    src: resolveImageSrc(legend.coverImage?.src),
+   },
+   galleryImages: legend.galleryImages?.map((img) => ({
+    ...img,
+    src: resolveImageSrc(img.src),
+   })),
+  }));
+ }, [legends]);
 
  // Reset isListening when speaking stops
  useEffect(() => {
@@ -62,31 +83,31 @@ export default function LegendsClient({ legends }: LegendsClientProps) {
  <div className="flex-1 space-y-6">
  <div className="inline-flex items-center gap-3 rounded-full border border-[#C9A24D]/40 bg-black/40 px-4 py-2 text-[11px] tracking-[0.28em] font-cinzel uppercase text-[#F5E9D0]/80">
  <span className="h-px w-6 bg-gradient-to-r from-transparent via-[#C9A24D] to-transparent" />
- War Chronicles
+          {t('legends.hero.chip')}
  <span className="h-px w-6 bg-gradient-to-r from-transparent via-[#C9A24D] to-transparent" />
  </div>
- <h1 className="font-cinzel text-4xl md:text-5xl lg:text-6xl tracking-[0.15em] md:tracking-[0.25em] text-[#F5E9D0]">
- LEGENDS OF RAJPUTANA
- </h1>
- <p className="font-cormorant text-lg md:text-xl text-[#F5E9D0]/80 max-w-2xl leading-relaxed">
- Smoke on the horizon, steel in the dark, and names etched into time. These are not tales of spectacle, but of weighty choices made beneath a blood-red sky.
- </p>
+        <h1 className="font-cinzel text-4xl md:text-5xl lg:text-6xl tracking-[0.15em] md:tracking-[0.25em] text-[#F5E9D0]">
+          {t('legends.title')}
+        </h1>
+        <p className="font-cormorant text-lg md:text-xl text-[#F5E9D0]/80 max-w-2xl leading-relaxed">
+        {t('legends.hero.description')}
+        </p>
  <div className="flex flex-wrap gap-3 text-xs font-cinzel tracking-[0.2em] uppercase text-[#F5E9D0]/70">
  <span className="inline-flex items-center gap-2 rounded-full border border-[#C9A24D]/40 bg-black/40 px-4 py-2">
  <span className="h-1 w-1 rounded-full bg-[#C9A24D]" />
- Steel
+            {t('legends.tags.steel')}
  </span>
  <span className="inline-flex items-center gap-2 rounded-full border border-[#C9A24D]/40 bg-black/40 px-4 py-2">
  <span className="h-1 w-1 rounded-full bg-[#C9A24D]" />
- Smoke
+            {t('legends.tags.smoke')}
  </span>
  <span className="inline-flex items-center gap-2 rounded-full border border-[#C9A24D]/40 bg-black/40 px-4 py-2">
  <span className="h-1 w-1 rounded-full bg-[#C9A24D]" />
- Sacrifice
+            {t('legends.tags.sacrifice')}
  </span>
  <span className="inline-flex items-center gap-2 rounded-full border border-[#C9A24D]/40 bg-black/40 px-4 py-2">
  <span className="h-1 w-1 rounded-full bg-[#C9A24D]" />
- Enduring Glory
+            {t('legends.tags.glory')}
  </span>
  </div>
  </div>
@@ -95,18 +116,18 @@ export default function LegendsClient({ legends }: LegendsClientProps) {
  <div className="relative rounded-3xl border border-[#C9A24D]/40 bg-gradient-to-br from-[#0B0807] via-[#1A100D] to-[#2B1510] px-6 py-7 shadow-[0_40px_120px_rgba(0,0,0,0.85)]">
  <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(250,250,250,0.08),_transparent_60%)] opacity-70" />
  <div className="relative space-y-4">
- <p className="font-cinzel text-xs tracking-[0.25em] uppercase text-[#C9A24D]/90">
-  Battlefield Oath
- </p>
- <p className="font-cormorant text-base md:text-lg text-[#F5E9D0]/90 leading-relaxed">
-  On the ramparts of Rajputana, glory was never painted in excess. It was the quiet resolve in a warrior&apos;s breath, the muted ring of steel meeting steel, and the decision to stand when retreat would have been easier.
- </p>
- <p className="font-cormorant text-sm text-[#F5E9D0]/70">
-  This chronicle gathers such moments—cinematic in scale, but grounded in the dust, smoke, and solemn honor of real histories.
- </p>
+<p className="font-cinzel text-xs tracking-[0.25em] uppercase text-[#C9A24D]/90">
+ {t('legends.hero.sidebar.title')}
+</p>
+<p className="font-cormorant text-base md:text-lg text-[#F5E9D0]/90 leading-relaxed">
+ {t('legends.hero.sidebar.body1')}
+</p>
+<p className="font-cormorant text-sm text-[#F5E9D0]/70">
+ {t('legends.hero.sidebar.body2')}
+</p>
  <div className="mt-4 flex items-center gap-3 text-[11px] font-cinzel tracking-[0.2em] uppercase text-[#F5E9D0]/70">
   <span className="h-px flex-1 bg-gradient-to-r from-transparent via-[#C9A24D]/60 to-transparent" />
-  Curated War Legends
+ {t('legends.hero.sidebar.meta')}
   <span className="h-px flex-1 bg-gradient-to-r from-transparent via-[#C9A24D]/60 to-transparent" />
  </div>
  </div>
@@ -119,20 +140,20 @@ export default function LegendsClient({ legends }: LegendsClientProps) {
  <div className="max-w-6xl mx-auto px-6 space-y-10">
  <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
  <div>
- <p className="font-cinzel text-xs tracking-[0.25em] uppercase text-[#C9A24D]/80">
- War Sagas
- </p>
- <h2 className="mt-2 font-cinzel text-2xl md:text-3xl tracking-[0.18em] text-[#F5E9D0]">
- CINEMATIC LEGENDS
- </h2>
- <p className="mt-3 max-w-xl font-cormorant text-sm md:text-base text-[#F5E9D0]/75 leading-relaxed">
- Each legend appears as a cinematic frame: muted colors, cold steel, and the weight of a single irreversible decision.
- </p>
+<p className="font-cinzel text-xs tracking-[0.25em] uppercase text-[#C9A24D]/80">
+ {t('legends.section.preheader')}
+</p>
+<h2 className="mt-2 font-cinzel text-2xl md:text-3xl tracking-[0.18em] text-[#F5E9D0]">
+ {t('legends.section.title')}
+</h2>
+<p className="mt-3 max-w-xl font-cormorant text-sm md:text-base text-[#F5E9D0]/75 leading-relaxed">
+ {t('legends.section.description')}
+</p>
  </div>
  </div>
 
  <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
- {legends.map((legend) => (
+ {normalizedLegends.map((legend) => (
  <article
  key={legend.id}
  id={legend.id}
@@ -147,7 +168,7 @@ export default function LegendsClient({ legends }: LegendsClientProps) {
   if (el) el.style.display = 'none';
   }}
   className="absolute top-4 right-4 z-20 w-8 h-8 flex items-center justify-center rounded-full bg-black/40 text-[#F5E9D0] border border-[#C9A24D]/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-black/60"
-  title="Dismiss legend"
+  title={t('legends.item.dismissAria')}
   >
   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -194,16 +215,16 @@ export default function LegendsClient({ legends }: LegendsClientProps) {
   : 'border-[#C9A24D]/40 text-[#C9A24D] hover:bg-[#C9A24D]/10'
   }`}
   >
-  {isSpeaking && speakingId === legend.id ? <><StopIcon /> Stop</> : <><VolumeIcon /> Listen</>}
+  {isSpeaking && speakingId === legend.id ? <><StopIcon /> {t('stories.stopAudio')}</> : <><VolumeIcon /> {t('stories.audioCta')}</>}
   </button>
   <span className="inline-flex items-center gap-2">
   <span className="h-1 w-1 rounded-full bg-[#C9A24D]" />
-  War Chronicle
+  {t('legends.item.metaLabel')}
   </span>
   </div>
 
   <div className="inline-flex items-center justify-between gap-3 rounded-full border border-[#C9A24D]/60 bg-gradient-to-r from-[#2B1510] to-[#5C2A1A] px-5 py-2 text-[11px] font-cinzel tracking-[0.25em] uppercase text-[#F5E9D0] transition-colors duration-300 group-hover:from-[#5C2A1A] group-hover:to-[#9B3A24]">
-  <span>Explore the Saga</span>
+  <span>{t('legends.item.cta')}</span>
   <span className="flex h-6 w-6 items-center justify-center rounded-full bg-black/40 border border-[#C9A24D]/60 text-[10px]">
   ↗
   </span>
@@ -247,9 +268,9 @@ export default function LegendsClient({ legends }: LegendsClientProps) {
   }`}
  >
   {isSpeaking && isListening && speakingId === selectedLegend.id ? (
-  <><StopIcon /> Stop Narration</>
+  <><StopIcon /> {t('stories.stopAudio')}</>
   ) : (
-  <><VolumeIcon /> Listen to Legend</>
+  <><VolumeIcon /> {t('stories.audioCta')}</>
   )}
  </button>
  <button
@@ -275,7 +296,7 @@ export default function LegendsClient({ legends }: LegendsClientProps) {
  <div className="p-6 md:p-8 space-y-8">
  <div>
  <p className="font-cinzel text-xs tracking-[0.25em] uppercase text-[#C9A24D]/80 mb-2">
-  Legend Overview
+  {t('legends.modal.overviewLabel')}
  </p>
  <p className="font-cormorant text-sm md:text-base text-[#F5E9D0]/80 leading-relaxed">
   {selectedLegend.hook}
@@ -286,7 +307,7 @@ export default function LegendsClient({ legends }: LegendsClientProps) {
  (selectedLegend.galleryVideos && selectedLegend.galleryVideos.length > 0) ? (
  <div className="border border-[#C9A24D]/40 rounded-2xl bg-black/40 p-4 md:p-6">
   <p className="font-cinzel text-xs tracking-[0.25em] uppercase text-[#C9A24D]/80 mb-4">
-  Visual Chronicle
+  {t('legends.modal.galleryLabel')}
   </p>
   <MediaGallery
   images={selectedLegend.galleryImages}

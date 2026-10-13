@@ -4,43 +4,49 @@ export const historicalPeriods = {
  title: 'Mythical Ancestry',
  hindiTitle: 'पौराणिक वंशावली',
  period: '3000 BCE - 1000 BCE',
- image: '/images/warriors/placeholder-warrior.png',
- description: 'Divine lineages from ancient scriptures'
+ image: '/images/dynasties/bappa-rawal.jpg',
+ description: 'Divine lineages from ancient scriptures',
+ hindiDescription: 'प्राचीन शास्त्रों की दिव्य वंशावलियाँ'
  },
  ancient: {
  title: 'Ancient Period',
  hindiTitle: 'प्राचीन काल',
  period: '1000 BCE - 500 CE',
- image: '/images/warriors/placeholder-warrior.png',
- description: 'Early Rajput kingdoms and tribal confederations'
+ image: '/images/dynasties/rulers/default.jpg',
+ description: 'Early Rajput kingdoms and tribal confederations',
+ hindiDescription: 'प्रारंभिक राजपूत राज्य और जनजातीय संघ'
  },
  classical: {
  title: 'Classical Period',
  hindiTitle: 'शास्त्रीय काल',
  period: '500 CE - 1000 CE',
- image: '/images/warriors/placeholder-warrior.png',
- description: 'Formation of major Rajput clans'
+ image: '/images/dynasties/places/mewar.jpg',
+ description: 'Formation of major Rajput clans',
+ hindiDescription: 'प्रमुख राजपूत कुलों का निर्माण'
  },
  medieval: {
  title: 'Medieval Period',
  hindiTitle: 'मध्यकालीन',
  period: '1000 CE - 1500 CE',
- image: '/images/warriors/placeholder-warrior.png',
- description: 'Golden age of Rajput kingdoms'
+ image: '/images/dynasties/rulers/rana-kumbha.jpg',
+ description: 'Golden age of Rajput kingdoms',
+ hindiDescription: 'राजपूत राज्यों का स्वर्ण युग'
  },
  mughal: {
  title: 'Mughal Era',
  hindiTitle: 'मुगल काल',
  period: '1500 CE - 1750 CE',
- image: '/images/warriors/placeholder-warrior.png',
- description: 'Rajput-Mughal relations and resistance'
+ image: '/images/dynasties/maharana-pratap.jpg',
+ description: 'Rajput-Mughal relations and resistance',
+ hindiDescription: 'राजपूत–मुगल संबंध और प्रतिरोध'
  },
  modern: {
  title: 'Modern Era',
  hindiTitle: 'आधुनिक काल',
  period: '1750 CE - 1947 CE',
- image: '/images/warriors/placeholder-warrior.png',
- description: 'British period and independence struggle'
+ image: '/images/dynasties/rulers/man-singh-ii.jpg',
+ description: 'British period and independence struggle',
+ hindiDescription: 'ब्रिटिश काल और स्वतंत्रता संघर्ष'
  }
 };
 
@@ -48,8 +54,8 @@ export const DYNASTY_SEAL_IMAGES: Record<string, string> = {
  // Original keys
  'mewar-sisodia': '/images/dynasties/seals/mewar-sisodia-seal.png',
  'marwar-rathore': '/images/dynasties/seals/marwar-rathore-seal.png',
- 'amber-kachwaha': '/images/dynasties/seals/amber-kachwaha-seal.svg',
- 'bikaner-rathore': '/images/dynasties/seals/bikaner-rathore-seal.svg',
+ 'amber-kachwaha': '/images/home/external/amer.jpg',
+ 'bikaner-rathore': '/images/home/external/bikaner_coa.png',
  'jaisalmer-bhati': '/images/dynasties/seals/jaisalmer-bhati-seal.png',
  'hada-bundi-kota': '/images/dynasties/seals/hada-bundi-kota-seal.png',
  'chauhan-ajmer': '/images/dynasties/seals/chauhan-ajmer-seal.png',
@@ -60,8 +66,8 @@ export const DYNASTY_SEAL_IMAGES: Record<string, string> = {
  // Keys matching page.tsx IDs
  'mewar': '/images/dynasties/seals/mewar-sisodia-seal.png',
  'marwar': '/images/dynasties/seals/marwar-rathore-seal.png',
- 'kachwaha': '/images/dynasties/seals/amber-kachwaha-seal.svg',
- 'bikaner': '/images/dynasties/seals/bikaner-rathore-seal.svg',
+ 'kachwaha': '/images/home/external/amer.jpg',
+ 'bikaner': '/images/home/external/bikaner_coa.png',
  'jaisalmer': '/images/dynasties/seals/jaisalmer-bhati-seal.png',
  'hada': '/images/dynasties/seals/hada-bundi-kota-seal.png',
  'chauhan': '/images/dynasties/seals/chauhan-ajmer-seal.png',

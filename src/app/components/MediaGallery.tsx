@@ -114,13 +114,14 @@ export default function MediaGallery({ images = [], videos = [], initialTab = "p
  {filteredImages.map((img, idx) => (
   <figure
   key={idx}
-  className="relative min-w-[80%] snap-center rounded-xl overflow-hidden border-2 border-amber-300 bg-amber-50/40 hover:border-amber-500 hover:shadow-xl transition-all duration-300 cursor-pointer"
+  className="relative min-w-[80%] aspect-[4/3] snap-center rounded-xl overflow-hidden border-2 border-amber-300 bg-amber-50/40 hover:border-amber-500 hover:shadow-xl transition-all duration-300 cursor-pointer"
   onClick={() => setLightboxIndex(idx)}
   >
   <LazyImage
   src={img.src}
   alt={img.alt || "Fort image"}
   fill
+  sizes="80vw"
   className="object-cover"
   />
   {(img.alt || img.credit) && (

@@ -13,6 +13,25 @@ const nextConfig = {
         search: '',
       },
     ],
+    formats: ['image/avif', 'image/webp'],
+    minimumCacheTTL: 31536000,
+    qualities: [50, 60, 70, 75, 80, 85, 90, 95],
+  },
+  reactStrictMode: true,
+  output: 'standalone',
+  typedRoutes: false,
+  outputFileTracingRoot: require('path').join(__dirname),
+  async rewrites() {
+    return [
+      {
+        source: '/stories',
+        destination: '/legends',
+      },
+      {
+        source: '/stories/:path*',
+        destination: '/legends/:path*',
+      },
+    ];
   },
 }
 

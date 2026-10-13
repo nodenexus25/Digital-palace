@@ -8,7 +8,7 @@
    if (!pathname || pathname === "/") return "theme-light-heritage realm-home";
    if (pathname.startsWith("/battles")) return "theme-dark-valor realm-battles";
    if (pathname.startsWith("/weapons")) return "theme-dark-valor realm-weapons";
-   if (pathname.startsWith("/stories")) return "theme-dark-valor realm-legends";
+   if (pathname.startsWith("/stories") || pathname.startsWith("/legends")) return "theme-dark-valor realm-legends";
    if (pathname.startsWith("/warriors")) return "theme-dark-valor realm-warriors";
  
    if (pathname.startsWith("/dynasties")) return "theme-light-heritage realm-dynasties";
