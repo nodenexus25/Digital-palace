@@ -4,7 +4,19 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: '**',
+        hostname: 'cdn.sanity.io',
+      },
+      {
+        protocol: 'https',
+        hostname: 'upload.wikimedia.org',
+      },
+      {
+        protocol: 'https',
+        hostname: 'img.youtube.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.eternalmewar.in',
       },
     ],
     localPatterns: [
@@ -20,7 +32,23 @@ const nextConfig = {
   reactStrictMode: true,
   output: 'standalone',
   typedRoutes: false,
+  poweredByHeader: false,
   outputFileTracingRoot: require('path').join(__dirname),
+  async headers() {
+    return [
+      {
+        // Apply security headers to all routes except the Sanity Studio, which
+        // needs to render inside an iframe-friendly environment and loads
+        // third-party scripts.
+        source: '/:path((?!studio$|studio/).*)',
+        headers: [
+          { key: 'X-Content-Type-Options', value: 'nosniff' },
+          { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+          { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
+        ],
+      },
+    ];
+  },
   async rewrites() {
     return [
       {

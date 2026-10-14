@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useMemo, useRef } from 'react';
 import { Monument } from '@/types/frontend';
 import { getDynastyInfo } from './constants';
 import MediaGallery from '../components/MediaGallery';
@@ -100,11 +100,22 @@ export default function FortsClient({ initialForts }: FortsClientProps) {
  const [selectedCategory, setSelectedCategory] = useState<'all' | 'fort' | 'palace'>('all');
  const [selectedMonument, setSelectedMonument] = useState<Monument | null>(null);
  const [searchTerm, setSearchTerm] = useState('');
+ const [debouncedSearch, setDebouncedSearch] = useState('');
  const [galleryInitialTab, setGalleryInitialTab] = useState<'photos' | 'videos'>('photos');
  const [mounted, setMounted] = useState(false);
  const { currentLanguage, speak, stopSpeaking, isSpeaking, t } = useLanguage();
  const [speakingId, setSpeakingId] = useState<string | null>(null);
  const [dynamicTranslations, setDynamicTranslations] = useState<Record<string, string>>({});
+ // Tracks texts already sent to /api/translate so we don't re-request them
+ // across renders or after they've been cached by the server.
+ const requestedTextsRef = useRef<Set<string>>(new Set());
+
+ // Debounce search input (300ms) so the filter + translation prefetch don't
+ // fire on every keystroke.
+ useEffect(() => {
+ const id = window.setTimeout(() => setDebouncedSearch(searchTerm), 300);
+ return () => window.clearTimeout(id);
+ }, [searchTerm]);
 
  const isHindiText = useCallback((value: string) => /[\u0900-\u097F]/.test(value), []);
 
@@ -148,22 +159,37 @@ export default function FortsClient({ initialForts }: FortsClientProps) {
    const uniqueTexts = Array.from(new Set(texts.filter(Boolean))).filter((text) => {
     if (dynamicTranslations[text]) return false;
     if (isHindiText(text)) return false;
+    // Don't re-request texts we've already sent to the API.
+    if (requestedTextsRef.current.has(text)) return false;
     return true;
    });
    if (uniqueTexts.length === 0) return;
 
-   try {
-    const res = await fetch('/api/translate', {
-     method: 'POST',
-     headers: { 'content-type': 'application/json' },
-     body: JSON.stringify({ texts: uniqueTexts, source: 'en', target: 'hi' }),
-    });
-    if (!res.ok) return;
-    const json = (await res.json()) as { translations?: Record<string, string> };
-    const translations = json.translations ?? {};
-    setDynamicTranslations((prev) => ({ ...prev, ...translations }));
-   } catch {
-    return;
+   // Mark these as requested before sending so concurrent calls don't double up.
+   for (const text of uniqueTexts) requestedTextsRef.current.add(text);
+
+   // The /api/translate route enforces a max of 60 texts per request; split
+   // into batches and run them sequentially to stay under the limit.
+   const BATCH_SIZE = 60;
+   for (let i = 0; i < uniqueTexts.length; i += BATCH_SIZE) {
+    const batch = uniqueTexts.slice(i, i + BATCH_SIZE);
+    try {
+     const res = await fetch('/api/translate', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ texts: batch, source: 'en', target: 'hi' }),
+     });
+     if (!res.ok) {
+      // On failure, forget these so they can be retried later.
+      for (const text of batch) requestedTextsRef.current.delete(text);
+      continue;
+     }
+     const json = (await res.json()) as { translations?: Record<string, string> };
+     const translations = json.translations ?? {};
+     setDynamicTranslations((prev) => ({ ...prev, ...translations }));
+    } catch {
+     for (const text of batch) requestedTextsRef.current.delete(text);
+    }
    }
   },
   [currentLanguage, dynamicTranslations, isHindiText],
@@ -194,15 +220,18 @@ export default function FortsClient({ initialForts }: FortsClientProps) {
  setSpeakingId(id);
  };
 
- const filteredMonuments = initialForts.filter(monument => {
- const matchesSearch = monument.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-  monument.hindiName.includes(searchTerm) ||
-  monument.location.toLowerCase().includes(searchTerm.toLowerCase());
- 
- const matchesCategory = selectedCategory === 'all' || monument.category === selectedCategory;
- 
- return matchesSearch && matchesCategory;
+ const filteredMonuments = useMemo(() => {
+ const lower = debouncedSearch.toLowerCase();
+ return initialForts.filter((monument) => {
+  const matchesSearch =
+   monument.name.toLowerCase().includes(lower) ||
+   monument.hindiName.includes(debouncedSearch) ||
+   monument.location.toLowerCase().includes(lower);
+  const matchesCategory =
+   selectedCategory === 'all' || monument.category === selectedCategory;
+  return matchesSearch && matchesCategory;
  });
+ }, [initialForts, debouncedSearch, selectedCategory]);
 
  useEffect(() => {
   if (currentLanguage !== 'hi') return;
