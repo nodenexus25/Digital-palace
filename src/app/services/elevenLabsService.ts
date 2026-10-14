@@ -1,219 +1,172 @@
-// ElevenLabs API Service for Voice Synthesis
+// ElevenLabs TTS client — proxies all synthesis through /api/tts so the API
+// key and voice IDs never reach the browser.
 
-interface ElevenLabsVoice {
- voice_id: string;
- name: string;
- category: string;
-}
+export type VoiceType = 'male' | 'female'
+export type Lang = 'en' | 'hi'
 
-interface ElevenLabsConfig {
- apiKey: string;
- baseUrl: string;
- voices: {
- female: ElevenLabsVoice;
- male: ElevenLabsVoice;
- };
+const CHUNK_MAX = 2000
+const API_PATH = '/api/tts'
+
+// Cache the enabled state for the page lifetime so we don't hit /api/tts on
+// every speak() call.
+let enabledCache: boolean | null = null
+
+/**
+ * Split text into sentence-friendly chunks that never exceed CHUNK_MAX chars.
+ * Mirrors the provider's splitIntoChunks but with a larger bound for the
+ * server-side TTS endpoint (which allows up to 2500 chars).
+ */
+export function splitIntoChunks(src: string, maxLen = CHUNK_MAX): string[] {
+  if (!src) return []
+  const sentences = src
+    .replace(/\s+/g, ' ')
+    .split(/(?<=[।.!?])\s+|\n{2,}/)
+    .map((s) => s.trim())
+    .filter(Boolean)
+  const chunks: string[] = []
+  let buffer = ''
+  for (const sentence of sentences) {
+    if (!sentence) continue
+    if ((buffer + ' ' + sentence).trim().length <= maxLen) {
+      buffer = (buffer + ' ' + sentence).trim()
+    } else {
+      if (buffer) chunks.push(buffer)
+      if (sentence.length <= maxLen) {
+        buffer = sentence
+      } else {
+        const phrases = sentence.split(/(?<=[,;:])\s+/)
+        let subBuf = ''
+        for (const p of phrases) {
+          if ((subBuf + ' ' + p).trim().length <= maxLen) {
+            subBuf = (subBuf + ' ' + p).trim()
+          } else {
+            if (subBuf) chunks.push(subBuf)
+            let remaining = p
+            while (remaining.length > maxLen) {
+              chunks.push(remaining.slice(0, maxLen))
+              remaining = remaining.slice(maxLen)
+            }
+            subBuf = remaining
+          }
+        }
+        buffer = subBuf
+      }
+    }
+  }
+  if (buffer) chunks.push(buffer)
+  return chunks
 }
 
 class ElevenLabsService {
- private config: ElevenLabsConfig;
- private currentAudio: HTMLAudioElement | null = null;
+  private currentAudio: HTMLAudioElement | null = null
+  private activeController: AbortController | null = null
 
- constructor() {
- this.config = {
- apiKey: process.env.NEXT_PUBLIC_ELEVENLABS_API_KEY || '',
- baseUrl: 'https://api.elevenlabs.io/v1',
- voices: {
- female: {
- voice_id: process.env.NEXT_PUBLIC_KANIKA_VOICE_ID || 'kanika_voice_id',
- name: 'Kanika',
- category: 'female'
- },
- male: {
- voice_id: process.env.NEXT_PUBLIC_NIRAJ_VOICE_ID || 'niraj_voice_id',
- name: 'Niraj',
- category: 'male'
- }
- }
- };
- }
+  /**
+   * Ask the server whether ElevenLabs is configured. Result is cached for the
+   * page lifetime.
+   */
+  async isApiConfigured(): Promise<boolean> {
+    if (enabledCache !== null) return enabledCache
+    try {
+      const res = await fetch(API_PATH, { method: 'GET' })
+      if (!res.ok) {
+        enabledCache = false
+        return false
+      }
+      const data = (await res.json()) as { enabled?: boolean }
+      enabledCache = Boolean(data.enabled)
+      return enabledCache
+    } catch {
+      enabledCache = false
+      return false
+    }
+  }
 
- private getVoiceForContent(text: string): ElevenLabsVoice {
- // Determine voice based on content context
- // For stories about queens, female characters, use female voice
- const femaleKeywords = ['रानी', 'राजकुमारी', 'पद्मिनी', 'संयोगिता', 'माता', 'देवी'];
- const hasFemaleContext = femaleKeywords.some(keyword => text.includes(keyword));
- 
- if (hasFemaleContext) {
- return this.config.voices.female;
- }
- 
- // Default to male voice for general narration
- return this.config.voices.male;
- }
+  /**
+   * Synthesize a single chunk via /api/tts. Throws on any failure so the
+   * caller (LanguageProvider) can fall back to browser TTS.
+   */
+  async synthesizeSpeech(
+    text: string,
+    voiceType?: VoiceType,
+    _lang?: Lang,
+  ): Promise<ArrayBuffer> {
+    const controller = new AbortController()
+    this.activeController = controller
 
- async synthesizeSpeech(text: string, voiceType?: 'male' | 'female', _lang?: 'en' | 'hi'): Promise<ArrayBuffer> {
- if (!this.config.apiKey) {
- throw new Error('ElevenLabs API key not configured');
- }
+    const res = await fetch(API_PATH, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ text, voiceType, lang: _lang }),
+      signal: controller.signal,
+    })
 
- // Determine which voice to use based on content or explicit type
- const voice = voiceType 
- ? this.config.voices[voiceType] 
- : this.getVoiceForContent(text);
+    if (!res.ok) {
+      throw new Error(`TTS API error: ${res.status}`)
+    }
+    return await res.arrayBuffer()
+  }
 
- // Use the configured voice ID directly
- const voiceIdToUse = voice.voice_id;
+  private playAudio(audioBuffer: ArrayBuffer): Promise<void> {
+    return new Promise((resolve, reject) => {
+      try {
+        this.stopCurrentAudio()
+        const audioBlob = new Blob([audioBuffer], { type: 'audio/mpeg' })
+        const audioUrl = URL.createObjectURL(audioBlob)
+        const audio = new Audio()
+        audio.preload = 'none'
+        audio.src = audioUrl
+        this.currentAudio = audio
 
- try {
- const response = await fetch(`${this.config.baseUrl}/text-to-speech/${voiceIdToUse}`, {
- method: 'POST',
- headers: {
- 'Accept': 'audio/mpeg',
- 'Content-Type': 'application/json',
- 'xi-api-key': this.config.apiKey
- },
- body: JSON.stringify({
- text: text.substring(0, 500), // Shorter text for reliability
- model_id: 'eleven_multilingual_v2',
- voice_settings: {
- stability: 0.6,
- similarity_boost: 0.7,
- style: 0.1,
- use_speaker_boost: false
- }
- })
- });
+        audio.onended = () => {
+          URL.revokeObjectURL(audioUrl)
+          this.currentAudio = null
+          resolve()
+        }
+        audio.onerror = () => {
+          URL.revokeObjectURL(audioUrl)
+          this.currentAudio = null
+          reject(new Error('Audio playback failed'))
+        }
+        audio.play().catch(reject)
+      } catch (err) {
+        reject(err)
+      }
+    })
+  }
 
- if (!response.ok) {
- const errorText = await response.text();
- console.error(`ElevenLabs API error for ${voice.name}:`, response.status, errorText);
- throw new Error(`ElevenLabs API error: ${response.status}`);
- }
+  private stopCurrentAudio(): void {
+    if (this.currentAudio) {
+      this.currentAudio.pause()
+      this.currentAudio.currentTime = 0
+      this.currentAudio = null
+    }
+    if (this.activeController) {
+      this.activeController.abort()
+      this.activeController = null
+    }
+  }
 
- return await response.arrayBuffer();
- } catch (error) {
- console.error(`Failed to synthesize speech with ${voice.name}:`, error);
- throw error;
- }
- }
+  /**
+   * Speak text by splitting into ≤2000-char chunks and synthesizing each.
+   * Throws on failure — the LanguageProvider owns the browser-TTS fallback.
+   */
+  async speakText(
+    text: string,
+    voiceType?: VoiceType,
+    lang?: Lang,
+  ): Promise<void> {
+    const chunks = splitIntoChunks(text)
+    for (const chunk of chunks) {
+      const audioBuffer = await this.synthesizeSpeech(chunk, voiceType, lang)
+      await this.playAudio(audioBuffer)
+    }
+  }
 
- async playAudio(audioBuffer: ArrayBuffer): Promise<void> {
- return new Promise((resolve, reject) => {
- try {
- // Stop any currently playing audio
- this.stopCurrentAudio();
- 
- // Create blob from audio buffer
- const audioBlob = new Blob([audioBuffer], { type: 'audio/mpeg' });
- const audioUrl = URL.createObjectURL(audioBlob);
- 
- // Create and configure audio element for immediate playback
- this.currentAudio = new Audio();
- this.currentAudio.preload = 'none'; // Don't preload to start faster
- this.currentAudio.src = audioUrl;
- 
- // Set up event handlers
- this.currentAudio.oncanplaythrough = () => {
- // Audio is ready to play through without buffering
- if (this.currentAudio) {
- this.currentAudio.play().catch(reject);
- }
- };
- 
- this.currentAudio.onended = () => {
- URL.revokeObjectURL(audioUrl);
- this.currentAudio = null;
- resolve();
- };
- 
- this.currentAudio.onerror = () => {
- URL.revokeObjectURL(audioUrl);
- this.currentAudio = null;
- reject(new Error('Audio playback failed'));
- };
- 
- // Load the audio immediately
- this.currentAudio.load();
- 
- // Try to play immediately if possible
- this.currentAudio.play().catch(() => {
- // If immediate play fails, wait for canplaythrough event
- });
- 
- } catch (error) {
- reject(error);
- }
- });
- }
- 
- private stopCurrentAudio(): void {
- if (this.currentAudio) {
- this.currentAudio.pause();
- this.currentAudio.currentTime = 0;
- this.currentAudio = null;
- }
- }
-
- async speakText(text: string, voiceType?: 'male' | 'female', lang?: 'en' | 'hi'): Promise<void> {
- try {
- const audioBuffer = await this.synthesizeSpeech(text, voiceType, lang);
- await this.playAudio(audioBuffer);
- } catch (error) {
- console.error('ElevenLabs speech synthesis failed:', error);
- // Always fallback to browser speech synthesis on any error
- await this.fallbackToWebSpeech(text, lang);
- }
- }
-
- private fallbackToWebSpeech(text: string, lang?: 'en' | 'hi'): Promise<void> {
- return new Promise((resolve) => {
- if ('speechSynthesis' in window) {
- // Cancel any ongoing speech
- speechSynthesis.cancel();
- 
- const utterance = new SpeechSynthesisUtterance(text);
- utterance.lang = lang === 'en' ? 'en-US' : (lang === 'hi' ? 'hi-IN' : 'hi-IN');
- utterance.rate = 0.8;
- utterance.pitch = 1.0;
- utterance.volume = 1.0;
- 
- utterance.onend = () => {
- resolve();
- };
- utterance.onerror = () => {
- console.error('Browser speech error occurred');
- // Fallback to opposite language voice
- const altLang = lang === 'hi' ? 'en-US' : 'hi-IN';
- const altUtterance = new SpeechSynthesisUtterance(text);
- altUtterance.lang = altLang;
- altUtterance.onend = () => resolve();
- altUtterance.onerror = () => resolve();
- speechSynthesis.speak(altUtterance);
- };
-
- speechSynthesis.speak(utterance);
- } else {
- console.error('Speech synthesis not supported in this browser');
- resolve();
- }
- });
- }
-
- stopSpeech(): void {
- // Stop ElevenLabs audio playback
- this.stopCurrentAudio();
- 
- // Stop browser speech synthesis as fallback
- if ('speechSynthesis' in window) {
- speechSynthesis.cancel();
- }
- }
-
- isApiConfigured(): boolean {
- return !!this.config.apiKey;
- }
+  stopSpeech(): void {
+    this.stopCurrentAudio()
+  }
 }
 
-export const elevenLabsService = new ElevenLabsService();
-export default ElevenLabsService;
+export const elevenLabsService = new ElevenLabsService()
+export default ElevenLabsService

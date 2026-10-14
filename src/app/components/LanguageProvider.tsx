@@ -1,8 +1,17 @@
 'use client';
 
-import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import React, {
+  createContext,
+  useContext,
+  useState,
+  useEffect,
+  useCallback,
+  useMemo,
+  useRef,
+  type ReactNode,
+} from 'react';
 import { elevenLabsService } from '../services/elevenLabsService';
-import { translations, Language } from '../utils/languages';
+import { translations, type Language } from '../utils/languages';
 
 interface LanguageContextType {
  currentLanguage: Language;
@@ -30,14 +39,18 @@ export function LanguageProvider({ children, initialLanguage }: { children: Reac
  const [isSpeaking, setIsSpeaking] = useState(false);
  const [speechSynthesis, setSpeechSynthesis] = useState<SpeechSynthesis | null>(null);
  // Track active browser utterance so we can reliably cancel and wire events
- const activeUtteranceRef = React.useRef<SpeechSynthesisUtterance | null>(null);
+ const activeUtteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
  // Chunk queue so very long text does not get cut off by browser TTS limits
- const chunkQueueRef = React.useRef<string[]>([]);
- const chunkIndexRef = React.useRef<number>(0);
- const isInternalStopRef = React.useRef<boolean>(false);
+ const chunkQueueRef = useRef<string[]>([]);
+ const chunkIndexRef = useRef<number>(0);
+ const isInternalStopRef = useRef<boolean>(false);
+ // Monotonic counter that increments on every speak() call so an outdated
+ // async chain (ElevenLabs response arriving after stop/new-speak) cannot
+ // clobber current state.
+ const speakSessionRef = useRef<number>(0);
  // Ref holder so the recursive chunk-speaker can reference itself during
  // its own useCallback construction (avoids access-before-declare)
- const speakChunkRef = React.useRef<
+ const speakChunkRef = useRef<
    ((synth: SpeechSynthesis, chunks: string[], idx: number, lang: Language) => void) | null
  >(null);
 
@@ -48,8 +61,9 @@ export function LanguageProvider({ children, initialLanguage }: { children: Reac
  }, []);
 
  // Reliably stop any active TTS (both browser native and ElevenLabs)
- const hardStop = React.useCallback(() => {
+ const hardStop = useCallback(() => {
    isInternalStopRef.current = true;
+   speakSessionRef.current += 1; // invalidate any in-flight speak chain
    try {
      elevenLabsService.stopSpeech();
    } catch {
@@ -72,22 +86,24 @@ export function LanguageProvider({ children, initialLanguage }: { children: Reac
  useEffect(() => {
    if (typeof window === 'undefined') return;
    const stopOnUnload = () => hardStop();
-   window.addEventListener('beforeunload', stopOnUnload);
-   window.addEventListener('pagehide', stopOnUnload);
-   document.addEventListener('visibilitychange', () => {
+   const onVisibilityChange = () => {
      if (document.visibilityState === 'hidden') {
        // Do not keep narrating when tab goes hidden; user expects it to stop
        hardStop();
      }
-   });
+   };
+   window.addEventListener('beforeunload', stopOnUnload);
+   window.addEventListener('pagehide', stopOnUnload);
+   document.addEventListener('visibilitychange', onVisibilityChange);
    return () => {
      stopOnUnload();
      window.removeEventListener('beforeunload', stopOnUnload);
      window.removeEventListener('pagehide', stopOnUnload);
+     document.removeEventListener('visibilitychange', onVisibilityChange);
    };
  }, [hardStop]);
 
- const setLanguage = (lang: Language) => {
+ const setLanguage = useCallback((lang: Language) => {
  setCurrentLanguage(lang);
  // Store in localStorage and cookie for persistence and SSR metadata
  if (typeof window !== 'undefined') {
@@ -95,11 +111,11 @@ export function LanguageProvider({ children, initialLanguage }: { children: Reac
   localStorage.setItem('language', lang);
  document.cookie = `rajputana-language=${lang}; path=/; max-age=${60 * 60 * 24 * 365}`;
  }
- };
+ }, []);
 
- const t = (key: string): string => {
+ const t = useCallback((key: string): string => {
  return (translations[currentLanguage] as Record<string, string>)?.[key] || (translations.en as Record<string, string>)[key] || key;
- };
+ }, [currentLanguage]);
 
   const translateStory = (content: string): string => {
   return content;
@@ -151,7 +167,7 @@ export function LanguageProvider({ children, initialLanguage }: { children: Reac
  };
 
  // Speak a single chunk; schedule the next one when it ends.
- const speakBrowserChunk = React.useCallback(
+ const speakBrowserChunk = useCallback(
    (synth: SpeechSynthesis, chunks: string[], idx: number, lang: Language) => {
      if (idx >= chunks.length || isInternalStopRef.current) {
        activeUtteranceRef.current = null;
@@ -227,107 +243,107 @@ export function LanguageProvider({ children, initialLanguage }: { children: Reac
    speakChunkRef.current = speakBrowserChunk;
  }, [speakBrowserChunk]);
 
- // Enhanced storytelling text-to-speech functionality with ElevenLabs
- const speak = async (text: string) => {
- // Always stop existing playback first
- hardStop();
- // Reset stop flag before starting new playback
- isInternalStopRef.current = false;
+ // Text-to-speech: try ElevenLabs via /api/tts; on any failure fall back to
+ // the browser's native speechSynthesis (chunked for long text).
+ const speak = useCallback(
+   async (text: string) => {
+     // Always stop existing playback first
+     hardStop();
+     // Reset stop flag before starting new playback
+     isInternalStopRef.current = false;
+     const session = ++speakSessionRef.current;
 
- if (!text || typeof text !== 'string') {
-   setIsSpeaking(false);
-   return;
- }
- 
- // Set speaking state immediately for instant UI feedback
- setIsSpeaking(true);
- 
- // Enhanced text preprocessing for dramatic (but fluent) storytelling
- let storyText = text
- // Remove image placeholders and formatting
- .replace(/\[IMAGE_PLACEHOLDER:.*?\]/g, '')
- .replace(/\*\*(.*?)\*\*/g, '$1')
- .replace(/\*(.*?)\*/g, '$1')
- .replace(/^\s*[-*•]\s+/gm, '')
- .replace(/\n{3,}/g, '\n\n')
- .replace(/\t+/g, ' ')
- .trim();
- 
- // Language-specific light enhancements - keep pauses natural (avoid excessive "...")
- if (currentLanguage === 'hi') {
- const alreadyHasIntro = /^(आइए|सुनिए|कहानी)/i.test(storyText);
- if (!alreadyHasIntro && storyText.length < 5000) {
-   storyText = 'आइए सुनते हैं एक अद्भुत कहानी... ' + storyText;
- }
- storyText = storyText
- .replace(/युद्ध/g, 'महान युद्ध')
- .replace(/वीर/g, 'वीर योद्धा')
- .replace(/महाराणा/g, 'महान महाराणा')
- .replace(/किला/g, 'अजेय किला')
- .replace(/बलिदान/g, 'महान बलिदान')
- .replace(/\।\s*\।+/g, '।')
- .replace(/\s+/g, ' ')
- .trim();
- } else {
- const alreadyHasIntro = /^(let us|listen to|here is|the story)/i.test(storyText);
- if (!alreadyHasIntro && storyText.length < 5000) {
-   storyText = 'Let us listen to a wonderful story... ' + storyText;
- }
- storyText = storyText
- .replace(/\.{3,}/g, '. ')
- .replace(/\s+/g, ' ')
- .trim();
- }
+     if (!text || typeof text !== 'string') {
+       setIsSpeaking(false);
+       return;
+     }
 
- try {
- // Use ElevenLabs AI voices if API is configured (it handles long text natively)
- if (elevenLabsService.isApiConfigured()) {
- // Determine voice type based on content
- const femaleKeywords = ['rani', 'princess', 'queen', 'devi', 'padmini', 'karnavati', 'meera', 'bai', 'राजकुमारी', 'संयोगिता', 'माता', 'मीरा'];
- const hasFemaleContext = femaleKeywords.some(keyword => storyText.toLowerCase().includes(keyword.toLowerCase()));
- const voiceType = hasFemaleContext ? 'female' : 'male';
- 
- elevenLabsService.speakText(storyText, voiceType, currentLanguage)
- .then(() => {
-   if (!isInternalStopRef.current) setIsSpeaking(false);
- })
- .catch((error) => {
- console.error('ElevenLabs synthesis failed, falling back to browser TTS:', error);
-   // Fall back to browser chunked TTS if ElevenLabs fails
-   const synth = typeof window !== 'undefined' ? window.speechSynthesis : null;
-   if (synth) {
-     const chunks = splitIntoChunks(storyText);
-     chunkQueueRef.current = chunks;
-     chunkIndexRef.current = 0;
-     speakBrowserChunk(synth, chunks, 0, currentLanguage);
-   } else {
-     setIsSpeaking(false);
-   }
- });
- } else if (typeof window !== 'undefined' && window.speechSynthesis) {
-   // Browser native TTS with chunking for fluent long-form playback
-   const chunks = splitIntoChunks(storyText);
-   if (!chunks.length) {
-     setIsSpeaking(false);
-     return;
-   }
-   chunkQueueRef.current = chunks;
-   chunkIndexRef.current = 0;
-   // Preload voices (some browsers are lazy about populating the list)
-   try { window.speechSynthesis.getVoices(); } catch { /* noop */ }
-   speakBrowserChunk(window.speechSynthesis, chunks, 0, currentLanguage);
- } else {
-   setIsSpeaking(false);
- }
- } catch (error) {
- console.error('Speech synthesis failed:', error);
- setIsSpeaking(false);
- }
- };
+     // Set speaking state immediately for instant UI feedback
+     setIsSpeaking(true);
 
- const stopSpeaking = () => {
+     // Strip formatting only — no dramatic word replacements or intro
+     // prepends, which corrupt the historical text.
+     const storyText = text
+       .replace(/\[IMAGE_PLACEHOLDER:.*?\]/g, '')
+       .replace(/\*\*(.*?)\*\*/g, '$1')
+       .replace(/\*(.*?)\*/g, '$1')
+       .replace(/^\s*[-*•]\s+/gm, '')
+       .replace(/\n{3,}/g, '\n\n')
+       .replace(/\t+/g, ' ')
+       .trim();
+
+     const fallbackToBrowser = () => {
+       if (session !== speakSessionRef.current) return; // superseded
+       const synth = typeof window !== 'undefined' ? window.speechSynthesis : null;
+       if (!synth) {
+         setIsSpeaking(false);
+         return;
+       }
+       const chunks = splitIntoChunks(storyText);
+       if (!chunks.length) {
+         setIsSpeaking(false);
+         return;
+       }
+       chunkQueueRef.current = chunks;
+       chunkIndexRef.current = 0;
+       try {
+         synth.getVoices();
+       } catch {
+         /* noop */
+       }
+       speakBrowserChunk(synth, chunks, 0, currentLanguage);
+     };
+
+     try {
+       const configured = await elevenLabsService.isApiConfigured();
+       if (session !== speakSessionRef.current) return; // superseded while awaiting
+
+       if (configured) {
+         const femaleKeywords = [
+           'rani',
+           'princess',
+           'queen',
+           'devi',
+           'padmini',
+           'karnavati',
+           'meera',
+           'bai',
+           'राजकुमारी',
+           'संयोगिता',
+           'माता',
+           'मीरा',
+         ];
+         const hasFemaleContext = femaleKeywords.some((keyword) =>
+           storyText.toLowerCase().includes(keyword.toLowerCase()),
+         );
+         const voiceType = hasFemaleContext ? 'female' : 'male';
+
+         try {
+           await elevenLabsService.speakText(storyText, voiceType, currentLanguage);
+           if (session === speakSessionRef.current && !isInternalStopRef.current) {
+             setIsSpeaking(false);
+           }
+         } catch (error) {
+           console.error(
+             'ElevenLabs synthesis failed, falling back to browser TTS:',
+             error,
+           );
+           fallbackToBrowser();
+         }
+       } else {
+         fallbackToBrowser();
+       }
+     } catch (error) {
+       console.error('Speech synthesis failed:', error);
+       fallbackToBrowser();
+     }
+   },
+   [currentLanguage, hardStop, speakBrowserChunk],
+ );
+
+ const stopSpeaking = useCallback(() => {
    hardStop();
- };
+ }, [hardStop]);
 
  useEffect(() => {
  if (typeof window !== 'undefined') {
@@ -341,16 +357,21 @@ export function LanguageProvider({ children, initialLanguage }: { children: Reac
  }
  }, [currentLanguage]);
 
+ const contextValue = useMemo(
+   () => ({
+     currentLanguage,
+     setLanguage,
+     t,
+     translateStory,
+     speak,
+     stopSpeaking,
+     isSpeaking,
+   }),
+   [currentLanguage, setLanguage, t, speak, stopSpeaking, isSpeaking],
+ );
+
  return (
- <LanguageContext.Provider value={{ 
- currentLanguage, 
- setLanguage, 
- t, 
- translateStory, 
- speak, 
- stopSpeaking, 
- isSpeaking 
- }}>
+ <LanguageContext.Provider value={contextValue}>
  {children}
  </LanguageContext.Provider>
  );
