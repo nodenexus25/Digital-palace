@@ -313,9 +313,12 @@
   "folklore.typeLabel": "विधा:",
 
   "blogs.title": "ब्लॉग",
-  "blogs.subtitle": "लेख",
-  "blogs.description": "राजपूताना की कहानियों, इतिहास और संस्कृति पर लेख",
+  "blogs.subtitle": "शाही इतिहास",
+  "blogs.description": "राजपूताना की धरती से — विरासत, वीर और इतिहास की कहानियाँ।",
   "blogs.articleLabel": "लेख",
+  "blogs.readLabel": "पढ़ें",
+  "blogs.minRead": "मिनट पढ़ने में",
+  "blogs.emptyState": "अभी कोई लेख नहीं है। कृपया जल्द ही नई कहानियों के लिए वापस आएँ।",
 
   "legends.hero.chip": "युद्ध इतिहास",
   "legends.title": "राजपूताना की लीजेंड्स",

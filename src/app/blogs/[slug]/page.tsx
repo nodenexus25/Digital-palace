@@ -6,7 +6,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { PortableText } from 'next-sanity'
-import { client } from '@/sanity/lib/client'
+import { sanityFetch } from '@/sanity/lib/fetch'
 import { urlFor } from '@/sanity/lib/image'
 
 type Post = {
@@ -39,8 +39,6 @@ const POST_QUERY = `*[_type == "post" && slug.current == $slug][0]{
   faqs,
   seo
 }`
-
-const options = { next: { revalidate: 30 } }
 
 function getBlockText(block: unknown): string {
   try {
@@ -161,179 +159,46 @@ function extractHeadings(body: TypedObject[]): Heading[] {
   }
 }
 
-function buildFallbackPost(slug: string): Post {
-  const rawBodyBlocks = [
-    {
-      _type: 'block' as const,
-      _key: 'h1-1',
-      style: 'h1',
-      children: [{ _type: 'span' as const, text: 'Welcome to Rajputana Chronicles' }],
-    },
-    {
-      _type: 'block' as const,
-      _key: 'p-1',
-      style: 'normal',
-      children: [
-        {
-          _type: 'span' as const,
-          text: 'Rajputana, the land of kings, has stood as a beacon of valor, honor, and unyielding spirit for over a millennium. From the sun-baked plains of Marwar to the emerald valleys of Mewar, every fort, palace, and temple narrates tales of extraordinary courage.',
-        },
-      ],
-    },
-    {
-      _type: 'block' as const,
-      _key: 'h2-1',
-      style: 'h2',
-      children: [{ _type: 'span' as const, text: 'The Warrior Code of Kshatriya Dharma' }],
-    },
-    {
-      _type: 'block' as const,
-      _key: 'p-2',
-      style: 'normal',
-      children: [
-        {
-          _type: 'span' as const,
-          text: 'The Rajput warriors lived by the sacred code of Kshatriya Dharma — death before dishonor. They preferred saffron-clad sannyas or the valor of the battlefield over the comfort of subjugation. This is the spirit that made Chittorgarh witness three jauhars, and turned Haldighati into sacred ground.',
-        },
-      ],
-    },
-    {
-      _type: 'block' as const,
-      _key: 'h2-2',
-      style: 'h2',
-      children: [{ _type: 'span' as const, text: 'The Forts That Touched the Skies' }],
-    },
-    {
-      _type: 'block' as const,
-      _key: 'p-3',
-      style: 'normal',
-      children: [
-        {
-          _type: 'span' as const,
-          text: 'Mehrangarh in Jodhpur, perched at 400 feet, is perhaps the most magnificent fort ever built. Chittorgarh, sprawling over 700 acres, saw the reigns of Bappa Rawal, Rana Kumbha, and Rana Sanga. Kumbhalgarh, with the second-longest wall on earth, was the birthplace of Maharana Pratap himself. Amber Fort, with its Sheesh Mahal, dazzles visitors even today with its reflective grandeur.',
-        },
-      ],
-    },
-    {
-      _type: 'block' as const,
-      _key: 'blockquote-1',
-      style: 'blockquote',
-      children: [
-        {
-          _type: 'span' as const,
-          text: '"The soil of Rajputana does not grow crops alone — it grows legends."',
-        },
-      ],
-    },
-    {
-      _type: 'block' as const,
-      _key: 'h2-3',
-      style: 'h2',
-      children: [{ _type: 'span' as const, text: 'A Living Heritage' }],
-    },
-    {
-      _type: 'block' as const,
-      _key: 'p-4',
-      style: 'normal',
-      children: [
-        {
-          _type: 'span' as const,
-          text: "Today, Rajputana lives on in the art, music, festivals, and customs of its people. The turban, the archer's salute, the Gangaur procession, and the sacred Ghoomar dance are all threads in a tapestry that refuses to fade. As you explore these pages, remember — every Rajput story is a lesson in dignity, sacrifice, and the fire of a free spirit.",
-        },
-      ],
-    },
-  ]
-  const bodyBlocks: TypedObject[] = rawBodyBlocks as unknown as TypedObject[]
+const SLUGS_QUERY = `*[_type == "post" && defined(slug.current)][].slug.current`
 
-  const slugTitleMap: Record<string, string> = {
-    'legacy-of-mewar': 'The Glorious Legacy of Mewar: Defenders of Rajputana',
-    'chittorgarh-fort-sacrifice':
-      'Chittorgarh Fort: The Citadel of Sacrifice and Honor',
-    'battle-haldighati': 'Battle of Haldighati: The Day of the Crimson Horses',
-    'rajasthan-forts-architecture':
-      'Rajasthan Forts: Architectural Marvels Carved in Sandstone',
-    'rajput-festivals': 'The Rajput Festivals: Colors, Courage, and Celebrations',
-    'rajputana-cuisine': 'Royal Cuisine of Rajputana: Feasts Fit for Kings',
-  }
+// Only slugs returned by generateStaticParams are served. Any other slug
+// returns 404 automatically (no on-demand prerender, no DYNAMIC_SERVER_USAGE).
+// The page still calls notFound() if a generated slug's post is unexpectedly null.
+export const dynamicParams = false
 
-  const slugExcerptMap: Record<string, string> = {
-    'legacy-of-mewar':
-      'Discover the untold stories of Mewar, the kingdom that never bowed to any invader. From Bappa Rawal to Maharana Pratap, witness the saga of unparalleled bravery.',
-    'chittorgarh-fort-sacrifice':
-      'Explore the majestic Chittorgarh Fort, where three jauhars changed the course of Rajput history. The walls echo with tales of Rani Padmini and Panna Dai.',
-    'battle-haldighati':
-      'Relive the legendary clash between Maharana Pratap and Man Singh I. The day when Chetak became immortal and Rajput honor reached its zenith.',
-    'rajasthan-forts-architecture':
-      'From Mehrangarh to Amber, explore the architectural genius of Rajput forts. Each bastion tells a story of strategy, art, and royal grandeur.',
-    'rajput-festivals':
-      'Dive into the vibrant world of Rajput celebrations. From Gangaur to Teej, experience the rich traditions that bind the warrior clans together.',
-    'rajputana-cuisine':
-      'Taste the legacy of royal kitchens. Laal Maas, Junglee Maas, and the legendary feasts of Marwar and Mewar that defined Indian gastronomy.',
+/**
+ * Fetch a single post by slug. Returns null when Sanity has no matching post.
+ * Throws on network/config errors so error.tsx can surface the outage instead
+ * of disguising it as content.
+ */
+async function getPost(slug: string): Promise<Post | null> {
+  const result = await sanityFetch<Post | null | undefined>(POST_QUERY, { slug })
+  if (
+    result &&
+    typeof result === 'object' &&
+    typeof result._id === 'string' &&
+    result.slug &&
+    typeof result.slug.current === 'string'
+  ) {
+    return result
   }
-
-  return {
-    _id: `fallback-${slug}`,
-    title: slugTitleMap[slug] ?? 'Rajputana Chronicles: The Royal Saga',
-    slug: { current: slug },
-    mainImage: null,
-    publishedAt: new Date().toISOString(),
-    excerpt:
-      slugExcerptMap[slug] ??
-      'Journey through the royal annals of Rajputana. Legends, battles, and cultural heritage of the land of kings.',
-    body: bodyBlocks,
-    categories: [{ name: 'Heritage', color: '#8B4513' }],
-    estimatedReadTime: 8,
-    faqs: JSON.stringify([
-      {
-        question: 'What is Rajputana known for?',
-        answer:
-          'Rajputana is known for its magnificent forts, warrior traditions, royal palaces, vibrant festivals, and the unparalleled valor of its rulers who defended the land against every invasion for over a thousand years.',
-      },
-      {
-        question: 'Which is the most famous Rajput fort?',
-        answer:
-          'Chittorgarh Fort and Mehrangarh Fort are the two most iconic. Chittorgarh for its unparalleled history of sacrifice and three jauhars, and Mehrangarh in Jodhpur for its sheer architectural magnificence perched at 400 feet.',
-      },
-      {
-        question: 'Who was the greatest Rajput ruler?',
-        answer:
-          'Maharana Pratap of Mewar is universally regarded as the greatest Rajput ruler for his unyielding resistance against the Mughal empire and his legendary stand at the Battle of Haldighati in 1576.',
-      },
-      {
-        question: 'What is the best time to visit Rajasthan?',
-        answer:
-          'October to March is ideal, with pleasant winters ranging from 10°C to 27°C. The Desert Festival in Jaisalmer (January) and Gangaur (March-April) are especially magical times to experience Rajput culture.',
-      },
-    ]),
-    seo: {
-      metaTitle: slugTitleMap[slug] ?? 'Rajputana Chronicles | Rajputana Digital Palace',
-      metaDescription:
-        slugExcerptMap[slug] ??
-        'Journey through the royal annals of Rajputana. Legends, battles, and cultural heritage.',
-    },
-  }
+  return null
 }
 
-async function safeGetPost(slug: string): Promise<Post> {
+/**
+ * Prerender known post slugs. Unknown slugs fall through to notFound() at
+ * request time.
+ */
+export async function generateStaticParams() {
   try {
-    if (!client) return buildFallbackPost(slug)
-    const result = await client.fetch<Post | null | undefined>(
-      POST_QUERY,
-      { slug },
-      options,
-    )
-    if (
-      result &&
-      typeof result === 'object' &&
-      typeof result._id === 'string' &&
-      result.slug &&
-      typeof result.slug.current === 'string'
-    ) {
-      return result
-    }
-    return buildFallbackPost(slug)
-  } catch {
-    return buildFallbackPost(slug)
+    const slugs = await sanityFetch<string[]>(SLUGS_QUERY)
+    if (!Array.isArray(slugs)) return []
+    return slugs
+      .filter((s): s is string => typeof s === 'string' && s.length > 0)
+      .map((slug) => ({ slug }))
+  } catch (err) {
+    console.error('[blogs/[slug]] generateStaticParams failed', err)
+    return []
   }
 }
 
@@ -344,7 +209,11 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   try {
     const { slug } = await params
-    const post = await safeGetPost(slug)
+    const post = await getPost(slug)
+
+    if (!post) {
+      return { title: 'Not found', robots: { index: false } }
+    }
 
     const title =
       (post.seo && post.seo.metaTitle) ||
@@ -372,8 +241,9 @@ export async function generateMetadata({
         images: ogImage ? [ogImage] : [],
       },
     }
-  } catch {
-    return { title: 'Blog | Rajputana' }
+  } catch (err) {
+    console.error('[blogs/[slug]] generateMetadata failed', err)
+    throw err
   }
 }
 
@@ -594,7 +464,13 @@ export default async function BlogPostPage({
   params: Promise<{ slug: string }>
 }) {
   const { slug } = await params
-  const post = await safeGetPost(slug)
+  let post: Post | null
+  try {
+    post = await getPost(slug)
+  } catch (err) {
+    console.error('[blogs/[slug]] getPost failed', err)
+    throw err
+  }
 
   if (!post) {
     notFound()

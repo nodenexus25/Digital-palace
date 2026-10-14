@@ -313,9 +313,12 @@
   "folklore.typeLabel": "Type:",
 
   "blogs.title": "Blogs",
-  "blogs.subtitle": "Articles",
-  "blogs.description": "Articles on Stories, History, and Culture of Rajputana",
+  "blogs.subtitle": "Royal Chronicles",
+  "blogs.description": "Stories from the land of Rajputana — heritage, heroes, and history.",
   "blogs.articleLabel": "Article",
+  "blogs.readLabel": "Read",
+  "blogs.minRead": "min read",
+  "blogs.emptyState": "No posts yet. Please check back soon for new stories.",
 
   "legends.hero.chip": "War Chronicles",
   "legends.title": "Legends of Rajputana",

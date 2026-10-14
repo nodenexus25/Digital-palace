@@ -1,9 +1,11 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { Metadata } from 'next'
+import { cookies } from 'next/headers'
 import type { SanityImageSource } from '@sanity/image-url'
-import { client } from '@/sanity/lib/client'
+import { sanityFetch } from '@/sanity/lib/fetch'
 import { urlFor } from '@/sanity/lib/image'
+import { serverTranslate, type Language } from '../utils/languages'
 import Hero from '../components/Hero'
 
 type BlogPost = {
@@ -29,86 +31,38 @@ const POSTS_QUERY = `*[
   "mainImage": coalesce(mainImage, image)
 }`
 
-const options = { next: { revalidate: 30 } }
-
-const FALLBACK_POSTS: BlogPost[] = [
-  {
-    _id: 'fallback-1',
-    title: 'The Glorious Legacy of Mewar: Defenders of Rajputana',
-    slug: { current: 'legacy-of-mewar' },
-    publishedAt: '2025-01-15T10:00:00.000Z',
-    excerpt:
-      'Discover the untold stories of Mewar, the kingdom that never bowed to any invader. From Bappa Rawal to Maharana Pratap, witness the saga of unparalleled bravery.',
-    estimatedReadTime: 8,
-    mainImage: null,
-  },
-  {
-    _id: 'fallback-2',
-    title: 'Chittorgarh Fort: The Citadel of Sacrifice and Honor',
-    slug: { current: 'chittorgarh-fort-sacrifice' },
-    publishedAt: '2025-01-10T10:00:00.000Z',
-    excerpt:
-      'Explore the majestic Chittorgarh Fort, where three jauhars changed the course of Rajput history. The walls echo with tales of Rani Padmini and Panna Dai.',
-    estimatedReadTime: 12,
-    mainImage: null,
-  },
-  {
-    _id: 'fallback-3',
-    title: 'Battle of Haldighati: The Day of the Crimson Horses',
-    slug: { current: 'battle-haldighati' },
-    publishedAt: '2025-01-05T10:00:00.000Z',
-    excerpt:
-      'Relive the legendary clash between Maharana Pratap and Man Singh I. The day when Chetak became immortal and Rajput honor reached its zenith.',
-    estimatedReadTime: 10,
-    mainImage: null,
-  },
-  {
-    _id: 'fallback-4',
-    title: 'Rajasthan Forts: Architectural Marvels Carved in Sandstone',
-    slug: { current: 'rajasthan-forts-architecture' },
-    publishedAt: '2024-12-28T10:00:00.000Z',
-    excerpt:
-      'From Mehrangarh to Amber, explore the architectural genius of Rajput forts. Each bastion tells a story of strategy, art, and royal grandeur.',
-    estimatedReadTime: 9,
-    mainImage: null,
-  },
-  {
-    _id: 'fallback-5',
-    title: 'The Rajput Festivals: Colors, Courage, and Celebrations',
-    slug: { current: 'rajput-festivals' },
-    publishedAt: '2024-12-20T10:00:00.000Z',
-    excerpt:
-      'Dive into the vibrant world of Rajput celebrations. From Gangaur to Teej, experience the rich traditions that bind the warrior clans together.',
-    estimatedReadTime: 7,
-    mainImage: null,
-  },
-  {
-    _id: 'fallback-6',
-    title: 'Royal Cuisine of Rajputana: Feasts Fit for Kings',
-    slug: { current: 'rajputana-cuisine' },
-    publishedAt: '2024-12-15T10:00:00.000Z',
-    excerpt:
-      'Taste the legacy of royal kitchens. Laal Maas, Junglee Maas, and the legendary feasts of Marwar and Mewar that defined Indian gastronomy.',
-    estimatedReadTime: 6,
-    mainImage: null,
-  },
-]
-
-export const metadata: Metadata = {
-  title: 'Blogs | Rajputana Digital Palace',
-  description:
-    'Stories, histories, and cultural insights from the royal land of Rajputana. Read about the legends, battles, forts, and heritage of Rajasthan.',
-  alternates: {
-    canonical: '/blogs',
-  },
+async function getLang(): Promise<Language> {
+  const cookieStore = await cookies()
+  return (cookieStore.get('rajputana-language')?.value || 'en') as Language
 }
 
-async function safeFetchPosts(): Promise<BlogPost[]> {
+export async function generateMetadata(): Promise<Metadata> {
+  const lang = await getLang()
+  const hasPosts = await hasPublishedPosts()
+  const title = serverTranslate(lang, 'blogs.title')
+  const description = serverTranslate(lang, 'blogs.description')
+  return {
+    title,
+    description,
+    alternates: { canonical: '/blogs' },
+    robots: { index: hasPosts, follow: true },
+  }
+}
+
+async function hasPublishedPosts(): Promise<boolean> {
   try {
-    if (!client) return FALLBACK_POSTS
-    const result = await client.fetch<BlogPost[]>(POSTS_QUERY, {}, options)
-    if (!Array.isArray(result)) return FALLBACK_POSTS
-    const valid = result.filter(
+    const result = await sanityFetch<BlogPost[]>(POSTS_QUERY)
+    return Array.isArray(result) && result.length > 0
+  } catch {
+    return false
+  }
+}
+
+async function fetchPosts(): Promise<BlogPost[]> {
+  try {
+    const result = await sanityFetch<BlogPost[]>(POSTS_QUERY)
+    if (!Array.isArray(result)) return []
+    return result.filter(
       (p) =>
         p &&
         typeof p === 'object' &&
@@ -116,9 +70,9 @@ async function safeFetchPosts(): Promise<BlogPost[]> {
         p.slug &&
         typeof p.slug.current === 'string',
     )
-    return valid.length > 0 ? valid : FALLBACK_POSTS
-  } catch {
-    return FALLBACK_POSTS
+  } catch (err) {
+    console.error('[blogs] fetchPosts failed', err)
+    throw err
   }
 }
 
@@ -144,14 +98,23 @@ function getImageUrl(img: SanityImageSource | null | undefined): string | null {
 }
 
 export default async function BlogsPage() {
-  const posts = await safeFetchPosts()
+  const lang = await getLang()
+  const posts = await fetchPosts()
+
+  const heroTitle = serverTranslate(lang, 'blogs.title')
+  const heroSubtitle = serverTranslate(lang, 'blogs.subtitle')
+  const heroDescription = serverTranslate(lang, 'blogs.description')
+  const articleLabel = serverTranslate(lang, 'blogs.articleLabel')
+  const readLabel = serverTranslate(lang, 'blogs.readLabel')
+  const minReadLabel = serverTranslate(lang, 'blogs.minRead')
+  const emptyState = serverTranslate(lang, 'blogs.emptyState')
 
   return (
     <div className="min-h-screen bg-ivory">
       <Hero
-        title="Blogs"
-        subtitle="Royal Chronicles"
-        description="Stories from the land of Rajputana — heritage, heroes, and history."
+        title={heroTitle}
+        subtitle={heroSubtitle}
+        description={heroDescription}
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -161,12 +124,12 @@ export default async function BlogsPage() {
             const dateStr = formatDate(post.publishedAt)
             const readTime =
               typeof post.estimatedReadTime === 'number' && post.estimatedReadTime > 0
-                ? `${post.estimatedReadTime} min read`
+                ? `${post.estimatedReadTime} ${minReadLabel}`
                 : null
             const safeTitle =
               typeof post.title === 'string' && post.title.length > 0
                 ? post.title
-                : 'Untitled Article'
+                : articleLabel
             const safeSlug = post.slug?.current ?? '#'
             const safeExcerpt =
               typeof post.excerpt === 'string' && post.excerpt.length > 0 ? post.excerpt : null
@@ -203,7 +166,7 @@ export default async function BlogsPage() {
                 <div className="flex-1 p-6 flex flex-col justify-between">
                   <div className="flex-1">
                     <p className="text-sm font-semibold text-saffron uppercase tracking-wider font-cinzel">
-                      Article
+                      {articleLabel}
                     </p>
                     <h3 className="block mt-2 text-xl font-bold text-maroon font-cinzel leading-snug group-hover:text-maroon-dark transition-colors duration-300">
                       {safeTitle}
@@ -224,7 +187,7 @@ export default async function BlogsPage() {
                       {readTime && <span>{readTime}</span>}
                     </div>
                     <span className="text-sm font-semibold text-saffron font-cinzel group-hover:text-maroon transition-colors duration-300 flex items-center gap-1">
-                      Read
+                      {readLabel}
                       <svg
                         className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300"
                         fill="none"
@@ -248,7 +211,7 @@ export default async function BlogsPage() {
 
         {posts.length === 0 && (
           <div className="mt-8 text-center text-charcoal/60 font-cormorant text-lg">
-            No posts yet. Please check back soon for new stories.
+            {emptyState}
           </div>
         )}
       </div>
