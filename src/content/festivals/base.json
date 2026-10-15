@@ -1,0 +1,164 @@
+{
+  "festivals": [
+    {
+      "id": "dussehra",
+      "group": "religious",
+      "image": "/images/festivals/dussehra.png"
+    },
+    {
+      "id": "holi",
+      "group": "religious",
+      "image": "/images/festivals/holi.jpg"
+    },
+    {
+      "id": "navratri",
+      "group": "religious",
+      "image": "/images/festivals/navratri.jpg"
+    },
+    {
+      "id": "vijayadashami",
+      "group": "religious",
+      "image": "/images/festivals/vijayadashami.jpg"
+    },
+    {
+      "id": "diwali-raj-tilak-diwas",
+      "group": "religious",
+      "image": "/images/festivals/diwali-raj-tilak-diwas.jpg"
+    },
+    {
+      "id": "janmashtami",
+      "group": "religious",
+      "image": "/images/festivals/janmashtami.jpg"
+    },
+    {
+      "id": "shivratri",
+      "group": "religious",
+      "image": "/images/festivals/shivratri.jpg"
+    },
+    {
+      "id": "ram-navami",
+      "group": "religious",
+      "image": "/images/festivals/ram-navami.jpg"
+    },
+    {
+      "id": "kartik-purnima",
+      "group": "religious",
+      "image": "/images/festivals/kartik-purnima.jpg"
+    },
+    {
+      "id": "basant-panchami",
+      "group": "religious",
+      "image": "/images/festivals/basant-panchami.jpg"
+    },
+    {
+      "id": "akshay-tritiya",
+      "group": "religious",
+      "image": "/images/festivals/akshay-tritiya.jpg"
+    },
+    {
+      "id": "raksha-bandhan",
+      "group": "religious",
+      "image": "/images/festivals/raksha-bandhan.jpg"
+    },
+    {
+      "id": "teej",
+      "group": "cultural",
+      "image": "/images/festivals/teej.jpg"
+    },
+    {
+      "id": "gangaur",
+      "group": "cultural",
+      "image": "/images/festivals/gangaur.jpg"
+    },
+    {
+      "id": "gangaur-mela",
+      "group": "cultural",
+      "image": "/images/festivals/gangaur-mela.jpg"
+    },
+    {
+      "id": "marwar-festival",
+      "group": "cultural",
+      "image": "/images/festivals/marwar-festival.jpg"
+    },
+    {
+      "id": "desert-festival-jaisalmer",
+      "group": "cultural",
+      "image": "/images/festivals/desert-festival-jaisalmer.jpg"
+    },
+    {
+      "id": "mevar-festival-udaipur",
+      "group": "cultural",
+      "image": "/images/festivals/mevar-festival-udaipur.jpg"
+    },
+    {
+      "id": "chittorgarh-jauhar-mela",
+      "group": "cultural",
+      "image": "/images/festivals/chittorgarh-jauhar-mela.jpg"
+    },
+    {
+      "id": "rajputana-vijay-diwas",
+      "group": "commemoration",
+      "image": "/images/festivals/rajputana-vijay-diwas.jpg"
+    },
+    {
+      "id": "rath-yatra-rajput-warriors",
+      "group": "commemoration",
+      "image": "/images/festivals/rath-yatra-rajput-warriors.jpg"
+    },
+    {
+      "id": "shastra-tilak-puja",
+      "group": "commemoration",
+      "image": "/images/festivals/shastra-tilak-puja.jpg"
+    },
+    {
+      "id": "kshatriya-ekadashi",
+      "group": "commemoration",
+      "image": "/images/festivals/kshatriya-ekadashi.gif"
+    },
+    {
+      "id": "jauhar-smriti-diwas",
+      "group": "commemoration",
+      "image": "/images/festivals/jauhar-smriti-diwas.jpg"
+    },
+    {
+      "id": "haldi-ghati-vijay-parv",
+      "group": "commemoration",
+      "image": "/images/festivals/haldi-ghati-vijay-parv.jpg"
+    },
+    {
+      "id": "pratap-jayanti",
+      "group": "commemoration",
+      "image": "/images/festivals/pratap-jayanti.jpg"
+    },
+    {
+      "id": "hammir-jayanti",
+      "group": "commemoration",
+      "image": "/images/festivals/hammir-jayanti.jpg"
+    },
+    {
+      "id": "durgadas-jayanti",
+      "group": "commemoration",
+      "image": "/images/festivals/durgadas-jayanti.jpg"
+    },
+    {
+      "id": "rawal-nainsi-jayanti",
+      "group": "commemoration",
+      "image": "/images/festivals/rawal-nainsi-jayanti.jpg"
+    },
+    {
+      "id": "mewar-foundation-day",
+      "group": "commemoration",
+      "image": "/images/festivals/mewar-foundation-day.jpg"
+    },
+    {
+      "id": "marwar-foundation-day",
+      "group": "commemoration",
+      "image": "/images/festivals/marwar-foundation-day.jpg"
+    },
+    {
+      "id": "bikaner-foundation-day",
+      "group": "commemoration",
+      "image": "/images/festivals/bikaner-foundation-day.jpg"
+    }
+  ]
+}

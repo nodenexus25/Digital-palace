@@ -1,0 +1,1816 @@
+{
+  "forts": [
+    {
+      "id": "chittorgarh",
+      "category": "fort",
+      "standing": true,
+      "images": [
+        "/images/forts/chittorgarh/1280px-Chittorgarh_s_Jauhar_Kund_in_fort.jpg",
+        "/images/forts/chittorgarh/250px-Chittaur_fort-1.jpg",
+        "/images/forts/chittorgarh/500px-Chittorgarh_fort.JPG",
+        "/images/forts/chittorgarh/500px-Kirti_Stambha.jpg",
+        "/images/forts/chittorgarh/500px-Vijaya_Stambha__Chittorgarh_2011-12-14_9.jpg",
+        "/images/forts/chittorgarh/960px-Chittorgarh_-_Gaumukh_Reservoir_-_Adjusted.jpg",
+        "/images/forts/chittorgarh/1280px-Chittorgarh_s_Jauhar_Kund_in_fort.jpg",
+        "/images/forts/chittorgarh/250px-Chittaur_fort-1.jpg"
+      ],
+      "videos": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=QeYyW8rVf0U"
+        },
+        {
+          "provider": "youtube",
+          "url": "https://youtu.be/d9mE9RjYJ-w"
+        }
+      ],
+      "storyTags": [
+        "legend",
+        "history",
+        "history",
+        "history",
+        "legend",
+        "legend",
+        "history"
+      ]
+    },
+    {
+      "id": "amber",
+      "category": "fort",
+      "standing": true,
+      "dynasty": "Kachwaha",
+      "images": [
+        "/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg",
+        "/images/forts/amber/1280px-Diwan-i-Khas__Amber_Palace_3.jpg",
+        "/images/forts/amber/960px-Amber_fort_tunnels.jpg",
+        "/images/forts/amber/Amber_fort_jaipur.jpg",
+        "/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg",
+        "/images/forts/amber/1280px-Diwan-i-Khas__Amber_Palace_3.jpg",
+        "/images/forts/amber/960px-Amber_fort_tunnels.jpg",
+        "/images/forts/amber/Amber_fort_jaipur.jpg"
+      ],
+      "videos": [],
+      "storyTags": [
+        "legend",
+        "history",
+        "legend",
+        "history",
+        "legend",
+        "history"
+      ]
+    },
+    {
+      "id": "jaigarh",
+      "category": "fort",
+      "standing": true,
+      "images": [
+        "/images/forts/jaigarh/500px-Jaigarh_Fort__4446103864_.jpg",
+        "/images/dynasties/places/amber-kachwaha-main.jpg",
+        "/images/home/amer-fort.webp",
+        "/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg",
+        "/images/forts/amber/960px-Amber_fort_tunnels.jpg",
+        "/images/forts/amber/Amber_fort_jaipur.jpg",
+        "/images/forts/amber/1280px-Diwan-i-Khas__Amber_Palace_3.jpg",
+        "/images/forts/jaigarh/500px-Jaigarh_Fort__4446103864_.jpg"
+      ],
+      "videos": [],
+      "storyTags": [
+        "architecture",
+        "legend",
+        "legend",
+        "history",
+        "architecture"
+      ]
+    },
+    {
+      "id": "mehrangarh",
+      "category": "fort",
+      "standing": true,
+      "images": [
+        "/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg",
+        "/images/dynasties/places/marwar-rathore-main.jpg",
+        "/images/home/jodhpur-fort.jpg",
+        "/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg",
+        "/images/dynasties/places/marwar-rathore-main.jpg",
+        "/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg",
+        "/images/home/jodhpur-fort.jpg",
+        "/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg"
+      ],
+      "videos": [],
+      "storyTags": [
+        "legend",
+        "history",
+        "legend",
+        "legend",
+        "history"
+      ]
+    },
+    {
+      "id": "kumbhalgarh",
+      "category": "fort",
+      "standing": true,
+      "dynasty": "Sisodia",
+      "images": [
+        "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+        "/images/dynasties/places/mewar.jpg",
+        "/images/forts/chittorgarh/250px-Chittaur_fort-1.jpg",
+        "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+        "/images/home/chittorgarh-fort.jpg",
+        "/images/dynasties/places/mewar.jpg",
+        "/images/forts/chittorgarh/500px-Vijaya_Stambha__Chittorgarh_2011-12-14_9.jpg",
+        "/images/dynasties/gallery/vijay-stambha.jpg"
+      ],
+      "videos": [],
+      "storyTags": [
+        "legend",
+        "history",
+        "architecture",
+        "legend",
+        "legend"
+      ]
+    },
+    {
+      "id": "bhangarh",
+      "category": "fort",
+      "standing": true,
+      "images": [
+        "/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg",
+        "/images/dynasties/places/amber-kachwaha-main.jpg",
+        "/images/home/amer-fort.webp",
+        "/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg",
+        "/images/forts/bijai-garh/250px-Wallsbayana.jpg",
+        "/images/dynasties/places/amber-kachwaha-main.jpg",
+        "/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg",
+        "/images/home/chittorgarh-fort.jpg"
+      ],
+      "videos": [],
+      "storyTags": [
+        "legend",
+        "history",
+        "legend",
+        "legend",
+        "legend"
+      ]
+    },
+    {
+      "id": "lalgarh",
+      "category": "palace",
+      "standing": true,
+      "images": [
+        "/images/forts/lalgarh/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg",
+        "/images/dynasties/places/bikaner-rathore-main.jpg",
+        "/images/forts/gajner-palace/1280px-Gajner_Palace_-_panoramio.jpg",
+        "/images/forts/gajner-palace/250px-Gajner_Palace__Staircase___Bikaner__Rajasthan.jpg",
+        "/images/forts/lalgarh/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg",
+        "/images/forts/laxmi-niwas-palace/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg",
+        "/images/dynasties/places/bikaner-rathore-main.jpg",
+        "/images/forts/gajner-palace/1280px-Gajner_Palace_-_panoramio.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "ranthambore",
+      "category": "fort",
+      "standing": true,
+      "dynasty": "Chauhan",
+      "images": [
+        "/images/forts/ranthambore/Naulakha_gate_ranthambor_fort.jpg",
+        "/images/dynasties/places/chauhan-ajmer-main.jpg",
+        "/images/forts/ranthambore/Naulakha_gate_ranthambor_fort.jpg",
+        "/images/forts/taragarh-ajmer/250px-Prithvi_Raj_Chauhan__Edited_.jpg",
+        "/images/dynasties/places/chauhan-ajmer-main.jpg",
+        "/images/forts/ranthambore/Naulakha_gate_ranthambor_fort.jpg",
+        "/images/forts/ranthambore/Naulakha_gate_ranthambor_fort.jpg",
+        "/images/dynasties/places/chauhan-ajmer-main.jpg"
+      ],
+      "videos": [],
+      "storyTags": [
+        "legend",
+        "legend",
+        "legend",
+        "legend",
+        "legend"
+      ]
+    },
+    {
+      "id": "gagron",
+      "category": "fort",
+      "standing": true,
+      "images": [
+        "/images/dynasties/places/hada-bundi-kota-main.jpg",
+        "/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg",
+        "/images/forts/bundi-palace/250px-Bundi-Garh_Palace-Chitrasala_GVN-20131015.jpg",
+        "/images/dynasties/places/hada-bundi-kota-main.jpg",
+        "/images/forts/nagaur/500px-Nagaur_Fort.JPG",
+        "/images/forts/bijai-garh/250px-Wallsbayana.jpg",
+        "/images/dynasties/places/hada-bundi-kota-main.jpg",
+        "/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg"
+      ],
+      "videos": [],
+      "storyTags": [
+        "legend",
+        "history",
+        "legend",
+        "legend",
+        "legend"
+      ]
+    },
+    {
+      "id": "jaisalmer",
+      "category": "fort",
+      "standing": true,
+      "dynasty": "Bhati",
+      "images": [
+        "/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg",
+        "/images/home/jaisalmer-fort.jpg",
+        "/images/dynasties/places/jaisalmer-bhati-main.jpg",
+        "/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg",
+        "/images/dynasties/places/jaisalmer-bhati-main.jpg",
+        "/images/home/jaisalmer-fort.jpg",
+        "/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg",
+        "/images/dynasties/places/jaisalmer-bhati-main.jpg"
+      ],
+      "videos": [],
+      "storyTags": [
+        "legend",
+        "legend",
+        "legend",
+        "legend",
+        "legend"
+      ]
+    },
+    {
+      "id": "junagarh",
+      "category": "fort",
+      "standing": true,
+      "dynasty": "Rathore",
+      "images": [
+        "/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg",
+        "/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg",
+        "/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg",
+        "/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg",
+        "/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg",
+        "/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg",
+        "/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg",
+        "/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg"
+      ],
+      "videos": [],
+      "storyTags": [
+        "siege",
+        "legend",
+        "legend",
+        "legend",
+        "legend"
+      ]
+    },
+    {
+      "id": "taragarh-bundi",
+      "category": "fort",
+      "standing": true,
+      "icon": "⭐",
+      "images": [
+        "/images/forts/bundi-palace/250px-Bundi-Garh_Palace-Chitrasala_GVN-20131015.jpg",
+        "/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg",
+        "/images/forts/bundi-palace/250px-Bundi-Garh_Palace-Chitrasala_GVN-20131015.jpg",
+        "/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg",
+        "/images/forts/bundi-palace/250px-Bundi-Garh_Palace-Chitrasala_GVN-20131015.jpg",
+        "/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg",
+        "/images/forts/bundi-palace/250px-Bundi-Garh_Palace-Chitrasala_GVN-20131015.jpg",
+        "/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg"
+      ],
+      "videos": [],
+      "storyTags": [
+        "legend",
+        "architecture",
+        "legend",
+        "legend",
+        "legend"
+      ]
+    },
+    {
+      "id": "taragarh-ajmer",
+      "category": "fort",
+      "standing": true,
+      "images": [
+        "/images/forts/taragarh-ajmer/250px-Prithvi_Raj_Chauhan__Edited_.jpg",
+        "/images/dynasties/places/chauhan-ajmer-main.jpg",
+        "/images/forts/taragarh-ajmer/250px-Prithvi_Raj_Chauhan__Edited_.jpg",
+        "/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg",
+        "/images/dynasties/places/chauhan-ajmer-main.jpg",
+        "/images/forts/taragarh-ajmer/250px-Prithvi_Raj_Chauhan__Edited_.jpg",
+        "/images/forts/nagaur/500px-Nagaur_Fort.JPG",
+        "/images/dynasties/places/chauhan-ajmer-main.jpg"
+      ],
+      "videos": [],
+      "storyTags": [
+        "legend",
+        "legend",
+        "legend",
+        "legend",
+        "legend"
+      ]
+    },
+    {
+      "id": "bijai-garh",
+      "category": "fort",
+      "standing": true,
+      "images": [
+        "/images/forts/bijai-garh/250px-Wallsbayana.jpg",
+        "/images/forts/bayana/bayana.jpg",
+        "/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg",
+        "/images/forts/bijai-garh/250px-Wallsbayana.jpg",
+        "/images/forts/bayana/bayana.jpg",
+        "/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg",
+        "/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg",
+        "/images/forts/bijai-garh/250px-Wallsbayana.jpg"
+      ],
+      "videos": [],
+      "storyTags": [
+        "legend",
+        "royal",
+        "legend",
+        "legend",
+        "legend"
+      ]
+    },
+    {
+      "id": "narwar-fort",
+      "category": "fort",
+      "standing": true,
+      "images": [
+        "/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg",
+        "/images/forts/amber/1280px-Diwan-i-Khas__Amber_Palace_3.jpg",
+        "/images/forts/amber/960px-Amber_fort_tunnels.jpg",
+        "/images/forts/amber/Amber_fort_jaipur.jpg",
+        "/images/home/amer-fort.webp",
+        "/images/dynasties/places/amber-kachwaha-main.jpg",
+        "/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg",
+        "/images/forts/amber/960px-Amber_fort_tunnels.jpg"
+      ],
+      "videos": [],
+      "storyTags": [
+        "legend",
+        "history",
+        "legend",
+        "legend"
+      ]
+    },
+    {
+      "id": "city-palace-jaipur",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 26.9255,
+        "lng": 75.8236
+      },
+      "images": [
+        "/images/forts/city-palace-jaipur/500px-Jaipur_03-2016_22_City_Palace_complex.jpg",
+        "/images/forts/hawa-mahal/500px-East_facade_Hawa_Mahal_Jaipur_from_ground_level__July_2022__-_img_01.jpg",
+        "/images/forts/amber/1280px-Diwan-i-Khas__Amber_Palace_3.jpg",
+        "/images/home/amer-fort.webp",
+        "/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg",
+        "/images/dynasties/places/amber-kachwaha-main.jpg",
+        "/images/forts/narain-niwas-palace/narain-niwas-palace.jpg",
+        "/images/forts/samode-palace/Chandelier_and_red_reception_hall_in_Samode_Palace_heritage_hotel_-_panoramio.jpg"
+      ],
+      "videos": [],
+      "storyTags": [
+        "legend",
+        "royal",
+        "history",
+        "legend",
+        "legend"
+      ]
+    },
+    {
+      "id": "hawa-mahal",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 26.9239,
+        "lng": 75.8267
+      },
+      "images": [
+        "/images/forts/hawa-mahal/500px-East_facade_Hawa_Mahal_Jaipur_from_ground_level__July_2022__-_img_01.jpg",
+        "/images/forts/amber/1280px-Diwan-i-Khas__Amber_Palace_3.jpg",
+        "/images/forts/samode-palace/Samode_Palace_courtyard_arcades_-_panoramio.jpg",
+        "/images/forts/city-palace-jaipur/500px-Jaipur_03-2016_22_City_Palace_complex.jpg",
+        "/images/forts/deeg-palace/250px-Gopal_Bhawan_or_Jal_Mahal.jpg",
+        "/images/home/amer-fort.webp",
+        "/images/forts/deeg-palace/250px-Chaar_baag.jpg",
+        "/images/dynasties/places/amber-kachwaha-main.jpg"
+      ],
+      "videos": [],
+      "storyTags": [
+        "legend",
+        "legend",
+        "history",
+        "legend"
+      ]
+    },
+    {
+      "id": "lake-palace-udaipur",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 24.5752,
+        "lng": 73.6803
+      },
+      "images": [
+        "/images/forts/lake-palace-udaipur/500px-Udaipur_Lake_Palace.jpg",
+        "/images/forts/jag-mandir/250px-Udaipur-Jagmandir-16-Damentoilette-2018-gje.jpg",
+        "/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg",
+        "/images/dynasties/places/mewar.jpg",
+        "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+        "/images/forts/fateh-prakash-palace/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg",
+        "/images/forts/deeg-palace/250px-Chaar_baag.jpg",
+        "/images/home/chittorgarh-fort.jpg"
+      ],
+      "videos": [],
+      "storyTags": [
+        "legend",
+        "legend",
+        "legend",
+        "architecture"
+      ]
+    },
+    {
+      "id": "city-palace-udaipur",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 24.5765,
+        "lng": 73.6832
+      },
+      "images": [
+        "/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg",
+        "/images/forts/lake-palace-udaipur/500px-Udaipur_Lake_Palace.jpg",
+        "/images/dynasties/places/mewar.jpg",
+        "/images/forts/fateh-prakash-palace/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg",
+        "/images/dynasties/gallery/vijay-stambha.jpg",
+        "/images/forts/jag-mandir/250px-Udaipur-Jagmandir-16-Damentoilette-2018-gje.jpg",
+        "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+        "/images/forts/samode-palace/Chandelier_and_red_reception_hall_in_Samode_Palace_heritage_hotel_-_panoramio.jpg"
+      ],
+      "videos": [],
+      "storyTags": [
+        "legend",
+        "history",
+        "legend",
+        "legend"
+      ]
+    },
+    {
+      "id": "najibabad-fort",
+      "category": "fort",
+      "standing": false,
+      "coordinates": {
+        "lat": 29.6333,
+        "lng": 78.3333
+      },
+      "images": [
+        "/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg",
+        "/images/forts/bijai-garh/250px-Wallsbayana.jpg",
+        "/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg",
+        "/images/forts/bayana/bayana.jpg",
+        "/images/dynasties/places/tomar-delhi-gwalior-main.JPG",
+        "/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg",
+        "/images/forts/bijai-garh/250px-Wallsbayana.jpg",
+        "/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg"
+      ],
+      "videos": [],
+      "storyTags": [
+        "legend",
+        "history",
+        "legend",
+        "legend",
+        "legend"
+      ]
+    },
+    {
+      "id": "rambagh-palace",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 26.9124,
+        "lng": 75.7873
+      },
+      "images": [
+        "/images/forts/city-palace-jaipur/500px-Jaipur_03-2016_22_City_Palace_complex.jpg",
+        "/images/forts/samode-palace/500px-Samode_Lounge.jpg",
+        "/images/forts/amber/1280px-Diwan-i-Khas__Amber_Palace_3.jpg",
+        "/images/forts/samode-palace/Samode_Palace_courtyard_arcades_-_panoramio.jpg",
+        "/images/forts/samode-palace/Chandelier_and_red_reception_hall_in_Samode_Palace_heritage_hotel_-_panoramio.jpg",
+        "/images/home/amer-fort.webp",
+        "/images/forts/deeg-palace/250px-Gopal_bhavan.jpg",
+        "/images/dynasties/places/amber-kachwaha-main.jpg"
+      ],
+      "videos": [],
+      "storyTags": [
+        "legend",
+        "legend",
+        "legend",
+        "history"
+      ]
+    },
+    {
+      "id": "umaid-bhawan-palace",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 26.2799,
+        "lng": 73.0489
+      },
+      "images": [
+        "/images/forts/city-palace-jodhpur/500px-1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace__2233393509_.jpg",
+        "/images/home/jodhpur-fort.jpg",
+        "/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg",
+        "/images/dynasties/places/marwar-rathore-main.jpg",
+        "/images/forts/samode-palace/Chandelier_and_red_reception_hall_in_Samode_Palace_heritage_hotel_-_panoramio.jpg",
+        "/images/forts/sardargarh-palace/sardargarh-heritage-hotel.jpg",
+        "/images/forts/laxmi-niwas-palace/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg",
+        "/images/forts/deeg-palace/250px-Gopal_Bhawan_or_Jal_Mahal.jpg"
+      ],
+      "videos": [],
+      "storyTags": [
+        "history",
+        "legend",
+        "legend",
+        "architecture",
+        "legend"
+      ]
+    },
+    {
+      "id": "deeg-palace",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 27.4692,
+        "lng": 77.0667
+      },
+      "images": [
+        "/images/forts/deeg-palace/1280px-Rup_sagar_deeg.jpg",
+        "/images/forts/deeg-palace/250px-Chaar_baag.jpg",
+        "/images/forts/deeg-palace/250px-Gopal_Bhawan_or_Jal_Mahal.jpg",
+        "/images/forts/deeg-palace/250px-Gopal_bhavan.jpg",
+        "/images/forts/deeg-palace/1280px-Rup_sagar_deeg.jpg",
+        "/images/forts/deeg-palace/250px-Chaar_baag.jpg",
+        "/images/forts/deeg-palace/250px-Gopal_Bhawan_or_Jal_Mahal.jpg",
+        "/images/forts/deeg-palace/250px-Gopal_bhavan.jpg"
+      ],
+      "videos": [],
+      "storyTags": [
+        "architecture",
+        "architecture",
+        "legend",
+        "legend",
+        "legend"
+      ]
+    },
+    {
+      "id": "alwar-city-palace",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 27.5606,
+        "lng": 76.6256
+      },
+      "images": [
+        "/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg",
+        "/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg",
+        "/images/forts/samode-palace/Patio_at_Samode_Palace_in_Rajasthan_-_panoramio.jpg",
+        "/images/forts/deeg-palace/250px-Gopal_bhavan.jpg",
+        "/images/forts/devgarh/devgarh.jpg",
+        "/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg",
+        "/images/forts/bijai-garh/250px-Wallsbayana.jpg",
+        "/images/forts/bayana/bayana.jpg"
+      ],
+      "videos": [],
+      "storyTags": [
+        "history",
+        "legend",
+        "legend",
+        "history"
+      ]
+    },
+    {
+      "id": "nahargarh",
+      "category": "fort",
+      "standing": true,
+      "coordinates": {
+        "lat": 26.9373,
+        "lng": 75.8155
+      },
+      "images": [
+        "/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg",
+        "/images/forts/amber/1280px-Diwan-i-Khas__Amber_Palace_3.jpg",
+        "/images/forts/amber/960px-Amber_fort_tunnels.jpg",
+        "/images/home/amer-fort.webp",
+        "/images/dynasties/places/amber-kachwaha-main.jpg",
+        "/images/forts/jaigarh/500px-Jaigarh_Fort__4446103864_.jpg",
+        "/images/forts/hawa-mahal/500px-East_facade_Hawa_Mahal_Jaipur_from_ground_level__July_2022__-_img_01.jpg",
+        "/images/forts/samode-palace/Patio_at_Samode_Palace_in_Rajasthan_-_panoramio.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "lohagarh",
+      "category": "fort",
+      "standing": true,
+      "coordinates": {
+        "lat": 27.2206,
+        "lng": 77.4957
+      },
+      "images": [
+        "/images/forts/deeg-palace/1280px-Rup_sagar_deeg.jpg",
+        "/images/forts/deeg-palace/250px-Chaar_baag.jpg",
+        "/images/forts/deeg-palace/250px-Gopal_Bhawan_or_Jal_Mahal.jpg",
+        "/images/forts/deeg-palace/250px-Gopal_bhavan.jpg",
+        "/images/forts/deeg-palace/1280px-Rup_sagar_deeg.jpg",
+        "/images/forts/deeg-palace/250px-Chaar_baag.jpg",
+        "/images/forts/deeg-palace/250px-Gopal_Bhawan_or_Jal_Mahal.jpg",
+        "/images/forts/deeg-palace/250px-Gopal_bhavan.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "mandawa",
+      "category": "fort",
+      "standing": true,
+      "coordinates": {
+        "lat": 28.0556,
+        "lng": 75.1436
+      },
+      "images": [
+        "/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg",
+        "/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg",
+        "/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg",
+        "/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg",
+        "/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg",
+        "/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg",
+        "/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg",
+        "/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "neemrana",
+      "category": "fort",
+      "standing": true,
+      "coordinates": {
+        "lat": 27.9942,
+        "lng": 76.3867
+      },
+      "images": [
+        "/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg",
+        "/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg",
+        "/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg",
+        "/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg",
+        "/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg",
+        "/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg",
+        "/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg",
+        "/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "bala-quila",
+      "category": "fort",
+      "standing": true,
+      "coordinates": {
+        "lat": 27.5756,
+        "lng": 76.5911
+      },
+      "images": [
+        "/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg",
+        "/images/forts/bijai-garh/250px-Wallsbayana.jpg",
+        "/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg",
+        "/images/forts/ranthambore/Naulakha_gate_ranthambor_fort.jpg",
+        "/images/forts/samode-palace/Samode_Palace_main_entrance_stairs_-_panoramio.jpg",
+        "/images/forts/city-palace-bikaner/junagarh-fort-bikaner-rajasthan-1-attr-hero",
+        "/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg",
+        "/images/forts/bayana/bayana.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "sajjangarh",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 24.5828,
+        "lng": 73.6395
+      },
+      "images": [
+        "/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg",
+        "/images/dynasties/gallery/vijay-stambha.jpg",
+        "/images/forts/fateh-prakash-palace/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg",
+        "/images/dynasties/places/mewar.jpg",
+        "/images/forts/lake-palace-udaipur/500px-Udaipur_Lake_Palace.jpg",
+        "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+        "/images/forts/jag-mandir/250px-Udaipur-Jagmandir-16-Damentoilette-2018-gje.jpg",
+        "/images/forts/samode-palace/Samode_Palace_courtyard_arcades_-_panoramio.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "achalgarh",
+      "category": "fort",
+      "standing": false,
+      "coordinates": {
+        "lat": 24.6136,
+        "lng": 72.7667
+      },
+      "images": [
+        "/images/forts/devgarh/devgarh.jpg",
+        "/images/dynasties/places/paramara-malwa-main.jpg",
+        "/images/dynasties/places/solanki-chaulukya-main.jpg",
+        "/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg",
+        "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+        "/images/forts/devgarh/devgarh.jpg",
+        "/images/home/chittorgarh-fort.jpg",
+        "/images/forts/devgarh/devgarh.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "khejarla",
+      "category": "fort",
+      "standing": true,
+      "coordinates": {
+        "lat": 26.3167,
+        "lng": 73.55
+      },
+      "images": [
+        "/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg",
+        "/images/home/jodhpur-fort.jpg",
+        "/images/dynasties/places/marwar-rathore-main.jpg",
+        "/images/forts/nagaur/500px-Nagaur_Fort.JPG",
+        "/images/forts/ghanerao/ghanerao.jpg",
+        "/images/forts/sardargarh-palace/sardargarh-heritage-hotel.jpg",
+        "/images/forts/laxmi-niwas-palace/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg",
+        "/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "pokhran",
+      "category": "fort",
+      "standing": true,
+      "coordinates": {
+        "lat": 26.92,
+        "lng": 71.92
+      },
+      "images": [
+        "/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg",
+        "/images/dynasties/places/jaisalmer-bhati-main.jpg",
+        "/images/home/jaisalmer-fort.jpg",
+        "/images/forts/junagarh-jaisalmer/5f48159fbc4089ba19b8c3e7978ed642-mehrangarh.jpg",
+        "/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg",
+        "/images/forts/nagaur/500px-Nagaur_Fort.JPG",
+        "/images/dynasties/places/marwar-rathore-main.jpg",
+        "/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "nagaur",
+      "category": "fort",
+      "standing": true,
+      "coordinates": {
+        "lat": 27.2,
+        "lng": 73.74
+      },
+      "images": [
+        "/images/forts/nagaur/500px-Nagaur_Fort.JPG",
+        "/images/dynasties/places/chauhan-ajmer-main.jpg",
+        "/images/forts/taragarh-ajmer/250px-Prithvi_Raj_Chauhan__Edited_.jpg",
+        "/images/forts/ranthambore/Naulakha_gate_ranthambor_fort.jpg",
+        "/images/home/chittorgarh-fort.jpg",
+        "/images/forts/nagaur/500px-Nagaur_Fort.JPG",
+        "/images/forts/samode-palace/Chandelier_and_red_reception_hall_in_Samode_Palace_heritage_hotel_-_panoramio.jpg",
+        "/images/forts/deeg-palace/250px-Chaar_baag.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "sariska-fort",
+      "category": "fort",
+      "standing": true,
+      "coordinates": {
+        "lat": 27.32,
+        "lng": 76.43
+      },
+      "images": [
+        "/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg",
+        "/images/forts/ranthambore/Naulakha_gate_ranthambor_fort.jpg",
+        "/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg",
+        "/images/forts/bijai-garh/250px-Wallsbayana.jpg",
+        "/images/dynasties/places/chauhan-ajmer-main.jpg",
+        "/images/forts/bayana/bayana.jpg",
+        "/images/forts/taragarh-ajmer/250px-Prithvi_Raj_Chauhan__Edited_.jpg",
+        "/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "bayana",
+      "category": "fort",
+      "standing": false,
+      "coordinates": {
+        "lat": 26.9,
+        "lng": 77.28
+      },
+      "images": [
+        "/images/forts/bayana/bayana.jpg",
+        "/images/forts/bijai-garh/250px-Wallsbayana.jpg",
+        "/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg",
+        "/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg",
+        "/images/dynasties/places/tomar-delhi-gwalior-main.JPG",
+        "/images/forts/ranthambore/Naulakha_gate_ranthambor_fort.jpg",
+        "/images/forts/deeg-palace/250px-Chaar_baag.jpg",
+        "/images/forts/bayana/bayana.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "jalore",
+      "category": "fort",
+      "standing": true,
+      "coordinates": {
+        "lat": 25.35,
+        "lng": 72.63
+      },
+      "images": [
+        "/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg",
+        "/images/dynasties/places/paramara-malwa-main.jpg",
+        "/images/home/jodhpur-fort.jpg",
+        "/images/forts/devgarh/devgarh.jpg",
+        "/images/dynasties/places/chauhan-ajmer-main.jpg",
+        "/images/forts/nagaur/500px-Nagaur_Fort.JPG",
+        "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+        "/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "siwana",
+      "category": "fort",
+      "standing": false,
+      "coordinates": {
+        "lat": 25.63,
+        "lng": 72.42
+      },
+      "images": [
+        "/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg",
+        "/images/dynasties/places/paramara-malwa-main.jpg",
+        "/images/home/jodhpur-fort.jpg",
+        "/images/dynasties/places/marwar-rathore-main.jpg",
+        "/images/forts/devgarh/devgarh.jpg",
+        "/images/forts/bijai-garh/250px-Wallsbayana.jpg",
+        "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+        "/images/forts/nagaur/500px-Nagaur_Fort.JPG"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "junagarh-jaisalmer",
+      "category": "fort",
+      "standing": false,
+      "coordinates": {
+        "lat": 26.98,
+        "lng": 70.8
+      },
+      "images": [
+        "/images/forts/junagarh-jaisalmer/5f48159fbc4089ba19b8c3e7978ed642-mehrangarh.jpg",
+        "/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg",
+        "/images/dynasties/places/jaisalmer-bhati-main.jpg",
+        "/images/home/jaisalmer-fort.jpg",
+        "/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg",
+        "/images/forts/nagaur/500px-Nagaur_Fort.JPG",
+        "/images/dynasties/places/marwar-rathore-main.jpg",
+        "/images/forts/junagarh-jaisalmer/5f48159fbc4089ba19b8c3e7978ed642-mehrangarh.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "kankwadi",
+      "category": "fort",
+      "standing": false,
+      "coordinates": {
+        "lat": 27.3,
+        "lng": 76.45
+      },
+      "images": [
+        "/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg",
+        "/images/forts/ranthambore/Naulakha_gate_ranthambor_fort.jpg",
+        "/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg",
+        "/images/dynasties/places/chauhan-ajmer-main.jpg",
+        "/images/forts/taragarh-ajmer/250px-Prithvi_Raj_Chauhan__Edited_.jpg",
+        "/images/forts/bijai-garh/250px-Wallsbayana.jpg",
+        "/images/forts/bayana/bayana.jpg",
+        "/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "bhatner",
+      "category": "fort",
+      "standing": true,
+      "coordinates": {
+        "lat": 29.58,
+        "lng": 74.32
+      },
+      "images": [
+        "/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg",
+        "/images/dynasties/places/jaisalmer-bhati-main.jpg",
+        "/images/home/jaisalmer-fort.jpg",
+        "/images/forts/junagarh-jaisalmer/5f48159fbc4089ba19b8c3e7978ed642-mehrangarh.jpg",
+        "/images/dynasties/places/marwar-rathore-main.jpg",
+        "/images/forts/nagaur/500px-Nagaur_Fort.JPG",
+        "/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg",
+        "/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "timangarh",
+      "category": "fort",
+      "standing": false,
+      "coordinates": {
+        "lat": 26.7,
+        "lng": 77.05
+      },
+      "images": [
+        "/images/forts/bijai-garh/250px-Wallsbayana.jpg",
+        "/images/forts/bayana/bayana.jpg",
+        "/images/dynasties/places/tomar-delhi-gwalior-main.JPG",
+        "/images/forts/devgarh/devgarh.jpg",
+        "/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg",
+        "/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg",
+        "/images/home/chittorgarh-fort.jpg",
+        "/images/dynasties/gallery/vijay-stambha.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "phalodi",
+      "category": "fort",
+      "standing": true,
+      "coordinates": {
+        "lat": 27.13,
+        "lng": 72.36
+      },
+      "images": [
+        "/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg",
+        "/images/dynasties/places/marwar-rathore-main.jpg",
+        "/images/home/jodhpur-fort.jpg",
+        "/images/forts/nagaur/500px-Nagaur_Fort.JPG",
+        "/images/forts/ghanerao/ghanerao.jpg",
+        "/images/forts/laxmi-niwas-palace/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg",
+        "/images/dynasties/places/bikaner-rathore-main.jpg",
+        "/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "mandalgarh",
+      "category": "fort",
+      "standing": true,
+      "coordinates": {
+        "lat": 25.2,
+        "lng": 75.1
+      },
+      "images": [
+        "/images/forts/chittorgarh/1280px-Chittorgarh_s_Jauhar_Kund_in_fort.jpg",
+        "/images/forts/chittorgarh/250px-Chittaur_fort-1.jpg",
+        "/images/forts/chittorgarh/500px-Chittorgarh_fort.JPG",
+        "/images/dynasties/places/mewar.jpg",
+        "/images/dynasties/gallery/vijay-stambha.jpg",
+        "/images/forts/chittorgarh/960px-Chittorgarh_-_Gaumukh_Reservoir_-_Adjusted.jpg",
+        "/images/home/chittorgarh-fort.jpg",
+        "/images/dynasties/gallery/kumbhalgarh-fort.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "chandrawati",
+      "category": "fort",
+      "standing": false,
+      "coordinates": {
+        "lat": 24.45,
+        "lng": 72.75
+      },
+      "images": [
+        "/images/forts/devgarh/devgarh.jpg",
+        "/images/dynasties/places/paramara-malwa-main.jpg",
+        "/images/dynasties/places/solanki-chaulukya-main.jpg",
+        "/images/home/chittorgarh-fort.jpg",
+        "/images/forts/bijai-garh/250px-Wallsbayana.jpg",
+        "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+        "/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg",
+        "/images/forts/devgarh/devgarh.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "devgarh",
+      "category": "fort",
+      "standing": true,
+      "coordinates": {
+        "lat": 25.53,
+        "lng": 73.9
+      },
+      "images": [
+        "/images/forts/devgarh/devgarh.jpg",
+        "/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg",
+        "/images/home/jodhpur-fort.jpg",
+        "/images/dynasties/places/marwar-rathore-main.jpg",
+        "/images/forts/sardargarh-palace/sardargarh-heritage-hotel.jpg",
+        "/images/forts/ghanerao/ghanerao.jpg",
+        "/images/forts/nagaur/500px-Nagaur_Fort.JPG",
+        "/images/dynasties/gallery/kumbhalgarh-fort.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "ghanerao",
+      "category": "fort",
+      "standing": true,
+      "coordinates": {
+        "lat": 25.24,
+        "lng": 73.54
+      },
+      "images": [
+        "/images/forts/ghanerao/ghanerao.jpg",
+        "/images/forts/devgarh/devgarh.jpg",
+        "/images/forts/sardargarh-palace/sardargarh-heritage-hotel.jpg",
+        "/images/dynasties/places/marwar-rathore-main.jpg",
+        "/images/dynasties/places/mewar.jpg",
+        "/images/home/jodhpur-fort.jpg",
+        "/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg",
+        "/images/forts/nagaur/500px-Nagaur_Fort.JPG"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "khetri",
+      "category": "fort",
+      "standing": true,
+      "coordinates": {
+        "lat": 28,
+        "lng": 75.8
+      },
+      "images": [
+        "/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg",
+        "/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg",
+        "/images/dynasties/places/amber-kachwaha-main.jpg",
+        "/images/forts/samode-palace/500px-Samode_Lounge.jpg",
+        "/images/home/amer-fort.webp",
+        "/images/forts/samode-palace/Patio_at_Samode_Palace_in_Rajasthan_-_panoramio.jpg",
+        "/images/forts/jaigarh/500px-Jaigarh_Fort__4446103864_.jpg",
+        "/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "bijaipur",
+      "category": "fort",
+      "standing": true,
+      "coordinates": {
+        "lat": 24.95,
+        "lng": 74.65
+      },
+      "images": [
+        "/images/forts/chittorgarh/1280px-Chittorgarh_s_Jauhar_Kund_in_fort.jpg",
+        "/images/forts/chittorgarh/250px-Chittaur_fort-1.jpg",
+        "/images/dynasties/places/mewar.jpg",
+        "/images/dynasties/gallery/vijay-stambha.jpg",
+        "/images/home/chittorgarh-fort.jpg",
+        "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+        "/images/forts/chittorgarh/500px-Chittorgarh_fort.JPG",
+        "/images/forts/devgarh/devgarh.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "kishangarh",
+      "category": "fort",
+      "standing": true,
+      "coordinates": {
+        "lat": 26.57,
+        "lng": 74.86
+      },
+      "images": [
+        "/images/forts/taragarh-ajmer/250px-Prithvi_Raj_Chauhan__Edited_.jpg",
+        "/images/dynasties/places/chauhan-ajmer-main.jpg",
+        "/images/home/chittorgarh-fort.jpg",
+        "/images/forts/nagaur/500px-Nagaur_Fort.JPG",
+        "/images/dynasties/places/marwar-rathore-main.jpg",
+        "/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg",
+        "/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg",
+        "/images/dynasties/gallery/vijay-stambha.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "rasik-bihari",
+      "category": "fort",
+      "standing": true,
+      "coordinates": {
+        "lat": 26.5,
+        "lng": 77.02
+      },
+      "images": [
+        "/images/forts/rasik-bihari/rasik-bihari.jpg",
+        "/images/forts/bijai-garh/250px-Wallsbayana.jpg",
+        "/images/forts/bayana/bayana.jpg",
+        "/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg",
+        "/images/dynasties/places/tomar-delhi-gwalior-main.JPG",
+        "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+        "/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg",
+        "/images/forts/rasik-bihari/rasik-bihari.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "city-palace-jodhpur",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 26.2978,
+        "lng": 73.0185
+      },
+      "images": [
+        "/images/forts/city-palace-jodhpur/500px-1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace__2233393509_.jpg",
+        "/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg",
+        "/images/home/jodhpur-fort.jpg",
+        "/images/dynasties/places/marwar-rathore-main.jpg",
+        "/images/forts/nagaur/500px-Nagaur_Fort.JPG",
+        "/images/forts/sardargarh-palace/sardargarh-heritage-hotel.jpg",
+        "/images/forts/ghanerao/ghanerao.jpg",
+        "/images/forts/city-palace-jodhpur/500px-1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace__2233393509_.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "city-palace-bikaner",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 28.0229,
+        "lng": 73.3119
+      },
+      "images": [
+        "/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg",
+        "/images/dynasties/places/bikaner-rathore-main.jpg",
+        "/images/forts/lalgarh/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg",
+        "/images/forts/gajner-palace/1280px-Gajner_Palace_-_panoramio.jpg",
+        "/images/forts/laxmi-niwas-palace/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg",
+        "/images/forts/gajner-palace/250px-Gajner_Palace__Staircase___Bikaner__Rajasthan.jpg",
+        "/images/home/jaisalmer-fort.jpg",
+        "/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "city-palace-karauli",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 26.49,
+        "lng": 77.02
+      },
+      "images": [
+        "/images/forts/bijai-garh/250px-Wallsbayana.jpg",
+        "/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg",
+        "/images/dynasties/places/tomar-delhi-gwalior-main.JPG",
+        "/images/forts/bala-quila/500px-Alwar_fort_or_Bala_Quila_09.jpg",
+        "/images/forts/rasik-bihari/rasik-bihari.jpg",
+        "/images/forts/bayana/bayana.jpg",
+        "/images/dynasties/gallery/vijay-stambha.jpg",
+        "/images/dynasties/gallery/kumbhalgarh-fort.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "city-palace-dungarpur",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 23.84,
+        "lng": 73.71
+      },
+      "images": [
+        "/images/forts/udai-bilas-palace/500px-Udai_Bilas_Palace_Dungarpur_2024_10.jpg",
+        "/images/dynasties/places/mewar.jpg",
+        "/images/home/chittorgarh-fort.jpg",
+        "/images/dynasties/gallery/vijay-stambha.jpg",
+        "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+        "/images/forts/devgarh/devgarh.jpg",
+        "/images/home/jodhpur-fort.jpg",
+        "/images/forts/udai-bilas-palace/500px-Udai_Bilas_Palace_Dungarpur_2024_10.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "city-palace-jaisalmer",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 26.9157,
+        "lng": 70.9083
+      },
+      "images": [
+        "/images/forts/jaisalmer/500px-Jain_temples__Jaisalmer_Fort_-_panoramio__cropped_.jpg",
+        "/images/dynasties/places/jaisalmer-bhati-main.jpg",
+        "/images/home/jaisalmer-fort.jpg",
+        "/images/forts/junagarh-jaisalmer/5f48159fbc4089ba19b8c3e7978ed642-mehrangarh.jpg",
+        "/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg",
+        "/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg",
+        "/images/dynasties/places/marwar-rathore-main.jpg",
+        "/images/forts/gajner-palace/250px-Gajner_Palace__Staircase___Bikaner__Rajasthan.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "jag-mandir",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 24.5676,
+        "lng": 73.6781
+      },
+      "images": [
+        "/images/forts/jag-mandir/250px-Udaipur-Jagmandir-16-Damentoilette-2018-gje.jpg",
+        "/images/dynasties/places/mewar.jpg",
+        "/images/home/chittorgarh-fort.jpg",
+        "/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg",
+        "/images/forts/lake-palace-udaipur/500px-Udaipur_Lake_Palace.jpg",
+        "/images/forts/fateh-prakash-palace/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg",
+        "/images/dynasties/gallery/vijay-stambha.jpg",
+        "/images/dynasties/gallery/kumbhalgarh-fort.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "jal-mahal",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 26.9535,
+        "lng": 75.8462
+      },
+      "images": [
+        "/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg",
+        "/images/home/amer-fort.webp",
+        "/images/dynasties/places/amber-kachwaha-main.jpg",
+        "/images/forts/deeg-palace/250px-Gopal_bhavan.jpg",
+        "/images/forts/narain-niwas-palace/narain-niwas-palace.jpg",
+        "/images/forts/deeg-palace/250px-Chaar_baag.jpg",
+        "/images/forts/samode-palace/Patio_at_Samode_Palace_in_Rajasthan_-_panoramio.jpg",
+        "/images/forts/hawa-mahal/500px-East_facade_Hawa_Mahal_Jaipur_from_ground_level__July_2022__-_img_01.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "junagarh-palace-internal",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 28.021,
+        "lng": 73.318
+      },
+      "images": [
+        "/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg",
+        "/images/forts/gajner-palace/250px-Gajner_Palace__Staircase___Bikaner__Rajasthan.jpg",
+        "/images/forts/gajner-palace/1280px-Gajner_Palace_-_panoramio.jpg",
+        "/images/dynasties/places/bikaner-rathore-main.jpg",
+        "/images/forts/lalgarh/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg",
+        "/images/forts/laxmi-niwas-palace/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg",
+        "/images/home/jaisalmer-fort.jpg",
+        "/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "fateh-prakash-palace",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 24.576,
+        "lng": 73.683
+      },
+      "images": [
+        "/images/forts/fateh-prakash-palace/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg",
+        "/images/dynasties/places/mewar.jpg",
+        "/images/home/chittorgarh-fort.jpg",
+        "/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg",
+        "/images/forts/lake-palace-udaipur/500px-Udaipur_Lake_Palace.jpg",
+        "/images/forts/jag-mandir/250px-Udaipur-Jagmandir-16-Damentoilette-2018-gje.jpg",
+        "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+        "/images/dynasties/gallery/vijay-stambha.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "shiv-niwas-palace",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 24.575,
+        "lng": 73.684
+      },
+      "images": [
+        "/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg",
+        "/images/dynasties/places/mewar.jpg",
+        "/images/forts/lake-palace-udaipur/500px-Udaipur_Lake_Palace.jpg",
+        "/images/forts/fateh-prakash-palace/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg",
+        "/images/forts/jag-mandir/250px-Udaipur-Jagmandir-16-Damentoilette-2018-gje.jpg",
+        "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+        "/images/home/chittorgarh-fort.jpg",
+        "/images/dynasties/gallery/vijay-stambha.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "moti-mahal-mehrangarh",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 26.2978,
+        "lng": 73.0185
+      },
+      "images": [
+        "/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg",
+        "/images/dynasties/places/marwar-rathore-main.jpg",
+        "/images/home/jodhpur-fort.jpg",
+        "/images/forts/nagaur/500px-Nagaur_Fort.JPG",
+        "/images/forts/sardargarh-palace/sardargarh-heritage-hotel.jpg",
+        "/images/forts/city-palace-jodhpur/500px-1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace__2233393509_.jpg",
+        "/images/forts/ghanerao/ghanerao.jpg",
+        "/images/dynasties/gallery/vijay-stambha.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "phool-mahal-mehrangarh",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 26.2978,
+        "lng": 73.0185
+      },
+      "images": [
+        "/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg",
+        "/images/forts/city-palace-jodhpur/500px-1996_-218-20A_Jodhpur_Hotel_Umaid_Bhawan_Palace__2233393509_.jpg",
+        "/images/dynasties/places/marwar-rathore-main.jpg",
+        "/images/forts/sardargarh-palace/sardargarh-heritage-hotel.jpg",
+        "/images/home/jodhpur-fort.jpg",
+        "/images/forts/nagaur/500px-Nagaur_Fort.JPG",
+        "/images/forts/ghanerao/ghanerao.jpg",
+        "/images/dynasties/gallery/kumbhalgarh-fort.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "badal-mahal-amber",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 26.9855,
+        "lng": 75.8513
+      },
+      "images": [
+        "/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg",
+        "/images/forts/amber/1280px-Diwan-i-Khas__Amber_Palace_3.jpg",
+        "/images/forts/amber/960px-Amber_fort_tunnels.jpg",
+        "/images/home/amer-fort.webp",
+        "/images/dynasties/places/amber-kachwaha-main.jpg",
+        "/images/forts/hawa-mahal/500px-East_facade_Hawa_Mahal_Jaipur_from_ground_level__July_2022__-_img_01.jpg",
+        "/images/forts/narain-niwas-palace/narain-niwas-palace.jpg",
+        "/images/forts/samode-palace/Patio_at_Samode_Palace_in_Rajasthan_-_panoramio.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "sheesh-mahal-amber",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 26.9855,
+        "lng": 75.8513
+      },
+      "images": [
+        "/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg",
+        "/images/forts/amber/1280px-Diwan-i-Khas__Amber_Palace_3.jpg",
+        "/images/forts/amber/960px-Amber_fort_tunnels.jpg",
+        "/images/home/amer-fort.webp",
+        "/images/dynasties/places/amber-kachwaha-main.jpg",
+        "/images/forts/samode-palace/Chandelier_and_red_reception_hall_in_Samode_Palace_heritage_hotel_-_panoramio.jpg",
+        "/images/forts/hawa-mahal/500px-East_facade_Hawa_Mahal_Jaipur_from_ground_level__July_2022__-_img_01.jpg",
+        "/images/forts/narain-niwas-palace/narain-niwas-palace.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "raj-mahal-jaipur",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 26.91,
+        "lng": 75.79
+      },
+      "images": [
+        "/images/forts/city-palace-jaipur/500px-Jaipur_03-2016_22_City_Palace_complex.jpg",
+        "/images/dynasties/places/amber-kachwaha-main.jpg",
+        "/images/home/amer-fort.webp",
+        "/images/forts/samode-palace/Samode_Palace_courtyard_arcades_-_panoramio.jpg",
+        "/images/forts/narain-niwas-palace/narain-niwas-palace.jpg",
+        "/images/forts/samode-palace/Chandelier_and_red_reception_hall_in_Samode_Palace_heritage_hotel_-_panoramio.jpg",
+        "/images/forts/deeg-palace/1280px-Rup_sagar_deeg.jpg",
+        "/images/forts/hawa-mahal/500px-East_facade_Hawa_Mahal_Jaipur_from_ground_level__July_2022__-_img_01.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "sukh-niwas-jaipur",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 26.9855,
+        "lng": 75.8513
+      },
+      "images": [
+        "/images/forts/amber/1280px-Amber_Fort_Diwan-i-Aam_20080213-6.jpg",
+        "/images/forts/amber/1280px-Diwan-i-Khas__Amber_Palace_3.jpg",
+        "/images/forts/amber/960px-Amber_fort_tunnels.jpg",
+        "/images/home/amer-fort.webp",
+        "/images/dynasties/places/amber-kachwaha-main.jpg",
+        "/images/forts/deeg-palace/250px-Gopal_Bhawan_or_Jal_Mahal.jpg",
+        "/images/forts/deeg-palace/250px-Chaar_baag.jpg",
+        "/images/forts/samode-palace/500px-Samode_Lounge.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "anand-bhawan-dungarpur",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 23.84,
+        "lng": 73.715
+      },
+      "images": [
+        "/images/forts/udai-bilas-palace/500px-Udai_Bilas_Palace_Dungarpur_2024_10.jpg",
+        "/images/dynasties/places/mewar.jpg",
+        "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+        "/images/home/chittorgarh-fort.jpg",
+        "/images/forts/devgarh/devgarh.jpg",
+        "/images/dynasties/gallery/vijay-stambha.jpg",
+        "/images/forts/sardargarh-palace/sardargarh-heritage-hotel.jpg",
+        "/images/forts/city-palace-udaipur/250px-Durbar_Hall__Fateh_Prakash_Palace_Hotel__Udaipur.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "udai-bilas-palace",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 23.845,
+        "lng": 73.715
+      },
+      "images": [
+        "/images/forts/udai-bilas-palace/500px-Udai_Bilas_Palace_Dungarpur_2024_10.jpg",
+        "/images/dynasties/places/mewar.jpg",
+        "/images/home/chittorgarh-fort.jpg",
+        "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+        "/images/forts/devgarh/devgarh.jpg",
+        "/images/dynasties/gallery/vijay-stambha.jpg",
+        "/images/forts/sardargarh-palace/sardargarh-heritage-hotel.jpg",
+        "/images/home/jodhpur-fort.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "gajner-palace",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 27.95,
+        "lng": 73.05
+      },
+      "images": [
+        "/images/forts/gajner-palace/1280px-Gajner_Palace_-_panoramio.jpg",
+        "/images/forts/gajner-palace/250px-Gajner_Palace__Staircase___Bikaner__Rajasthan.jpg",
+        "/images/dynasties/places/bikaner-rathore-main.jpg",
+        "/images/forts/lalgarh/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg",
+        "/images/forts/laxmi-niwas-palace/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg",
+        "/images/home/jaisalmer-fort.jpg",
+        "/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg",
+        "/images/dynasties/gallery/kumbhalgarh-fort.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "laxmi-niwas-palace",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 28.03,
+        "lng": 73.32
+      },
+      "images": [
+        "/images/forts/laxmi-niwas-palace/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg",
+        "/images/dynasties/places/bikaner-rathore-main.jpg",
+        "/images/forts/gajner-palace/1280px-Gajner_Palace_-_panoramio.jpg",
+        "/images/forts/lalgarh/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg",
+        "/images/forts/gajner-palace/250px-Gajner_Palace__Staircase___Bikaner__Rajasthan.jpg",
+        "/images/home/jaisalmer-fort.jpg",
+        "/images/forts/junagarh/500px-Bikaner-Junagarh-26-2018-gje.jpg",
+        "/images/dynasties/gallery/vijay-stambha.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "mandawa-palace",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 28.0556,
+        "lng": 75.1436
+      },
+      "images": [
+        "/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg",
+        "/images/forts/samode-palace/500px-Samode_Lounge.jpg",
+        "/images/dynasties/places/amber-kachwaha-main.jpg",
+        "/images/forts/samode-palace/Patio_at_Samode_Palace_in_Rajasthan_-_panoramio.jpg",
+        "/images/home/amer-fort.webp",
+        "/images/forts/najibabad-fort/1280px-Patthargarh_fort_outside_Najibabad__1814-15.jpg",
+        "/images/forts/samode-palace/Samode_Palace_main_entrance_stairs_-_panoramio.jpg",
+        "/images/forts/deeg-palace/250px-Chaar_baag.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "alsisar-mahal",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 28.3,
+        "lng": 75.3
+      },
+      "images": [
+        "/images/forts/mandawa-palace/Facade_pool_aw6g5v.jpg",
+        "/images/forts/samode-palace/Chandelier_and_red_reception_hall_in_Samode_Palace_heritage_hotel_-_panoramio.jpg",
+        "/images/dynasties/places/amber-kachwaha-main.jpg",
+        "/images/forts/samode-palace/Samode_Palace_courtyard_arcades_-_panoramio.jpg",
+        "/images/home/amer-fort.webp",
+        "/images/forts/deeg-palace/250px-Chaar_baag.jpg",
+        "/images/forts/samode-palace/500px-Samode_Lounge.jpg",
+        "/images/forts/bijai-garh/250px-Wallsbayana.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "samode-palace",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 27.2,
+        "lng": 75.8
+      },
+      "images": [
+        "/images/forts/samode-palace/500px-Samode_Lounge.jpg",
+        "/images/forts/samode-palace/Chandelier_and_red_reception_hall_in_Samode_Palace_heritage_hotel_-_panoramio.jpg",
+        "/images/forts/samode-palace/Patio_at_Samode_Palace_in_Rajasthan_-_panoramio.jpg",
+        "/images/forts/samode-palace/Samode_Palace_courtyard_arcades_-_panoramio.jpg",
+        "/images/forts/samode-palace/Samode_Palace_main_entrance_stairs_-_panoramio.jpg",
+        "/images/forts/samode-palace/500px-Samode_Lounge.jpg",
+        "/images/forts/samode-palace/Chandelier_and_red_reception_hall_in_Samode_Palace_heritage_hotel_-_panoramio.jpg",
+        "/images/forts/samode-palace/Patio_at_Samode_Palace_in_Rajasthan_-_panoramio.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "bundi-palace",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 25.44,
+        "lng": 75.64
+      },
+      "images": [
+        "/images/forts/bundi-palace/250px-Bundi-Garh_Palace-Chitrasala_GVN-20131015.jpg",
+        "/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg",
+        "/images/forts/bundi-palace/250px-Bundi-Garh_Palace-Chitrasala_GVN-20131015.jpg",
+        "/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg",
+        "/images/forts/bundi-palace/250px-Bundi-Garh_Palace-Chitrasala_GVN-20131015.jpg",
+        "/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg",
+        "/images/forts/bundi-palace/250px-Bundi-Garh_Palace-Chitrasala_GVN-20131015.jpg",
+        "/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "kota-garh-palace",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 25.18,
+        "lng": 75.83
+      },
+      "images": [
+        "/images/forts/bundi-palace/250px-Bundi-Garh_Palace-Chitrasala_GVN-20131015.jpg",
+        "/images/dynasties/places/hada-bundi-kota-main.jpg",
+        "/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg",
+        "/images/home/chittorgarh-fort.jpg",
+        "/images/dynasties/gallery/vijay-stambha.jpg",
+        "/images/dynasties/places/mewar.jpg",
+        "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+        "/images/forts/bijai-garh/250px-Wallsbayana.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "tal-chhapar-palace",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 27.8,
+        "lng": 74.43
+      },
+      "images": [
+        "/images/forts/tal-chhapar-palace/tal-chhapar-palace.jpg",
+        "/images/dynasties/places/bikaner-rathore-main.jpg",
+        "/images/home/jaisalmer-fort.jpg",
+        "/images/forts/gajner-palace/1280px-Gajner_Palace_-_panoramio.jpg",
+        "/images/forts/gajner-palace/250px-Gajner_Palace__Staircase___Bikaner__Rajasthan.jpg",
+        "/images/forts/nagaur/500px-Nagaur_Fort.JPG",
+        "/images/forts/lalgarh/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg",
+        "/images/dynasties/places/jaisalmer-bhati-main.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "bhanwar-vilas-palace",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 26.5,
+        "lng": 77.02
+      },
+      "images": [
+        "/images/forts/bhanwar-vilas-palace/bhanwar-vilas-palace.jpg",
+        "/images/forts/bijai-garh/250px-Wallsbayana.jpg",
+        "/images/dynasties/places/tomar-delhi-gwalior-main.JPG",
+        "/images/forts/rasik-bihari/rasik-bihari.jpg",
+        "/images/dynasties/places/chauhan-ajmer-main.jpg",
+        "/images/home/chittorgarh-fort.jpg",
+        "/images/forts/bayana/bayana.jpg",
+        "/images/dynasties/gallery/vijay-stambha.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "brij-raj-bhawan",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 25.18,
+        "lng": 75.85
+      },
+      "images": [
+        "/images/forts/brij-raj-bhawan/brij-raj-bhawan.jpg",
+        "/images/dynasties/places/hada-bundi-kota-main.jpg",
+        "/images/home/chittorgarh-fort.jpg",
+        "/images/forts/bundi-palace/Bundi-Garh_Palace-20131016.jpg",
+        "/images/forts/samode-palace/Patio_at_Samode_Palace_in_Rajasthan_-_panoramio.jpg",
+        "/images/dynasties/places/mewar.jpg",
+        "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+        "/images/forts/deeg-palace/250px-Gopal_bhavan.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "khimsar-palace",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 26.98,
+        "lng": 73.4
+      },
+      "images": [
+        "/images/forts/nagaur/500px-Nagaur_Fort.JPG",
+        "/images/home/jodhpur-fort.jpg",
+        "/images/dynasties/places/marwar-rathore-main.jpg",
+        "/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg",
+        "/images/forts/ghanerao/ghanerao.jpg",
+        "/images/forts/laxmi-niwas-palace/500px-The_Laxmi_Niwas_Palace__Bikaner__Rajasthan.jpg",
+        "/images/dynasties/places/bikaner-rathore-main.jpg",
+        "/images/forts/sardargarh-palace/sardargarh-heritage-hotel.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "sardargarh-palace",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 25.23,
+        "lng": 74
+      },
+      "images": [
+        "/images/forts/sardargarh-palace/sardargarh-heritage-hotel.jpg",
+        "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+        "/images/dynasties/places/mewar.jpg",
+        "/images/home/chittorgarh-fort.jpg",
+        "/images/forts/devgarh/devgarh.jpg",
+        "/images/forts/ghanerao/ghanerao.jpg",
+        "/images/dynasties/gallery/vijay-stambha.jpg",
+        "/images/dynasties/places/marwar-rathore-main.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    },
+    {
+      "id": "narain-niwas-palace",
+      "category": "palace",
+      "standing": true,
+      "coordinates": {
+        "lat": 26.9,
+        "lng": 75.82
+      },
+      "images": [
+        "/images/forts/narain-niwas-palace/narain-niwas-palace.jpg",
+        "/images/forts/samode-palace/500px-Samode_Lounge.jpg",
+        "/images/dynasties/places/amber-kachwaha-main.jpg",
+        "/images/home/amer-fort.webp",
+        "/images/forts/samode-palace/Samode_Palace_courtyard_arcades_-_panoramio.jpg",
+        "/images/forts/deeg-palace/1280px-Rup_sagar_deeg.jpg",
+        "/images/forts/samode-palace/Patio_at_Samode_Palace_in_Rajasthan_-_panoramio.jpg",
+        "/images/forts/hawa-mahal/500px-East_facade_Hawa_Mahal_Jaipur_from_ground_level__July_2022__-_img_01.jpg"
+      ],
+      "videos": [],
+      "storyTags": []
+    }
+  ]
+}

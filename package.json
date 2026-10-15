@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "check:i18n": "node scripts/i18n/check-content.mjs && node scripts/i18n/check-keys.mjs",
+    "prebuild": "npm run check:i18n",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
@@ -26,12 +28,12 @@
     "react-dom": "^19.2.2",
     "react-hook-form": "^7.71.1",
     "react-intersection-observer": "^9.13.1",
-    "react-leaflet": "^4.2.1",  
+    "react-leaflet": "^4.2.1",
     "recharts": "^3.7.0",
-    "sanity": "^5.28.0",  
+    "sanity": "^5.28.0",
     "schema-dts": "^1.1.2",
     "styled-components": "^6.3.11",
-    "tailwind-merge": "^3.4.0",  
+    "tailwind-merge": "^3.4.0",
     "zod": "^4.3.6"
   },
   "devDependencies": {

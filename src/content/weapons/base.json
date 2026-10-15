@@ -1,0 +1,428 @@
+{
+  "categories": [
+    {
+      "id": "bladed",
+      "numeral": "I"
+    },
+    {
+      "id": "daggers",
+      "numeral": "II"
+    },
+    {
+      "id": "polearms",
+      "numeral": "III"
+    },
+    {
+      "id": "axes",
+      "numeral": "IV"
+    },
+    {
+      "id": "impact",
+      "numeral": "V"
+    },
+    {
+      "id": "missile",
+      "numeral": "VI"
+    },
+    {
+      "id": "firearms",
+      "numeral": "VII"
+    },
+    {
+      "id": "artillery",
+      "numeral": "VIII"
+    },
+    {
+      "id": "siege",
+      "numeral": "IX"
+    },
+    {
+      "id": "defense",
+      "numeral": "X"
+    },
+    {
+      "id": "cavalry",
+      "numeral": "XI"
+    },
+    {
+      "id": "animals",
+      "numeral": "XII"
+    },
+    {
+      "id": "ritual",
+      "numeral": "XIII"
+    }
+  ],
+  "weapons": [
+    {
+      "id": "talwar",
+      "category": "bladed",
+      "image": "/images/dynasties/rulers/maharana-pratap.jpg"
+    },
+    {
+      "id": "khanda",
+      "category": "bladed",
+      "image": "/images/dynasties/rulers/prithviraj-chauhan.jpg"
+    },
+    {
+      "id": "firangi",
+      "category": "bladed",
+      "image": "/images/dynasties/rulers/rana-kumbha.jpg"
+    },
+    {
+      "id": "pata",
+      "category": "bladed",
+      "image": "/images/dynasties/rulers/sawai-jai-singh.jpg"
+    },
+    {
+      "id": "saif",
+      "category": "bladed",
+      "image": "/images/dynasties/rulers/rao-maldeo.jpg"
+    },
+    {
+      "id": "tulwar",
+      "category": "bladed",
+      "image": "/images/dynasties/rulers/man-singh-tomar.jpg"
+    },
+    {
+      "id": "tegha",
+      "category": "bladed",
+      "image": "/images/dynasties/rulers/raja-bhoja-paramara.jpg"
+    },
+    {
+      "id": "asi",
+      "category": "bladed",
+      "image": "/images/dynasties/rulers/vigraharaja-iv.jpg"
+    },
+    {
+      "id": "karavela",
+      "category": "bladed",
+      "image": "/images/dynasties/rulers/rana-raimal.jpg"
+    },
+    {
+      "id": "katar",
+      "category": "daggers",
+      "image": "/images/dynasties/seals/mewar-sisodia-seal.png"
+    },
+    {
+      "id": "bichuwa",
+      "category": "daggers",
+      "image": "/images/dynasties/seals/marwar-rathore-seal.png"
+    },
+    {
+      "id": "chhuri",
+      "category": "daggers",
+      "image": "/images/dynasties/seals/chauhan-ajmer-seal.png"
+    },
+    {
+      "id": "jamdhar",
+      "category": "daggers",
+      "image": "/images/dynasties/seals/hada-bundi-kota-seal.png"
+    },
+    {
+      "id": "pesh-kabz",
+      "category": "daggers",
+      "image": "/images/dynasties/seals/jaisalmer-bhati-seal.png"
+    },
+    {
+      "id": "khanjar",
+      "category": "daggers",
+      "image": "/images/dynasties/seals/paramara-malwa-seal.jpg"
+    },
+    {
+      "id": "jambiya",
+      "category": "daggers",
+      "image": "/images/dynasties/seals/solanki-chaulukya-seal.png"
+    },
+    {
+      "id": "bhala",
+      "category": "polearms",
+      "image": "/images/dynasties/places/mewar.jpg"
+    },
+    {
+      "id": "barchha",
+      "category": "polearms",
+      "image": "/images/dynasties/places/marwar-rathore-main.jpg"
+    },
+    {
+      "id": "ballam",
+      "category": "polearms",
+      "image": "/images/dynasties/places/amber-kachwaha-main.jpg"
+    },
+    {
+      "id": "sang",
+      "category": "polearms",
+      "image": "/images/dynasties/places/hada-bundi-kota-main.jpg"
+    },
+    {
+      "id": "kont",
+      "category": "polearms",
+      "image": "/images/dynasties/places/paramara-malwa-main.jpg"
+    },
+    {
+      "id": "trishul",
+      "category": "polearms",
+      "image": "/images/dynasties/places/solanki-chaulukya-main.jpg"
+    },
+    {
+      "id": "halberd-rajput",
+      "category": "polearms",
+      "image": "/images/dynasties/places/jaisalmer-bhati-main.jpg"
+    },
+    {
+      "id": "parashu",
+      "category": "axes",
+      "image": "/images/dynasties/places/tomar-delhi-gwalior-main.JPG"
+    },
+    {
+      "id": "tabar",
+      "category": "axes",
+      "image": "/images/dynasties/places/bikaner-rathore-main.jpg"
+    },
+    {
+      "id": "pharsa",
+      "category": "axes",
+      "image": "/images/dynasties/gallery/kumbhalgarh-fort.jpg"
+    },
+    {
+      "id": "gajdal",
+      "category": "axes",
+      "image": "/images/dynasties/gallery/vijay-stambha.jpg"
+    },
+    {
+      "id": "double-axe",
+      "category": "axes",
+      "image": "/images/dynasties/places/mewar.jpg"
+    },
+    {
+      "id": "gada",
+      "category": "impact",
+      "image": "/images/dynasties/places/marwar-rathore-main.jpg"
+    },
+    {
+      "id": "gurz",
+      "category": "impact",
+      "image": "/images/dynasties/places/amber-kachwaha-main.jpg"
+    },
+    {
+      "id": "mudgar",
+      "category": "impact",
+      "image": "/images/dynasties/places/hada-bundi-kota-main.jpg"
+    },
+    {
+      "id": "spiked-mace",
+      "category": "impact",
+      "image": "/images/dynasties/places/paramara-malwa-main.jpg"
+    },
+    {
+      "id": "war-hammer",
+      "category": "impact",
+      "image": "/images/dynasties/places/solanki-chaulukya-main.jpg"
+    },
+    {
+      "id": "dhanush",
+      "category": "missile",
+      "image": "/images/dynasties/rulers/maharana-pratap.jpg"
+    },
+    {
+      "id": "composite-bow",
+      "category": "missile",
+      "image": "/images/dynasties/rulers/prithviraj-chauhan.jpg"
+    },
+    {
+      "id": "crossbow",
+      "category": "missile",
+      "image": "/images/dynasties/rulers/rana-kumbha.jpg"
+    },
+    {
+      "id": "chakram",
+      "category": "missile",
+      "image": "/images/dynasties/rulers/sawai-jai-singh.jpg"
+    },
+    {
+      "id": "sling",
+      "category": "missile",
+      "image": "/images/dynasties/rulers/rao-maldeo.jpg"
+    },
+    {
+      "id": "javelin",
+      "category": "missile",
+      "image": "/images/dynasties/rulers/man-singh-tomar.jpg"
+    },
+    {
+      "id": "matchlock",
+      "category": "firearms",
+      "image": "/images/dynasties/rulers/raja-bhoja-paramara.jpg"
+    },
+    {
+      "id": "jezail",
+      "category": "firearms",
+      "image": "/images/dynasties/rulers/vigraharaja-iv.jpg"
+    },
+    {
+      "id": "toradar",
+      "category": "firearms",
+      "image": "/images/dynasties/rulers/rana-raimal.jpg"
+    },
+    {
+      "id": "flintlock",
+      "category": "firearms",
+      "image": "/images/dynasties/rulers/amar-singh-ii.jpg"
+    },
+    {
+      "id": "hand-cannon",
+      "category": "firearms",
+      "image": "/images/dynasties/rulers/rao-chandrasen.jpg"
+    },
+    {
+      "id": "swivel-gun",
+      "category": "firearms",
+      "image": "/images/dynasties/rulers/rao-jodha.jpg"
+    },
+    {
+      "id": "rajput-cannon",
+      "category": "artillery",
+      "image": "/images/dynasties/places/mewar.jpg"
+    },
+    {
+      "id": "zamburak",
+      "category": "artillery",
+      "image": "/images/dynasties/places/marwar-rathore-main.jpg"
+    },
+    {
+      "id": "elephant-gun",
+      "category": "artillery",
+      "image": "/images/dynasties/places/amber-kachwaha-main.jpg"
+    },
+    {
+      "id": "rocket",
+      "category": "artillery",
+      "image": "/images/dynasties/places/hada-bundi-kota-main.jpg"
+    },
+    {
+      "id": "battering-ram",
+      "category": "siege",
+      "image": "/images/dynasties/places/paramara-malwa-main.jpg"
+    },
+    {
+      "id": "siege-tower",
+      "category": "siege",
+      "image": "/images/dynasties/places/solanki-chaulukya-main.jpg"
+    },
+    {
+      "id": "catapult",
+      "category": "siege",
+      "image": "/images/dynasties/places/jaisalmer-bhati-main.jpg"
+    },
+    {
+      "id": "fire-pot",
+      "category": "siege",
+      "image": "/images/dynasties/places/tomar-delhi-gwalior-main.JPG"
+    },
+    {
+      "id": "boiling-oil",
+      "category": "siege",
+      "image": "/images/dynasties/places/bikaner-rathore-main.jpg"
+    },
+    {
+      "id": "dhal",
+      "category": "defense",
+      "image": "/images/dynasties/seals/mewar-sisodia-seal.png"
+    },
+    {
+      "id": "sipar",
+      "category": "defense",
+      "image": "/images/dynasties/seals/marwar-rathore-seal.png"
+    },
+    {
+      "id": "katar-shield",
+      "category": "defense",
+      "image": "/images/dynasties/seals/chauhan-ajmer-seal.png"
+    },
+    {
+      "id": "chainmail",
+      "category": "defense",
+      "image": "/images/dynasties/seals/hada-bundi-kota-seal.png"
+    },
+    {
+      "id": "plate-armor",
+      "category": "defense",
+      "image": "/images/dynasties/seals/jaisalmer-bhati-seal.png"
+    },
+    {
+      "id": "helmet",
+      "category": "defense",
+      "image": "/images/dynasties/seals/tomar-delhi-gwalior-seal.jpg"
+    },
+    {
+      "id": "lance-cavalry",
+      "category": "cavalry",
+      "image": "/images/dynasties/places/mewar.jpg"
+    },
+    {
+      "id": "stirrups",
+      "category": "cavalry",
+      "image": "/images/dynasties/places/marwar-rathore-main.jpg"
+    },
+    {
+      "id": "saddle-blade",
+      "category": "cavalry",
+      "image": "/images/dynasties/places/amber-kachwaha-main.jpg"
+    },
+    {
+      "id": "horse-armor",
+      "category": "cavalry",
+      "image": "/images/dynasties/places/hada-bundi-kota-main.jpg"
+    },
+    {
+      "id": "war-banner",
+      "category": "cavalry",
+      "image": "/images/dynasties/gallery/vijay-stambha.jpg"
+    },
+    {
+      "id": "war-horse",
+      "category": "animals",
+      "image": "/images/dynasties/man-singh.jpg"
+    },
+    {
+      "id": "war-elephant",
+      "category": "animals",
+      "image": "/images/dynasties/rana-sanga.jpg"
+    },
+    {
+      "id": "tusk-blade",
+      "category": "animals",
+      "image": "/images/dynasties/bappa-rawal.jpg"
+    },
+    {
+      "id": "elephant-tower",
+      "category": "animals",
+      "image": "/images/dynasties/rao-jodha.jpg"
+    },
+    {
+      "id": "shakti",
+      "category": "ritual",
+      "image": "/images/dynasties/seals/paramara-malwa-seal.jpg"
+    },
+    {
+      "id": "sacred-sword",
+      "category": "ritual",
+      "image": "/images/dynasties/seals/solanki-chaulukya-seal.png"
+    },
+    {
+      "id": "victory-standard",
+      "category": "ritual",
+      "image": "/images/dynasties/gallery/vijay-stambha.jpg"
+    },
+    {
+      "id": "temple-weapon",
+      "category": "ritual",
+      "image": "/images/dynasties/seals/mewar-sisodia-seal.png"
+    },
+    {
+      "id": "coronation-blade",
+      "category": "ritual",
+      "image": "/images/dynasties/seals/marwar-rathore-seal.png"
+    }
+  ]
+}

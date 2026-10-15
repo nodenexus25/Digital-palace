@@ -1,0 +1,403 @@
+{
+  "festivals": {
+    "dussehra": {
+      "name": "Dussehra - Victory of Good over Evil",
+      "date": "Ashvin Shukla Dashami",
+      "significance": "Goddess Durga's victory over Mahishasura",
+      "rituals": [
+        "Worship of weapons",
+        "Buffalo sacrifice",
+        "Burning of Ravana's effigy"
+      ],
+      "description": "The most important festival of the Rajputs",
+      "story": "For the Rajputs, Dussehra is a celebration of dharma and valour. Its principal rites are the worship of weapons, the buffalo sacrifice, the burning of Ravana's effigy, hymns to the Goddess, and the Ramlila."
+    },
+    "holi": {
+      "name": "Holi - Festival of Colors and Unity",
+      "date": "Phalgun Purnima",
+      "significance": "Devotion, unity and the destruction of evil",
+      "rituals": [
+        "Holika Dahan bonfire",
+        "Colours and gulal",
+        "Gujiya sweets",
+        "Folk songs"
+      ],
+      "description": "A festival of unity and brotherhood in Rajput society",
+      "story": "After the Holika bonfire come colours and devotion, with Rajasthani songs, dances and traditional dishes."
+    },
+    "navratri": {
+      "name": "Navratri",
+      "date": "Ashvin / Chaitra",
+      "significance": "Worship of the Goddess and the pursuit of Shakti",
+      "rituals": [
+        "Fasting",
+        "Garba and dandiya",
+        "Worship of Durga",
+        "Havan fire offering"
+      ],
+      "description": "A nine-day festival of power and devotion",
+      "story": "During Navratri the Goddess is worshipped with fasts and devotional dances."
+    },
+    "vijayadashami": {
+      "name": "Dussehra / Vijayadashami",
+      "date": "Ashvin Shukla Dashami",
+      "significance": "The victory of truth over falsehood",
+      "rituals": [
+        "Worship of weapons",
+        "Burning of Ravana's effigy",
+        "Hymns to Durga"
+      ],
+      "description": "Remembrance of the triumph of dharma",
+      "story": "On Vijayadashami weapons are worshipped and evil is symbolically destroyed."
+    },
+    "diwali-raj-tilak-diwas": {
+      "name": "Diwali (Raj Tilak Diwas)",
+      "date": "Kartik Amavasya",
+      "significance": "Worship of Lakshmi and Ganesha, and remembrance of the royal coronation",
+      "rituals": [
+        "Lighting of lamps",
+        "Worship of Lakshmi",
+        "Worship of weapons"
+      ],
+      "description": "The festival of lights and the tilak tradition in royal households",
+      "story": "At Diwali, lamps are lit, Lakshmi and Ganesha are worshipped, and weapons are honoured."
+    },
+    "janmashtami": {
+      "name": "Janmashtami",
+      "date": "Bhadrapad Krishna Ashtami",
+      "significance": "Celebration of Krishna's birth",
+      "rituals": [
+        "Midnight worship",
+        "The butter-thief play",
+        "Tableaux"
+      ],
+      "description": "A festival of devotion to Krishna",
+      "story": "Tableaux of Krishna's birth and devotional songs."
+    },
+    "shivratri": {
+      "name": "Mahashivratri",
+      "date": "Phalgun Krishna Chaturdashi",
+      "significance": "The union of Shiva and Shakti",
+      "rituals": [
+        "Rudrabhishek",
+        "Fasting",
+        "Night-long vigil"
+      ],
+      "description": "A festival of worship of Shiva",
+      "story": "A night of spiritual practice with Rudrabhishek and fasting."
+    },
+    "ram-navami": {
+      "name": "Ram Navami",
+      "date": "Chaitra Shukla Navami",
+      "significance": "Celebration of Rama's birth",
+      "rituals": [
+        "Recitation of the Rama story",
+        "Devotional songs",
+        "Worship of the infant Rama"
+      ],
+      "description": "Remembrance of Rama's ideal conduct",
+      "story": "A celebration of Rama's birth and of devotion."
+    },
+    "kartik-purnima": {
+      "name": "Kartik Purnima",
+      "date": "Kartik Purnima",
+      "significance": "Sacred bathing and offering of lamps",
+      "rituals": [
+        "Offering of lamps",
+        "Bathing at holy sites",
+        "Worship"
+      ],
+      "description": "The tradition of holy bathing and lamp offerings",
+      "story": "Bathing at pilgrimage sites and floating lamps on the water."
+    },
+    "basant-panchami": {
+      "name": "Basant Panchami",
+      "date": "Magh Shukla Panchami",
+      "significance": "Worship of Saraswati",
+      "rituals": [
+        "Wearing yellow",
+        "Devotional songs",
+        "Worship"
+      ],
+      "description": "Welcoming learning and the spring",
+      "story": "A celebration of Saraswati and the colours of spring."
+    },
+    "akshay-tritiya": {
+      "name": "Akshay Tritiya",
+      "date": "Vaishakh Shukla Tritiya",
+      "significance": "Auspicious beginnings and charity",
+      "rituals": [
+        "Charity",
+        "Worship",
+        "Weddings"
+      ],
+      "description": "An auspicious day whose blessings never diminish",
+      "story": "A day for charity and for beginning auspicious undertakings."
+    },
+    "raksha-bandhan": {
+      "name": "Raksha Bandhan",
+      "date": "Shravan Purnima",
+      "significance": "A celebration of the bond between brother and sister",
+      "rituals": [
+        "Tying the rakhi",
+        "Blessings",
+        "Gifts"
+      ],
+      "description": "A pledge of protection and affection",
+      "story": "The rakhi and the promise of protection."
+    },
+    "teej": {
+      "name": "Teej - Monsoon Festival",
+      "date": "Shravan Shukla Tritiya",
+      "significance": "Marital happiness and love",
+      "rituals": [
+        "Swings",
+        "Henna",
+        "The sixteen adornments",
+        "Songs",
+        "Folk dances"
+      ],
+      "description": "A festival beloved of Rajput women",
+      "story": "A celebration of the monsoon month of Sawan, with swings, henna and the sixteen adornments."
+    },
+    "gangaur": {
+      "name": "Gangaur Festival",
+      "date": "Chaitra",
+      "significance": "Worship of Gauri-Parvati and marital fortune",
+      "rituals": [
+        "Worship of Gauri",
+        "Vermilion",
+        "Processions on the water",
+        "Street procession"
+      ],
+      "description": "The festival of the queen's adornment",
+      "story": "Worship of Mother Gauri, processions on the lakes, and street processions."
+    },
+    "gangaur-mela": {
+      "name": "Gangaur Mela",
+      "date": "Chaitra",
+      "significance": "The grace of Gauri-Parvati and good fortune",
+      "rituals": [
+        "Fair",
+        "Folk dances",
+        "Procession",
+        "Worship"
+      ],
+      "description": "The great Gangaur fairs and cultural programmes",
+      "story": "Folk dances, songs and cultural performances."
+    },
+    "marwar-festival": {
+      "name": "Marwar Festival",
+      "date": "Ashvin",
+      "significance": "A celebration of Marwar's culture",
+      "rituals": [
+        "Folk dances",
+        "Heroic ballads",
+        "Camel show",
+        "Cultural performances"
+      ],
+      "description": "The cultural festival of the Jodhpur region",
+      "story": "Heroic ballads, dances and the camel show."
+    },
+    "desert-festival-jaisalmer": {
+      "name": "Desert Festival (Jaisalmer)",
+      "date": "Magh / Phalgun",
+      "significance": "The cultural heritage of the Thar",
+      "rituals": [
+        "Camel races",
+        "Folk dances",
+        "Sand art",
+        "Performances"
+      ],
+      "description": "A grand celebration of the culture of the Thar Desert",
+      "story": "Desert sports and folk art."
+    },
+    "mevar-festival-udaipur": {
+      "name": "Mewar Festival (Udaipur)",
+      "date": "Chaitra",
+      "significance": "The cultural tradition of Mewar",
+      "rituals": [
+        "Procession",
+        "Folk dances",
+        "Display of arms"
+      ],
+      "description": "A celebration of cultural heritage in Udaipur",
+      "story": "Processions and cultural programmes."
+    },
+    "chittorgarh-jauhar-mela": {
+      "name": "Chittorgarh Jauhar Mela",
+      "date": "Phalgun",
+      "significance": "Remembrance of the jauhar of the Rajput women",
+      "rituals": [
+        "Memorial gathering",
+        "Procession",
+        "Heroic ballads",
+        "Floral tribute"
+      ],
+      "description": "The spiritual and historical memory of jauhar",
+      "story": "In memory of the jauhar of Rani Padmini and the women of Chittor."
+    },
+    "rajputana-vijay-diwas": {
+      "name": "Rajputana Vijay Diwas",
+      "date": "According to the respective battles",
+      "significance": "Remembrance of Rajput victories and valour",
+      "rituals": [
+        "Salute to valour",
+        "Exhibition of arms",
+        "Heroic ballads",
+        "Floral tribute"
+      ],
+      "description": "A celebration of valour on the anniversaries of victories",
+      "story": "A collective remembrance of victories, with the worship of weapons and heroic ballads."
+    },
+    "rath-yatra-rajput-warriors": {
+      "name": "Rath Yatra of Rajput Warriors",
+      "date": "Special festival day",
+      "significance": "The warrior tradition and reverence for arms",
+      "rituals": [
+        "Chariot procession",
+        "Bearing of arms",
+        "Victory cries",
+        "Hymns of praise"
+      ],
+      "description": "The chariot-procession tradition of Rajput warriors",
+      "story": "A procession of chariots, with warriors bearing arms and raising victory cries."
+    },
+    "shastra-tilak-puja": {
+      "name": "Shastra Tilak / Shastra Puja",
+      "date": "Dussehra and special occasions",
+      "significance": "Spiritual reverence for weapons",
+      "rituals": [
+        "Tilak",
+        "Flowers",
+        "Incense and lamps",
+        "Chanting of mantras",
+        "Solemn vow"
+      ],
+      "description": "Worship of weapons as instruments of dharma",
+      "story": "Swords, spears, bows and other weapons are marked with tilak while mantras are chanted."
+    },
+    "kshatriya-ekadashi": {
+      "name": "Kshatriya Ekadashi",
+      "date": "A special Ekadashi",
+      "significance": "Remembrance of Kshatriya dharma, with a fast",
+      "rituals": [
+        "Fasting",
+        "Recitation",
+        "Remembrance of arms",
+        "Charity"
+      ],
+      "description": "Upholding the ideals of Kshatriya dharma",
+      "story": "A fast, remembrance of dharma, and a renewed vow of valour."
+    },
+    "jauhar-smriti-diwas": {
+      "name": "Jauhar Smriti Diwas",
+      "date": "Historical date",
+      "significance": "Remembrance of the courage of Rajput women",
+      "rituals": [
+        "Memorial gathering",
+        "Floral tribute",
+        "Heroic ballads",
+        "Offering of lamps"
+      ],
+      "description": "Remembrance of and homage to the jauhar tradition",
+      "story": "The sagas of jauhar are recalled and homage is paid."
+    },
+    "haldi-ghati-vijay-parv": {
+      "name": "Haldi Ghati Vijay Parv",
+      "date": "18 June (traditional remembrance)",
+      "significance": "Remembrance of Maharana Pratap's valour",
+      "rituals": [
+        "Bearing of arms",
+        "Heroic ballads",
+        "Floral tribute"
+      ],
+      "description": "A celebration of the valour shown at the Battle of Haldighati",
+      "story": "A remembrance of the valour of Maharana Pratap."
+    },
+    "pratap-jayanti": {
+      "name": "Pratap Jayanti",
+      "date": "Jyeshtha Shukla Tritiya (by tradition)",
+      "significance": "The birth anniversary of Maharana Pratap",
+      "rituals": [
+        "Worship of weapons",
+        "Procession",
+        "Heroic ballads"
+      ],
+      "description": "The grand celebration of Pratap Jayanti in Mewar",
+      "story": "On Pratap's birth anniversary, weapons are worshipped and songs of valour are sung."
+    },
+    "hammir-jayanti": {
+      "name": "Hammir Jayanti",
+      "date": "Historical date",
+      "significance": "Remembrance of Rana Hammir",
+      "rituals": [
+        "Memorial gathering",
+        "Heroic ballads",
+        "Floral tribute"
+      ],
+      "description": "Remembrance of Hammir's prowess",
+      "story": "A remembrance of Rana Hammir's prowess and his restoration of the kingdom."
+    },
+    "durgadas-jayanti": {
+      "name": "Durgadas Jayanti",
+      "date": "Historical date",
+      "significance": "Remembrance of Durgadas Rathore",
+      "rituals": [
+        "Heroic ballads",
+        "Storytelling",
+        "Floral tribute"
+      ],
+      "description": "Remembering the story of Durgadas's courage",
+      "story": "The saga of Durgadas Rathore's courage in defending the kingdom."
+    },
+    "rawal-nainsi-jayanti": {
+      "name": "Muhnot Nainsi Jayanti",
+      "date": "Historical date",
+      "significance": "Remembrance of Muhnot Nainsi, historian and administrator",
+      "rituals": [
+        "Storytelling",
+        "Reading of the chronicles",
+        "Floral tribute"
+      ],
+      "description": "Remembering the contributions of Muhnot Nainsi",
+      "story": "A remembrance of one of the most important chroniclers of Rajasthani history."
+    },
+    "mewar-foundation-day": {
+      "name": "Mewar Foundation Day",
+      "date": "Historical date",
+      "significance": "Celebration of the founding of the Mewar kingdom",
+      "rituals": [
+        "Flag hoisting",
+        "Cultural programmes",
+        "Discussions of history"
+      ],
+      "description": "The festival of the historic founding of Mewar",
+      "story": "The founding of the kingdom of Mewar and its glorious history."
+    },
+    "marwar-foundation-day": {
+      "name": "Marwar Foundation Day",
+      "date": "Historical date",
+      "significance": "Celebration of the founding of the Marwar kingdom",
+      "rituals": [
+        "Festivities",
+        "Folk dances",
+        "Remembrance of history"
+      ],
+      "description": "The glorious day of Marwar's founding",
+      "story": "The founding of the kingdom of Marwar and the history of the Rathore dynasty."
+    },
+    "bikaner-foundation-day": {
+      "name": "Bikaner Foundation Day",
+      "date": "Akha Teej (Vaishakh Shukla Tritiya)",
+      "significance": "The founding of Bikaner by Rao Bika",
+      "rituals": [
+        "Kite flying",
+        "Folk songs",
+        "Festivities"
+      ],
+      "description": "The historic festival of Bikaner's founding",
+      "story": "The founding of Bikaner by Rao Bika, and the celebrations that mark it."
+    }
+  }
+}

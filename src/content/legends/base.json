@@ -1,0 +1,958 @@
+{
+  "legends": [
+    {
+      "id": "haldighati",
+      "cover": "/images/battles/legendary-figures/maharana-pratap.jpg",
+      "gallery": [
+        "/images/dynasties/places/mewar.jpg",
+        "/images/dynasties/rana-sanga.jpg"
+      ],
+      "videos": [
+        {
+          "provider": "mp4",
+          "url": "/videos/haldighati-landscape.mp4"
+        }
+      ]
+    },
+    {
+      "id": "chittor-pyre",
+      "cover": "/images/dynasties/places/mewar.jpg",
+      "gallery": [
+        "/images/dynasties/places/mewar.jpg",
+        "/images/dynasties/gallery/kumbhalgarh-fort.jpg"
+      ],
+      "videos": []
+    },
+    {
+      "id": "jaipur-lancers",
+      "cover": "/images/dynasties/places/amber-kachwaha-main.jpg",
+      "gallery": [
+        "/images/dynasties/man-singh.jpg"
+      ],
+      "videos": [
+        {
+          "provider": "mp4",
+          "url": "/videos/jaipur-lancers-charge.mp4"
+        }
+      ]
+    },
+    {
+      "id": "padmini-mirror",
+      "cover": "/images/dynasties/rani-padmini.jpg",
+      "gallery": [
+        "/images/dynasties/places/mewar.jpg"
+      ],
+      "videos": []
+    },
+    {
+      "id": "kesari-oath",
+      "cover": "/images/dynasties/gallery/vijay-stambha.jpg",
+      "gallery": [
+        "/images/dynasties/seals/mewar-sisodia-seal.png"
+      ],
+      "videos": []
+    },
+    {
+      "id": "unnamed-sentry",
+      "cover": "/images/dynasties/places/jaisalmer-bhati-main.jpg",
+      "gallery": [
+        "/images/dynasties/places/bikaner-rathore-main.jpg"
+      ],
+      "videos": []
+    },
+    {
+      "id": "tale-of-pabuji-rathore",
+      "cover": "/images/dynasties/places/marwar-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "pabuji-and-the-sacred-camels",
+      "cover": "/images/dynasties/places/marwar-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "devnarayan-epic",
+      "cover": "/images/dynasties/places/paramara-malwa-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "devnarayan-and-the-gurjar-warriors",
+      "cover": "/images/dynasties/places/paramara-malwa-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "tejaji-and-the-serpent-vow",
+      "cover": "/images/dynasties/places/marwar-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "gogaji-the-snake-protector",
+      "cover": "/images/dynasties/places/bikaner-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "ramdevji-of-runicha",
+      "cover": "/images/dynasties/places/marwar-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "veer-durgadas-rathores-loyalty",
+      "cover": "/images/dynasties/places/marwar-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "hadi-ranis-sacrifice",
+      "cover": "/images/dynasties/hadi-rani.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "veer-kalyan-singhs-last-ride",
+      "cover": "/images/dynasties/places/hada-bundi-kota-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "tale-of-the-charan-bards",
+      "cover": "/images/dynasties/gallery/vijay-stambha.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "ballad-of-the-kesariya-turban",
+      "cover": "/images/dynasties/seals/mewar-sisodia-seal.png",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "legend-of-the-rajput-sword-oath",
+      "cover": "/images/dynasties/seals/chauhan-ajmer-seal.png",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "tale-of-the-desert-falcon",
+      "cover": "/images/dynasties/places/jaisalmer-bhati-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "legend-of-the-eternal-watch-at-chittor",
+      "cover": "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "ballad-of-the-aravalli-riders",
+      "cover": "/images/dynasties/places/mewar.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "tale-of-the-desert-sentinel",
+      "cover": "/images/dynasties/places/bikaner-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "legend-of-the-midnight-cavalry",
+      "cover": "/images/dynasties/places/marwar-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "ballad-of-the-warrior-bride",
+      "cover": "/images/dynasties/rani-lakshmibai.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "tale-of-the-blood-oath",
+      "cover": "/images/dynasties/seals/hada-bundi-kota-seal.png",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "legend-of-the-rajput-war-drum",
+      "cover": "/images/dynasties/places/amber-kachwaha-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "ballad-of-the-camel-riders",
+      "cover": "/images/dynasties/places/bikaner-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "tale-of-the-rajput-falconers",
+      "cover": "/images/dynasties/man-singh.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "legend-of-the-warrior-s-pyre",
+      "cover": "/images/dynasties/rana-sanga.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "ballad-of-the-desert-storm-riders",
+      "cover": "/images/dynasties/maharana-pratap.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "tale-of-the-rajput-fortress-builders",
+      "cover": "/images/dynasties/places/mewar.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "legend-of-the-golden-turban",
+      "cover": "/images/dynasties/rulers/raja-bhoja-paramara.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "ballad-of-the-last-defender",
+      "cover": "/images/dynasties/places/tomar-delhi-gwalior-main.JPG",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "tale-of-the-night-watchmen",
+      "cover": "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "legend-of-the-aravalli-guardians",
+      "cover": "/images/dynasties/places/mewar.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "tale-of-the-warrior-monk",
+      "cover": "/images/dynasties/hammir-dev.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "legend-of-the-rajput-war-banner",
+      "cover": "/images/dynasties/seals/solanki-chaulukya-seal.png",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "ballad-of-the-sword-of-mewar",
+      "cover": "/images/dynasties/rulers/rana-kumbha.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "tale-of-the-rajput-horse-masters",
+      "cover": "/images/dynasties/rulers/rao-jodha.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "legend-of-the-desert-shield",
+      "cover": "/images/dynasties/places/jaisalmer-bhati-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "ballad-of-the-rajput-war-chant",
+      "cover": "/images/dynasties/places/hada-bundi-kota-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "tale-of-the-fortress-keepers",
+      "cover": "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "legend-of-the-hidden-treasure-of-mewar",
+      "cover": "/images/dynasties/seals/paramara-malwa-seal.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "ballad-of-the-rajput-scouts",
+      "cover": "/images/dynasties/places/marwar-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "tale-of-the-silent-riders",
+      "cover": "/images/dynasties/rulers/prithviraj-chauhan.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "legend-of-the-rajput-flame",
+      "cover": "/images/dynasties/seals/jaisalmer-bhati-seal.png",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "ballad-of-the-eternal-kesariya",
+      "cover": "/images/dynasties/gallery/vijay-stambha.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "tale-of-the-rajput-bloodline",
+      "cover": "/images/dynasties/seals/marwar-rathore-seal.png",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "legend-of-the-warrior-s-return",
+      "cover": "/images/dynasties/rulers/amar-singh-ii.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "ballad-of-the-rajput-oathkeepers",
+      "cover": "/images/dynasties/places/hada-bundi-kota-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "tale-of-the-desert-pilgrimage",
+      "cover": "/images/dynasties/places/jaisalmer-bhati-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "legend-of-the-warrior-s-shadow",
+      "cover": "/images/dynasties/rana-sanga.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "ballad-of-the-rajput-war-path",
+      "cover": "/images/dynasties/rulers/sawai-jai-singh.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "tale-of-the-guardians-of-chittor",
+      "cover": "/images/dynasties/places/mewar.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "legend-of-the-last-rajput-sentinel",
+      "cover": "/images/dynasties/places/tomar-delhi-gwalior-main.JPG",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "jauhar-padmini",
+      "cover": "/images/dynasties/rani-padmini.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "gora-badal-rescue",
+      "cover": "/images/dynasties/places/mewar.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "panna-dai-sacrifice",
+      "cover": "/images/dynasties/rani-kamlapati.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "chetak-last-leap",
+      "cover": "/images/dynasties/rana-sanga.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "bhamashah-treasure",
+      "cover": "/images/dynasties/rulers/man-singh-tomar.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "rao-jodha-jodhpur",
+      "cover": "/images/dynasties/rao-jodha.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "rao-bika-bikaner",
+      "cover": "/images/dynasties/places/bikaner-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "rana-kumbha-fortress",
+      "cover": "/images/dynasties/rana-kumbha.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "maharana-pratap-exile",
+      "cover": "/images/dynasties/maharana-pratap.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "bhil-alliance",
+      "cover": "/images/dynasties/places/mewar.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "veer-kalla-rathore",
+      "cover": "/images/dynasties/places/marwar-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "rajput-saka-tradition",
+      "cover": "/images/dynasties/gallery/vijay-stambha.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "jaisalmer-jauhars",
+      "cover": "/images/dynasties/places/jaisalmer-bhati-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "defense-of-ranthambore",
+      "cover": "/images/dynasties/places/mewar.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "siege-of-siwana",
+      "cover": "/images/dynasties/places/marwar-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "defense-of-jalor",
+      "cover": "/images/dynasties/seals/paramara-malwa-seal.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "bhuchar-mori-war",
+      "cover": "/images/dynasties/places/solanki-chaulukya-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "rajput-counterattack-dewair",
+      "cover": "/images/dynasties/rulers/rana-raimal.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "marwar-war-succession",
+      "cover": "/images/dynasties/places/marwar-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "kachwaha-rise-amber",
+      "cover": "/images/dynasties/places/amber-kachwaha-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "jodhpur-lancers-haifa",
+      "cover": "/images/dynasties/places/amber-kachwaha-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "rajput-coronation-traditions",
+      "cover": "/images/dynasties/sawai-jai-singh.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "rajput-sword-worship",
+      "cover": "/images/dynasties/seals/mewar-sisodia-seal.png",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "rajput-dussehra-arms",
+      "cover": "/images/dynasties/ahilyabai-holkar.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "rajput-horse-festival",
+      "cover": "/images/dynasties/rulers/rao-jodha.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "rajput-war-oath-ceremony",
+      "cover": "/images/dynasties/seals/hada-bundi-kota-seal.png",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "defense-of-kumbhalgarh",
+      "cover": "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "defense-of-mehrangarh",
+      "cover": "/images/dynasties/places/marwar-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "defense-of-junagarh",
+      "cover": "/images/dynasties/places/bikaner-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "battle-of-mandalgarh",
+      "cover": "/images/dynasties/places/mewar.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "battle-of-bayana",
+      "cover": "/images/dynasties/places/tomar-delhi-gwalior-main.JPG",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "defense-of-nagaur",
+      "cover": "/images/dynasties/places/marwar-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "defense-of-mount-abu",
+      "cover": "/images/dynasties/places/solanki-chaulukya-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "defense-of-sirohi",
+      "cover": "/images/dynasties/places/solanki-chaulukya-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "rajput-regiment-tales",
+      "cover": "/images/dynasties/prithviraj-chauhan.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "rajput-victory-procession",
+      "cover": "/images/dynasties/gallery/vijay-stambha.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "rajput-signal-fires",
+      "cover": "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "rajput-war-council",
+      "cover": "/images/dynasties/seals/hada-bundi-kota-seal.png",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "defense-thar-caravan-routes",
+      "cover": "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "rajput-camel-charge",
+      "cover": "/images/dynasties/places/bikaner-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "battle-luni-river",
+      "cover": "/images/dynasties/places/bikaner-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "defense-pokhran-fort",
+      "cover": "/images/dynasties/places/bikaner-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "siege-barmer",
+      "cover": "/images/dynasties/places/bikaner-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "desert-stand-rathores",
+      "cover": "/images/dynasties/places/bikaner-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "aravalli-mountain-ambush",
+      "cover": "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "night-assault-gogunda",
+      "cover": "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "defense-kumbhalgarh-passes",
+      "cover": "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "battle-banas-valley",
+      "cover": "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "siege-break-kumbhalgarh",
+      "cover": "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "stand-amet",
+      "cover": "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "resistance-idar",
+      "cover": "/images/dynasties/seals/solanki-chaulukya-seal.png",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "siege-sirohi-fort",
+      "cover": "/images/dynasties/seals/solanki-chaulukya-seal.png",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "battle-abu-pass",
+      "cover": "/images/dynasties/seals/solanki-chaulukya-seal.png",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "defense-chandravati",
+      "cover": "/images/dynasties/seals/solanki-chaulukya-seal.png",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "campaign-abu-plateau",
+      "cover": "/images/dynasties/seals/solanki-chaulukya-seal.png",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "border-war-mewar",
+      "cover": "/images/dynasties/places/mewar.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "defense-dungarpur",
+      "cover": "/images/dynasties/places/mewar.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "stand-banswara",
+      "cover": "/images/dynasties/places/mewar.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "battle-bhilwara-plains",
+      "cover": "/images/dynasties/places/mewar.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "defense-chappan-region",
+      "cover": "/images/dynasties/places/mewar.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "guerrilla-hills",
+      "cover": "/images/dynasties/places/mewar.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "cavalry-plains",
+      "cover": "/images/dynasties/rulers/rana-sanga.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "siege-badnor",
+      "cover": "/images/dynasties/rulers/rana-sanga.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "defense-begun-fort",
+      "cover": "/images/dynasties/rulers/rana-sanga.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "stand-banera",
+      "cover": "/images/dynasties/rulers/rana-sanga.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "border-war-marwar",
+      "cover": "/images/dynasties/places/bikaner-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "rathore-desert-campaign",
+      "cover": "/images/dynasties/places/bikaner-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "defense-didwana",
+      "cover": "/images/dynasties/places/marwar-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "battle-nagaur-plains",
+      "cover": "/images/dynasties/places/marwar-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "rathore-charge-marwar",
+      "cover": "/images/dynasties/places/marwar-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "defense-merta-fort",
+      "cover": "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "stand-sojat",
+      "cover": "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "siege-pali",
+      "cover": "/images/dynasties/places/marwar-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "battle-bikaner-sands",
+      "cover": "/images/dynasties/places/bikaner-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "defense-kolayat",
+      "cover": "/images/dynasties/places/bikaner-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "desert-march-bikaner",
+      "cover": "/images/dynasties/places/bikaner-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "stand-churu",
+      "cover": "/images/dynasties/places/bikaner-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "border-defense-shekhawati",
+      "cover": "/images/dynasties/places/amber-kachwaha-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "siege-fatehpur-shekhawati",
+      "cover": "/images/dynasties/places/amber-kachwaha-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "stand-jhunjhunu",
+      "cover": "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "defense-jaigarh",
+      "cover": "/images/dynasties/places/amber-kachwaha-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "stand-nahargarh",
+      "cover": "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "battle-amber-plains",
+      "cover": "/images/dynasties/places/amber-kachwaha-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "defense-jamwa-ramgarh",
+      "cover": "/images/dynasties/places/amber-kachwaha-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "charge-kachwahas",
+      "cover": "/images/dynasties/places/amber-kachwaha-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "siege-sambhar",
+      "cover": "/images/dynasties/places/amber-kachwaha-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "defense-salt-lake",
+      "cover": "/images/dynasties/places/amber-kachwaha-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "battle-dausa",
+      "cover": "/images/dynasties/places/amber-kachwaha-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "siege-bundi-taragarh",
+      "cover": "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "kota-hada-campaign",
+      "cover": "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "defense-gagron-fort",
+      "cover": "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "ballad-pabuji-horse-kesar",
+      "cover": "/images/dynasties/places/marwar-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "ballad-tejaji-snake-blessing",
+      "cover": "/images/dynasties/places/marwar-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "legend-war-tilak",
+      "cover": "/images/dynasties/rulers/rana-sanga.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "legend-war-feast",
+      "cover": "/images/dynasties/rulers/rana-sanga.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "legend-victory-fires",
+      "cover": "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "tale-desert-kings",
+      "cover": "/images/dynasties/places/bikaner-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "legend-desert-thunder",
+      "cover": "/images/dynasties/places/bikaner-rathore-main.jpg",
+      "gallery": [],
+      "videos": []
+    },
+    {
+      "id": "legend-aravalli-thunder",
+      "cover": "/images/dynasties/gallery/kumbhalgarh-fort.jpg",
+      "gallery": [],
+      "videos": []
+    }
+  ]
+}

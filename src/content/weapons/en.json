@@ -1,0 +1,711 @@
+{
+  "categories": {
+    "bladed": {
+      "title": "Bladed Weapons"
+    },
+    "daggers": {
+      "title": "Daggers"
+    },
+    "polearms": {
+      "title": "Polearms"
+    },
+    "axes": {
+      "title": "Axes"
+    },
+    "impact": {
+      "title": "Impact"
+    },
+    "missile": {
+      "title": "Missile"
+    },
+    "firearms": {
+      "title": "Firearms"
+    },
+    "artillery": {
+      "title": "Artillery"
+    },
+    "siege": {
+      "title": "Siege"
+    },
+    "defense": {
+      "title": "Defense"
+    },
+    "cavalry": {
+      "title": "Cavalry"
+    },
+    "animals": {
+      "title": "Animals"
+    },
+    "ritual": {
+      "title": "Ritual"
+    }
+  },
+  "weapons": {
+    "talwar": {
+      "name": "Talwar",
+      "subtitle": "The Curved Killing Blade",
+      "description": "The quintessential Rajput sword. Its curved blade is engineered for the draw-cut, capable of decapitating an enemy in a single fluid motion from horseback.",
+      "type": "Slash & Draw",
+      "lethality": "High",
+      "role": "Primary Sidearm",
+      "era": "16th-19th Century"
+    },
+    "khanda": {
+      "name": "Khanda",
+      "subtitle": "The Double-Edged Cleaver",
+      "description": "A straight, heavy, double-edged sword with a reinforced spine. Designed to hack through mail and bone. A weapon of brute force and religious significance.",
+      "type": "Cleave & Crush",
+      "lethality": "Extreme",
+      "role": "Heavy Infantry",
+      "era": "Ancient-18th Century"
+    },
+    "firangi": {
+      "name": "Firangi",
+      "subtitle": "The Foreign Blade",
+      "description": "Imported European blades (Portuguese/German) mounted on Hindu basket hilts. Used for their superior reach and thrusting capability in cavalry charges.",
+      "type": "Thrust & Reach",
+      "lethality": "High",
+      "role": "Cavalry",
+      "era": "17th-19th Century"
+    },
+    "pata": {
+      "name": "Pata",
+      "subtitle": "The Gauntlet Sword",
+      "description": "A sword integrated into a steel gauntlet. The warrior becomes the weapon. Impossible to disarm, used for slashing through infantry lines.",
+      "type": "Slash & Thrust",
+      "lethality": "High",
+      "role": "Shock Troops",
+      "era": "16th-18th Century"
+    },
+    "saif": {
+      "name": "Saif",
+      "subtitle": "The Straight Edge",
+      "description": "A broad, straight-bladed sword of Arab origin adapted by Rajputs. Focuses on durability and piercing power against chainmail.",
+      "type": "Cut & Thrust",
+      "lethality": "High",
+      "role": "Infantry",
+      "era": "Medieval"
+    },
+    "tulwar": {
+      "name": "Tulwar",
+      "subtitle": "Variant Curved Saber",
+      "description": "A heavier variation of the Talwar with a deeper curve, optimizing the mechanics of the draw cut for dismounted combat.",
+      "type": "Deep Slash",
+      "lethality": "Fatal",
+      "role": "Duelist",
+      "era": "17th Century"
+    },
+    "tegha": {
+      "name": "Tegha",
+      "subtitle": "The Executioner's Blade",
+      "description": "A massive, broad curved sword. Too heavy for prolonged combat, used for executions or by the strongest warriors to sever limbs in one blow.",
+      "type": "Sever",
+      "lethality": "Extreme",
+      "role": "Execution / Shock",
+      "era": "17th-19th Century"
+    },
+    "asi": {
+      "name": "Asi",
+      "subtitle": "The Lotus Blade",
+      "description": "An ancient form of sword mentioned in epics, precursor to the Khanda. Represents the primordial sword created to destroy evil.",
+      "type": "Divine Strike",
+      "lethality": "Legendary",
+      "role": "Ceremonial / War",
+      "era": "Ancient"
+    },
+    "karavela": {
+      "name": "Karavela",
+      "subtitle": "The Sickle Blade",
+      "description": "A sword with a distinct sickle-like curve, designed to hook shields and limbs.",
+      "type": "Hook & Slash",
+      "lethality": "High",
+      "role": "Specialized",
+      "era": "Medieval"
+    },
+    "katar": {
+      "name": "Katar",
+      "subtitle": "The Punching Dagger",
+      "description": "The most famous Rajput dagger. An H-shaped handle allows the warrior to put their full body weight behind a thrust that can pierce armor.",
+      "type": "Armor Piercing",
+      "lethality": "Fatal",
+      "role": "Close Quarters",
+      "era": "14th-19th Century"
+    },
+    "bichuwa": {
+      "name": "Bichuwa",
+      "subtitle": "The Scorpion",
+      "description": "A double-curved dagger resembling a scorpion's sting. Often looped over fingers, used for concealed, upward gutting strikes.",
+      "type": "Gut & Slash",
+      "lethality": "Medium",
+      "role": "Assassin / Backup",
+      "era": "Medieval"
+    },
+    "chhuri": {
+      "name": "Chhuri",
+      "subtitle": "The War Knife",
+      "description": "A single-edged knife with a slightly curved blade. A utility tool that doubles as a deadly close-range weapon.",
+      "type": "Slash",
+      "lethality": "Medium",
+      "role": "Utility / Defense",
+      "era": "All Eras"
+    },
+    "jamdhar": {
+      "name": "Jamdhar",
+      "subtitle": "The Death Tooth",
+      "description": "A broad-bladed variant of the Katar. \"Jamdhar\" implies the tooth of Yama, the God of Death. Inflicts massive, gaping wounds.",
+      "type": "Massive Trauma",
+      "lethality": "High",
+      "role": "Close Combat",
+      "era": "16th Century"
+    },
+    "pesh-kabz": {
+      "name": "Pesh-kabz",
+      "subtitle": "The Mail Piercer",
+      "description": "A dagger with a T-spine designed specifically to split chainmail links. The tip is reinforced for maximum penetration.",
+      "type": "Pierce Armor",
+      "lethality": "High",
+      "role": "Anti-Armor",
+      "era": "17th-19th Century"
+    },
+    "khanjar": {
+      "name": "Khanjar",
+      "subtitle": "The Curved Fang",
+      "description": "A dagger with a recurved blade, often with a pistol-grip hilt. Optimized for slashing capability.",
+      "type": "Slash",
+      "lethality": "High",
+      "role": "Sidearm",
+      "era": "Mughal-Rajput"
+    },
+    "jambiya": {
+      "name": "Jambiya",
+      "subtitle": "The Arab Influence",
+      "description": "A curved dagger with a medial ridge. Adopted from Arab traders and mercenaries, integrated into Rajput armories.",
+      "type": "Slash",
+      "lethality": "Medium",
+      "role": "Status / Combat",
+      "era": "Medieval"
+    },
+    "bhala": {
+      "name": "Bhala",
+      "subtitle": "The Infantry Spear",
+      "description": "The standard spear of the Rajput foot soldier. A bamboo or wood shaft with a razor-sharp steel head.",
+      "type": "Thrust",
+      "lethality": "High",
+      "role": "Formation Fighting",
+      "era": "Ancient-Medieval"
+    },
+    "barchha": {
+      "name": "Barchha",
+      "subtitle": "The Heavy Lance",
+      "description": "A heavy, all-metal lance used by cavalry. Could penetrate shields and armor through the sheer momentum of a charge.",
+      "type": "Heavy Thrust",
+      "lethality": "Extreme",
+      "role": "Shock Cavalry",
+      "era": "Medieval"
+    },
+    "ballam": {
+      "name": "Ballam",
+      "subtitle": "The Short Spear",
+      "description": "A shorter spear used for close-quarters skirmishing or thrown as a heavy javelin.",
+      "type": "Thrust & Throw",
+      "lethality": "Medium",
+      "role": "Skirmisher",
+      "era": "All Eras"
+    },
+    "sang": {
+      "name": "Sang",
+      "subtitle": "The Iron Pike",
+      "description": "A long lance made entirely of iron. Used by heavy cavalry to break enemy formations. Often possessed a quadrangular tip.",
+      "type": "Pierce",
+      "lethality": "Extreme",
+      "role": "Heavy Cavalry",
+      "era": "Medieval"
+    },
+    "kont": {
+      "name": "Kont",
+      "subtitle": "The Spiked Staff",
+      "description": "A spear with a long, faceted blade, often used to penetrate deep into targets.",
+      "type": "Deep Pierce",
+      "lethality": "High",
+      "role": "Infantry",
+      "era": "Medieval"
+    },
+    "trishul": {
+      "name": "Trishul",
+      "subtitle": "The Trident",
+      "description": "A three-pronged spear. While symbolic of Shiva, war variants were used to trap enemy weapons and disarm opponents.",
+      "type": "Disarm & Stab",
+      "lethality": "High",
+      "role": "Ritual / Combat",
+      "era": "Ancient"
+    },
+    "halberd-rajput": {
+      "name": "Rajput Halberd",
+      "subtitle": "The Axe-Spear",
+      "description": "Indian variants of the halberd, combining a spear tip with an axe blade or hook. Versatile against both cavalry and infantry.",
+      "type": "Chop & Thrust",
+      "lethality": "High",
+      "role": "Guard / Infantry",
+      "era": "17th Century"
+    },
+    "parashu": {
+      "name": "Parashu",
+      "subtitle": "The Battle Axe",
+      "description": "The classical Indian battle axe. Single or double-bladed, used to deliver crushing blows that ignore armor.",
+      "type": "Chop",
+      "lethality": "High",
+      "role": "Infantry",
+      "era": "Ancient"
+    },
+    "tabar": {
+      "name": "Tabar",
+      "subtitle": "The Saddle Axe",
+      "description": "A light battle axe often carried by cavalry in a saddle holster. Perfect for breaking helmets in a melee.",
+      "type": "Armor Break",
+      "lethality": "High",
+      "role": "Cavalry Sidearm",
+      "era": "Medieval"
+    },
+    "pharsa": {
+      "name": "Pharsa",
+      "subtitle": "The Heavy Cleaver",
+      "description": "A long-handled axe used by foot soldiers. Its reach allowed it to be brought down with tremendous force on shielded enemies.",
+      "type": "Cleave",
+      "lethality": "Extreme",
+      "role": "Infantry",
+      "era": "Medieval"
+    },
+    "gajdal": {
+      "name": "Gajdal",
+      "subtitle": "The Elephant Axe",
+      "description": "A massive axe designed to attack war elephants or be used by elephant riders.",
+      "type": "Anti-Beast",
+      "lethality": "Extreme",
+      "role": "Anti-Elephant",
+      "era": "Medieval"
+    },
+    "double-axe": {
+      "name": "Double-Bladed Axe",
+      "subtitle": "The Whirling Death",
+      "description": "Rare double-headed axes used by elite shock troops for clearing space in a melee.",
+      "type": "Cleave",
+      "lethality": "High",
+      "role": "Shock",
+      "era": "Medieval"
+    },
+    "gada": {
+      "name": "Gada",
+      "subtitle": "The Mace",
+      "description": "A heavy spherical or flanged mace. A weapon of pure strength, used to shatter bones through armor.",
+      "type": "Blunt Force",
+      "lethality": "High",
+      "role": "Heavy Infantry",
+      "era": "Ancient-Medieval"
+    },
+    "gurz": {
+      "name": "Gurz",
+      "subtitle": "The Flanged Mace",
+      "description": "A mace with metal flanges (wings) designed to concentrate force and dent plate armor.",
+      "type": "Armor Denting",
+      "lethality": "High",
+      "role": "Anti-Armor",
+      "era": "Medieval"
+    },
+    "mudgar": {
+      "name": "Mudgar",
+      "subtitle": "The War Club",
+      "description": "A heavy wooden club, sometimes reinforced with iron. Used for strength training and brute combat.",
+      "type": "Crush",
+      "lethality": "Medium",
+      "role": "Training / Combat",
+      "era": "Ancient"
+    },
+    "spiked-mace": {
+      "name": "Spiked Mace",
+      "subtitle": "The Morning Star",
+      "description": "A mace head covered in spikes, adding puncture damage to blunt force impact.",
+      "type": "Puncture & Crush",
+      "lethality": "High",
+      "role": "Melee",
+      "era": "Medieval"
+    },
+    "war-hammer": {
+      "name": "War Hammer",
+      "subtitle": "The Armor Breaker",
+      "description": "A hammer with a pick on the reverse side. Designed to punch holes in helmets and breastplates.",
+      "type": "Pierce & Crush",
+      "lethality": "High",
+      "role": "Anti-Armor",
+      "era": "17th Century"
+    },
+    "dhanush": {
+      "name": "Dhanush",
+      "subtitle": "The Bamboo Bow",
+      "description": "The traditional self bow made of bamboo. Simple, reliable, and effective in massed volleys.",
+      "type": "Projectile",
+      "lethality": "Medium",
+      "role": "Infantry Archer",
+      "era": "Ancient"
+    },
+    "composite-bow": {
+      "name": "Rajput Composite Bow",
+      "subtitle": "The Recurve",
+      "description": "A complex bow of horn, wood, and sinew. High draw weight and compact size made it perfect for horse archers.",
+      "type": "Projectile",
+      "lethality": "High",
+      "role": "Cavalry Archer",
+      "era": "Medieval"
+    },
+    "crossbow": {
+      "name": "Crossbow",
+      "subtitle": "The Mechanical Bolt",
+      "description": "Though less common, crossbows were used for siege defense and by specialized units for armor piercing.",
+      "type": "Bolt Fire",
+      "lethality": "High",
+      "role": "Sniper / Siege",
+      "era": "Medieval"
+    },
+    "chakram": {
+      "name": "Chakram",
+      "subtitle": "The Flying Disc",
+      "description": "A sharp steel quoit thrown with a spinning motion. Capable of severing necks and limbs at range.",
+      "type": "Slash Projectile",
+      "lethality": "High",
+      "role": "Skirmisher",
+      "era": "Medieval"
+    },
+    "sling": {
+      "name": "Sling",
+      "subtitle": "The Stone Thrower",
+      "description": "A simple weapon used to hurl stones or lead bullets with surprising force. Used by light infantry.",
+      "type": "Blunt Projectile",
+      "lethality": "Medium",
+      "role": "Skirmisher",
+      "era": "Ancient"
+    },
+    "javelin": {
+      "name": "Javelin",
+      "subtitle": "The Thrown Spear",
+      "description": "Light spears balanced for throwing. Used to break up enemy charges before contact.",
+      "type": "Pierce Projectile",
+      "lethality": "High",
+      "role": "Skirmisher",
+      "era": "Ancient"
+    },
+    "matchlock": {
+      "name": "Matchlock (Bandook)",
+      "subtitle": "The Fire Stick",
+      "description": "Early muzzle-loading muskets. Long barrels provided accuracy, used by snipers from fort walls.",
+      "type": "Ballistic",
+      "lethality": "High",
+      "role": "Infantry",
+      "era": "16th-19th Century"
+    },
+    "jezail": {
+      "name": "Jezail",
+      "subtitle": "The Long Rifle",
+      "description": "A long-barreled musket with a curved stock. Famous for its range and accuracy in rough terrain.",
+      "type": "Sniper",
+      "lethality": "High",
+      "role": "Marksman",
+      "era": "18th-19th Century"
+    },
+    "toradar": {
+      "name": "Toradar",
+      "subtitle": "The Matchlock Variant",
+      "description": "An Indian matchlock musket. Characterized by a straight stock and often held against the cheek.",
+      "type": "Ballistic",
+      "lethality": "High",
+      "role": "Infantry",
+      "era": "16th-18th Century"
+    },
+    "flintlock": {
+      "name": "Flintlock Musket",
+      "subtitle": "The Spark Lock",
+      "description": "Adopted later, replacing the matchlock. Provided faster reloading and reliability in wet weather.",
+      "type": "Ballistic",
+      "lethality": "High",
+      "role": "Line Infantry",
+      "era": "18th-19th Century"
+    },
+    "hand-cannon": {
+      "name": "Hand Cannon",
+      "subtitle": "The Thunder Tube",
+      "description": "Primitive portable firearms. Essentially a small tube on a stick, firing stones or metal scrap.",
+      "type": "Blast",
+      "lethality": "Unpredictable",
+      "role": "Shock",
+      "era": "15th-16th Century"
+    },
+    "swivel-gun": {
+      "name": "Swivel Gun",
+      "subtitle": "The Wall Gun",
+      "description": "Large caliber guns mounted on walls or camels (Zamburak). Bridged the gap between musket and cannon.",
+      "type": "Heavy Ballistic",
+      "lethality": "Extreme",
+      "role": "Support",
+      "era": "17th-19th Century"
+    },
+    "rajput-cannon": {
+      "name": "Rajput Cannon",
+      "subtitle": "The Fort Breaker",
+      "description": "Massive bronze or iron cannons cast in local foundries. Essential for fort defense and siege warfare.",
+      "type": "Siege",
+      "lethality": "Catastrophic",
+      "role": "Fort Defense",
+      "era": "16th-19th Century"
+    },
+    "zamburak": {
+      "name": "Zamburak",
+      "subtitle": "The Camel Cannon",
+      "description": "A light swivel cannon mounted on a saddle on a camel. Allowed for mobile artillery tactics in the desert.",
+      "type": "Mobile Artillery",
+      "lethality": "High",
+      "role": "Field Artillery",
+      "era": "18th Century"
+    },
+    "elephant-gun": {
+      "name": "Elephant Gun",
+      "subtitle": "The Howdah Cannon",
+      "description": "Small cannons or jingals mounted on elephant howdahs, providing high-angle fire over infantry lines.",
+      "type": "Mobile Support",
+      "lethality": "High",
+      "role": "Support",
+      "era": "17th-19th Century"
+    },
+    "rocket": {
+      "name": "War Rocket",
+      "subtitle": "The Fire Arrow",
+      "description": "Bamboo or metal tubes filled with gunpowder and attached to a long stabilizing stick. Early area-denial weapon.",
+      "type": "Explosive",
+      "lethality": "Area Effect",
+      "role": "Chaos",
+      "era": "18th Century"
+    },
+    "battering-ram": {
+      "name": "Battering Ram",
+      "subtitle": "The Gate Breaker",
+      "description": "A massive log, often tipped with iron, swung to breach heavy fort gates.",
+      "type": "Breach",
+      "lethality": "Structural",
+      "role": "Siege",
+      "era": "Ancient-Medieval"
+    },
+    "siege-tower": {
+      "name": "Siege Tower",
+      "subtitle": "The Moving Fort",
+      "description": "Wooden towers rolled up to enemy walls to allow troops to storm the ramparts.",
+      "type": "Assault",
+      "lethality": "Tactical",
+      "role": "Siege",
+      "era": "Medieval"
+    },
+    "catapult": {
+      "name": "Catapult",
+      "subtitle": "The Stone Thrower",
+      "description": "Tension-powered siege engines used to hurl stones at walls or over them.",
+      "type": "Bombardment",
+      "lethality": "High",
+      "role": "Siege",
+      "era": "Ancient-Medieval"
+    },
+    "fire-pot": {
+      "name": "Fire Pot",
+      "subtitle": "The Incendiary",
+      "description": "Clay pots filled with combustibles, thrown to start fires or burn enemy siege engines.",
+      "type": "Fire",
+      "lethality": "High",
+      "role": "Defense",
+      "era": "All Eras"
+    },
+    "boiling-oil": {
+      "name": "Boiling Oil",
+      "subtitle": "The Wall Defense",
+      "description": "Cauldrons of boiling oil or molten lead poured through murder holes onto attackers.",
+      "type": "Thermal",
+      "lethality": "Horrific",
+      "role": "Defense",
+      "era": "Medieval"
+    },
+    "dhal": {
+      "name": "Dhal",
+      "subtitle": "The Shield",
+      "description": "Convex circular shield of hide or steel. Four bosses serve as anchor points for the handle and catch blades.",
+      "type": "Block",
+      "lethality": "N/A",
+      "role": "Protection",
+      "era": "All Eras"
+    },
+    "sipar": {
+      "name": "Sipar",
+      "subtitle": "The Steel Shield",
+      "description": "A steel shield, often intricately decorated. Heavier than hide shields but offered superior protection against muskets.",
+      "type": "Block",
+      "lethality": "N/A",
+      "role": "Protection",
+      "era": "17th Century"
+    },
+    "katar-shield": {
+      "name": "Katar Shield",
+      "subtitle": "The Weaponized Shield",
+      "description": "A small buckler with two projecting blades, often used in conjunction with a dagger.",
+      "type": "Parry & Stab",
+      "lethality": "Medium",
+      "role": "Dueling",
+      "era": "Medieval"
+    },
+    "chainmail": {
+      "name": "Zirh (Chainmail)",
+      "subtitle": "The Steel Mesh",
+      "description": "Interlinked steel rings worn as a shirt. Flexible protection against cuts, though vulnerable to piercing.",
+      "type": "Armor",
+      "lethality": "N/A",
+      "role": "Protection",
+      "era": "Medieval"
+    },
+    "plate-armor": {
+      "name": "Plate Armor (Chilta)",
+      "subtitle": "The Iron Skin",
+      "description": "Rigid steel plates, often combined with mail (plated mail), offering maximum protection for heavy cavalry.",
+      "type": "Armor",
+      "lethality": "N/A",
+      "role": "Protection",
+      "era": "16th-18th Century"
+    },
+    "helmet": {
+      "name": "Kulah-khud",
+      "subtitle": "The Steel Bowl",
+      "description": "Bowl-shaped helmet with a nose guard and chainmail aventail to protect the neck.",
+      "type": "Head Protection",
+      "lethality": "N/A",
+      "role": "Protection",
+      "era": "Medieval"
+    },
+    "lance-cavalry": {
+      "name": "Cavalry Lance",
+      "subtitle": "The Charge Weapon",
+      "description": "Long bamboo or steel lance used for the initial shock charge.",
+      "type": "Shock",
+      "lethality": "Extreme",
+      "role": "Cavalry",
+      "era": "Medieval"
+    },
+    "stirrups": {
+      "name": "War Stirrups",
+      "subtitle": "The Foundation",
+      "description": "Heavy iron stirrups allowed a rider to stand and deliver powerful blows without losing balance.",
+      "type": "Gear",
+      "lethality": "N/A",
+      "role": "Stability",
+      "era": "Medieval"
+    },
+    "saddle-blade": {
+      "name": "Saddle Blade",
+      "subtitle": "The Horse's Fang",
+      "description": "Blades attached to the saddle to cut enemy infantry who get too close.",
+      "type": "Defense",
+      "lethality": "High",
+      "role": "Area Denial",
+      "era": "Medieval"
+    },
+    "horse-armor": {
+      "name": "Bakhter (Horse Armor)",
+      "subtitle": "The Mount's Shield",
+      "description": "Lamellar or mail armor for war horses, protecting them from arrows and sword cuts.",
+      "type": "Protection",
+      "lethality": "N/A",
+      "role": "Cavalry",
+      "era": "Medieval"
+    },
+    "war-banner": {
+      "name": "War Banner",
+      "subtitle": "The Rally Point",
+      "description": "Symbols of the clan or deity. Protecting the banner was a matter of honor; losing it signaled defeat.",
+      "type": "Morale",
+      "lethality": "Psychological",
+      "role": "Command",
+      "era": "All Eras"
+    },
+    "war-horse": {
+      "name": "Marwari War Horse",
+      "subtitle": "The Desert Steed",
+      "description": "Indigenous breed known for inward-turning ear tips and incredible endurance. Bred for battle.",
+      "type": "Mount",
+      "lethality": "High",
+      "role": "Mobility",
+      "era": "All Eras"
+    },
+    "war-elephant": {
+      "name": "War Elephant",
+      "subtitle": "The Living Tank",
+      "description": "Armored elephants used to trample infantry and smash gates. The ultimate shock weapon.",
+      "type": "Siege Breaker",
+      "lethality": "Extreme",
+      "role": "Shock",
+      "era": "Ancient-Medieval"
+    },
+    "tusk-blade": {
+      "name": "Tusk Blades",
+      "subtitle": "The Ivory Swords",
+      "description": "Swords attached to elephant tusks. Turned a head swipe into a multi-kill scythe.",
+      "type": "Slash",
+      "lethality": "Horrific",
+      "role": "Anti-Infantry",
+      "era": "Medieval"
+    },
+    "elephant-tower": {
+      "name": "Howdah",
+      "subtitle": "The Mobile Fort",
+      "description": "A fortified seat on an elephant, carrying archers or commanders above the melee.",
+      "type": "Platform",
+      "lethality": "N/A",
+      "role": "Command",
+      "era": "Medieval"
+    },
+    "shakti": {
+      "name": "Shakti",
+      "subtitle": "The Divine Spear",
+      "description": "A ritual spear associated with Goddess Durga. Worshipped during weapon consecration ceremonies.",
+      "type": "Divine",
+      "lethality": "Symbolic",
+      "role": "Worship",
+      "era": "Ancient"
+    },
+    "sacred-sword": {
+      "name": "Sacred Sword",
+      "subtitle": "The Ancestral Blade",
+      "description": "Swords passed down for generations, believed to hold the spirit of ancestors. Rarely used in battle.",
+      "type": "Relic",
+      "lethality": "N/A",
+      "role": "Heritage",
+      "era": "All Eras"
+    },
+    "victory-standard": {
+      "name": "Vijay Stambh",
+      "subtitle": "The Victory Pillar",
+      "description": "While not a handheld weapon, these monuments were the ultimate declaration of martial dominance.",
+      "type": "Monument",
+      "lethality": "N/A",
+      "role": "Symbol",
+      "era": "Medieval"
+    },
+    "temple-weapon": {
+      "name": "Temple Weapon",
+      "subtitle": "The Blessed Arm",
+      "description": "Weapons kept in temples, blessed by priests, and brought out only for defense of the faith.",
+      "type": "Sacred",
+      "lethality": "High",
+      "role": "Religious War",
+      "era": "All Eras"
+    },
+    "coronation-blade": {
+      "name": "Raj Tilak Sword",
+      "subtitle": "The Kingmaker",
+      "description": "The sword used during the coronation ceremony. To touch it is to accept the burden of ruling.",
+      "type": "Ceremonial",
+      "lethality": "N/A",
+      "role": "Authority",
+      "era": "All Eras"
+    }
+  }
+}

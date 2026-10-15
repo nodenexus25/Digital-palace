@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif:wght@400;600;700&family=Noto+Serif+Devanagari:wght@400;600;700&display=swap');
 @import "tailwindcss";
 
 :root {
-  --heading-font: 'Cinzel', serif;
+  --heading-font: var(--nf-cinzel), 'Cinzel', serif;
 }
 
 /* Minimal Leaflet CSS for map functionality */
@@ -179,11 +177,11 @@
   --color-antique-gold: var(--antique-gold);
   
   /* Typography */
-  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  --font-sans: var(--nf-inter), ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
   --font-mono: var(--font-geist-mono);
-  --font-serif: 'Cinzel', serif;
-  --font-display: 'Playfair Display', serif;
-  --font-body: 'Inter', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  --font-serif: var(--nf-cinzel), 'Cinzel', serif;
+  --font-display: var(--nf-playfair), 'Playfair Display', serif;
+  --font-body: var(--nf-inter), ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -216,7 +214,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-family: var(--nf-inter), ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.6;
   overflow-x: hidden;
 }
@@ -256,15 +254,15 @@ img {
 }
 
 html[lang="hi"] body {
-  font-family: 'Noto Serif Devanagari', 'Noto Serif', serif;
+  font-family: var(--nf-deva), 'Noto Serif Devanagari', serif;
 }
 
 /* Typography utility classes */
-.font-cinzel { font-family: 'Cinzel', serif; }
-.font-playfair { font-family: 'Playfair Display', serif; }
-.font-cormorant { font-family: 'Cormorant Garamond', serif; }
-.font-inter { font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
-.font-devanagari { font-family: 'Noto Serif Devanagari', 'Noto Serif', serif; }
+.font-cinzel { font-family: var(--nf-cinzel), 'Cinzel', serif; }
+.font-playfair { font-family: var(--nf-playfair), 'Playfair Display', serif; }
+.font-cormorant { font-family: var(--nf-cormorant), 'Cormorant Garamond', serif; }
+.font-inter { font-family: var(--nf-inter), ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+.font-devanagari { font-family: var(--nf-deva), 'Noto Serif Devanagari', serif; }
 
 /* Shared elements */
 .gold-thin-border { border: 1px solid var(--gold); }
@@ -477,7 +475,7 @@ html[lang="hi"] body {
 
 /* Inscription Typography (Serif, Royal, Centered) */
 .inscription-text {
-  font-family: 'Cormorant Garamond', serif !important;
+  font-family: var(--nf-cormorant), 'Cormorant Garamond', serif !important;
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -503,7 +501,7 @@ html[lang="hi"] body {
 }
 
 .inscription-subtext {
-  font-family: 'Cinzel', serif;
+  font-family: var(--nf-cinzel), 'Cinzel', serif;
   font-size: 0.75rem;
   color: #6d4c41;
   letter-spacing: 0.05em;
@@ -589,4 +587,54 @@ html[lang="hi"] body {
   --background: #F4E7D0;       /* Neutral light for reading */
   --maroon: #5A1A18;
   --gold: #D7B56C;
+}
+
+
+/* ------------------------------------------------------------------
+   Hindi typography
+   Latin display faces (Cinzel, Playfair, Cormorant) have no Devanagari
+   glyphs, so on Hindi pages every family renders through Noto Serif
+   Devanagari. Devanagari letters join along the shirorekha (headline);
+   letter-spacing tears that line apart, synthetic italics slant it, and
+   uppercase has no meaning — so all three are neutralised.
+   ------------------------------------------------------------------ */
+html[lang="hi"] {
+  --heading-font: var(--nf-deva), 'Noto Serif Devanagari', serif;
+  --font-sans: var(--nf-deva), 'Noto Serif Devanagari', serif;
+  --font-serif: var(--nf-deva), 'Noto Serif Devanagari', serif;
+  --font-display: var(--nf-deva), 'Noto Serif Devanagari', serif;
+  --font-body: var(--nf-deva), 'Noto Serif Devanagari', serif;
+}
+
+html[lang="hi"] body,
+html[lang="hi"] body *:not(svg):not(svg *):not(code):not(pre):not(kbd) {
+  font-family: var(--nf-deva), 'Noto Serif Devanagari', serif !important;
+  letter-spacing: normal !important;
+  text-transform: none !important;
+  font-style: normal !important;
+}
+
+html[lang="hi"] body {
+  line-height: 1.8;
+}
+
+/* Devanagari needs a little more vertical room than Latin small caps. */
+html[lang="hi"] :is(h1, h2, h3, h4) {
+  line-height: 1.45;
+}
+
+/* ------------------------------------------------------------------
+   Language switch cross-fade (View Transitions API)
+   ------------------------------------------------------------------ */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 280ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation: none;
+  }
 }

@@ -52,12 +52,12 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: '/stories',
-        destination: '/legends',
+        source: '/:lang(en|hi)/stories',
+        destination: '/:lang/legends',
       },
       {
-        source: '/stories/:path*',
-        destination: '/legends/:path*',
+        source: '/:lang(en|hi)/stories/:path*',
+        destination: '/:lang/legends/:path*',
       },
     ];
   },

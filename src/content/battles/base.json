@@ -1,0 +1,464 @@
+{
+  "battles": [
+    {
+      "id": "rajasthan-738"
+    },
+    {
+      "id": "mount-abu-1008"
+    },
+    {
+      "id": "tarain-i"
+    },
+    {
+      "id": "tarain-ii"
+    },
+    {
+      "id": "chandawar-1194"
+    },
+    {
+      "id": "ranthambore-1301"
+    },
+    {
+      "id": "chittorgarh-1303"
+    },
+    {
+      "id": "jalore-1311"
+    },
+    {
+      "id": "chittorgarh-tughlaq-1326"
+    },
+    {
+      "id": "khanwa-1527"
+    },
+    {
+      "id": "chittorgarh-akbar-1567"
+    },
+    {
+      "id": "haldighati-1576",
+      "dynasty": "mewar"
+    },
+    {
+      "id": "dewair-1582"
+    },
+    {
+      "id": "samugarh-1658"
+    },
+    {
+      "id": "marwar-rebellion-1679-1707"
+    },
+    {
+      "id": "battle-of-gangwana-1741"
+    },
+    {
+      "id": "paramara-chalukya-wars-973-990"
+    },
+    {
+      "id": "chandella-kalachuri-wars-1000s"
+    },
+    {
+      "id": "battle-of-bhojpur-1040s"
+    },
+    {
+      "id": "multan-1001"
+    },
+    {
+      "id": "waihind-1008"
+    },
+    {
+      "id": "chittor-ghaznavids-1020s"
+    },
+    {
+      "id": "gwalior-siege-1196"
+    },
+    {
+      "id": "ranthambore-1195-1198"
+    },
+    {
+      "id": "kalinjar-1203"
+    },
+    {
+      "id": "bayana-1195-1206"
+    },
+    {
+      "id": "jalore-1311-kanhad-dev"
+    },
+    {
+      "id": "siwana-1308"
+    },
+    {
+      "id": "mandalgarh-1320s"
+    },
+    {
+      "id": "singoli-1336",
+      "dynasty": "mewar"
+    },
+    {
+      "id": "mandu-1305-1340"
+    },
+    {
+      "id": "rao-chunda-wars-1360s-1380s"
+    },
+    {
+      "id": "nagaur-1394",
+      "dynasty": "mewar"
+    },
+    {
+      "id": "mandore-pathans-14th",
+      "dynasty": "marwar"
+    },
+    {
+      "id": "rao-chunda-nagaur-1390s",
+      "dynasty": "marwar"
+    },
+    {
+      "id": "mehrangarh-1459",
+      "dynasty": "marwar"
+    },
+    {
+      "id": "marwar-gujarat-1460s-1510s",
+      "dynasty": "marwar"
+    },
+    {
+      "id": "giri-summit-1515",
+      "dynasty": "marwar"
+    },
+    {
+      "id": "sammel-1544",
+      "dynasty": "marwar"
+    },
+    {
+      "id": "jodhpur-siege-1561",
+      "dynasty": "marwar"
+    },
+    {
+      "id": "dharmat-1658",
+      "dynasty": "marwar"
+    },
+    {
+      "id": "ajmer-1702-marwar",
+      "dynasty": "marwar"
+    },
+    {
+      "id": "gangwana-1741",
+      "dynasty": "marwar"
+    },
+    {
+      "id": "patan-1790-alliance",
+      "dynasty": "marwar"
+    },
+    {
+      "id": "merta-1790s",
+      "dynasty": "marwar"
+    },
+    {
+      "id": "kachwaha-early-conflicts-10th-11th",
+      "dynasty": "kachwaha"
+    },
+    {
+      "id": "kachwaha-delhi-alliance-12th",
+      "dynasty": "kachwaha"
+    },
+    {
+      "id": "haldighati-1576-kachwaha-role",
+      "dynasty": "kachwaha"
+    },
+    {
+      "id": "bengal-campaigns-1590s-kachwaha",
+      "dynasty": "kachwaha"
+    },
+    {
+      "id": "afghan-kabul-1600s-kachwaha",
+      "dynasty": "kachwaha"
+    },
+    {
+      "id": "samugarh-1658-kachwaha",
+      "dynasty": "kachwaha"
+    },
+    {
+      "id": "ajmer-1702-kachwaha",
+      "dynasty": "kachwaha"
+    },
+    {
+      "id": "gangwana-1741-kachwaha",
+      "dynasty": "kachwaha"
+    },
+    {
+      "id": "patan-1790-kachwaha",
+      "dynasty": "kachwaha"
+    }
+  ],
+  "figures": [
+    {
+      "id": "rani-padmini",
+      "image": "/images/battles/legendary-figures/rani-padmini.jpg"
+    },
+    {
+      "id": "maharana-pratap",
+      "image": "/images/battles/legendary-figures/maharana-pratap.jpg"
+    },
+    {
+      "id": "rana-sanga",
+      "image": "/images/battles/legendary-figures/rana-sanga.jpg"
+    },
+    {
+      "id": "prithviraj-chauhan",
+      "image": "/images/battles/legendary-figures/prithviraj-chauhan.jpg"
+    },
+    {
+      "id": "hamir-dev",
+      "image": "/images/battles/legendary-figures/hamir-dev.jpg"
+    },
+    {
+      "id": "kesar-dev",
+      "image": "/images/battles/legendary-figures/kesar-dev.jpg"
+    },
+    {
+      "id": "jaimal-mertia",
+      "image": "/images/battles/legendary-figures/jaimal-mertia.jpg"
+    },
+    {
+      "id": "gora-badal",
+      "image": "/images/battles/legendary-figures/gora-badal.jpg"
+    },
+    {
+      "id": "rana-kumbha",
+      "image": "/images/battles/legendary-figures/rana-kumbha.jpg"
+    },
+    {
+      "id": "bappa-rawal",
+      "image": "/images/battles/legendary-figures/bappa-rawal.jpg"
+    },
+    {
+      "id": "rana-sangram-singh",
+      "image": "/images/battles/legendary-figures/rana-sanga.jpg"
+    },
+    {
+      "id": "rawal-kumar-singh",
+      "image": "/images/dynasties/places/jaisalmer-bhati-main.jpg"
+    },
+    {
+      "id": "raja-bhairav-singh",
+      "image": "/images/dynasties/places/hada-bundi-kota-main.jpg"
+    },
+    {
+      "id": "rani-durgavati",
+      "image": "/images/dynasties/rani-durgavati.jpg"
+    },
+    {
+      "id": "nagabhata-i",
+      "image": "/images/dynasties/places/tomar-delhi-gwalior-main.JPG"
+    },
+    {
+      "id": "mihir-bhoja",
+      "image": "/images/dynasties/rulers/raja-bhoja-paramara.jpg"
+    },
+    {
+      "id": "anangpal-tomar",
+      "image": "/images/dynasties/rulers/anangpal-tomar-i.jpg"
+    },
+    {
+      "id": "arnoraja-chauhan",
+      "image": "/images/dynasties/rulers/arnoraja.jpg"
+    },
+    {
+      "id": "vigraharaja-iv-chauhan",
+      "image": "/images/dynasties/rulers/vigraharaja-iv.jpg"
+    },
+    {
+      "id": "jaichand-gahadavala",
+      "image": "/images/dynasties/places/paramara-malwa-main.jpg"
+    },
+    {
+      "id": "govindachandra-gahadavala",
+      "image": "/images/dynasties/places/paramara-malwa-main.jpg"
+    },
+    {
+      "id": "chand-bardai",
+      "image": "/images/battles/legendary-figures/prithviraj-chauhan.jpg"
+    },
+    {
+      "id": "rawal-ratan-singh",
+      "image": "/images/battles/legendary-figures/rani-padmini.jpg"
+    },
+    {
+      "id": "jaitra-singh",
+      "image": "/images/dynasties/places/mewar.jpg"
+    },
+    {
+      "id": "hammir-singh",
+      "image": "/images/dynasties/rulers/hammir-singh.jpg"
+    },
+    {
+      "id": "rana-lakha",
+      "image": "/images/dynasties/rulers/lakha-singh.jpg"
+    },
+    {
+      "id": "kanhad-dev-songara",
+      "image": "/images/dynasties/rulers/rawal-kanhad-dev.jpg"
+    },
+    {
+      "id": "viramadeva",
+      "image": "/images/dynasties/places/solanki-chaulukya-main.jpg"
+    },
+    {
+      "id": "kunwar-kanh-singh",
+      "image": "/images/dynasties/places/mewar.jpg"
+    },
+    {
+      "id": "rao-jodha",
+      "image": "/images/dynasties/rao-jodha.jpg"
+    },
+    {
+      "id": "ranmal-rathore",
+      "image": "/images/dynasties/places/marwar-rathore-main.jpg"
+    },
+    {
+      "id": "rao-bika",
+      "image": "/images/dynasties/rulers/rao-bika.jpg"
+    },
+    {
+      "id": "rao-shekha",
+      "image": "/images/dynasties/places/amber-kachwaha-main.jpg"
+    },
+    {
+      "id": "maharani-hansa-bai",
+      "image": "/images/dynasties/rulers/500px-HansaBai_26RanaLakha.jpg"
+    },
+    {
+      "id": "rao-nara",
+      "image": "/images/dynasties/places/marwar-rathore-main.jpg"
+    },
+    {
+      "id": "rana-raimal",
+      "image": "/images/dynasties/rulers/rana-raimal.jpg"
+    },
+    {
+      "id": "kunwar-prithviraj-mewar",
+      "image": "/images/battles/legendary-figures/maharana-pratap.jpg"
+    },
+    {
+      "id": "maharani-rani-sona",
+      "image": "/images/dynasties/places/mewar.jpg"
+    },
+    {
+      "id": "medini-rai",
+      "image": "/images/dynasties/places/paramara-malwa-main.jpg"
+    },
+    {
+      "id": "haridas-tomar",
+      "image": "/images/dynasties/places/tomar-delhi-gwalior-main.JPG"
+    },
+    {
+      "id": "silhadi-singh",
+      "image": "/images/dynasties/places/paramara-malwa-main.jpg"
+    },
+    {
+      "id": "rani-karnavati",
+      "image": "/images/dynasties/rani-karnavati.jpg"
+    },
+    {
+      "id": "rao-maldeo-rathore",
+      "image": "/images/dynasties/rao-maldeo.jpg"
+    },
+    {
+      "id": "rao-chandra-sen-rathore",
+      "image": "/images/dynasties/rulers/rao-chandrasen.jpg"
+    },
+    {
+      "id": "kunwar-uday-singh",
+      "image": "/images/dynasties/rulers/udai-singh-i.jpg"
+    },
+    {
+      "id": "jaimal-rathore",
+      "image": "/images/dynasties/places/marwar-rathore-main.jpg"
+    },
+    {
+      "id": "patta-sisodia",
+      "image": "/images/battles/legendary-figures/maharana-pratap.jpg"
+    },
+    {
+      "id": "hakim-khan-sur",
+      "image": "/images/dynasties/places/mewar.jpg"
+    },
+    {
+      "id": "jhala-man-singh",
+      "image": "/images/battles/legendary-figures/maharana-pratap.jpg"
+    },
+    {
+      "id": "bhamashah",
+      "image": "/images/dynasties/places/mewar.jpg"
+    },
+    {
+      "id": "panna-dhai",
+      "image": "/images/dynasties/places/mewar.jpg"
+    },
+    {
+      "id": "rao-amar-singh-i",
+      "image": "/images/battles/legendary-figures/maharana-pratap.jpg"
+    },
+    {
+      "id": "kunwar-shakti-singh",
+      "image": "/images/battles/legendary-figures/maharana-pratap.jpg"
+    },
+    {
+      "id": "maharana-karan-singh-ii",
+      "image": "/images/dynasties/places/mewar.jpg"
+    },
+    {
+      "id": "amar-singh-rathore",
+      "image": "/images/dynasties/places/marwar-rathore-main.jpg"
+    },
+    {
+      "id": "rao-chhatrasal-bundela",
+      "image": "/images/dynasties/places/hada-bundi-kota-main.jpg"
+    },
+    {
+      "id": "maharao-shakti-singh-hada",
+      "image": "/images/dynasties/places/hada-bundi-kota-main.jpg"
+    },
+    {
+      "id": "kunwar-jagmal",
+      "image": "/images/dynasties/places/mewar.jpg"
+    },
+    {
+      "id": "rao-ratan-singh-rathore",
+      "image": "/images/dynasties/places/marwar-rathore-main.jpg"
+    },
+    {
+      "id": "rawat-kesri-singh",
+      "image": "/images/dynasties/places/mewar.jpg"
+    },
+    {
+      "id": "rao-surtan-singh",
+      "image": "/images/dynasties/places/amber-kachwaha-main.jpg"
+    },
+    {
+      "id": "durgadas-rathore",
+      "image": "/images/dynasties/places/marwar-rathore-main.jpg"
+    },
+    {
+      "id": "maharaja-jaswant-singh",
+      "image": "/images/dynasties/jaswant-singh.jpg"
+    },
+    {
+      "id": "maharana-raj-singh",
+      "image": "/images/dynasties/rana-raj-singh.jpg"
+    },
+    {
+      "id": "rana-jai-singh-i",
+      "image": "/images/dynasties/sawai-jai-singh.jpg"
+    },
+    {
+      "id": "kunwar-prithviraj-singh",
+      "image": "/images/dynasties/places/mewar.jpg"
+    },
+    {
+      "id": "rao-amar-singh-ii",
+      "image": "/images/dynasties/rulers/amar-singh-ii.jpg"
+    },
+    {
+      "id": "kunwar-bhim-singh",
+      "image": "/images/dynasties/places/mewar.jpg"
+    }
+  ]
+}

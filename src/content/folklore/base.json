@@ -1,0 +1,107 @@
+{
+  "tales": [
+    {
+      "id": "prithviraj-raso"
+    },
+    {
+      "id": "padmavat"
+    },
+    {
+      "id": "khuman-raso"
+    },
+    {
+      "id": "hammira-raso"
+    },
+    {
+      "id": "rathaur-raso"
+    },
+    {
+      "id": "bikaner-raso"
+    },
+    {
+      "id": "alha-udal"
+    },
+    {
+      "id": "rani-padmini"
+    },
+    {
+      "id": "kesari-singh-barhath"
+    }
+  ],
+  "deities": [
+    {
+      "id": "pabuji"
+    },
+    {
+      "id": "gogaji"
+    },
+    {
+      "id": "mallinath"
+    },
+    {
+      "id": "devnarayan"
+    },
+    {
+      "id": "tejaji"
+    },
+    {
+      "id": "ramdevji"
+    },
+    {
+      "id": "harbuji"
+    },
+    {
+      "id": "jujhar-singh"
+    },
+    {
+      "id": "rani-panna-dhay"
+    },
+    {
+      "id": "devli-mata"
+    },
+    {
+      "id": "hada-rani"
+    },
+    {
+      "id": "karni-mata"
+    },
+    {
+      "id": "bhairavji"
+    },
+    {
+      "id": "nagdeviyan"
+    },
+    {
+      "id": "sangaji"
+    },
+    {
+      "id": "bhaironath"
+    },
+    {
+      "id": "krishna-bhakt"
+    }
+  ],
+  "rituals": [
+    {
+      "id": "jauhar-saka-traditions"
+    },
+    {
+      "id": "tilak-rajput"
+    },
+    {
+      "id": "raksha-threads"
+    },
+    {
+      "id": "sacred-weapons"
+    },
+    {
+      "id": "ancestral-worship"
+    },
+    {
+      "id": "horse-sacred"
+    },
+    {
+      "id": "battle-omens"
+    }
+  ]
+}
