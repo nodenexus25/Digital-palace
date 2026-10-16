@@ -1,5 +1,6 @@
 'use client';
 
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { useLanguage } from '@/app/components/LanguageProvider';
 import Hero from '@/app/components/Hero';
@@ -16,6 +17,13 @@ export default function BattlesClient({ battles, figures }: { battles: BattleCar
   const { t, currentLanguage } = useLanguage();
   const [battleId, setBattleId] = useQueryState('battle');
   const [figureId, setFigureId] = useQueryState('figure');
+  const [tab, setTab] = useState<'battles' | 'warriors'>('battles');
+
+  // Honour the #warriors deep link (e.g. from the home page) by opening the
+  // matching tab once mounted.
+  useEffect(() => {
+    if (window.location.hash === '#warriors') setTab('warriors');
+  }, []);
 
   const battle = battles.find((b) => b.id === battleId) ?? null;
   const figure = figures.find((f) => f.id === figureId) ?? null;
@@ -28,7 +36,39 @@ export default function BattlesClient({ battles, figures }: { battles: BattleCar
     <div className="min-h-screen bg-ivory text-charcoal">
       <Hero title={t('battles.meta.title')} subtitle={t('battles.meta.description')} />
 
-      <section className="max-w-7xl mx-auto px-4 py-16" aria-labelledby="battles-heading">
+      <div className="max-w-7xl mx-auto px-4 pt-12">
+        <div
+          role="tablist"
+          aria-label={t('battles.meta.title')}
+          className="inline-flex rounded-lg border border-maroon/25 bg-white p-1 shadow-sm"
+        >
+          <button
+            type="button"
+            role="tab"
+            aria-selected={tab === 'battles'}
+            onClick={() => setTab('battles')}
+            className={`px-6 py-2.5 rounded-md text-sm font-bold uppercase tracking-widest transition-colors ${
+              tab === 'battles' ? 'bg-maroon text-ivory' : 'text-maroon hover:bg-maroon/5'
+            }`}
+          >
+            {t('nav.battles')}
+          </button>
+          <button
+            type="button"
+            role="tab"
+            aria-selected={tab === 'warriors'}
+            onClick={() => setTab('warriors')}
+            className={`px-6 py-2.5 rounded-md text-sm font-bold uppercase tracking-widest transition-colors ${
+              tab === 'warriors' ? 'bg-maroon text-ivory' : 'text-maroon hover:bg-maroon/5'
+            }`}
+          >
+            {t('battles.warriors')}
+          </button>
+        </div>
+      </div>
+
+      {tab === 'battles' && (
+      <section className="max-w-7xl mx-auto px-4 pt-8 pb-16" aria-labelledby="battles-heading">
         <h2 id="battles-heading" className="font-cinzel text-4xl text-maroon mb-8">
           {t('battles.title')}
         </h2>
@@ -69,8 +109,10 @@ export default function BattlesClient({ battles, figures }: { battles: BattleCar
           ))}
         </div>
       </section>
+      )}
 
-      <section id="warriors" className="max-w-7xl mx-auto px-4 py-16 bg-gradient-to-b from-transparent to-maroon/5" aria-labelledby="warriors-heading">
+      {tab === 'warriors' && (
+      <section id="warriors" className="max-w-7xl mx-auto px-4 pt-8 pb-16 bg-gradient-to-b from-transparent to-maroon/5" aria-labelledby="warriors-heading">
         <h2 id="warriors-heading" className="font-cinzel text-4xl text-maroon mb-8">
           {t('legends.title')}
         </h2>
@@ -119,6 +161,7 @@ export default function BattlesClient({ battles, figures }: { battles: BattleCar
           ))}
         </div>
       </section>
+      )}
 
       {battle && (
         <StoryModal

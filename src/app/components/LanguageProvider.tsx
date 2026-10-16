@@ -132,13 +132,15 @@ export function LanguageProvider({
     [pathname],
   );
 
+  // Returns a hydration-safe path (no query/hash). The hash is unavailable on
+  // the server, so appending it here would make the SSR href differ from the
+  // client and break hydration. Search/hash are preserved at navigation time
+  // in setLanguage instead.
   const hrefFor = useCallback(
     (target: Language) => {
       const override = overrides?.path === pathname ? overrides.map[target] : undefined;
       if (override) return override;
-      const base = switchLocalePath(pathname, target);
-      if (typeof window === 'undefined') return base;
-      return base + window.location.search + window.location.hash;
+      return switchLocalePath(pathname, target);
     },
     [pathname, overrides],
   );
@@ -166,7 +168,7 @@ export function LanguageProvider({
     (target: Language) => {
       if (target === lang) return;
       hardStop();
-      const href = hrefFor(target);
+      const href = hrefFor(target) + window.location.search + window.location.hash;
       const navigate = () => router.push(href, { scroll: false });
 
       const reduceMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
