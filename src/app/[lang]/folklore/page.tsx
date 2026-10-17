@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import FolkloreClient from './FolkloreClient';
-import { getFolklore } from '@/content/folklore';
-import { withoutStory } from '@/content/stories';
+import { folkCards } from '@/content/listings';
 import { toLocale } from '@/i18n/config';
 import { translate } from '@/i18n/messages';
 import { alternatesFor } from '@/i18n/metadata';
@@ -19,6 +18,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function FolklorePage({ params }: Props) {
   const lang = toLocale((await params).lang);
-  const { tales, deities, rituals } = getFolklore(lang);
-  return <FolkloreClient tales={withoutStory(tales)} deities={withoutStory(deities)} rituals={withoutStory(rituals)} />;
+  const { tales, deities, rituals } = folkCards(lang);
+  return <FolkloreClient tales={tales} deities={deities} rituals={rituals} />;
 }

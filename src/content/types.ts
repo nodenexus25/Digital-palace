@@ -206,3 +206,13 @@ export interface Dynasty {
   founder: string;
   rulers: RulerSummary[];
 }
+
+// ---- card shapes
+// What a listing page actually ships: the entry without its long-form text.
+export type LegendCard = Omit<Legend, 'story'>;
+export type FortCard = Omit<Fort, 'stories' | 'history'>;
+export type BattleCard = Omit<Battle, 'story'>;
+export type FigureCard = Omit<LegendaryFigure, 'story' | 'chapters'>;
+export type TaleCard = Omit<FolkTale, 'story'>;
+export type DeityCard = Omit<FolkDeity, 'story'>;
+export type RitualCard = Omit<FolkRitual, 'story'>;

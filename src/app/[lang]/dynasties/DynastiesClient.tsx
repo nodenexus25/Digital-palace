@@ -5,6 +5,8 @@ import { useLanguage } from '@/app/components/LanguageProvider';
 import Hero from '@/app/components/Hero';
 import LazyImage from '@/app/components/LazyImage';
 import StoryModal from '@/app/components/story/StoryModal';
+import StoryLanguageToggle from '@/app/components/story/StoryLanguageToggle';
+import { useCardLanguage } from '@/app/components/story/useCardLanguage';
 import { useQueryState } from '@/app/components/hooks/useQueryState';
 import { prefetchJson, rulerUrl, useRemoteJson } from '@/app/components/hooks/useRemoteContent';
 import type { Dynasty, HistoricalPeriod, RulerDetail } from '@/content/types';
@@ -47,7 +49,8 @@ function Seal({ dynasty }: { dynasty: Dynasty }) {
 }
 
 export default function DynastiesClient({ dynasties, periods }: { dynasties: Dynasty[]; periods: HistoricalPeriod[] }) {
-  const { t, currentLanguage } = useLanguage();
+  const { t } = useLanguage();
+  const { isAlt, langFor, localize, toggle: flip } = useCardLanguage<Dynasty>('dynasties', 'dynasties');
   const [periodParam, setPeriod] = useQueryState('period');
   const [dynastyId, setDynastyId] = useQueryState('dynasty');
   const [rulerId, setRulerId] = useQueryState('ruler');
@@ -67,9 +70,10 @@ export default function DynastiesClient({ dynasties, periods }: { dynasties: Dyn
   const rulerCount = useMemo(() => dynasties.reduce((n, d) => n + d.rulers.length, 0), [dynasties]);
 
   const dynasty = dynasties.find((d) => d.id === dynastyId) ?? null;
-  const rulerSummary = dynasty?.rulers.find((r) => r.id === rulerId) ?? null;
-  const ruler = useRemoteJson<RulerDetail>(dynasty && rulerSummary ? rulerUrl(currentLanguage, dynasty.id, rulerSummary.id) : null);
-  const warm = (dId: string, rId: string) => () => void prefetchJson(rulerUrl(currentLanguage, dId, rId)).catch(() => {});
+  const shownDynasty = dynasty ? localize(dynasty) : null;
+  const rulerSummary = shownDynasty?.rulers.find((r) => r.id === rulerId) ?? null;
+  const ruler = useRemoteJson<RulerDetail>(dynasty && rulerSummary ? rulerUrl(langFor(dynasty.id), dynasty.id, rulerSummary.id) : null);
+  const warm = (dId: string, rId: string) => () => void prefetchJson(rulerUrl(langFor(dId), dId, rId)).catch(() => {});
 
   useEffect(() => {
     if (!dynasty || rulerSummary) return;
@@ -150,42 +154,49 @@ export default function DynastiesClient({ dynasties, periods }: { dynasties: Dyn
 
       <section className="py-16 bg-ivory">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
-          {visible.map((d) => (
+          {visible.map((d) => {
+            const card = localize(d);
+            return (
             <article key={d.id} className="group relative bg-ivory border border-gold/30 shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden flex flex-col h-full">
               <div className="relative w-full aspect-[16/9] border-b border-gold/30 overflow-hidden">
-                <LazyImage src={d.mainImage || FALLBACK_IMAGE} alt={d.name} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" fill placeholder={FALLBACK_IMAGE} />
+                <LazyImage src={card.mainImage || FALLBACK_IMAGE} alt={card.name} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" fill placeholder={FALLBACK_IMAGE} />
               </div>
               <div className="p-4 pt-9 flex flex-col flex-grow text-center relative">
                 <div className="absolute -top-7 left-1/2 -translate-x-1/2 w-14 h-14 bg-ivory rounded-full p-2 border border-gold/40 shadow-lg flex items-center justify-center z-10">
-                  <Seal dynasty={d} />
+                  <Seal dynasty={card} />
                 </div>
-                <h3 className="font-serif text-xl font-bold text-shehrawat-blood-red mb-1 leading-tight">{d.name}</h3>
-                <blockquote className="mb-3 font-body text-base italic text-charcoal leading-snug min-h-[2.5rem] line-clamp-2 px-1">{d.significance}</blockquote>
+                <h3 className="font-serif text-xl font-bold text-shehrawat-blood-red mb-1 leading-tight">{card.name}</h3>
+                <blockquote className="mb-3 font-body text-base italic text-charcoal leading-snug min-h-[2.5rem] line-clamp-2 px-1">{card.significance}</blockquote>
                 <dl className="flex flex-wrap justify-center gap-x-3 gap-y-1 text-xs text-charcoal/90 mb-4 font-body font-medium">
-                  <div><dt className="sr-only">{t('dynasties.region')}</dt><dd>{d.region}</dd></div>
-                  <div><dt className="sr-only">{t('dynasties.capital')}</dt><dd>{d.capital}</dd></div>
-                  <div><dt className="sr-only">{t('dynasties.founder')}</dt><dd>{d.founder}</dd></div>
+                  <div><dt className="sr-only">{t('dynasties.region')}</dt><dd>{card.region}</dd></div>
+                  <div><dt className="sr-only">{t('dynasties.capital')}</dt><dd>{card.capital}</dd></div>
+                  <div><dt className="sr-only">{t('dynasties.founder')}</dt><dd>{card.founder}</dd></div>
                 </dl>
-                <button
-                  type="button"
-                  onClick={() => setDynastyId(d.id)}
-                  className="mt-auto w-full border border-maroon text-maroon group-hover:bg-maroon group-hover:text-ivory font-serif font-bold py-1.5 px-3 transition-all duration-300 uppercase tracking-widest text-[10px]"
-                >
-                  {t('dynasties.cta.viewRulers')}
-                </button>
+                <div className="mt-auto flex items-center gap-2">
+                  <StoryLanguageToggle alt={isAlt(d.id)} onToggle={() => flip(d.id)} className="text-maroon shrink-0" />
+                  <button
+                    type="button"
+                    onClick={() => setDynastyId(d.id)}
+                    className="flex-1 border border-maroon text-maroon group-hover:bg-maroon group-hover:text-ivory font-serif font-bold py-1.5 px-3 transition-all duration-300 uppercase tracking-widest text-[10px]"
+                  >
+                    {t('dynasties.cta.viewRulers')}
+                  </button>
+                </div>
               </div>
             </article>
-          ))}
+            );
+          })}
         </div>
       </section>
 
-      {dynasty && !rulerSummary && (
+      {shownDynasty && !rulerSummary && (
         <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4" onClick={() => setDynastyId(null)}>
-          <div role="dialog" aria-modal="true" aria-label={dynasty.name} onClick={(e) => e.stopPropagation()} className="bg-ivory rounded-xl shadow-2xl max-w-4xl w-full max-h-[80vh] overflow-hidden">
+          <div role="dialog" aria-modal="true" aria-label={shownDynasty.name} onClick={(e) => e.stopPropagation()} className="bg-ivory rounded-xl shadow-2xl max-w-4xl w-full max-h-[80vh] overflow-hidden">
             <header className="saffron-gradient p-6 border-b border-saffron/20 flex items-center justify-between gap-4">
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12"><Seal dynasty={dynasty} /></div>
-                <h2 className="font-cinzel font-bold text-2xl text-maroon">{dynasty.name}</h2>
+                <div className="w-12 h-12"><Seal dynasty={shownDynasty} /></div>
+                <h2 className="font-cinzel font-bold text-2xl text-maroon">{shownDynasty.name}</h2>
+                <StoryLanguageToggle alt={isAlt(shownDynasty.id)} onToggle={() => flip(shownDynasty.id)} className="text-maroon" />
               </div>
               <button
                 onClick={() => setDynastyId(null)}
@@ -199,13 +210,13 @@ export default function DynastiesClient({ dynasties, periods }: { dynasties: Dyn
               </button>
             </header>
             <ul className="p-6 md:pr-14 overflow-y-auto max-h-[60vh] grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-6 pt-6">
-              {dynasty.rulers.map((r) => (
+              {shownDynasty.rulers.map((r) => (
                 <li key={r.id}>
                   <button
                     type="button"
                     onClick={() => setRulerId(r.id)}
-                    onMouseEnter={warm(dynasty.id, r.id)}
-                    onFocus={warm(dynasty.id, r.id)}
+                    onMouseEnter={warm(shownDynasty.id, r.id)}
+                    onFocus={warm(shownDynasty.id, r.id)}
                     className="group flex items-center justify-between w-full p-4 bg-white hover:bg-saffron/5 rounded-lg transition-all duration-300 border border-saffron/30 hover:border-saffron shadow-sm hover:shadow-md overflow-hidden h-32 text-left"
                   >
                     <span className="w-[70%] pr-4 h-full flex flex-col justify-center border-r border-saffron/10">
@@ -232,14 +243,14 @@ export default function DynastiesClient({ dynasties, periods }: { dynasties: Dyn
         </div>
       )}
 
-      {dynasty && rulerSummary && (
+      {shownDynasty && rulerSummary && (
         <StoryModal
           id={`ruler:${rulerSummary.id}`}
           title={rulerSummary.name}
           subtitle={rulerSummary.title}
           facts={[
             { label: t('dynasties.period'), value: rulerSummary.period },
-            { label: t('dynasties.kingdom'), value: dynasty.name },
+            { label: t('dynasties.kingdom'), value: shownDynasty.name },
             { label: t('common.significance'), value: detail?.significance },
           ]}
           lists={[
@@ -254,6 +265,8 @@ export default function DynastiesClient({ dynasties, periods }: { dynasties: Dyn
           images={detail?.gallery}
           story={detail?.story}
           loading={ruler.loading}
+          storyAlt={isAlt(shownDynasty.id)}
+          onToggleLanguage={() => flip(shownDynasty.id)}
           onClose={() => setRulerId(null)}
         />
       )}

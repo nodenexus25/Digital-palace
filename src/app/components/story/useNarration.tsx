@@ -2,10 +2,12 @@
 
 import { useCallback, useEffect, useState } from 'react';
 import { useLanguage } from '../LanguageProvider';
+import type { Locale } from '@/i18n/config';
 
 /**
  * Tracks which item on a page is being read aloud, on top of the global
- * narration in LanguageProvider (which always speaks in the page language).
+ * narration in LanguageProvider (which narrates in the page language unless
+ * the item says otherwise).
  */
 export function useNarration() {
   const { speak, stopSpeaking, isSpeaking } = useLanguage();
@@ -16,13 +18,13 @@ export function useNarration() {
   }, [isSpeaking]);
 
   const toggle = useCallback(
-    (id: string, text: string) => {
+    (id: string, text: string, locale?: Locale) => {
       if (isSpeaking && activeId === id) {
         stopSpeaking();
         setActiveId(null);
         return;
       }
-      speak(text);
+      speak(text, locale);
       setActiveId(id);
     },
     [isSpeaking, activeId, speak, stopSpeaking],

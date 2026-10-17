@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import FortsClient from './FortsClient';
-import { getForts } from '@/content/forts';
+import { fortCards } from '@/content/listings';
 import { toLocale } from '@/i18n/config';
 import { translate } from '@/i18n/messages';
 import { alternatesFor } from '@/i18n/metadata';
@@ -19,10 +19,5 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function FortsPage({ params }: Props) {
   const lang = toLocale((await params).lang);
   // Stories and long history are fetched when a fort is opened.
-  const forts = getForts(lang).map(({ stories: _stories, history: _history, ...rest }) => {
-    void _stories;
-    void _history;
-    return rest;
-  });
-  return <FortsClient forts={forts} />;
+  return <FortsClient forts={fortCards(lang)} />;
 }

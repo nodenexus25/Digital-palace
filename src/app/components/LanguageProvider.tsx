@@ -32,7 +32,8 @@ interface LanguageContextType {
   /** Let a page point the language switch at a different URL (null to reset). */
   registerAlternates: (map: Partial<Record<Language, string>> | null) => void;
   t: (key: string, vars?: Record<string, string | number>) => string;
-  speak: (text: string) => void;
+  /** Narrate `text`; `locale` overrides the page language (a flipped story card). */
+  speak: (text: string, locale?: Language) => void;
   stopSpeaking: () => void;
   isSpeaking: boolean;
 }
@@ -113,7 +114,7 @@ export function LanguageProvider({
   const isInternalStopRef = useRef(false);
   // Incremented on every speak()/stop so stale async chains cannot clobber state.
   const speakSessionRef = useRef(0);
-  const speakChunkRef = useRef<((chunks: string[], idx: number) => void) | null>(null);
+  const speakChunkRef = useRef<((chunks: string[], idx: number, locale: Locale) => void) | null>(null);
 
   // The new page is on screen: finish the cross-fade and sync <html lang>.
   useEffect(() => {
@@ -215,7 +216,7 @@ export function LanguageProvider({
   }, [hardStop]);
 
   const speakBrowserChunk = useCallback(
-    (chunks: string[], idx: number) => {
+    (chunks: string[], idx: number, locale: Locale) => {
       const synth = window.speechSynthesis;
       if (!synth || idx >= chunks.length || isInternalStopRef.current) {
         activeUtteranceRef.current = null;
@@ -223,9 +224,9 @@ export function LanguageProvider({
         return;
       }
       const utter = new SpeechSynthesisUtterance(chunks[idx]);
-      utter.lang = localeTags[lang];
-      utter.rate = lang === 'hi' ? 0.85 : 0.9;
-      const voice = synth.getVoices().find((v) => v.lang.toLowerCase().startsWith(lang));
+      utter.lang = localeTags[locale];
+      utter.rate = locale === 'hi' ? 0.85 : 0.9;
+      const voice = synth.getVoices().find((v) => v.lang.toLowerCase().startsWith(locale));
       if (voice) utter.voice = voice;
       // Keep a reference so mobile browsers don't garbage-collect mid-speech.
       activeUtteranceRef.current = utter;
@@ -236,7 +237,7 @@ export function LanguageProvider({
           setIsSpeaking(false);
           return;
         }
-        window.setTimeout(() => speakChunkRef.current?.(chunks, idx + 1), 120);
+        window.setTimeout(() => speakChunkRef.current?.(chunks, idx + 1, locale), 120);
       };
       utter.onend = next;
       utter.onerror = (evt) => {
@@ -252,7 +253,7 @@ export function LanguageProvider({
         setIsSpeaking(false);
       }
     },
-    [lang],
+    [],
   );
 
   useEffect(() => {
@@ -260,9 +261,9 @@ export function LanguageProvider({
   }, [speakBrowserChunk]);
 
   // Text-to-speech: ElevenLabs via /api/tts, falling back to the browser's
-  // own voices. Always narrates in the page's language.
+  // own voices. Narrates in `locale`, which defaults to the page's language.
   const speak = useCallback(
-    async (text: string) => {
+    async (text: string, locale: Locale = lang) => {
       hardStop();
       isInternalStopRef.current = false;
       const session = ++speakSessionRef.current;
@@ -285,7 +286,7 @@ export function LanguageProvider({
           setIsSpeaking(false);
           return;
         }
-        speakBrowserChunk(chunks, 0);
+        speakBrowserChunk(chunks, 0, locale);
       };
 
       try {
@@ -295,7 +296,7 @@ export function LanguageProvider({
         const lower = storyText.toLowerCase();
         const voiceType = FEMALE_KEYWORDS.some((k) => lower.includes(k)) ? 'female' : 'male';
         try {
-          await elevenLabsService.speakText(storyText, voiceType, lang);
+          await elevenLabsService.speakText(storyText, voiceType, locale);
           if (session === speakSessionRef.current && !isInternalStopRef.current) setIsSpeaking(false);
         } catch (error) {
           console.error('ElevenLabs synthesis failed, falling back to browser TTS:', error);
@@ -315,7 +316,7 @@ export function LanguageProvider({
       hrefFor,
       registerAlternates,
       t,
-      speak: (text: string) => void speak(text),
+      speak: (text: string, locale?: Language) => void speak(text, locale),
       stopSpeaking: hardStop,
       isSpeaking,
     }),

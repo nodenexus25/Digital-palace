@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import BattlesClient from './BattlesClient';
-import { getBattles, getLegendaryFigures } from '@/content/battles';
-import { withoutStory } from '@/content/stories';
+import { battleCards, figureCards } from '@/content/listings';
 import { toLocale } from '@/i18n/config';
 import { translate } from '@/i18n/messages';
 import { alternatesFor } from '@/i18n/metadata';
@@ -19,5 +18,5 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function BattlesPage({ params }: Props) {
   const lang = toLocale((await params).lang);
-  return <BattlesClient battles={withoutStory(getBattles(lang))} figures={withoutStory(getLegendaryFigures(lang))} />;
+  return <BattlesClient battles={battleCards(lang)} figures={figureCards(lang)} />;
 }

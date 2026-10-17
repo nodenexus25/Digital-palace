@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
-// All public pages live under app/[lang]/* . This middleware redirects
+// All public pages live under app/[lang]/* . This proxy redirects
 // unprefixed requests (e.g. /forts) to /{lang}/forts based on the user's
 // saved language cookie or Accept-Language header, defaulting to 'en'.
 const SUPPORTED_LANGS = ['en', 'hi'] as const;
@@ -22,7 +22,7 @@ function pickLanguage(request: NextRequest): string {
   return 'en';
 }
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
   const segments = pathname.split('/');
   const firstSegment = segments[1];

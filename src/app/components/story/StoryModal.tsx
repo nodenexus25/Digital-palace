@@ -2,8 +2,10 @@
 
 import { useEffect, useId, useRef, useState, type ReactNode } from 'react';
 import { useLanguage } from '../LanguageProvider';
+import { otherLocale } from '@/i18n/config';
 import MediaGallery, { type GalleryImage, type GalleryVideo } from '../MediaGallery';
 import StoryText, { toSpeech } from './StoryText';
+import StoryLanguageToggle from './StoryLanguageToggle';
 import { ListenButton, useNarration } from './useNarration';
 
 export interface StoryModalProps {
@@ -24,6 +26,10 @@ export interface StoryModalProps {
   videos?: GalleryVideo[];
   /** Rendered while long content is loading. */
   loading?: boolean;
+  /** Flips this story, and only this story, to the other language. */
+  onToggleLanguage?: () => void;
+  /** True while the story is shown in the other language. */
+  storyAlt?: boolean;
   onClose: () => void;
   children?: ReactNode;
 }
@@ -44,10 +50,12 @@ export default function StoryModal({
   images = [],
   videos = [],
   loading = false,
+  onToggleLanguage,
+  storyAlt = false,
   onClose,
   children,
 }: StoryModalProps) {
-  const { t } = useLanguage();
+  const { t, currentLanguage } = useLanguage();
   const { toggle, isActive, stop } = useNarration();
   const [chapterIndex, setChapterIndex] = useState(0);
   const dialogRef = useRef<HTMLDivElement>(null);
@@ -57,6 +65,8 @@ export default function StoryModal({
   const current = parts ? parts[Math.min(chapterIndex, parts.length - 1)] : null;
   const body = current ? current.story : story || '';
   const narrationId = `${id}:${current ? chapterIndex : 'story'}`;
+  // The story is being shown (and narrated) in the other language.
+  const narrationLocale = storyAlt ? otherLocale(currentLanguage) : currentLanguage;
 
   useEffect(() => {
     const previous = document.activeElement as HTMLElement | null;
@@ -123,10 +133,13 @@ export default function StoryModal({
               )}
             </div>
             <div className="flex items-center gap-3 shrink-0">
+              {onToggleLanguage && (
+                <StoryLanguageToggle alt={storyAlt} onToggle={onToggleLanguage} className="text-maroon" />
+              )}
               {body && !loading && (
                 <ListenButton
                   active={isActive(narrationId)}
-                  onClick={() => toggle(narrationId, toSpeech(current?.title ?? title, body))}
+                  onClick={() => toggle(narrationId, toSpeech(current?.title ?? title, body), narrationLocale)}
                   className="px-4 py-2 rounded-lg font-cinzel text-sm bg-maroon-dark hover:bg-maroon text-saffron"
                 />
               )}

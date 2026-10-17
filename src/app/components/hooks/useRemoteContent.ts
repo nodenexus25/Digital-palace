@@ -60,3 +60,5 @@ export function useRemoteJson<T>(url: string | null): { data: T | null; loading:
 
 export const storyUrl = (lang: string, collection: string, id: string) => `/api/story/${lang}/${collection}/${id}`;
 export const rulerUrl = (lang: string, dynastyId: string, rulerId: string) => `/api/rulers/${lang}/${dynastyId}/${rulerId}`;
+/** Card text for a whole listing in one language — used by the per-story language toggle. */
+export const listingUrl = (lang: string, key: string) => `/api/listings/${lang}/${key}`;

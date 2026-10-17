@@ -3,14 +3,17 @@
 import { useLanguage } from '@/app/components/LanguageProvider';
 import Hero from '@/app/components/Hero';
 import StoryModal from '@/app/components/story/StoryModal';
+import StoryLanguageToggle from '@/app/components/story/StoryLanguageToggle';
+import { useCardLanguage } from '@/app/components/story/useCardLanguage';
 import { ListenButton, useNarration } from '@/app/components/story/useNarration';
 import { useQueryState } from '@/app/components/hooks/useQueryState';
 import { prefetchJson, storyUrl, useRemoteJson } from '@/app/components/hooks/useRemoteContent';
-import type { FolkDeity, FolkRitual, FolkTale } from '@/content/types';
+import type { DeityCard, RitualCard, TaleCard } from '@/content/types';
 
-type Tale = Omit<FolkTale, 'story'>;
-type Deity = Omit<FolkDeity, 'story'>;
-type Ritual = Omit<FolkRitual, 'story'>;
+type Tale = TaleCard;
+type Deity = DeityCard;
+type Ritual = RitualCard;
+type FolkItem = Tale | Deity | Ritual;
 type Section = 'tales' | 'deities' | 'rituals';
 
 const TABS: { id: Section; key: string }[] = [
@@ -20,23 +23,26 @@ const TABS: { id: Section; key: string }[] = [
 ];
 
 export default function FolkloreClient({ tales, deities, rituals }: { tales: Tale[]; deities: Deity[]; rituals: Ritual[] }) {
-  const { t, currentLanguage } = useLanguage();
+  const { t } = useLanguage();
   const [sectionParam, setSection] = useQueryState('section');
   const [openId, setOpenId] = useQueryState('item');
   const { toggle, isActive } = useNarration();
   const section: Section = sectionParam === 'deities' || sectionParam === 'rituals' ? sectionParam : 'tales';
+  const { isAlt, langFor, localize, toggle: flip } = useCardLanguage<FolkItem>(section, section);
 
-  const items = { tales, deities, rituals }[section] as (Tale | Deity | Ritual)[];
+  const items = { tales, deities, rituals }[section] as FolkItem[];
   const open = items.find((i) => i.id === openId) ?? null;
-  const story = useRemoteJson<{ story?: string }>(open ? storyUrl(currentLanguage, section, open.id) : null);
-  const warm = (id: string) => () => void prefetchJson(storyUrl(currentLanguage, section, id)).catch(() => {});
+  const openItem = open ? localize(open) : null;
+  const story = useRemoteJson<{ story?: string }>(open ? storyUrl(langFor(open.id), section, open.id) : null);
+  const warm = (id: string) => () => void prefetchJson(storyUrl(langFor(id), section, id)).catch(() => {});
 
   // Narrating from a card reads the full story, fetched on demand.
   const listen = async (id: string, intro: string) => {
     const key = `${section}:${id}`;
+    const locale = langFor(id);
     if (isActive(key)) return toggle(key, '');
-    const data = (await prefetchJson(storyUrl(currentLanguage, section, id)).catch(() => null)) as { story?: string } | null;
-    toggle(key, [intro, data?.story].filter(Boolean).join('\n\n'));
+    const data = (await prefetchJson(storyUrl(locale, section, id)).catch(() => null)) as { story?: string } | null;
+    toggle(key, [intro, data?.story].filter(Boolean).join('\n\n'), locale);
   };
 
   const card = (id: string, accent: string, children: React.ReactNode, intro: string) => (
@@ -45,7 +51,8 @@ export default function FolkloreClient({ tales, deities, rituals }: { tales: Tal
       className={`bg-white rounded-lg shadow-lg p-6 border-l-4 ${accent} rajput-hover transition-all duration-300 hover:-translate-y-1 relative flex flex-col`}
       onMouseEnter={warm(id)}
     >
-      <div className="absolute top-4 right-4 z-10">
+      <div className="absolute top-4 right-4 z-10 flex items-center gap-2">
+        <StoryLanguageToggle alt={isAlt(id)} onToggle={() => flip(id)} className="bg-white/70 text-maroon" />
         <ListenButton
           iconOnly
           active={isActive(`${section}:${id}`)}
@@ -85,104 +92,109 @@ export default function FolkloreClient({ tales, deities, rituals }: { tales: Tal
       <section className="py-16 bg-ivory">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {section === 'tales' &&
-            tales.map((tale) =>
-              card(
-                tale.id,
+            tales.map((tale) => {
+              const item = localize(tale);
+              return card(
+                item.id,
                 'border-saffron',
                 <>
-                  <h3 className="font-cinzel font-bold text-2xl text-maroon mb-3 pr-10">{tale.name}</h3>
+                  <h3 className="font-cinzel font-bold text-2xl text-maroon mb-3 pr-10">{item.name}</h3>
                   <dl className="text-sm text-charcoal space-y-1 mb-4">
-                    <div><dt className="inline font-bold">{t('folklore.authorLabel')}</dt> <dd className="inline">{tale.author}</dd></div>
-                    <div><dt className="inline font-bold">{t('folklore.periodLabel')}</dt> <dd className="inline">{tale.period}</dd></div>
-                    <div><dt className="inline font-bold">{t('folklore.typeLabel')}</dt> <dd className="inline">{tale.type}</dd></div>
+                    <div><dt className="inline font-bold">{t('folklore.authorLabel')}</dt> <dd className="inline">{item.author}</dd></div>
+                    <div><dt className="inline font-bold">{t('folklore.periodLabel')}</dt> <dd className="inline">{item.period}</dd></div>
+                    <div><dt className="inline font-bold">{t('folklore.typeLabel')}</dt> <dd className="inline">{item.type}</dd></div>
                   </dl>
                   <ul className="flex flex-wrap gap-2 mb-4">
-                    {tale.themes.map((theme, i) => (
+                    {item.themes.map((theme, i) => (
                       <li key={i} className="bg-gold/20 text-maroon px-2 py-1 rounded-full text-xs font-cinzel">{theme}</li>
                     ))}
                   </ul>
                 </>,
-                `${tale.name}. ${tale.significance}`,
-              ),
-            )}
+                `${item.name}. ${item.significance}`,
+              );
+            })}
 
           {section === 'deities' &&
-            deities.map((deity) =>
-              card(
-                deity.id,
+            deities.map((deity) => {
+              const item = localize(deity);
+              return card(
+                item.id,
                 'border-gold',
                 <>
-                  <h3 className="font-cinzel font-bold text-xl text-maroon mb-3 pr-10">{deity.name}</h3>
+                  <h3 className="font-cinzel font-bold text-xl text-maroon mb-3 pr-10">{item.name}</h3>
                   <dl className="text-sm text-charcoal space-y-1 mb-4">
-                    <div><dt className="inline font-bold">{t('folklore.periodLabel')}</dt> <dd className="inline">{deity.period}</dd></div>
-                    <div><dt className="inline font-bold">{t('stories.regionLabel')}</dt> <dd className="inline">{deity.region}</dd></div>
-                    <div><dt className="inline font-bold">{t('forts.significance')}</dt> <dd className="inline">{deity.significance}</dd></div>
+                    <div><dt className="inline font-bold">{t('folklore.periodLabel')}</dt> <dd className="inline">{item.period}</dd></div>
+                    <div><dt className="inline font-bold">{t('stories.regionLabel')}</dt> <dd className="inline">{item.region}</dd></div>
+                    <div><dt className="inline font-bold">{t('forts.significance')}</dt> <dd className="inline">{item.significance}</dd></div>
                   </dl>
                   <ul className="flex flex-wrap gap-2 mb-4">
-                    {deity.legends.slice(0, 2).map((legend, i) => (
+                    {item.legends.slice(0, 2).map((legend, i) => (
                       <li key={i} className="bg-saffron/20 text-maroon px-2 py-1 rounded-full text-xs font-cinzel">{legend}</li>
                     ))}
                   </ul>
                 </>,
-                `${deity.name}. ${deity.significance}`,
-              ),
-            )}
+                `${item.name}. ${item.significance}`,
+              );
+            })}
 
           {section === 'rituals' &&
-            rituals.map((ritual) =>
-              card(
-                ritual.id,
+            rituals.map((ritual) => {
+              const item = localize(ritual);
+              return card(
+                item.id,
                 'border-maroon',
                 <>
-                  <h3 className="font-cinzel font-bold text-2xl text-maroon mb-3 pr-10">{ritual.name}</h3>
+                  <h3 className="font-cinzel font-bold text-2xl text-maroon mb-3 pr-10">{item.name}</h3>
                   <p className="text-sm text-charcoal mb-4">
-                    <strong>{t('forts.significance')}</strong> {ritual.significance}
+                    <strong>{t('forts.significance')}</strong> {item.significance}
                   </p>
                   <h4 className="font-cinzel font-semibold text-maroon mb-2">{t('folklore.practicesLabel')}</h4>
                   <ul className="list-disc list-inside text-sm text-charcoal mb-4">
-                    {ritual.practices.map((p, i) => (
+                    {item.practices.map((p, i) => (
                       <li key={i}>{p}</li>
                     ))}
                   </ul>
                 </>,
-                `${ritual.name}. ${ritual.significance}`,
-              ),
-            )}
+                `${item.name}. ${item.significance}`,
+              );
+            })}
         </div>
       </section>
 
-      {open && (
+      {open && openItem && (
         <StoryModal
           id={`${section}:${open.id}`}
-          title={open.name}
+          title={openItem.name}
           facts={
             section === 'tales'
               ? [
-                  { label: t('folklore.authorLabel'), value: (open as Tale).author },
-                  { label: t('folklore.periodLabel'), value: (open as Tale).period },
-                  { label: t('folklore.typeLabel'), value: (open as Tale).type },
+                  { label: t('folklore.authorLabel'), value: (openItem as Tale).author },
+                  { label: t('folklore.periodLabel'), value: (openItem as Tale).period },
+                  { label: t('folklore.typeLabel'), value: (openItem as Tale).type },
                 ]
               : section === 'deities'
                 ? [
-                    { label: t('folklore.periodLabel'), value: (open as Deity).period },
-                    { label: t('stories.regionLabel'), value: (open as Deity).region },
-                    { label: t('folklore.worshipLabel'), value: (open as Deity).worship },
+                    { label: t('folklore.periodLabel'), value: (openItem as Deity).period },
+                    { label: t('stories.regionLabel'), value: (openItem as Deity).region },
+                    { label: t('folklore.worshipLabel'), value: (openItem as Deity).worship },
                   ]
                 : []
           }
           lists={
             section === 'tales'
-              ? [{ label: t('concepts.themes'), items: (open as Tale).themes }]
+              ? [{ label: t('concepts.themes'), items: (openItem as Tale).themes }]
               : section === 'deities'
-                ? [{ label: t('battles.legendsList'), items: (open as Deity).legends }]
+                ? [{ label: t('battles.legendsList'), items: (openItem as Deity).legends }]
                 : [
-                    { label: t('folklore.practicesLabel'), items: (open as Ritual).practices },
-                    { label: t('folklore.occasionsLabel'), items: (open as Ritual).occasions },
+                    { label: t('folklore.practicesLabel'), items: (openItem as Ritual).practices },
+                    { label: t('folklore.occasionsLabel'), items: (openItem as Ritual).occasions },
                   ]
           }
-          notes={[{ label: t('common.significance'), text: open.significance }]}
+          notes={[{ label: t('common.significance'), text: openItem.significance }]}
           story={story.data?.story}
           loading={story.loading}
+          storyAlt={isAlt(open.id)}
+          onToggleLanguage={() => flip(open.id)}
           onClose={() => setOpenId(null)}
         />
       )}

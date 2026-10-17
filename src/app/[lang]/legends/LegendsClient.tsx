@@ -3,12 +3,12 @@
 import LazyImage from '@/app/components/LazyImage';
 import { useLanguage } from '@/app/components/LanguageProvider';
 import StoryModal from '@/app/components/story/StoryModal';
+import StoryLanguageToggle from '@/app/components/story/StoryLanguageToggle';
+import { useCardLanguage } from '@/app/components/story/useCardLanguage';
 import { ListenButton, useNarration } from '@/app/components/story/useNarration';
 import { useQueryState } from '@/app/components/hooks/useQueryState';
 import { prefetchJson, storyUrl, useRemoteJson } from '@/app/components/hooks/useRemoteContent';
-import type { Legend } from '@/content/types';
-
-type LegendCard = Omit<Legend, 'story'>;
+import type { LegendCard } from '@/content/types';
 
 const Chip = ({ children }: { children: React.ReactNode }) => (
   <span className="inline-flex items-center gap-2 rounded-full border border-[#C9A24D]/40 bg-black/40 px-4 py-2">
@@ -18,17 +18,20 @@ const Chip = ({ children }: { children: React.ReactNode }) => (
 );
 
 export default function LegendsClient({ legends }: { legends: LegendCard[] }) {
-  const { t, currentLanguage } = useLanguage();
+  const { t } = useLanguage();
   const [openId, setOpenId] = useQueryState('legend');
   const { toggle, isActive } = useNarration();
+  const { isAlt, langFor, localize, toggle: flip } = useCardLanguage<LegendCard>('legends', 'legends');
   const open = legends.find((l) => l.id === openId) ?? null;
-  const story = useRemoteJson<{ story?: string }>(open ? storyUrl(currentLanguage, 'legends', open.id) : null);
-  const warm = (id: string) => () => void prefetchJson(storyUrl(currentLanguage, 'legends', id)).catch(() => {});
+  const openCard = open ? localize(open) : null;
+  const story = useRemoteJson<{ story?: string }>(open ? storyUrl(langFor(open.id), 'legends', open.id) : null);
+  const warm = (id: string) => () => void prefetchJson(storyUrl(langFor(id), 'legends', id)).catch(() => {});
 
   const listen = async (legend: LegendCard) => {
+    const locale = langFor(legend.id);
     if (isActive(legend.id)) return toggle(legend.id, '');
-    const data = (await prefetchJson(storyUrl(currentLanguage, 'legends', legend.id)).catch(() => null)) as { story?: string } | null;
-    toggle(legend.id, [legend.title, legend.hook, data?.story].filter(Boolean).join('\n\n'));
+    const data = (await prefetchJson(storyUrl(locale, 'legends', legend.id)).catch(() => null)) as { story?: string } | null;
+    toggle(legend.id, [legend.title, legend.hook, data?.story].filter(Boolean).join('\n\n'), locale);
   };
 
   return (
@@ -74,31 +77,40 @@ export default function LegendsClient({ legends }: { legends: LegendCard[] }) {
           </header>
 
           <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
-            {legends.map((legend) => (
+            {legends.map((legend) => {
+              const card = localize(legend);
+              return (
               <article
                 key={legend.id}
                 onMouseEnter={warm(legend.id)}
                 className="group relative overflow-hidden rounded-2xl border border-[#C9A24D]/30 bg-gradient-to-br from-[#050404] via-[#120A0A] to-[#24110D] shadow-[0_25px_80px_rgba(0,0,0,0.8)] transition-transform duration-500 hover:-translate-y-1 flex flex-col"
               >
                 <div className="relative h-40 overflow-hidden">
-                  <LazyImage fill src={legend.cover.src} alt={legend.cover.alt} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                  <LazyImage fill src={card.cover.src} alt={card.cover.alt} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
                 </div>
                 <div className="relative z-10 p-6 flex flex-1 flex-col">
                   <div className="mb-4 flex items-center justify-between gap-3">
-                    <span className="font-cinzel text-[10px] tracking-[0.25em] uppercase text-[#C9A24D]/90">{legend.category}</span>
-                    <span className="rounded-full border border-[#C9A24D]/40 bg-black/40 px-3 py-1 text-[10px] font-cinzel tracking-[0.2em] uppercase text-[#F5E9D0]/80">{legend.era}</span>
+                    <span className="font-cinzel text-[10px] tracking-[0.25em] uppercase text-[#C9A24D]/90">{card.category}</span>
+                    <span className="rounded-full border border-[#C9A24D]/40 bg-black/40 px-3 py-1 text-[10px] font-cinzel tracking-[0.2em] uppercase text-[#F5E9D0]/80">{card.era}</span>
                   </div>
-                  <h3 className="font-cinzel text-xl text-[#F5E9D0] tracking-[0.12em] mb-2">{legend.title}</h3>
-                  <p className="font-cormorant text-sm text-[#F5E9D0]/80 leading-relaxed mb-4 line-clamp-3">{legend.hook}</p>
+                  <h3 className="font-cinzel text-xl text-[#F5E9D0] tracking-[0.12em] mb-2">{card.title}</h3>
+                  <p className="font-cormorant text-sm text-[#F5E9D0]/80 leading-relaxed mb-4 line-clamp-3">{card.hook}</p>
                   <div className="mt-auto space-y-4">
-                    <ListenButton
-                      active={isActive(legend.id)}
-                      onClick={() => void listen(legend)}
-                      className={`rounded-full border px-3 py-1 text-[11px] font-cinzel tracking-[0.18em] uppercase ${
-                        isActive(legend.id) ? 'bg-[#C9A24D] text-black border-[#C9A24D]' : 'border-[#C9A24D]/40 text-[#C9A24D] hover:bg-[#C9A24D]/10'
-                      }`}
-                    />
+                    <div className="flex items-center justify-between gap-3">
+                      <ListenButton
+                        active={isActive(legend.id)}
+                        onClick={() => void listen(card)}
+                        className={`rounded-full border px-3 py-1 text-[11px] font-cinzel tracking-[0.18em] uppercase ${
+                          isActive(legend.id) ? 'bg-[#C9A24D] text-black border-[#C9A24D]' : 'border-[#C9A24D]/40 text-[#C9A24D] hover:bg-[#C9A24D]/10'
+                        }`}
+                      />
+                      <StoryLanguageToggle
+                        alt={isAlt(legend.id)}
+                        onToggle={() => flip(legend.id)}
+                        className="text-[#C9A24D]"
+                      />
+                    </div>
                     <button
                       type="button"
                       onClick={() => setOpenId(legend.id)}
@@ -111,25 +123,28 @@ export default function LegendsClient({ legends }: { legends: LegendCard[] }) {
                   </div>
                 </div>
               </article>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
 
-      {open && (
+      {open && openCard && (
         <StoryModal
           id={`legend:${open.id}`}
-          title={open.title}
-          subtitle={open.hook}
+          title={openCard.title}
+          subtitle={openCard.hook}
           facts={[
-            { label: t('legends.categoryLabel'), value: open.category },
-            { label: t('dynasties.period'), value: open.era },
-            { label: t('stories.regionLabel'), value: open.location },
+            { label: t('legends.categoryLabel'), value: openCard.category },
+            { label: t('dynasties.period'), value: openCard.era },
+            { label: t('stories.regionLabel'), value: openCard.location },
           ]}
-          images={[open.cover, ...open.gallery]}
-          videos={open.videos}
+          images={[openCard.cover, ...openCard.gallery]}
+          videos={openCard.videos}
           story={story.data?.story}
           loading={story.loading}
+          storyAlt={isAlt(open.id)}
+          onToggleLanguage={() => flip(open.id)}
           onClose={() => setOpenId(null)}
         />
       )}
