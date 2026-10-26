@@ -29,14 +29,14 @@ export default function StoryLanguageToggle({
       aria-pressed={alt}
       aria-label={label}
       title={label}
-      className={`inline-flex shrink-0 items-center gap-0.5 rounded-full border border-current/40 p-0.5 text-[10px] font-cinzel tracking-[0.12em] uppercase transition-opacity hover:opacity-100 ${className}`}
+      className={`inline-flex shrink-0 items-center gap-0.5 rounded-full border border-current/40 p-0.5 text-[10px] font-semibold tracking-[0.12em] uppercase transition-opacity hover:opacity-100 ${className}`}
     >
       {locales.map((locale) => (
         <span
           key={locale}
           lang={locale}
           aria-hidden="true"
-          className={`rounded-full px-2 py-0.5 ${locale === active ? 'bg-[#C9A24D] font-semibold text-black' : 'opacity-60'}`}
+          className={`rounded-full px-2 py-0.5 ${locale === active ? 'bg-[var(--gold-deep)] font-semibold text-[var(--on-gold)]' : 'opacity-60'}`}
         >
           {localeShortNames[locale]}
         </span>

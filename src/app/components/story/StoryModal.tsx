@@ -114,42 +114,42 @@ export default function StoryModal({
         aria-labelledby={titleId}
         tabIndex={-1}
         onClick={(e) => e.stopPropagation()}
-        className="bg-ivory text-charcoal rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto shadow-2xl outline-none"
+        className="bg-[var(--surface)] text-[var(--ink)] rounded-[var(--radius-xl)] max-w-4xl w-full max-h-[90vh] overflow-y-auto shadow-2xl outline-none"
       >
-        <header className="sticky top-0 z-10 bg-saffron text-maroon p-6 rounded-t-2xl">
-          <div className="flex justify-between items-start gap-4">
+        <header className="sticky top-0 z-10 bg-[var(--deep)] text-[var(--on-deep)] p-4 sm:p-6 rounded-t-[var(--radius-xl)]">
+          <div className="flex justify-between items-start gap-3 sm:gap-4">
             <div className="flex-1 min-w-0">
-              <h2 id={titleId} className="font-cinzel font-bold text-3xl mb-1">
+              <h2 id={titleId} className="font-display font-semibold text-xl sm:text-2xl md:text-3xl mb-1 text-[var(--on-deep)]">
                 {title}
               </h2>
-              {subtitle && <p className="font-playfair text-maroon-dark text-lg">{subtitle}</p>}
+              {subtitle && <p className="text-[color:var(--lead-on-deep)] text-base sm:text-lg" style={{ margin: 0 }}>{subtitle}</p>}
               {parts && current && (
                 <div className="mt-3 flex flex-wrap items-center gap-3">
-                  <h3 className="font-cinzel font-semibold text-lg text-maroon-dark">{current.title}</h3>
-                  <span className="text-sm bg-maroon text-saffron px-3 py-1 rounded-full">
+                  <h3 className="font-display font-semibold text-lg text-[var(--on-deep)]">{current.title}</h3>
+                  <span className="text-sm border border-[var(--line-on-deep)] text-[color:var(--lead-on-deep)] px-3 py-1 rounded-full">
                     {t('common.story')} {chapterIndex + 1} / {parts.length}
                   </span>
                 </div>
               )}
             </div>
-            <div className="flex items-center gap-3 shrink-0">
+            <div className="flex items-center gap-2 sm:gap-3 shrink-0">
               {onToggleLanguage && (
-                <StoryLanguageToggle alt={storyAlt} onToggle={onToggleLanguage} className="text-maroon" />
+                <StoryLanguageToggle alt={storyAlt} onToggle={onToggleLanguage} className="text-[color:var(--on-deep)]" />
               )}
               {body && !loading && (
                 <ListenButton
                   active={isActive(narrationId)}
                   onClick={() => toggle(narrationId, toSpeech(current?.title ?? title, body), narrationLocale)}
-                  className="px-4 py-2 rounded-lg font-cinzel text-sm bg-maroon-dark hover:bg-maroon text-saffron"
+                  className="btn btn--ghost-light"
                 />
               )}
               <button
                 type="button"
                 onClick={onClose}
                 aria-label={t('common.close')}
-                className="text-maroon hover:text-maroon-dark transition-colors"
+                className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-[var(--line-on-deep)] text-[color:var(--on-deep)] transition-colors hover:border-[var(--gold-deep)] hover:text-[color:var(--gold-deep)]"
               >
-                <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <svg className="w-6 h-6 sm:w-7 sm:h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                 </svg>
               </button>
@@ -157,13 +157,13 @@ export default function StoryModal({
           </div>
         </header>
 
-        <div className="p-6 md:p-8">
+        <div className="p-4 sm:p-6 md:p-8">
           {visibleFacts.length > 0 && (
-            <dl className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+            <dl className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-8">
               {visibleFacts.map((f) => (
-                <div key={f.label} className="bg-saffron/10 p-4 rounded-lg">
-                  <dt className="font-cinzel font-semibold text-maroon mb-2">{f.label}</dt>
-                  <dd className="font-cormorant text-charcoal text-lg">{f.value}</dd>
+                <div key={f.label} className="battle-card__facts" style={{ margin: 0 }}>
+                  <dt>{f.label}</dt>
+                  <dd>{f.value}</dd>
                 </div>
               ))}
             </dl>
@@ -172,12 +172,12 @@ export default function StoryModal({
           {visibleLists.length > 0 && (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               {visibleLists.map((l) => (
-                <section key={l.label} className="border-l-4 border-saffron p-4 rounded-lg bg-white/40">
-                  <h4 className="font-cinzel font-semibold text-lg text-maroon mb-3">{l.label}</h4>
-                  <ul className="space-y-2">
+                <section key={l.label} className="legend-box">
+                  <span className="chip chip--legend">{l.label}</span>
+                  <ul className="w-full space-y-2" style={{ margin: 0, padding: 0, listStyle: 'none' }}>
                     {l.items.map((item, i) => (
-                      <li key={i} className="font-cormorant text-lg flex items-start gap-2">
-                        <span className="text-saffron" aria-hidden="true">•</span>
+                      <li key={i} className="text-lg flex items-start gap-2 text-[color:var(--ink)]">
+                        <span className="text-[color:var(--primary)]" aria-hidden="true">•</span>
                         <span>{item}</span>
                       </li>
                     ))}
@@ -189,7 +189,7 @@ export default function StoryModal({
 
           {(images.length > 0 || videos.length > 0) && (
             <section className="mb-8">
-              <h4 className="font-cinzel font-semibold text-xl text-maroon mb-4">{t('gallery.multimedia')}</h4>
+              <h4 className="font-display font-semibold text-xl text-[color:var(--ink)] mb-4">{t('gallery.multimedia')}</h4>
               <MediaGallery images={images} videos={videos} fallbackAlt={title} />
             </section>
           )}
@@ -198,47 +198,49 @@ export default function StoryModal({
 
           {(body || loading) && (
             <section className="mb-8">
-              <h4 className="font-cinzel font-semibold text-xl text-maroon mb-4">{t('stories.fullStoryHeading')}</h4>
-              <div className="border-l-4 border-saffron p-6 md:p-8 rounded-lg bg-white/40 font-cormorant">
+              <h4 className="font-display font-semibold text-xl text-[color:var(--ink)] mb-4">{t('stories.fullStoryHeading')}</h4>
+              <div className="legend-box">
                 {loading ? (
-                  <div className="space-y-3 animate-pulse" aria-busy="true" aria-label={t('common.loading')}>
+                  <div className="w-full space-y-3 animate-pulse" aria-busy="true" aria-label={t('common.loading')}>
                     {Array.from({ length: 6 }).map((_, i) => (
-                      <div key={i} className="h-4 rounded bg-maroon/10" style={{ width: `${90 - (i % 3) * 12}%` }} />
+                      <div key={i} className="h-4 rounded bg-[var(--line)]" style={{ width: `${90 - (i % 3) * 12}%` }} />
                     ))}
                   </div>
                 ) : (
-                  <StoryText text={body} />
+                  <div className="w-full">
+                    <StoryText text={body} />
+                  </div>
                 )}
               </div>
             </section>
           )}
 
           {visibleNotes.map((n) => (
-            <section key={n.label} className="bg-maroon/5 p-6 rounded-lg mb-6">
-              <h4 className="font-cinzel font-semibold text-xl text-maroon mb-3">{n.label}</h4>
-              <p className="font-cormorant text-lg leading-relaxed">{n.text}</p>
+            <section key={n.label} className="bg-[var(--sand)] p-6 rounded-[var(--radius-lg)] mb-6">
+              <h4 className="font-display font-semibold text-xl text-[color:var(--ink)] mb-3">{n.label}</h4>
+              <p className="text-lg leading-relaxed" style={{ margin: 0 }}>{n.text}</p>
             </section>
           ))}
         </div>
 
         {parts && parts.length > 1 && (
-          <footer className="bg-saffron/10 p-6 border-t border-saffron/20 rounded-b-2xl flex justify-between items-center gap-4">
+          <footer className="bg-[var(--sand)] p-4 sm:p-6 border-t border-[var(--line)] rounded-b-[var(--radius-xl)] flex justify-between items-center gap-3 sm:gap-4">
             <button
               type="button"
               onClick={() => setChapterIndex((i) => Math.max(0, i - 1))}
               disabled={chapterIndex === 0}
-              className="px-5 py-3 rounded-lg font-cinzel font-semibold bg-maroon text-saffron hover:bg-maroon-dark disabled:bg-gray-300 disabled:text-gray-500 disabled:cursor-not-allowed"
+              className="btn btn--secondary"
             >
               ← {t('common.previous')}
             </button>
-            <span className="font-cinzel text-maroon font-bold">
+            <span className="font-display font-semibold text-[color:var(--ink)] text-sm sm:text-base shrink-0">
               {chapterIndex + 1} / {parts.length}
             </span>
             <button
               type="button"
               onClick={() => setChapterIndex((i) => Math.min(parts.length - 1, i + 1))}
               disabled={chapterIndex === parts.length - 1}
-              className="px-5 py-3 rounded-lg font-cinzel font-semibold bg-maroon text-saffron hover:bg-maroon-dark disabled:bg-gray-300 disabled:text-gray-500 disabled:cursor-not-allowed"
+              className="btn btn--secondary"
             >
               {t('common.next')} →
             </button>

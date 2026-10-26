@@ -170,7 +170,7 @@
         },
         {
           "id": "rana-raimal",
-          "image": "/images/dynasties/rulers/images.jpg"
+          "image": "/images/dynasties/rulers/rana-raimal.jpg"
         },
         {
           "id": "udai-singh-i",
@@ -178,11 +178,11 @@
         },
         {
           "id": "ratan-singh-ii",
-          "image": "https://www.eternalmewar.in/custodian/custodian/Maharana%20Ratan%20Singh%20II.png"
+          "image": "/images/dynasties/rulers/ratan-singh-ii.png"
         },
         {
           "id": "vikramaditya-singh",
-          "image": "/images/dynasties/rulers/images.jpg"
+          "image": "/images/dynasties/rulers/vikramaditya-singh.jpg"
         },
         {
           "id": "karan-singh-ii",
@@ -190,11 +190,11 @@
         },
         {
           "id": "jagat-singh-i",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Jagat_Singh_I.jpg/500px-Jagat_Singh_I.jpg"
+          "image": "/images/dynasties/rulers/jagat-singh-i.jpg"
         },
         {
           "id": "raj-singh-i",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Raja_Ravi_Varma%2C_Maharana_Raj_Singh_-_I.jpg/495px-Raja_Ravi_Varma%2C_Maharana_Raj_Singh_-_I.jpg"
+          "image": "/images/dynasties/rulers/raj-singh-i.jpg"
         },
         {
           "id": "jai-singh",
@@ -286,11 +286,11 @@
         },
         {
           "id": "rao-siha",
-          "image": "/images/dynasties/rulers/images.jpg"
+          "image": "/images/dynasties/rulers/rao-siha.jpg"
         },
         {
           "id": "jaswant-singh-i",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Jaswant_Singh_of_Marwar.jpg"
+          "image": "/images/dynasties/rulers/jaswant-singh-i.jpg"
         },
         {
           "id": "ajit-singh",
@@ -298,7 +298,7 @@
         },
         {
           "id": "umaid-singh",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Umaid_Singh_Bahadur_Maharaja_of_Jodhpur_%28Marwar%29_1936-1941.jpg/500px-Umaid_Singh_Bahadur_Maharaja_of_Jodhpur_%28Marwar%29_1936-1941.jpg"
+          "image": "/images/dynasties/rulers/umaid-singh.jpg"
         },
         {
           "id": "rao-satal",
@@ -314,11 +314,11 @@
         },
         {
           "id": "rao-chandrasen",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Rao_Chandrasen.jpg/500px-Rao_Chandrasen.jpg"
+          "image": "/images/dynasties/rulers/rao-chandrasen.jpg"
         },
         {
           "id": "udai-singh-mota-raja",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Udai_Singh_of_Marwar.jpg"
+          "image": "/images/dynasties/rulers/udai-singh-mota-raja.jpg"
         },
         {
           "id": "raja-sur-singh",
@@ -326,7 +326,7 @@
         },
         {
           "id": "raja-gaj-singh-i",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Gaj_Singh_of_Marwar.jpg"
+          "image": "/images/dynasties/rulers/raja-gaj-singh-i.jpg"
         }
       ]
     },
@@ -350,7 +350,7 @@
         },
         {
           "id": "sawai-jai-singh",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/1_Maharaja_Sawai_Jai_Singh_II_ca_1725_Jaipur._British_museum.jpg/500px-1_Maharaja_Sawai_Jai_Singh_II_ca_1725_Jaipur._British_museum.jpg"
+          "image": "/images/dynasties/rulers/sawai-jai-singh.jpg"
         },
         {
           "id": "dulha-rai",
@@ -522,7 +522,7 @@
         },
         {
           "id": "udaikaran-ii",
-          "image": "/"
+          "image": "/images/home/external/amer.jpg"
         },
         {
           "id": "kumbhakarna-amber",
@@ -554,7 +554,7 @@
         },
         {
           "id": "bhagwant-das-amber",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Portrait_of_Raja_Bhagvant_Das_%28cropped%29.jpg/500px-Portrait_of_Raja_Bhagvant_Das_%28cropped%29.jpg"
+          "image": "/images/dynasties/rulers/bhagwant-das-amber.jpg"
         },
         {
           "id": "bhau-singh-amber",
@@ -562,7 +562,7 @@
         },
         {
           "id": "ram-singh-i-amber",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Ram_Singh_of_Amber.jpg/391px-Ram_Singh_of_Amber.jpg"
+          "image": "/images/dynasties/rulers/ram-singh-i-amber.jpg"
         },
         {
           "id": "bishan-singh-amber",
@@ -570,11 +570,11 @@
         },
         {
           "id": "mirza-raja-jai-singh-i",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Jai_Singh_I.png/500px-Jai_Singh_I.png"
+          "image": "/images/dynasties/rulers/mirza-raja-jai-singh-i.png"
         },
         {
           "id": "ishwari-singh-amber",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Raja_Ishwari_Singh_of_Jaipur.png/381px-Raja_Ishwari_Singh_of_Jaipur.png"
+          "image": "/images/dynasties/rulers/ishwari-singh-amber.png"
         },
         {
           "id": "madho-singh-i-amber",
@@ -582,7 +582,7 @@
         },
         {
           "id": "prithvi-singh-amber",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Sawai_Raja_Prithvi_Singh_II.jpg/500px-Sawai_Raja_Prithvi_Singh_II.jpg"
+          "image": "/images/dynasties/rulers/prithvi-singh-amber.jpg"
         },
         {
           "id": "pratap-singh-amber",
@@ -594,7 +594,7 @@
         },
         {
           "id": "jai-singh-iii-amber",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Sawai_Jai_Singh_III.jpg/429px-Sawai_Jai_Singh_III.jpg"
+          "image": "/images/dynasties/rulers/jai-singh-iii-amber.jpg"
         },
         {
           "id": "ram-singh-ii",
@@ -606,15 +606,15 @@
         },
         {
           "id": "man-singh-ii",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Man_Singh_II.jpg"
+          "image": "/images/dynasties/rulers/man-singh-ii.jpg"
         },
         {
           "id": "bhawani-singh",
-          "image": "/images/dynasties/rulers/licensed-image.jpg"
+          "image": "/images/dynasties/rulers/bhawani-singh.jpg"
         },
         {
           "id": "padmanabh-singh",
-          "image": "/images/dynasties/rulers/licensed-image.jpg"
+          "image": "/images/dynasties/rulers/padmanabh-singh.jpg"
         }
       ]
     },
@@ -630,7 +630,7 @@
         },
         {
           "id": "rao-naroji-bikaner",
-          "image": "/images/dynasties/rulers/images.jpg"
+          "image": "/images/dynasties/rulers/rao-naroji-bikaner.jpg"
         },
         {
           "id": "rao-lunkaran-bikaner",
@@ -670,11 +670,11 @@
         },
         {
           "id": "sujan-singh-bikaner",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Brooklyn_Museum_-_Equestrian_Portrait_of_Maharaja_Sujan_Singh_of_Bikaner_-_Kasam_Son_of_Muhammad.jpg/788px-Brooklyn_Museum_-_Equestrian_Portrait_of_Maharaja_Sujan_Singh_of_Bikaner_-_Kasam_Son_of_Muhammad.jpg?20200820104252"
+          "image": "/images/dynasties/rulers/sujan-singh-bikaner.jpg"
         },
         {
           "id": "zorawar-singh-bikaner",
-          "image": "/images/dynasties/rulers/images.jpg"
+          "image": "/images/dynasties/rulers/zorawar-singh-bikaner.jpg"
         },
         {
           "id": "gaj-singh-bikaner",
@@ -718,7 +718,7 @@
         },
         {
           "id": "karni-singh-bikaner",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Youngkarnisingh-Bikaner.jpg/424px-Youngkarnisingh-Bikaner.jpg"
+          "image": "/images/dynasties/rulers/karni-singh-bikaner.jpg"
         },
         {
           "id": "narendra-singh-bikaner",
@@ -794,7 +794,7 @@
         },
         {
           "id": "rawal-duda-i",
-          "image": "/images/dynasties/rulers/images.jpg"
+          "image": "/images/dynasties/rulers/rawal-duda-i.jpg"
         },
         {
           "id": "rawal-devidas-i",
@@ -846,15 +846,15 @@
         },
         {
           "id": "rawal-amar-singh",
-          "image": "/images/dynasties/rulers/images.jpg"
+          "image": "/images/dynasties/rulers/rawal-amar-singh.jpg"
         },
         {
           "id": "rawal-sabal-singh",
-          "image": "/images/dynasties/rulers/default.jpg"
+          "image": "/images/dynasties/rulers/rawal-sabal-singh.jpg"
         },
         {
           "id": "rawal-budh-singh",
-          "image": "/images/dynasties/rulers/images.jpg"
+          "image": "/images/dynasties/rulers/rawal-budh-singh.jpg"
         },
         {
           "id": "rawal-mulraj-i",
@@ -866,7 +866,7 @@
         },
         {
           "id": "rawal-mulraj-ii-1762",
-          "image": "https://searchcollection.asianart.org/internal/media/dispatcher/70680/preview"
+          "image": "/images/dynasties/seals/jaisalmer-bhati-seal.png"
         },
         {
           "id": "rawal-gaj-singh",
@@ -874,11 +874,11 @@
         },
         {
           "id": "rawal-ranjit-singh",
-          "image": "/images/dynasties/rulers/images.jpg"
+          "image": "/images/dynasties/rulers/rawal-ranjit-singh.jpg"
         },
         {
           "id": "rawal-bairisal-ii",
-          "image": "/images/dynasties/rulers/images.jpg"
+          "image": "/images/dynasties/rulers/rawal-bairisal-ii.jpg"
         },
         {
           "id": "rawal-shalivahan-singh-iii",
@@ -917,25 +917,32 @@
           "image": "/images/dynasties/rulers/samantaraja-chahamana.jpg"
         },
         {
-          "id": "ajaideva-chahamana"
+          "id": "ajaideva-chahamana",
+          "image": "/images/dynasties/seals/chauhan-ajmer-seal.png"
         },
         {
-          "id": "naradeva-chahamana"
+          "id": "naradeva-chahamana",
+          "image": "/images/dynasties/seals/chauhan-ajmer-seal.png"
         },
         {
-          "id": "vigraharaja-i"
+          "id": "vigraharaja-i",
+          "image": "/images/dynasties/seals/chauhan-ajmer-seal.png"
         },
         {
-          "id": "chandraraja-i"
+          "id": "chandraraja-i",
+          "image": "/images/dynasties/seals/chauhan-ajmer-seal.png"
         },
         {
-          "id": "gopendraraja"
+          "id": "gopendraraja",
+          "image": "/images/dynasties/seals/chauhan-ajmer-seal.png"
         },
         {
-          "id": "chandraraja-ii"
+          "id": "chandraraja-ii",
+          "image": "/images/dynasties/seals/chauhan-ajmer-seal.png"
         },
         {
-          "id": "govindaraja-i"
+          "id": "govindaraja-i",
+          "image": "/images/dynasties/seals/chauhan-ajmer-seal.png"
         },
         {
           "id": "durlabharaja-i",
@@ -954,7 +961,8 @@
           "image": "/images/dynasties/rulers/vigraharaja-ii.jpg"
         },
         {
-          "id": "kanhadeva"
+          "id": "kanhadeva",
+          "image": "/images/dynasties/seals/chauhan-ajmer-seal.png"
         },
         {
           "id": "chandraraja-iv",
@@ -1025,10 +1033,12 @@
           "image": "/images/dynasties/rulers/500px-Posthumous_painting_depicting_Prithviraj_Chauhan_from_Kota__28colour_29.jpg"
         },
         {
-          "id": "govindaraja-aibak-vassal"
+          "id": "govindaraja-aibak-vassal",
+          "image": "/images/dynasties/seals/chauhan-ajmer-seal.png"
         },
         {
-          "id": "arjun-deo"
+          "id": "arjun-deo",
+          "image": "/images/dynasties/seals/chauhan-ajmer-seal.png"
         },
         {
           "id": "vigraharaja-iv",
@@ -1043,7 +1053,7 @@
     {
       "id": "tomar",
       "period": "medieval",
-      "mainImage": "/images/dynasties/places/tomar-delhi-gwalior-main.JPG",
+      "mainImage": "/images/dynasties/places/tomar-delhi-gwalior-main.jpg",
       "seal": "/images/dynasties/seals/tomar-delhi-gwalior-seal.jpg",
       "rulers": [
         {
@@ -1088,7 +1098,7 @@
         },
         {
           "id": "mahipal-tomar-delhi",
-          "image": "https://www.jatland.com/w/thumb.php?f=Mahipal_Tomar.jpg&width=900"
+          "image": "/images/dynasties/seals/tomar-delhi-gwalior-seal.jpg"
         },
         {
           "id": "devraj-tomar",
@@ -1192,7 +1202,7 @@
         },
         {
           "id": "karna-deva-i-solanki",
-          "image": "/images/dynasties/rulers/images.jpg"
+          "image": "/images/dynasties/rulers/karna-deva-i-solanki.jpg"
         },
         {
           "id": "kumarapala-solanki",
@@ -1228,7 +1238,7 @@
         },
         {
           "id": "karna-deva-ii-vaghela",
-          "image": "/images/dynasties/rulers/images.jpg"
+          "image": "/images/dynasties/rulers/karna-deva-ii-vaghela.jpg"
         },
         {
           "id": "siddharaj-jayasimha",
@@ -1292,7 +1302,7 @@
         },
         {
           "id": "rao-raja-chhattar-sal-hada",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Brooklyn_Museum_-_Portrait_of_Rao_Chattar_Sal_of_Bundi.jpg/489px-Brooklyn_Museum_-_Portrait_of_Rao_Chattar_Sal_of_Bundi.jpg"
+          "image": "/images/dynasties/rulers/rao-raja-chhattar-sal-hada.jpg"
         },
         {
           "id": "rao-bhao-singh-hada",
@@ -1300,7 +1310,7 @@
         },
         {
           "id": "raja-budh-singh-hada",
-          "image": "/images/dynasties/rulers/images.jpg"
+          "image": "/images/dynasties/rulers/raja-budh-singh-hada.jpg"
         },
         {
           "id": "madho-singh-i-kota",

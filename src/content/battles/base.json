@@ -190,19 +190,19 @@
   "figures": [
     {
       "id": "rani-padmini",
-      "image": "/images/battles/legendary-figures/rani-padmini.jpg"
+      "image": "/images/battles/rani-padmini/500px-22Princess_Padmavati_ca._1765_Biblioth_que_nationale_de_France__Paris.jpg"
     },
     {
       "id": "maharana-pratap",
-      "image": "/images/battles/legendary-figures/maharana-pratap.jpg"
+      "image": "/images/battles/maharana-pratap/500px-Maharana_Pratap_By_Surendra_Singh_Shaktawat.jpg"
     },
     {
       "id": "rana-sanga",
-      "image": "/images/battles/legendary-figures/rana-sanga.jpg"
+      "image": "/images/battles/rana-sanga/330px-Depiction_of_king_Rana_Sanga.jpg"
     },
     {
       "id": "prithviraj-chauhan",
-      "image": "/images/battles/legendary-figures/prithviraj-chauhan.jpg"
+      "image": "/images/battles/prithviraj-chauhan/500px-Posthumous_painting_depicting_Prithviraj_Chauhan_from_Kota__colour_.jpg"
     },
     {
       "id": "hamir-dev",
@@ -230,15 +230,15 @@
     },
     {
       "id": "rana-sangram-singh",
-      "image": "/images/battles/legendary-figures/rana-sanga.jpg"
+      "image": "/images/battles/rana-sangram-singh/rana-sangram-singh.jpg"
     },
     {
       "id": "rawal-kumar-singh",
-      "image": "/images/dynasties/places/jaisalmer-bhati-main.jpg"
+      "image": "/images/dynasties/seals/jaisalmer-bhati-seal.png"
     },
     {
       "id": "raja-bhairav-singh",
-      "image": "/images/dynasties/places/hada-bundi-kota-main.jpg"
+      "image": "/images/dynasties/seals/hada-bundi-kota-seal.png"
     },
     {
       "id": "rani-durgavati",
@@ -246,7 +246,7 @@
     },
     {
       "id": "nagabhata-i",
-      "image": "/images/dynasties/places/tomar-delhi-gwalior-main.JPG"
+      "image": "/images/dynasties/places/tomar-delhi-gwalior-main.jpg"
     },
     {
       "id": "mihir-bhoja",
@@ -266,7 +266,7 @@
     },
     {
       "id": "jaichand-gahadavala",
-      "image": "/images/dynasties/places/paramara-malwa-main.jpg"
+      "image": "/images/battles/jaichand-gahadavala/jaichand-gahadavala.jpg"
     },
     {
       "id": "govindachandra-gahadavala",
@@ -274,15 +274,15 @@
     },
     {
       "id": "chand-bardai",
-      "image": "/images/battles/legendary-figures/prithviraj-chauhan.jpg"
+      "image": "/images/battles/chand-bardai/chand-bardai.jpg"
     },
     {
       "id": "rawal-ratan-singh",
-      "image": "/images/battles/legendary-figures/rani-padmini.jpg"
+      "image": "/images/battles/rawal-ratan-singh/rawal-ratan-singh.jpg"
     },
     {
       "id": "jaitra-singh",
-      "image": "/images/dynasties/places/mewar.jpg"
+      "image": "/images/dynasties/seals/mewar-sisodia-seal.png"
     },
     {
       "id": "hammir-singh",
@@ -298,11 +298,11 @@
     },
     {
       "id": "viramadeva",
-      "image": "/images/dynasties/places/solanki-chaulukya-main.jpg"
+      "image": "/images/dynasties/seals/chauhan-ajmer-seal.png"
     },
     {
       "id": "kunwar-kanh-singh",
-      "image": "/images/dynasties/places/mewar.jpg"
+      "image": "/images/dynasties/seals/mewar-sisodia-seal.png"
     },
     {
       "id": "rao-jodha",
@@ -310,7 +310,7 @@
     },
     {
       "id": "ranmal-rathore",
-      "image": "/images/dynasties/places/marwar-rathore-main.jpg"
+      "image": "/images/battles/ranmal-rathore/ranmal-rathore.jpg"
     },
     {
       "id": "rao-bika",
@@ -326,7 +326,7 @@
     },
     {
       "id": "rao-nara",
-      "image": "/images/dynasties/places/marwar-rathore-main.jpg"
+      "image": "/images/dynasties/seals/marwar-rathore-seal.png"
     },
     {
       "id": "rana-raimal",
@@ -334,23 +334,23 @@
     },
     {
       "id": "kunwar-prithviraj-mewar",
-      "image": "/images/battles/legendary-figures/maharana-pratap.jpg"
+      "image": "/images/dynasties/seals/mewar-sisodia-seal.png"
     },
     {
       "id": "maharani-rani-sona",
-      "image": "/images/dynasties/places/mewar.jpg"
+      "image": "/images/dynasties/seals/mewar-sisodia-seal.png"
     },
     {
       "id": "medini-rai",
-      "image": "/images/dynasties/places/paramara-malwa-main.jpg"
+      "image": "/images/dynasties/seals/paramara-malwa-seal.jpg"
     },
     {
       "id": "haridas-tomar",
-      "image": "/images/dynasties/places/tomar-delhi-gwalior-main.JPG"
+      "image": "/images/dynasties/seals/tomar-delhi-gwalior-seal.jpg"
     },
     {
       "id": "silhadi-singh",
-      "image": "/images/dynasties/places/paramara-malwa-main.jpg"
+      "image": "/images/dynasties/seals/tomar-delhi-gwalior-seal.jpg"
     },
     {
       "id": "rani-karnavati",
@@ -370,71 +370,71 @@
     },
     {
       "id": "jaimal-rathore",
-      "image": "/images/dynasties/places/marwar-rathore-main.jpg"
+      "image": "/images/battles/jaimal-mertia/jaimal-mertia.jpg"
     },
     {
       "id": "patta-sisodia",
-      "image": "/images/battles/legendary-figures/maharana-pratap.jpg"
+      "image": "/images/battles/patta-sisodia/patta-sisodia.jpg"
     },
     {
       "id": "hakim-khan-sur",
-      "image": "/images/dynasties/places/mewar.jpg"
+      "image": "/images/dynasties/seals/mewar-sisodia-seal.png"
     },
     {
       "id": "jhala-man-singh",
-      "image": "/images/battles/legendary-figures/maharana-pratap.jpg"
+      "image": "/images/battles/jhala-man-singh/jhala-man-singh.jpg"
     },
     {
       "id": "bhamashah",
-      "image": "/images/dynasties/places/mewar.jpg"
+      "image": "/images/battles/bhamashah/bhamashah.jpg"
     },
     {
       "id": "panna-dhai",
-      "image": "/images/dynasties/places/mewar.jpg"
+      "image": "/images/battles/panna-dhai/panna-dhai.webp"
     },
     {
       "id": "rao-amar-singh-i",
-      "image": "/images/battles/legendary-figures/maharana-pratap.jpg"
+      "image": "/images/battles/rao-amar-singh-i/rao-amar-singh-i.jpg"
     },
     {
       "id": "kunwar-shakti-singh",
-      "image": "/images/battles/legendary-figures/maharana-pratap.jpg"
+      "image": "/images/dynasties/seals/mewar-sisodia-seal.png"
     },
     {
       "id": "maharana-karan-singh-ii",
-      "image": "/images/dynasties/places/mewar.jpg"
+      "image": "/images/battles/maharana-karan-singh-ii/maharana-karan-singh-ii.jpg"
     },
     {
       "id": "amar-singh-rathore",
-      "image": "/images/dynasties/places/marwar-rathore-main.jpg"
+      "image": "/images/battles/amar-singh-rathore/amar-singh-rathore.jpg"
     },
     {
       "id": "rao-chhatrasal-bundela",
-      "image": "/images/dynasties/places/hada-bundi-kota-main.jpg"
+      "image": "/images/battles/rao-chhatrasal-bundela/rao-chhatrasal-bundela.jpg"
     },
     {
       "id": "maharao-shakti-singh-hada",
-      "image": "/images/dynasties/places/hada-bundi-kota-main.jpg"
+      "image": "/images/dynasties/seals/hada-bundi-kota-seal.png"
     },
     {
       "id": "kunwar-jagmal",
-      "image": "/images/dynasties/places/mewar.jpg"
+      "image": "/images/dynasties/seals/mewar-sisodia-seal.png"
     },
     {
       "id": "rao-ratan-singh-rathore",
-      "image": "/images/dynasties/places/marwar-rathore-main.jpg"
+      "image": "/images/battles/rao-ratan-singh-rathore/rao-ratan-singh-rathore.jpg"
     },
     {
       "id": "rawat-kesri-singh",
-      "image": "/images/dynasties/places/mewar.jpg"
+      "image": "/images/dynasties/seals/mewar-sisodia-seal.png"
     },
     {
       "id": "rao-surtan-singh",
-      "image": "/images/dynasties/places/amber-kachwaha-main.jpg"
+      "image": "/images/battles/rao-surtan-singh/rao-surtan-singh.jpg"
     },
     {
       "id": "durgadas-rathore",
-      "image": "/images/dynasties/places/marwar-rathore-main.jpg"
+      "image": "/images/battles/durgadas-rathore/durgadas-rathore.jpg"
     },
     {
       "id": "maharaja-jaswant-singh",
@@ -450,7 +450,7 @@
     },
     {
       "id": "kunwar-prithviraj-singh",
-      "image": "/images/dynasties/places/mewar.jpg"
+      "image": "/images/dynasties/places/amber-kachwaha-main.jpg"
     },
     {
       "id": "rao-amar-singh-ii",
@@ -458,7 +458,7 @@
     },
     {
       "id": "kunwar-bhim-singh",
-      "image": "/images/dynasties/places/mewar.jpg"
+      "image": "/images/dynasties/seals/mewar-sisodia-seal.png"
     }
   ]
 }

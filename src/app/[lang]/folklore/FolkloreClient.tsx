@@ -1,7 +1,9 @@
 'use client';
 
+import type { ReactNode } from 'react';
 import { useLanguage } from '@/app/components/LanguageProvider';
-import Hero from '@/app/components/Hero';
+import PageHead from '@/app/components/PageHead';
+import TransText from '@/app/components/TransText';
 import StoryModal from '@/app/components/story/StoryModal';
 import StoryLanguageToggle from '@/app/components/story/StoryLanguageToggle';
 import { useCardLanguage } from '@/app/components/story/useCardLanguage';
@@ -45,119 +47,139 @@ export default function FolkloreClient({ tales, deities, rituals }: { tales: Tal
     toggle(key, [intro, data?.story].filter(Boolean).join('\n\n'), locale);
   };
 
-  const card = (id: string, accent: string, children: React.ReactNode, intro: string) => (
-    <article
-      key={id}
-      className={`bg-white rounded-lg shadow-lg p-6 border-l-4 ${accent} rajput-hover transition-all duration-300 hover:-translate-y-1 relative flex flex-col`}
-      onMouseEnter={warm(id)}
-    >
-      <div className="absolute top-4 right-4 z-10 flex items-center gap-2">
-        <StoryLanguageToggle alt={isAlt(id)} onToggle={() => flip(id)} className="bg-white/70 text-maroon" />
-        <ListenButton
-          iconOnly
-          active={isActive(`${section}:${id}`)}
-          onClick={() => void listen(id, intro)}
-          className="p-2 rounded-full bg-gold/10 text-saffron hover:bg-maroon hover:text-ivory"
-        />
+  const card = (id: string, intro: string, meta: ReactNode, children: ReactNode) => (
+    <article key={id} className="card" onMouseEnter={warm(id)}>
+      <div className="card__body">
+        {children}
+        <div className="flex flex-wrap items-center gap-3 pt-1">
+          <ListenButton
+            active={isActive(`${section}:${id}`)}
+            onClick={() => void listen(id, intro)}
+            className="listen-btn"
+          />
+          <StoryLanguageToggle alt={isAlt(id)} onToggle={() => flip(id)} className="text-[var(--primary)]" />
+        </div>
       </div>
-      {children}
-      <button type="button" onClick={() => setOpenId(id)} onFocus={warm(id)} className="mt-auto pt-2 text-left text-saffron hover:text-maroon font-cinzel text-sm">
-        {t('common.readMore')} →
-      </button>
+      <div className="card__foot">
+        {meta}
+        <button type="button" onClick={() => setOpenId(id)} onFocus={warm(id)} className="btn btn--text">
+          {t('common.readMore')}
+        </button>
+      </div>
     </article>
   );
 
   return (
-    <div className="min-h-screen bg-ivory fresco-texture">
-      <Hero title={t('folklore.title')} subtitle={t('folklore.subtitle')} description={t('folklore.description')} />
+    <main>
+      <PageHead
+        breadcrumb={[
+          { label: <TransText k="nav.home" />, href: '/' },
+          { label: t('nav.folklore') },
+        ]}
+        eyebrow={t('folklore.subtitle')}
+        title={t('folklore.title')}
+        lead={t('folklore.description')}
+      />
 
-      <nav className="py-8 bg-sandstone-light" aria-label={t('folklore.title')}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-wrap justify-center gap-4" role="tablist">
-          {TABS.map((tab) => (
-            <button
-              key={tab.id}
-              role="tab"
-              aria-selected={section === tab.id}
-              onClick={() => setSection(tab.id === 'tales' ? null : tab.id)}
-              className={`px-6 py-3 font-cinzel font-semibold rounded-lg transition-colors ${
-                section === tab.id ? 'bg-maroon text-ivory' : 'bg-ivory text-maroon hover:bg-saffron-light'
-              }`}
-            >
-              {t(tab.key)}
-            </button>
-          ))}
-        </div>
-      </nav>
+      <section className="section scroll-mt-24" id="rituals">
+        <div className="container">
+          <div
+            className="sec-head__actions"
+            role="tablist"
+            aria-label={t('folklore.title')}
+            style={{ marginBottom: 'var(--space-12)' }}
+          >
+            {TABS.map((tab) => (
+              <button
+                key={tab.id}
+                type="button"
+                role="tab"
+                aria-selected={section === tab.id}
+                onClick={() => setSection(tab.id === 'tales' ? null : tab.id)}
+                className={section === tab.id ? 'btn btn--primary' : 'btn btn--secondary'}
+              >
+                {t(tab.key)}
+              </button>
+            ))}
+          </div>
 
-      <section className="py-16 bg-ivory">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {section === 'tales' &&
-            tales.map((tale) => {
-              const item = localize(tale);
-              return card(
-                item.id,
-                'border-saffron',
-                <>
-                  <h3 className="font-cinzel font-bold text-2xl text-maroon mb-3 pr-10">{item.name}</h3>
-                  <dl className="text-sm text-charcoal space-y-1 mb-4">
-                    <div><dt className="inline font-bold">{t('folklore.authorLabel')}</dt> <dd className="inline">{item.author}</dd></div>
-                    <div><dt className="inline font-bold">{t('folklore.periodLabel')}</dt> <dd className="inline">{item.period}</dd></div>
-                    <div><dt className="inline font-bold">{t('folklore.typeLabel')}</dt> <dd className="inline">{item.type}</dd></div>
-                  </dl>
-                  <ul className="flex flex-wrap gap-2 mb-4">
-                    {item.themes.map((theme, i) => (
-                      <li key={i} className="bg-gold/20 text-maroon px-2 py-1 rounded-full text-xs font-cinzel">{theme}</li>
-                    ))}
-                  </ul>
-                </>,
-                `${item.name}. ${item.significance}`,
-              );
-            })}
+          <div className="grid-3">
+            {section === 'tales' &&
+              tales.map((tale) => {
+                const item = localize(tale);
+                return card(
+                  item.id,
+                  `${item.name}. ${item.significance}`,
+                  <span>{item.type}</span>,
+                  <>
+                    <h3 className="card__title">{item.name}</h3>
+                    <dl className="text-sm text-[var(--muted)]" style={{ display: 'grid', gap: 4 }}>
+                      <div><dt className="inline font-semibold">{t('folklore.authorLabel')}</dt> <dd className="inline">{item.author}</dd></div>
+                      <div><dt className="inline font-semibold">{t('folklore.periodLabel')}</dt> <dd className="inline">{item.period}</dd></div>
+                      <div><dt className="inline font-semibold">{t('folklore.typeLabel')}</dt> <dd className="inline">{item.type}</dd></div>
+                    </dl>
+                    <div className="legend-box">
+                      <span className="chip chip--legend">{t('concepts.legend')}</span>
+                      <ul className="flex flex-wrap gap-2">
+                        {item.themes.map((theme, i) => (
+                          <li key={i} className="chip">{theme}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  </>,
+                );
+              })}
 
-          {section === 'deities' &&
-            deities.map((deity) => {
-              const item = localize(deity);
-              return card(
-                item.id,
-                'border-gold',
-                <>
-                  <h3 className="font-cinzel font-bold text-xl text-maroon mb-3 pr-10">{item.name}</h3>
-                  <dl className="text-sm text-charcoal space-y-1 mb-4">
-                    <div><dt className="inline font-bold">{t('folklore.periodLabel')}</dt> <dd className="inline">{item.period}</dd></div>
-                    <div><dt className="inline font-bold">{t('stories.regionLabel')}</dt> <dd className="inline">{item.region}</dd></div>
-                    <div><dt className="inline font-bold">{t('forts.significance')}</dt> <dd className="inline">{item.significance}</dd></div>
-                  </dl>
-                  <ul className="flex flex-wrap gap-2 mb-4">
-                    {item.legends.slice(0, 2).map((legend, i) => (
-                      <li key={i} className="bg-saffron/20 text-maroon px-2 py-1 rounded-full text-xs font-cinzel">{legend}</li>
-                    ))}
-                  </ul>
-                </>,
-                `${item.name}. ${item.significance}`,
-              );
-            })}
+            {section === 'deities' &&
+              deities.map((deity) => {
+                const item = localize(deity);
+                return card(
+                  item.id,
+                  `${item.name}. ${item.significance}`,
+                  <span>{item.region}</span>,
+                  <>
+                    <h3 className="card__title">{item.name}</h3>
+                    <dl className="text-sm text-[var(--muted)]" style={{ display: 'grid', gap: 4 }}>
+                      <div><dt className="inline font-semibold">{t('folklore.periodLabel')}</dt> <dd className="inline">{item.period}</dd></div>
+                      <div><dt className="inline font-semibold">{t('stories.regionLabel')}</dt> <dd className="inline">{item.region}</dd></div>
+                      <div><dt className="inline font-semibold">{t('forts.significance')}</dt> <dd className="inline">{item.significance}</dd></div>
+                    </dl>
+                    <div className="legend-box">
+                      <span className="chip chip--legend">{t('concepts.legend')}</span>
+                      <ul className="flex flex-wrap gap-2">
+                        {item.legends.slice(0, 2).map((legend, i) => (
+                          <li key={i} className="chip">{legend}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  </>,
+                );
+              })}
 
-          {section === 'rituals' &&
-            rituals.map((ritual) => {
-              const item = localize(ritual);
-              return card(
-                item.id,
-                'border-maroon',
-                <>
-                  <h3 className="font-cinzel font-bold text-2xl text-maroon mb-3 pr-10">{item.name}</h3>
-                  <p className="text-sm text-charcoal mb-4">
-                    <strong>{t('forts.significance')}</strong> {item.significance}
-                  </p>
-                  <h4 className="font-cinzel font-semibold text-maroon mb-2">{t('folklore.practicesLabel')}</h4>
-                  <ul className="list-disc list-inside text-sm text-charcoal mb-4">
-                    {item.practices.map((p, i) => (
-                      <li key={i}>{p}</li>
-                    ))}
-                  </ul>
-                </>,
-                `${item.name}. ${item.significance}`,
-              );
-            })}
+            {section === 'rituals' &&
+              rituals.map((ritual) => {
+                const item = localize(ritual);
+                return card(
+                  item.id,
+                  `${item.name}. ${item.significance}`,
+                  <span>{t('nav.folklore')}</span>,
+                  <>
+                    <h3 className="card__title">{item.name}</h3>
+                    <p className="card__text">
+                      <strong>{t('forts.significance')}</strong> {item.significance}
+                    </p>
+                    <div className="legend-box">
+                      <span className="chip chip--legend">{t('folklore.practicesLabel')}</span>
+                      <ul className="list-disc" style={{ paddingLeft: 20 }}>
+                        {item.practices.map((p, i) => (
+                          <li key={i}>{p}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  </>,
+                );
+              })}
+          </div>
         </div>
       </section>
 
@@ -198,6 +220,6 @@ export default function FolkloreClient({ tales, deities, rituals }: { tales: Tal
           onClose={() => setOpenId(null)}
         />
       )}
-    </div>
+    </main>
   );
 }

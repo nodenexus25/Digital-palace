@@ -1,12 +1,173 @@
 'use client';
 
-import { useEffect, useState } from 'react';
-import Hero from '@/app/components/Hero';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import OptimizedImage from '@/app/components/OptimizedImage';
+import PageHead from '@/app/components/PageHead';
+import SectionHeading from '@/app/components/SectionHeading';
+import TransText from '@/app/components/TransText';
 import { useLanguage } from '@/app/components/LanguageProvider';
 import { ListenButton, useNarration } from '@/app/components/story/useNarration';
 import { useQueryState } from '@/app/components/hooks/useQueryState';
 import type { Weapon, WeaponCategory } from '@/content/types';
+
+function WeaponCard({ weapon, onOpen }: { weapon: Weapon; onOpen: (id: string) => void }) {
+  const { t } = useLanguage();
+  return (
+    <button
+      type="button"
+      onClick={() => onOpen(weapon.id)}
+      className="group card text-left cursor-pointer w-[35%] shrink-0 snap-start md:w-[calc((100%-2.5rem)/3)] lg:w-auto"
+    >
+      {/* Portrait plate: the arch follows the asset's 4:5 ratio. */}
+      <div className="card__media">
+        <div className="arch arch--tall">
+          {weapon.image && (
+            <OptimizedImage
+              src={weapon.image}
+              alt={weapon.name}
+              className="object-cover [@media(hover:hover)]:grayscale [@media(hover:hover)]:group-hover:grayscale-0"
+              strategy="CONTENT"
+              responsive
+              sizes="(min-width: 1536px) 24vw, (min-width: 1024px) 20vw, (min-width: 768px) 30vw, 35vw"
+              width={800}
+              height={1000}
+            />
+          )}
+        </div>
+      </div>
+      <div className="card__body">
+        <span className="chip chip--legend self-start">{weapon.type}</span>
+        <h3 className="card__title">{weapon.name}</h3>
+        <p className="text-sm text-[color:var(--muted)]">{weapon.subtitle}</p>
+        <p className="card__text clamp-3">{weapon.description}</p>
+        <dl className="card__foot">
+          <div>
+            <dt className="text-[color:var(--muted)]">{t('weapons.lethality')}</dt>
+            <dd>{weapon.lethality}</dd>
+          </div>
+          <div className="text-right">
+            <dt className="text-[color:var(--muted)]">{t('weapons.era')}</dt>
+            <dd>{weapon.era}</dd>
+          </div>
+        </dl>
+      </div>
+    </button>
+  );
+}
+
+/**
+ * One horizontal carousel per category: swipeable on touch devices, with arrows
+ * and dots for tablet/mouse users. On large screens it collapses back into the
+ * three-column grid, so the controls are hidden there.
+ */
+function CategoryCarousel({ category, items, onOpen }: { category: WeaponCategory; items: Weapon[]; onOpen: (id: string) => void }) {
+  const { t } = useLanguage();
+  const trackRef = useRef<HTMLDivElement>(null);
+  const [index, setIndex] = useState(0);
+  const [atStart, setAtStart] = useState(true);
+  const [atEnd, setAtEnd] = useState(false);
+
+  // Derive the active slide and edge states straight from the scroll position,
+  // so native touch swiping stays the source of truth.
+  const sync = useCallback(() => {
+    const el = trackRef.current;
+    if (!el) return;
+    const cards = Array.from(el.children) as HTMLElement[];
+    if (!cards.length) return;
+    const left = el.getBoundingClientRect().left;
+    let nearest = 0;
+    let nearestDistance = Number.POSITIVE_INFINITY;
+    cards.forEach((card, i) => {
+      const distance = Math.abs(card.getBoundingClientRect().left - left);
+      if (distance < nearestDistance) {
+        nearestDistance = distance;
+        nearest = i;
+      }
+    });
+    setIndex(nearest);
+    setAtStart(el.scrollLeft <= 4);
+    setAtEnd(el.scrollLeft + el.clientWidth >= el.scrollWidth - 4);
+  }, []);
+
+  useEffect(() => {
+    sync();
+    window.addEventListener('resize', sync);
+    return () => window.removeEventListener('resize', sync);
+  }, [sync]);
+
+  const goTo = (i: number) => {
+    const el = trackRef.current;
+    const card = el?.children[i] as HTMLElement | undefined;
+    if (!el || !card) return;
+    el.scrollTo({ left: el.scrollLeft + card.getBoundingClientRect().left - el.getBoundingClientRect().left, behavior: 'smooth' });
+  };
+
+  return (
+    <div className="relative">
+      <div
+        ref={trackRef}
+        onScroll={sync}
+        onKeyDown={(e) => {
+          if (e.key === 'ArrowRight') {
+            e.preventDefault();
+            goTo(Math.min(index + 1, items.length - 1));
+          } else if (e.key === 'ArrowLeft') {
+            e.preventDefault();
+            goTo(Math.max(index - 1, 0));
+          }
+        }}
+        role="group"
+        aria-roledescription={t('home.carousel')}
+        aria-label={category.title}
+        className="flex gap-5 overflow-x-auto overscroll-x-contain snap-x snap-mandatory scroll-smooth pb-2 -mb-2 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden lg:grid lg:grid-cols-3 lg:gap-6 lg:overflow-visible lg:snap-none lg:pb-0 lg:mb-0"
+      >
+        {items.map((weapon) => (
+          <WeaponCard key={weapon.id} weapon={weapon} onOpen={onOpen} />
+        ))}
+      </div>
+
+      <div className="lg:hidden mt-8 flex items-center justify-between gap-6">
+        <div className="flex items-center gap-3">
+          <button
+            type="button"
+            onClick={() => goTo(Math.max(index - 1, 0))}
+            disabled={atStart}
+            aria-label={t('common.previous')}
+            className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-[var(--line-strong)] bg-[var(--raised)] text-[var(--ink)] transition-colors hover:border-[var(--primary)] hover:text-[var(--primary)] disabled:opacity-30 disabled:pointer-events-none"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path strokeLinecap="square" strokeWidth="2" d="M15 5l-7 7 7 7" />
+            </svg>
+          </button>
+          <button
+            type="button"
+            onClick={() => goTo(Math.min(index + 1, items.length - 1))}
+            disabled={atEnd}
+            aria-label={t('common.next')}
+            className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-[var(--line-strong)] bg-[var(--raised)] text-[var(--ink)] transition-colors hover:border-[var(--primary)] hover:text-[var(--primary)] disabled:opacity-30 disabled:pointer-events-none"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path strokeLinecap="square" strokeWidth="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+
+        <div className="flex items-center gap-3">
+          {items.map((weapon, i) => (
+            <button
+              type="button"
+              key={weapon.id}
+              onClick={() => goTo(i)}
+              aria-label={t('weapons.carouselSlide', { name: weapon.name })}
+              aria-current={i === index ? 'true' : undefined}
+              className={`h-2.5 w-2.5 rotate-45 border transition-colors ${i === index ? 'bg-[var(--primary)] border-[var(--primary)]' : 'border-[var(--line-strong)] hover:border-[var(--primary)]'}`}
+            />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
 
 export default function WeaponsClient({ categories, weapons }: { categories: WeaponCategory[]; weapons: Weapon[] }) {
   const { t } = useLanguage();
@@ -47,99 +208,56 @@ export default function WeaponsClient({ categories, weapons }: { categories: Wea
   };
 
   return (
-    <div className="min-h-screen bg-[#12100e] text-[#d4c5b0] font-sans selection:bg-[#8b0000] selection:text-white">
-      <Hero title={t('weapons.title')} subtitle={t('weapons.subtitle')} description={t('weapons.description')} backgroundImage="/images/Hero/home.png" />
+    <div className="min-h-screen">
+      <PageHead
+        breadcrumb={[
+          { label: <TransText k="nav.home" />, href: '/' },
+          { label: <TransText k="nav.weapons" /> },
+        ]}
+        title={<TransText k="weapons.title" />}
+        lead={<TransText k="weapons.subtitle" />}
+      />
 
-      <div className="flex relative max-w-[1920px] mx-auto">
-        <aside className="hidden lg:block w-80 h-screen sticky top-0 border-r border-[#3a302c] bg-[#161412] p-8 overflow-y-auto z-40">
-          <div className="mb-12 pt-8">
-            <h2 className="text-[#8b0000] font-bold tracking-[0.3em] text-xs mb-2 uppercase">{t('weapons.sidebarTitle')}</h2>
-            <p className="text-4xl font-serif text-[#d4c5b0] uppercase leading-none">{t('weapons.sidebarSubtitle')}</p>
-            <div className="h-px w-full bg-[#3a302c] mt-6" />
+      <div className="flex max-w-[1920px] mx-auto">
+        <aside className="hidden lg:block w-80 shrink-0 self-start sticky top-20 h-[calc(100vh-5rem)] overflow-y-auto border-r border-[var(--line)] bg-[var(--sand)] p-8">
+          <div className="mb-10">
+            <p className="eyebrow">{t('weapons.sidebarTitle')}</p>
+            <p className="card__title" style={{ fontSize: 32 }}>{t('weapons.sidebarSubtitle')}</p>
           </div>
-          <nav className="space-y-4" aria-label={t('weapons.sidebarTitle')}>
+          <nav className="flex flex-col gap-2" aria-label={t('weapons.sidebarTitle')}>
             {categories.map((cat) => (
               <button
                 key={cat.id}
+                type="button"
                 onClick={() => scrollToSection(cat.id)}
                 aria-current={activeSection === cat.id ? 'true' : undefined}
-                className={`w-full text-left group transition-all duration-300 ${activeSection === cat.id ? 'pl-4 border-l-2 border-[#8b0000]' : 'pl-0 border-l-2 border-transparent hover:pl-2'}`}
+                className={`w-full text-left rounded-[var(--radius-md)] px-4 py-3 transition-colors ${activeSection === cat.id ? 'bg-[var(--primary)] text-[var(--on-primary)]' : 'text-[var(--ink)] hover:bg-[var(--tint)]'}`}
               >
-                <span className={`text-[10px] block uppercase tracking-widest mb-1 ${activeSection === cat.id ? 'text-[#8b0000]' : 'text-[#5a504a] group-hover:text-[#8b0000]'}`}>
-                  {cat.numeral}
-                </span>
-                <span className={`text-sm font-serif uppercase tracking-wider ${activeSection === cat.id ? 'text-[#d4c5b0]' : 'text-[#786c61] group-hover:text-[#d4c5b0]'}`}>
-                  {cat.title}
-                </span>
+                <span className="block text-[0.7rem] uppercase tracking-widest opacity-80">{cat.numeral}</span>
+                <span className="block">{cat.title}</span>
               </button>
             ))}
           </nav>
         </aside>
 
-        <main className="flex-1 bg-[#12100e] relative">
-          <div className="lg:hidden sticky top-20 z-40 bg-[#12100e]/95 backdrop-blur-md border-b border-[#3a302c] p-4 flex items-center justify-between">
-            <span className="text-[#8b0000] text-xs font-bold tracking-widest uppercase">{t('weapons.currentSector')}</span>
-            <span className="text-[#d4c5b0] font-serif uppercase">{activeCategory?.title ?? t('weapons.sidebarSubtitle')}</span>
+        <main className="flex-1 min-w-0">
+          <div className="lg:hidden sticky top-20 z-40 bg-[var(--sand)] backdrop-blur-md border-b border-[var(--line)] p-4 flex items-center justify-between">
+            <span className="eyebrow" style={{ margin: 0 }}>{t('weapons.currentSector')}</span>
+            <span>{activeCategory?.title ?? t('weapons.sidebarSubtitle')}</span>
           </div>
 
           {categories.map((category) => (
-            <section id={category.id} key={category.id} className="min-h-screen py-24 px-4 md:px-12 lg:px-16 border-b border-[#2c241b] relative z-10">
-              <div className="mb-20 max-w-4xl">
-                <span className="text-[#8b0000] font-bold tracking-[0.3em] text-sm block mb-4">
-                  {t('weapons.sectionLabel', { numeral: category.numeral })}
-                </span>
-                <h2 className="text-5xl md:text-7xl font-serif text-[#d4c5b0] uppercase leading-none mb-8 drop-shadow-lg">{category.title}</h2>
-                <div className="flex items-center gap-4" aria-hidden="true">
-                  <div className="h-px w-24 bg-[#8b0000]" />
-                  <div className="h-2 w-2 bg-[#8b0000] rotate-45" />
-                  <div className="h-px flex-1 bg-gradient-to-r from-[#3a302c] to-transparent" />
-                </div>
-              </div>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-12">
-                {weapons
-                  .filter((w) => w.category === category.id)
-                  .map((weapon) => (
-                    <button
-                      type="button"
-                      key={weapon.id}
-                      onClick={() => setWeaponId(weapon.id)}
-                      className="group text-left relative bg-gradient-to-b from-[#25201d] to-[#181512] border border-[#443832] hover:border-[#8b0000] transition-all duration-500 overflow-hidden shadow-2xl shadow-black"
-                    >
-                      <div className="relative h-72 md:h-80 w-full overflow-hidden border-b border-[#3a302c] bg-[#050403] flex items-center justify-center">
-                        {weapon.image && (
-                          <OptimizedImage
-                            src={weapon.image}
-                            alt={weapon.name}
-                            className="object-contain object-center grayscale group-hover:grayscale-0"
-                            strategy="CONTENT"
-                            responsive
-                            sizes="(min-width: 1280px) 33vw, (min-width: 768px) 50vw, 100vw"
-                            width={800}
-                            height={600}
-                          />
-                        )}
-                        <span className="absolute top-4 right-4 z-20 text-[#d4c5b0] text-[10px] font-bold uppercase tracking-widest bg-black/60 backdrop-blur-sm px-3 py-1 border border-[#3a302c]">
-                          {weapon.type}
-                        </span>
-                      </div>
-                      <div className="p-8 relative">
-                        <h3 className="text-2xl font-serif font-bold text-[#d4c5b0] group-hover:text-[#8b0000] transition-colors duration-300 mb-2">{weapon.name}</h3>
-                        <p className="text-[#8b0000] text-xs font-bold uppercase tracking-widest mb-4 opacity-80">{weapon.subtitle}</p>
-                        <p className="text-[#887e76] text-sm leading-relaxed line-clamp-3 mb-6 group-hover:text-[#a89b8c] transition-colors">{weapon.description}</p>
-                        <dl className="flex justify-between items-end border-t border-[#3a302c] pt-4">
-                          <div>
-                            <dt className="block text-[10px] text-[#5a504a] uppercase tracking-wider mb-1">{t('weapons.lethality')}</dt>
-                            <dd className="text-[#d4c5b0] text-xs uppercase">{weapon.lethality}</dd>
-                          </div>
-                          <div className="text-right">
-                            <dt className="block text-[10px] text-[#5a504a] uppercase tracking-wider mb-1">{t('weapons.era')}</dt>
-                            <dd className="text-[#d4c5b0] text-xs uppercase">{weapon.era}</dd>
-                          </div>
-                        </dl>
-                      </div>
-                    </button>
-                  ))}
+            <section id={category.id} key={category.id} className="section section--tint scroll-mt-32">
+              <div className="container">
+                <SectionHeading
+                  eyebrow={t('weapons.sectionLabel', { numeral: category.numeral })}
+                  title={category.title}
+                />
+                <CategoryCarousel
+                  category={category}
+                  items={weapons.filter((w) => w.category === category.id)}
+                  onOpen={setWeaponId}
+                />
               </div>
             </section>
           ))}
@@ -148,67 +266,76 @@ export default function WeaponsClient({ categories, weapons }: { categories: Wea
 
       {selected && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 md:p-8">
-          <div className="absolute inset-0 bg-[#0a0505]/95 backdrop-blur-md" onClick={close} />
+          <div className="absolute inset-0 bg-[var(--deep)]/80 backdrop-blur-md" onClick={close} />
           <div
             role="dialog"
             aria-modal="true"
             aria-label={selected.name}
-            className="relative w-full max-w-6xl max-h-[90vh] bg-[#161412] border border-[#3a302c] shadow-2xl overflow-y-auto flex flex-col md:flex-row"
+            className="relative w-full max-w-6xl max-h-[90vh] overflow-y-auto bg-[var(--raised)] shadow-2xl flex flex-col md:flex-row"
+            style={{ border: '1px solid var(--line)', borderRadius: 'var(--radius-xl)' }}
           >
-            <button onClick={close} aria-label={t('common.close')} className="absolute top-4 right-4 z-50 text-[#786c61] hover:text-[#8b0000] transition-colors">
-              <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <button
+              type="button"
+              onClick={close}
+              aria-label={t('common.close')}
+              className="absolute top-4 right-4 z-50 inline-flex h-11 w-11 items-center justify-center rounded-full border border-[var(--line-strong)] bg-[var(--raised)] text-[var(--ink)] transition-colors hover:border-[var(--primary)] hover:text-[var(--primary)]"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path strokeLinecap="square" strokeLinejoin="miter" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
               </svg>
             </button>
 
-            <div className="w-full md:w-1/2 relative min-h-[400px] md:min-h-full border-b md:border-b-0 md:border-r border-[#3a302c]">
+            <div className="w-full md:w-1/2 bg-[var(--surface)] p-6 md:p-8 flex items-start justify-center">
               {selected.image && (
-                <OptimizedImage src={selected.image} alt={selected.name} className="object-cover" strategy="HERO" responsive sizes="(min-width: 768px) 50vw, 100vw" width={1200} height={800} />
+                <div className="arch arch--tall w-full max-w-sm">
+                  <OptimizedImage
+                    src={selected.image}
+                    alt={selected.name}
+                    className="object-cover"
+                    strategy="CONTENT"
+                    responsive
+                    sizes="(min-width: 768px) 33vw, 100vw"
+                    width={800}
+                    height={1000}
+                  />
+                </div>
               )}
-              <div className="absolute inset-0 bg-gradient-to-t from-[#161412] via-transparent to-transparent" />
-              <div className="absolute bottom-0 left-0 right-0 p-8">
-                <h2 className="text-4xl md:text-5xl font-serif font-bold text-[#d4c5b0] mb-2">{selected.name}</h2>
-                <p className="text-[#8b0000] text-lg uppercase tracking-widest font-bold">{selected.subtitle}</p>
-              </div>
             </div>
 
-            <div className="w-full md:w-1/2 p-8 md:p-12 text-[#d4c5b0]">
-              <dl className="flex flex-wrap gap-4 mb-8">
-                <div className="bg-[#12100e] px-4 py-2 border border-[#3a302c]">
-                  <dt className="block text-[10px] text-[#5a504a] uppercase tracking-wider mb-1">{t('weapons.lethality')}</dt>
-                  <dd className="text-[#8b0000] font-bold uppercase">{selected.lethality}</dd>
-                </div>
-                <div className="bg-[#12100e] px-4 py-2 border border-[#3a302c]">
-                  <dt className="block text-[10px] text-[#5a504a] uppercase tracking-wider mb-1">{t('weapons.role')}</dt>
-                  <dd className="text-[#d4c5b0] font-bold uppercase">{selected.role}</dd>
-                </div>
+            <div className="w-full md:w-1/2 p-6 md:p-12">
+              <h2>{selected.name}</h2>
+              <p className="lead" style={{ marginTop: 8 }}>{selected.subtitle}</p>
+
+              <dl className="factbox" style={{ margin: '24px 0' }}>
+                <dt>{t('weapons.lethality')}</dt>
+                <dd>{selected.lethality}</dd>
+                <dt>{t('weapons.role')}</dt>
+                <dd>{selected.role}</dd>
               </dl>
 
-              <p className="text-lg leading-relaxed mb-8 font-light text-[#a89b8c]">{selected.description}</p>
+              <p className="card__text">{selected.description}</p>
 
-              <ListenButton
-                active={isActive(selected.id)}
-                onClick={() => toggle(selected.id, `${selected.name}. ${selected.subtitle}. ${selected.description}`)}
-                className={`mb-8 px-6 py-3 border border-[#8b0000] text-sm font-bold uppercase tracking-widest ${
-                  isActive(selected.id) ? 'bg-[#8b0000] text-white' : 'text-[#8b0000] hover:bg-[#8b0000] hover:text-white'
-                }`}
-              />
+              <div style={{ marginTop: 24 }}>
+                <ListenButton
+                  active={isActive(selected.id)}
+                  onClick={() => toggle(selected.id, `${selected.name}. ${selected.subtitle}. ${selected.description}`)}
+                  className="listen-btn"
+                />
+              </div>
 
-              <div className="my-8 h-px bg-gradient-to-r from-transparent via-[#3a302c] to-transparent" />
-              <h3 className="text-xl font-serif text-[#d4c5b0] mb-4 flex items-center gap-3">
-                <span className="w-1 h-6 bg-[#8b0000]" aria-hidden="true" />
-                {t('weapons.battlefieldSignificance')}
-              </h3>
-              <blockquote className="text-[#786c61] mb-6 italic">{t('weapons.quote', { name: selected.name, era: selected.era })}</blockquote>
+              <h3 style={{ marginTop: 32 }}>{t('weapons.battlefieldSignificance')}</h3>
+              <blockquote className="legend-box" style={{ margin: '16px 0 0' }}>
+                {t('weapons.quote', { name: selected.name, era: selected.era })}
+              </blockquote>
 
-              <dl className="grid grid-cols-2 gap-6 mt-8 pt-8 border-t border-[#3a302c]">
+              <dl className="grid grid-cols-2 gap-6" style={{ marginTop: 32, paddingTop: 24, borderTop: '1px solid var(--line)' }}>
                 <div>
-                  <dt className="text-[#8b0000] text-[10px] font-bold uppercase tracking-widest mb-2">{t('weapons.era')}</dt>
-                  <dd className="text-sm text-[#d4c5b0]">{selected.era}</dd>
+                  <dt className="eyebrow" style={{ margin: 0 }}>{t('weapons.era')}</dt>
+                  <dd>{selected.era}</dd>
                 </div>
                 <div>
-                  <dt className="text-[#8b0000] text-[10px] font-bold uppercase tracking-widest mb-2">{t('weapons.origin')}</dt>
-                  <dd className="text-sm text-[#d4c5b0]">{t('weapons.originValue')}</dd>
+                  <dt className="eyebrow" style={{ margin: 0 }}>{t('weapons.origin')}</dt>
+                  <dd>{t('weapons.originValue')}</dd>
                 </div>
               </dl>
             </div>

@@ -18,12 +18,12 @@ export default function StoryText({ text, className = '' }: { text: string; clas
     <div className={`space-y-4 ${className}`}>
       {blocks.map((block, i) => {
         if (/^-{3,}$/.test(block)) {
-          return <hr key={i} className="my-6 border-0 h-px bg-gradient-to-r from-transparent via-current to-transparent opacity-30" />;
+          return <hr key={i} className="my-6 border-0 h-px bg-[var(--line)]" />;
         }
         const heading = block.match(/^#{1,4}\s+(.+)$/) || block.match(/^\*\*\s*([^*]+?)\s*\*\*$/);
         if (heading && !block.includes('\n')) {
           return (
-            <h3 key={i} className="pt-4 text-2xl font-cinzel font-bold text-maroon">
+            <h3 key={i} className="pt-4 text-2xl font-display font-semibold text-[color:var(--primary)]">
               {heading[1]}
             </h3>
           );

@@ -20,17 +20,7 @@ export default function LanguageToggle({ className = '' }: { className?: string 
   };
 
   return (
-    <div
-      role="group"
-      aria-label={t('common.language')}
-      className={`relative inline-flex items-center rounded-full border border-[#C9A24D]/40 bg-black/30 p-1 ${className}`}
-    >
-      {/* Sliding highlight */}
-      <span
-        aria-hidden="true"
-        className="absolute top-1 bottom-1 w-[calc(50%-4px)] rounded-full bg-[#D4AF37] shadow-[0_0_12px_rgba(212,175,55,0.45)] transition-transform duration-300 ease-out"
-        style={{ transform: currentLanguage === 'en' ? 'translateX(0)' : 'translateX(100%)' }}
-      />
+    <div role="group" aria-label={t('common.language')} className={`lang-switch ${className}`}>
       {locales.map((locale) => {
         const active = locale === currentLanguage;
         return (
@@ -44,9 +34,7 @@ export default function LanguageToggle({ className = '' }: { className?: string 
             aria-current={active ? 'true' : undefined}
             title={localeNativeNames[locale]}
             onClick={(e) => onClick(e, locale)}
-            className={`relative z-10 min-w-[3.25rem] rounded-full px-3 py-1.5 text-center text-sm font-semibold transition-colors duration-300 ${
-              active ? 'text-black' : 'text-[#E6E1DC] hover:text-[#D4AF37]'
-            }`}
+            className="lang-switch__option"
           >
             {localeShortNames[locale]}
           </Link>

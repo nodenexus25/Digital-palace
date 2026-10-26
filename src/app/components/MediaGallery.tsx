@@ -90,12 +90,7 @@ export default function MediaGallery({ images = [], videos = [], initialTab = "p
     [videos],
   );
 
-  const tabClass = (active: boolean) =>
-    `px-4 py-2 rounded-xl font-semibold transition-all duration-300 font-cinzel ${
-      active
-        ? "bg-gradient-to-r from-amber-600 to-orange-600 text-white shadow-lg"
-        : "bg-white/90 text-amber-800 hover:bg-amber-100 border-2 border-amber-300"
-    }`;
+  const tabClass = (active: boolean) => `btn ${active ? "btn--primary" : "btn--secondary"}`;
 
   return (
     <div>
@@ -116,7 +111,7 @@ export default function MediaGallery({ images = [], videos = [], initialTab = "p
                 {filteredImages.map((img, idx) => (
                   <figure
                     key={idx}
-                    className="relative min-w-[80%] aspect-[4/3] snap-center rounded-xl overflow-hidden border-2 border-amber-300 bg-amber-50/40 cursor-pointer"
+                    className="relative min-w-[80%] aspect-[4/3] snap-center rounded-[var(--radius-lg)] overflow-hidden border border-[var(--line)] bg-[var(--raised)] cursor-pointer"
                     onClick={() => setLightboxIndex(idx)}
                   >
                     <LazyImage src={img.src} alt={altFor(img)} fill sizes="80vw" className="object-cover" />
@@ -129,13 +124,13 @@ export default function MediaGallery({ images = [], videos = [], initialTab = "p
                 {filteredImages.map((img, idx) => (
                   <figure
                     key={idx}
-                    className="mb-4 break-inside-avoid rounded-xl overflow-hidden border-2 border-amber-300 bg-amber-50/40 hover:border-amber-500 hover:shadow-xl transition-all duration-300 cursor-pointer"
+                    className="mb-4 break-inside-avoid rounded-[var(--radius-lg)] overflow-hidden border border-[var(--line)] bg-[var(--raised)] hover:border-[var(--line-strong)] transition-colors duration-200 cursor-pointer"
                   >
                     <button type="button" className="block w-full" onClick={() => setLightboxIndex(idx)} aria-label={altFor(img)}>
                       <LazyImage src={img.src} alt={altFor(img)} className="w-full h-auto object-cover" />
                     </button>
                     {(img.alt || img.credit) && (
-                      <figcaption className="p-2 text-xs text-amber-700 font-playfair bg-amber-100/50">
+                      <figcaption className="p-2 text-xs text-[color:var(--muted)] bg-[var(--sand)]">
                         {img.alt}
                         {img.credit && <span className="ml-2 opacity-70">• {creditFor(img.credit)}</span>}
                       </figcaption>
@@ -146,38 +141,38 @@ export default function MediaGallery({ images = [], videos = [], initialTab = "p
             </div>
 
             {lightboxIndex !== null && (
-              <div role="dialog" aria-modal="true" aria-label={altFor(filteredImages[lightboxIndex])} className="fixed inset-0 z-[60] bg-black/80 backdrop-blur-sm flex items-center justify-center p-4" onClick={closeLightbox}>
+              <div role="dialog" aria-modal="true" aria-label={altFor(filteredImages[lightboxIndex])} className="fixed inset-0 z-[60] bg-[var(--deep)]/80 backdrop-blur-sm flex items-center justify-center p-4" onClick={closeLightbox}>
                 <div className="relative max-w-5xl w-full" onClick={(e) => e.stopPropagation()}>
                   <button
                     onClick={closeLightbox}
                     aria-label={t("common.close")}
-                    className="absolute -top-3 -right-3 z-10 bg-white/90 text-amber-900 rounded-full p-2 shadow"
+                    className="absolute -top-3 -right-3 z-10 inline-flex h-11 w-11 items-center justify-center bg-[var(--raised)] text-[color:var(--ink)] border border-[var(--line)] rounded-full shadow"
                   >
                     <CloseIcon />
                   </button>
-                  <div className="bg-white/90 rounded-2xl overflow-hidden border-4 border-amber-300 shadow-2xl">
-                    <LazyImage src={filteredImages[lightboxIndex].src} alt={altFor(filteredImages[lightboxIndex])} className="w-full h-auto" />
+                  <div className="bg-[var(--raised)] rounded-[var(--radius-lg)] overflow-hidden border border-[var(--line)] shadow-2xl">
+                    <LazyImage src={filteredImages[lightboxIndex].src} alt={altFor(filteredImages[lightboxIndex])} className="w-full h-auto max-h-[70vh] object-contain" />
                     {(filteredImages[lightboxIndex].alt || filteredImages[lightboxIndex].credit) && (
-                      <div className="p-4 text-sm text-amber-800 font-playfair">
+                      <div className="p-4 text-sm text-[color:var(--muted)]">
                         {filteredImages[lightboxIndex].alt}
                         {filteredImages[lightboxIndex].credit && <span className="ml-2 opacity-70">• {creditFor(filteredImages[lightboxIndex].credit)}</span>}
                       </div>
                     )}
                   </div>
-                  <div className="flex justify-between items-center mt-4">
+                  <div className="flex justify-between items-center gap-2 mt-3 sm:mt-4">
                     <button
                       onClick={() => setLightboxIndex(Math.max(0, lightboxIndex - 1))}
-                      className="px-4 py-2 rounded-xl bg-amber-100 text-amber-900 border-2 border-amber-300 font-cinzel disabled:opacity-40"
+                      className="btn btn--secondary disabled:opacity-40 disabled:pointer-events-none"
                       disabled={lightboxIndex === 0}
                     >
                       ← {t("common.previous")}
                     </button>
-                    <span className="text-amber-100 text-sm">
+                    <span className="text-[color:var(--on-deep)] text-xs sm:text-sm shrink-0">
                       {lightboxIndex + 1} / {filteredImages.length}
                     </span>
                     <button
                       onClick={() => setLightboxIndex(Math.min(filteredImages.length - 1, lightboxIndex + 1))}
-                      className="px-4 py-2 rounded-xl bg-amber-100 text-amber-900 border-2 border-amber-300 font-cinzel disabled:opacity-40"
+                      className="btn btn--secondary disabled:opacity-40 disabled:pointer-events-none"
                       disabled={lightboxIndex === filteredImages.length - 1}
                     >
                       {t("common.next")} →
@@ -188,7 +183,7 @@ export default function MediaGallery({ images = [], videos = [], initialTab = "p
             )}
           </div>
         ) : (
-          <div className="text-center text-amber-700 font-playfair p-6">{t("gallery.noPhotos")}</div>
+          <div className="text-center text-[color:var(--muted)] p-6">{t("gallery.noPhotos")}</div>
         )
       ) : videos.length ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -196,38 +191,38 @@ export default function MediaGallery({ images = [], videos = [], initialTab = "p
             <button
               type="button"
               key={idx}
-              className="group text-left rounded-xl overflow-hidden border-2 border-amber-300 bg-amber-50/40 hover:border-amber-500 hover:shadow-xl transition-all duration-300"
+              className="card group text-left overflow-hidden"
               onClick={() => setVideoIndex(idx)}
             >
               {v.provider === "youtube" ? (
                 <div className="relative aspect-video">
                   <LazyImage src={youTubeThumbs[idx] || VIDEO_PLACEHOLDER} alt={v.title} fill className="object-cover" placeholder={VIDEO_PLACEHOLDER} />
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <span className="text-white text-3xl bg-black/50 rounded-full px-4 py-2" aria-hidden="true">▶</span>
+                    <span className="inline-flex h-11 w-11 items-center justify-center rounded-full bg-[var(--deep)]/70 text-[color:var(--on-deep)]" aria-hidden="true">▶</span>
                   </div>
                 </div>
               ) : (
-                <div className="relative aspect-video bg-amber-100 flex items-center justify-center">
-                  <span className="text-amber-800 text-xl font-cinzel">{t("gallery.video")}</span>
+                <div className="relative aspect-video bg-[var(--sand)] flex items-center justify-center">
+                  <span className="text-[color:var(--ink)] text-xl font-display">{t("gallery.video")}</span>
                 </div>
               )}
               <div className="p-3">
-                <span className="font-cinzel text-amber-900 text-sm">{v.title}</span>
+                <span className="font-display text-[color:var(--ink)] text-sm">{v.title}</span>
               </div>
             </button>
           ))}
         </div>
       ) : (
-        <div className="text-center text-amber-700 font-playfair p-6">{t("gallery.noVideos")}</div>
+        <div className="text-center text-[color:var(--muted)] p-6">{t("gallery.noVideos")}</div>
       )}
 
       {videoIndex !== null && (
-        <div role="dialog" aria-modal="true" aria-label={videos[videoIndex].title} className="fixed inset-0 z-[60] bg-black/80 backdrop-blur-sm flex items-center justify-center p-4" onClick={closeVideo}>
+        <div role="dialog" aria-modal="true" aria-label={videos[videoIndex].title} className="fixed inset-0 z-[60] bg-[var(--deep)]/80 backdrop-blur-sm flex items-center justify-center p-4" onClick={closeVideo}>
           <div className="relative max-w-5xl w-full" onClick={(e) => e.stopPropagation()}>
-            <button onClick={closeVideo} aria-label={t("common.close")} className="absolute -top-3 -right-3 z-10 bg-white/90 text-amber-900 rounded-full p-2 shadow">
+            <button onClick={closeVideo} aria-label={t("common.close")} className="absolute -top-3 -right-3 z-10 inline-flex h-11 w-11 items-center justify-center bg-[var(--raised)] text-[color:var(--ink)] border border-[var(--line)] rounded-full shadow">
               <CloseIcon />
             </button>
-            <div className="bg-white/90 rounded-2xl overflow-hidden border-4 border-amber-300 shadow-2xl">
+            <div className="bg-[var(--raised)] rounded-[var(--radius-lg)] overflow-hidden border border-[var(--line)] shadow-2xl">
               {videos[videoIndex].provider === "youtube" ? (
                 <div className="aspect-video w-full">
                   <iframe
@@ -244,7 +239,7 @@ export default function MediaGallery({ images = [], videos = [], initialTab = "p
               ) : (
                 <video className="w-full" controls src={videos[videoIndex].url} />
               )}
-              <div className="p-4 text-sm text-amber-800 font-playfair">{videos[videoIndex].title}</div>
+              <div className="p-4 text-sm text-[color:var(--muted)]">{videos[videoIndex].title}</div>
             </div>
           </div>
         </div>

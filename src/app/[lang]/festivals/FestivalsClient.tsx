@@ -1,8 +1,9 @@
 'use client';
 
 import { useLanguage } from '@/app/components/LanguageProvider';
-import Hero from '@/app/components/Hero';
 import LazyImage from '@/app/components/LazyImage';
+import PageHead from '@/app/components/PageHead';
+import TransText from '@/app/components/TransText';
 import StoryModal from '@/app/components/story/StoryModal';
 import StoryLanguageToggle from '@/app/components/story/StoryLanguageToggle';
 import { useCardLanguage } from '@/app/components/story/useCardLanguage';
@@ -10,10 +11,10 @@ import { ListenButton, useNarration } from '@/app/components/story/useNarration'
 import { useQueryState } from '@/app/components/hooks/useQueryState';
 import type { Festival, FestivalGroup } from '@/content/types';
 
-const GROUPS: { id: FestivalGroup; color: string; accent: string }[] = [
-  { id: 'religious', color: '#D97706', accent: 'border-[#D97706]' },
-  { id: 'cultural', color: '#800000', accent: 'border-[#800000]' },
-  { id: 'commemoration', color: '#57534E', accent: 'border-[#57534E]' },
+const GROUPS: { id: FestivalGroup }[] = [
+  { id: 'religious' },
+  { id: 'cultural' },
+  { id: 'commemoration' },
 ];
 
 export default function FestivalsClient({ festivals }: { festivals: Festival[] }) {
@@ -28,73 +29,80 @@ export default function FestivalsClient({ festivals }: { festivals: Festival[] }
   const openItem = open ? localize(open) : null;
 
   return (
-    <div className="min-h-screen bg-[#F5E6D3] text-[#2C1810] font-cormorant">
-      <Hero title={t('festivals.title')} subtitle={t('festivals.subtitle')} description={t('festivals.description')} />
+    <main>
+      <PageHead
+        breadcrumb={[
+          { label: <TransText k="nav.home" />, href: '/' },
+          { label: t('nav.festivals') },
+        ]}
+        eyebrow={t('festivals.subtitle')}
+        title={t('festivals.title')}
+        lead={t('festivals.description')}
+      />
 
-      <div className="flex flex-wrap justify-center border-b border-[#D4C5A9] mb-12 bg-[#EFE0CD]" role="tablist">
-        {GROUPS.map((g) => (
-          <button
-            key={g.id}
-            role="tab"
-            aria-selected={group.id === g.id}
-            onClick={() => setGroup(g.id === 'religious' ? null : g.id)}
-            className={`px-8 py-6 font-cinzel text-lg tracking-wider transition-all duration-500 relative ${
-              group.id === g.id ? 'text-[#2C1810]' : 'text-[#5D4037] hover:text-[#2C1810]'
-            }`}
+      <section className="section">
+        <div className="container">
+          <div
+            className="sec-head__actions"
+            role="tablist"
+            aria-label={t('festivals.title')}
+            style={{ marginBottom: 'var(--space-12)' }}
           >
-            <span className="block text-2xl mb-1">{t(`festivals.groups.${g.id}`)}</span>
-            {group.id === g.id && <span className="absolute bottom-0 left-0 w-full h-1" style={{ backgroundColor: g.color }} />}
-          </button>
-        ))}
-      </div>
-
-      <div className="max-w-7xl mx-auto px-6 pb-24 space-y-12">
-        {visible.map((festival) => {
-          const item = localize(festival);
-          return (
-          <article
-            key={festival.id}
-            className="group flex flex-col md:flex-row-reverse h-auto md:h-80 bg-[#F9F3E3] rounded-sm overflow-hidden shadow-md hover:shadow-2xl transition-all duration-700 border border-[#E6DCC3]"
-          >
-            <div className="w-full h-64 md:h-full md:w-[35%] relative overflow-hidden">
-              <LazyImage src={item.image} alt={item.name} fill className="object-cover transform transition-transform duration-1000 group-hover:scale-105" />
-              {group.id === 'commemoration' && <div className="absolute inset-0 bg-[#57534E]/20 mix-blend-saturation pointer-events-none" />}
-            </div>
-
-            <div className="w-full md:w-[65%] p-8 flex flex-col justify-center relative bg-[#F9F3E3]">
-              <div className="absolute top-6 right-6 z-20 flex items-center gap-2">
-                <StoryLanguageToggle alt={isAlt(festival.id)} onToggle={() => flip(festival.id)} className="bg-[#F9F3E3]/70 text-[#800000]" />
-                <ListenButton
-                  iconOnly
-                  active={isActive(festival.id)}
-                  onClick={() => toggle(festival.id, [item.name, item.significance, item.story].join('। '), langFor(festival.id))}
-                  className={`p-2 rounded-full ${isActive(festival.id) ? 'bg-[#800000] text-[#F5E6D3]' : 'bg-[#D97706]/10 text-[#D97706] hover:bg-[#800000] hover:text-[#F5E6D3]'}`}
-                />
-              </div>
-              <div className={`border-b pb-4 ${group.accent} border-opacity-30 pr-12`}>
-                <h3 className="font-cinzel font-bold text-3xl text-[#800000] leading-tight">{item.name}</h3>
-              </div>
-              <div className="space-y-2 mt-4">
-                <p className="flex items-center gap-2 text-[#5D4037]/80 font-cinzel text-sm tracking-widest uppercase">
-                  <span>{item.date}</span>
-                  <span aria-hidden="true">•</span>
-                  <span>{t('common.rajasthan')}</span>
-                </p>
-                <p className="font-cormorant text-xl text-[#2C1810] leading-relaxed">{item.significance}</p>
-              </div>
+            {GROUPS.map((g) => (
               <button
+                key={g.id}
                 type="button"
-                onClick={() => setOpenId(festival.id)}
-                className="mt-4 self-start font-cinzel text-sm border-b pb-1"
-                style={{ color: group.color, borderColor: group.color }}
+                role="tab"
+                aria-selected={group.id === g.id}
+                onClick={() => setGroup(g.id === 'religious' ? null : g.id)}
+                className={group.id === g.id ? 'btn btn--primary' : 'btn btn--secondary'}
               >
-                {t('festivals.readMore')}
+                {t(`festivals.groups.${g.id}`)}
               </button>
-            </div>
-          </article>
-          );
-        })}
-      </div>
+            ))}
+          </div>
+
+          <div className="grid-3">
+            {visible.map((festival) => {
+              const item = localize(festival);
+              return (
+                <article key={festival.id} className="card">
+                  <div className="card__media">
+                    <div className="arch">
+                      <LazyImage
+                        fill
+                        sizes="(max-width: 760px) 100vw, (max-width: 1100px) 50vw, 33vw"
+                        src={item.image}
+                        alt={item.name}
+                        className="object-cover"
+                      />
+                    </div>
+                  </div>
+                  <div className="card__body">
+                    <p className="eyebrow">{item.date}</p>
+                    <h3 className="card__title">{item.name}</h3>
+                    <p className="card__text clamp-3">{item.significance}</p>
+                    <div className="flex items-center gap-3 pt-1">
+                      <ListenButton
+                        active={isActive(festival.id)}
+                        onClick={() => toggle(festival.id, [item.name, item.significance, item.story].join('। '), langFor(festival.id))}
+                        className="listen-btn"
+                      />
+                      <StoryLanguageToggle alt={isAlt(festival.id)} onToggle={() => flip(festival.id)} className="text-[var(--primary)]" />
+                    </div>
+                  </div>
+                  <div className="card__foot">
+                    <span className="chip chip--legend">{t('common.rajasthan')}</span>
+                    <button type="button" onClick={() => setOpenId(festival.id)} className="btn btn--text">
+                      {t('festivals.readMore')}
+                    </button>
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+        </div>
+      </section>
 
       {open && openItem && (
         <StoryModal
@@ -113,6 +121,6 @@ export default function FestivalsClient({ festivals }: { festivals: Festival[] }
           onClose={() => setOpenId(null)}
         />
       )}
-    </div>
+    </main>
   );
 }

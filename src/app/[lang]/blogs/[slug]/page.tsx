@@ -3,12 +3,14 @@ import type { TypedObject } from '@portabletext/types'
 import type { SanityImageSource } from '@sanity/image-url'
 import type { Metadata } from 'next'
 import Image from 'next/image'
-import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { PortableText } from 'next-sanity'
 import { urlFor } from '@/sanity/lib/image'
 import { getCounterpartSlug, getPost, getPostSlugs } from '@/sanity/lib/posts'
 import LanguageAlternates from '@/app/components/LanguageAlternates'
+import LocalizedLink from '@/app/components/LocalizedLink'
+import PageHead from '@/app/components/PageHead'
+import TransText from '@/app/components/TransText'
 import { localeTags, locales, otherLocale, toLocale, type Locale } from '@/i18n/config'
 import { translate } from '@/i18n/messages'
 
@@ -122,16 +124,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 const portableTextComponents = {
   block: {
-    h1: ({ children, value }) => <h1 id={headingId(getBlockText(value))} className="scroll-mt-32 text-4xl font-bold text-maroon mt-12 mb-6 font-cinzel">{children}</h1>,
-    h2: ({ children, value }) => <h2 id={headingId(getBlockText(value))} className="scroll-mt-32 text-3xl font-bold text-maroon mt-10 mb-5 pb-2 border-b border-gold/20 font-cinzel">{children}</h2>,
-    h3: ({ children, value }) => <h3 id={headingId(getBlockText(value))} className="scroll-mt-32 text-2xl font-bold text-maroon mt-8 mb-4 font-cinzel">{children}</h3>,
-    h4: ({ children, value }) => <h4 id={headingId(getBlockText(value))} className="scroll-mt-32 text-xl font-bold text-maroon mt-6 mb-3 font-cinzel">{children}</h4>,
-    normal: ({ children }) => <p className="text-lg text-charcoal leading-relaxed mb-6 font-cormorant">{children}</p>,
-    blockquote: ({ children }) => <blockquote className="border-l-4 border-gold/40 pl-4 py-1 my-6 text-charcoal/90 font-cormorant italic">{children}</blockquote>,
+    h1: ({ children, value }) => <h1 id={headingId(getBlockText(value))} className="scroll-mt-32">{children}</h1>,
+    h2: ({ children, value }) => <h2 id={headingId(getBlockText(value))} className="scroll-mt-32">{children}</h2>,
+    h3: ({ children, value }) => <h3 id={headingId(getBlockText(value))} className="scroll-mt-32">{children}</h3>,
+    h4: ({ children, value }) => <h4 id={headingId(getBlockText(value))} className="scroll-mt-32">{children}</h4>,
+    normal: ({ children }) => <p>{children}</p>,
+    blockquote: ({ children }) => <blockquote className="pl-5 py-1 my-8" style={{ borderLeft: '4px solid var(--gold-deep)' }}>{children}</blockquote>,
   },
   list: {
-    bullet: ({ children }) => <ul className="list-disc pl-6 space-y-2 mb-6 text-lg text-charcoal font-cormorant">{children}</ul>,
-    number: ({ children }) => <ol className="list-decimal pl-6 space-y-2 mb-6 text-lg text-charcoal font-cormorant">{children}</ol>,
+    bullet: ({ children }) => <ul className="list-disc pl-6 space-y-2 mb-6">{children}</ul>,
+    number: ({ children }) => <ol className="list-decimal pl-6 space-y-2 mb-6">{children}</ol>,
   },
   listItem: {
     bullet: ({ children }) => <li>{children}</li>,
@@ -142,7 +144,7 @@ const portableTextComponents = {
       const href = typeof value?.href === 'string' ? value.href : '#'
       const external = href.startsWith('http')
       return (
-        <a href={href} className="text-saffron hover:text-maroon underline underline-offset-4 transition-colors duration-300" rel={external ? 'noopener noreferrer' : undefined} target={external ? '_blank' : undefined}>
+        <a href={href} className="underline underline-offset-4" rel={external ? 'noopener noreferrer' : undefined} target={external ? '_blank' : undefined}>
           {children}
         </a>
       )
@@ -155,8 +157,8 @@ const portableTextComponents = {
       const alt = typeof (value as { alt?: unknown })?.alt === 'string' ? (value as { alt: string }).alt : ''
       return (
         <figure className="my-10">
-          <div className="relative w-full aspect-[16/9] overflow-hidden rounded-xl border border-gold/20 bg-ivory shadow-md">
-            <Image src={url} alt={alt} fill sizes="(min-width: 1024px) 75vw, 100vw" className="object-cover" />
+          <div className="arch" style={{ aspectRatio: '16 / 9' }}>
+            <Image src={url} alt={alt} fill sizes="(max-width: 1100px) 100vw, 680px" className="object-cover" />
           </div>
         </figure>
       )
@@ -174,20 +176,20 @@ const portableTextComponents = {
       if (!rows.length || !columns.length) return null
       return (
         <div className="my-10 overflow-x-auto">
-          <table className="min-w-full border border-gold/20 bg-white text-sm rounded-lg overflow-hidden shadow-sm">
-            {typeof v.caption === 'string' && <caption className="text-sm font-medium text-charcoal/70 mb-2 font-cormorant text-left">{v.caption}</caption>}
-            <thead className="bg-ivory">
+          <table className="min-w-full text-sm" style={{ borderCollapse: 'collapse' }}>
+            {typeof v.caption === 'string' && <caption className="text-sm text-left py-2" style={{ color: 'var(--muted)' }}>{v.caption}</caption>}
+            <thead>
               <tr>
                 {columns.map((c) => (
-                  <th key={c} scope="col" className="px-4 py-3 text-left border-b border-gold/20 font-semibold text-maroon font-cinzel">{c}</th>
+                  <th key={c} scope="col" className="px-4 py-3 text-left font-semibold" style={{ background: 'var(--tint)', borderBottom: '1px solid var(--line)' }}>{c}</th>
                 ))}
               </tr>
             </thead>
             <tbody>
               {rows.map((r, idx) => (
-                <tr key={idx} className="border-t border-gold/10">
+                <tr key={idx} style={{ borderTop: '1px solid var(--line)' }}>
                   {columns.map((c) => (
-                    <td key={c} className="px-4 py-3 align-top text-charcoal/90 font-cormorant">{r[c] == null ? '' : String(r[c])}</td>
+                    <td key={c} className="px-4 py-3 align-top">{r[c] == null ? '' : String(r[c])}</td>
                   ))}
                 </tr>
               ))}
@@ -203,12 +205,12 @@ function TableOfContents({ headings, lang, className = '' }: { headings: Heading
   if (!headings.length) return null
   return (
     <nav className={className} aria-label={translate(lang, 'blogs.contents')}>
-      <div className="bg-white border border-gold/20 rounded-xl p-4 shadow-sm">
-        <p className="text-sm font-cinzel font-semibold text-maroon mb-3 uppercase tracking-wider">{translate(lang, 'blogs.contents')}</p>
+      <div className="card" style={{ padding: 24 }}>
+        <p className="eyebrow">{translate(lang, 'blogs.contents')}</p>
         <ul className="space-y-2">
           {headings.map((h, idx) => (
             <li key={`${h.id}-${idx}`} className={h.level >= 3 ? 'pl-4' : ''}>
-              <a href={`#${h.id}`} className="text-sm text-saffron hover:text-maroon transition-colors duration-300 font-cormorant">{h.text}</a>
+              <a href={`#${h.id}`} className="text-sm">{h.text}</a>
             </li>
           ))}
         </ul>
@@ -243,96 +245,116 @@ export default async function BlogPostPage({ params }: Props) {
   const date = formatDate(post.publishedAt, lang)
 
   return (
-    <main className="min-h-screen bg-ivory">
+    <main>
       {/* Untranslated articles switch to the other language's article list. */}
       <LanguageAlternates {...{ [other]: counterpart ? `/${other}/blogs/${counterpart}` : `/${other}/blogs` }} />
 
-      <section className="relative pt-8 pb-4 px-4 bg-ivory">
-        <div className="max-w-6xl mx-auto relative">
-          <div className="flex flex-wrap items-center gap-x-4 gap-y-2 mb-6 text-sm text-charcoal/70 font-cormorant">
-            <Link href={`/${lang}/blogs`} className="hover:text-maroon transition-colors duration-300 font-medium whitespace-nowrap inline-flex items-center gap-1">
+      <PageHead
+        breadcrumb={[
+          { label: <TransText k="nav.home" />, href: '/' },
+          { label: tr('nav.blogs'), href: '/blogs' },
+        ]}
+        eyebrow={categoryName || tr('blogs.articleLabel')}
+        title={title}
+        lead={post.excerpt || undefined}
+        action={
+          <>
+            <LocalizedLink href="/blogs" className="btn btn--secondary">
               <BackIcon />
               {tr('blogs.backToBlogs')}
-            </Link>
-            {categoryName && (
-              <span className="text-maroon font-semibold bg-sandstone-light/30 px-3 py-1 rounded-full text-xs uppercase tracking-wide whitespace-nowrap border border-gold/20">{categoryName}</span>
-            )}
-            {date && <time dateTime={post.publishedAt}>{date}</time>}
-            {readTime && (
-              <span className="whitespace-nowrap">
-                {readTime} {tr('blogs.minRead')}
+            </LocalizedLink>
+            {date && (
+              <span className="chip chip--legend">
+                <time dateTime={post.publishedAt}>{date}</time>
               </span>
             )}
-          </div>
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-maroon mb-8 leading-tight tracking-tight font-cinzel">{title}</h1>
+            {readTime && <span className="chip chip--legend">{readTime} {tr('blogs.minRead')}</span>}
+          </>
+        }
+      />
+
+      <section className="section">
+        <div className="container">
+          {heroImage ? (
+            <div className="arch" style={{ aspectRatio: '16 / 9' }}>
+              <Image src={heroImage} alt={title} fill sizes="(min-width: 1280px) 1200px, 100vw" className="object-cover" priority />
+            </div>
+          ) : (
+            <div className="feature feature--indigo">
+              <p className="eyebrow" style={{ margin: 0, color: 'var(--gold-deep)' }}>{tr('meta.siteName')}</p>
+              <p>{tr('blogs.placeholderTagline')}</p>
+            </div>
+          )}
         </div>
       </section>
 
-      <section className="px-4 mb-6 relative z-10">
-        {heroImage ? (
-          <div className="max-w-6xl mx-auto relative h-[200px] md:h-[600px] overflow-hidden rounded-2xl border border-gold/20 shadow-xl">
-            <Image src={heroImage} alt={title} fill sizes="(min-width: 1280px) 1152px, 100vw" className="object-cover" priority />
+      <section className="section">
+        <div className="container">
+          <div className="min-[1100px]:hidden" style={{ marginBottom: 'var(--space-8)' }}>
+            <TableOfContents headings={headings} lang={lang} />
           </div>
-        ) : (
-          <div className="max-w-6xl mx-auto relative h-[200px] md:h-[360px] overflow-hidden rounded-2xl border border-gold/30 shadow-lg bg-gradient-to-br from-maroon via-maroon-light to-saffron flex flex-col items-center justify-center text-center px-8">
-            <p className="font-cinzel text-white/95 uppercase tracking-[0.3em] text-sm md:text-base">{tr('meta.siteName')}</p>
-            <p className="font-cormorant italic text-gold/90 mt-3 text-base md:text-lg">{tr('blogs.placeholderTagline')}</p>
-          </div>
-        )}
-      </section>
 
-      <section className="px-4 pb-16">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12">
-          <aside className="hidden lg:block lg:col-span-3">
-            <TableOfContents headings={headings} lang={lang} className="sticky top-32" />
-          </aside>
-
-          <article className="lg:col-span-9 max-w-4xl w-full mx-auto lg:mx-0">
-            <div className="lg:hidden mb-12">
-              <TableOfContents headings={headings} lang={lang} />
-            </div>
-
-            <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-6 md:p-10 border border-gold/15 shadow-sm">
+          <div className="article-layout">
+            <div className="article-col">
               {body.length > 0 ? (
                 <PortableText value={body} components={portableTextComponents} />
               ) : (
-                <div className="text-charcoal/70 font-cormorant text-lg leading-relaxed space-y-6">
+                <div>
                   <p>{tr('blogs.preparing1')}</p>
                   <p>{tr('blogs.preparing2')}</p>
                 </div>
               )}
+
+              {faqs.length > 0 && (
+                <section style={{ marginTop: 'var(--space-12)' }}>
+                  <h2>{tr('blogs.faqTitle')}</h2>
+                  <div className="flex flex-col" style={{ gap: 'var(--space-5)' }}>
+                    {faqs.map((faq, idx) => (
+                      <div key={idx} className="card" style={{ padding: 24 }}>
+                        <h3 className="card__title">{faq.question}</h3>
+                        <p className="card__text">{faq.answer}</p>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+              )}
+
+              <div style={{ marginTop: 'var(--space-12)' }}>
+                <LocalizedLink href="/blogs" className="btn btn--primary">
+                  <BackIcon />
+                  {tr('blogs.moreArticles')}
+                </LocalizedLink>
+                <p className="card__text" style={{ marginTop: 'var(--space-4)' }}>
+                  {tr('blogs.publishedIn')} — {date || tr('blogs.heritageSeries')}
+                </p>
+              </div>
             </div>
 
-            {faqs.length > 0 && (
-              <section className="mt-16 border-t border-gold/20 pt-12">
-                <h2 className="text-3xl font-bold text-maroon mb-8 font-cinzel">{tr('blogs.faqTitle')}</h2>
-                <div className="space-y-5">
-                  {faqs.map((faq, idx) => (
-                    <div key={idx} className="bg-white rounded-2xl border border-gold/15 p-6 md:p-8">
-                      <h3 className="text-lg md:text-xl font-bold text-maroon mb-3 font-cinzel flex items-start gap-3">
-                        <span className="shrink-0 w-8 h-8 rounded-full bg-maroon/10 text-maroon flex items-center justify-center text-sm">{idx + 1}</span>
-                        <span>{faq.question}</span>
-                      </h3>
-                      <p className="text-charcoal/85 leading-relaxed font-cormorant text-base md:text-lg pl-11">{faq.answer}</p>
-                    </div>
-                  ))}
+            <aside className="hidden min-[1100px]:block">
+              <div className="flex flex-col" style={{ gap: 'var(--space-6)', position: 'sticky', top: 128 }}>
+                <TableOfContents headings={headings} lang={lang} />
+                <div className="factbox">
+                  <p className="eyebrow">{tr('common.atAGlance')}</p>
+                  <dl>
+                    <dt>{tr('blogs.articleLabel')}</dt>
+                    <dd>{categoryName || tr('blogs.heritageSeries')}</dd>
+                    {date && (
+                      <>
+                        <dt>{tr('sitemap.lastUpdated')}</dt>
+                        <dd><time dateTime={post.publishedAt}>{date}</time></dd>
+                      </>
+                    )}
+                    {readTime && (
+                      <>
+                        <dt>{tr('blogs.minRead')}</dt>
+                        <dd>{readTime}</dd>
+                      </>
+                    )}
+                  </dl>
                 </div>
-              </section>
-            )}
-
-            <div className="mt-16 pt-10 border-t border-gold/20 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-              <Link
-                href={`/${lang}/blogs`}
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-maroon text-ivory font-cinzel text-sm uppercase tracking-wider hover:bg-maroon-dark transition-colors duration-300 shadow-md"
-              >
-                <BackIcon />
-                {tr('blogs.moreArticles')}
-              </Link>
-              <p className="text-sm text-charcoal/50 font-cormorant italic">
-                {tr('blogs.publishedIn')} — {date || tr('blogs.heritageSeries')}
-              </p>
-            </div>
-          </article>
+              </div>
+            </aside>
+          </div>
         </div>
       </section>
     </main>

@@ -26,6 +26,9 @@ const nextConfig = {
       },
     ],
     formats: ['image/avif', 'image/webp'],
+    // The layouts never render wider than ~2048px, so the stock 3840px variant
+    // is dropped to keep the optimiser from emitting unused derivatives.
+    deviceSizes: [640, 750, 828, 1080, 1200, 1600, 1920, 2048],
     minimumCacheTTL: 31536000,
     qualities: [50, 60, 70, 75, 80, 85, 90, 95],
   },

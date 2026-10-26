@@ -4,7 +4,8 @@ import type { Metadata } from 'next'
 import type { SanityImageSource } from '@sanity/image-url'
 import { urlFor } from '@/sanity/lib/image'
 import { getPosts, type PostSummary } from '@/sanity/lib/posts'
-import Hero from '@/app/components/Hero'
+import PageHead from '@/app/components/PageHead'
+import TransText from '@/app/components/TransText'
 import { localeTags, toLocale, type Locale } from '@/i18n/config'
 import { translate } from '@/i18n/messages'
 import { alternatesFor } from '@/i18n/metadata'
@@ -54,55 +55,72 @@ export default async function BlogsPage({ params }: Props) {
   const tr = (key: string) => translate(lang, key)
 
   return (
-    <div className="min-h-screen bg-ivory">
-      <Hero title={tr('blogs.title')} subtitle={tr('blogs.subtitle')} description={tr('blogs.description')} />
+    <main>
+      <PageHead
+        breadcrumb={[
+          { label: <TransText k="nav.home" />, href: '/' },
+          { label: tr('nav.blogs') },
+        ]}
+        eyebrow={tr('blogs.subtitle')}
+        title={tr('blogs.title')}
+        lead={tr('blogs.description')}
+      />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
-          {posts.map((post) => {
-            const imageUrl = getImageUrl(post.mainImage)
-            const date = formatDate(post.publishedAt, lang)
-            const title = post.title || tr('blogs.articleLabel')
-            const readTime = post.estimatedReadTime && post.estimatedReadTime > 0 ? `${post.estimatedReadTime} ${tr('blogs.minRead')}` : null
+      <section className="section">
+        <div className="container">
+          <div className="grid-3">
+            {posts.map((post) => {
+              const imageUrl = getImageUrl(post.mainImage)
+              const date = formatDate(post.publishedAt, lang)
+              const title = post.title || tr('blogs.articleLabel')
+              const readTime = post.estimatedReadTime && post.estimatedReadTime > 0 ? `${post.estimatedReadTime} ${tr('blogs.minRead')}` : null
 
-            return (
-              <Link
-                key={post._id}
-                href={`/${lang}/blogs/${post.slug!.current}`}
-                className="group flex flex-col overflow-hidden rounded-2xl shadow-lg border border-gold/20 bg-white hover:shadow-2xl hover:border-maroon/30 transition-all duration-500"
-              >
-                {imageUrl ? (
-                  <div className="relative w-full aspect-[16/9] overflow-hidden bg-ivory">
-                    <Image src={imageUrl} alt={title} fill sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" className="object-cover group-hover:scale-105 transition-transform duration-700" />
+              return (
+                <Link
+                  key={post._id}
+                  href={`/${lang}/blogs/${post.slug!.current}`}
+                  className="card"
+                >
+                  <div className="card__media">
+                    <div className="arch">
+                      {imageUrl ? (
+                        <Image
+                          src={imageUrl}
+                          alt={title}
+                          fill
+                          sizes="(max-width: 760px) 100vw, (max-width: 1100px) 50vw, 33vw"
+                          className="object-cover"
+                        />
+                      ) : (
+                        <div className="absolute inset-0 flex items-center justify-center">
+                          <p className="eyebrow" style={{ margin: 0, color: 'var(--gold-deep)' }}>{tr('blogs.chronicle')}</p>
+                        </div>
+                      )}
+                    </div>
                   </div>
-                ) : (
-                  <div className="relative w-full aspect-[16/9] overflow-hidden bg-gradient-to-br from-maroon via-maroon-light to-saffron flex items-center justify-center">
-                    <p className="font-cinzel text-sm text-white/90 uppercase tracking-widest">{tr('blogs.chronicle')}</p>
-                  </div>
-                )}
 
-                <div className="flex-1 p-6 flex flex-col justify-between">
-                  <div className="flex-1">
-                    <p className="text-sm font-semibold text-saffron uppercase tracking-wider font-cinzel">{tr('blogs.articleLabel')}</p>
-                    <h2 className="mt-2 text-xl font-bold text-maroon font-cinzel leading-snug group-hover:text-maroon-dark transition-colors duration-300">{title}</h2>
-                    {post.excerpt && <p className="mt-3 text-base text-charcoal/80 font-cormorant leading-relaxed line-clamp-3">{post.excerpt}</p>}
+                  <div className="card__body">
+                    <p className="eyebrow">{tr('blogs.articleLabel')}</p>
+                    <h2 className="card__title">{title}</h2>
+                    {post.excerpt && <p className="card__text clamp-3">{post.excerpt}</p>}
                   </div>
-                  <div className="mt-6 flex items-center justify-between gap-4 pt-4 border-t border-gold/10">
-                    <div className="flex flex-wrap gap-2 text-sm text-charcoal/60 font-cormorant">
+
+                  <div className="card__foot">
+                    <div className="flex flex-wrap items-center gap-2">
                       {date && <time dateTime={post.publishedAt}>{date}</time>}
-                      {date && readTime && <span className="text-gold/60" aria-hidden="true">•</span>}
+                      {date && readTime && <span aria-hidden="true">•</span>}
                       {readTime && <span>{readTime}</span>}
                     </div>
-                    <span className="text-sm font-semibold text-saffron font-cinzel group-hover:text-maroon transition-colors duration-300">{tr('blogs.readLabel')} →</span>
+                    <span className="btn btn--text">{tr('blogs.readLabel')}</span>
                   </div>
-                </div>
-              </Link>
-            )
-          })}
-        </div>
+                </Link>
+              )
+            })}
+          </div>
 
-        {posts.length === 0 && <p className="mt-8 text-center text-charcoal/60 font-cormorant text-lg">{tr('blogs.emptyState')}</p>}
-      </div>
-    </div>
+          {posts.length === 0 && <p className="lead" style={{ marginTop: 'var(--space-8)' }}>{tr('blogs.emptyState')}</p>}
+        </div>
+      </section>
+    </main>
   )
 }

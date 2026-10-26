@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next';
-import { Cinzel, Cormorant_Garamond, Inter, Noto_Serif_Devanagari, Playfair_Display } from 'next/font/google';
+import { Cormorant_Garamond, Mukta, Tiro_Devanagari_Hindi } from 'next/font/google';
 import '../globals.css';
 import { LanguageProvider } from '@/app/components/LanguageProvider';
 import ClientFooter from '@/app/components/ClientFooter';
@@ -9,14 +9,12 @@ import { locales, ogLocales, toLocale } from '@/i18n/config';
 import { getMessages, translate } from '@/i18n/messages';
 import { SITE_URL, alternatesFor } from '@/i18n/metadata';
 
-// Self-hosted fonts (no render-blocking Google Fonts @import). Latin display
-// faces have no Devanagari glyphs, so Hindi pages render every family through
-// Noto Serif Devanagari (see globals.css, html[lang="hi"]).
-const cinzel = Cinzel({ subsets: ['latin'], weight: ['400', '500', '600', '700'], variable: '--nf-cinzel', display: 'swap' });
-const playfair = Playfair_Display({ subsets: ['latin'], weight: ['400', '500', '600', '700'], style: ['normal', 'italic'], variable: '--nf-playfair', display: 'swap' });
-const cormorant = Cormorant_Garamond({ subsets: ['latin'], weight: ['300', '400', '500', '600', '700'], style: ['normal', 'italic'], variable: '--nf-cormorant', display: 'swap' });
-const inter = Inter({ subsets: ['latin'], variable: '--nf-inter', display: 'swap' });
-const devanagari = Noto_Serif_Devanagari({ subsets: ['devanagari', 'latin'], weight: ['400', '500', '600', '700'], variable: '--nf-deva', display: 'swap' });
+// The site's three families. Latin display faces (Cormorant Garamond) carry
+// the headings, Mukta carries body copy and Devanagari text, and Tiro
+// Devanagari Hindi carries Hindi headings (see globals.css, html[lang="hi"]).
+const cormorant = Cormorant_Garamond({ subsets: ['latin'], weight: ['500', '600', '700'], style: ['normal', 'italic'], variable: '--nf-cormorant', display: 'swap' });
+const mukta = Mukta({ subsets: ['latin', 'devanagari'], weight: ['400', '500', '600'], variable: '--nf-mukta', display: 'swap' });
+const tiroDevanagari = Tiro_Devanagari_Hindi({ subsets: ['devanagari', 'latin'], weight: ['400'], variable: '--nf-tiro', display: 'swap' });
 
 export const dynamicParams = false;
 
@@ -25,7 +23,7 @@ export function generateStaticParams() {
 }
 
 export const viewport: Viewport = {
-  themeColor: '#800020',
+  themeColor: '#0E1C3A',
   width: 'device-width',
   initialScale: 1,
 };
@@ -49,8 +47,11 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
       type: 'website',
       locale: ogLocales[lang],
       alternateLocale: locales.filter((l) => l !== lang).map((l) => ogLocales[l]),
+      images: [{ url: '/images/Hero/home_.png', alt: title }],
     },
-    twitter: { card: 'summary_large_image', title, description },
+    twitter: { card: 'summary_large_image', title, description, images: ['/images/Hero/home_.png'] },
+    // TODO: replace with the owner-supplied marks once delivered
+    // (public/brand/rdp-favicon.svg, public/brand/rdp-app-icon.svg).
     icons: { icon: '/favicon.ico' },
   };
 }
@@ -68,10 +69,12 @@ export default async function LangLayout({
     <html
       lang={lang}
       data-locale={lang}
-      className={`scroll-smooth ${cinzel.variable} ${playfair.variable} ${cormorant.variable} ${inter.variable} ${devanagari.variable}`}
+      data-theme="light"
+      data-scroll-behavior="smooth"
+      className={`scroll-smooth ${cormorant.variable} ${mukta.variable} ${tiroDevanagari.variable}`}
       suppressHydrationWarning
     >
-      <body className="antialiased bg-background text-foreground font-body">
+      <body className="antialiased">
         <LanguageProvider lang={lang} messages={getMessages(lang)}>
           <Navbar />
           <ThemedContainer>{children}</ThemedContainer>

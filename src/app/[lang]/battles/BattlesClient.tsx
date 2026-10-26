@@ -3,7 +3,9 @@
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { useLanguage } from '@/app/components/LanguageProvider';
-import Hero from '@/app/components/Hero';
+import PageHead from '@/app/components/PageHead';
+import SectionHeading from '@/app/components/SectionHeading';
+import TransText from '@/app/components/TransText';
 import StoryModal from '@/app/components/story/StoryModal';
 import StoryLanguageToggle from '@/app/components/story/StoryLanguageToggle';
 import { useCardLanguage } from '@/app/components/story/useCardLanguage';
@@ -37,147 +39,135 @@ export default function BattlesClient({ battles, figures }: { battles: BattleCar
   const warm = (collection: string, id: string) => () => void prefetchJson(storyUrl(langFor(id), collection, id)).catch(() => {});
 
   return (
-    <div className="min-h-screen bg-ivory text-charcoal">
-      <Hero title={t('battles.meta.title')} subtitle={t('battles.meta.description')} />
+    <div className="min-h-screen">
+      <PageHead
+        breadcrumb={[
+          { label: <TransText k="nav.home" />, href: '/' },
+          { label: <TransText k="nav.battles" /> },
+        ]}
+        title={<TransText k="battles.meta.title" />}
+        lead={<TransText k="battles.meta.description" />}
+      />
 
-      <div className="max-w-7xl mx-auto px-4 pt-12">
-        <div
-          role="tablist"
-          aria-label={t('battles.meta.title')}
-          className="inline-flex rounded-lg border border-maroon/25 bg-white p-1 shadow-sm"
-        >
-          <button
-            type="button"
-            role="tab"
-            aria-selected={tab === 'battles'}
-            onClick={() => setTab('battles')}
-            className={`px-6 py-2.5 rounded-md text-sm font-bold uppercase tracking-widest transition-colors ${
-              tab === 'battles' ? 'bg-maroon text-ivory' : 'text-maroon hover:bg-maroon/5'
-            }`}
-          >
-            {t('nav.battles')}
-          </button>
-          <button
-            type="button"
-            role="tab"
-            aria-selected={tab === 'warriors'}
-            onClick={() => setTab('warriors')}
-            className={`px-6 py-2.5 rounded-md text-sm font-bold uppercase tracking-widest transition-colors ${
-              tab === 'warriors' ? 'bg-maroon text-ivory' : 'text-maroon hover:bg-maroon/5'
-            }`}
-          >
-            {t('battles.warriors')}
-          </button>
-        </div>
-      </div>
+      <section className="section section--tint">
+        <div className="container">
+          <SectionHeading
+            title={tab === 'battles' ? <TransText k="battles.title" /> : <TransText k="legends.title" />}
+            lead={tab === 'battles' ? <TransText k="battles.intro" /> : <TransText k="legends.intro" />}
+            action={
+              <div role="tablist" aria-label={t('battles.meta.title')} className="sec-head__actions">
+                <button
+                  type="button"
+                  role="tab"
+                  aria-selected={tab === 'battles'}
+                  onClick={() => setTab('battles')}
+                  className={`btn ${tab === 'battles' ? 'btn--primary' : 'btn--secondary'}`}
+                >
+                  {t('nav.battles')}
+                </button>
+                <button
+                  type="button"
+                  role="tab"
+                  aria-selected={tab === 'warriors'}
+                  onClick={() => setTab('warriors')}
+                  className={`btn ${tab === 'warriors' ? 'btn--primary' : 'btn--secondary'}`}
+                >
+                  {t('battles.warriors')}
+                </button>
+              </div>
+            }
+          />
 
-      {tab === 'battles' && (
-      <section className="max-w-7xl mx-auto px-4 pt-8 pb-16" aria-labelledby="battles-heading">
-        <h2 id="battles-heading" className="font-cinzel text-4xl text-maroon mb-8">
-          {t('battles.title')}
-        </h2>
-        <p className="text-lg opacity-80 mb-12 max-w-3xl">{t('battles.intro')}</p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {battles.map((b) => {
-            const card = localize(b);
-            return (
-            <article
-              key={b.id}
-              className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden border border-imperial-gold/20 flex flex-col"
-            >
-              <div className="p-6 flex flex-col flex-1">
-                <div className="text-sm text-imperial-gold font-bold uppercase tracking-wider mb-2">{card.year}</div>
-                <h3 className="font-cinzel text-2xl text-maroon mb-4">{card.name}</h3>
-                <dl className="space-y-2 text-xs uppercase tracking-wider mb-2">
-                  <div className="flex justify-between gap-4 opacity-70">
-                    <dt>{t('battles.location')}</dt>
-                    <dd className="font-bold text-right">{card.location}</dd>
-                  </div>
-                  <div className="flex justify-between gap-4 opacity-70">
-                    <dt>{t('battles.result')}</dt>
-                    <dd className="font-bold text-imperial-gold text-right">{card.result}</dd>
-                  </div>
-                </dl>
-                <p className="text-sm text-charcoal/70 mt-4 line-clamp-3">{card.significance[0]}</p>
-                <div className="mt-auto pt-6 flex items-center gap-3">
-                  <StoryLanguageToggle alt={isAlt(b.id)} onToggle={() => flip(b.id)} className="text-maroon shrink-0" />
-                  <button
-                    type="button"
-                    onClick={() => setBattleId(b.id)}
-                    onMouseEnter={warm('battles', b.id)}
-                    onFocus={warm('battles', b.id)}
-                    className="flex-1"
-                  >
-                    <span className="block w-full py-3 border border-maroon text-maroon hover:bg-maroon hover:text-ivory transition-all rounded-lg text-sm font-bold uppercase tracking-widest">
-                      {t('common.seeDetails')}
-                    </span>
-                  </button>
-                </div>
-              </div>
-            </article>
-            );
-          })}
-        </div>
-      </section>
-      )}
-
-      {tab === 'warriors' && (
-      <section id="warriors" className="max-w-7xl mx-auto px-4 pt-8 pb-16 bg-gradient-to-b from-transparent to-maroon/5" aria-labelledby="warriors-heading">
-        <h2 id="warriors-heading" className="font-cinzel text-4xl text-maroon mb-8">
-          {t('legends.title')}
-        </h2>
-        <p className="text-lg opacity-80 mb-12 max-w-3xl">{t('legends.intro')}</p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {figures.map((f) => {
-            const card = localize(f);
-            return (
-            <article
-              key={f.id}
-              className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden border border-imperial-gold/20 flex flex-col"
-            >
-              <div className="relative aspect-[4/3] bg-charcoal/10 overflow-hidden">
-                <Image
-                  src={card.image}
-                  alt={card.name}
-                  fill
-                  sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-              <div className="p-6 flex flex-col flex-1">
-                <h3 className="font-cinzel text-2xl text-maroon mb-4">{card.name}</h3>
-                <dl className="space-y-2 text-xs uppercase tracking-wider mb-2">
-                  <div className="flex justify-between gap-4 opacity-70">
-                    <dt>{t('battles.period')}</dt>
-                    <dd className="font-bold text-right">{card.period}</dd>
-                  </div>
-                  <div className="flex justify-between gap-4 opacity-70">
-                    <dt>{t('dynasties.kingdom')}</dt>
-                    <dd className="font-bold text-imperial-gold text-right">{card.kingdom}</dd>
-                  </div>
-                </dl>
-                <p className="text-sm text-charcoal/70 mt-4 line-clamp-2">{card.significance}</p>
-                <div className="mt-auto pt-6 flex items-center gap-3">
-                  <StoryLanguageToggle alt={isAlt(f.id)} onToggle={() => flip(f.id)} className="text-maroon shrink-0" />
-                  <button
-                    type="button"
-                    onClick={() => setFigureId(f.id)}
-                    onMouseEnter={warm('figures', f.id)}
-                    onFocus={warm('figures', f.id)}
-                    className="flex-1"
-                  >
-                    <span className="block w-full py-3 border border-maroon text-maroon hover:bg-maroon hover:text-ivory transition-all rounded-lg text-sm font-bold uppercase tracking-widest">
-                      {t('common.seeDetails')}
-                    </span>
-                  </button>
-                </div>
-              </div>
-            </article>
-            );
-          })}
+          {tab === 'battles' ? (
+            <div className="grid-2">
+              {battles.map((b) => {
+                const card = localize(b);
+                return (
+                  <article key={b.id} className="card battle-card">
+                    <div>
+                      <div className="battle-card__year">{card.year}</div>
+                      <span className="battle-card__place">{card.location}</span>
+                    </div>
+                    <div>
+                      <h3 className="battle-card__title">{card.name}</h3>
+                      <dl className="battle-card__facts">
+                        <div>
+                          <dt>{t('battles.location')}</dt>
+                          <dd>{card.location}</dd>
+                        </div>
+                        <div>
+                          <dt>{t('battles.result')}</dt>
+                          <dd>{card.result}</dd>
+                        </div>
+                      </dl>
+                      <p className="card__text clamp-3" style={{ margin: '14px 0 0' }}>{card.significance[0]}</p>
+                      <div className="battle-card__foot">
+                        <StoryLanguageToggle alt={isAlt(b.id)} onToggle={() => flip(b.id)} />
+                        <button
+                          type="button"
+                          onClick={() => setBattleId(b.id)}
+                          onMouseEnter={warm('battles', b.id)}
+                          onFocus={warm('battles', b.id)}
+                          className="btn btn--secondary"
+                        >
+                          {t('common.seeDetails')}
+                        </button>
+                      </div>
+                    </div>
+                  </article>
+                );
+              })}
+            </div>
+          ) : (
+            <div id="warriors" className="grid-3 scroll-mt-32">
+              {figures.map((f) => {
+                const card = localize(f);
+                return (
+                  <article key={f.id} className="card">
+                    <div className="card__media">
+                      <div className="arch arch--tall">
+                        <Image
+                          src={card.image}
+                          alt={card.name}
+                          fill
+                          sizes="(max-width: 760px) 100vw, (max-width: 1100px) 50vw, 33vw"
+                          className="object-cover"
+                        />
+                      </div>
+                    </div>
+                    <div className="card__body">
+                      <h3 className="card__title">{card.name}</h3>
+                      <dl className="battle-card__facts" style={{ margin: 0 }}>
+                        <div>
+                          <dt>{t('battles.period')}</dt>
+                          <dd>{card.period}</dd>
+                        </div>
+                        <div>
+                          <dt>{t('dynasties.kingdom')}</dt>
+                          <dd>{card.kingdom}</dd>
+                        </div>
+                      </dl>
+                      <p className="card__text clamp-2">{card.significance}</p>
+                      <div className="card__foot">
+                        <StoryLanguageToggle alt={isAlt(f.id)} onToggle={() => flip(f.id)} />
+                        <button
+                          type="button"
+                          onClick={() => setFigureId(f.id)}
+                          onMouseEnter={warm('figures', f.id)}
+                          onFocus={warm('figures', f.id)}
+                          className="btn btn--secondary"
+                        >
+                          {t('common.seeDetails')}
+                        </button>
+                      </div>
+                    </div>
+                  </article>
+                );
+              })}
+            </div>
+          )}
         </div>
       </section>
-      )}
 
       {battle && shownBattle && (
         <StoryModal

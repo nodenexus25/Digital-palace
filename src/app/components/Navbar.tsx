@@ -1,22 +1,56 @@
 'use client';
 
+import Image from 'next/image';
+import { useEffect, useRef, useState } from 'react';
 import { usePathname } from 'next/navigation';
-import { useState } from 'react';
+import { ChevronDown, Menu, Search, X } from 'lucide-react';
 import { useLanguage } from './LanguageProvider';
 import LanguageToggle from './LanguageToggle';
 import LocalizedLink from './LocalizedLink';
 import { stripLocale } from './ThemedContainer';
 
-const navigationLinks = [
+// Six top-level destinations; Weapons and Folklore live under "More" so the
+// bar stays legible at every width.
+const PRIMARY_LINKS = [
   { href: '/dynasties', translationKey: 'nav.dynasties' },
   { href: '/forts', translationKey: 'nav.forts' },
   { href: '/battles', translationKey: 'nav.battles' },
-  { href: '/weapons', translationKey: 'nav.weapons' },
-  { href: '/folklore', translationKey: 'nav.folklore' },
-  { href: '/stories', translationKey: 'nav.stories' },
+  { href: '/legends', translationKey: 'nav.stories' },
   { href: '/festivals', translationKey: 'nav.festivals' },
   { href: '/blogs', translationKey: 'nav.blogs' },
 ];
+
+const MORE_LINKS = [
+  { href: '/weapons', translationKey: 'nav.weapons' },
+  { href: '/folklore', translationKey: 'nav.folklore' },
+];
+
+/**
+ * The brand lockup: reversed logo mark + the wordmark. The logo files are
+ * supplied by the site owner — until they are dropped into /public/brand/
+ * the mark is simply omitted rather than shown broken.
+ */
+function BrandLockup({ onMarkError }: { onMarkError?: () => void }) {
+  const { t } = useLanguage();
+  return (
+    <>
+      {/* TODO(brand): /public/brand/rdp-mark-reversed.svg is supplied by the owner. */}
+      <Image
+        src="/brand/rdp-mark-reversed.svg"
+        alt=""
+        width={44}
+        height={44}
+        unoptimized
+        className="brand__mark"
+        onError={onMarkError}
+      />
+      <span className="brand__text">
+        <span className="brand__title">{t('nav.brandTitle')}</span>
+        <span className="brand__sub">{t('nav.brandSubtitle')}</span>
+      </span>
+    </>
+  );
+}
 
 /**
  * Site navigation. The layout renders it at the top of every page except the
@@ -25,93 +59,176 @@ const navigationLinks = [
 export default function Navbar({ variant = 'layout' }: { variant?: 'layout' | 'home' }) {
   const route = stripLocale(usePathname() || '/');
   const { t } = useLanguage();
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isSheetOpen, setIsSheetOpen] = useState(false);
+  const [markFailed, setMarkFailed] = useState(false);
+  const sheetRef = useRef<HTMLDivElement>(null);
+
+  // Keep keyboard focus inside the sheet and freeze the page behind it.
+  useEffect(() => {
+    if (!isSheetOpen) return;
+    const node = sheetRef.current;
+    const focusables = () =>
+      Array.from(node?.querySelectorAll<HTMLElement>('a[href], button:not([disabled])') ?? []);
+
+    focusables()[0]?.focus();
+
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        setIsSheetOpen(false);
+        return;
+      }
+      if (event.key !== 'Tab') return;
+      const items = focusables();
+      if (!items.length) return;
+      const first = items[0];
+      const last = items[items.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    };
+
+    document.addEventListener('keydown', onKeyDown);
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.removeEventListener('keydown', onKeyDown);
+      document.body.style.overflow = previousOverflow;
+    };
+  }, [isSheetOpen]);
+
+  // A navigation (including the language switch) always closes the sheet.
+  useEffect(() => {
+    setIsSheetOpen(false);
+  }, [route]);
 
   if (variant === 'layout' && route === '/') return null;
 
-  const isActive = (href: string) =>
-    route === href || route.startsWith(`${href}/`) || (href === '/stories' && route.startsWith('/legends'));
+  const isActive = (href: string) => route === href || route.startsWith(`${href}/`);
+  const moreActive = MORE_LINKS.some((link) => isActive(link.href));
+  const mark = markFailed ? null : <BrandLockup onMarkError={() => setMarkFailed(true)} />;
 
   return (
-    <nav className="relative z-50 bg-gradient-to-b from-[#1A0F0B] to-[#0F0806] border-b border-[#C9A24D]/20 shadow-lg">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20 lg:grid lg:grid-cols-[auto_1fr_auto] lg:gap-6">
-          <LocalizedLink href="/" className="group flex flex-col items-start">
-            <span className="text-[#D4AF37] font-cinzel font-bold text-3xl tracking-wider transition-colors duration-500">
-              {t('nav.brandTitle')}
-            </span>
-            <span className="hidden md:block text-[#D4AF37]/80 font-cinzel text-xs uppercase tracking-[0.2em] transition-colors duration-500">
-              {t('nav.brandSubtitle')}
-            </span>
+    <>
+      <header className={`site-header${variant === 'home' ? ' site-header--inline' : ''}`}>
+        <div className="site-header__inner">
+          <LocalizedLink href="/" className="brand">
+            {mark}
           </LocalizedLink>
 
-          <div className="hidden lg:flex justify-center items-center gap-1">
-            {navigationLinks.map((link) => {
-              const active = isActive(link.href);
-              return (
-                <LocalizedLink
-                  key={link.href}
-                  href={link.href}
-                  aria-current={active ? 'page' : undefined}
-                  className={`px-3 xl:px-4 py-2 text-sm font-cinzel font-medium uppercase tracking-[0.15em] transition-colors duration-200 ease-out ${
-                    active ? 'text-[#D4AF37]' : 'text-[#E6E1DC] hover:text-[#C9A24D] hover:bg-black/10'
-                  }`}
-                >
-                  <span className="relative">
+          <nav className="nav-pills" aria-label={t('nav.brandTitle')}>
+            {PRIMARY_LINKS.map((link) => (
+              <LocalizedLink
+                key={link.href}
+                href={link.href}
+                aria-current={isActive(link.href) ? 'page' : undefined}
+                className="nav-pill"
+              >
+                {t(link.translationKey)}
+              </LocalizedLink>
+            ))}
+
+            <details className="nav-more">
+              <summary
+                className="nav-pill"
+                aria-current={moreActive ? 'page' : undefined}
+                aria-label={t('nav.more')}
+              >
+                {t('nav.more')}
+                <ChevronDown className="nav-more__caret" aria-hidden="true" />
+              </summary>
+              <div className="nav-more__menu">
+                {MORE_LINKS.map((link) => (
+                  <LocalizedLink key={link.href} href={link.href} className="nav-more__item">
                     {t(link.translationKey)}
-                    <span
-                      className={`absolute -bottom-1 left-0 w-full h-[1.5px] bg-[#D4AF37] transition-opacity duration-200 ease-out ${active ? 'opacity-100' : 'opacity-0'}`}
-                    />
-                  </span>
-                </LocalizedLink>
-              );
-            })}
-          </div>
-
-          <div className="hidden lg:flex justify-end items-center">
-            <LanguageToggle />
-          </div>
-
-          <div className="lg:hidden flex items-center gap-3">
-            <LanguageToggle />
-            <button
-              onClick={() => setIsMobileMenuOpen((open) => !open)}
-              className="text-[#D4AF37] hover:text-[#C9A24D] transition-colors duration-300 p-2"
-              aria-label={t('nav.toggleMenu')}
-              aria-expanded={isMobileMenuOpen}
-            >
-              <div className="w-6 h-6 flex flex-col justify-center items-center gap-1.5">
-                <span className={`bg-current block transition-all duration-500 ease-in-out h-[1px] w-6 ${isMobileMenuOpen ? 'rotate-45 translate-y-2' : ''}`} />
-                <span className={`bg-current block transition-all duration-500 ease-in-out h-[1px] w-6 ${isMobileMenuOpen ? 'opacity-0' : 'opacity-100'}`} />
-                <span className={`bg-current block transition-all duration-500 ease-in-out h-[1px] w-6 ${isMobileMenuOpen ? '-rotate-45 -translate-y-2' : ''}`} />
+                  </LocalizedLink>
+                ))}
               </div>
+            </details>
+          </nav>
+
+          <div className="header-actions">
+            <LocalizedLink
+              href="/site-map"
+              className="icon-btn"
+              aria-label={t('common.search')}
+              title={t('common.search')}
+            >
+              <Search aria-hidden="true" />
+            </LocalizedLink>
+
+            <LanguageToggle className="header-switch" />
+
+            <button
+              type="button"
+              className="icon-btn menu-btn"
+              onClick={() => setIsSheetOpen(true)}
+              aria-label={t('nav.toggleMenu')}
+              aria-expanded={isSheetOpen}
+              aria-controls="site-menu-sheet"
+            >
+              <Menu aria-hidden="true" />
             </button>
           </div>
         </div>
+      </header>
 
-        <div className={`lg:hidden transition-all duration-700 ease-in-out ${isMobileMenuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}>
-          <div className="px-4 py-4 space-y-2 bg-[#0F0806]/95 backdrop-blur-md border-t border-[#C9A24D]/10">
-            {navigationLinks.map((link) => {
-              const active = isActive(link.href);
-              return (
-                <LocalizedLink
-                  key={link.href}
-                  href={link.href}
-                  onClick={() => setIsMobileMenuOpen(false)}
-                  aria-current={active ? 'page' : undefined}
-                  className={`block px-4 py-3 text-base font-cinzel font-medium uppercase tracking-widest transition-all duration-500 ${
-                    active
-                      ? 'text-[#D4AF37] border-l-2 border-[#C9A24D] bg-black/20 pl-6'
-                      : 'text-[#E6E1DC] hover:text-[#C9A24D] hover:bg-black/10 hover:pl-6 border-l-2 border-transparent'
-                  }`}
-                >
-                  {t(link.translationKey)}
-                </LocalizedLink>
-              );
-            })}
+      {isSheetOpen ? (
+        <div
+          id="site-menu-sheet"
+          ref={sheetRef}
+          className="menu-sheet"
+          role="dialog"
+          aria-modal="true"
+          aria-label={t('nav.brandTitle')}
+        >
+          <div className="menu-sheet__bar">
+            <LocalizedLink href="/" className="brand">
+              {mark}
+            </LocalizedLink>
+            <button
+              type="button"
+              className="icon-btn"
+              onClick={() => setIsSheetOpen(false)}
+              aria-label={t('common.close')}
+            >
+              <X aria-hidden="true" />
+            </button>
+          </div>
+
+          <nav aria-label={t('nav.brandTitle')}>
+            {PRIMARY_LINKS.map((link) => (
+              <LocalizedLink
+                key={link.href}
+                href={link.href}
+                aria-current={isActive(link.href) ? 'page' : undefined}
+                className="menu-sheet__link"
+              >
+                {t(link.translationKey)}
+              </LocalizedLink>
+            ))}
+
+            <p className="menu-sheet__label">{t('nav.more')}</p>
+            {MORE_LINKS.map((link) => (
+              <LocalizedLink
+                key={link.href}
+                href={link.href}
+                aria-current={isActive(link.href) ? 'page' : undefined}
+                className="menu-sheet__link"
+              >
+                {t(link.translationKey)}
+              </LocalizedLink>
+            ))}
+          </nav>
+
+          <div className="menu-sheet__foot">
+            <LanguageToggle />
           </div>
         </div>
-      </div>
-    </nav>
+      ) : null}
+    </>
   );
 }

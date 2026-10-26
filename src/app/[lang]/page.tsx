@@ -1,33 +1,43 @@
 "use client";
 
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
+import {
+  BowArrow,
+  Castle,
+  ChevronLeft,
+  ChevronRight,
+  Crown,
+  Feather,
+  Flame,
+  Moon,
+  Music,
+  Shield,
+  Shirt,
+  Star,
+  Sun,
+  Swords,
+} from "lucide-react";
 
 import Image from "next/image";
 import LazyImage from "@/app/components/LazyImage";
 import TransText from "@/app/components/TransText";
+import SectionHeading from "@/app/components/SectionHeading";
 import { useLanguage } from "@/app/components/LanguageProvider";
 import Navbar from "@/app/components/Navbar";
 import LocalizedLink from "@/app/components/LocalizedLink";
 
-// --- Data ---
-// Removed RajputanaMap import as per new hero design requirements
-
-// Fonts are self-hosted in the root layout; these map to its CSS classes.
-const cinzel = { className: "font-cinzel" };
-const cormorant = { className: "font-cormorant" };
-
 const StopIcon = ({ className }: { className?: string }) => (
- <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor">
- <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
- <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 10a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1v-4z" />
- </svg>
+  <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 10a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1v-4z" />
+  </svg>
 );
 
 const VolumeIcon = ({ className }: { className?: string }) => (
- <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor">
- <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
- </svg>
+  <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+  </svg>
 );
 
 // --- Data ---
@@ -166,48 +176,40 @@ const TIMELINE_DATA = [
 const CLAN_DATA = [
  {
  id: "pratihara",
-    name: "home.clans.pratihara.name",
-    motif: "home.clans.pratihara.motif",
-    description: "home.clans.pratihara.desc",
+ name: "home.clans.pratihara.name",
+ motif: "home.clans.pratihara.motif",
+ description: "home.clans.pratihara.desc",
  symbol: (
- <svg viewBox="0 0 100 100" className="w-full h-full text-imperial-gold opacity-50" fill="currentColor">
- <path d="M70,30 C70,19 61,10 50,10 C39,10 30,19 30,30 C30,35 32,40 35,43 C34,45 33,48 33,51 C33,59 40,66 48,66 C49,66 50,66 51,66 C52,74 55,82 59,89 C61,93 65,94 67,91 C69,89 68,85 66,82 C63,75 61,69 60,62 C65,60 69,55 69,49 C69,46 68,43 67,41 C70,38 72,34 72,29 Z" />
+ <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+ <path d="M4 16a6 6 0 0 1 6-6h3a5 5 0 0 1 5 5" />
+ <path d="M4 16v3" />
+ <path d="M10 16v3" />
+ <path d="M16 16v3" />
+ <path d="M18 12c2.2 0 4 1.8 4 4s-1.8 4-4 4" />
+ <path d="M10 10a4 4 0 0 1 7-2.6" />
  </svg>
  )
  },
  {
  id: "parmar",
-    name: "home.clans.parmar.name",
-    motif: "home.clans.parmar.motif",
-    description: "home.clans.parmar.desc",
- symbol: (
- <svg viewBox="0 0 100 100" className="w-full h-full text-imperial-gold opacity-50" fill="currentColor">
- <path d="M50,10 Q30,40 30,60 Q30,85 50,85 Q70,85 70,60 Q70,40 50,10 Z M50,25 Q60,45 60,60 Q60,75 50,75 Q40,75 40,60 Q40,45 50,25 Z" />
- </svg>
- )
+ name: "home.clans.parmar.name",
+ motif: "home.clans.parmar.motif",
+ description: "home.clans.parmar.desc",
+ symbol: <Flame aria-hidden="true" />
  },
  {
  id: "chauhan",
-    name: "home.clans.chauhan.name",
-    motif: "home.clans.chauhan.motif",
-    description: "home.clans.chauhan.desc",
- symbol: (
- <svg viewBox="0 0 100 100" className="w-full h-full text-imperial-gold opacity-50" fill="currentColor">
- <path d="M30,20 Q80,50 30,80 M25,50 L85,50 M75,40 L85,50 L75,60" stroke="currentColor" strokeWidth="3" fill="none" />
- </svg>
- )
+ name: "home.clans.chauhan.name",
+ motif: "home.clans.chauhan.motif",
+ description: "home.clans.chauhan.desc",
+ symbol: <BowArrow aria-hidden="true" />
  },
  {
  id: "solanki",
-    name: "home.clans.solanki.name",
-    motif: "home.clans.solanki.motif",
-    description: "home.clans.solanki.desc",
- symbol: (
- <svg viewBox="0 0 100 100" className="w-full h-full text-imperial-gold opacity-50" fill="currentColor">
- <circle cx="50" cy="50" r="15" />
- <path d="M50,10 L50,25 M50,75 L50,90 M10,50 L25,50 M75,50 L90,50 M22,22 L32,32 M68,68 L78,78 M22,78 L32,68 M68,32 L78,22" stroke="currentColor" strokeWidth="3" />
- </svg>
- )
+ name: "home.clans.solanki.name",
+ motif: "home.clans.solanki.motif",
+ description: "home.clans.solanki.desc",
+ symbol: <Sun aria-hidden="true" />
  }
 ];
 
@@ -248,189 +250,237 @@ function TImage({ altKey, ...props }: Omit<React.ComponentProps<typeof LazyImage
 
 type StateEntry = { name: string; hindiName: string; image: string };
 
+const STATE_ENTRIES: StateEntry[] = [
+  { name: "Mewar (Udaipur)", hindiName: "मेवाड़ (उदयपुर)", image: "/images/home/external/Coat_of_arms_of_Udaipur_State.png" },
+  { name: "Marwar (Jodhpur)", hindiName: "मारवाड़ (जोधपुर)", image: "/images/home/external/CoA_Jodhpur_1893.png" },
+  { name: "Amber (Jaipur)", hindiName: "आमेर (जयपुर)", image: "/images/home/external/amer.jpg" },
+  { name: "Bikaner", hindiName: "बीकानेर", image: "/images/home/external/bikaner_coa.png" },
+  { name: "Jaisalmer", hindiName: "जैसलमेर", image: "/images/home/external/Jaisalmer_Royal_COA.png" },
+  { name: "Kota", hindiName: "कोटा", image: "/images/home/external/Kota_State_CoA.png" },
+  { name: "Bundi", hindiName: "बूंदी", image: "/images/home/external/bundi_coa.png" },
+  { name: "Alwar", hindiName: "अलवर", image: "/images/home/external/alwar1010_thumb.webp" },
+  { name: "Sirohi", hindiName: "सिरोही", image: "/images/home/external/sirohi_coa.png" },
+  { name: "Banswara", hindiName: "बांसवाड़ा", image: "/images/home/external/banswara_coa.png" },
+  { name: "Jhalawar", hindiName: "झालावाड़", image: "/images/home/external/states/jhalawar.webp" },
+  { name: "Karauli", hindiName: "करौली", image: "/images/home/external/states/karauli.webp" },
+  { name: "Bharatpur", hindiName: "भरतपुर", image: "/images/home/external/states/bharatpur.webp" },
+  { name: "Dholpur", hindiName: "धौलपुर", image: "/images/home/external/states/dholpur.webp" },
+  { name: "Tonk", hindiName: "टोंक", image: "/images/home/external/states/tonk.webp" },
+  { name: "Dungarpur", hindiName: "डूंगरपुर", image: "/images/home/external/dungarpur.jpg" },
+  { name: "Pratapgarh", hindiName: "प्रतापगढ़", image: "/images/home/external/pratapgarh.jpg" },
+  { name: "Shahpura", hindiName: "शाहपुरा", image: "/images/home/external/shahpura-arms.jpg" },
+  { name: "Kishangarh", hindiName: "किशनगढ़", image: "/images/home/external/kishangarh.jpg" },
+  { name: "Rewa", hindiName: "रीवा", image: "/images/home/external/rewa.jpg" },
+  { name: "Orchha", hindiName: "ओरछा", image: "/images/home/external/orchha.jpg" },
+  { name: "Ratlam", hindiName: "रतलाम", image: "/images/home/external/ratlam.jpg" },
+  { name: "Idar", hindiName: "ईडर", image: "/images/home/external/idar.jpg" },
+  { name: "Nawanagar", hindiName: "नवानगर", image: "/images/home/external/Nawanagar_State_CoA.jpg" },
+  { name: "Bhavnagar", hindiName: "भावनगर", image: "/images/home/external/states/bhavnagar.webp" },
+  { name: "Dhrangadhra", hindiName: "ध्रांगध्रा", image: "/images/home/external/states/dhrangadhra.webp" },
+  { name: "Gondal", hindiName: "गोंडल", image: "/images/home/external/states/gondal.webp" },
+  { name: "Porbandar", hindiName: "पोरबंदर", image: "/images/home/external/states/porbandar.webp" },
+  { name: "Rajkot", hindiName: "राजकोट", image: "/images/home/external/states/rajkot.webp" },
+  { name: "Wankaner", hindiName: "वांकानेर", image: "/images/home/external/states/wankaner.webp" },
+  { name: "Limbdi", hindiName: "लिंबड़ी", image: "/images/home/external/states/limbdi.webp" },
+  { name: "Wadhwan", hindiName: "वढवाण", image: "/images/home/external/states/wadhwan.webp" },
+  { name: "Palitana", hindiName: "पालीताना", image: "/images/home/external/states/palitana.webp" },
+  { name: "Chuda", hindiName: "चूड़ा", image: "/images/home/external/states/chuda.webp" },
+  { name: "Muli", hindiName: "मूली", image: "/images/home/external/states/muli.webp" },
+  { name: "Khirasra", hindiName: "खिरसरा", image: "/images/home/external/states/khirasra.webp" },
+  { name: "Rajpipla", hindiName: "राजपीपला", image: "/images/home/external/states/rajpipla.webp" },
+  { name: "Chhota Udaipur", hindiName: "छोटा उदयपुर", image: "/images/home/external/states/chhota-udaipur.webp" },
+  { name: "Balasinor", hindiName: "बालासिनोर", image: "/images/home/external/states/balasinor.webp" },
+  { name: "Bansda", hindiName: "बांसडा", image: "/images/home/external/states/bansda.webp" },
+  { name: "Baria", hindiName: "बरिया", image: "/images/home/external/states/baria.webp" },
+  { name: "Lunavada", hindiName: "लुणावाड़ा", image: "/images/home/external/states/lunavada.webp" },
+  { name: "Sant", hindiName: "संत", image: "/images/home/external/states/sant.webp" },
+  { name: "Danta", hindiName: "डांता", image: "/images/home/external/states/danta.webp" },
+  { name: "Dharampur", hindiName: "धरमपुर", image: "/images/home/external/states/dharampur.webp" },
+  { name: "Jambughoda", hindiName: "जंबुघोड़ा", image: "/images/home/external/states/jambughoda.webp" },
+  { name: "Radhanpur", hindiName: "राधनपुर", image: "/images/home/external/states/radhanpur.webp" },
+  { name: "Kutch", hindiName: "कच्छ", image: "/images/home/external/states/kutch.webp" },
+  { name: "Panna", hindiName: "पन्ना", image: "/images/home/external/states/panna.webp" },
+  { name: "Charkhari", hindiName: "चरखारी", image: "/images/home/external/states/charkhari.webp" },
+  { name: "Bijawar", hindiName: "बिजावर", image: "/images/home/external/states/bijawar.webp" },
+  { name: "Samthar", hindiName: "समथर", image: "/images/home/external/states/samthar.webp" },
+  { name: "Datia", hindiName: "दतिया", image: "/images/home/external/states/datia.webp" },
+  { name: "Baraundha", hindiName: "बरौंधा", image: "/images/home/external/states/baraundha.webp" },
+  { name: "Sailana", hindiName: "सैलाना", image: "/images/home/external/states/sailana.webp" },
+  { name: "Sitamau", hindiName: "सीतामऊ", image: "/images/home/external/states/sitamau.webp" },
+  { name: "Jhabua", hindiName: "झाबुआ", image: "/images/home/external/states/jhabua.webp" },
+  { name: "Alirajpur", hindiName: "अलीराजपुर", image: "/images/home/external/states/alirajpur.webp" },
+  { name: "Barwani", hindiName: "बड़वानी", image: "/images/home/external/states/barwani.webp" },
+  { name: "Narsinghgarh", hindiName: "नरसिंहगढ़", image: "/images/home/external/states/narsinghgarh.webp" },
+  { name: "Suket", hindiName: "सुकेत", image: "/images/home/external/states/suket.webp" },
+  { name: "Sirmur (Nahan)", hindiName: "सिरमौर (नाहन)", image: "/images/home/external/states/sirmur.webp" },
+  { name: "Mandi", hindiName: "मंडी", image: "/images/home/external/states/mandi.webp" },
+  { name: "Kahlur (Bilaspur)", hindiName: "कहलूर (बिलासपुर)", image: "/images/home/external/states/kahlur.webp" },
+  { name: "Chamba", hindiName: "चंबा", image: "/images/home/external/states/chamba.webp" },
+  { name: "Kumarsain", hindiName: "कुमारसैन", image: "/images/home/external/states/kumarsain.webp" },
+  { name: "Bissau", hindiName: "बिस्साऊ", image: "/images/home/external/states/bissau.webp" },
+  { name: "Panarwa", hindiName: "पानरवा", image: "/images/home/external/states/panarwa.webp" },
+];
+
+const TIMELINE_STATE_CARD_COUNT = 32;
+const TIMELINE_STATE_ENTRIES = STATE_ENTRIES.slice(0, TIMELINE_STATE_CARD_COUNT);
+const POST_TIMELINE_STATE_ENTRIES = STATE_ENTRIES.slice(TIMELINE_STATE_CARD_COUNT);
+
 function StateCard({ state }: { state: StateEntry }) {
   const { currentLanguage } = useLanguage();
   const displayName = currentLanguage === 'hi' ? state.hindiName : state.name;
   return (
-    <div className="aspect-square border border-royal-silver flex flex-col items-center justify-center p-4 bg-white/5 hover:bg-white/10 transition-colors cursor-pointer group">
-      <div className="w-24 h-24 md:w-32 md:h-32 relative mb-2">
-        <LazyImage fill src={state.image} alt={displayName} className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-700 drop-shadow-[0_0_20px_rgba(212,175,55,0.15)]" />
+    <article className="state-tile">
+      <div className="state-tile__media">
+        <LazyImage fill src={state.image} alt={displayName} className="object-contain" />
       </div>
-      <div className="inscription-subtext text-center">{displayName}</div>
+      <span className="state-tile__name">{displayName}</span>
+    </article>
+  );
+}
+
+// ---------- 4.2 explore bar ----------
+const EXPLORE_ITEMS = [
+  { href: "/dynasties", labelKey: "nav.dynasties", subKey: "home.explore.dynasties", Icon: Crown },
+  { href: "/forts", labelKey: "nav.forts", subKey: "home.explore.forts", Icon: Castle },
+  { href: "/battles", labelKey: "nav.battles", subKey: "home.explore.battles", Icon: Shield },
+  { href: "/legends", labelKey: "nav.stories", subKey: "home.explore.legends", Icon: Star },
+  { href: "/festivals", labelKey: "nav.festivals", subKey: "home.explore.festivals", Icon: Flame },
+  { href: "/blogs", labelKey: "nav.blogs", subKey: "home.explore.blogs", Icon: Feather },
+];
+
+// ---------- 4.5 great kingdoms ----------
+const KINGDOMS = [
+  { id: "mewar", image: "/images/home/chittorgarh-fort.jpg", altKey: "home.alt.mewar", eyebrow: "home.kingdoms.mewar.eyebrow", title: "home.kingdoms.mewar.title", p1: "home.kingdoms.mewar.p1", period: "home.kingdoms.mewar.period", href: "/dynasties#mewar-sisodia" },
+  { id: "marwar", image: "/images/home/jodhpur-fort.jpg", altKey: "home.alt.marwar", eyebrow: "home.kingdoms.marwar.eyebrow", title: "home.kingdoms.marwar.title", p1: "home.kingdoms.marwar.p1", period: "home.kingdoms.marwar.period", href: "/dynasties#marwar-rathore" },
+  { id: "amber", image: "/images/home/amer-fort.webp", altKey: "home.alt.amber", eyebrow: "home.kingdoms.amber.eyebrow", title: "home.kingdoms.amber.title", p1: "home.kingdoms.amber.p1", period: "home.kingdoms.amber.period", href: "/dynasties#amber-kachwaha" },
+  { id: "jaisalmer", image: "/images/home/jaisalmer-fort.jpg", altKey: "home.alt.jaisalmer", eyebrow: "home.kingdoms.jaisalmer.eyebrow", title: "home.kingdoms.jaisalmer.title", p1: "home.kingdoms.jaisalmer.p1", period: "home.kingdoms.jaisalmer.period", href: "/dynasties#jaisalmer-bhati" },
+];
+
+// ---------- 4.6 battles ----------
+type BattleMeta = {
+  id: string;
+  titleKey: string;
+  stakes: string;
+  decision: string;
+  consequence: string[];
+  outcome: "win" | "loss";
+};
+
+const BATTLES: BattleMeta[] = [
+  { id: "haldighati", titleKey: "home.battles.haldighati.title", stakes: "home.battles.haldighati.stakesValue", decision: "home.battles.haldighati.decisionValue", consequence: ["home.battles.haldighati.consequenceValue"], outcome: "win" },
+  { id: "dewair", titleKey: "home.battles.dewair.title", stakes: "home.battles.dewair.stakesValue", decision: "home.battles.dewair.decisionValue", consequence: ["home.battles.dewair.consequenceValue"], outcome: "win" },
+  { id: "tarain", titleKey: "home.battles.tarain.title", stakes: "home.battles.tarain.stakesValue", decision: "home.battles.tarain.decisionValue", consequence: ["home.battles.tarain.consequenceValue"], outcome: "win" },
+  { id: "chittorgarh", titleKey: "home.battles.chittorgarh.title", stakes: "home.battles.chittorgarh.stakesValue", decision: "home.battles.chittorgarh.decisionValue", consequence: ["home.battles.chittorgarh.consequenceValue1", "home.battles.chittorgarh.consequenceValue2"], outcome: "loss" },
+  { id: "ranthambore", titleKey: "home.battles.ranthambore.title", stakes: "home.battles.ranthambore.stakesValue", decision: "home.battles.ranthambore.decisionValue", consequence: ["home.battles.ranthambore.consequenceValue1", "home.battles.ranthambore.consequenceValue2"], outcome: "loss" },
+];
+
+function BattleCard({ battle }: { battle: BattleMeta }) {
+  const { t } = useLanguage();
+  const title = t(battle.titleKey);
+  const open = title.indexOf("(");
+  const place = open > -1 ? title.slice(0, open).trim() : title;
+  const year = open > -1 ? title.slice(open + 1).replace(")", "").trim() : "";
+  return (
+    <article className="card battle-card">
+      <div>
+        <div className="battle-card__year">{year}</div>
+        <span className="battle-card__place">{place}</span>
+      </div>
+      <div>
+        <h3 className="battle-card__title">{title}</h3>
+        <dl className="battle-card__facts">
+          <div>
+            <dt><TransText k="home.battles.stakes" /></dt>
+            <dd><TransText k={battle.stakes} /></dd>
+          </div>
+          <div>
+            <dt><TransText k="home.battles.decision" /></dt>
+            <dd><TransText k={battle.decision} /></dd>
+          </div>
+          <div>
+            <dt><TransText k="home.battles.consequence" /></dt>
+            {battle.consequence.map((key) => (
+              <dd key={key}><TransText k={key} /></dd>
+            ))}
+          </div>
+          <div>
+            <dt><TransText k="home.battles.outcome" /></dt>
+            <dd>
+              {battle.outcome === "win" ? (
+                <span className="chip chip--win"><TransText k="concepts.victory" /></span>
+              ) : (
+                <span className="chip chip--loss"><TransText k="concepts.defeat" /></span>
+              )}
+            </dd>
+          </div>
+        </dl>
+        <div className="battle-card__foot">
+          <span className="chip"><TransText k="concepts.context" /></span>
+          <LocalizedLink href="/battles" className="btn btn--text">
+            <TransText k="home.battles.moreInfo" />
+          </LocalizedLink>
+        </div>
+      </div>
+    </article>
+  );
+}
+
+// ---------- 4.9 warrior rows (scroll-snap) ----------
+function WarriorRow({ items, eyebrow, heading }: { items: Warrior[]; eyebrow: React.ReactNode; heading: React.ReactNode }) {
+  const { currentLanguage, t } = useLanguage();
+  const trackRef = useRef<HTMLDivElement | null>(null);
+
+  const scrollByCard = (dir: number) => {
+    const el = trackRef.current;
+    if (!el) return;
+    const card = el.querySelector<HTMLElement>(".warrior-card");
+    const step = card ? card.offsetWidth + 20 : 240;
+    el.scrollBy({ left: dir * step, behavior: "smooth" });
+  };
+
+  return (
+    <div className="warrior-block">
+      <div className="warrior-row__head">
+        <div>
+          <p className="eyebrow">{eyebrow}</p>
+          <h3>{heading}</h3>
+        </div>
+        <div className="warrior-row__nav">
+          <button type="button" className="btn btn--secondary" aria-label={t("common.previous")} onClick={() => scrollByCard(-1)}>
+            <ChevronLeft aria-hidden="true" />
+          </button>
+          <button type="button" className="btn btn--secondary" aria-label={t("common.next")} onClick={() => scrollByCard(1)}>
+            <ChevronRight aria-hidden="true" />
+          </button>
+        </div>
+      </div>
+      <div className="warrior-row" ref={trackRef}>
+        {items.map((item) => {
+          const displayName = currentLanguage === "hi" ? item.hindiName : item.name;
+          const displayRegion = currentLanguage === "hi" ? item.hindiRegion : item.region;
+          return (
+            <LocalizedLink key={item.name} href="/battles#warriors" className="warrior-card">
+              <div className="arch arch--tall">
+                <LazyImage fill sizes="(max-width: 760px) 60vw, 220px" src={item.image} alt={displayName} className="object-cover" />
+              </div>
+              <p className="warrior-card__name">{displayName}</p>
+              <p className="warrior-card__region">{displayRegion}</p>
+            </LocalizedLink>
+          );
+        })}
+      </div>
     </div>
   );
 }
 
-function Carousel({ items, slower = false }: { items: Warrior[]; slower?: boolean }) {
- const { currentLanguage, t } = useLanguage();
- // Create 3 sets of items for seamless looping
- const extendedItems = React.useMemo(() => [...items, ...items, ...items], [items]);
- 
- // Start in the middle set
- const [current, setCurrent] = useState(items.length);
- const [isTransitioning, setIsTransitioning] = useState(true);
- const trackRef = useRef<HTMLDivElement | null>(null);
- const [slideW, setSlideW] = useState(224);
-
- useEffect(() => {
- const el = trackRef.current;
- if (!el) return;
- const first = el.querySelector<HTMLElement>('[data-slide]');
- if (first) setSlideW(first.offsetWidth + 12); // width + gap
- }, []);
-
- // Handle seamless loop reset
- const handleTransitionEnd = () => {
- if (current >= items.length * 2) {
- setIsTransitioning(false);
- setCurrent(current - items.length);
- requestAnimationFrame(() => {
- requestAnimationFrame(() => setIsTransitioning(true));
- });
- } else if (current < items.length) {
- setIsTransitioning(false);
- setCurrent(current + items.length);
- requestAnimationFrame(() => {
- requestAnimationFrame(() => setIsTransitioning(true));
- });
- }
- };
-
- const prev = () => {
- if (!isTransitioning) return;
- setCurrent((c) => c - 1);
- };
-
- const next = () => {
- if (!isTransitioning) return;
- setCurrent((c) => c + 1);
- };
-
- const onPointerDown = (e: React.PointerEvent) => {
- const startX = e.clientX;
- const start = current;
- const handleMove = (ev: PointerEvent) => {
- const dx = ev.clientX - startX;
- const delta = Math.round(-dx / slideW);
- setCurrent(start + delta);
- };
- const handleUp = () => {
- window.removeEventListener("pointermove", handleMove);
- window.removeEventListener("pointerup", handleUp);
- };
- window.addEventListener("pointermove", handleMove);
- window.addEventListener("pointerup", handleUp);
- };
-
- const onKeyDown = (e: React.KeyboardEvent<HTMLDivElement>) => {
- if (e.key === "ArrowLeft") {
- prev();
- } else if (e.key === "ArrowRight") {
- next();
- }
- };
-
- return (
- <div className="relative w-full overflow-hidden" tabIndex={0} onKeyDown={onKeyDown} aria-roledescription={t("home.carousel")}>
- {/* Navigation Controls - Vertically centered, subtle gold outline */}
- <button
- onClick={prev}
- aria-label={t("common.previous")}
- className="hidden md:flex absolute z-20 top-1/2 -translate-y-1/2 left-8 w-12 h-12 items-center justify-center rounded-full border border-black/80 text-black hover:text-black hover:border-black hover:bg-black/5 transition-all active:scale-95 bg-transparent"
- >
- <span className="text-3xl font-light pb-1">‹</span>
- </button>
- <button
- onClick={next}
- aria-label={t("common.next")}
- className="hidden md:flex absolute z-20 top-1/2 -translate-y-1/2 right-8 w-12 h-12 items-center justify-center rounded-full border border-black/80 text-black hover:text-black hover:border-black hover:bg-black/5 transition-all active:scale-95 bg-transparent"
- >
- <span className="text-3xl font-light pb-1">›</span>
- </button>
-
- {/* Mobile Navigation */}
- <button
- onClick={prev}
- aria-label={t("common.previous")}
- className="md:hidden absolute z-20 top-1/2 -translate-y-1/2 left-2 w-10 h-10 items-center justify-center rounded-full border border-black/80 text-black bg-white/90 backdrop-blur-sm shadow-sm"
- >
- <span className="text-2xl pb-1">‹</span>
- </button>
- <button
- onClick={next}
- aria-label={t("common.next")}
- className="md:hidden absolute z-20 top-1/2 -translate-y-1/2 right-2 w-10 h-10 items-center justify-center rounded-full border border-black/80 text-black bg-white/90 backdrop-blur-sm shadow-sm"
- >
- <span className="text-2xl pb-1">›</span>
- </button>
-
- <div className="overflow-hidden w-full py-0">
- <div
- ref={trackRef}
- onPointerDown={onPointerDown}
- onTransitionEnd={handleTransitionEnd}
- className="flex items-start gap-6 select-none cursor-grab active:cursor-grabbing w-full"
- style={{
- transform: `translateX(${-current * slideW}px)`,
- transition: isTransitioning 
- ? `transform ${slower ? 900 : 700}ms cubic-bezier(0.18,0.76,0.22,0.95)` 
- : 'none'
- }}
- >
- {extendedItems.map((item, i) => {
- const isCenter = i === current;
- const uniqueKey = `${item.name}-${i}`;
- const displayName = currentLanguage === 'hi' ? item.hindiName : item.name;
- const displayRegion = currentLanguage === 'hi' ? item.hindiRegion : item.region;
- return (
- <div
- key={uniqueKey}
- data-slide
- className={`flex-none w-[240px] h-[420px] transition-transform duration-700 overflow-visible`}
- >
- <LocalizedLink href="/battles#warriors" className="block w-full h-full cursor-pointer" draggable={false}>
- {/* Frame Container - Fixed Size */}
- <div
-  className={`antique-frame antique-frame-hover w-full h-[300px] overflow-visible`}
-  role="group"
-  aria-label={displayName}
-  style={{ 
-  transform: isCenter ? "scale(1.02)" : "scale(1.00)", 
-  transition: isTransitioning 
-  ? `transform ${slower ? 900 : 700}ms cubic-bezier(0.18,0.76,0.22,0.95)` 
-  : 'none'
-  }}
- >
-  <div className="antique-corner tl"></div>
-  <div className="antique-corner tr"></div>
-  <div className="antique-corner bl"></div>
-  <div className="antique-corner br"></div>
-  <div className="antique-portrait relative w-full h-full overflow-hidden">
-  <LazyImage fill src={item.image}
-  alt={displayName}
-  className="w-full h-full object-cover"
-  />
-  </div>
- </div>
-
- {/* Fixed Caption Container */}
- <div className="mt-6 relative z-10 h-[80px] w-full flex flex-col items-center justify-start text-center">
-  <div className="inscription-text text-xl min-h-[40px] flex items-center justify-center w-full px-2">
-  {displayName}
-  </div>
-  <div className="inscription-subtext mt-2 w-full text-center">
-  {displayRegion || ""}
-  </div>
- </div>
- </LocalizedLink>
- </div>
- );
- })}
- </div>
- </div>
- </div>
- );
-}
+// Section ground colour, keyed by section id (unlisted ids keep the page surface).
+const SECTION_TONE: Record<string, string> = {
+  ascendancy: "section--tint",
+  battles: "section--sand",
+  states: "section--tint",
+  ethos: "section--sand",
+  modern: "section--tint",
+};
 
 type HomeSection = {
  id: string;
@@ -447,126 +497,49 @@ const SECTIONS: HomeSection[] = [
  eraIndex: 1,
  content: (
  <div className="space-y-8">
-<p className="text-xl leading-relaxed"><TransText k="home.origins.body1" /></p>
- <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-12">
+ <p className="text-xl leading-relaxed"><TransText k="home.origins.body1" /></p>
+ <div className="grid-3">
  {/* AGNIKULA — ESSENCE OF FIRE */}
- <div className="relative overflow-hidden group border border-royal-silver/30 h-full">
- {/* 1. Background Image Layer (Atmosphere) */}
- <div 
- className="absolute inset-0 bg-cover bg-center transition-transform duration-700 scale-110 blur-[1px] opacity-90"
- style={{ backgroundImage: "url('/images/home/agnikula.webp')" }}
- />
- {/* 2. Strong Overlay Layer */}
- <div className="absolute inset-0 bg-sun-parchment/30 mix-blend-overlay" />
-
- {/* 4. Inner Content Frame */}
- <div className="relative z-10 h-full p-6 flex flex-col justify-center">
- <div className="bg-sun-parchment/40 backdrop-blur-sm border border-royal-silver/10 p-6 rounded-sm shadow-sm h-full flex flex-col justify-center">
- {/* 3. Text Typography */}
-<h3 className={`text-2xl font-bold text-shehrawat-blood-red mb-3 tracking-wider uppercase ${cinzel.className}`}><TransText k="home.origins.agnikula.title" /></h3>
-<p className="text-xl text-ink-black/90 leading-relaxed font-medium drop-shadow-sm"><TransText k="home.origins.agnikula.desc" /></p>
- </div>
- </div>
- </div>
+ <article className="card origin-card">
+ <span className="icon-tile icon-tile--lg"><Flame aria-hidden="true" /></span>
+ <h3><TransText k="home.origins.agnikula.title" /></h3>
+ <p className="origin-card__line"><TransText k="home.origins.agnikula.desc" /></p>
+ <span className="chip chip--legend"><TransText k="concepts.legend" /></span>
+ </article>
 
  {/* SURYAVANSHI — ESSENCE OF THE SUN */}
- <div className="relative overflow-hidden group border border-royal-silver/30 h-full">
- {/* 1. Background Image Layer (Atmosphere) */}
- <div 
- className="absolute inset-0 bg-cover bg-center transition-transform duration-700 scale-110 blur-[1px] opacity-90"
- style={{ backgroundImage: "url('/images/home/suryavanshi.jpg')" }}
- />
- {/* 2. Strong Overlay Layer */}
- <div className="absolute inset-0 bg-sun-parchment/30 mix-blend-overlay" />
-
- {/* 4. Inner Content Frame */}
- <div className="relative z-10 h-full p-6 flex flex-col justify-center">
- <div className="bg-sun-parchment/40 backdrop-blur-sm border border-royal-silver/10 p-6 rounded-sm shadow-sm h-full flex flex-col justify-center">
- {/* 3. Text Typography */}
-<h3 className={`text-2xl font-bold text-imperial-gold mb-3 tracking-wider uppercase ${cinzel.className}`}><TransText k="home.origins.suryavanshi.title" /></h3>
-<p className="text-xl text-ink-black/90 leading-relaxed font-medium drop-shadow-sm"><TransText k="home.origins.suryavanshi.desc" /></p>
- </div>
- </div>
- </div>
+ <article className="card origin-card">
+ <span className="icon-tile icon-tile--lg"><Sun aria-hidden="true" /></span>
+ <h3><TransText k="home.origins.suryavanshi.title" /></h3>
+ <p className="origin-card__line"><TransText k="home.origins.suryavanshi.desc" /></p>
+ </article>
 
  {/* CHANDRAVANSHI — ESSENCE OF THE MOON */}
- <div className="relative overflow-hidden group border border-royal-silver/30 h-full">
- {/* 1. Background Image Layer (Atmosphere) */}
- <div 
- className="absolute inset-0 bg-cover bg-top transition-transform duration-700 scale-110 blur-[1px] opacity-90"
- style={{ backgroundImage: "url('/images/home/chandravanshi.jpg')" }}
- />
- {/* 2. Strong Overlay Layer */}
- <div className="absolute inset-0 bg-sun-parchment/30 mix-blend-overlay" />
-
- {/* 4. Inner Content Frame */}
- <div className="relative z-10 h-full p-6 flex flex-col justify-center">
- <div className="bg-sun-parchment/40 backdrop-blur-sm border border-royal-silver/10 p-6 rounded-sm shadow-sm h-full flex flex-col justify-center">
- {/* 3. Text Typography */}
-<h3 className={`text-1xl font-bold text-imperial-gold mb-3 tracking-wider uppercase ${cinzel.className}`}><TransText k="home.origins.chandravanshi.title" /></h3>
-<p className="text-xl text-ink-black/90 leading-relaxed font-medium drop-shadow-sm"><TransText k="home.origins.chandravanshi.desc" /></p>
+ <article className="card origin-card">
+ <span className="icon-tile icon-tile--lg"><Moon aria-hidden="true" /></span>
+ <h3><TransText k="home.origins.chandravanshi.title" /></h3>
+ <p className="origin-card__line"><TransText k="home.origins.chandravanshi.desc" /></p>
+ </article>
  </div>
- </div>
- </div>
- </div>
-<p className="text-xl leading-relaxed"><TransText k="home.origins.body2" /></p>
+ <p className="text-xl leading-relaxed"><TransText k="home.origins.body2" /></p>
  </div>
  ),
  },
- // {
- // id: "polity",
- // title: "Formation of Rajput Polity",
- // eraIndex: 1,
- // content: (
- // <div className="space-y-6">
- // <div className="border-l-2 border-royal-silver pl-6 py-2">
- // <h4 className={`text-lg font-bold text-ink-black ${cinzel.className}`}>500–650 CE</h4>
- // <p>Warrior chiefs gain autonomy in the post-Gupta vacuum.</p>
- // </div>
- // <div className="border-l-2 border-royal-silver pl-6 py-2">
- // <h4 className={`text-lg font-bold text-ink-black ${cinzel.className}`}>Clan Coalescence</h4>
- // <p>Loose warrior bands crystallize into ruling houses with defined territories.</p>
- // </div>
- // <div className="border-l-2 border-royal-silver pl-6 py-2">
- // <h4 className={`text-lg font-bold text-ink-black ${cinzel.className}`}>Kshatriya Identity</h4>
- // <p>A formalized martial identity cements the social hierarchy.</p>
- // </div>
- // </div>
- // ),
- // },
  {
  id: "ascendancy",
     title: "home.ascendancy.title",
  eraIndex: 2,
  content: (
- <div className="space-y-12">
-        <p className="text-xl leading-relaxed"><TransText k="home.ascendancy.body" /></p>
- <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+ <div className="space-y-8">
+ <p className="text-xl leading-relaxed"><TransText k="home.ascendancy.body" /></p>
+ <div className="grid-4">
  {CLAN_DATA.map((clan) => (
- <div key={clan.id} className="relative overflow-hidden p-8 border border-imperial-gold/30 bg-royal-ivory/50 shadow-sm group hover:border-imperial-gold/60 transition-colors duration-500">
- 
- {/* Background Motif (Low Opacity) */}
- <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none">
- <div className="w-48 h-48 transform group-hover:scale-105 transition-transform duration-700">
-  {clan.symbol}
- </div>
- </div>
-
- {/* Content */}
- <div className="relative z-10 text-center space-y-3">
-  <div className="text-antique-gold text-lg tracking-widest uppercase font-semibold opacity-80"><TransText k={clan.motif} /></div>
-  <h3 className={`text-3xl text-shehrawat-blood-red font-bold ${cinzel.className}`}><TransText k={clan.name} /></h3>
-  <div className="w-12 h-px bg-imperial-gold/40 mx-auto my-2"></div>
-  <p className="text-xl text-ink-black/80 font-serif italic leading-relaxed max-w-xs mx-auto"><TransText k={clan.description} /></p>
- </div>
- 
- {/* Corner Accents */}
- <div className="absolute top-2 left-2 w-2 h-2 border-t border-l border-imperial-gold/40"></div>
- <div className="absolute top-2 right-2 w-2 h-2 border-t border-r border-imperial-gold/40"></div>
- <div className="absolute bottom-2 left-2 w-2 h-2 border-b border-l border-imperial-gold/40"></div>
- <div className="absolute bottom-2 right-2 w-2 h-2 border-b border-r border-imperial-gold/40"></div>
-
- </div>
+ <article key={clan.id} className="card clan-card">
+ <span className="icon-tile icon-tile--lg">{clan.symbol}</span>
+ <h3 className="clan-card__title"><TransText k={clan.name} /></h3>
+ <p className="clan-card__text"><TransText k={clan.motif} /></p>
+ <p className="clan-card__text"><TransText k={clan.description} /></p>
+ </article>
  ))}
  </div>
  </div>
@@ -577,88 +550,26 @@ const SECTIONS: HomeSection[] = [
     title: "home.kingdoms.title",
  eraIndex: 3,
  content: (
- <>
- <div className="space-y-20">
-
- {/* MEWAR */}
- <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
- <div className="space-y-4">
-              <h3 className={`text-3xl ${cinzel.className}`}><TransText k="home.kingdoms.mewar.title" /></h3>
-              <p className="text-xl opacity-80"><TransText k="home.kingdoms.mewar.p1" /></p>
-              <p className="text-xl opacity-80"><TransText k="home.kingdoms.mewar.p2" /></p>
- <LocalizedLink href="/dynasties#mewar-sisodia" className="text-shehrawat-blood-red text-lg font-bold flex items-center gap-2 mt-4 hover:underline">
-              <TransText k="home.kingdoms.mewar.cta" /> <span className="text-sm">→</span>
- </LocalizedLink>
- </div>
-
- <div className="relative h-56 border-2 border-imperial-gold overflow-hidden">
-              <TImage fill src="/images/home/chittorgarh-fort.jpg"
-              altKey="home.alt.mewar"
- className="w-full h-full object-cover"
- />
+ <div className="grid-4">
+ {KINGDOMS.map((kingdom) => (
+ <article key={kingdom.id} className="card">
+ <div className="card__media">
+ <div className="arch">
+ <TImage fill sizes="(max-width:760px) 100vw, (max-width:1100px) 50vw, 25vw" src={kingdom.image} altKey={kingdom.altKey} className="object-cover" />
  </div>
  </div>
-
- {/* MARWAR */}
- <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
- <div className="relative h-56 border-2 border-imperial-gold overflow-hidden">
-              <TImage fill src="/images/home/jodhpur-fort.jpg"
-              altKey="home.alt.marwar"
- className="w-full h-full object-cover"
- />
+ <div className="card__body">
+ <p className="kingdom-eyebrow"><TransText k={kingdom.eyebrow} /></p>
+ <h3 className="card__title"><TransText k={kingdom.title} /></h3>
+ <p className="card__text clamp-3"><TransText k={kingdom.p1} /></p>
  </div>
-
- <div className="space-y-4">
-              <h3 className={`text-3xl ${cinzel.className}`}><TransText k="home.kingdoms.marwar.title" /></h3>
-              <p className="text-xl opacity-80"><TransText k="home.kingdoms.marwar.p1" /></p>
-              <p className="text-xl opacity-80"><TransText k="home.kingdoms.marwar.p2" /></p>
- <LocalizedLink href="/dynasties#marwar-rathore" className="text-shehrawat-blood-red text-lg font-bold flex items-center gap-2 mt-4 hover:underline">
-              <TransText k="home.kingdoms.marwar.cta" /> <span className="text-sm">→</span>
- </LocalizedLink>
+ <div className="card__foot">
+ <span><TransText k={kingdom.period} /></span>
+ <LocalizedLink href={kingdom.href} className="btn btn--text"><TransText k="footer.explore" /></LocalizedLink>
  </div>
+ </article>
+ ))}
  </div>
-
- {/* AMBER */}
- <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
- 
- <div className="space-y-4">
-              <h3 className={`text-3xl ${cinzel.className}`}><TransText k="home.kingdoms.amber.title" /></h3>
-              <p className="text-xl opacity-80"><TransText k="home.kingdoms.amber.p1" /></p>
-              <p className="text-xl opacity-80"><TransText k="home.kingdoms.amber.p2" /></p>
- <LocalizedLink href="/dynasties#amber-kachwaha" className="text-shehrawat-blood-red text-lg font-bold flex items-center gap-2 mt-4 hover:underline">
-              <TransText k="home.kingdoms.amber.cta" /> <span className="text-sm">→</span>
- </LocalizedLink>
- </div>
-
- <div className="relative h-56 border-2 border-imperial-gold overflow-hidden">
-              <TImage fill src="/images/home/amer-fort.webp"
-              altKey="home.alt.amber"
- className="w-full h-full object-cover"
- />
- </div>
- </div>
-
- {/* JAISALMER */}
- <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
- <div className="relative h-56 border-2 border-imperial-gold overflow-hidden">
-              <TImage fill src="/images/home/jaisalmer-fort.jpg"
-              altKey="home.alt.jaisalmer"
- className="w-full h-full object-cover"
- />
- </div>
-
- <div className="space-y-4">
-              <h3 className={`text-3xl ${cinzel.className}`}><TransText k="home.kingdoms.jaisalmer.title" /></h3>
-              <p className="text-xl opacity-80"><TransText k="home.kingdoms.jaisalmer.p1" /></p>
-              <p className="text-xl opacity-80"><TransText k="home.kingdoms.jaisalmer.p2" /></p>
- <LocalizedLink href="/dynasties#jaisalmer-bhati" className="text-shehrawat-blood-red text-lg font-bold flex items-center gap-2 mt-4 hover:underline">
-              <TransText k="home.kingdoms.jaisalmer.cta" /> <span className="text-sm">→</span>
- </LocalizedLink>
- </div>
- </div>
-
- </div>
- </>
  ),
  },
 
@@ -668,172 +579,10 @@ const SECTIONS: HomeSection[] = [
  eraIndex: 4, 
  text: "home.battles.summary",
  content: ( 
- <div className="space-y-32"> 
- 
- {/* ================= HALDIGHATI ================= */} 
- <div className="relative grid grid-cols-1 md:grid-cols-12 gap-x-8"> 
- <div className="md:col-span-3 space-y-3"> 
- <h3 className={`text-3xl ${cinzel.className}`}> 
- <TransText k="home.battles.haldighati.title" />
- </h3> 
-            <div className="uppercase text-base tracking-widest opacity-60"><TransText k="home.battles.stakes" /></div> 
- <p className="text-xl opacity-80"> 
- <TransText k="home.battles.haldighati.stakesValue" />
- </p> 
- </div> 
- 
- <div className="hidden md:flex justify-center md:col-span-1"> 
- <div className="w-px h-24 bg-imperial-gold" /> 
- </div> 
- 
- <div className="mt-6 md:mt-0 md:col-span-3 space-y-3"> 
-            <div className="uppercase text-base tracking-widest opacity-60"><TransText k="home.battles.decision" /></div> 
- <p className="text-xl opacity-80"> 
- <TransText k="home.battles.haldighati.decisionValue" />
- </p> 
- </div> 
- 
- <div className="hidden md:flex justify-center md:col-span-1"> 
- <div className="w-px h-24 bg-imperial-gold" /> 
- </div> 
- 
- <div className="mt-6 md:mt-0 md:col-span-4 space-y-3"> 
-            <div className="uppercase text-base tracking-widest opacity-60"><TransText k="home.battles.consequence" /></div> 
- <p className="text-xl opacity-80"> 
- <TransText k="home.battles.haldighati.consequenceValue" />
- </p> 
-            <LocalizedLink href="/battles" className="inline-flex items-center gap-2 text-shehrawat-blood-red font-bold hover:underline mt-2 group">
-            <TransText k="home.battles.moreInfo" /> <span className="transition-transform group-hover:translate-x-1">→</span>
-            </LocalizedLink>
- </div> 
- </div> 
- 
- {/* ================= DEWAIR ================= */} 
- <div className="relative grid grid-cols-1 md:grid-cols-12 gap-x-8"> 
- <div className="md:col-span-3 space-y-3"> 
-            <h3 className={`text-3xl ${cinzel.className}`}><TransText k="home.battles.dewair.title" /></h3> 
-            <div className="uppercase text-base tracking-widest opacity-60"><TransText k="home.battles.stakes" /></div> 
-            <p className="text-xl opacity-80"><TransText k="home.battles.dewair.stakesValue" /></p> 
- </div> 
- 
- <div className="hidden md:flex justify-center md:col-span-1"> 
- <div className="w-px h-24 bg-imperial-gold" /> 
- </div> 
- 
- <div className="mt-6 md:mt-0 md:col-span-3 space-y-3"> 
-            <div className="uppercase text-base tracking-widest opacity-60"><TransText k="home.battles.decision" /></div> 
-            <p className="text-xl opacity-80"><TransText k="home.battles.dewair.decisionValue" /></p> 
- </div> 
- 
- <div className="hidden md:flex justify-center md:col-span-1"> 
- <div className="w-px h-24 bg-imperial-gold" /> 
- </div> 
- 
- <div className="mt-6 md:mt-0 md:col-span-4 space-y-3"> 
-            <div className="uppercase text-base tracking-widest opacity-60"><TransText k="home.battles.consequence" /></div> 
-            <p className="text-xl opacity-80"><TransText k="home.battles.dewair.consequenceValue" /></p>
-            <LocalizedLink href="/battles" className="inline-flex items-center gap-2 text-shehrawat-blood-red font-bold hover:underline mt-2 group">
-            <TransText k="home.battles.moreInfo" /> <span className="transition-transform group-hover:translate-x-1">→</span>
-            </LocalizedLink> 
- </div> 
- </div> 
- 
- {/* ================= TARAIN ================= */} 
- <div className="relative grid grid-cols-1 md:grid-cols-12 gap-x-8"> 
- <div className="md:col-span-3 space-y-3"> 
-            <h3 className={`text-3xl ${cinzel.className}`}><TransText k="home.battles.tarain.title" /></h3> 
-            <div className="uppercase text-base tracking-widest opacity-60"><TransText k="home.battles.stakes" /></div> 
-            <p className="text-xl opacity-80"><TransText k="home.battles.tarain.stakesValue" /></p> 
- </div> 
- 
- <div className="hidden md:flex justify-center md:col-span-1"> 
- <div className="w-px h-24 bg-imperial-gold" /> 
- </div> 
- 
- <div className="mt-6 md:mt-0 md:col-span-3 space-y-3"> 
-            <div className="uppercase text-base tracking-widest opacity-60"><TransText k="home.battles.decision" /></div> 
-            <p className="text-xl opacity-80"><TransText k="home.battles.tarain.decisionValue" /></p> 
- </div> 
- 
- <div className="hidden md:flex justify-center md:col-span-1"> 
- <div className="w-px h-24 bg-imperial-gold" /> 
- </div> 
- 
- <div className="mt-6 md:mt-0 md:col-span-4 space-y-3"> 
-            <div className="uppercase text-base tracking-widest opacity-60"><TransText k="home.battles.consequence" /></div> 
-            <p className="text-xl opacity-80"><TransText k="home.battles.tarain.consequenceValue" /></p> 
-            <LocalizedLink href="/battles" className="inline-flex items-center gap-2 text-shehrawat-blood-red font-bold hover:underline mt-2 group">
-            <TransText k="home.battles.moreInfo" /> <span className="transition-transform group-hover:translate-x-1">→</span>
-            </LocalizedLink> 
- </div> 
- </div> 
- 
- {/* ================= CHITTORGARH ================= */} 
- <div className="relative grid grid-cols-1 md:grid-cols-12 gap-x-8"> 
- <div className="md:col-span-3 space-y-3"> 
- <h3 className={`text-3xl ${cinzel.className}`}> 
- <TransText k="home.battles.chittorgarh.title" />
- </h3> 
- <div className="uppercase text-base tracking-widest opacity-60"> 
- <TransText k="home.battles.stakes" />
- </div> 
- <p className="text-xl opacity-80"> 
- <TransText k="home.battles.chittorgarh.stakesValue" />
- </p> 
- </div> 
- 
- <div className="hidden md:flex justify-center md:col-span-1"> 
- <div className="w-px h-24 bg-imperial-gold" /> 
- </div> 
- 
- <div className="mt-6 md:mt-0 md:col-span-3 space-y-3"> 
-            <div className="uppercase text-base tracking-widest opacity-60"><TransText k="home.battles.decision" /></div> 
-            <p className="text-xl opacity-80"><TransText k="home.battles.chittorgarh.decisionValue" /></p> 
- </div> 
- 
- <div className="hidden md:flex justify-center md:col-span-1"> 
- <div className="w-px h-24 bg-imperial-gold" /> 
- </div> 
- 
- <div className="mt-6 md:mt-0 md:col-span-4 space-y-3"> 
-            <div className="uppercase text-base tracking-widest opacity-60"><TransText k="home.battles.consequence" /></div> 
-            <p className="text-xl opacity-80"><TransText k="home.battles.chittorgarh.consequenceValue1" /></p>
-            <p className="text-xl opacity-80"><TransText k="home.battles.chittorgarh.consequenceValue2" /></p>
-            <LocalizedLink href="/battles" className="inline-flex items-center gap-2 text-shehrawat-blood-red font-bold hover:underline mt-2 group">
-            <TransText k="home.battles.moreInfo" /> <span className="transition-transform group-hover:translate-x-1">→</span>
-            </LocalizedLink>
- 
- </div> 
- </div> 
- 
-
- <div className="relative grid grid-cols-1 md:grid-cols-12 gap-x-8"> 
- <div className="md:col-span-3 space-y-3"> 
-            <h3 className={`text-3xl ${cinzel.className}`}><TransText k="home.battles.ranthambore.title" /></h3> 
-            <div className="uppercase text-base tracking-widest opacity-60"><TransText k="home.battles.stakes" /></div> 
-            <p className="text-xl opacity-80"><TransText k="home.battles.ranthambore.stakesValue" /></p> 
- </div> 
- 
- <div className="hidden md:flex justify-center md:col-span-1"> 
- <div className="w-px h-24 bg-imperial-gold" /> 
- </div> 
- 
- <div className="mt-6 md:mt-0 md:col-span-3 space-y-3"> 
-            <div className="uppercase text-base tracking-widest opacity-60"><TransText k="home.battles.decision" /></div> 
-            <p className="text-xl opacity-80"><TransText k="home.battles.ranthambore.decisionValue" /></p> 
- </div> 
- 
- <div className="hidden md:flex justify-center md:col-span-1"> 
- <div className="w-px h-24 bg-imperial-gold" /> 
- </div> 
- 
- <div className="mt-6 md:mt-0 md:col-span-4 space-y-3"> 
-            <div className="uppercase text-base tracking-widest opacity-60"><TransText k="home.battles.consequence" /></div> 
-            <p className="text-xl opacity-80"><TransText k="home.battles.ranthambore.consequenceValue1" /></p> 
-            <p className="text-xl opacity-80"><TransText k="home.battles.ranthambore.consequenceValue2" /></p> 
- </div> 
- </div>
- 
+ <div className="grid-2">
+ {BATTLES.map((battle) => (
+ <BattleCard key={battle.id} battle={battle} />
+ ))}
  </div> 
  ), 
  },
@@ -844,40 +593,10 @@ const SECTIONS: HomeSection[] = [
  eraIndex: 9,
  text: "home.states.summary",
  content: (
- <div className="space-y-6">
- <p className="text-xl leading-relaxed">
-  <TransText k="home.states.intro" />
- </p>
- <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
- {([
- { name: "Mewar (Udaipur)", hindiName: "मेवाड़ (उदयपुर)", image: "/images/home/external/Coat_of_arms_of_Udaipur_State.png" },
- { name: "Marwar (Jodhpur)", hindiName: "मारवाड़ (जोधपुर)", image: "/images/home/external/CoA_Jodhpur_1893.png" },
- { name: "Amber (Jaipur)", hindiName: "आमेर (जयपुर)", image: "/images/home/external/amer.jpg" },
- { name: "Bikaner", hindiName: "बीकानेर", image: "/images/home/external/bikaner_coa.png" },
- { name: "Jaisalmer", hindiName: "जैसलमेर", image: "/images/home/external/Jaisalmer_Royal_COA.png" },
- { name: "Kota", hindiName: "कोटा", image: "/images/home/external/Kota_State_CoA.png" },
- { name: "Bundi", hindiName: "बूंदी", image: "/images/home/external/bundi_coa.png" },
- { name: "Alwar", hindiName: "अलवर", image: "/images/home/external/alwar1010_thumb.webp" },
- { name: "Sirohi", hindiName: "सिरोही", image: "/images/home/external/sirohi_coa.png" },
- { name: "Banswara", hindiName: "बांसवाड़ा", image: "/images/home/external/banswara_coa.png" },
- { name: "Jhalawar", hindiName: "झालावाड़", image: "/images/home/external/images (1).jpg" },
- { name: "Karauli", hindiName: "करौली", image: "/images/home/external/images (2).jpg" },
- { name: "Bharatpur", hindiName: "भरतपुर", image: "/images/dynasties/maharaja-surajmal.jpg" },
- { name: "Dholpur", hindiName: "धौलपुर", image: "/images/home/external/images (3).jpg" },
- { name: "Tonk", hindiName: "टोंक", image: "/images/home/external/images.jpg" },
- { name: "Dungarpur", hindiName: "डूंगरपुर", image: "/images/home/external/dungarpur.jpg" },
- { name: "Pratapgarh", hindiName: "प्रतापगढ़", image: "/images/home/external/pratapgarh.jpg" },
- { name: "Shahpura", hindiName: "शाहपुरा", image: "/images/home/external/shahpura-arms.jpg" },
- { name: "Kishangarh", hindiName: "किशनगढ़", image: "/images/home/external/kishangarh.jpg" },
- { name: "Rewa", hindiName: "रीवा", image: "/images/home/external/rewa.jpg" },
- { name: "Orchha", hindiName: "ओरछा", image: "/images/home/external/orchha.jpg" },
- { name: "Ratlam", hindiName: "रतलाम", image: "/images/home/external/ratlam.jpg" },
- { name: "Idar", hindiName: "ईडर", image: "/images/home/external/idar.jpg" },
- { name: "Nawanagar", hindiName: "नवानगर", image: "/images/home/external/Nawanagar_State_CoA.jpg" },
- ] as StateEntry[]).map((state, i) => (
-  <StateCard key={i} state={state} />
+ <div className="state-grid">
+ {TIMELINE_STATE_ENTRIES.map((state) => (
+ <StateCard key={state.name} state={state} />
  ))}
- </div>
  </div>
  ),
  },
@@ -887,27 +606,9 @@ const SECTIONS: HomeSection[] = [
  eraIndex: 9,
     text: "home.ethos.summary",
  content: (
- <div className="relative w-full">
- <div className="relative z-10 w-full">
- <div className="max-w-[1800px] mx-auto px-6 md:px-16">
- <div className="w-full lg:w-3/4 mb-12">
-    <div className={`manuscript-title ${cinzel.className} text-3xl md:text-4xl tracking-[0.2em] mb-4`}>
-    <TransText k="home.ethos.heading" />
-    </div>
-    <p className="max-w-3xl text-base md:text-lg opacity-85 tracking-wide">
-    <TransText k="home.ethos.body" />
-    </p>
- </div>
- </div>
- 
- <div className="w-full">
- <Carousel items={MALE_WARRIORS} />
- </div>
- 
- <div className="mt-12 w-full">
- <Carousel items={FEMALE_WARRIORS} slower />
- </div>
- </div>
+ <div>
+ <WarriorRow items={MALE_WARRIORS} eyebrow={<TransText k="home.heritage" />} heading={<TransText k="home.ethos.heading" />} />
+ <WarriorRow items={FEMALE_WARRIORS} eyebrow={<TransText k="home.ethos.title" />} heading={<TransText k="home.queens.title" />} />
  </div>
  ),
  },
@@ -917,160 +618,59 @@ const SECTIONS: HomeSection[] = [
  eraIndex: 9,
  text: "home.culture.summary",
  content: (
- <div className="w-full flex flex-col">
-  {/* 1. FULL-WIDTH ROYAL COLLAGE STRIP (70vh) */}
- <div className="relative w-full h-[70vh] overflow-hidden bg-royal-ivory select-none">
- {/* Collage Grid - Controlled Asymmetry */}
- <div className="absolute inset-0 grid grid-cols-12 grid-rows-6 gap-0 opacity-90">
- {/* Large Left Block - Palace/Durbar */}
- <div className="col-span-5 row-span-6 relative">
-  <TImage
-  src="/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg"
-  altKey="home.alt.durbar"
-  className="w-full h-full object-cover object-center filter sepia-[0.4] saturate-[0.8] contrast-[1.1]"
-  />
-  <div className="absolute inset-0 bg-gradient-to-r from-royal-ivory/20 via-transparent to-royal-ivory/80"></div>
+ <div className="space-y-12">
+ <div className="culture-collage">
+ <div className="arch">
+ <TImage fill sizes="(max-width:760px) 100vw, (max-width:1100px) 50vw, 25vw" src="/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg" altKey="home.alt.marwar" className="object-cover" />
  </div>
-
- {/* Center Strip - Weapons & Rituals */}
- <div className="col-span-4 row-span-6 flex flex-col">
-  <div className="h-1/2 relative">
-  <TImage
-  src="/images/festivals/gangaur-mela.jpg"
-  altKey="home.alt.weapons"
-  className="w-full h-full object-cover object-center filter sepia-[0.5] saturate-[0.6]"
-  />
-  <div className="absolute inset-0 bg-royal-ivory/10 mix-blend-multiply"></div>
-  </div>
-  <div className="h-1/2 relative">
-  <TImage
-  src="/images/festivals/marwar-festival.jpg"
-  altKey="home.alt.ritual"
-  className="w-full h-full object-cover object-top filter sepia-[0.4] saturate-[0.7]"
-  />
-  <div className="absolute inset-0 bg-gradient-to-t from-royal-ivory/90 via-transparent to-transparent"></div>
-  </div>
+ <div className="arch">
+ <TImage fill sizes="(max-width:760px) 100vw, (max-width:1100px) 50vw, 25vw" src="/images/festivals/gangaur-mela.jpg" altKey="home.alt.gangaur" className="object-cover" />
  </div>
-
- {/* Right Block - Music & Attire */}
- <div className="col-span-3 row-span-6 flex flex-col">
-  <div className="h-2/3 relative">
-  <TImage
-  src="/images/dynasties/rulers/sawai-jai-singh.jpg"
-  altKey="home.alt.attire"
-  className="w-full h-full object-cover object-top filter sepia-[0.3] saturate-[0.8]"
-  />
-  <div className="absolute inset-0 bg-gradient-to-l from-royal-ivory/30 via-transparent to-transparent"></div>
-  </div>
-  <div className="h-1/3 relative">
-  <TImage
-  src="/images/festivals/desert-festival-jaisalmer.jpg"
-  altKey="home.alt.musicians"
-  className="w-full h-full object-cover object-top filter sepia-[0.4] saturate-[0.7]"
-  />
-  </div>
+ <div className="arch">
+ <TImage fill sizes="(max-width:760px) 100vw, (max-width:1100px) 50vw, 25vw" src="/images/festivals/marwar-festival.jpg" altKey="home.alt.marwarFestival" className="object-cover" />
+ </div>
+ <div className="arch">
+ <TImage fill sizes="(max-width:760px) 100vw, (max-width:1100px) 50vw, 25vw" src="/images/dynasties/rulers/sawai-jai-singh.jpg" altKey="home.alt.rulerPortrait" className="object-cover" />
+ </div>
+ <div className="arch">
+ <TImage fill sizes="(max-width:760px) 100vw, (max-width:1100px) 50vw, 25vw" src="/images/festivals/desert-festival-jaisalmer.jpg" altKey="home.alt.desertFestival" className="object-cover" />
  </div>
  </div>
 
- {/* Overlay Gradient for Text Readability */}
- <div className="absolute inset-0 bg-royal-ivory/40 mix-blend-screen pointer-events-none"></div>
- <div className="absolute inset-0 bg-gradient-to-b from-transparent via-royal-ivory/20 to-royal-ivory pointer-events-none"></div>
-
- {/* 2. OVERLAYED DECLARATION (Centered) */}
- <div className="absolute inset-0 flex flex-col items-center justify-center z-10 text-center px-4">
- <motion.div
-  initial={{ opacity: 0, y: 20 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  transition={{ duration: 1.2, ease: "easeOut" }}
- >
-  <h2 className={`text-5xl md:text-7xl lg:text-8xl font-black text-shehrawat-blood-red uppercase tracking-[0.15em] leading-none mb-4 ${cinzel.className}`}
-  style={{ textShadow: '0 2px 10px rgba(122, 15, 22, 0.1)' }}
-  >
-  <TransText k="home.culture.title" />
-  </h2>
-  <motion.div 
-  initial={{ width: 0 }}
-  whileInView={{ width: "60%" }}
-  transition={{ duration: 1.5, delay: 0.5 }}
-  className="h-[4px] bg-imperial-gold mx-auto mb-6 shadow-sm"
-  />
-  <h3 className={`text-xl md:text-2xl text-ink-black/80 font-serif italic tracking-widest`}>
-  <TransText k="home.culture.subtitle" />
-  </h3>
- </motion.div>
- </div>
- </div>
-
- <div className="w-full bg-royal-ivory border-t-[6px] border-imperial-gold relative z-20 py-12 md:py-20">
- <div className="max-w-[1920px] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
- 
+ <div className="grid-4">
  {/* WEAPONS */}
- <motion.div 
-  initial={{ opacity: 0 }}
-  whileInView={{ opacity: 1 }}
-  transition={{ duration: 1, delay: 0.2 }}
-  className="px-8 md:px-12 py-8 border-r-0 md:border-r border-imperial-gold/30 flex flex-col justify-start h-full group relative"
- >
-  <LocalizedLink href="/weapons" className="block h-full flex flex-col">
-  <h4 className={`text-3xl font-bold text-shehrawat-blood-red mb-6 tracking-widest uppercase ${cinzel.className} group-hover:underline`}>
-  <TransText k="home.culture.weapons.title" />
-  </h4>
-  <p className="text-xl md:text-2xl font-bold text-ink-black mb-4 leading-tight font-serif"><TransText k="home.culture.weapons.p1" /></p>
-  <p className="text-sm md:text-base text-ink-black/70 font-medium uppercase tracking-wider leading-relaxed mb-auto"><TransText k="home.culture.weapons.p2" /></p>
-  <div className="mt-4 text-shehrawat-blood-red font-bold uppercase tracking-wider text-sm flex items-center gap-2">
-  <TransText k="common.readMore" /> <span className="text-lg">→</span>
-  </div>
-  </LocalizedLink>
- </motion.div>
+ <article className="feature">
+ <span className="icon-tile"><Swords aria-hidden="true" /></span>
+ <h3><TransText k="home.culture.weapons.title" /></h3>
+ <p className="feature__lead"><TransText k="home.culture.weapons.p1" /></p>
+ <p><TransText k="home.culture.weapons.p2" /></p>
+ <LocalizedLink href="/weapons" className="btn btn--text"><TransText k="common.readMore" /></LocalizedLink>
+ </article>
 
  {/* DRESS */}
- <motion.div 
-  initial={{ opacity: 0 }}
-  whileInView={{ opacity: 1 }}
-  transition={{ duration: 1, delay: 0.4 }}
-  className="px-8 md:px-12 py-8 border-r-0 xl:border-r border-imperial-gold/30 flex flex-col justify-start h-full"
- >
-  <h4 className={`text-3xl font-bold text-shehrawat-blood-red mb-6 tracking-widest uppercase ${cinzel.className}`}>
-  <TransText k="home.culture.dress.title" />
-  </h4>
-  <p className="text-xl md:text-2xl font-bold text-ink-black mb-4 leading-tight font-serif"><TransText k="home.culture.dress.p1" /></p>
-  <p className="text-sm md:text-base text-ink-black/70 font-medium uppercase tracking-wider leading-relaxed"><TransText k="home.culture.dress.p2" /></p>
- </motion.div>
+ <article className="feature feature--indigo">
+ <span className="icon-tile"><Shirt aria-hidden="true" /></span>
+ <h3><TransText k="home.culture.dress.title" /></h3>
+ <p className="feature__lead"><TransText k="home.culture.dress.p1" /></p>
+ <p><TransText k="home.culture.dress.p2" /></p>
+ </article>
 
  {/* MUSIC */}
- <motion.div 
-  initial={{ opacity: 0 }}
-  whileInView={{ opacity: 1 }}
-  transition={{ duration: 1, delay: 0.6 }}
-  className="px-8 md:px-12 py-8 border-r-0 md:border-r border-imperial-gold/30 flex flex-col justify-start h-full"
- >
-  <h4 className={`text-3xl font-bold text-shehrawat-blood-red mb-6 tracking-widest uppercase ${cinzel.className}`}>
-  <TransText k="home.culture.music.title" />
-  </h4>
-  <p className="text-xl md:text-2xl font-bold text-ink-black mb-4 leading-tight font-serif"><TransText k="home.culture.music.p1" /></p>
-  <p className="text-sm md:text-base text-ink-black/70 font-medium uppercase tracking-wider leading-relaxed"><TransText k="home.culture.music.p2" /></p>
- </motion.div>
+ <article className="feature">
+ <span className="icon-tile"><Music aria-hidden="true" /></span>
+ <h3><TransText k="home.culture.music.title" /></h3>
+ <p className="feature__lead"><TransText k="home.culture.music.p1" /></p>
+ <p><TransText k="home.culture.music.p2" /></p>
+ </article>
 
  {/* RITUALS */}
- <motion.div 
-  initial={{ opacity: 0 }}
-  whileInView={{ opacity: 1 }}
-  transition={{ duration: 1, delay: 0.8 }}
-  className="px-8 md:px-12 py-8 flex flex-col justify-start h-full relative group"
- >
-  <LocalizedLink href="/folklore#rituals" className="block h-full flex flex-col">
-  <h4 className={`text-3xl font-bold text-shehrawat-blood-red mb-6 tracking-widest uppercase ${cinzel.className} group-hover:underline`}>
-  <TransText k="home.culture.rituals.title" />
-  </h4>
-  <p className="text-xl md:text-2xl font-bold text-ink-black mb-4 leading-tight font-serif"><TransText k="home.culture.rituals.p1" /></p>
-  <p className="text-sm md:text-base text-ink-black/70 font-medium uppercase tracking-wider leading-relaxed mb-auto"><TransText k="home.culture.rituals.p2" /></p>
-  <div className="mt-4 text-shehrawat-blood-red font-bold uppercase tracking-wider text-sm flex items-center gap-2">
-  <TransText k="common.readMore" /> <span className="text-lg">→</span>
-  </div>
-  </LocalizedLink>
- </motion.div>
-
- </div>
+ <article className="feature feature--indigo">
+ <span className="icon-tile"><Flame aria-hidden="true" /></span>
+ <h3><TransText k="home.culture.rituals.title" /></h3>
+ <p className="feature__lead"><TransText k="home.culture.rituals.p1" /></p>
+ <p><TransText k="home.culture.rituals.p2" /></p>
+ <LocalizedLink href="/folklore#rituals" className="btn btn--text"><TransText k="common.readMore" /></LocalizedLink>
+ </article>
  </div>
  </div>
  ),
@@ -1081,66 +681,23 @@ const SECTIONS: HomeSection[] = [
  eraIndex: 9,
     text: "home.modern.summary",
  content: (
- <div className="w-full py-24 relative overflow-hidden flex flex-col items-center justify-center bg-[#fdfbf7]">
- <div className="max-w-[1200px] w-full px-6 md:px-8 grid grid-cols-1 lg:grid-cols-5 gap-12 items-center relative z-10">
- 
- {/* Left Content - 60% */}
- <div className="lg:col-span-3 flex flex-col gap-8">
- <motion.div 
-  initial={{ opacity: 0, x: -20 }}
-  whileInView={{ opacity: 1, x: 0 }}
-  viewport={{ once: true }}
-  transition={{ duration: 1, ease: "easeOut" }}
-  className="relative pl-8 border-l-[3px] border-imperial-gold"
- >
-  <h2 className={`text-5xl md:text-6xl font-black text-[#5c0b12] uppercase tracking-wider leading-none ${cinzel.className}`}><TransText k="home.modern.title" /></h2>
-  <div className={`text-sm md:text-base text-antique-gold font-bold tracking-[0.2em] uppercase mt-3 ${cinzel.className}`}>
-  <TransText k="home.modern.period" />
-  </div>
- </motion.div>
-
- <motion.div 
-  initial={{ opacity: 0 }}
-  whileInView={{ opacity: 1 }}
-  viewport={{ once: true }}
-  transition={{ duration: 1, delay: 0.3 }}
-  className="space-y-8 text-lg md:text-xl text-ink-black/90 font-medium leading-relaxed"
- >
-  <p><TransText k="home.modern.p1" /></p>
-  <p><TransText k="home.modern.p2" /></p>
- </motion.div>
+ <div>
+ <div className="modern-grid">
+ <div className="space-y-8">
+ <p><TransText k="home.modern.p1" /></p>
+ <p><TransText k="home.modern.p2" /></p>
  </div>
-
- {/* Right Visual Anchor - 40% */}
- <div className="lg:col-span-2 relative h-[400px] flex items-center justify-center">
- <motion.div
-  initial={{ opacity: 0, scale: 0.95 }}
-  whileInView={{ opacity: 1, scale: 1.2 }}
-  viewport={{ once: true }}
-  transition={{ duration: 1.5, delay: 0.6 }}
-  className="absolute inset-0 flex items-center justify-center"
- >
-  {/* Visual Anchor: Faded Map */}
-  <TImage
-  src="https://upload.wikimedia.org/wikipedia/commons/0/09/Rajputana_1909.jpg"
-  altKey="home.alt.map"
-  className="w-full h-full object-contain filter sepia(0.3) contrast-110 drop-shadow-md"
-  />
- </motion.div>
+ <figure className="modern-media">
+ <div className="arch arch--contain">
+ <TImage fill sizes="(max-width:1100px) 100vw, 40vw" src="https://upload.wikimedia.org/wikipedia/commons/0/09/Rajputana_1909.jpg" altKey="home.alt.map" className="object-contain" />
  </div>
+ <figcaption className="modern-caption"><TransText k="home.modern.mapCredit" /></figcaption>
+ </figure>
  </div>
- 
- {/* Continuity Indicator */}
- <motion.div
- initial={{ opacity: 0 }}
- whileInView={{ opacity: 1 }}
- viewport={{ once: true }}
- transition={{ delay: 1, duration: 1 }}
- className="absolute bottom-0 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-60 pb-8"
- >
- <span className={`text-xs tracking-[0.2em] uppercase text-ink-black/60 ${cinzel.className}`}><TransText k="home.legacyContinues" /></span>
- <div className="h-12 w-px bg-imperial-gold/50"></div>
- </motion.div>
+ <div className="mt-16 flex flex-col items-center gap-3">
+ <span className="eyebrow" style={{ margin: 0 }}><TransText k="home.legacyContinues" /></span>
+ <span className="kangura-rule" style={{ margin: 0 }} aria-hidden="true" />
+ </div>
  </div>
  ),
  }
@@ -1151,6 +708,7 @@ export default function HistoryPage() {
  const { scrollYProgress } = useScroll();
  const { speak, stopSpeaking, isSpeaking, t } = useLanguage();
  const [listeningSection, setListeningSection] = useState<string | null>(null);
+ const [hideMobileBar, setHideMobileBar] = useState(false);
 
  const handleListen = (text: string, id: string) => {
  if (isSpeaking && listeningSection === id) {
@@ -1181,6 +739,9 @@ export default function HistoryPage() {
  const scrollPosition = window.scrollY + window.innerHeight / 3;
  const sections = SECTIONS.map(s => document.getElementById(s.id));
  
+ // Slide the mobile chronicle bar away once the footer scrolls into view.
+ setHideMobileBar(window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 200);
+
  let foundIndex = -1;
  sections.forEach((section, index) => {
  if (section && section.offsetTop <= scrollPosition) {
@@ -1199,305 +760,208 @@ export default function HistoryPage() {
  return () => window.removeEventListener("scroll", handleScroll);
  }, []);
 
+ const heroTitle = t("home.title");
+ const heroBreak = heroTitle.lastIndexOf(" ");
+ const heroHead = heroBreak > 0 ? heroTitle.slice(0, heroBreak) : heroTitle;
+ const heroTail = heroBreak > 0 ? heroTitle.slice(heroBreak + 1) : "";
+
+ const renderSection = (section: HomeSection) => {
+ const leadKey =
+ section.id === "states" ? "home.states.intro"
+ : section.id === "ethos" ? "home.ethos.body"
+ : section.id === "culture" ? "home.culture.subtitle"
+ : section.id === "modern" ? "home.modern.summary"
+ : undefined;
+
+ const controls = (
+  <div className="sec-head__actions">
+  {section.text ? (
+   <button
+   type="button"
+   className={`listen-btn${listeningSection === section.id ? " is-active" : ""}`}
+   onClick={() => handleListen(t(section.text as string), section.id)}
+   aria-label={listeningSection === section.id ? t("audio.stop") : t("audio.play")}
+   >
+   {listeningSection === section.id ? (
+    <StopIcon className="listen-btn__icon" />
+   ) : (
+    <VolumeIcon className="listen-btn__icon" />
+   )}
+   {listeningSection === section.id ? t("audio.stop") : t("audio.play")}
+   </button>
+  ) : null}
+  {section.id === "battles" ? (
+   <LocalizedLink href="/battles" className="btn btn--secondary">
+   <TransText k="home.battles.allBattles" />
+   </LocalizedLink>
+  ) : null}
+  </div>
+ );
+
  return (
- <main className={`min-h-screen bg-royal-ivory text-ink-black ${cormorant.className} overflow-x-hidden`}>
- {/* Global Scroll Progress (Gold Line at Top) */}
- <motion.div
- className="fixed top-0 left-0 right-0 h-1.5 bg-imperial-gold origin-left z-50"
- style={{ scaleX }}
- />
+ <section
+  key={section.id}
+  id={section.id}
+  className={`section ${SECTION_TONE[section.id] ?? ""} scroll-mt-32`}
+ >
+  <div className="container">
+  <SectionHeading
+   eyebrow={section.id === "modern" ? <TransText k="home.modern.period" /> : undefined}
+   title={<TransText k={section.title} />}
+   lead={leadKey ? <TransText k={leadKey} /> : undefined}
+   action={section.text || section.id === "battles" ? controls : undefined}
+  />
+  <div>{section.content}</div>
+  </div>
+ </section>
+ );
+ };
 
-
-    <section className="relative w-full h-screen overflow-hidden">
-
-      {/* Hero Image */}
-      <Image
-        src="/images/Hero/home_.png"
-        alt={t('home.heroAlt')}
-        fill
-        priority
-        quality={85}
-        sizes="100vw"
-        className="object-cover object-center"
-      />
-
-      
-
-      <h1 className="sr-only">{t("home.title")}</h1>
-    
-
-    </section>
-
-    <Navbar variant="home" />
-
-
- {/* MAIN CONTENT + STICKY TIMELINE */}
- <div className="relative max-w-[1800px] mx-auto flex flex-col lg:flex-row">
- <div className="w-full lg:w-3/4 px-6 md:px-16 py-20 space-y-32">
- {(() => {
  const statesIndex = SECTIONS.findIndex(s => s.id === "states");
  const topSections = statesIndex >= 0 ? SECTIONS.slice(0, statesIndex + 1) : SECTIONS;
- return topSections.map((section) => (
- <section key={section.id} id={section.id} className="scroll-mt-32">
-  <motion.div
-  initial={{ opacity: 0, x: -20 }}
-  whileInView={{ opacity: 1, x: 0 }}
-  viewport={{ once: true, margin: "-100px" }}
-  transition={{ duration: 0.8 }}
-  >
-  <h2 className={`text-4xl md:text-5xl font-bold text-shehrawat-blood-red mb-2 ${cinzel.className} flex items-center gap-4`}>
-  <TransText k={section.title} />
-  {section.text && (
-  <button
-  onClick={(e) => {
-   e.stopPropagation();
-   handleListen(t(section.text!), section.id);
-  }}
-  className={`text-sm px-4 py-2 border rounded-full transition-all duration-300 flex items-center gap-2 ${
-   listeningSection === section.id
-   ? "bg-shehrawat-blood-red text-royal-ivory border-shehrawat-blood-red"
-   : "border-shehrawat-blood-red/30 text-shehrawat-blood-red hover:bg-shehrawat-blood-red hover:text-royal-ivory"
-  }`}
-  aria-label={listeningSection === section.id ? t('audio.stop') : t('audio.play')}
-  >
-  {listeningSection === section.id ? (
-   <>
-   <StopIcon className="w-4 h-4" /> {t('audio.stop')}
-   </>
-  ) : (
-   <>
-   <VolumeIcon className="w-4 h-4" /> {t('audio.play')}
-   </>
-  )}
-  </button>
-  )}
-  </h2>
-  <motion.div 
-  initial={{ width: 0 }}
-  whileInView={{ width: 200 }}
-  viewport={{ once: true }}
-  transition={{ duration: 1 }}
-  className="h-1 bg-imperial-gold mb-12"
-  />
-  <div className="text-lg md:text-xl text-ink-black/90">
-  {section.content}
-  </div>
-  </motion.div>
- </section>
- ));
- })()}
- </div>
+ const bottomSections = statesIndex >= 0 ? SECTIONS.slice(statesIndex + 1) : [];
 
- <aside className="hidden lg:block w-1/4 border-l border-royal-silver/50 bg-royal-ivory">
- <div className="sticky top-0 py-20 px-2">
- <h3 className={`text-3xl font-bold text-shehrawat-blood-red mb-12 text-center border-b-2 border-imperial-gold pb-4 ${cinzel.className}`}>
-  {t('home.royalChronicle')}
- </h3>
- 
- <div className="space-y-16">
-  {TIMELINE_DATA.map((group, index) => {
-  const isActive = index === activeEra;
-  return (
-  <div key={group.eraKey}>
-  <div className="relative pl-2">
-  <div className={`absolute -left-[9px] top-1.5 w-4 h-4 rounded-full border-2 ${isActive ? "bg-imperial-gold border-shehrawat-blood-red shadow-[0_0_10px_#c9a24d]" : "bg-royal-ivory border-royal-silver"}`} />
-  <h4 className={`text-xl font-bold ${isActive ? "text-shehrawat-blood-red" : "text-ink-black"} ${cinzel.className}`}><TransText k={group.eraKey} /></h4>
+ return (
+ <main className="min-h-screen overflow-x-hidden">
+ {/* Global Scroll Progress (brand rule at top) */}
+ <motion.div
+ className="fixed top-0 left-0 right-0 h-1.5 origin-left z-50"
+ style={{ scaleX, background: "var(--primary)" }}
+ />
+
+ {/* 4.1 HERO */}
+ <section className="section--deep home-hero">
+ <div className="container">
+ <div className="home-hero__grid">
+ <div className="home-hero__col">
+  <p className="eyebrow home-hero__eyebrow">{t("home.heritage")}</p>
+  <h1 className="home-hero__title">
+  {heroHead} {heroTail ? <em>{heroTail}</em> : null}
+  </h1>
+  <p className="home-hero__lead">{t("home.subtitle")}</p>
+  <div className="home-hero__actions">
+  <LocalizedLink href="/dynasties" className="btn btn--gold">{t("home.enterPalace")}</LocalizedLink>
+  <LocalizedLink href="/forts" className="btn btn--ghost-light">{t("home.viewMap")}</LocalizedLink>
   </div>
-  <div className="mt-6 ml-4 border-l-2 border-royal-silver space-y-6 pl-3">
-  {group.entries.map((e) => (
-  <div key={`${group.eraKey}-${e.id}`} className="relative">
-  <div className={`absolute -left-[14px] top-1.5 w-2 h-2 rotate-45 ${e.isMajor ? "bg-imperial-gold" : "bg-royal-silver"}`} />
-  <div className="flex items-baseline gap-3">
-  <span className="text-shehrawat-blood-red font-bold text-lg"><TransText k={e.dateKey} /></span>
-  <span className="text-ink-black text-lg"><TransText k={e.textKey} /></span>
+ </div>
+ <div className="home-hero__media">
+  <div className="arch arch--tall arch--gold">
+  <Image
+   src="/images/Hero/home_.png"
+   alt={t("home.heroAlt")}
+   fill
+   priority
+   quality={85}
+   sizes="(max-width: 760px) 100vw, 500px"
+   className="object-cover"
+  />
   </div>
-  </div>
+ </div>
+ </div>
+ </div>
+ </section>
+
+ {/* 4.2 EXPLORE BAR */}
+ <div className="explore-bar">
+ <div className="container">
+ <div className="explore-bar__panel">
+  <div className="explore-bar__grid">
+  {EXPLORE_ITEMS.map(({ href, labelKey, subKey, Icon }) => (
+  <LocalizedLink key={href} href={href} className="explore-item">
+   <span className="icon-tile"><Icon aria-hidden="true" /></span>
+   <span className="explore-item__label">{t(labelKey)}</span>
+   <span className="explore-item__sub">{t(subKey)}</span>
+  </LocalizedLink>
   ))}
   </div>
-  </div>
-  );
-  })}
  </div>
  </div>
- </aside>
+ </div>
 
- <div className="lg:hidden fixed bottom-0 left-0 right-0 bg-royal-ivory border-t-4 border-imperial-gold p-4 z-40 shadow-2xl">
+ <Navbar variant="home" />
+
+ {/* CONTENT SECTIONS */}
+ {topSections.map(renderSection)}
+
+ {/* 4.8 ROYAL CHRONICLE */}
+ <section id="chronicle" className="section scroll-mt-32">
+ <div className="container">
+ <SectionHeading title={<TransText k="home.royalChronicle" />} />
+ <div className="chronicle">
+ <div className="chronicle__eras">
+ {TIMELINE_DATA.map((group, index) => (
+  <button
+  key={group.eraKey}
+  type="button"
+  className="era-item"
+  aria-current={index === activeEra ? "true" : undefined}
+  onClick={() => setActiveEra(index)}
+  >
+  <span><TransText k={group.eraKey} /></span>
+  <span className="era-item__date"><TransText k={group.entries[0].dateKey} /></span>
+  </button>
+ ))}
+ </div>
+ <div className="chronicle__events">
+ {TIMELINE_DATA[activeEra]?.entries.map((entry) => (
+  <div key={entry.id} className={`event-item${entry.isMajor ? " event-item--active" : ""}`}>
+  <span className="event-item__dot" aria-hidden="true" />
+  <div className="event-item__date"><TransText k={entry.dateKey} /></div>
+  <p className="event-item__text"><TransText k={entry.textKey} /></p>
+  </div>
+ ))}
+ <div className="chronicle__pager">
+  <button
+  type="button"
+  className="btn btn--secondary"
+  aria-label={t("common.previous")}
+  onClick={() => setActiveEra((i) => (i - 1 + TIMELINE_DATA.length) % TIMELINE_DATA.length)}
+  >
+  <ChevronLeft aria-hidden="true" />
+  </button>
+  <button
+  type="button"
+  className="btn btn--secondary"
+  aria-label={t("common.next")}
+  onClick={() => setActiveEra((i) => (i + 1) % TIMELINE_DATA.length)}
+  >
+  <ChevronRight aria-hidden="true" />
+  </button>
+  <span className="chronicle__count">{activeEra + 1} / {TIMELINE_DATA.length}</span>
+ </div>
+ </div>
+ </div>
+ </div>
+ </section>
+
+ {POST_TIMELINE_STATE_ENTRIES.length > 0 && (
+ <section className="section">
+ <div className="container">
+ <div className="state-grid">
+ {POST_TIMELINE_STATE_ENTRIES.map((state) => (
+  <StateCard key={state.name} state={state} />
+ ))}
+ </div>
+ </div>
+ </section>
+ )}
+
+ {bottomSections.map(renderSection)}
+
+ {/* Mobile chronicle bar */}
+ <div
+ className={`lg:hidden fixed bottom-0 left-0 right-0 px-4 py-3 z-40 transition-transform duration-500 ${hideMobileBar ? "translate-y-full" : "translate-y-0"}`}
+ style={{ background: "var(--raised)", borderTop: "4px solid var(--primary)" }}
+ >
  <div className="flex justify-between items-center">
- <span className={`text-shehrawat-blood-red font-bold ${cinzel.className}`}>
-  {t(TIMELINE_DATA[activeEra]?.eraKey || 'home.royalChronicle')}
+ <span className="font-sans" style={{ fontWeight: 700, color: "var(--primary)" }}>
+  {t(TIMELINE_DATA[activeEra]?.eraKey || "home.royalChronicle")}
  </span>
- <span className="text-sm text-royal-silver">
+ <span className="text-sm" style={{ color: "var(--muted)" }}>
   {activeEra + 1} / {TIMELINE_DATA.length}
  </span>
  </div>
  </div>
- </div>
- 
- {(() => {
- const statesIndex = SECTIONS.findIndex(s => s.id === "states");
- const bottomSections = statesIndex >= 0 ? SECTIONS.slice(statesIndex + 1) : [];
- if (bottomSections.length === 0) return null;
- 
- return (
- <div className="w-full">
- {bottomSections.map((section) => {
- const isLegends = section.id === "ethos";
- const isCulture = section.id === "culture";
- const isModern = section.id === "modern";
- 
- if (isCulture || isModern) {
-  return (
-  <section key={section.id} id={section.id} className="w-full scroll-mt-0 relative group">
-  {/* Floating TTS Button */}
-  {section.text && (
-  <div className="absolute top-8 right-8 z-50">
-  <button
-   onClick={(e) => {
-   e.stopPropagation();
-   handleListen(section.text!, section.id);
-   }}
-   className={`p-4 rounded-full shadow-xl transition-all duration-300 flex items-center justify-center border-2 border-imperial-gold ${
-   listeningSection === section.id
-   ? "bg-shehrawat-blood-red text-royal-ivory"
-   : "bg-royal-ivory/90 text-shehrawat-blood-red hover:bg-shehrawat-blood-red hover:text-royal-ivory"
-   }`}
-   aria-label={listeningSection === section.id ? t("audio.stop") : t("audio.play")}
-  >
-  {listeningSection === section.id ? <StopIcon className="w-6 h-6" /> : <VolumeIcon className="w-6 h-6" />}
-  </button>
-  </div>
-  )}
-  {section.content}
-  </section>
-  );
- }
- 
- if (isLegends) {
-  return (
-  <section 
-  key={section.id} 
-  id={section.id} 
-  className="w-full bg-[#f9f7f2] border-t border-imperial-gold/40 scroll-mt-32"
-  style={{ paddingTop: '80px', paddingBottom: '40px' }}
-  >
-  <div className="w-full">
-  <motion.div
-   initial={{ opacity: 0, y: 20 }}
-   whileInView={{ opacity: 1, y: 0 }}
-   viewport={{ once: true, margin: "-100px" }}
-   transition={{ duration: 0.8 }}
-  >
-   <div className="w-full">
-   <div className="max-w-[1800px] mx-auto px-6 md:px-16">
-   <div className="w-full lg:w-3/4">
-   <div className="flex items-center gap-4 mb-2">
-   <h2 className={`text-4xl md:text-5xl font-bold text-shehrawat-blood-red ${cinzel.className}`}>
-   <TransText k={section.title} />
-   </h2>
-   {section.text && (
-    <button
-    onClick={(e) => {
-    e.stopPropagation();
-    handleListen(t(section.text!), section.id);
-    }}
-    className={`text-sm px-4 py-2 border rounded-full transition-all duration-300 flex items-center gap-2 ${
-    listeningSection === section.id
-    ? "bg-shehrawat-blood-red text-royal-ivory border-shehrawat-blood-red"
-    : "border-shehrawat-blood-red/30 text-shehrawat-blood-red hover:bg-shehrawat-blood-red hover:text-royal-ivory"
-    }`}
-    aria-label={listeningSection === section.id ? t('audio.stop') : t('audio.play')}
-    >
-    {listeningSection === section.id ? (
-    <>
-    <StopIcon className="w-4 h-4" /> {t('audio.stop')}
-    </>
-    ) : (
-    <>
-    <VolumeIcon className="w-4 h-4" /> {t('audio.play')}
-    </>
-    )}
-    </button>
-   )}
-   </div>
-   <motion.div 
-   initial={{ width: 0 }}
-   whileInView={{ width: 200 }}
-   viewport={{ once: true }}
-   transition={{ duration: 1 }}
-   className="h-1 bg-imperial-gold mb-12"
-   />
-   </div>
-   </div>
-   <div className="text-lg md:text-xl text-ink-black/90 w-full mb-8">
-   {section.content}
-   </div>
-   </div>
-  </motion.div>
-  </div>
-  </section>
-  );
- }
-
- return (
-  <div key={section.id} className="max-w-[1800px] mx-auto px-6 md:px-16 py-24 space-y-32">
-  <section id={section.id} className="scroll-mt-32">
-  <motion.div
-  initial={{ opacity: 0, x: -20 }}
-  whileInView={{ opacity: 1, x: 0 }}
-  viewport={{ once: true, margin: "-100px" }}
-  transition={{ duration: 0.8 }}
-  >
-  <div className="w-full lg:w-3/4 mb-12">
-  <div className="flex items-center gap-4 mb-2">
-  <h2 className={`text-4xl md:text-5xl font-bold text-shehrawat-blood-red ${cinzel.className}`}>
-   <TransText k={section.title} />
-  </h2>
-  {section.text && (
-   <button
-   onClick={(e) => {
-   e.stopPropagation();
-   handleListen(section.text!, section.id);
-   }}
-   className={`text-sm px-4 py-2 border rounded-full transition-all duration-300 flex items-center gap-2 ${
-   listeningSection === section.id
-   ? "bg-shehrawat-blood-red text-royal-ivory border-shehrawat-blood-red"
-   : "border-shehrawat-blood-red/30 text-shehrawat-blood-red hover:bg-shehrawat-blood-red hover:text-royal-ivory"
-   }`}
-   aria-label={listeningSection === section.id ? t("audio.stop") : t("audio.play")}
-   >
-   {listeningSection === section.id ? (
-   <>
-   <StopIcon className="w-4 h-4" /> Stop
-   </>
-   ) : (
-   <>
-   <VolumeIcon className="w-4 h-4" /> Listen
-   </>
-   )}
-   </button>
-  )}
-  </div>
-  <motion.div 
-  initial={{ width: 0 }}
-  whileInView={{ width: 200 }}
-  viewport={{ once: true }}
-  transition={{ duration: 1 }}
-  className="h-1 bg-imperial-gold"
-  />
-  </div>
-  <div className={`w-full ${section.id === 'modern' ? 'lg:w-3/4' : ''}`}>
-  <div className="text-lg md:text-xl text-ink-black/90">
-  {section.content}
-  </div>
-  </div>
-  </motion.div>
-  </section>
-  </div>
- );
- })}
- </div>
- );
- })()}
  </main>
  );
 }

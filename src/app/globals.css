@@ -1,10 +1,13 @@
 @import "tailwindcss";
 
-:root {
-  --heading-font: var(--nf-cinzel), 'Cinzel', serif;
-}
+/* ==========================================================================
+   RAJPUTANA DIGITAL PALACE — GLOBAL STYLESHEET
+   Design system: blue night sky = calm · maroon court = honour ·
+   gold & saffron = valour · ivory = palace.
+   Order: Leaflet → tokens → theme map → base → components → legacy shims.
+   ========================================================================== */
 
-/* Minimal Leaflet CSS for map functionality */
+/* ---------- Leaflet (map) — third-party, kept as-is ---------- */
 .leaflet-container {
   height: 400px;
   width: 100%;
@@ -64,7 +67,7 @@
   text-align: left;
   border-radius: 12px;
   background: white;
-  box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4);
 }
 
 .leaflet-popup-content {
@@ -106,526 +109,759 @@
   height: 41px;
 }
 
+/* ============ RAJPUTANA DIGITAL PALACE — DESIGN TOKENS ============ */
+/* Mood: blue night sky = calm · maroon court = honour · gold & saffron = valour · ivory = palace */
 :root {
-  --rajput-black-brown: #0E0A09;
-  --royal-maroon: #3B0D0D;
-  --imperial-gold: #D4A24C;
+  /* grounds */
+  --surface: #FBF6EC;        /* page background, warm ivory */
+  --raised: #FFFDF8;         /* cards, panels, menus */
+  --tint: #EAF0F8;           /* blue-mist section */
+  --sand: #F3E8D6;           /* sandstone section */
+  --deep: #0E1C3A;           /* indigo night: header, hero */
+  --deep-2: #16336E;         /* royal indigo: defeat tags, hover */
+  --deep-hover: #1A2D57;     /* nav hover on indigo */
+  --maroon-deep: #5C0018;    /* footer, feature cards */
+  --maroon-panel: #4A0013;   /* panels inside maroon */
+  --maroon-line: #7A2A3B;    /* borders inside maroon */
 
-  --sandstone: #D4A574;
-  --sandstone-light: #E8C4A0;
-  --sandstone-dark: #B8956A;
-  --saffron: #FF9933;
-  --saffron-light: #FFB366;
-  --saffron-dark: #E6851F;
-  --maroon: var(--royal-maroon);
-  --maroon-light: #A6334D;
-  --maroon-dark: #5C0017;
-  --gold: var(--imperial-gold);
-  --gold-light: #FFED4E;
-  --gold-dark: #E6C200;
-  --royal-blue: #002147;
-  --royal-blue-light: #1A4B73;
-  --ivory: #FFFFF0;
-  --charcoal: var(--rajput-black-brown);
-  --royal-ivory: #FFFFF0;
-  --shehrawat-blood-red: var(--royal-maroon);
-  --imperial-gold: var(--imperial-gold);
-  --ink-black: var(--rajput-black-brown);
-  --royal-silver: #C0C0C0;
-  --sun-parchment: #FDFBF7;
-  --antique-gold: #CFB53B;
-  
-  --background: var(--ivory);
-  --foreground: var(--charcoal);
-  --primary: var(--maroon);
-  --secondary: var(--saffron);
-  --accent: var(--gold);
-  --muted: var(--sandstone-light);
+  /* text */
+  --ink: #2A1612;            /* body + headings on light grounds */
+  --muted: #6B5143;          /* secondary text, captions */
+  --on-deep: #F4F7FB;        /* text on indigo or maroon */
+  --lead-on-deep: #C9D6EC;   /* secondary text on indigo */
+  --lead-on-maroon: #EADCCB; /* secondary text on maroon */
+  --faint-on-maroon: #D6BFB3;
+
+  /* brand */
+  --primary: #800020;        /* maroon: primary buttons, links, active states */
+  --on-primary: #FBF6EC;
+  --blue: #1E4FA0;           /* icons, chips, focus ring */
+  --blue-soft: #DCE7F8;      /* icon tiles, chip backgrounds */
+  --gold: #C9A13B;           /* ornament only, never text on light */
+  --gold-deep: #E6C46A;      /* gold buttons, logo on dark, victory tags */
+  --on-gold: #0E1C3A;
+  --gold-text: #9E5500;      /* readable saffron: eyebrows, dates */
+  --saffron: #E9963A;        /* sun discs, highlights */
+  --sky: #8DB8E8;
+
+  /* lines */
+  --line: #E6DCCB;
+  --line-strong: #9A8064;    /* input + secondary button borders (3:1) */
+  --line-on-deep: #3A4F7A;
+
+  /* effects */
+  --focus: #1E4FA0;
+  --rule: #800020;           /* kangura divider colour */
+  --shadow-sm: 0 1px 2px rgba(42,22,18,.06), 0 8px 24px rgba(30,79,160,.07);
+  --shadow-md: 0 2px 4px rgba(42,22,18,.06), 0 18px 44px rgba(30,79,160,.13);
+  --shadow-primary: 0 6px 18px rgba(128,0,32,.22);
+  --shadow-gold: 0 8px 24px rgba(230,196,106,.25);
+
+  /* shape */
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 20px;
+  --radius-xl: 24px;
+  --radius-pill: 999px;
+  --arch: 50% 50% 14px 14px / 34% 34% 14px 14px;  /* jharokha image frame */
+
+  /* spacing (4px base) */
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px; --space-5: 20px;
+  --space-6: 24px; --space-8: 32px; --space-10: 40px; --space-12: 48px; --space-14: 56px;
+  --space-16: 64px; --space-20: 80px; --space-26: 104px;
+  --container: 1200px;
+  --gutter: 64px;
+  --section-y: 104px;
+
+  /* type */
+  --font-display: "Cormorant Garamond", "Tiro Devanagari Hindi", Georgia, serif;
+  --font-sans: Mukta, "Noto Sans Devanagari", system-ui, sans-serif;
+  --font-deva: "Tiro Devanagari Hindi", "Noto Serif Devanagari", serif;
+
+  --fs-hero: 84px;   --lh-hero: 84px;
+  --fs-h1: 64px;     --lh-h1: 68px;    /* inner-page titles */
+  --fs-h2: 54px;     --lh-h2: 58px;
+  --fs-h3: 28px;     --lh-h3: 32px;
+  --fs-h4: 22px;     --lh-h4: 28px;
+  --fs-lead: 20px;   --lh-lead: 32px;
+  --fs-body: 17px;   --lh-body: 28px;
+  --fs-small: 15px;  --lh-small: 22px;
+  --fs-caption: 14px;--lh-caption: 20px;
+  --fs-eyebrow: 13px;--lh-eyebrow: 16px;
+
+  --ease: cubic-bezier(.2,.7,.2,1);
 }
 
-@theme inline {
-  /* Colors */
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-primary: var(--primary);
-  --color-secondary: var(--secondary);
-  --color-accent: var(--accent);
-  --color-muted: var(--muted);
-  
-  --color-sandstone: var(--sandstone);
-  --color-sandstone-light: var(--sandstone-light);
-  --color-sandstone-dark: var(--sandstone-dark);
-  --color-saffron: var(--saffron);
-  --color-saffron-light: var(--saffron-light);
-  --color-saffron-dark: var(--saffron-dark);
-  --color-maroon: var(--maroon);
-  --color-maroon-light: var(--maroon-light);
-  --color-maroon-dark: var(--maroon-dark);
-  --color-gold: var(--gold);
-  --color-gold-light: var(--gold-light);
-  --color-gold-dark: var(--gold-dark);
-  --color-royal-blue: var(--royal-blue);
-  --color-royal-blue-light: var(--royal-blue-light);
-  --color-ivory: var(--ivory);
-  --color-charcoal: var(--charcoal);
-  --color-royal-ivory: var(--royal-ivory);
-  --color-shehrawat-blood-red: var(--shehrawat-blood-red);
-  --color-imperial-gold: var(--imperial-gold);
-  --color-ink-black: var(--ink-black);
-  --color-royal-silver: var(--royal-silver);
-  --color-sun-parchment: var(--sun-parchment);
-  --color-antique-gold: var(--antique-gold);
-  
-  /* Typography */
-  --font-sans: var(--nf-inter), ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-  --font-mono: var(--font-geist-mono);
-  --font-serif: var(--nf-cinzel), 'Cinzel', serif;
-  --font-display: var(--nf-playfair), 'Playfair Display', serif;
-  --font-body: var(--nf-inter), ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-}
-
-@media (prefers-color-scheme: dark) {
+@media (max-width: 760px) {
   :root {
-    --background: var(--royal-blue);
-    --foreground: var(--ivory);
-    --primary: var(--saffron);
-    --secondary: var(--gold);
-    --accent: var(--sandstone-light);
-    --muted: var(--royal-blue-light);
+    --gutter: 16px; --section-y: 64px;
+    --fs-hero: 50px; --lh-hero: 52px;
+    --fs-h1: 44px;   --lh-h1: 48px;
+    --fs-h2: 38px;   --lh-h2: 42px;
+    --fs-lead: 18px; --lh-lead: 28px;
   }
 }
 
-/* Custom Textures */
-.texture-paper {
-  background-color: var(--ivory);
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.1'/%3E%3C/svg%3E");
+/* Optional night theme, applied when <html data-theme="dark"> */
+[data-theme="dark"] {
+  --surface: #0B1222; --raised: #121B30; --tint: #18233D; --sand: #1C1B2C;
+  --ink: #F1EBE3; --muted: #BFB3C4;
+  --primary: #E36670; --on-primary: #0B1222;
+  --blue: #8FB5F2; --blue-soft: #1B2E55;
+  --gold-text: #F2AE52; --focus: #E6C46A; --rule: #E6C46A;
+  --line: #26314A; --line-strong: #5E6E8C;
+  --shadow-sm: 0 0 0 1px #26314A; --shadow-md: 0 0 0 1px #5E6E8C, 0 18px 44px rgba(0,0,0,.35);
 }
 
-.texture-mandala {
-  background-image: 
-    radial-gradient(circle at 50% 50%, transparent 10%, rgba(212, 165, 116, 0.1) 10%, rgba(212, 165, 116, 0.1) 20%, transparent 20%, transparent 30%, rgba(212, 165, 116, 0.1) 30%, rgba(212, 165, 116, 0.1) 40%, transparent 40%),
-    radial-gradient(circle at 0% 0%, transparent 10%, rgba(212, 165, 116, 0.1) 10%, rgba(212, 165, 116, 0.1) 20%, transparent 20%),
-    radial-gradient(circle at 100% 0%, transparent 10%, rgba(212, 165, 116, 0.1) 10%, rgba(212, 165, 116, 0.1) 20%, transparent 20%),
-    radial-gradient(circle at 0% 100%, transparent 10%, rgba(212, 165, 116, 0.1) 10%, rgba(212, 165, 116, 0.1) 20%, transparent 20%),
-    radial-gradient(circle at 100% 100%, transparent 10%, rgba(212, 165, 116, 0.1) 10%, rgba(212, 165, 116, 0.1) 20%, transparent 20%);
-  background-size: 100px 100px;
+/* The three self-hosted families are wired here (next/font exposes --nf-* on
+   <html>); the tokens above carry graceful fallbacks for the no-JS/first-paint
+   frame before the font CSS lands. */
+:root {
+  --font-display: var(--nf-cormorant), "Cormorant Garamond", "Tiro Devanagari Hindi", Georgia, serif;
+  --font-sans: var(--nf-mukta), Mukta, "Noto Sans Devanagari", system-ui, sans-serif;
+  --font-deva: var(--nf-tiro), "Tiro Devanagari Hindi", "Noto Serif Devanagari", serif;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--nf-inter), ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-  line-height: 1.6;
-  overflow-x: hidden;
+/* ---------- Tailwind v4 theme map (single palette, no parallel set) ---------- */
+@theme inline {
+  /* grounds */
+  --color-surface: var(--surface);
+  --color-raised: var(--raised);
+  --color-tint: var(--tint);
+  --color-sand: var(--sand);
+  --color-deep: var(--deep);
+  --color-deep-2: var(--deep-2);
+  --color-deep-hover: var(--deep-hover);
+  --color-maroon-deep: var(--maroon-deep);
+  --color-maroon-panel: var(--maroon-panel);
+  --color-maroon-line: var(--maroon-line);
+
+  /* text */
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-on-deep: var(--on-deep);
+  --color-lead-on-deep: var(--lead-on-deep);
+  --color-lead-on-maroon: var(--lead-on-maroon);
+  --color-faint-on-maroon: var(--faint-on-maroon);
+
+  /* brand */
+  --color-primary: var(--primary);
+  --color-on-primary: var(--on-primary);
+  --color-blue: var(--blue);
+  --color-blue-soft: var(--blue-soft);
+  --color-gold: var(--gold);
+  --color-gold-deep: var(--gold-deep);
+  --color-on-gold: var(--on-gold);
+  --color-gold-text: var(--gold-text);
+  --color-saffron: var(--saffron);
+  --color-sky: var(--sky);
+
+  /* lines */
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-line-on-deep: var(--line-on-deep);
+
+  /* app shell aliases */
+  --color-background: var(--surface);
+  --color-foreground: var(--ink);
 }
 
-/* Image stability - prevent overflow, layout shift, and broken rendering */
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
+/* ============================== BASE ============================== */
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; }
 
-/* Ensure next/image fill containers have proper context */
-img[style*="position: absolute"] {
-  object-fit: cover;
-}
+  html { -webkit-text-size-adjust: 100%; }
 
-/* Smooth image loading transition */
-img.loaded {
-  opacity: 1 !important;
-  filter: none !important;
-}
-
-/* Prevent text selection flicker on image hover */
-img {
-  -webkit-user-drag: none;
-  user-select: none;
-}
-
-/* Respect reduced motion */
-@media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
+  body {
+    margin: 0;
+    background: var(--surface);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: var(--fs-body);
+    line-height: var(--lh-body);
+    -webkit-font-smoothing: antialiased;
+    /* Guards against stray wide children pushing the page sideways. */
+    overflow-x: hidden;
   }
-}
 
-html[lang="hi"] body {
-  font-family: var(--nf-deva), 'Noto Serif Devanagari', serif;
-}
-
-/* Typography utility classes */
-.font-cinzel { font-family: var(--nf-cinzel), 'Cinzel', serif; }
-.font-playfair { font-family: var(--nf-playfair), 'Playfair Display', serif; }
-.font-cormorant { font-family: var(--nf-cormorant), 'Cormorant Garamond', serif; }
-.font-inter { font-family: var(--nf-inter), ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
-.font-devanagari { font-family: var(--nf-deva), 'Noto Serif Devanagari', serif; }
-
-/* Shared elements */
-.gold-thin-border { border: 1px solid var(--gold); }
-.emblem-watermark {
-  background-image: radial-gradient(circle at 10% 10%, rgba(212,162,76,0.06) 0, transparent 30%),
-                    radial-gradient(circle at 90% 30%, rgba(212,162,76,0.05) 0, transparent 35%),
-                    radial-gradient(circle at 30% 80%, rgba(212,162,76,0.04) 0, transparent 40%);
-  background-repeat: no-repeat;
-}
-.jharokha-card {
-  border: 1px solid rgba(212,162,76,0.35);
-  border-radius: 20px 20px 6px 6px;
-  background: linear-gradient(180deg, rgba(255,255,255,0.7), rgba(255,255,255,0.5));
-  backdrop-filter: blur(2px);
-  overflow: hidden;
-}
-
-/* Rajasthani Design Elements */
-.palace-arch {
-  border-radius: 50% 50% 0 0;
-  position: relative;
-}
-
-.palace-arch::before {
-  content: '';
-  position: absolute;
-  top: -2px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 80%;
-  height: 4px;
-  background: linear-gradient(90deg, var(--gold), var(--saffron), var(--gold));
-  border-radius: 2px;
-}
-
-.rajasthani-pattern {
-  background-image: 
-    radial-gradient(circle at 25% 25%, var(--gold) 2px, transparent 2px),
-    radial-gradient(circle at 75% 75%, var(--saffron) 2px, transparent 2px);
-  background-size: 20px 20px;
-}
-
-.fresco-texture {
-  background-image: 
-    linear-gradient(45deg, transparent 25%, rgba(212, 165, 116, 0.1) 25%, rgba(212, 165, 116, 0.1) 50%, transparent 50%, transparent 75%, rgba(212, 165, 116, 0.1) 75%);
-  background-size: 4px 4px;
-}
-
-.royal-gradient {
-  background: linear-gradient(135deg, var(--maroon), var(--maroon-dark), var(--royal-blue));
-}
-
-.saffron-gradient {
-  background: linear-gradient(135deg, var(--saffron), var(--gold), var(--saffron-light));
-}
-
-.sandstone-gradient {
-  background: linear-gradient(135deg, var(--sandstone-light), var(--sandstone), var(--sandstone-dark));
-}
-
-/* Hover Effects */
-.rajput-hover {
-  transition: all 0.3s ease;
-  position: relative;
-  overflow: hidden;
-}
-
-.rajput-hover::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.2), transparent);
-  transition: left 0.5s ease;
-}
-
-.rajput-hover:hover::before {
-  left: 100%;
-}
-
-/* Festival Mode Styles */
-.festival-mode {
-  animation: festivalGlow 2s ease-in-out infinite alternate;
-}
-
-@keyframes festivalGlow {
-  from {
-    box-shadow: 0 0 20px var(--saffron);
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    color: var(--ink);
+    margin: 0;
+    text-wrap: balance;
   }
-  to {
-    box-shadow: 0 0 30px var(--gold), 0 0 40px var(--saffron);
+  h1 { font-size: var(--fs-h1); line-height: var(--lh-h1); letter-spacing: -0.01em; }
+  h2 { font-size: var(--fs-h2); line-height: var(--lh-h2); }
+  h3 { font-size: var(--fs-h3); line-height: var(--lh-h3); }
+  h4 { font-size: var(--fs-h4); line-height: var(--lh-h4); }
+
+  p { margin: 0 0 var(--space-5); }
+  a { color: var(--primary); text-underline-offset: 3px; }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    -webkit-user-drag: none;
+    user-select: none;
   }
+
+  :focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; border-radius: 4px; }
+  ::selection { background: var(--gold-deep); color: var(--on-gold); }
 }
 
-/* -------------------------------------------------------------------------- */
-/* Legends of Rajputana - Vintage Warrior Cards (Redesign)                    */
-/* -------------------------------------------------------------------------- */
+/* ============================== UTILITIES ============================== */
+/* Font families. Declared unlayered so they beat Tailwind's stock utilities. */
+.font-display { font-family: var(--font-display); }
+.font-sans { font-family: var(--font-sans); }
+.font-deva { font-family: var(--font-deva); }
 
-.antique-frame {
-  position: relative;
-  /* Heavy, ceremonial frame structure */
-  background-color: #1a1510; /* Dark, heavy base */
-  
-  /* Antique Gold / Oxidized Brass Gradient Border */
-  /* Using box-shadow for bevels + border for the metallic rim */
-  border: 8px solid transparent;
-  border-image: linear-gradient(
-    145deg, 
-    #6d5635 0%,   /* Dark oxidized bronze */
-    #bfa365 20%,  /* Muted antique gold */
-    #eec900 45%,  /* High gold glint */
-    #a88e48 60%,  /* Mid-tone brass */
-    #5a4628 100%  /* Deep shadow bronze */
-  ) 1;
-  
-  /* Handcrafted bevels & soft oil-lamp shadow */
-  box-shadow: 
-    /* Inner inset shadow for depth (relic box feel) */
-    inset 0 0 20px rgba(0, 0, 0, 0.8),
-    /* Outer rim highlight */
-    0 0 0 1px rgba(255, 215, 0, 0.15),
-    /* Diffused oil-lamp glow / shadow */
-    0 10px 30px -5px rgba(0, 0, 0, 0.6),
-    0 0 15px rgba(184, 134, 11, 0.1); 
-    
-  transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94), 
-              box-shadow 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
+/* ---------- layout ---------- */
+.container { max-width: var(--container); margin-inline: auto; padding-inline: var(--gutter); }
+.section { padding-block: var(--section-y); }
+.section--tint { background: var(--tint); }
+.section--sand { background: var(--sand); }
+.section--deep { background: var(--deep); color: var(--on-deep); }
+.section--maroon { background: var(--maroon-deep); color: var(--on-deep); }
+.section--deep h1, .section--deep h2, .section--deep h3,
+.section--maroon h1, .section--maroon h2, .section--maroon h3 { color: var(--on-deep); }
 
-/* Inner Maroon/Ochre Stroke - Double Frame */
-.antique-frame::after {
-  content: "";
-  position: absolute;
-  inset: 4px;
-  border: 1px solid rgba(139, 69, 19, 0.5); /* SaddleBrown/Ochre fade */
-  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.3);
-  pointer-events: none;
-  z-index: 10;
-}
-
-/* Corner Ornaments - Rajput Miniature Style */
-.antique-corner {
-  position: absolute;
-  width: 28px;
-  height: 28px;
-  z-index: 20;
-  /* Ornate corner graphic simulation using gradients */
-  background: 
-    radial-gradient(circle at center, #800020 25%, transparent 26%),
-    conic-gradient(from 0deg, transparent 0deg, #b8860b 90deg, transparent 180deg);
-  filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.7));
-  opacity: 0.9;
-}
-
-.antique-corner.tl { top: -9px; left: -9px; transform: rotate(0deg); clip-path: polygon(0 0, 100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%); }
-.antique-corner.tr { top: -9px; right: -9px; transform: rotate(90deg); clip-path: polygon(0 0, 100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%); }
-.antique-corner.br { bottom: -9px; right: -9px; transform: rotate(180deg); clip-path: polygon(0 0, 100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%); }
-.antique-corner.bl { bottom: -9px; left: -9px; transform: rotate(270deg); clip-path: polygon(0 0, 100% 0, 100% 25%, 25% 25%, 25% 100%, 0 100%); }
-
-/* Portrait Container & Texture */
-.antique-portrait {
-  background-color: #1a1a1a;
-  position: relative;
-}
-
-/* Aged Parchment/Canvas Grain Overlay */
-.antique-portrait::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: 5;
-  /* SVG Noise for grain */
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.3'/%3E%3C/svg%3E");
-  background-size: 150px 150px;
-  /* Warm sepia tint via background-color + blending */
-  background-color: rgba(101, 67, 33, 0.15); 
-  mix-blend-mode: overlay;
-  pointer-events: none;
-  /* Heavy internal vignette */
-  box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.7);
-}
-
-.antique-portrait img {
-  /* Vintage Archival Look: Desaturated, Sepia, Softened */
-  filter: sepia(0.5) contrast(1.1) saturate(0.7) brightness(0.9);
-  transition: filter 0.6s ease, transform 0.8s ease;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-/* Hover States */
-.antique-frame-hover:hover {
-  transform: translateY(-4px);
-  /* Intense gold glow on hover */
-  box-shadow: 
-    inset 0 0 20px rgba(0, 0, 0, 0.6),
-    0 0 0 1px rgba(255, 215, 0, 0.4),
-    0 15px 40px -5px rgba(0, 0, 0, 0.7),
-    0 0 25px rgba(255, 215, 0, 0.15);
-}
-
-.antique-frame-hover:hover .antique-portrait img {
-  /* Reveal slightly more color ("Restoration" effect) */
-  filter: sepia(0.2) contrast(1.15) saturate(0.95) brightness(1.0);
-  transform: scale(1.03);
-}
-
-/* Inscription Typography (Serif, Royal, Centered) */
-.inscription-text {
-  font-family: var(--nf-cormorant), 'Cormorant Garamond', serif !important;
+/* ---------- section heading ---------- */
+.eyebrow {
+  font-family: var(--font-sans);
+  font-size: var(--fs-eyebrow);
+  line-height: var(--lh-eyebrow);
   font-weight: 600;
-  letter-spacing: 0.1em;
+  letter-spacing: .16em;
   text-transform: uppercase;
-  color: #3e2723; /* Deep wood/ink color */
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
-  
-  /* Decorative separator below text */
-  position: relative;
-  display: inline-block;
-  padding-bottom: 8px;
+  color: var(--gold-text);
+  margin: 0 0 10px;
+}
+.section--deep .eyebrow, .section--maroon .eyebrow { color: var(--gold-deep); }
+
+.lead {
+  font-size: var(--fs-lead);
+  line-height: var(--lh-lead);
+  color: var(--muted);
+  max-width: 680px;
+  margin: 0;
+}
+.section--deep .lead { color: var(--lead-on-deep); }
+.section--maroon .lead { color: var(--lead-on-maroon); }
+
+.sec-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: var(--space-8);
+  margin-bottom: var(--space-12);
+}
+@media (max-width: 760px) {
+  .sec-head { flex-direction: column; align-items: flex-start; margin-bottom: var(--space-8); }
 }
 
-.inscription-text::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 40px;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, #b8860b, transparent);
-  opacity: 0.6;
+/* kangura (battlement) divider under every section H2 */
+.kangura-rule {
+  display: block; width: 144px; height: 15px; margin: 16px 0 24px; background: var(--rule);
+  -webkit-mask: url("/brand/kangura-rule.svg") no-repeat center / 144px 15px;
+          mask: url("/brand/kangura-rule.svg") no-repeat center / 144px 15px;
+}
+.kangura-band {
+  display: block; width: 100%; height: 20px; background: var(--maroon-deep);
+  -webkit-mask: url("/brand/kangura-tile.svg") repeat-x left bottom / 24px 20px;
+          mask: url("/brand/kangura-tile.svg") repeat-x left bottom / 24px 20px;
 }
 
-.inscription-subtext {
-  font-family: var(--nf-cinzel), 'Cinzel', serif;
-  font-size: 0.75rem;
-  color: #6d4c41;
-  letter-spacing: 0.05em;
-  opacity: 0.8;
+/* ---------- buttons ---------- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  min-height: 50px; padding: 0 26px; border-radius: var(--radius-pill);
+  border: 1px solid transparent;
+  font: 600 15px/20px var(--font-sans); letter-spacing: .01em;
+  text-decoration: none; cursor: pointer;
+  transition: transform .2s var(--ease), box-shadow .2s var(--ease), background-color .2s var(--ease);
+}
+.btn:hover { transform: translateY(-1px); }
+.btn--primary { background: var(--primary); color: var(--on-primary); box-shadow: var(--shadow-primary); }
+.btn--primary:hover { background: var(--maroon-deep); }
+.btn--gold { background: var(--gold-deep); color: var(--on-gold); box-shadow: var(--shadow-gold); }
+.btn--ghost-light { background: rgba(244,247,251,.06); color: var(--on-deep); border-color: #5A6F9A; }
+.btn--secondary { background: var(--raised); color: var(--ink); border-color: var(--line-strong); }
+.btn--secondary:hover { border-color: var(--primary); color: var(--primary); }
+.btn--text { min-height: 0; padding: 0; background: none; color: var(--primary); border-radius: 0; box-shadow: none; }
+.btn--text::after { content: "→"; transition: transform .2s var(--ease); }
+.btn--text:hover::after { transform: translateX(3px); }
+
+/* ---------- chips / tags ---------- */
+.chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  font: 600 13px/26px var(--font-sans); padding: 0 12px;
+  border-radius: var(--radius-pill); background: var(--blue-soft); color: var(--blue);
+}
+.chip--legend { background: transparent; border: 1px solid var(--line-strong); color: var(--muted); line-height: 24px; }
+.chip--win { background: var(--gold-deep); color: var(--on-gold); }
+.chip--loss { background: var(--deep-2); color: #F4F7FB; }
+
+/* ---------- cards ---------- */
+.card {
+  background: var(--raised); border: 1px solid var(--line); border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-sm); overflow: hidden; display: flex; flex-direction: column;
+  transition: transform .25s var(--ease), box-shadow .25s var(--ease);
+}
+.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+.card__media { padding: 16px 16px 0; }
+.card__body { padding: 20px 24px 24px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
+.card__title { font: 600 var(--fs-h3)/var(--lh-h3) var(--font-display); margin: 0; }
+.card__text { font-size: 16px; line-height: 26px; color: var(--muted); margin: 0; }
+.card__foot {
+  margin-top: auto; padding-top: 14px; border-top: 1px solid var(--line);
+  display: flex; justify-content: space-between; align-items: center;
+  font-size: var(--fs-caption); color: var(--muted);
 }
 
-/* Master Themes */
-.theme-light-heritage {
-  --background: #F4E7D0;       /* Parchment Cream */
-  --foreground: #5A1A18;       /* Ink Maroon */
-  --maroon: #5A1A18;           /* Ink Maroon */
-  --sandstone: #EAD9B8;        /* Sandstone Beige */
-  --sandstone-light: #F2E4C9;
-  --sandstone-dark: #C9B089;
-  --gold: #D7B56C;             /* Soft Gold */
-  --charcoal: #2C1A12;         /* Deep ink for subtle elements */
-  --muted: #EAD9B8;            /* Use sandstone as muted */
+/* jharokha arch frame: wrap EVERY card / feature image in this */
+.arch { position: relative; aspect-ratio: 4 / 3; border-radius: var(--arch); overflow: hidden; background: var(--deep); }
+.arch > img, .arch > span > img { width: 100%; height: 100%; object-fit: cover; }
+.arch--tall { aspect-ratio: 4 / 5; border-radius: 50% 50% 14px 14px / 28% 28% 14px 14px; }
+.arch--gold { outline: 6px solid var(--gold-deep); outline-offset: -6px; }
+
+/* icon tile */
+.icon-tile {
+  width: 44px; height: 44px; border-radius: 14px; background: var(--blue-soft); color: var(--blue);
+  display: inline-flex; align-items: center; justify-content: center; flex: none;
+}
+.icon-tile--lg { width: 56px; height: 56px; border-radius: 18px; }
+.icon-tile svg { width: 22px; height: 22px; stroke-width: 1.6; }
+
+/* feature card (dark) */
+.feature {
+  padding: 32px; border-radius: var(--radius-xl); background: var(--maroon-deep); color: var(--on-deep);
+  display: flex; flex-direction: column; gap: 12px;
+}
+.feature p { color: var(--lead-on-maroon); margin: 0; }
+.feature--indigo { background: var(--deep); }
+.feature--indigo p { color: var(--lead-on-deep); }
+.feature .icon-tile { background: #7A1030; color: var(--gold-deep); }
+.feature--indigo .icon-tile { background: var(--deep-hover); }
+
+/* ---------- grids ---------- */
+.grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: var(--space-6); }
+.grid-3 { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: var(--space-6); }
+.grid-4 { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: var(--space-6); }
+@media (max-width: 1100px) { .grid-4 { grid-template-columns: repeat(2, minmax(0,1fr)); } }
+@media (max-width: 760px) { .grid-2, .grid-3, .grid-4 { grid-template-columns: minmax(0,1fr); } }
+
+/* ---------- forms ---------- */
+.input {
+  width: 100%; min-height: 50px; padding: 0 20px; border-radius: var(--radius-pill);
+  border: 1px solid var(--line-strong); background: var(--raised); color: var(--ink);
+  font: 400 16px var(--font-sans);
+}
+.input::placeholder { color: var(--muted); }
+label { font-weight: 600; font-size: 15px; }
+
+/* ============================== LANGUAGE SWITCH ============================== */
+.lang-switch {
+  display: inline-flex; align-items: center; gap: 2px; padding: 3px;
+  border-radius: var(--radius-pill); background: var(--deep-hover);
+}
+.lang-switch__option {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 44px; height: 32px; border-radius: var(--radius-pill);
+  font: 600 14px/1 var(--font-sans); color: var(--on-deep);
+  text-decoration: none;
+  transition: background-color .2s var(--ease), color .2s var(--ease);
+}
+.lang-switch__option:hover { background: rgba(244,247,251,.12); }
+.lang-switch__option[aria-current="true"] { background: var(--gold-deep); color: var(--on-gold); }
+
+/* ============================== HEADER ============================== */
+.site-header {
+  position: sticky; top: 0; z-index: 50;
+  background: var(--deep);
+  border-bottom: 1px solid #1F3360;
+}
+/* The home page renders its own instance in the page flow, below the hero. */
+.site-header--inline { position: relative; }
+
+.site-header__inner {
+  max-width: var(--container); margin-inline: auto; padding-inline: var(--gutter);
+  min-height: 84px; display: flex; align-items: center; justify-content: space-between; gap: var(--space-6);
 }
 
-.theme-dark-valor {
-  --background: #0F0A08;       /* Black Brown */
-  --foreground: #FFF6E5;       /* Warm ivory for readability */
-  --maroon: #3B0D0D;           /* Deep Maroon */
-  --gold: #D4A24C;             /* Royal Gold */
-  --charcoal: #3A3A3A;         /* Steel Grey */
-  --sandstone: #3A3A3A;        /* Use steel grey tones for surfaces */
-  --sandstone-light: #595959;
-  --sandstone-dark: #1F1F1F;
-  --muted: #2A2622;            /* Very dark warm neutral */
+.brand { display: inline-flex; align-items: center; gap: 12px; text-decoration: none; flex: none; }
+.brand__mark { width: 44px; height: 44px; flex: none; object-fit: contain; }
+.brand__text { display: flex; flex-direction: column; }
+.brand__title { display: block; font: 700 30px/26px var(--font-display); color: #F4F7FB; }
+.brand__sub {
+  display: block; margin-top: 3px;
+  font: 600 10.5px/1 var(--font-sans); letter-spacing: .42em; text-transform: uppercase;
+  color: var(--gold-deep);
 }
 
-/* Section Realms */
-.realm-home {
-  /* Keep defaults from light heritage; slightly warmer background */
-  --background: #F5E6D3;
+.nav-pills { display: none; align-items: center; gap: 2px; margin-inline: auto; }
+.nav-pill {
+  display: inline-flex; align-items: center; min-height: 40px; padding: 0 16px;
+  border-radius: var(--radius-pill); text-decoration: none;
+  font: 500 15px/1 var(--font-sans); color: var(--on-deep);
+  transition: background-color .2s var(--ease), color .2s var(--ease);
 }
-.realm-battles {
-  --maroon: #3B0D0D;
-  --gold: #D4A24C;
-  --charcoal: #3A3A3A;
+.nav-pill:hover { background: var(--deep-hover); color: var(--gold-deep); }
+.nav-pill[aria-current="page"] { background: var(--deep-hover); color: var(--gold-deep); }
+
+.nav-more { position: relative; }
+.nav-more > summary { list-style: none; cursor: pointer; border: 0; gap: 6px; }
+.nav-more > summary::-webkit-details-marker { display: none; }
+.nav-more > summary::marker { content: ""; }
+.nav-more__caret { width: 14px; height: 14px; transition: transform .2s var(--ease); }
+.nav-more[open] > summary { background: var(--deep-hover); color: var(--gold-deep); }
+.nav-more[open] .nav-more__caret { transform: rotate(180deg); }
+.nav-more__menu {
+  position: absolute; top: calc(100% + 10px); left: 0; z-index: 60;
+  min-width: 216px; padding: 8px;
+  background: var(--raised); border: 1px solid var(--line);
+  border-radius: var(--radius-md); box-shadow: var(--shadow-md);
+}
+.nav-more__item {
+  display: flex; align-items: center; min-height: 44px; padding: 0 14px;
+  border-radius: var(--radius-sm); text-decoration: none;
+  font: 500 15px/1 var(--font-sans); color: var(--ink);
+  transition: background-color .2s var(--ease), color .2s var(--ease);
+}
+.nav-more__item:hover { background: var(--tint); color: var(--primary); }
+
+.header-actions { display: flex; align-items: center; gap: 10px; flex: none; }
+.icon-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 44px; height: 44px; flex: none;
+  border: 0; border-radius: var(--radius-pill); cursor: pointer; text-decoration: none;
+  background: var(--deep-hover); color: var(--on-deep);
+  transition: background-color .2s var(--ease), color .2s var(--ease);
+}
+.icon-btn:hover { background: var(--deep-2); color: var(--gold-deep); }
+.icon-btn svg { width: 20px; height: 20px; }
+.menu-btn { display: inline-flex; }
+
+/* full-height navigation sheet (below 820px) */
+.menu-sheet {
+  position: fixed; inset: 0; z-index: 90;
+  display: flex; flex-direction: column;
+  padding: 0 var(--gutter) var(--space-10); overflow-y: auto;
+  background: var(--deep); color: var(--on-deep);
+}
+.menu-sheet__bar {
+  min-height: 84px; margin-bottom: 12px;
+  display: flex; align-items: center; justify-content: space-between; gap: var(--space-4);
+  border-bottom: 1px solid #1F3360;
+}
+.menu-sheet__link {
+  display: flex; align-items: center; min-height: 52px; padding: 0 16px;
+  border-radius: var(--radius-md); text-decoration: none;
+  font: 500 20px/1.35 var(--font-display); color: var(--on-deep);
+  transition: background-color .2s var(--ease), color .2s var(--ease);
+}
+.menu-sheet__link:hover { background: var(--deep-hover); }
+.menu-sheet__link[aria-current="page"] { background: var(--deep-hover); color: var(--gold-deep); }
+.menu-sheet__label {
+  margin: var(--space-5) 0 var(--space-2); padding: 0 16px;
+  font: 600 12px/1 var(--font-sans); letter-spacing: .18em; text-transform: uppercase;
+  color: var(--gold-deep);
+}
+.menu-sheet__foot { margin-top: auto; padding-top: var(--space-8); }
+
+@media (min-width: 820px) {
+  .nav-pills { display: flex; }
+  .menu-btn { display: none; }
+}
+@media (max-width: 819.98px) {
+  .site-header__inner { min-height: 68px; gap: var(--space-3); }
+  .brand__mark { width: 38px; height: 38px; }
+  .brand__title { font-size: 24px; line-height: 22px; }
+  .brand__sub { display: none; }
+  .header-switch { display: none; }
+  .menu-sheet__bar { min-height: 68px; }
 }
 
-.realm-forts {
-  --background: #EAD9B8;       /* Sandstone Beige */
-  --sandstone: #EAD9B8;
-  --sandstone-light: #F2E4C9;
-  --sandstone-dark: #C9B089;
-  --gold: #D7B56C;
+/* ============================== FOOTER ============================== */
+.site-footer { background: var(--maroon-deep); color: var(--on-deep); }
+.site-footer__inner {
+  max-width: var(--container); margin-inline: auto;
+  padding: 80px var(--gutter) 56px;
+}
+.site-footer__grid {
+  display: grid; grid-template-columns: 1.2fr 1fr 1fr 1.7fr; gap: 48px;
+}
+.site-footer__mark { width: 72px; height: 72px; object-fit: contain; }
+.site-footer__name { font: 700 36px/1.05 var(--font-display); color: #F4F7FB; margin: 18px 0 0; }
+.site-footer__tagline { font-size: var(--fs-body); color: var(--lead-on-maroon); margin: 12px 0 0; }
+.site-footer__tagline--deva { font-family: var(--font-deva); color: var(--faint-on-maroon); margin-top: 6px; }
+.site-footer__col-title {
+  margin: 0 0 16px;
+  font: 600 13px/16px var(--font-sans); letter-spacing: .18em; text-transform: uppercase;
+  color: var(--gold-deep);
+}
+.site-footer__links { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.site-footer__link {
+  display: inline-flex; align-items: center; min-height: 36px;
+  font-size: 16px; color: var(--lead-on-maroon); text-decoration: none;
+  transition: color .2s var(--ease);
+}
+.site-footer__link:hover { color: var(--gold-deep); }
+
+.site-footer__panel {
+  background: var(--maroon-panel); border: 1px solid var(--maroon-line);
+  border-radius: 20px; padding: 24px;
+}
+.site-footer__panel label { display: block; margin-bottom: 14px; color: var(--on-deep); font-size: 15px; line-height: 22px; }
+.site-footer__input {
+  width: 100%; min-height: 50px; padding: 0 20px; border-radius: var(--radius-pill);
+  background: #3E0010; border: 1px solid #C9A9A0; color: #FFFFFF;
+  font: 400 16px var(--font-sans);
+}
+.site-footer__input::placeholder { color: #D6BFB3; }
+.site-footer__panel .btn { width: 100%; margin-top: 12px; }
+.site-footer__small { margin: 12px 0 0; font-size: var(--fs-caption); color: var(--faint-on-maroon); }
+.site-footer__small a { color: var(--gold-deep); }
+
+.site-footer__dev {
+  display: flex; align-items: center; gap: 14px; margin-top: 28px;
+  padding-top: 24px; border-top: 1px solid var(--maroon-line);
+}
+.site-footer__dev-media {
+  width: 56px; height: 56px; flex: none; overflow: hidden;
+  border: 2px solid var(--maroon-line); border-radius: 50%;
+  background: var(--maroon-panel);
+  display: flex; align-items: center; justify-content: center;
+  font: 700 16px/1 var(--font-display); color: var(--gold-deep);
+}
+.site-footer__dev-media img { width: 100%; height: 100%; object-fit: cover; }
+.site-footer__dev-name { font: 600 17px/22px var(--font-display); color: #F4F7FB; margin: 0; }
+.site-footer__dev-role { font-size: var(--fs-caption); color: var(--faint-on-maroon); margin: 2px 0 0; }
+
+.site-footer__bottom {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+  gap: 12px 32px; margin-top: 48px; padding-top: 20px;
+  border-top: 1px solid var(--maroon-line);
+  font-size: var(--fs-caption); color: var(--faint-on-maroon);
+}
+.site-footer__copy { margin: 0; }
+.site-footer__legal { display: flex; flex-wrap: wrap; gap: 4px 24px; }
+.site-footer__legal a {
+  display: inline-flex; align-items: center; min-height: 32px;
+  color: var(--faint-on-maroon); text-decoration: none;
+  transition: color .2s var(--ease);
+}
+.site-footer__legal a:hover { color: var(--gold-deep); }
+
+@media (max-width: 1100px) {
+  .site-footer__grid { grid-template-columns: 1fr 1fr; gap: 40px; }
+}
+@media (max-width: 760px) {
+  .site-footer__inner { padding: 56px var(--gutter) 40px; }
+  .site-footer__grid { grid-template-columns: minmax(0,1fr); gap: 36px; }
+  .site-footer__bottom { margin-top: 36px; }
+  .site-footer__mark { width: 56px; height: 56px; }
 }
 
-.realm-dynasties {
-  --maroon: #5A1A18;
-  --background: #F4E7D0;
-  --gold: #D7B56C;
+/* ============================== HOME ============================== */
+/* ---------- 4.1 hero ---------- */
+.home-hero { background: var(--deep); color: var(--on-deep); padding-top: 72px; }
+.home-hero__grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: 56px; align-items: end; }
+.home-hero__col { padding-bottom: 152px; max-width: 620px; }
+.home-hero__eyebrow { display: inline-flex; align-items: center; gap: 12px; }
+.home-hero__eyebrow::before { content: ""; width: 28px; height: 2px; flex: none; background: var(--gold-deep); }
+.home-hero__title { margin: 0; font-size: var(--fs-hero); line-height: var(--lh-hero); color: #F4F7FB; }
+.home-hero__title em { font-style: italic; font-weight: 500; color: var(--gold-deep); }
+.home-hero__lead { max-width: 520px; margin: 20px 0 0; font-size: var(--fs-lead); line-height: var(--lh-lead); color: var(--lead-on-deep); }
+.home-hero__actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 32px; }
+.home-hero__media { display: flex; align-items: flex-end; justify-content: flex-end; }
+.home-hero__media .arch { width: 100%; max-width: 500px; }
+
+/* ---------- 4.2 explore bar ---------- */
+.explore-bar { position: relative; z-index: 2; margin-top: -64px; }
+.explore-bar__panel { padding: 10px; background: var(--raised); border: 1px solid var(--line); border-radius: var(--radius-xl); box-shadow: var(--shadow-md); }
+.explore-bar__grid { display: grid; grid-template-columns: repeat(6, minmax(0,1fr)); gap: 4px; }
+.explore-item { display: flex; flex-direction: column; gap: 10px; padding: 18px 12px; border-radius: var(--radius-md); color: var(--ink); text-decoration: none; transition: background-color .2s var(--ease); }
+.explore-item:hover { background: var(--tint); }
+.explore-item__label { font: 700 16px/20px var(--font-sans); color: var(--ink); }
+.explore-item__sub { font-size: 14px; line-height: 20px; color: var(--muted); }
+
+/* ---------- 4.3 origins ---------- */
+.origin-card { padding: 32px; }
+.origin-card h3 { font-size: 32px; line-height: 36px; }
+.origin-card__line { margin: -2px 0 0; font-size: 15px; color: var(--muted); }
+
+/* ---------- 4.4 clan cards ---------- */
+.clan-card { align-items: flex-start; gap: 12px; padding: 24px; }
+.clan-card__title { margin: 0; font-size: 24px; line-height: 28px; }
+.clan-card__text { margin: 0; font-size: 15px; line-height: 24px; color: var(--muted); }
+.icon-tile--lg svg { width: 30px; height: 30px; }
+
+/* ---------- 4.5 kingdom cards ---------- */
+.kingdom-eyebrow { margin: 0; font: 600 13px/18px var(--font-sans); letter-spacing: .08em; text-transform: uppercase; color: var(--gold-text); }
+
+/* ---------- 4.6 battle cards ---------- */
+.battle-card { display: grid; grid-template-columns: 112px minmax(0,1fr); gap: 24px; padding: 28px 32px; }
+.battle-card__year { font: 600 46px/1 var(--font-display); color: var(--primary); }
+.battle-card__place { display: block; margin-top: 8px; font: 600 12px/16px var(--font-sans); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.battle-card__title { margin: 0 0 10px; font-size: 26px; line-height: 30px; }
+.battle-card__facts { display: grid; gap: 12px; margin: 14px 0 0; padding: 14px 16px; background: var(--surface); border-radius: 14px; }
+.battle-card__facts dt { font: 600 12px/16px var(--font-sans); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.battle-card__facts dd { margin: 4px 0 0; font-size: 16px; line-height: 26px; color: var(--ink); }
+.battle-card__foot { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line); }
+.sec-head__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+
+/* ---------- 4.7 princely states ---------- */
+.home-note { margin: -8px 0 28px; font-size: var(--fs-caption); color: var(--muted); }
+.state-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 16px; }
+.state-tile { display: flex; flex-direction: column; align-items: center; gap: 12px; padding: 20px 12px; background: var(--raised); border: 1px solid var(--line); border-radius: var(--radius-lg); transition: transform .2s var(--ease), box-shadow .2s var(--ease); }
+.state-tile:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.state-tile__media { position: relative; width: 72px; height: 72px; }
+.state-tile__name { font: 600 15px/20px var(--font-sans); color: var(--ink); text-align: center; }
+
+/* ---------- 4.8 royal chronicle ---------- */
+.chronicle { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1.4fr); gap: 56px; align-items: start; }
+.chronicle__eras { padding: 10px; background: var(--raised); border: 1px solid var(--line); border-radius: var(--radius-xl); box-shadow: var(--shadow-sm); }
+.era-item { display: flex; align-items: center; justify-content: space-between; gap: 12px; width: 100%; min-height: 44px; padding: 11px 16px; border: 0; border-radius: 14px; background: none; color: var(--ink); text-align: left; cursor: pointer; font: 600 16px/22px var(--font-sans); transition: background-color .2s var(--ease), color .2s var(--ease); }
+.era-item:hover { background: var(--tint); }
+.era-item[aria-current="true"] { background: var(--primary); color: var(--on-primary); }
+.era-item__date { font-size: 14px; color: var(--muted); }
+.era-item[aria-current="true"] .era-item__date { color: var(--on-primary); opacity: .85; }
+.chronicle__events { position: relative; padding: 40px; background: var(--raised); border-radius: var(--radius-xl); box-shadow: var(--shadow-sm); }
+.chronicle__events::before { content: ""; position: absolute; left: 40px; top: 40px; bottom: 40px; width: 2px; background: var(--line); }
+.event-item { position: relative; padding-left: 34px; margin-bottom: 26px; }
+.event-item:last-child { margin-bottom: 0; }
+.event-item__dot { position: absolute; left: 4px; top: 6px; width: 14px; height: 14px; border-radius: 50%; background: #FFFFFF; border: 2px solid var(--sky); }
+.event-item--active .event-item__dot { background: var(--gold-deep); border-color: var(--gold-deep); box-shadow: 0 0 0 5px rgba(230,196,106,.3); }
+.event-item__date { font: 600 13px/18px var(--font-sans); letter-spacing: .12em; text-transform: uppercase; color: var(--gold-text); }
+.event-item__text { margin: 4px 0 0; font-size: 17px; line-height: 27px; color: var(--ink); }
+.chronicle__pager { display: flex; align-items: center; gap: 12px; margin-top: 16px; padding: 0 6px; }
+.chronicle__pager .btn { width: 44px; min-height: 44px; padding: 0; border-radius: 50%; }
+.chronicle__count { margin-left: auto; font: 600 15px/1 var(--font-sans); color: var(--muted); }
+
+/* ---------- 4.9 warrior rows ---------- */
+.warrior-block + .warrior-block { margin-top: 56px; }
+.warrior-row__head { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin-bottom: 20px; }
+.warrior-row__head h3 { margin: 0; }
+.warrior-row__nav { display: flex; gap: 10px; flex: none; }
+.warrior-row__nav .btn { width: 44px; min-height: 44px; padding: 0; border-radius: 50%; }
+.warrior-row { display: flex; gap: 20px; padding-bottom: 8px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: thin; }
+.warrior-card { flex: none; width: 220px; scroll-snap-align: start; color: inherit; text-decoration: none; }
+.warrior-card__name { margin: 16px 0 0; font: 600 24px/28px var(--font-display); color: var(--ink); text-align: center; }
+.warrior-card__region { margin: 4px 0 0; font: 600 13px/18px var(--font-sans); letter-spacing: .12em; text-transform: uppercase; color: var(--gold-text); text-align: center; }
+
+/* ---------- 4.10 culture ---------- */
+.culture-collage { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 16px; }
+.culture-collage .arch { aspect-ratio: 1 / 1; }
+.feature h3 { color: var(--on-deep); }
+.feature__lead { font-weight: 600; }
+.feature .btn--text { color: var(--gold-deep); align-self: flex-start; margin-top: auto; }
+
+/* ---------- 4.11 modern integration ---------- */
+.modern-grid { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,.9fr); gap: 56px; align-items: start; }
+.modern-grid p { font-size: 18px; line-height: 31px; color: var(--muted); }
+.modern-media { margin: 0; }
+.modern-media .arch { aspect-ratio: 4 / 3; }
+.arch--contain > img { object-fit: contain; }
+.modern-caption { margin: 14px 0 0; font-size: 14px; line-height: 20px; color: var(--muted); }
+
+/* ---------- TTS control (sits outside the <h2>, never inside) ---------- */
+.listen-btn { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 18px; border: 1px solid var(--line-strong); border-radius: var(--radius-pill); background: var(--raised); color: var(--ink); cursor: pointer; font: 600 14px/1 var(--font-sans); transition: background-color .2s var(--ease), color .2s var(--ease), border-color .2s var(--ease); }
+.listen-btn:hover { border-color: var(--primary); color: var(--primary); }
+.listen-btn.is-active { background: var(--primary); border-color: var(--primary); color: var(--on-primary); }
+.listen-btn__icon { width: 18px; height: 18px; }
+
+@media (max-width: 1100px) {
+  .explore-bar__grid { grid-template-columns: repeat(3, minmax(0,1fr)); }
+  .culture-collage { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .chronicle { grid-template-columns: minmax(0,1fr); gap: 32px; }
+  .modern-grid { grid-template-columns: minmax(0,1fr); gap: 32px; }
+}
+@media (max-width: 760px) {
+  .home-hero { padding-top: 40px; }
+  .home-hero__grid { grid-template-columns: minmax(0,1fr); gap: 40px; }
+  .home-hero__col { padding-bottom: 0; max-width: none; }
+  .home-hero__media { justify-content: center; }
+  .home-hero__media .arch { max-width: 300px; }
+  .explore-bar { margin-top: -32px; }
+  .explore-bar__grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .battle-card { grid-template-columns: minmax(0,1fr); padding: 24px 20px; }
+  .culture-collage { grid-template-columns: minmax(0,1fr); }
+  .chronicle__eras { display: flex; gap: 8px; padding: 8px; overflow-x: auto; scroll-snap-type: x proximity; }
+  .era-item { flex: none; width: auto; scroll-snap-align: start; }
+  .chronicle__events { padding: 24px; }
+  .chronicle__events::before { left: 24px; }
 }
 
-.realm-legends {
-  --maroon: #3B0D0D;
-  --gold: #D4A24C;
-  --charcoal: #3A3A3A;
+/* ========== SHARED HELPERS USED BY PAGE SHELLS ========== */
+/* Inner-page header band */
+.page-head { padding: 72px 0 56px; }
+.breadcrumb { font-size: var(--fs-caption); color: var(--muted); margin: 0 0 14px; }
+.breadcrumb a { color: var(--muted); text-decoration: none; }
+.breadcrumb a:hover { color: var(--primary); }
+.page-head__deva { font-family: var(--font-deva); font-size: 26px; color: var(--muted); margin: 10px 0 0; }
+
+/* Article + sidebar */
+.article-layout { display: grid; grid-template-columns: minmax(0,1fr) 360px; gap: 72px; align-items: start; }
+.article-col { max-width: 680px; }
+.article-col p { font-size: 18px; line-height: 31px; }
+.article-col h2 { font-size: 38px; line-height: 42px; margin: 40px 0 14px; }
+@media (max-width: 1100px) { .article-layout { grid-template-columns: minmax(0,1fr); gap: 48px; } }
+
+.factbox { background: var(--raised); border: 1px solid var(--line); border-radius: var(--radius-xl); padding: 28px; box-shadow: var(--shadow-sm); }
+.factbox dt { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-top: 14px; }
+.factbox dt:first-child { margin-top: 0; }
+.factbox dd { margin: 4px 0 0; color: var(--ink); }
+
+.sources-box { background: var(--deep); border-radius: var(--radius-xl); padding: 28px; color: var(--on-deep); }
+.sources-box__label {
+  font: 600 13px/16px var(--font-sans); letter-spacing: .16em; text-transform: uppercase;
+  color: var(--gold-deep); margin: 0 0 14px;
+}
+.sources-box ol { margin: 0; padding-left: 20px; color: #F4F7FB; font-size: 15px; line-height: 24px; }
+.sources-box a { color: var(--gold-deep); }
+
+.legend-box {
+  background: var(--tint); border-radius: var(--radius-lg); padding: 28px 32px;
+  display: flex; flex-direction: column; gap: 12px; align-items: flex-start;
 }
 
-.realm-festivals {
-  --background: #F8ECD6;       /* Slightly brighter parchment */
-  --gold: #D7B56C;
-  --maroon: #5A1A18;
-}
+/* Clamp helpers for card copy */
+.clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.clamp-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 
-.realm-folktales {
-  --background: #F6E7CF;       /* Storybook warmth */
-  --sandstone-light: #F2E4C9;
-  --maroon: #5A1A18;
-  --charcoal: #4A2A1F;
-}
-
-.realm-weapons {
-  --maroon: #3B0D0D;
-  --gold: #D4A24C;
-  --charcoal: #3A3A3A;
-}
-
-.realm-blogs {
-  --background: #F4E7D0;       /* Neutral light for reading */
-  --maroon: #5A1A18;
-  --gold: #D7B56C;
-}
-
-
-/* ------------------------------------------------------------------
-   Hindi typography
-   Latin display faces (Cinzel, Playfair, Cormorant) have no Devanagari
-   glyphs, so on Hindi pages every family renders through Noto Serif
-   Devanagari. Devanagari letters join along the shirorekha (headline);
-   letter-spacing tears that line apart, synthetic italics slant it, and
-   uppercase has no meaning — so all three are neutralised.
-   ------------------------------------------------------------------ */
+/* ========== DEvanagari typography ========== */
+/* Latin display faces have no Devanagari glyphs; every family renders through
+   the Devanagari faces. Devanagari joins along the shirorekha, so tracking,
+   synthetic italic and uppercase are neutralised. Unlayered on purpose so the
+   rules beat Tailwind utilities. */
 html[lang="hi"] {
-  --heading-font: var(--nf-deva), 'Noto Serif Devanagari', serif;
-  --font-sans: var(--nf-deva), 'Noto Serif Devanagari', serif;
-  --font-serif: var(--nf-deva), 'Noto Serif Devanagari', serif;
-  --font-display: var(--nf-deva), 'Noto Serif Devanagari', serif;
-  --font-body: var(--nf-deva), 'Noto Serif Devanagari', serif;
+  --font-display: var(--font-deva);
 }
 
 html[lang="hi"] body,
 html[lang="hi"] body *:not(svg):not(svg *):not(code):not(pre):not(kbd) {
-  font-family: var(--nf-deva), 'Noto Serif Devanagari', serif !important;
   letter-spacing: normal !important;
   text-transform: none !important;
   font-style: normal !important;
 }
 
 html[lang="hi"] body {
+  font-family: var(--font-sans);
   line-height: 1.8;
 }
 
-/* Devanagari needs a little more vertical room than Latin small caps. */
 html[lang="hi"] :is(h1, h2, h3, h4) {
+  font-family: var(--font-deva);
+  font-weight: 400;
   line-height: 1.45;
 }
 
-/* ------------------------------------------------------------------
-   Language switch cross-fade (View Transitions API)
-   ------------------------------------------------------------------ */
+/* ========== IMAGE LOADING ========== */
+img.loaded { opacity: 1 !important; filter: none !important; }
+
+/* ========== LANGUAGE SWITCH CROSS-FADE (View Transitions API) ========== */
 ::view-transition-old(root),
 ::view-transition-new(root) {
   animation-duration: 280ms;
@@ -633,8 +869,12 @@ html[lang="hi"] :is(h1, h2, h3, h4) {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  ::view-transition-old(root),
-  ::view-transition-new(root) {
-    animation: none;
+  *, *::before, *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
   }
+  ::view-transition-old(root),
+  ::view-transition-new(root) { animation: none; }
 }

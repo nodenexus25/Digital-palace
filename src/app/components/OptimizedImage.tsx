@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import { ImageLoadingStrategies } from '../utils/imageOptimization';
 
@@ -40,6 +40,7 @@ export default function OptimizedImage({
 }: OptimizedImageProps) {
   const [isLoaded, setIsLoaded] = useState(false);
   const [error, setError] = useState(false);
+  const imgRef = useRef<HTMLImageElement>(null);
 
   const fallbackSrc = '/images/warriors/placeholder-warrior.png';
   const effectiveSrc = src || fallbackSrc;
@@ -61,6 +62,14 @@ export default function OptimizedImage({
     onLoad?.();
   };
 
+  // An image served from cache (or a fast connection) can finish loading before
+  // React hydrates, in which case `onLoad` never fires and the image would stay
+  // blurred at reduced opacity forever. Reconcile with the real DOM state.
+  useEffect(() => {
+    const el = imgRef.current;
+    if (el?.complete && el.naturalWidth > 0) setIsLoaded(true);
+  }, [effectiveSrc]);
+
   const handleError = () => {
     setError(true);
     onError?.();
@@ -81,6 +90,7 @@ export default function OptimizedImage({
 
   return (
     <Image
+      ref={imgRef}
       src={effectiveSrc}
       sizes={finalSizes}
       alt={alt}

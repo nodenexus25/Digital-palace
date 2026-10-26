@@ -93,7 +93,13 @@ const LazyImage: React.FC<LazyImageProps> = ({
     );
   }
 
-  // Non-fill: use provided dimensions, or let CSS control sizing via inline style
+  // Non-fill: use provided dimensions, or let CSS control sizing via inline style.
+  // The inline fallback must not be applied when the caller already sizes the
+  // image with a height utility (h-full/h-auto), otherwise the forced
+  // `height:auto` would override it and stretch/crop the artwork.
+  const callerSizesHeight = /(?:^|[\s:])h-/.test(className);
+  const needsFluidFallback = !width && !height && !callerSizesHeight;
+
   return (
     <Image
       ref={setImageRef}
@@ -103,7 +109,7 @@ const LazyImage: React.FC<LazyImageProps> = ({
       height={height || 0}
       sizes={sizes || '100vw'}
       className={computedClassName}
-      style={!width && !height ? { width: '100%', height: 'auto' } : undefined}
+      style={needsFluidFallback ? { width: '100%', height: 'auto' } : undefined}
       onError={handleError}
       onLoad={handleLoad}
       loading="lazy"
