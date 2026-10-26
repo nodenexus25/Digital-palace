@@ -31,6 +31,7 @@ export default function FestivalsClient({ festivals }: { festivals: Festival[] }
   return (
     <main>
       <PageHead
+        image="/images/festivals/gangaur-mela.jpg"
         breadcrumb={[
           { label: <TransText k="nav.home" />, href: '/' },
           { label: t('nav.festivals') },

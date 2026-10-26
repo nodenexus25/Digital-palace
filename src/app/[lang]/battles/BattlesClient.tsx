@@ -41,6 +41,7 @@ export default function BattlesClient({ battles, figures }: { battles: BattleCar
   return (
     <div className="min-h-screen">
       <PageHead
+        image="/images/legends/haldighati-charge.jpg"
         breadcrumb={[
           { label: <TransText k="nav.home" />, href: '/' },
           { label: <TransText k="nav.battles" /> },

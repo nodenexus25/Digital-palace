@@ -74,6 +74,7 @@ export default function DynastiesClient({ dynasties, periods }: { dynasties: Dyn
   return (
     <div className="min-h-screen">
       <PageHead
+        image="/images/legends/rajputana-clan-banners.jpg"
         breadcrumb={[
           { label: <TransText k="nav.home" />, href: '/' },
           { label: <TransText k="nav.dynasties" /> },

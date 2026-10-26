@@ -57,6 +57,7 @@ export default async function BlogsPage({ params }: Props) {
   return (
     <main>
       <PageHead
+        image="/images/legends/rajputana-tapestry.jpg"
         breadcrumb={[
           { label: <TransText k="nav.home" />, href: '/' },
           { label: tr('nav.blogs') },

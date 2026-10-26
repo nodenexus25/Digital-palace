@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from "react";
-import { motion, useScroll, useSpring } from "framer-motion";
 import {
   BowArrow,
   Castle,
@@ -24,8 +23,22 @@ import LazyImage from "@/app/components/LazyImage";
 import TransText from "@/app/components/TransText";
 import SectionHeading from "@/app/components/SectionHeading";
 import { useLanguage } from "@/app/components/LanguageProvider";
-import Navbar from "@/app/components/Navbar";
 import LocalizedLink from "@/app/components/LocalizedLink";
+import {
+  BloodStain,
+  Embers,
+  Mist,
+  ParchmentTexture,
+  SandCloud,
+  TornEdge,
+  Vignette,
+} from "@/app/components/atmosphere";
+
+/** Reveal stagger: sets the `--r` delay consumed by `.reveal` in globals.css. */
+const stagger = (ms: number) => ({ "--r": `${ms}ms` }) as React.CSSProperties;
+
+/** Roman numeral for the chronicle era tabs (presentation only). */
+const ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI"];
 
 const StopIcon = ({ className }: { className?: string }) => (
   <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -173,12 +186,14 @@ const TIMELINE_DATA = [
  },
 ];
 
+// ---------- 4.4 clan banners ----------
 const CLAN_DATA = [
  {
  id: "pratihara",
  name: "home.clans.pratihara.name",
  motif: "home.clans.pratihara.motif",
  description: "home.clans.pratihara.desc",
+ bar: "var(--bronze)",
  symbol: (
  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
  <path d="M4 16a6 6 0 0 1 6-6h3a5 5 0 0 1 5 5" />
@@ -195,6 +210,7 @@ const CLAN_DATA = [
  name: "home.clans.parmar.name",
  motif: "home.clans.parmar.motif",
  description: "home.clans.parmar.desc",
+ bar: "var(--blood)",
  symbol: <Flame aria-hidden="true" />
  },
  {
@@ -202,6 +218,7 @@ const CLAN_DATA = [
  name: "home.clans.chauhan.name",
  motif: "home.clans.chauhan.motif",
  description: "home.clans.chauhan.desc",
+ bar: "var(--saffron)",
  symbol: <BowArrow aria-hidden="true" />
  },
  {
@@ -209,6 +226,7 @@ const CLAN_DATA = [
  name: "home.clans.solanki.name",
  motif: "home.clans.solanki.motif",
  description: "home.clans.solanki.desc",
+ bar: "var(--steel)",
  symbol: <Sun aria-hidden="true" />
  }
 ];
@@ -321,9 +339,7 @@ const STATE_ENTRIES: StateEntry[] = [
   { name: "Panarwa", hindiName: "पानरवा", image: "/images/home/external/states/panarwa.webp" },
 ];
 
-const TIMELINE_STATE_CARD_COUNT = 32;
-const TIMELINE_STATE_ENTRIES = STATE_ENTRIES.slice(0, TIMELINE_STATE_CARD_COUNT);
-const POST_TIMELINE_STATE_ENTRIES = STATE_ENTRIES.slice(TIMELINE_STATE_CARD_COUNT);
+const STATE_PREVIEW_COUNT = 24;
 
 function StateCard({ state }: { state: StateEntry }) {
   const { currentLanguage } = useLanguage();
@@ -338,7 +354,33 @@ function StateCard({ state }: { state: StateEntry }) {
   );
 }
 
-// ---------- 4.2 explore bar ----------
+/** 4.7 — engraved medallions, first 24 by default, expandable to the full roll. */
+function StatesBlock() {
+  const { t } = useLanguage();
+  const [showAll, setShowAll] = useState(false);
+  const entries = showAll ? STATE_ENTRIES : STATE_ENTRIES.slice(0, STATE_PREVIEW_COUNT);
+  return (
+    <>
+      <div className="state-grid">
+        {entries.map((state) => (
+          <StateCard key={state.name} state={state} />
+        ))}
+      </div>
+      <div className="state-grid__toggle">
+        <button
+          type="button"
+          className="btn btn-steel"
+          aria-expanded={showAll}
+          onClick={() => setShowAll((value) => !value)}
+        >
+          {showAll ? t("home.states.showLess") : t("home.states.showAll")}
+        </button>
+      </div>
+    </>
+  );
+}
+
+// ---------- 4.2 explore strip ----------
 const EXPLORE_ITEMS = [
   { href: "/dynasties", labelKey: "nav.dynasties", subKey: "home.explore.dynasties", Icon: Crown },
   { href: "/forts", labelKey: "nav.forts", subKey: "home.explore.forts", Icon: Castle },
@@ -356,7 +398,7 @@ const KINGDOMS = [
   { id: "jaisalmer", image: "/images/home/jaisalmer-fort.jpg", altKey: "home.alt.jaisalmer", eyebrow: "home.kingdoms.jaisalmer.eyebrow", title: "home.kingdoms.jaisalmer.title", p1: "home.kingdoms.jaisalmer.p1", period: "home.kingdoms.jaisalmer.period", href: "/dynasties#jaisalmer-bhati" },
 ];
 
-// ---------- 4.6 battles ----------
+// ---------- 4.6 battles — war dispatches ----------
 type BattleMeta = {
   id: string;
   titleKey: string;
@@ -364,69 +406,75 @@ type BattleMeta = {
   decision: string;
   consequence: string[];
   outcome: "win" | "loss";
+  /** Period painting used as the row's 12% luminosity plate. */
+  bg: string;
 };
 
 const BATTLES: BattleMeta[] = [
-  { id: "haldighati", titleKey: "home.battles.haldighati.title", stakes: "home.battles.haldighati.stakesValue", decision: "home.battles.haldighati.decisionValue", consequence: ["home.battles.haldighati.consequenceValue"], outcome: "win" },
-  { id: "dewair", titleKey: "home.battles.dewair.title", stakes: "home.battles.dewair.stakesValue", decision: "home.battles.dewair.decisionValue", consequence: ["home.battles.dewair.consequenceValue"], outcome: "win" },
-  { id: "tarain", titleKey: "home.battles.tarain.title", stakes: "home.battles.tarain.stakesValue", decision: "home.battles.tarain.decisionValue", consequence: ["home.battles.tarain.consequenceValue"], outcome: "win" },
-  { id: "chittorgarh", titleKey: "home.battles.chittorgarh.title", stakes: "home.battles.chittorgarh.stakesValue", decision: "home.battles.chittorgarh.decisionValue", consequence: ["home.battles.chittorgarh.consequenceValue1", "home.battles.chittorgarh.consequenceValue2"], outcome: "loss" },
-  { id: "ranthambore", titleKey: "home.battles.ranthambore.title", stakes: "home.battles.ranthambore.stakesValue", decision: "home.battles.ranthambore.decisionValue", consequence: ["home.battles.ranthambore.consequenceValue1", "home.battles.ranthambore.consequenceValue2"], outcome: "loss" },
+  { id: "haldighati", titleKey: "home.battles.haldighati.title", stakes: "home.battles.haldighati.stakesValue", decision: "home.battles.haldighati.decisionValue", consequence: ["home.battles.haldighati.consequenceValue"], outcome: "win", bg: "/images/legends/haldighati-battlefield.jpg" },
+  { id: "dewair", titleKey: "home.battles.dewair.title", stakes: "home.battles.dewair.stakesValue", decision: "home.battles.dewair.decisionValue", consequence: ["home.battles.dewair.consequenceValue"], outcome: "win", bg: "/images/legends/haldighati-ridge.jpg" },
+  { id: "tarain", titleKey: "home.battles.tarain.title", stakes: "home.battles.tarain.stakesValue", decision: "home.battles.tarain.decisionValue", consequence: ["home.battles.tarain.consequenceValue"], outcome: "win", bg: "/images/legends/jaipur-lancers-charge.jpg" },
+  { id: "chittorgarh", titleKey: "home.battles.chittorgarh.title", stakes: "home.battles.chittorgarh.stakesValue", decision: "home.battles.chittorgarh.decisionValue", consequence: ["home.battles.chittorgarh.consequenceValue1", "home.battles.chittorgarh.consequenceValue2"], outcome: "loss", bg: "/images/legends/chittor-battlements-night.jpg" },
+  { id: "ranthambore", titleKey: "home.battles.ranthambore.title", stakes: "home.battles.ranthambore.stakesValue", decision: "home.battles.ranthambore.decisionValue", consequence: ["home.battles.ranthambore.consequenceValue1", "home.battles.ranthambore.consequenceValue2"], outcome: "loss", bg: "/images/legends/desert-fort-night-watch.jpg" },
 ];
 
-function BattleCard({ battle }: { battle: BattleMeta }) {
+/** One battle as a compact dispatch: [ YEAR · VERDICT ] / PLACE / TITLE / report. */
+function BattleCard({ battle, index }: { battle: BattleMeta; index: number }) {
   const { t } = useLanguage();
   const title = t(battle.titleKey);
   const open = title.indexOf("(");
   const place = open > -1 ? title.slice(0, open).trim() : title;
-  const year = open > -1 ? title.slice(open + 1).replace(")", "").trim() : "";
+  const rawYear = open > -1 ? title.slice(open + 1).replace(")", "").trim() : "";
+  const year = (rawYear.match(/\d{3,4}/) || [rawYear])[0];
+  const won = battle.outcome === "win";
   return (
-    <article className="card battle-card">
-      <div>
-        <div className="battle-card__year">{year}</div>
-        <span className="battle-card__place">{place}</span>
+    <article className="battle-card reveal" data-reveal style={stagger((index % 2) * 80)}>
+      <span className="battle-card__bg" style={{ backgroundImage: `url("${battle.bg}")` }} aria-hidden="true" />
+      <div className="battle-card__head">
+        <span className="battle-card__year">{year}</span>
+        <span className={`chip ${won ? "chip--win" : "chip--loss"}`}>
+          {won ? <TransText k="concepts.victory" /> : <TransText k="concepts.defeat" />}
+        </span>
       </div>
-      <div>
-        <h3 className="battle-card__title">{title}</h3>
-        <dl className="battle-card__facts">
-          <div>
-            <dt><TransText k="home.battles.stakes" /></dt>
-            <dd><TransText k={battle.stakes} /></dd>
-          </div>
-          <div>
-            <dt><TransText k="home.battles.decision" /></dt>
-            <dd><TransText k={battle.decision} /></dd>
-          </div>
-          <div>
-            <dt><TransText k="home.battles.consequence" /></dt>
-            {battle.consequence.map((key) => (
-              <dd key={key}><TransText k={key} /></dd>
-            ))}
-          </div>
-          <div>
-            <dt><TransText k="home.battles.outcome" /></dt>
-            <dd>
-              {battle.outcome === "win" ? (
-                <span className="chip chip--win"><TransText k="concepts.victory" /></span>
-              ) : (
-                <span className="chip chip--loss"><TransText k="concepts.defeat" /></span>
-              )}
-            </dd>
-          </div>
-        </dl>
-        <div className="battle-card__foot">
-          <span className="chip"><TransText k="concepts.context" /></span>
-          <LocalizedLink href="/battles" className="btn btn--text">
-            <TransText k="home.battles.moreInfo" />
-          </LocalizedLink>
+      <p className="battle-card__place">{place}</p>
+      <h3 className="battle-card__title">{title}</h3>
+      <dl className="war-report">
+        <div>
+          <dt><TransText k="home.battles.stakes" /></dt>
+          <dd><TransText k={battle.stakes} /></dd>
         </div>
-      </div>
+        <div>
+          <dt><TransText k="home.battles.decision" /></dt>
+          <dd><TransText k={battle.decision} /></dd>
+        </div>
+        <div>
+          <dt><TransText k="home.battles.consequence" /></dt>
+          <dd className="war-report__clamp">
+            {battle.consequence.map((key) => (
+              <span key={key}><TransText k={key} />{" "}</span>
+            ))}
+          </dd>
+        </div>
+      </dl>
+      <LocalizedLink href="/battles" className="btn-text battle-card__link">
+        <TransText k="home.battles.moreInfo" />
+      </LocalizedLink>
     </article>
   );
 }
 
 // ---------- 4.9 warrior rows (scroll-snap) ----------
-function WarriorRow({ items, eyebrow, heading }: { items: Warrior[]; eyebrow: React.ReactNode; heading: React.ReactNode }) {
+function WarriorRow({
+  items,
+  eyebrow,
+  heading,
+  markQueens = false,
+}: {
+  items: Warrior[];
+  eyebrow: React.ReactNode;
+  heading: React.ReactNode;
+  markQueens?: boolean;
+}) {
   const { currentLanguage, t } = useLanguage();
   const trackRef = useRef<HTMLDivElement | null>(null);
 
@@ -439,18 +487,18 @@ function WarriorRow({ items, eyebrow, heading }: { items: Warrior[]; eyebrow: Re
   };
 
   return (
-    <div className="warrior-block">
+    <div className="warrior-block reveal" data-reveal>
       <div className="warrior-row__head">
         <div>
-          <p className="eyebrow">{eyebrow}</p>
+          <p className="label">{eyebrow}</p>
           <h3>{heading}</h3>
         </div>
         <div className="warrior-row__nav">
-          <button type="button" className="btn btn--secondary" aria-label={t("common.previous")} onClick={() => scrollByCard(-1)}>
-            <ChevronLeft aria-hidden="true" />
+          <button type="button" className="btn btn-steel" aria-label={t("common.previous")} onClick={() => scrollByCard(-1)}>
+            <ChevronLeft aria-hidden="true" size={18} />
           </button>
-          <button type="button" className="btn btn--secondary" aria-label={t("common.next")} onClick={() => scrollByCard(1)}>
-            <ChevronRight aria-hidden="true" />
+          <button type="button" className="btn btn-steel" aria-label={t("common.next")} onClick={() => scrollByCard(1)}>
+            <ChevronRight aria-hidden="true" size={18} />
           </button>
         </div>
       </div>
@@ -463,82 +511,97 @@ function WarriorRow({ items, eyebrow, heading }: { items: Warrior[]; eyebrow: Re
               <div className="arch arch--tall">
                 <LazyImage fill sizes="(max-width: 760px) 60vw, 220px" src={item.image} alt={displayName} className="object-cover" />
               </div>
-              <p className="warrior-card__name">{displayName}</p>
+              <p className="warrior-card__name">
+                {displayName}
+                {markQueens ? (
+                  <Flame aria-hidden="true" size={14} style={{ color: "var(--ember)" }} />
+                ) : null}
+              </p>
               <p className="warrior-card__region">{displayRegion}</p>
             </LocalizedLink>
           );
         })}
       </div>
+      {markQueens ? <p className="sr-only">{t("home.queens.emberNote")}</p> : null}
     </div>
   );
 }
 
-// Section ground colour, keyed by section id (unlisted ids keep the page surface).
-const SECTION_TONE: Record<string, string> = {
-  ascendancy: "section--tint",
-  battles: "section--sand",
-  states: "section--tint",
-  ethos: "section--sand",
-  modern: "section--tint",
-};
-
 type HomeSection = {
- id: string;
- title: string;
- eraIndex: number;
- content: React.ReactNode;
- text?: string;
+  id: string;
+  title: string;
+  /** Section ground class — the page rhythm lives here. */
+  tone: string;
+  content: React.ReactNode;
+  lead?: string;
+  label?: string;
+  /** Audio-narration source for the section's listen control. */
+  text?: string;
+  /** Parchment sections carry fibre staining and torn edges. */
+  parchment?: boolean;
+  edgeTop?: string;
+  edgeBottom?: string;
+  /** Full-bleed block rendered after the container (quote bands). */
+  outro?: React.ReactNode;
 };
 
 const SECTIONS: HomeSection[] = [
  {
  id: "origins",
     title: "home.origins.title",
- eraIndex: 1,
+ tone: "section--parchment",
+ parchment: true,
+ edgeTop: "var(--smoke)",
+ edgeBottom: "var(--smoke)",
  content: (
  <div className="space-y-8">
- <p className="text-xl leading-relaxed"><TransText k="home.origins.body1" /></p>
- <div className="grid-3">
+ <p className="reveal" data-reveal style={stagger(0)}><TransText k="home.origins.body1" /></p>
+ <div className="origins-grid">
  {/* AGNIKULA — ESSENCE OF FIRE */}
- <article className="card origin-card">
- <span className="icon-tile icon-tile--lg"><Flame aria-hidden="true" /></span>
+ <article className="origin-col reveal" data-reveal style={stagger(0)}>
+ <span className="origin-emblem"><Flame aria-hidden="true" size={40} /></span>
  <h3><TransText k="home.origins.agnikula.title" /></h3>
- <p className="origin-card__line"><TransText k="home.origins.agnikula.desc" /></p>
- <span className="chip chip--legend"><TransText k="concepts.legend" /></span>
+ <p><TransText k="home.origins.agnikula.desc" /></p>
+ <span className="stamp-legend"><TransText k="concepts.legend" /></span>
  </article>
 
  {/* SURYAVANSHI — ESSENCE OF THE SUN */}
- <article className="card origin-card">
- <span className="icon-tile icon-tile--lg"><Sun aria-hidden="true" /></span>
+ <article className="origin-col reveal" data-reveal style={stagger(0)}>
+ <span className="origin-emblem"><Sun aria-hidden="true" size={40} /></span>
  <h3><TransText k="home.origins.suryavanshi.title" /></h3>
- <p className="origin-card__line"><TransText k="home.origins.suryavanshi.desc" /></p>
+ <p><TransText k="home.origins.suryavanshi.desc" /></p>
  </article>
 
  {/* CHANDRAVANSHI — ESSENCE OF THE MOON */}
- <article className="card origin-card">
- <span className="icon-tile icon-tile--lg"><Moon aria-hidden="true" /></span>
+ <article className="origin-col reveal" data-reveal style={stagger(0)}>
+ <span className="origin-emblem"><Moon aria-hidden="true" size={40} /></span>
  <h3><TransText k="home.origins.chandravanshi.title" /></h3>
- <p className="origin-card__line"><TransText k="home.origins.chandravanshi.desc" /></p>
+ <p><TransText k="home.origins.chandravanshi.desc" /></p>
  </article>
  </div>
- <p className="text-xl leading-relaxed"><TransText k="home.origins.body2" /></p>
+ <p className="reveal" data-reveal style={stagger(0)}><TransText k="home.origins.body2" /></p>
  </div>
  ),
  },
  {
  id: "ascendancy",
     title: "home.ascendancy.title",
- eraIndex: 2,
+ tone: "section--smoke",
  content: (
  <div className="space-y-8">
- <p className="text-xl leading-relaxed"><TransText k="home.ascendancy.body" /></p>
- <div className="grid-4">
- {CLAN_DATA.map((clan) => (
- <article key={clan.id} className="card clan-card">
- <span className="icon-tile icon-tile--lg">{clan.symbol}</span>
- <h3 className="clan-card__title"><TransText k={clan.name} /></h3>
- <p className="clan-card__text"><TransText k={clan.motif} /></p>
- <p className="clan-card__text"><TransText k={clan.description} /></p>
+ <p className="reveal" data-reveal style={stagger(0)}><TransText k="home.ascendancy.body" /></p>
+ <div className="banner-grid">
+ {CLAN_DATA.map((clan, index) => (
+ <article
+  key={clan.id}
+  className="war-banner reveal"
+  data-reveal
+  style={{ "--bar": clan.bar, "--r": `${index * 80}ms` } as React.CSSProperties}
+ >
+ <span className="engraved-icon">{clan.symbol}</span>
+ <h3><TransText k={clan.name} /></h3>
+ <p><TransText k={clan.motif} /></p>
+ <p><TransText k={clan.description} /></p>
  </article>
  ))}
  </div>
@@ -548,24 +611,30 @@ const SECTIONS: HomeSection[] = [
  {
  id: "kingdoms",
     title: "home.kingdoms.title",
- eraIndex: 3,
+ tone: "section--ash",
  content: (
- <div className="grid-4">
- {KINGDOMS.map((kingdom) => (
- <article key={kingdom.id} className="card">
- <div className="card__media">
- <div className="arch">
- <TImage fill sizes="(max-width:760px) 100vw, (max-width:1100px) 50vw, 25vw" src={kingdom.image} altKey={kingdom.altKey} className="object-cover" />
+ <div className="space-y-6">
+ {KINGDOMS.map((kingdom, index) => (
+ <article key={kingdom.id} className="kingdom-row reveal" data-reveal style={stagger(index * 60)}>
+ <div className="kingdom-row__media">
+ <div data-parallax style={{ position: "absolute", inset: 0 }}>
+ <TImage
+  fill
+  sizes="(max-width:900px) 100vw, 60vw"
+  src={kingdom.image}
+  altKey={kingdom.altKey}
+  className="object-cover"
+ />
  </div>
  </div>
- <div className="card__body">
+ <div className="kingdom-row__text">
  <p className="kingdom-eyebrow"><TransText k={kingdom.eyebrow} /></p>
- <h3 className="card__title"><TransText k={kingdom.title} /></h3>
- <p className="card__text clamp-3"><TransText k={kingdom.p1} /></p>
- </div>
- <div className="card__foot">
- <span><TransText k={kingdom.period} /></span>
- <LocalizedLink href={kingdom.href} className="btn btn--text"><TransText k="footer.explore" /></LocalizedLink>
+ <h3 className="kingdom-row__title"><TransText k={kingdom.title} /></h3>
+ <p className="kingdom-row__sub"><TransText k={kingdom.p1} /></p>
+ <p className="kingdom-row__period"><TransText k={kingdom.period} /></p>
+ <p style={{ marginBottom: 0 }}>
+ <LocalizedLink href={kingdom.href} className="btn-text"><TransText k="footer.explore" /></LocalizedLink>
+ </p>
  </div>
  </article>
  ))}
@@ -576,13 +645,17 @@ const SECTIONS: HomeSection[] = [
  { 
  id: "battles", 
  title: "home.battles.title", 
- eraIndex: 4, 
+ tone: "battles-section",
+ lead: "home.battles.summary",
  text: "home.battles.summary",
  content: ( 
- <div className="grid-2">
- {BATTLES.map((battle) => (
- <BattleCard key={battle.id} battle={battle} />
+ <div>
+ <div className="battle-grid">
+ {BATTLES.map((battle, index) => (
+ <BattleCard key={battle.id} battle={battle} index={index} />
  ))}
+ </div>
+ <p className="sources-note"><TransText k="home.battles.sourcesNote" /></p>
  </div> 
  ), 
  },
@@ -590,114 +663,112 @@ const SECTIONS: HomeSection[] = [
  {
  id: "states",
  title: "home.states.title",
- eraIndex: 9,
+ tone: "section--smoke",
+ lead: "home.states.intro",
  text: "home.states.summary",
- content: (
- <div className="state-grid">
- {TIMELINE_STATE_ENTRIES.map((state) => (
- <StateCard key={state.name} state={state} />
- ))}
- </div>
- ),
+ content: <StatesBlock />,
  },
  {
  id: "ethos",
     title: "home.ethos.title",
- eraIndex: 9,
+ tone: "section--ash",
+    lead: "home.ethos.body",
     text: "home.ethos.summary",
  content: (
  <div>
  <WarriorRow items={MALE_WARRIORS} eyebrow={<TransText k="home.heritage" />} heading={<TransText k="home.ethos.heading" />} />
- <WarriorRow items={FEMALE_WARRIORS} eyebrow={<TransText k="home.ethos.title" />} heading={<TransText k="home.queens.title" />} />
+ <WarriorRow items={FEMALE_WARRIORS} eyebrow={<TransText k="home.ethos.title" />} heading={<TransText k="home.queens.title" />} markQueens />
  </div>
  ),
  },
  {
  id: "culture",
  title: "home.culture.title",
- eraIndex: 9,
+ tone: "section--smoke",
+ lead: "home.culture.subtitle",
  text: "home.culture.summary",
  content: (
- <div className="space-y-12">
- <div className="culture-collage">
- <div className="arch">
- <TImage fill sizes="(max-width:760px) 100vw, (max-width:1100px) 50vw, 25vw" src="/images/forts/mehrangarh/500px-Mehrangarh_Fort.jpg" altKey="home.alt.marwar" className="object-cover" />
- </div>
- <div className="arch">
- <TImage fill sizes="(max-width:760px) 100vw, (max-width:1100px) 50vw, 25vw" src="/images/festivals/gangaur-mela.jpg" altKey="home.alt.gangaur" className="object-cover" />
- </div>
- <div className="arch">
- <TImage fill sizes="(max-width:760px) 100vw, (max-width:1100px) 50vw, 25vw" src="/images/festivals/marwar-festival.jpg" altKey="home.alt.marwarFestival" className="object-cover" />
- </div>
- <div className="arch">
- <TImage fill sizes="(max-width:760px) 100vw, (max-width:1100px) 50vw, 25vw" src="/images/dynasties/rulers/sawai-jai-singh.jpg" altKey="home.alt.rulerPortrait" className="object-cover" />
- </div>
- <div className="arch">
- <TImage fill sizes="(max-width:760px) 100vw, (max-width:1100px) 50vw, 25vw" src="/images/festivals/desert-festival-jaisalmer.jpg" altKey="home.alt.desertFestival" className="object-cover" />
- </div>
- </div>
-
- <div className="grid-4">
+ <div className="plate-grid">
  {/* WEAPONS */}
- <article className="feature">
- <span className="icon-tile"><Swords aria-hidden="true" /></span>
+ <article className="plate reveal" data-reveal style={stagger(0)}>
+ <div className="plate__media">
+ <TImage fill sizes="(max-width:760px) 100vw, 50vw" src="/images/weapons/talwar.jpg" altKey="home.culture.weapons.title" className="object-cover" />
+ </div>
+ <span className="plate__scrim" aria-hidden="true" />
+ <div className="plate__body">
+ <span className="engraved-icon"><Swords aria-hidden="true" /></span>
  <h3><TransText k="home.culture.weapons.title" /></h3>
- <p className="feature__lead"><TransText k="home.culture.weapons.p1" /></p>
- <p><TransText k="home.culture.weapons.p2" /></p>
- <LocalizedLink href="/weapons" className="btn btn--text"><TransText k="common.readMore" /></LocalizedLink>
+ <p><TransText k="home.culture.weapons.p1" /></p>
+ <LocalizedLink href="/weapons" className="btn-text"><TransText k="common.readMore" /></LocalizedLink>
+ </div>
  </article>
 
  {/* DRESS */}
- <article className="feature feature--indigo">
- <span className="icon-tile"><Shirt aria-hidden="true" /></span>
+ <article className="plate reveal" data-reveal style={stagger(80)}>
+ <div className="plate__media">
+ <TImage fill sizes="(max-width:760px) 100vw, 50vw" src="/images/legends/rajputana-tapestry.jpg" altKey="home.culture.dress.title" className="object-cover" />
+ </div>
+ <span className="plate__scrim" aria-hidden="true" />
+ <div className="plate__body">
+ <span className="engraved-icon"><Shirt aria-hidden="true" /></span>
  <h3><TransText k="home.culture.dress.title" /></h3>
- <p className="feature__lead"><TransText k="home.culture.dress.p1" /></p>
- <p><TransText k="home.culture.dress.p2" /></p>
+ <p><TransText k="home.culture.dress.p1" /></p>
+ </div>
  </article>
 
  {/* MUSIC */}
- <article className="feature">
- <span className="icon-tile"><Music aria-hidden="true" /></span>
+ <article className="plate reveal" data-reveal style={stagger(0)}>
+ <div className="plate__media">
+ <TImage fill sizes="(max-width:760px) 100vw, 50vw" src="/images/legends/kesari-oath-scroll.jpg" altKey="home.culture.music.title" className="object-cover" />
+ </div>
+ <span className="plate__scrim" aria-hidden="true" />
+ <div className="plate__body">
+ <span className="engraved-icon"><Music aria-hidden="true" /></span>
  <h3><TransText k="home.culture.music.title" /></h3>
- <p className="feature__lead"><TransText k="home.culture.music.p1" /></p>
- <p><TransText k="home.culture.music.p2" /></p>
+ <p><TransText k="home.culture.music.p1" /></p>
+ </div>
  </article>
 
  {/* RITUALS */}
- <article className="feature feature--indigo">
- <span className="icon-tile"><Flame aria-hidden="true" /></span>
- <h3><TransText k="home.culture.rituals.title" /></h3>
- <p className="feature__lead"><TransText k="home.culture.rituals.p1" /></p>
- <p><TransText k="home.culture.rituals.p2" /></p>
- <LocalizedLink href="/folklore#rituals" className="btn btn--text"><TransText k="common.readMore" /></LocalizedLink>
- </article>
+ <article className="plate reveal" data-reveal style={stagger(80)}>
+ <div className="plate__media">
+ <TImage fill sizes="(max-width:760px) 100vw, 50vw" src="/images/festivals/gangaur-mela.jpg" altKey="home.culture.rituals.title" className="object-cover" />
  </div>
+ <span className="plate__scrim" aria-hidden="true" />
+ <div className="plate__body">
+ <span className="engraved-icon"><Flame aria-hidden="true" /></span>
+ <h3><TransText k="home.culture.rituals.title" /></h3>
+ <p><TransText k="home.culture.rituals.p1" /></p>
+ <LocalizedLink href="/folklore#rituals" className="btn-text"><TransText k="common.readMore" /></LocalizedLink>
+ </div>
+ </article>
  </div>
  ),
  },
  {
  id: "modern",
     title: "home.modern.title",
- eraIndex: 9,
+ tone: "section--steel",
+    label: "home.modern.period",
+    lead: "home.modern.summary",
     text: "home.modern.summary",
  content: (
- <div>
  <div className="modern-grid">
  <div className="space-y-8">
- <p><TransText k="home.modern.p1" /></p>
- <p><TransText k="home.modern.p2" /></p>
+ <p className="reveal" data-reveal style={stagger(0)}><TransText k="home.modern.p1" /></p>
+ <p className="reveal" data-reveal style={stagger(80)}><TransText k="home.modern.p2" /></p>
  </div>
- <figure className="modern-media">
+ <figure className="modern-media reveal" data-reveal style={stagger(120)}>
  <div className="arch arch--contain">
  <TImage fill sizes="(max-width:1100px) 100vw, 40vw" src="https://upload.wikimedia.org/wikipedia/commons/0/09/Rajputana_1909.jpg" altKey="home.alt.map" className="object-contain" />
  </div>
  <figcaption className="modern-caption"><TransText k="home.modern.mapCredit" /></figcaption>
  </figure>
  </div>
- <div className="mt-16 flex flex-col items-center gap-3">
- <span className="eyebrow" style={{ margin: 0 }}><TransText k="home.legacyContinues" /></span>
- <span className="kangura-rule" style={{ margin: 0 }} aria-hidden="true" />
- </div>
+ ),
+ outro: (
+ <div className="quote-band" style={{ padding: "clamp(48px, 6vw, 88px) 0" }}>
+ <TransText k="home.legacyContinues" />
  </div>
  ),
  }
@@ -705,10 +776,8 @@ const SECTIONS: HomeSection[] = [
 
 export default function HistoryPage() {
  const [activeEra, setActiveEra] = useState(0);
- const { scrollYProgress } = useScroll();
  const { speak, stopSpeaking, isSpeaking, t } = useLanguage();
  const [listeningSection, setListeningSection] = useState<string | null>(null);
- const [hideMobileBar, setHideMobileBar] = useState(false);
 
  const handleListen = (text: string, id: string) => {
  if (isSpeaking && listeningSection === id) {
@@ -727,92 +796,117 @@ export default function HistoryPage() {
  }
  }, [isSpeaking]);
 
- const scaleX = useSpring(scrollYProgress, {
- stiffness: 100,
- damping: 30,
- restDelta: 0.001
- });
-
- // Simple scroll spy to update active era based on section visibility
+ // Scroll reveals: fade-up 24px / 900ms, staggered via the `--r` custom property.
+ // Disabled under `prefers-reduced-motion` (globals.css also forces the end state).
  useEffect(() => {
- const handleScroll = () => {
- const scrollPosition = window.scrollY + window.innerHeight / 3;
- const sections = SECTIONS.map(s => document.getElementById(s.id));
- 
- // Slide the mobile chronicle bar away once the footer scrolls into view.
- setHideMobileBar(window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 200);
-
- let foundIndex = -1;
- sections.forEach((section, index) => {
- if (section && section.offsetTop <= scrollPosition) {
- foundIndex = index;
+ const reduce = window.matchMedia("(prefers-reduced-motion: reduce)");
+ const nodes = Array.from(document.querySelectorAll<HTMLElement>("[data-reveal]"));
+ if (reduce.matches) {
+ nodes.forEach((node) => node.classList.add("is-in"));
+ return;
+ }
+ const observer = new IntersectionObserver(
+ (entries) => {
+ entries.forEach((entry) => {
+ if (entry.isIntersecting) {
+ entry.target.classList.add("is-in");
+ observer.unobserve(entry.target);
  }
  });
+ },
+ { rootMargin: "0px 0px -12% 0px", threshold: 0.05 }
+ );
+ nodes.forEach((node) => observer.observe(node));
+ return () => observer.disconnect();
+ }, []);
 
- if (foundIndex !== -1) {
- setActiveEra(SECTIONS[foundIndex].eraIndex);
- } else if (window.scrollY < 500) {
- setActiveEra(0);
- }
+ // Kingdom plates drift 40px against the scroll (transform only, rAF-throttled).
+ useEffect(() => {
+ const reduce = window.matchMedia("(prefers-reduced-motion: reduce)");
+ if (reduce.matches) return;
+ const nodes = Array.from(document.querySelectorAll<HTMLElement>("[data-parallax]"));
+ if (nodes.length === 0) return;
+ let frame = 0;
+ const paint = () => {
+ frame = 0;
+ const viewport = window.innerHeight;
+ nodes.forEach((node) => {
+ const rect = node.getBoundingClientRect();
+ if (rect.bottom < -200 || rect.top > viewport + 200) return;
+ const progress = (rect.top + rect.height / 2 - viewport / 2) / viewport;
+ const shift = Math.max(-20, Math.min(20, -progress * 20));
+ node.style.transform = `translate3d(0, ${shift.toFixed(2)}px, 0) scale(1.08)`;
+ });
  };
- 
- window.addEventListener("scroll", handleScroll);
- return () => window.removeEventListener("scroll", handleScroll);
+ const onScroll = () => {
+ if (!frame) frame = window.requestAnimationFrame(paint);
+ };
+ paint();
+ window.addEventListener("scroll", onScroll, { passive: true });
+ window.addEventListener("resize", onScroll);
+ return () => {
+ window.removeEventListener("scroll", onScroll);
+ window.removeEventListener("resize", onScroll);
+ if (frame) window.cancelAnimationFrame(frame);
+ };
  }, []);
 
  const heroTitle = t("home.title");
- const heroBreak = heroTitle.lastIndexOf(" ");
+ const heroBreak = heroTitle.indexOf(" ");
  const heroHead = heroBreak > 0 ? heroTitle.slice(0, heroBreak) : heroTitle;
  const heroTail = heroBreak > 0 ? heroTitle.slice(heroBreak + 1) : "";
 
  const renderSection = (section: HomeSection) => {
- const leadKey =
- section.id === "states" ? "home.states.intro"
- : section.id === "ethos" ? "home.ethos.body"
- : section.id === "culture" ? "home.culture.subtitle"
- : section.id === "modern" ? "home.modern.summary"
- : undefined;
-
  const controls = (
-  <div className="sec-head__actions">
-  {section.text ? (
-   <button
-   type="button"
-   className={`listen-btn${listeningSection === section.id ? " is-active" : ""}`}
-   onClick={() => handleListen(t(section.text as string), section.id)}
-   aria-label={listeningSection === section.id ? t("audio.stop") : t("audio.play")}
-   >
-   {listeningSection === section.id ? (
-    <StopIcon className="listen-btn__icon" />
-   ) : (
-    <VolumeIcon className="listen-btn__icon" />
-   )}
-   {listeningSection === section.id ? t("audio.stop") : t("audio.play")}
-   </button>
-  ) : null}
-  {section.id === "battles" ? (
-   <LocalizedLink href="/battles" className="btn btn--secondary">
-   <TransText k="home.battles.allBattles" />
-   </LocalizedLink>
-  ) : null}
-  </div>
+ <div className="flex items-center gap-3">
+ {section.text ? (
+  <button
+  type="button"
+  className={`listen-btn listen-btn--icon${listeningSection === section.id ? " is-active" : ""}`}
+  onClick={() => handleListen(t(section.text as string), section.id)}
+  aria-label={listeningSection === section.id ? t("audio.stop") : t("audio.play")}
+  >
+  {listeningSection === section.id ? (
+  <StopIcon className="listen-btn__icon" />
+  ) : (
+  <VolumeIcon className="listen-btn__icon" />
+  )}
+  <span className="listen-btn__label">
+  {listeningSection === section.id ? t("audio.stop") : t("audio.play")}
+  </span>
+  </button>
+ ) : null}
+ {section.id === "battles" ? (
+  <LocalizedLink href="/battles" className="btn btn-steel">
+  <TransText k="home.battles.allBattles" />
+  </LocalizedLink>
+ ) : null}
+ </div>
  );
 
  return (
  <section
   key={section.id}
   id={section.id}
-  className={`section ${SECTION_TONE[section.id] ?? ""} scroll-mt-32`}
+  className={`section ${section.tone} scroll-mt-32`}
  >
-  <div className="container">
+  {section.parchment ? (
+  <>
+  <ParchmentTexture stains={2} className="atmos" />
+  <TornEdge position="top" style={{ color: section.edgeTop }} />
+  <TornEdge position="bottom" style={{ color: section.edgeBottom }} />
+  </>
+  ) : null}
+  <div className="container" style={{ position: "relative", zIndex: 1 }}>
   <SectionHeading
-   eyebrow={section.id === "modern" ? <TransText k="home.modern.period" /> : undefined}
+   label={section.label ? <TransText k={section.label} /> : undefined}
    title={<TransText k={section.title} />}
-   lead={leadKey ? <TransText k={leadKey} /> : undefined}
+   lead={section.lead ? <TransText k={section.lead} /> : undefined}
    action={section.text || section.id === "battles" ? controls : undefined}
   />
   <div>{section.content}</div>
   </div>
+  {section.outro ?? null}
  </section>
  );
  };
@@ -822,146 +916,134 @@ export default function HistoryPage() {
  const bottomSections = statesIndex >= 0 ? SECTIONS.slice(statesIndex + 1) : [];
 
  return (
- <main className="min-h-screen overflow-x-hidden">
- {/* Global Scroll Progress (brand rule at top) */}
- <motion.div
- className="fixed top-0 left-0 right-0 h-1.5 origin-left z-50"
- style={{ scaleX, background: "var(--primary)" }}
- />
-
+ <main className="min-h-screen">
  {/* 4.1 HERO */}
- <section className="section--deep home-hero">
+ <section className="home-hero">
+ <div className="home-hero__art is-zoomed">
+ <Image
+  src="/images/Hero/home_.png"
+  alt={t("home.heroAlt")}
+  fill
+  priority
+  quality={85}
+  sizes="100vw"
+ />
+ </div>
+ <div className="home-hero__scrim" aria-hidden="true" />
+
+ {/* battlefield atmosphere: mist, cavalry dust, embers, stains, vignette */}
+ <div className="atmos" style={{ zIndex: 2 }}>
+ <Mist layers={3} />
+ <SandCloud motes={90} />
+ <Embers />
+ <BloodStain variant="smear" opacity={0.26} rotate={-6} style={{ top: "14%", left: "3%", width: "36%", height: "44%" }} />
+ <BloodStain variant="splatter" opacity={0.18} style={{ bottom: "4%", right: "2%", width: "26%", height: "32%" }} />
+ <Vignette />
+ </div>
+
+ <div className="home-hero__inner">
  <div className="container">
- <div className="home-hero__grid">
  <div className="home-hero__col">
-  <p className="eyebrow home-hero__eyebrow">{t("home.heritage")}</p>
-  <h1 className="home-hero__title">
-  {heroHead} {heroTail ? <em>{heroTail}</em> : null}
+  <p className="label">{t("home.heritage")}</p>
+  <h1 className="home-hero__title reveal-wipe" data-reveal>
+  {heroHead}
+  {heroTail ? <span className="home-hero__title-sub">{heroTail}</span> : null}
   </h1>
   <p className="home-hero__lead">{t("home.subtitle")}</p>
   <div className="home-hero__actions">
-  <LocalizedLink href="/dynasties" className="btn btn--gold">{t("home.enterPalace")}</LocalizedLink>
-  <LocalizedLink href="/forts" className="btn btn--ghost-light">{t("home.viewMap")}</LocalizedLink>
-  </div>
- </div>
- <div className="home-hero__media">
-  <div className="arch arch--tall arch--gold">
-  <Image
-   src="/images/Hero/home_.png"
-   alt={t("home.heroAlt")}
-   fill
-   priority
-   quality={85}
-   sizes="(max-width: 760px) 100vw, 500px"
-   className="object-cover"
-  />
+  <LocalizedLink href="/dynasties" className="btn btn-war">{t("home.enterPalace")}</LocalizedLink>
+  <LocalizedLink href="/forts" className="btn btn-steel">{t("home.viewMap")}</LocalizedLink>
   </div>
  </div>
  </div>
  </div>
+
+ <div className="home-hero__scroll" aria-hidden="true" />
  </section>
 
- {/* 4.2 EXPLORE BAR */}
- <div className="explore-bar">
+ {/* 4.2 EXPLORE STRIP */}
+ <div className="explore-strip">
  <div className="container">
- <div className="explore-bar__panel">
-  <div className="explore-bar__grid">
+ <div className="explore-strip__grid">
   {EXPLORE_ITEMS.map(({ href, labelKey, subKey, Icon }) => (
-  <LocalizedLink key={href} href={href} className="explore-item">
-   <span className="icon-tile"><Icon aria-hidden="true" /></span>
-   <span className="explore-item__label">{t(labelKey)}</span>
-   <span className="explore-item__sub">{t(subKey)}</span>
+  <LocalizedLink key={href} href={href} className="explore-cell">
+   <span className="engraved-icon"><Icon aria-hidden="true" /></span>
+   <span className="explore-cell__label">{t(labelKey)}</span>
+   <span className="explore-cell__sub">{t(subKey)}</span>
   </LocalizedLink>
   ))}
-  </div>
  </div>
  </div>
  </div>
-
- <Navbar variant="home" />
 
  {/* CONTENT SECTIONS */}
  {topSections.map(renderSection)}
 
- {/* 4.8 ROYAL CHRONICLE */}
- <section id="chronicle" className="section scroll-mt-32">
- <div className="container">
+ {/* 4.8 ROYAL CHRONICLE — parchment, horizontal era rail + event grid */}
+ <section id="chronicle" className="section section--parchment scroll-mt-32">
+ <ParchmentTexture stains={2} className="atmos" />
+ <TornEdge position="top" style={{ color: "var(--smoke)" }} />
+ <TornEdge position="bottom" style={{ color: "var(--ash)" }} />
+
+ <div className="container" style={{ position: "relative", zIndex: 1 }}>
  <SectionHeading title={<TransText k="home.royalChronicle" />} />
  <div className="chronicle">
- <div className="chronicle__eras">
+ <div className="era-rail" role="group" aria-label={t("home.royalChronicle")}>
  {TIMELINE_DATA.map((group, index) => (
   <button
   key={group.eraKey}
   type="button"
-  className="era-item"
+  className="era-chip"
   aria-current={index === activeEra ? "true" : undefined}
   onClick={() => setActiveEra(index)}
   >
-  <span><TransText k={group.eraKey} /></span>
-  <span className="era-item__date"><TransText k={group.entries[0].dateKey} /></span>
+  <span className="era-chip__num">{ROMAN[index]}</span>
+  <span className="era-chip__name"><TransText k={group.eraKey} /></span>
+  <span className="era-chip__date"><TransText k={group.entries[0].dateKey} /></span>
   </button>
  ))}
  </div>
- <div className="chronicle__events">
- {TIMELINE_DATA[activeEra]?.entries.map((entry) => (
-  <div key={entry.id} className={`event-item${entry.isMajor ? " event-item--active" : ""}`}>
-  <span className="event-item__dot" aria-hidden="true" />
-  <div className="event-item__date"><TransText k={entry.dateKey} /></div>
-  <p className="event-item__text"><TransText k={entry.textKey} /></p>
-  </div>
- ))}
+
+ <div className="chronicle__panel">
+ <div className="chronicle__panel-head">
+  <span className="chronicle__hilt" aria-hidden="true"><Swords size={18} /></span>
+  <h3 className="chronicle__era"><TransText k={TIMELINE_DATA[activeEra]?.eraKey || "home.royalChronicle"} /></h3>
+  <span className="chronicle__count">{activeEra + 1} / {TIMELINE_DATA.length}</span>
+ </div>
+
+ <ol className="event-grid">
+  {TIMELINE_DATA[activeEra]?.entries.map((entry) => (
+  <li key={entry.id} className={`event-card${entry.isMajor ? " event-card--major" : ""}`}>
+  <span className="event-card__date"><TransText k={entry.dateKey} /></span>
+  <p className="event-card__text"><TransText k={entry.textKey} /></p>
+  </li>
+  ))}
+ </ol>
+
  <div className="chronicle__pager">
   <button
   type="button"
-  className="btn btn--secondary"
+  className="btn btn-steel"
   aria-label={t("common.previous")}
   onClick={() => setActiveEra((i) => (i - 1 + TIMELINE_DATA.length) % TIMELINE_DATA.length)}
   >
-  <ChevronLeft aria-hidden="true" />
+  <ChevronLeft aria-hidden="true" size={18} />
   </button>
   <button
   type="button"
-  className="btn btn--secondary"
+  className="btn btn-steel"
   aria-label={t("common.next")}
   onClick={() => setActiveEra((i) => (i + 1) % TIMELINE_DATA.length)}
   >
-  <ChevronRight aria-hidden="true" />
+  <ChevronRight aria-hidden="true" size={18} />
   </button>
-  <span className="chronicle__count">{activeEra + 1} / {TIMELINE_DATA.length}</span>
  </div>
  </div>
  </div>
  </div>
  </section>
-
- {POST_TIMELINE_STATE_ENTRIES.length > 0 && (
- <section className="section">
- <div className="container">
- <div className="state-grid">
- {POST_TIMELINE_STATE_ENTRIES.map((state) => (
-  <StateCard key={state.name} state={state} />
- ))}
- </div>
- </div>
- </section>
- )}
 
  {bottomSections.map(renderSection)}
-
- {/* Mobile chronicle bar */}
- <div
- className={`lg:hidden fixed bottom-0 left-0 right-0 px-4 py-3 z-40 transition-transform duration-500 ${hideMobileBar ? "translate-y-full" : "translate-y-0"}`}
- style={{ background: "var(--raised)", borderTop: "4px solid var(--primary)" }}
- >
- <div className="flex justify-between items-center">
- <span className="font-sans" style={{ fontWeight: 700, color: "var(--primary)" }}>
-  {t(TIMELINE_DATA[activeEra]?.eraKey || "home.royalChronicle")}
- </span>
- <span className="text-sm" style={{ color: "var(--muted)" }}>
-  {activeEra + 1} / {TIMELINE_DATA.length}
- </span>
- </div>
- </div>
  </main>
  );
 }

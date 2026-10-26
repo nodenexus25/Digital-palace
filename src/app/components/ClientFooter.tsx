@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import { useLanguage } from './LanguageProvider';
 import LocalizedLink from './LocalizedLink';
+import { SandCloud } from './atmosphere';
 
 const DEVELOPER: { name: string; initials: string; photo: string | null } = {
   name: 'Rawlot Bhati Thakur Yuvraj Singh Rawal',
@@ -60,7 +61,9 @@ export default function ClientFooter() {
 
   return (
     <>
-      <div className="kangura-band" aria-hidden="true" />
+      <div className="footer-band">
+        <SandCloud motes={70} />
+      </div>
 
       <footer className="site-footer">
         <div className="site-footer__inner">
@@ -71,17 +74,16 @@ export default function ClientFooter() {
                 <Image
                   src="/brand/rdp-mark-reversed.svg"
                   alt=""
-                  width={72}
-                  height={72}
+                  width={64}
+                  height={64}
                   unoptimized
                   className="site-footer__mark"
                   onError={() => setMarkFailed(true)}
                 />
               )}
               <p className="site-footer__name">{t('nav.brandTitle')}</p>
-              <p className="site-footer__tagline">Valour remembered. History respected.</p>
-              <p className="site-footer__tagline site-footer__tagline--deva">
-                शौर्य की स्मृति, इतिहास का सम्मान।
+              <p className="site-footer__epigraph">
+                रण कर कर रज रज रंगे, रज रज ढंके रवि।
               </p>
 
               <div className="site-footer__dev">
@@ -119,8 +121,8 @@ export default function ClientFooter() {
                   className="site-footer__input"
                   placeholder={t('footer.emailPlaceholder')}
                 />
-                <button type="submit" className="btn btn--gold">
-                  {t('footer.subscribe')}
+                <button type="submit" className="btn btn-war" aria-label={t('footer.subscribeAria')}>
+                  {t('footer.enlist')}
                 </button>
                 <p className="site-footer__small">
                   {t('footer.newsletterFine')}{' '}

@@ -7,6 +7,7 @@ import { ChevronDown, Menu, Search, X } from 'lucide-react';
 import { useLanguage } from './LanguageProvider';
 import LanguageToggle from './LanguageToggle';
 import LocalizedLink from './LocalizedLink';
+import Mist from './atmosphere/Mist';
 import { stripLocale } from './ThemedContainer';
 
 // Six top-level destinations; Weapons and Folklore live under "More" so the
@@ -38,8 +39,8 @@ function BrandLockup({ onMarkError }: { onMarkError?: () => void }) {
       <Image
         src="/brand/rdp-mark-reversed.svg"
         alt=""
-        width={44}
-        height={44}
+        width={40}
+        height={40}
         unoptimized
         className="brand__mark"
         onError={onMarkError}
@@ -53,15 +54,26 @@ function BrandLockup({ onMarkError }: { onMarkError?: () => void }) {
 }
 
 /**
- * Site navigation. The layout renders it at the top of every page except the
- * home page, which places its own instance (variant="home") below the hero.
+ * The one and only site header. It is rendered once, by the locale layout, and
+ * sits fixed over the top of every page: fully transparent while the hero art
+ * is still under it, then settling onto an ash plate with a hairline once the
+ * reader has scrolled past 80px.
  */
-export default function Navbar({ variant = 'layout' }: { variant?: 'layout' | 'home' }) {
+export default function Navbar() {
   const route = stripLocale(usePathname() || '/');
   const { t } = useLanguage();
   const [isSheetOpen, setIsSheetOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const [markFailed, setMarkFailed] = useState(false);
   const sheetRef = useRef<HTMLDivElement>(null);
+
+  // Transparent over the hero, solid plate after 80px.
+  useEffect(() => {
+    const onScroll = () => setIsScrolled(window.scrollY > 80);
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
 
   // Keep keyboard focus inside the sheet and freeze the page behind it.
   useEffect(() => {
@@ -105,15 +117,13 @@ export default function Navbar({ variant = 'layout' }: { variant?: 'layout' | 'h
     setIsSheetOpen(false);
   }, [route]);
 
-  if (variant === 'layout' && route === '/') return null;
-
   const isActive = (href: string) => route === href || route.startsWith(`${href}/`);
   const moreActive = MORE_LINKS.some((link) => isActive(link.href));
   const mark = markFailed ? null : <BrandLockup onMarkError={() => setMarkFailed(true)} />;
 
   return (
     <>
-      <header className={`site-header${variant === 'home' ? ' site-header--inline' : ''}`}>
+      <header className={`site-header site-header--over${isScrolled ? ' is-scrolled' : ''}`}>
         <div className="site-header__inner">
           <LocalizedLink href="/" className="brand">
             {mark}
@@ -185,6 +195,7 @@ export default function Navbar({ variant = 'layout' }: { variant?: 'layout' | 'h
           aria-modal="true"
           aria-label={t('nav.brandTitle')}
         >
+          <Mist layers={2} />
           <div className="menu-sheet__bar">
             <LocalizedLink href="/" className="brand">
               {mark}

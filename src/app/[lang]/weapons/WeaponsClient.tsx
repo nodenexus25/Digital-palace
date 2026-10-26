@@ -210,6 +210,7 @@ export default function WeaponsClient({ categories, weapons }: { categories: Wea
   return (
     <div className="min-h-screen">
       <PageHead
+        image="/images/legends/jaipur-lancers-formation.jpg"
         breadcrumb={[
           { label: <TransText k="nav.home" />, href: '/' },
           { label: <TransText k="nav.weapons" /> },

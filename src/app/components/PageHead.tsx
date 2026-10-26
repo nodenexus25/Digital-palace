@@ -1,5 +1,7 @@
 import type { ReactNode } from 'react';
+import Image from 'next/image';
 import LocalizedLink from '@/app/components/LocalizedLink';
+import { Vignette } from '@/app/components/atmosphere';
 
 type Crumb = { label: ReactNode; href?: string };
 
@@ -12,18 +14,27 @@ interface PageHeadProps {
   title: ReactNode;
   /** Hindi title shown under the heading in the Devanagari face. */
   deva?: ReactNode;
-  /** Supporting paragraph. */
+  /** Supporting paragraph, set in Cormorant italic. */
   lead?: ReactNode;
   /** Optional control aligned under the lead. */
   action?: ReactNode;
   /** Accessible label for the breadcrumb navigation. */
   breadcrumbLabel?: string;
+  /**
+   * Full-bleed photographic hero. When supplied the band becomes a 60vh image
+   * plate (art + scrim + vignette); when omitted it stays a compact plain band
+   * for reading pages such as privacy, terms and the site map.
+   */
+  image?: string;
+  /** Alt text for `image`; empty by default because the H1 carries the meaning. */
+  imageAlt?: string;
 }
 
 /**
- * Canonical inner-page header band: sandstone ground, breadcrumb, eyebrow,
- * H1, optional Devanagari sub-title and lead. Use it once at the top of every
- * inner page so the rhythm matches the homepage sections.
+ * Canonical inner-page header band: ash-black ground, breadcrumb, eyebrow, H1,
+ * optional Devanagari sub-title and lead, over an optional 60vh image hero.
+ * Use it once at the top of every inner page so the rhythm matches the
+ * homepage sections.
  */
 export default function PageHead({
   breadcrumb,
@@ -33,10 +44,21 @@ export default function PageHead({
   lead,
   action,
   breadcrumbLabel = 'Breadcrumb',
+  image,
+  imageAlt = '',
 }: PageHeadProps) {
   return (
-    <section className="section--sand page-head">
-      <div className="container">
+    <section className={`page-head${image ? '' : ' page-head--plain'}`}>
+      {image ? (
+        <>
+          <div className="page-head__art">
+            <Image src={image} alt={imageAlt} fill priority quality={85} sizes="100vw" />
+          </div>
+          <div className="page-head__scrim" aria-hidden="true" />
+          <Vignette />
+        </>
+      ) : null}
+      <div className="container page-head__inner">
         {breadcrumb && breadcrumb.length > 0 ? (
           <nav className="breadcrumb" aria-label={breadcrumbLabel}>
             {breadcrumb.map((crumb, index) => (
@@ -51,7 +73,7 @@ export default function PageHead({
             ))}
           </nav>
         ) : null}
-        {eyebrow ? <p className="eyebrow">{eyebrow}</p> : null}
+        {eyebrow ? <p className="label">{eyebrow}</p> : null}
         <h1>{title}</h1>
         {deva ? <p className="page-head__deva">{deva}</p> : null}
         {lead ? <p className="lead">{lead}</p> : null}

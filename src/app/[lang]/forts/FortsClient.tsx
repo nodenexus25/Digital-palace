@@ -84,6 +84,7 @@ export default function FortsClient({ forts }: { forts: FortCard[] }) {
   return (
     <div className="min-h-screen">
       <PageHead
+        image="/images/forts/chittorgarh/500px-Chittorgarh_fort.jpg"
         breadcrumb={[
           { label: <TransText k="nav.home" />, href: '/' },
           { label: <TransText k="nav.forts" /> },

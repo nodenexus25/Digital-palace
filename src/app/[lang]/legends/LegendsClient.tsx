@@ -33,6 +33,7 @@ export default function LegendsClient({ legends }: { legends: LegendCard[] }) {
   return (
     <main>
       <PageHead
+        image="/images/legends/kesari-oath-courtyard.jpg"
         breadcrumb={[
           { label: <TransText k="nav.home" />, href: '/' },
           { label: t('nav.stories') },

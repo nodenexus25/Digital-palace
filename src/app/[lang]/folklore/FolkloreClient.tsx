@@ -72,6 +72,7 @@ export default function FolkloreClient({ tales, deities, rituals }: { tales: Tal
   return (
     <main>
       <PageHead
+        image="/images/legends/padmini-lake-pavilion.jpg"
         breadcrumb={[
           { label: <TransText k="nav.home" />, href: '/' },
           { label: t('nav.folklore') },

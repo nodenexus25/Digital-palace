@@ -1,20 +1,51 @@
 import type { Metadata, Viewport } from 'next';
-import { Cormorant_Garamond, Mukta, Tiro_Devanagari_Hindi } from 'next/font/google';
+import {
+  Cinzel,
+  Cormorant_Garamond,
+  Noto_Serif_Devanagari,
+  Spectral,
+  Tiro_Devanagari_Hindi,
+} from 'next/font/google';
 import '../globals.css';
 import { LanguageProvider } from '@/app/components/LanguageProvider';
 import ClientFooter from '@/app/components/ClientFooter';
 import ThemedContainer from '@/app/components/ThemedContainer';
 import Navbar from '@/app/components/Navbar';
+import FilmGrain from '@/app/components/atmosphere/FilmGrain';
 import { locales, ogLocales, toLocale } from '@/i18n/config';
 import { getMessages, translate } from '@/i18n/messages';
 import { SITE_URL, alternatesFor } from '@/i18n/metadata';
 
-// The site's three families. Latin display faces (Cormorant Garamond) carry
-// the headings, Mukta carries body copy and Devanagari text, and Tiro
-// Devanagari Hindi carries Hindi headings (see globals.css, html[lang="hi"]).
-const cormorant = Cormorant_Garamond({ subsets: ['latin'], weight: ['500', '600', '700'], style: ['normal', 'italic'], variable: '--nf-cormorant', display: 'swap' });
-const mukta = Mukta({ subsets: ['latin', 'devanagari'], weight: ['400', '500', '600'], variable: '--nf-mukta', display: 'swap' });
-const tiroDevanagari = Tiro_Devanagari_Hindi({ subsets: ['devanagari', 'latin'], weight: ['400'], variable: '--nf-tiro', display: 'swap' });
+// Five families carry the whole site. Cinzel is the epic display face, Cormorant
+// Garamond the chronicle voice (quotes and leads), Spectral the body serif, and
+// the two Devanagari faces cover Hindi headings and Hindi body copy.
+const cinzel = Cinzel({ subsets: ['latin'], weight: ['500', '600', '700'], variable: '--font-epic', display: 'swap' });
+const cormorant = Cormorant_Garamond({
+  subsets: ['latin'],
+  weight: ['500', '600'],
+  style: ['normal', 'italic'],
+  variable: '--font-chronicle',
+  display: 'swap',
+});
+const spectral = Spectral({
+  subsets: ['latin'],
+  weight: ['300', '400', '500'],
+  style: ['normal', 'italic'],
+  variable: '--font-body',
+  display: 'swap',
+});
+const tiroDevanagari = Tiro_Devanagari_Hindi({
+  subsets: ['devanagari', 'latin'],
+  weight: ['400'],
+  variable: '--font-deva-display',
+  display: 'swap',
+});
+const notoDevanagari = Noto_Serif_Devanagari({
+  subsets: ['devanagari', 'latin'],
+  weight: ['400', '500'],
+  variable: '--font-deva-body',
+  display: 'swap',
+});
 
 export const dynamicParams = false;
 
@@ -23,7 +54,7 @@ export function generateStaticParams() {
 }
 
 export const viewport: Viewport = {
-  themeColor: '#0E1C3A',
+  themeColor: '#0B0908',
   width: 'device-width',
   initialScale: 1,
 };
@@ -69,13 +100,14 @@ export default async function LangLayout({
     <html
       lang={lang}
       data-locale={lang}
-      data-theme="light"
+      data-theme="raktim"
       data-scroll-behavior="smooth"
-      className={`scroll-smooth ${cormorant.variable} ${mukta.variable} ${tiroDevanagari.variable}`}
+      className={`scroll-smooth ${cinzel.variable} ${cormorant.variable} ${spectral.variable} ${tiroDevanagari.variable} ${notoDevanagari.variable}`}
       suppressHydrationWarning
     >
       <body className="antialiased">
         <LanguageProvider lang={lang} messages={getMessages(lang)}>
+          <FilmGrain />
           <Navbar />
           <ThemedContainer>{children}</ThemedContainer>
           <ClientFooter />
